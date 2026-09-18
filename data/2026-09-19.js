@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:20:43+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:32:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-19",
- "generatedAt": "2026-09-18T16:20:43+03:00",
+ "generatedAt": "2026-09-18T16:32:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -69,38 +69,6 @@ GM_REGISTER_DAY({
    "away": "S.Lamens"
   },
   {
-   "id": "se-488136",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-19T02:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Minnesota Lynx",
-   "away": "NY Liberty"
-  },
-  {
-   "id": "se-488137",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-19T02:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Toronto Tempo",
-   "away": "Indiana Fever"
-  },
-  {
    "id": "se-489210",
    "sport": "futbol",
    "competition": "Arjantin Primera Division",
@@ -135,22 +103,6 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
-  },
-  {
-   "id": "se-488138",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-19T05:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Golden State Valkyries",
-   "away": "Portland Fire"
   },
   {
    "id": "se-489186",
@@ -218,8 +170,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-488086",
    "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi  BasketbolAyakkabısı Dene",
-   "competitionId": "basketbol-1-ligi-basketbolayakkabisi-dene",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-09-19T14:00:00+03:00",
    "broadcasters": [
     "TBF TV Youtube"
@@ -315,8 +267,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-487491",
    "sport": "futbol",
-   "competition": "İspanya La Liga",
-   "competitionId": "la-liga",
+   "competition": "İspanya La Liga  TakımEkipmanı Seç",
+   "competitionId": "ispanya-la-liga-takimekipmani-sec",
    "kickoff": "2026-09-19T15:00:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -700,37 +652,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "3'üncülük"
-  },
-  {
-   "id": "se-486943",
-   "sport": "futbol",
-   "competition": "Suwen Kadinlar Futbol Ligi",
-   "competitionId": "suwen-kadinlar-futbol-ligi",
-   "kickoff": "2026-09-19T17:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Beşiktaş",
-   "away": "Fenerbahçe",
-   "tags": [
-    "derbi"
-   ]
-  },
-  {
-   "id": "se-486944",
-   "sport": "futbol",
-   "competition": "Suwen Kadinlar Futbol Ligi",
-   "competitionId": "suwen-kadinlar-futbol-ligi",
-   "kickoff": "2026-09-19T17:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sultanbeyli Bld.",
-   "away": "Galatasaray"
   },
   {
    "id": "se-487557",
@@ -1263,22 +1184,6 @@ GM_REGISTER_DAY({
    "home": "İstanbul Başakşehir",
    "away": "Gençlerbirliği",
    "turkish": true
-  },
-  {
-   "id": "se-488139",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-19T20:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Dallas Wings",
-   "away": "Phoenix Mercury"
   },
   {
    "id": "se-488209",

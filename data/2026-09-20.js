@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:20:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:32:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-18T16:20:48+03:00",
+ "generatedAt": "2026-09-18T16:32:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,22 +17,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-477048",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-20T02:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Atlanta Dream",
-   "away": "Chicago Sky"
-  },
   {
    "id": "se-488498",
    "sport": "futbol",
@@ -175,22 +159,6 @@ GM_REGISTER_DAY({
    ],
    "home": "LSU",
    "away": "Ole Miss"
-  },
-  {
-   "id": "se-477049",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-20T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Golden State Valkyries",
-   "away": "Seattle Storm"
   },
   {
    "id": "se-488505",
@@ -1470,22 +1438,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-488142",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-20T20:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Connecticut Sun",
-   "away": "Minnesota Lynx"
-  },
-  {
    "id": "se-488187",
    "sport": "amerikan futbolu",
    "competition": "NFL",
@@ -1616,22 +1568,6 @@ GM_REGISTER_DAY({
    "away": "Real Sociedad"
   },
   {
-   "id": "se-488143",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-20T22:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Toronto Tempo",
-   "away": "NY Liberty"
-  },
-  {
    "id": "se-489216",
    "sport": "voleybol",
    "competition": "CEV Erkekler Avrupa Şampiyonasi",
@@ -1678,22 +1614,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Kadınlar Olimpik Cross Country"
-  },
-  {
-   "id": "se-488144",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-20T23:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Indiana Fever",
-   "away": "Washington Mystics"
   },
   {
    "id": "se-488189",

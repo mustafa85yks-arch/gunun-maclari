@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:20:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:32:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-21",
- "generatedAt": "2026-09-18T16:20:48+03:00",
+ "generatedAt": "2026-09-18T16:32:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,22 +26,6 @@ GM_REGISTER_DAY({
    "away": "Oakland Roots"
   },
   {
-   "id": "se-488145",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-21T02:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "LA Sparks",
-   "away": "Portland Fire"
-  },
-  {
    "id": "se-488509",
    "sport": "futbol",
    "competition": "ABD USL Championship",
@@ -56,22 +40,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Sacramento Republic",
    "away": "San Antonio"
-  },
-  {
-   "id": "se-488146",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-21T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Las Vegas Aces",
-   "away": "Seattle Storm"
   },
   {
    "id": "se-489217",

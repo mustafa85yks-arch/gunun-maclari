@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:20:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:32:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-18",
- "generatedAt": "2026-09-18T16:20:36+03:00",
+ "generatedAt": "2026-09-18T16:32:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,54 +18,6 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
-   "id": "se-488131",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-18T02:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Atlanta Dream",
-   "away": "Connecticut Sun"
-  },
-  {
-   "id": "se-488132",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-18T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Chicago Sky",
-   "away": "Washington Mystics"
-  },
-  {
-   "id": "se-488133",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-18T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Dallas Wings",
-   "away": "LA Sparks"
-  },
-  {
    "id": "se-489086",
    "sport": "tenis",
    "competition": "WTA Guadalajara Çeyrek Final",
@@ -80,38 +32,6 @@ GM_REGISTER_DAY({
    ],
    "home": "P.Stearns",
    "away": "S.Stephens"
-  },
-  {
-   "id": "se-488134",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-18T05:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Portland Fire",
-   "away": "Phoenix Mercury"
-  },
-  {
-   "id": "se-488135",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-18T05:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Seattle Storm",
-   "away": "Las Vegas Aces"
   },
   {
    "id": "se-488196",

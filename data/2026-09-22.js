@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:20:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:32:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-22",
- "generatedAt": "2026-09-18T16:20:49+03:00",
+ "generatedAt": "2026-09-18T16:32:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,22 +9,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-488147",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-22T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NY Liberty",
-   "away": "Atlanta Dream"
-  },
   {
    "id": "se-489238",
    "sport": "amerikan futbolu",
@@ -40,54 +24,6 @@ GM_REGISTER_DAY({
    ],
    "home": "LA Rams",
    "away": "NY Giants"
-  },
-  {
-   "id": "se-488148",
-   "sport": "basketbol",
-   "competition": "WNBA",
-   "competitionId": "wnba",
-   "kickoff": "2026-09-22T05:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Phoenix Mercury",
-   "away": "Dallas Wings"
-  },
-  {
-   "id": "se-488359",
-   "sport": "futbol",
-   "competition": "UEFA Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-09-22T19:45:00+03:00",
-   "broadcasters": [
-    "Disney Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bayern Münih",
-   "away": "Manchester City"
-  },
-  {
-   "id": "se-488360",
-   "sport": "futbol",
-   "competition": "UEFA Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-09-22T19:45:00+03:00",
-   "broadcasters": [
-    "Disney Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Inter",
-   "away": "Hacken"
   },
   {
    "id": "se-487943",
@@ -107,54 +43,6 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
-  },
-  {
-   "id": "se-488361",
-   "sport": "futbol",
-   "competition": "UEFA Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-09-22T22:00:00+03:00",
-   "broadcasters": [
-    "Disney Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Arsenal",
-   "away": "Koge"
-  },
-  {
-   "id": "se-488362",
-   "sport": "futbol",
-   "competition": "UEFA Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-09-22T22:00:00+03:00",
-   "broadcasters": [
-    "Disney Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Juventus",
-   "away": "Benfica"
-  },
-  {
-   "id": "se-488363",
-   "sport": "futbol",
-   "competition": "UEFA Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-09-22T22:00:00+03:00",
-   "broadcasters": [
-    "Disney Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Real Madrid",
-   "away": "PSG"
   }
  ]
 });
