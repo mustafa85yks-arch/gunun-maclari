@@ -142,6 +142,10 @@
         turkish: typeof raw.turkish === 'boolean' ? raw.turkish : GM.isTurkish(raw),
         status: status
       });
+      var ev = events[events.length - 1];
+      ev.rivalry = GM.findRivalry(ev);  // tarihi derbi adı ya da ''
+      ev.bigCount = GM.bigCount(ev);    // maçtaki büyük kulüp sayısı (0-2)
+      ev.minor = GM.isMinor(ev);        // kadınlar / altyapı
     });
 
     events.sort(function (a, b) {

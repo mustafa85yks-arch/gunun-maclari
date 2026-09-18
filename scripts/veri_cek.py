@@ -45,6 +45,9 @@ UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 '
 ATLA_SPOR = {'binicilik', 'spor', 'programlar'}
 ATLA_LIG = re.compile(r'program|özet|kura çekimi')
 YABANCI_KANAL_ADLARI = ['CBC Sport', 'Idman TV', 'AzTV', 'İctimai TV', 'Space TV']
+# Kadın futbolu ve kadın basketbolu alınmaz (Mustafa'nın kararı). Kadın voleybolu sadece
+# Türkiye ile ilgiliyse alınır (Sultanlar Ligi, Türk kulüpleri, Filenin Sultanları).
+KADIN = re.compile(r'kad[ıi]n|women|bayan|\bwnba\b')
 # Program olarak listelenen ama canlı spor yayını olanlar.
 CANLI_PROGRAM = re.compile(r'red ?zone', re.I)
 
@@ -68,6 +71,8 @@ LIG_KURALLARI = [
     (r'^nba\b', 'nba'),
     (r'^nfl\b', 'nfl'),
     (r'basketbol süper ligi', 'bsl'),
+    (r'sultanlar ligi', 'sultanlar-ligi'),
+    (r'efeler ligi', 'efeler-ligi'),
     (r'formula 1', 'f1'),
     (r'motogp', 'motogp'),
     (r'\bufc\b', 'ufc'),
@@ -246,6 +251,12 @@ def ayikla(sayfa, tarih):
             olay.setdefault('tags', []).append('yari-final')
         elif re.search(r'(?<!çeyrek )(?<!yarı )\bfinal$', kucuk(lig)):
             olay.setdefault('tags', []).append('final')
+
+        kadin = KADIN.search(kucuk(lig + ' ' + ad))
+        if kadin and olay['sport'] in ('futbol', 'basketbol'):
+            continue
+        if kadin and olay['sport'] == 'voleybol' and not (olay.get('turkish') or tr_takimi_var(olay)):
+            continue
 
         # Yayını olmayan maçı sadece Türk takımı varsa göster.
         if olay['verification'] == 'yayin_yok' and not olay.get('turkish') and not tr_takimi_var(olay):

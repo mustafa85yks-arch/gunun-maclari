@@ -122,6 +122,11 @@ h1 {
 .team { display: inline; }
 .vs { color: var(--ink-3); font-weight: 400; margin: 0 6px; }
 .comp { margin-top: 3px; font-size: 13px; color: var(--ink-2); }
+.derby {
+  display: inline-block; margin-top: 5px; padding: 1px 8px; border-radius: 4px;
+  font-size: 12px; font-weight: 700; letter-spacing: .01em;
+  background: var(--ink); color: #fff;
+}
 
 .c-tv { text-align: right; }
 .tv { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
@@ -146,7 +151,7 @@ h1 {
 .c-detail dt { color: var(--ink-3); }
 .c-detail dd { margin: 0; }
 
-.why { grid-column: 2 / -1; font-size: 11.5px; font-weight: 700; letter-spacing: .04em; color: var(--ink-2); text-transform: uppercase; }
+.why { grid-column: 2 / -1; font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
 
 /* ---------- Favoriler ---------- */
 .fav-open .n { font-weight: 500; color: var(--ink-3); margin-left: 2px; }

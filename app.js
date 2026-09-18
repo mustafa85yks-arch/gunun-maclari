@@ -28,7 +28,7 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
-  function lc(s) { return String(s || '').toLocaleLowerCase('tr').trim(); }
+  function lc(s) { return GM.fold(s); }  // arama/favori karşılaştırması: ı/i farkı yok
   function today() { return T.dateStr(new Date()); }
   function sportNameOf(ev) {
     return GM.SPORT_NAMES[ev.sport] || (ev.sport.charAt(0).toLocaleUpperCase('tr') + ev.sport.slice(1));
@@ -185,6 +185,7 @@
         '<div class="comp' + (compFav ? ' fav' : '') + '"><span class="ldot" aria-hidden="true"></span>' + esc(ev.competition) +
           (ev.home && ev.title ? ' · ' + esc(ev.title) : '') +
           (ev.category === 'diger' ? ' · ' + esc(sportName) : '') + '</div>' +
+        (ev.rivalry ? '<div class="derby">⚔ ' + esc(ev.rivalry) + '</div>' : '') +
       '</div>' +
       '<div class="c-tv">' + tvBlock(ev) + '</div>' +
       '<details class="c-detail"><summary>Maç Detayı</summary><dl>' +
@@ -223,14 +224,21 @@
     return true;
   }
 
+  // Önerilen maçlar puanı: takımlar ligden daha çok belirler (Chelsea maçı sıradan bir
+  // Süper Lig maçının önüne geçer, Trabzonspor–Galatasaray hepsinin önüne).
   function score(ev) {
-    var s = GM.COMPETITION_WEIGHT[ev.competitionId] || GM.DEFAULT_WEIGHT;
-    ev.tags.forEach(function (t) { s += GM.TAG_WEIGHT[t] || 0; });
-    if (ev.turkish) s += GM.TAG_WEIGHT.turkish;
+    var s = (GM.COMPETITION_WEIGHT[ev.competitionId] || GM.DEFAULT_WEIGHT) * 0.5;
+    var bonus = ev.bigCount * 35;
+    if (ev.rivalry || ev.tags.indexOf('derbi') !== -1) bonus += 40;
+    if (ev.minor) bonus *= 0.4;  // kadınlar/altyapı derbisi etiketlenir ama öne geçmez
+    s += bonus;
+    if (ev.tags.indexOf('final') !== -1) s += 30;
+    if (ev.tags.indexOf('yari-final') !== -1) s += 15;
+    if (ev.turkish) s += 10;
     return s;
   }
 
-  // En fazla 5; sadece TV'de olan maçlar. Favoriler burayı etkilemez (nesnel kalır).
+  // En fazla 5; sadece TV'de olan maçlar. Favoriler burayı etkilemez (taraf tutmaz).
   function highlights(events) {
     return events
       .filter(function (ev) { return ev.home && ev.broadcasters.length; })
@@ -243,8 +251,12 @@
 
   function reasons(ev) {
     var r = [];
-    if (GM.COMPETITION_WEIGHT[ev.competitionId] >= 70) r.push('Üst düzey organizasyon');
-    ev.tags.forEach(function (t) { if (GM.TAG_LABEL[t]) r.push(GM.TAG_LABEL[t]); });
+    if (ev.rivalry) r.push(ev.rivalry);
+    else if (ev.tags.indexOf('derbi') !== -1) r.push('Derbi');
+    if (ev.bigCount === 2) r.push('İki büyük takım');
+    else if (ev.bigCount === 1) r.push('Büyük takım');
+    ev.tags.forEach(function (t) { if (t !== 'derbi' && GM.TAG_LABEL[t]) r.push(GM.TAG_LABEL[t]); });
+    if ((GM.COMPETITION_WEIGHT[ev.competitionId] || 0) >= 80) r.push('Üst düzey organizasyon');
     if (ev.turkish) r.push(GM.TAG_LABEL.turkish);
     return '<div class="why">' + r.map(esc).join(' · ') + '</div>';
   }
@@ -311,7 +323,7 @@
       if (fav.length) html += section('★ Favorilerim', fav.length + ' karşılaşma', cards(fav, now));
 
       var hl = highlights(events);
-      if (hl.length) html += section('Bugünün Öne Çıkanları', 'en fazla 5 · nesnel ölçüt', cards(hl, now, reasons));
+      if (hl.length) html += section('Önerilen Maçlar', 'derbiler ve büyük takımlar · en fazla 5', cards(hl, now, reasons));
 
       var tr = events.filter(function (e) { return e.turkish; });
       if (tr.length) html += section('Türk Takımları', tr.length + ' karşılaşma', cards(tr, now));
