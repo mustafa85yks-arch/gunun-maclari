@@ -1,0 +1,66 @@
+# G√ºn√ºn listesini sporekrani.com'dan √ßeker, data/ klas√∂r√ºne yazar ve siteyi yayƒ±nlar.
+# Saatler UTC'dir (T√ºrkiye = UTC+3).
+name: Gunluk veri ve yayin
+
+on:
+  schedule:
+    - cron: '10 21 * * *'   # 00:10 TSƒ∞ ‚Äî yeni g√ºn
+    - cron: '40 22 * * *'   # 01:40 TSƒ∞ ‚Äî site ge√ß d√∂nd√ºyse ikinci deneme
+    - cron: '0 4 * * *'     # 07:00 TSƒ∞
+    - cron: '0 9 * * *'     # 12:00 TSƒ∞
+    - cron: '0 14 * * *'    # 17:00 TSƒ∞
+  push:
+    branches: [main]
+  workflow_dispatch:        # Actions sekmesinden elle √ßalƒ±≈ütƒ±rma
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: gunluk-veri
+  cancel-in-progress: false
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gunun listesini cek
+        id: cek
+        continue-on-error: true   # veri √ßekilemese de site eski veriyle yayƒ±nda kalsƒ±n
+        run: python3 scripts/veri_cek.py
+
+      - name: Degistiyse kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "Veride deƒüi≈üiklik yok."
+          else
+            git commit -m "Veri: $(TZ=Europe/Istanbul date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Veri cekilemediyse uyar
+        if: steps.cek.outcome == 'failure'
+        run: |
+          echo "::warning::Veri √ßekilemedi; site √∂nceki veriyle yayƒ±nda. Ayrƒ±ntƒ± 'Gunun listesini cek' adƒ±mƒ±nda."
+
+  yayinla:
+    needs: guncelle
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
