@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T14:46:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T15:56:59+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-18",
- "generatedAt": "2026-09-18T14:46:09+03:00",
+ "generatedAt": "2026-09-18T15:56:59+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -191,8 +191,10 @@ GM_REGISTER_DAY({
    "competition": "VTB Cup",
    "competitionId": "vtb-cup",
    "kickoff": "2026-09-18T16:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
+   "broadcasters": [
+    "tvstart Web TV"
+   ],
+   "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
