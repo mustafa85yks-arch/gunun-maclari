@@ -1,122 +1,543 @@
-/* 18 Eylül 2026 Cuma — Türkiye'de yayınlanan karşılaşmalar.
-   Toplandı: 18.09.2026 sabahı, web araştırması.
-   verification: dogrulandi = en az 2 kaynakta aynı kanal | tek_kaynak = sadece sporekrani.com
-                 yayin_yok = kaynak "yayın yok" diyor | alan boş/eksik = "Yayıncı doğrulanamadı"
-   Stüdyo programları, at yarışları ve Türkiye dışı kanallar (CBC Sport, AzTV) alınmadı. */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T14:46:09+03:00) */
 GM_REGISTER_DAY({
-  date: '2026-09-18',
-  generatedAt: '2026-09-18T10:30:00+03:00',
-  sources: [
-    { name: 'sporekrani.com', url: 'https://www.sporekrani.com/' },
-    { name: 'mynet.com', url: 'https://www.mynet.com/bugun-hangi-maclar-var-18-eylul-cuma-2026-gunun-mac-programi-saatleri-ve-kanallari-517090-myspor' },
-    { name: 'haberturk.com', url: 'https://www.haberturk.com/bilgi/foto/gunun-maclari-18-eylul-2026-cuma-bugun-hangi-maclar-var-saat-kacta-hangi-kanalda-3913324' },
-    { name: 'fener.org', url: 'https://www.fener.org/index.php/2026/09/18/fenerbahce-tarfin-euroleague-super-kupa-macinda-olympiacos-ile-karsilasiyor/' }
-  ],
-  events: [
-    // --- Gece (ABD saatleri) ---
-    { id: 'wnba-atl-con', sport: 'basketbol', competition: 'WNBA', competitionId: 'wnba',
-      home: 'Atlanta Dream', away: 'Connecticut Sun', kickoff: '2026-09-18T02:30:00+03:00',
-      broadcasters: ['Prime Video'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'wnba-chi-was', sport: 'basketbol', competition: 'WNBA', competitionId: 'wnba',
-      home: 'Chicago Sky', away: 'Washington Mystics', kickoff: '2026-09-18T03:00:00+03:00',
-      broadcasters: ['Prime Video'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'wnba-dal-la', sport: 'basketbol', competition: 'WNBA', competitionId: 'wnba',
-      home: 'Dallas Wings', away: 'LA Sparks', kickoff: '2026-09-18T03:00:00+03:00',
-      broadcasters: ['Prime Video'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'wta-gdl-stearns', sport: 'tenis', competition: 'WTA Guadalajara', competitionId: 'wta',
-      home: 'P. Stearns', away: 'S. Stephens', kickoff: '2026-09-18T03:30:00+03:00',
-      broadcasters: ['beIN SPORTS'], verification: 'tek_kaynak', sources: ['sporekrani.com'],
-      note: 'Kaynak kanal numarası vermiyor.' },
-    { id: 'wnba-por-pho', sport: 'basketbol', competition: 'WNBA', competitionId: 'wnba',
-      home: 'Portland Fire', away: 'Phoenix Mercury', kickoff: '2026-09-18T05:00:00+03:00',
-      broadcasters: ['Prime Video'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'wnba-sea-lv', sport: 'basketbol', competition: 'WNBA', competitionId: 'wnba',
-      home: 'Seattle Storm', away: 'Las Vegas Aces', kickoff: '2026-09-18T05:00:00+03:00',
-      broadcasters: ['Prime Video'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-
-    // --- Gündüz ---
-    { id: 'motogp-aut-fp1', sport: 'motogp', competition: 'MotoGP Avusturya GP', competitionId: 'motogp',
-      title: 'Serbest Antrenman 1', kickoff: '2026-09-18T11:45:00+03:00', durationMin: 45,
-      broadcasters: ['S Sport', 'S Sport Plus'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: '1l-ban-umr', sport: 'futbol', competition: 'Trendyol 1. Lig', competitionId: '1-lig',
-      home: 'Bandırmaspor', away: 'Ümraniyespor', kickoff: '2026-09-18T16:00:00+03:00',
-      broadcasters: ['beIN SPORTS 2', 'TRT Spor'], verification: 'dogrulandi', turkish: true,
-      sources: ['sporekrani.com', 'mynet.com', 'haberturk.com'] },
-    { id: 'vtb-zenit-efes', sport: 'basketbol', competition: 'VTB Cup (hazırlık)', competitionId: 'hazirlik',
-      home: 'Zenit', away: 'Anadolu Efes', kickoff: '2026-09-18T16:00:00+03:00',
-      broadcasters: [], verification: 'yayin_yok', turkish: true, sources: ['sporekrani.com'] },
-    { id: 'motogp-aut-pr', sport: 'motogp', competition: 'MotoGP Avusturya GP', competitionId: 'motogp',
-      title: 'Antrenman', kickoff: '2026-09-18T16:00:00+03:00', durationMin: 60,
-      broadcasters: ['S Sport 2', 'S Sport Plus'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'els-fb-oly', sport: 'basketbol', competition: 'EuroLeague Süper Kupa', competitionId: 'euroleague-super-kupa',
-      home: 'Fenerbahçe Beko', away: 'Olympiakos', kickoff: '2026-09-18T17:00:00+03:00',
-      broadcasters: ['S Sport', 'S Sport Plus'], verification: 'dogrulandi', turkish: true, tags: ['yari-final'],
-      sources: ['sporekrani.com', 'fener.org'], note: 'Abu Dabi, Etihad Arena. İlk kez düzenlenen dörtlü turnuva.' },
-    { id: 'wta-sp-kostovic', sport: 'tenis', competition: 'WTA São Paulo', competitionId: 'wta',
-      home: 'T. Kostovic', away: 'K. Quevedo', kickoff: '2026-09-18T17:00:00+03:00',
-      broadcasters: ['beIN SPORTS'], verification: 'tek_kaynak', sources: ['sporekrani.com'],
-      note: 'Kaynak kanal numarası vermiyor.' },
-    { id: 'bis-lux-e3', sport: 'bisiklet', competition: 'Lüksemburg Bisiklet Turu', competitionId: 'bisiklet',
-      title: 'Etap 3', kickoff: '2026-09-18T18:00:00+03:00', durationMin: 150,
-      broadcasters: ['Eurosport'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'wta-sp-blinkova', sport: 'tenis', competition: 'WTA São Paulo', competitionId: 'wta',
-      home: 'A. Blinkova', away: 'A. Charaeva', kickoff: '2026-09-18T18:30:00+03:00',
-      broadcasters: ['beIN SPORTS'], verification: 'tek_kaynak', sources: ['sporekrani.com'],
-      note: 'Kaynak kanal numarası vermiyor.' },
-
-    // --- Akşam ---
-    { id: 'bl2-wob-d98', sport: 'futbol', competition: 'Bundesliga 2', competitionId: 'bundesliga-2',
-      home: 'Wolfsburg', away: 'Darmstadt 98', kickoff: '2026-09-18T19:30:00+03:00',
-      broadcasters: ['S Sport Plus'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'sl-kas-kon', sport: 'futbol', competition: 'Trendyol Süper Lig', competitionId: 'super-lig',
-      home: 'Kasımpaşa', away: 'Konyaspor', kickoff: '2026-09-18T20:00:00+03:00',
-      broadcasters: ['beIN SPORTS 1'], verification: 'dogrulandi', turkish: true,
-      sources: ['sporekrani.com', 'haberturk.com', 'mynet.com'], note: '6. hafta açılış maçı.' },
-    { id: '1l-mug-igd', sport: 'futbol', competition: 'Trendyol 1. Lig', competitionId: '1-lig',
-      home: 'Muğlaspor', away: 'Iğdır FK', kickoff: '2026-09-18T20:00:00+03:00',
-      broadcasters: ['TRT Spor', 'beIN SPORTS 2'], verification: 'dogrulandi', turkish: true,
-      sources: ['sporekrani.com', 'mynet.com', 'haberturk.com'] },
-    { id: 'els-dub-rma', sport: 'basketbol', competition: 'EuroLeague Süper Kupa', competitionId: 'euroleague-super-kupa',
-      home: 'Dubai Basket', away: 'Real Madrid', kickoff: '2026-09-18T20:00:00+03:00',
-      broadcasters: ['S Sport', 'S Sport Plus'], verification: 'dogrulandi', tags: ['yari-final'],
-      sources: ['sporekrani.com', 'sporekrani.com/haberler'] },
-    { id: 'bl3-verl-wue', sport: 'futbol', competition: 'Bundesliga 3', competitionId: 'bundesliga-3',
-      home: 'SC Verl', away: 'Würzburger Kickers', kickoff: '2026-09-18T20:00:00+03:00',
-      broadcasters: ['Sıfır TV'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'l2-rei-mon', sport: 'futbol', competition: 'Ligue 2', competitionId: 'ligue-2',
-      home: 'Reims', away: 'Montpellier', kickoff: '2026-09-18T21:00:00+03:00',
-      broadcasters: ['beIN SPORTS MAX 1'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'hb-tre-str', sport: 'hentbol', competition: 'Fransa Hentbol Ligi', competitionId: 'hentbol',
-      home: 'Tremblay', away: 'Saint-Raphaël', kickoff: '2026-09-18T21:00:00+03:00',
-      broadcasters: ['beIN SPORTS 5'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'bl-fcb-fcu', sport: 'futbol', competition: 'Bundesliga', competitionId: 'bundesliga',
-      home: 'Bayern Münih', away: 'Union Berlin', kickoff: '2026-09-18T21:30:00+03:00',
-      broadcasters: ['S Sport Plus'], verification: 'dogrulandi',
-      sources: ['sporekrani.com', 'mynet.com', 'haberturk.com'] },
-    { id: 'll2-alb-cor', sport: 'futbol', competition: 'La Liga 2', competitionId: 'la-liga-2',
-      home: 'Albacete', away: 'Córdoba', kickoff: '2026-09-18T21:30:00+03:00',
-      broadcasters: ['S Sport Plus'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'sa-mon-sas', sport: 'futbol', competition: 'Serie A', competitionId: 'serie-a',
-      home: 'Monza', away: 'Sassuolo', kickoff: '2026-09-18T21:45:00+03:00',
-      broadcasters: ['S Sport 2', 'S Sport Plus'], verification: 'dogrulandi',
-      sources: ['sporekrani.com', 'mynet.com', 'haberturk.com'] },
-    { id: 'l1-asm-rcl', sport: 'futbol', competition: 'Ligue 1', competitionId: 'ligue-1',
-      home: 'Monaco', away: 'Lens', kickoff: '2026-09-18T21:45:00+03:00',
-      broadcasters: ['beIN SPORTS 4'], verification: 'dogrulandi',
-      sources: ['sporekrani.com', 'mynet.com', 'haberturk.com'] },
-    { id: 'pl-bre-che', sport: 'futbol', competition: 'Premier League', competitionId: 'premier-league',
-      home: 'Brentford', away: 'Chelsea', kickoff: '2026-09-18T22:00:00+03:00',
-      broadcasters: ['beIN SPORTS 3'], verification: 'dogrulandi',
-      sources: ['sporekrani.com', 'mynet.com', 'haberturk.com'] },
-    { id: 'll-esp-elc', sport: 'futbol', competition: 'La Liga', competitionId: 'la-liga',
-      home: 'Espanyol', away: 'Elche', kickoff: '2026-09-18T22:00:00+03:00',
-      broadcasters: ['S Sport', 'S Sport Plus'], verification: 'dogrulandi',
-      sources: ['sporekrani.com', 'mynet.com', 'haberturk.com'] },
-    { id: 'ch-bri-wat', sport: 'futbol', competition: 'Championship', competitionId: 'championship',
-      home: 'Bristol City', away: 'Watford', kickoff: '2026-09-18T22:00:00+03:00',
-      broadcasters: ['S Sport Plus'], verification: 'tek_kaynak', sources: ['sporekrani.com'] },
-    { id: 'golf-biltmore-r2', sport: 'golf', competition: 'Biltmore Championship', competitionId: 'golf',
-      title: '2. gün', kickoff: '2026-09-18T22:00:00+03:00', durationMin: 180,
-      broadcasters: ['Eurosport 2'], verification: 'tek_kaynak', sources: ['sporekrani.com'] }
-  ]
+ "date": "2026-09-18",
+ "generatedAt": "2026-09-18T14:46:09+03:00",
+ "sources": [
+  {
+   "name": "sporekrani.com",
+   "url": "https://www.sporekrani.com/home/day/2026-09-18"
+  }
+ ],
+ "events": [
+  {
+   "id": "se-488131",
+   "sport": "basketbol",
+   "competition": "WNBA",
+   "competitionId": "wnba",
+   "kickoff": "2026-09-18T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atlanta Dream",
+   "away": "Connecticut Sun"
+  },
+  {
+   "id": "se-488132",
+   "sport": "basketbol",
+   "competition": "WNBA",
+   "competitionId": "wnba",
+   "kickoff": "2026-09-18T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chicago Sky",
+   "away": "Washington Mystics"
+  },
+  {
+   "id": "se-488133",
+   "sport": "basketbol",
+   "competition": "WNBA",
+   "competitionId": "wnba",
+   "kickoff": "2026-09-18T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dallas Wings",
+   "away": "LA Sparks"
+  },
+  {
+   "id": "se-489086",
+   "sport": "tenis",
+   "competition": "WTA Guadalajara Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-18T03:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Stearns",
+   "away": "S.Stephens"
+  },
+  {
+   "id": "se-488134",
+   "sport": "basketbol",
+   "competition": "WNBA",
+   "competitionId": "wnba",
+   "kickoff": "2026-09-18T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Portland Fire",
+   "away": "Phoenix Mercury"
+  },
+  {
+   "id": "se-488135",
+   "sport": "basketbol",
+   "competition": "WNBA",
+   "competitionId": "wnba",
+   "kickoff": "2026-09-18T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Seattle Storm",
+   "away": "Las Vegas Aces"
+  },
+  {
+   "id": "se-488196",
+   "sport": "motosiklet",
+   "competition": "MotoGP Avusturya GP",
+   "competitionId": "motogp",
+   "kickoff": "2026-09-18T11:45:00+03:00",
+   "broadcasters": [
+    "S Sport",
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Serbest Antrenman 1"
+  },
+  {
+   "id": "se-489209",
+   "sport": "golf",
+   "competition": "PGA Tour Şampiyonlar Turnuvasi",
+   "competitionId": "pga-tour-sampiyonlar-turnuvasi",
+   "kickoff": "2026-09-18T14:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İngiltere"
+  },
+  {
+   "id": "se-489195",
+   "sport": "atletizm",
+   "competition": "Tirmaniş Dünya Serisi",
+   "competitionId": "tirmanis-dunya-serisi",
+   "kickoff": "2026-09-18T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Speed Finalleri"
+  },
+  {
+   "id": "se-489176",
+   "sport": "bisiklet",
+   "competition": "Abruzza Bisiklet Turu",
+   "competitionId": "abruzza-bisiklet-turu",
+   "kickoff": "2026-09-18T14:35:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 4"
+  },
+  {
+   "id": "se-482800",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-09-18T16:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN SPORTS 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bandırmaspor",
+   "away": "Ümraniyespor",
+   "turkish": true
+  },
+  {
+   "id": "se-485254",
+   "sport": "basketbol",
+   "competition": "VTB Cup",
+   "competitionId": "vtb-cup",
+   "kickoff": "2026-09-18T16:00:00+03:00",
+   "broadcasters": [],
+   "verification": "yayin_yok",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zenit Basket",
+   "away": "Anadolu Efes"
+  },
+  {
+   "id": "se-488197",
+   "sport": "motosiklet",
+   "competition": "MotoGP Avusturya GP",
+   "competitionId": "motogp",
+   "kickoff": "2026-09-18T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport 2",
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman"
+  },
+  {
+   "id": "se-489177",
+   "sport": "bisiklet",
+   "competition": "Dwars door Vlaanderen Bisiklet Turu",
+   "competitionId": "dwars-door-vlaanderen-bisiklet-turu",
+   "kickoff": "2026-09-18T16:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler"
+  },
+  {
+   "id": "se-485800",
+   "sport": "basketbol",
+   "competition": "Euroleague Süper Kupa",
+   "competitionId": "euroleague-super-kupa",
+   "kickoff": "2026-09-18T17:00:00+03:00",
+   "broadcasters": [
+    "S Sport",
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Tarfin",
+   "away": "Olympiakos"
+  },
+  {
+   "id": "se-489182",
+   "sport": "tenis",
+   "competition": "WTA Sao Paulo Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-18T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Kostovic",
+   "away": "K.Quevedo"
+  },
+  {
+   "id": "se-489178",
+   "sport": "bisiklet",
+   "competition": "Lüksemburg Bisiklet Turu",
+   "competitionId": "luksemburg-bisiklet-turu",
+   "kickoff": "2026-09-18T18:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 3"
+  },
+  {
+   "id": "se-489183",
+   "sport": "tenis",
+   "competition": "WTA Sao Paulo Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-18T18:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Blinkova",
+   "away": "A.Charaeva"
+  },
+  {
+   "id": "se-483431",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 2",
+   "competitionId": "almanya-bundesliga-2",
+   "kickoff": "2026-09-18T19:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Wolfsburg",
+   "away": "Darmstadt 98"
+  },
+  {
+   "id": "se-482801",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-09-18T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN SPORTS 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Muğlaspor",
+   "away": "Iğdırspor",
+   "turkish": true
+  },
+  {
+   "id": "se-485801",
+   "sport": "basketbol",
+   "competition": "Euroleague Süper Kupa",
+   "competitionId": "euroleague-super-kupa",
+   "kickoff": "2026-09-18T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport",
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dubai Basket",
+   "away": "Real Madrid"
+  },
+  {
+   "id": "se-487917",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-09-18T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kasımpaşa",
+   "away": "Konyaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-489155",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-09-18T20:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SC Verl",
+   "away": "Wurzburger Kickers"
+  },
+  {
+   "id": "se-489034",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-09-18T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Reims",
+   "away": "Montpellier"
+  },
+  {
+   "id": "se-489039",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-09-18T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tremblay",
+   "away": "St.Raphael"
+  },
+  {
+   "id": "se-483393",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-09-18T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bayern Münih",
+   "away": "Union Berlin"
+  },
+  {
+   "id": "se-488688",
+   "sport": "futbol",
+   "competition": "İspanya La Liga 2",
+   "competitionId": "ispanya-la-liga-2",
+   "kickoff": "2026-09-18T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Albacete",
+   "away": "Cordoba"
+  },
+  {
+   "id": "se-483573",
+   "sport": "futbol",
+   "competition": "İtalya Serie A",
+   "competitionId": "serie-a",
+   "kickoff": "2026-09-18T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport 2",
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Monza",
+   "away": "Sassuolo"
+  },
+  {
+   "id": "se-487500",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-09-18T21:45:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Monaco",
+   "away": "Lens"
+  },
+  {
+   "id": "se-487490",
+   "sport": "futbol",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
+   "kickoff": "2026-09-18T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport",
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Espanyol",
+   "away": "Elche"
+  },
+  {
+   "id": "se-487555",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-09-18T22:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brentford",
+   "away": "Chelsea"
+  },
+  {
+   "id": "se-488689",
+   "sport": "futbol",
+   "competition": "İngiltere Championship",
+   "competitionId": "ingiltere-championship",
+   "kickoff": "2026-09-18T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bristol City",
+   "away": "Watford"
+  },
+  {
+   "id": "se-489196",
+   "sport": "golf",
+   "competition": "Golf Biltmore Championship",
+   "competitionId": "golf-biltmore-championship",
+   "kickoff": "2026-09-18T22:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  }
+ ]
 });
