@@ -7,7 +7,8 @@ kurulum yok, sunucu gerekmez.
 
 İnternette: **https://mustafa85yks-arch.github.io/gunun-maclari/**
 Telefonda: linki aç, Safari'de Paylaş → "Ana Ekrana Ekle" (Android'de Chrome menüsü → "Ana ekrana ekle").
-Bilgisayarda yerel: `index.html`'e çift tıkla. Adres sonuna `#2026-09-18` eklersen o güne gider.
+Bilgisayarda yerel: `index.html`'e çift tıkla. Adres sonuna `#2026-09-20` eklersen o güne gider
+(sadece bugün + 7 gün; geçmiş bir tarih bugünü açar).
 
 ## Günlük veri nasıl geliyor
 
@@ -41,7 +42,7 @@ Bilgisayarda yerel: `index.html`'e çift tıkla. Adres sonuna `#2026-09-18` ekle
 | `style.css` | Görünüm (açık tema, mobil uyumlu) |
 | `data.js` | Sabitler: spor kategorileri, yayıncı adları, Türk takımları, favori ligleri/önerileri, "öne çıkanlar" puanları |
 | `api.js` | Veri katmanı: sağlayıcı seçimi, İstanbul saat dilimi, veri kontrolleri |
-| `app.js` | Arayüz: filtreler, favoriler, kartlar, durum/geri sayım, gün geçişi |
+| `app.js` | Arayüz: gün şeridi, filtreler, favoriler, kartlar, durum/geri sayım, takvime ekle (.ics) |
 | `data/YYYY-AA-GG.js` | O günün maçları (her gün için ayrı bir dosya) |
 
 ## Günlük veri dosyası

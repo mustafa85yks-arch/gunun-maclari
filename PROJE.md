@@ -1,6 +1,6 @@
 # GÜNÜN MAÇLARI — Proje Devir Notu
 
-Son güncelleme: 18 Eylül 2026, iş bilgisayarında (`grafik`).
+Son güncelleme: 18 Eylül 2026 akşam, ev bilgisayarında (`mustafayuksel`) — arayüz yenilendi (v2).
 Bu dosya başka bir makinede (ev: `mustafayuksel`) kaldığı yerden devam etmek için yazıldı.
 Claude: işe başlamadan önce bu dosyayı baştan sona oku. Kullanıcı Mustafa, dil Türkçe.
 
@@ -28,11 +28,11 @@ Mustafa arkadaşlarıyla paylaşıyor, telefonda ana ekrana eklenmiş uygulama g
 
 | Dosya | Ne yapar |
 |---|---|
-| `index.html` | İskelet: başlık, gün düğmeleri, favoriler, arama kutusu, favori penceresi |
-| `style.css` | Görünüm. Açık tema, mobil uyumlu. Kart zemini lig renginin açık tonu (`color-mix`) |
+| `index.html` | İskelet: üst satır (🔍 ★), yapışkan şerit (gün + filtre), favori penceresi. JS/CSS `?v=2` ile bağlı |
+| `style.css` | Görünüm. Açık tema, mobil öncelikli. Kart zemini lig renginin açık tonu (`--tint` %12) |
 | `data.js` | Sabitler: kategoriler, yayıncılar, Türk takımları, ligler, **lig renkleri**, **büyük kulüpler**, **derbiler**, öne çıkarma puanları, `GM.fold` |
 | `api.js` | Veri katmanı: günlük dosyayı `<script>` ile yükler (file:// için), İstanbul saati, kontroller |
-| `app.js` | Arayüz: filtreler, favoriler, arama, önerilen maçlar, lige göre sıralama, kartlar |
+| `app.js` | Arayüz: gün şeridi, filtreler, favoriler, arama, Bunları Kaçırma, lige göre sıralama, kartlar, takvime ekle (.ics) |
 | `data/YYYY-AA-GG.js` | Günlük veri — **bot yazar**, elle dokunma |
 | `scripts/veri_cek.py` | Günlük veriyi üreten script (GitHub'da çalışır) |
 | `.github/workflows/gunluk.yml` | Zamanlı görev: veri çek → kaydet → siteyi yayınla |
@@ -69,8 +69,16 @@ Gemini vb. yapay zekâ API'si gerekmedi.
 - **Kadın futbolu ve kadın basketbolu (WNBA dahil) alınmaz.** Kadın voleybolu **sadece Türkiye
   ile ilgiliyse** alınır (Sultanlar Ligi, Türk kulüpleri, Filenin Sultanları).
   Kadın hentbolu şu an listede — Mustafa'ya sorulmadı.
-- **Lig renkleri kartın tüm zemini** (pastel ton), ince şerit değil. Her lig ayrı renk.
-- **Önerilen Maçlar**: büyük kulüpler + tarihi derbiler öne çıkar, taraf tutmaz, favoriden etkilenmez.
+- **Maçın ligi ilk bakışta anlaşılmalı** (asıl hedef bu). Lig adı kartın en üst satırında, kalın,
+  lig renginin koyu tonunda. Kart zemini lig renginin **hafif** tonu (%12; eski %28 "çok canlı" bulundu).
+  Renksiz (gri) kart olmaz: `LEAGUE_COLORS`'ta olmayan lig adından türetilen sabit renk alır.
+  Denenip vazgeçilenler: renksiz beyaz kart, açık/koyu sıralı kart ("renklerle daha anlaşılırdı").
+- **Önceki gün yok.** Gün şeridi Bugün + 7 gün; gün adı yazar ("Yarın" değil: Cmt, Paz…). Geçmiş tarih → bugün.
+- **Türk takımları bölümü ve filtresi yok** ("anlamsız"). Türk maçı Bunları Kaçırma puanında +10 almaya devam eder.
+- **Bunları Kaçırma** (eski adı Önerilen Maçlar): büyük kulüpler + tarihi derbiler öne çıkar, taraf tutmaz,
+  favoriden etkilenmez. Yatay kayan küçük kartlar; dokununca listedeki asıl karta gider.
+- **Bildirim yerine takvim.** Karttaki "📅 Takvime ekle" .ics üretir, 15 dk önce hatırlatır; sunucu yok.
+  Gerçek push bildirim konuşuldu, şimdilik yapılmadı (sunucu + Cloudflare hesabı + kullanıcı verisi gerekir).
   Derbilerde **sadece adı** yazar ("⚔ Madrid Derbisi"); açıklama/istatistik istemiyor.
 - **Logo yok (şimdilik).** Mustafa grafiker; takım logolarını ileride kendisi verebilir.
   Not: armalar kulüplerin tescilli işareti, depo herkese açık — o zaman gizli depo seçeneği konuşulmalı.
@@ -78,13 +86,16 @@ Gemini vb. yapay zekâ API'si gerekmedi.
 
 ## 6. Özellikler (şu an sitede)
 
-- Gün gezinme (Önceki / BUGÜN / Sonraki), 7 gün ileri. 3 günden uzak günlerde "henüz kesinleşmedi" notu.
+- Yapışkan şerit: gün seçimi (Bugün + 7 gün, yana kayar) ve spor filtreleri, kaydırınca üstte kalır.
+  3 günden uzak günlerde "henüz kesinleşmedi" notu.
 - Spor filtresi: Futbol, Basketbol, Tenis, **Amerikan Futbolu** (NFL + NCAA + canlı NFL Red Zone), Diğer.
-- Türk takımları filtresi ve bölümü.
-- **Favoriler** (takım + lig, tarayıcıda `localStorage` `gm-favoriler`), karttan ☆ ile ekleme.
+- **Favoriler** (takım + lig, tarayıcıda `localStorage` `gm-favoriler`), sağ üstte ★; karta dokununca ☆ ile ekleme.
 - **Arama**: takım veya lig adı, bugün + 7 gün taranır, gün gün listelenir.
-- **Önerilen Maçlar** (günde en fazla 5) + kartlarda derbi etiketi.
-- **Sırala: Saat | Lig** (`gm-sirala`).
+- **Bunları Kaçırma** (günde en fazla 5) + kartlarda derbi etiketi.
+- Kart: lig adı üstte, solda saat (+ geri sayım / CANLI), ortada takımlar, sağda kanal kutucuğu + "✓ akışta var".
+  Karta dokununca ayrıntı, 📅 Takvime ekle (başlamamış maçta) ve favori düğmeleri açılır.
+- Saat sıralamasında "Şu an yayında" ve "Sıradaki" ayrı başlık.
+- **Sırala: Saat | Lig** (`gm-sirala`). Lig sıralamasında lig adı sadece grup başlığında.
 - Canlı durum saatten tahmin (`~` işareti); gerçek canlı skor yok.
 
 ## 7. Tuzaklar (hepsi yaşandı)
@@ -126,6 +137,9 @@ Gemini vb. yapay zekâ API'si gerekmedi.
       (`scripts/`, `README.md`, `api.js`, `data.js`, `style.css`). Zararsız; GitHub'da ⋯ → Delete ile silinebilir.
       `gunluk.yml`'ye dokunma.
 - [ ] Kadın hentbolu kalsın mı? (sorulmadı)
+- [ ] **Takvime ekle'yi iPhone'da dene** — özellikle ana ekrana eklenmiş uygulamada .ics açılıyor mu (masaüstünde doğrulandı).
+- [ ] Favorilerim bölümü maçları ana listede tekrarlıyor; kaldır ya da en yakın 3'e kısalt? (sorulmadı/cevap yok)
+- [ ] MotoGP (`#495057`) ve UFC (`#868e96`) gri → renksiz gibi görünüyor; gerçek renk verilsin mi?
 - [ ] Takım logoları — Mustafa verince (bkz. §5 not).
 - [ ] Sultanlar Ligi başlayınca kadın voleybolunun geldiğini kontrol et.
 - [ ] Büyük kulüp / derbi listesine ekleme-çıkarma isteği gelirse: `data.js` → `BIG_CLUBS`, `RIVALRIES`.

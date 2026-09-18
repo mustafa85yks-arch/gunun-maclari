@@ -1,4 +1,5 @@
-/* Arayüz: durum, filtreler, favoriler, çizim. Veriyi sadece GM.api.getDay() üzerinden alır. */
+/* Arayüz: durum, filtreler, favoriler, takvime ekleme, çizim.
+   Veriyi sadece GM.api.getDay() üzerinden alır. */
 (function () {
   'use strict';
 
@@ -7,16 +8,17 @@
   var TICK_MS = 30 * 1000;          // durum/geri sayım 30 sn'de bir güncellenir
   var FAV_KEY = 'gm-favoriler';
   var SORT_KEY = 'gm-sirala';
+  var DAYS_AHEAD = 7;               // bugün + 7 gün; geçmiş günler gösterilmez
 
   var state = {
     date: null,
     followToday: true,   // "bugün"deyken gün dönünce otomatik yeni güne geç
     sport: 'tumu',
-    turkOnly: false,
     favOnly: false,
-    sortBy: loadSort(),  // 'saat' | 'lig' (tüm karşılaşmalar listesi)
+    sortBy: loadSort(),  // 'saat' | 'lig'
     search: null,        // takım/lig araması: aranan metin (null = normal gün görünümü)
     searchResults: null, // [{date, events}]
+    open: {},            // ayrıntısı açık kartlar (id → true)
     data: null,
     error: null,
     loading: false,
@@ -96,6 +98,10 @@
     if (t < end) return { state: 'live', approx: true };
     return { state: 'finished', approx: true };
   }
+  function isLive(ev, now) {
+    var s = statusOf(ev, now).state;
+    return s === 'live' || s === 'halftime';
+  }
 
   // Biten maçlar hiç gösterilmez.
   function remaining(events, now) {
@@ -106,38 +112,33 @@
     var mins = Math.round((ev.kickoff - now) / 60000);
     if (mins <= 0 || mins > 24 * 60) return '';
     var h = Math.floor(mins / 60), m = mins % 60;
-    return (h ? h + ' sa ' : '') + (m || !h ? m + ' dk' : '') + ' kaldı';
+    return (h ? h + ' sa ' : '') + (m || !h ? m + ' dk' : '');
   }
 
   function statusBadge(st) {
     var approx = st.approx ? '<span class="approx" title="Canlı veri değil, saate göre tahmin">~</span>' : '';
     switch (st.state) {
-      case 'live': return '<span class="badge live">CANLI' + (st.minute ? ' ' + esc(st.minute) + '\'' : '') + approx + '</span>';
-      case 'halftime': return '<span class="badge half">DEVRE</span>';
-      case 'postponed': return '<span class="badge done">ERTELENDİ</span>';
+      case 'live': return '<span class="live">CANLI' + (st.minute ? ' ' + esc(st.minute) + '\'' : '') + approx + '</span>';
+      case 'halftime': return '<span class="live">DEVRE</span>';
+      case 'postponed': return '<span class="state">ERTELENDİ</span>';
       default: return '';
     }
   }
 
   /* ---------- Yayıncı ---------- */
 
+  // Kanal adı kartın sağında kutucuk: "beIN SPORTS 1" doğrudan görünür.
   function tvBlock(ev) {
-    if (ev.verification === 'yayin_yok') return '<div class="tv muted">TV yayını bulunamadı</div>';
-    if (ev.verification === 'dogrulanamadi') return '<div class="tv muted">Yayıncı doğrulanamadı</div>';
-    var brands = [];
-    ev.broadcasters.forEach(function (ch) {
-      var g = GM.broadcasterGroup(ch);
-      var label = g.id === 'diger' ? ch : g.label;
-      if (brands.indexOf(label) === -1) brands.push(label);
-    });
-    var brandStr = brands.join(' / ');
-    var chanStr = ev.broadcasters.join(' / ');
-    var mark = ev.verification === 'dogrulandi'
-      ? '<span class="verify ok" title="Kanalın kendi yayın akışında da var">✓</span>' : '';
-    return '<div class="tv">' +
-      '<span class="brand">' + esc(brandStr) + mark + '</span>' +
-      (chanStr !== brandStr ? '<span class="channel">' + esc(chanStr) + '</span>' : '') +
-      '</div>';
+    if (ev.verification === 'yayin_yok') return '<div class="tv-muted">TV yayını yok</div>';
+    if (ev.verification === 'dogrulanamadi') return '<div class="tv-muted">Yayıncı doğrulanamadı</div>';
+    return ev.broadcasters.map(function (ch) { return '<span class="ch">' + esc(ch) + '</span>'; }).join('') +
+      (ev.verification === 'dogrulandi'
+        ? '<span class="ch-ok" title="Kanalın kendi yayın akışında da var">✓ akışta var</span>' : '');
+  }
+
+  function tvShort(ev) {
+    if (!ev.broadcasters.length) return '';
+    return ev.broadcasters.join(' / ');
   }
 
   var VERIFY_TEXT = {
@@ -154,8 +155,8 @@
   }
 
   function matchTitle(ev) {
-    if (ev.home && ev.away) return teamSpan(ev.home) + '<span class="vs">–</span>' + teamSpan(ev.away);
-    return '<span class="team">' + esc(ev.title || ev.home || ev.competition) + '</span>';
+    if (ev.home && ev.away) return '<div class="teams">' + teamSpan(ev.home) + teamSpan(ev.away) + '</div>';
+    return '<div class="teams solo"><span class="team">' + esc(ev.title || ev.home || ev.competition) + '</span></div>';
   }
 
   function favButtons(ev) {
@@ -175,7 +176,7 @@
     return b.join('');
   }
 
-  function card(ev, now, extra) {
+  function card(ev, now) {
     var st = statusOf(ev, now);
     var cd = st.state === 'scheduled' && T.dateStr(ev.kickoff) === today() ? countdown(ev, now) : '';
     var sportName = sportNameOf(ev);
@@ -186,49 +187,122 @@
     var compFav = leagueIsFav(leagueKey(ev));
 
     return '<article data-id="' + esc(ev.id) + '" style="--lc:' + leagueColor(ev) + '" class="card' +
-        (st.state === 'live' || st.state === 'halftime' ? ' is-live' : '') + '">' +
+        (state.open[ev.id] ? ' open' : '') + '">' +
+      // Lig adı kartın en üstünde: maçın hangi lige ait olduğu ilk bakışta okunsun.
+      '<div class="comp' + (compFav ? ' fav' : '') + '">' + esc(ev.competition) +
+        (ev.home && ev.title ? ' · ' + esc(ev.title) : '') +
+        (ev.category === 'diger' ? ' · ' + esc(sportName) : '') + '</div>' +
       '<div class="c-time"><span class="time">' + T.hm(ev.kickoff) + '</span>' + statusBadge(st) +
         (cd ? '<span class="countdown">' + cd + '</span>' : '') + '</div>' +
-      '<div class="c-main">' +
-        '<div class="teams">' + matchTitle(ev) + '</div>' +
-        '<div class="comp' + (compFav ? ' fav' : '') + '"><span class="ldot" aria-hidden="true"></span>' + esc(ev.competition) +
-          (ev.home && ev.title ? ' · ' + esc(ev.title) : '') +
-          (ev.category === 'diger' ? ' · ' + esc(sportName) : '') + '</div>' +
+      '<div class="c-main">' + matchTitle(ev) +
         (ev.rivalry ? '<div class="derby">⚔ ' + esc(ev.rivalry) + '</div>' : '') +
       '</div>' +
       '<div class="c-tv">' + tvBlock(ev) + '</div>' +
-      '<details class="c-detail"><summary>Maç Detayı</summary><dl>' +
+      '<div class="c-detail"><dl>' +
         '<dt>Spor</dt><dd>' + esc(sportName) + '</dd>' +
-        '<dt>Organizasyon</dt><dd>' + esc(ev.competition) + '</dd>' +
-        '<dt>Başlama</dt><dd>' + T.hm(ev.kickoff) + ' (TSİ)</dd>' +
         '<dt>Durum</dt><dd>' + statusText + '</dd>' +
         '<dt>Yayın</dt><dd>' + (ev.broadcasters.length ? esc(ev.broadcasters.join(', ')) : '—') + '</dd>' +
-        '<dt>Yayıncı doğrulama</dt><dd>' + VERIFY_TEXT[ev.verification] + '</dd>' +
-        '<dt>Veri kaynağı</dt><dd>' + (ev.sources.length ? esc(ev.sources.join(', ')) : '—') + '</dd>' +
+        '<dt>Doğrulama</dt><dd>' + VERIFY_TEXT[ev.verification] + '</dd>' +
+        '<dt>Kaynak</dt><dd>' + (ev.sources.length ? esc(ev.sources.join(', ')) : '—') + '</dd>' +
         (ev.note ? '<dt>Not</dt><dd>' + esc(ev.note) + '</dd>' : '') +
-        '<dt>Favori</dt><dd class="fav-row">' + favButtons(ev) + '</dd>' +
-      '</dl></details>' +
-      (extra || '') +
+      '</dl><div class="fav-row">' +
+        (st.state === 'scheduled' ? '<button class="cal-btn" data-cal="' + esc(ev.id) + '">📅 Takvime ekle</button>' : '') +
+        favButtons(ev) + '</div></div>' +
     '</article>';
   }
 
+  // Her ligin rengi var: büyükler data.js'te elle seçili, geri kalanlar adından türetilir
+  // (aynı lig her gün aynı renk). Gri, "renksiz" kart kalmasın diye.
   function leagueColor(ev) {
-    return GM.LEAGUE_COLORS[leagueKey(ev)] || GM.DEFAULT_LEAGUE_COLOR;
+    var key = leagueKey(ev) || ev.competition;
+    if (GM.LEAGUE_COLORS[key]) return GM.LEAGUE_COLORS[key];
+    var h = 0;
+    for (var i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) % 360;
+    return 'hsl(' + h + ' 62% 58%)';
   }
 
-  function cards(list, now, extraFn) {
-    return '<div class="cards">' + list.map(function (e) {
-      return card(e, now, extraFn ? extraFn(e) : '');
-    }).join('') + '</div>';
+  function cards(list, now) {
+    return '<div class="cards">' + list.map(function (e) { return card(e, now); }).join('') + '</div>';
+  }
+
+  // Önerilen maçlar: yatay kayan küçük kartlar. Dokununca listedeki asıl karta gider.
+  function hlCard(ev, now) {
+    var st = statusOf(ev, now);
+    return '<button class="hl" data-goto="' + esc(ev.id) + '" style="--lc:' + leagueColor(ev) + '">' +
+      '<div class="comp">' + esc(ev.competition) + '</div>' +
+      '<div class="hl-top"><span class="time">' + T.hm(ev.kickoff) + '</span>' + statusBadge(st) + '</div>' +
+      '<div class="hl-teams"><span>' + esc(ev.home) + '</span><span>' + esc(ev.away) + '</span></div>' +
+      (ev.rivalry ? '<span class="derby">⚔ ' + esc(ev.rivalry) + '</span>' : '') +
+      '<div class="hl-tv">' + esc(tvShort(ev)) + '</div>' +
+    '</button>';
+  }
+
+  /* ---------- Takvime ekle (.ics) ---------- */
+  // Sunucu yok: dosya telefonda üretilir, hatırlatmayı telefonun takvimi yapar.
+
+  var REMIND_MIN = 15;
+
+  function findEvent(id) {
+    var days = (state.data ? [state.data] : []).concat(state.searchResults || []);
+    for (var i = 0; i < days.length; i++) {
+      for (var j = 0; j < days[i].events.length; j++) if (days[i].events[j].id === id) return days[i].events[j];
+    }
+    return null;
+  }
+
+  function icsDate(d) { return d.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, ''); }
+  function icsText(s) { return String(s).replace(/\\/g, '\\\\').replace(/[;,]/g, '\\$&').replace(/\n/g, '\\n'); }
+
+  // RFC 5545: satır 75 baytı geçmesin (Türkçe harf 2 bayt, harf ortadan bölünmesin).
+  function icsFold(line) {
+    var out = '', bytes = 0, chars = Array.from(line);
+    for (var i = 0; i < chars.length; i++) {
+      var ch = chars[i], n = unescape(encodeURIComponent(ch)).length;
+      if (bytes + n > 74) { out += '\r\n '; bytes = 1; }
+      out += ch; bytes += n;
+    }
+    return out;
+  }
+
+  function makeIcs(ev) {
+    var title = ev.home && ev.away ? ev.home + ' – ' + ev.away : (ev.title || ev.competition);
+    var tv = ev.broadcasters.join(' / ');
+    var end = new Date(ev.kickoff.getTime() + ev.durationMin * 60000);
+    return [
+      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Gunun Maclari//TR', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
+      'BEGIN:VEVENT',
+      'UID:' + icsText(ev.id + '-' + T.dateStr(ev.kickoff)) + '@gunun-maclari',
+      'DTSTAMP:' + icsDate(new Date()),
+      'DTSTART:' + icsDate(ev.kickoff),
+      'DTEND:' + icsDate(end),
+      'SUMMARY:' + icsText(title + (tv ? ' (' + tv + ')' : '')),
+      'LOCATION:' + icsText(tv || 'TV bilgisi yok'),
+      'DESCRIPTION:' + icsText(ev.competition + (tv ? '\nYayın: ' + tv : '') + '\nGünün Maçları'),
+      'BEGIN:VALARM', 'ACTION:DISPLAY', 'TRIGGER:-PT' + REMIND_MIN + 'M',
+      'DESCRIPTION:' + icsText(title + ' ' + REMIND_MIN + ' dk sonra' + (tv ? ' · ' + tv : '')),
+      'END:VALARM',
+      'END:VEVENT', 'END:VCALENDAR'
+    ].map(icsFold).join('\r\n') + '\r\n';
+  }
+
+  function addToCalendar(id) {
+    var ev = findEvent(id);
+    if (!ev) return;
+    var name = (ev.home && ev.away ? ev.home + '-' + ev.away : ev.title || ev.competition)
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i').replace(/[^a-z0-9]+/gi, '-').toLowerCase();
+    var url = URL.createObjectURL(new Blob([makeIcs(ev)], { type: 'text/calendar;charset=utf-8' }));
+    var a = document.createElement('a');
+    a.href = url; a.download = name + '.ics';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(url); }, 30000);
   }
 
   /* ---------- Filtre + seçim ---------- */
 
-  function filtersActive() { return state.sport !== 'tumu' || state.turkOnly || state.favOnly; }
+  function filtersActive() { return state.sport !== 'tumu' || state.favOnly; }
 
   function passes(ev) {
     if (state.sport !== 'tumu' && ev.category !== state.sport) return false;
-    if (state.turkOnly && !ev.turkish) return false;
     if (state.favOnly && !isFav(ev)) return false;
     return true;
   }
@@ -258,46 +332,35 @@
       .sort(function (a, b) { return a.kickoff - b.kickoff; });
   }
 
-  function reasons(ev) {
-    var r = [];
-    if (ev.rivalry) r.push(ev.rivalry);
-    else if (ev.tags.indexOf('derbi') !== -1) r.push('Derbi');
-    if (ev.bigCount === 2) r.push('İki büyük takım');
-    else if (ev.bigCount === 1) r.push('Büyük takım');
-    ev.tags.forEach(function (t) { if (t !== 'derbi' && GM.TAG_LABEL[t]) r.push(GM.TAG_LABEL[t]); });
-    if ((GM.COMPETITION_WEIGHT[ev.competitionId] || 0) >= 80) r.push('Üst düzey organizasyon');
-    if (ev.turkish) r.push(GM.TAG_LABEL.turkish);
-    return '<div class="why">' + r.map(esc).join(' · ') + '</div>';
-  }
-
   /* ---------- Çizim ---------- */
 
-  function dayLabel() {
-    var t = today();
-    if (state.date === t) return 'BUGÜN';
-    if (state.date === T.addDays(t, 1)) return 'YARIN';
-    if (state.date === T.addDays(t, -1)) return 'DÜN';
-    return T.shortDate(state.date).toLocaleUpperCase('tr') + ' GÜNÜ';
+  var wdShort = new Intl.DateTimeFormat('tr-TR', { timeZone: 'UTC', weekday: 'short' });
+  function dayParts(str) {
+    var a = str.split('-').map(Number);
+    var d = new Date(Date.UTC(a[0], a[1] - 1, a[2], 12));
+    return { wd: wdShort.format(d).replace('.', ''), day: a[2] };
+  }
+
+  function renderDays() {
+    var t = today(), html = '';
+    for (var i = 0; i <= DAYS_AHEAD; i++) {
+      var d = T.addDays(t, i), p = dayParts(d);
+      var top = i === 0 ? 'Bugün' : p.wd;
+      var on = !state.search && state.date === d;
+      html += '<button class="day' + (on ? ' on' : '') + '" data-day="' + d + '"' + (on ? ' aria-current="date"' : '') + '>' +
+        '<b>' + top + '</b><small>' + p.day + ' ' + T.shortDate(d).split(' ')[1].slice(0, 3) + '</small></button>';
+    }
+    $('days').innerHTML = html;
+    var cur = $('days').querySelector('.day.on');
+    if (cur && !renderDays.done) { cur.scrollIntoView({ inline: 'center', block: 'nearest' }); renderDays.done = true; }
   }
 
   function renderHeader() {
-    $('dateTitle').textContent = T.longDate(state.date);
-    $('todayBtn').classList.toggle('on', state.date === today());
+    document.title = 'Günün Maçları · ' + T.longDate(state.date);
     var n = favs.teams.length + favs.leagues.length;
-    $('favBtn').innerHTML = '★ Favoriler' + (n ? ' <span class="n">' + n + '</span>' : '');
-  }
-
-  function renderSummary(all, events) {
-    var onTv = events.filter(function (e) { return e.broadcasters.length; });
-    var counts = {};
-    onTv.forEach(function (e) { counts[e.category] = (counts[e.category] || 0) + 1; });
-    var parts = GM.CATEGORIES.slice(1)
-      .filter(function (c) { return counts[c.id]; })
-      .map(function (c) { return c.label.charAt(0) + c.label.slice(1).toLocaleLowerCase('tr') + ' ' + counts[c.id]; });
-    var kalan = events.length < all.length ? 'KALAN ' : '';
-    $('summary').innerHTML =
-      '<div class="sum-main">' + dayLabel() + ' TV\'DE ' + kalan + '<strong>' + onTv.length + '</strong> KARŞILAŞMA</div>' +
-      (parts.length ? '<div class="sum-sub">' + parts.join(' · ') + '</div>' : '');
+    $('favBtn').innerHTML = '★' + (n ? '<span class="n">' + n + '</span>' : '');
+    $('searchBtn').classList.toggle('on', !$('searchForm').hidden);
+    renderDays();
   }
 
   function chip(label, on, attrs, count) {
@@ -306,60 +369,75 @@
   }
 
   function renderFilters(events) {
-    $('sportFilters').innerHTML = GM.CATEGORIES.map(function (c) {
+    var favN = events.filter(isFav).length;
+    $('filters').innerHTML = GM.CATEGORIES.map(function (c) {
       var n = c.id === 'tumu' ? events.length : events.filter(function (e) { return e.category === c.id; }).length;
       if (c.id !== 'tumu' && !n && state.sport !== c.id) return '';
       return chip(c.label, state.sport === c.id, 'data-sport="' + c.id + '"', n);
-    }).join('');
-
-    var favN = events.filter(isFav).length;
-    var turkN = events.filter(function (e) { return e.turkish; }).length;
-    $('extraFilters').innerHTML =
-      (favN || state.favOnly ? chip('★ FAVORİLERİM', state.favOnly, 'data-toggle="favOnly"', favN) : '') +
-      (turkN || state.turkOnly ? chip('TÜRK TAKIMLARI', state.turkOnly, 'data-toggle="turkOnly"', turkN) : '');
+    }).join('') +
+      (favN || state.favOnly ? chip('★ FAVORİLERİM', state.favOnly, 'data-toggle="favOnly"', favN) : '');
   }
 
-  function section(title, sub, html) {
-    return '<section class="sec"><h2>' + esc(title) + (sub ? ' <span>' + esc(sub) + '</span>' : '') + '</h2>' + html + '</section>';
+  function section(title, sub, html, right) {
+    return '<section class="sec"><div class="sec-head"><h2>' + esc(title) + (sub ? ' <span>' + esc(sub) + '</span>' : '') +
+      '</h2>' + (right || '') + '</div>' + html + '</section>';
+  }
+
+  function sumLine(all, events, now) {
+    var onTv = events.filter(function (e) { return e.broadcasters.length; }).length;
+    var live = events.filter(function (e) { return isLive(e, now); }).length;
+    var kalan = events.length < all.length ? ' kalan' : '';
+    return '<p class="sumline"><b>' + esc(T.longDate(state.date).replace(/ \d{4}/, '')) + '</b> · TV\'de' + kalan + ' ' +
+      onTv + ' karşılaşma' + (live ? ' · <span class="livecount">' + live + ' canlı</span>' : '') + '</p>';
   }
 
   function renderContent(all, events, now) {
     var list = events.filter(passes);
-    var html = '';
-
-    if (!filtersActive()) {
-      var fav = events.filter(isFav);
-      if (fav.length) html += section('★ Favorilerim', fav.length + ' karşılaşma', cards(fav, now));
-
-      var hl = highlights(events);
-      if (hl.length) html += section('Önerilen Maçlar', 'derbiler ve büyük takımlar · en fazla 5', cards(hl, now, reasons));
-
-      var tr = events.filter(function (e) { return e.turkish; });
-      if (tr.length) html += section('Türk Takımları', tr.length + ' karşılaşma', cards(tr, now));
-    }
+    var html = sumLine(all, events, now);
 
     // Uzak günlerde kanallar programı henüz tamamlamamış olur; liste yaklaştıkça dolar.
     if (state.date > T.addDays(today(), 2)) {
-      html = '<p class="notice">Bu günün programı henüz kesinleşmedi. Kanallar yayınları yaklaştıkça ekliyor; ' +
-        'liste her gün birkaç kez güncellenir.</p>' + html;
+      html += '<p class="notice">Bu günün programı henüz kesinleşmedi. Kanallar yayınları yaklaştıkça ekliyor; ' +
+        'liste her gün birkaç kez güncellenir.</p>';
+    }
+
+    if (!filtersActive()) {
+      var fav = events.filter(isFav);
+      if (fav.length) html += section('★ Favorilerim', fav.length + '', cards(fav, now));
+
+      var hl = highlights(events);
+      if (hl.length) html += section('Bunları Kaçırma', 'derbiler ve büyük takımlar',
+        '<div class="scroller hl-row">' + hl.map(function (e) { return hlCard(e, now); }).join('') + '</div>');
     }
 
     var empty = !events.length && all.length
       ? 'Bu günün karşılaşmaları tamamlandı.'
       : state.favOnly && !favs.teams.length && !favs.leagues.length
-        ? 'Henüz favori seçmedin. Yukarıdaki ★ Favoriler düğmesinden takım veya lig ekle.'
+        ? 'Henüz favori seçmedin. Sağ üstteki ★ düğmesinden takım veya lig ekle.'
         : 'Bu filtreye uyan karşılaşma yok.';
 
-    var sortCtl = '<div class="sort" role="group" aria-label="Sıralama"><span>Sırala</span>' +
+    var sortCtl = list.length ? '<div class="sort" role="group" aria-label="Sıralama">' +
       chip('Saat', state.sortBy === 'saat', 'data-sort="saat"') +
-      chip('Lig', state.sortBy === 'lig', 'data-sort="lig"') + '</div>';
-    html += section(filtersActive() ? 'Filtrelenmiş Liste' : 'Tüm Karşılaşmalar',
-      list.length ? list.length + ' karşılaşma' : '',
+      chip('Lig', state.sortBy === 'lig', 'data-sort="lig"') + '</div>' : '';
+    var hlRow = document.querySelector('.hl-row'), hlScroll = hlRow ? hlRow.scrollLeft : 0;
+    html += '<div id="allList"' + (state.sortBy === 'lig' ? ' class="by-league"' : '') + '>' + section(filtersActive() ? 'Filtrelenmiş' : 'Tüm Maçlar',
+      list.length ? list.length + '' : '',
       list.length
-        ? sortCtl + (state.sortBy === 'lig' ? byLeague(list, now) : cards(list, now))
-        : '<p class="empty">' + empty + '</p>');
+        ? (state.sortBy === 'lig' ? byLeague(list, now) : byTime(list, now))
+        : '<p class="empty">' + empty + '</p>', sortCtl) + '</div>';
 
     $('content').innerHTML = html;
+    // 30 sn'lik yenilemede Önerilen şeridi başa sarmasın.
+    if (hlScroll && (hlRow = document.querySelector('.hl-row'))) hlRow.scrollLeft = hlScroll;
+  }
+
+  // Saate göre: şu an oynananlar ayrı başlık altında, sonra sıradakiler.
+  function byTime(list, now) {
+    var live = list.filter(function (e) { return isLive(e, now); });
+    var next = list.filter(function (e) { return !isLive(e, now); });
+    if (!live.length) return cards(next, now);
+    return '<div class="grp live-grp">Şu an yayında <span class="n">' + live.length + '</span></div>' + cards(live, now) +
+      (next.length ? '<div class="grp">Sıradaki <span class="n">' + next.length + '</span></div>' + cards(next, now) : '');
   }
 
   // Lige göre: ligler önem sırasıyla (ağırlık), aynı ağırlıkta ada göre; lig içinde saat sırası.
@@ -377,8 +455,8 @@
     });
     return order.map(function (key) {
       var g = groups[key];
-      return '<h3 class="lg" style="--lc:' + leagueColor(g.ev) + '"><span class="ldot"></span>' + esc(g.label) +
-        ' <span class="n">' + g.items.length + '</span></h3>' + cards(g.items, now);
+      return '<div class="grp lg" style="--lc:' + leagueColor(g.ev) + '">' + esc(g.label) +
+        ' <span class="n">' + g.items.length + '</span></div>' + cards(g.items, now);
     }).join('');
   }
 
@@ -390,28 +468,25 @@
       '<p>Veri: ' + esc(d.providerLabel) +
       (d.generatedAt ? ' · Derlendi: ' + T.shortDate(T.dateStr(d.generatedAt)) + ' ' + T.hm(d.generatedAt) : '') +
       (src ? ' · Kaynaklar: ' + src : '') + '</p>' +
-      '<p>Saatler Türkiye saatidir (TSİ). Biten karşılaşmalar gösterilmez. ' +
-      '<span class="approx">~</span> işaretli CANLI durumu canlı veri değil, başlama saatine göre tahmindir. ' +
-      '<span class="verify ok">✓</span> = maç kanalın kendi yayın akışında da var.</p>' +
+      '<p>Saatler Türkiye saatidir (TSİ). Biten karşılaşmalar gösterilmez. Karta dokununca ayrıntı ve favori düğmeleri açılır. ' +
+      '“CANLI~”: canlı veri değil, başlama saatine göre tahmin. ' +
+      '“✓ akışta var”: maç kanalın kendi yayın akışında da var.</p>' +
       (d.dropped ? '<p>' + d.dropped + ' kayıt başka güne ait olduğu için gösterilmedi.</p>' : '');
   }
 
   function renderError() {
-    $('summary').innerHTML = '';
-    $('sportFilters').innerHTML = $('extraFilters').innerHTML = '';
+    $('filters').innerHTML = '';
     var future = state.date > today();
     $('content').innerHTML =
       '<div class="error"><p class="error-title">' +
         (future ? 'Bu günün programı henüz yayınlanmadı.' : 'Maç bilgileri şu anda güncellenemiyor.') + '</p>' +
       '<p class="error-detail">' +
         (future ? 'Liste o gün gece yarısından sonra otomatik hazırlanır.' : esc(state.error)) + '</p>' +
-      '<button class="nav-btn" id="retryBtn">Tekrar dene</button></div>';
+      '<button class="pill-btn" id="retryBtn">Tekrar dene</button></div>';
     $('meta').innerHTML = '';
   }
 
   /* ---------- Takım / lig araması (bugün + 7 gün) ---------- */
-
-  var SEARCH_DAYS = 8;
 
   function matchesQuery(ev, q) {
     q = lc(q);
@@ -425,7 +500,7 @@
     state.searchResults = null;
     render();
     var dates = [];
-    for (var i = 0; i < SEARCH_DAYS; i++) dates.push(T.addDays(today(), i));
+    for (var i = 0; i <= DAYS_AHEAD; i++) dates.push(T.addDays(today(), i));
     Promise.all(dates.map(function (d) {
       return GM.api.getDay(d).then(function (x) { return x; }, function () { return null; });
     })).then(function (days) {
@@ -439,22 +514,22 @@
   function closeSearch() {
     state.search = null; state.searchResults = null;
     $('searchInput').value = '';
+    $('searchForm').hidden = true;
     render();
   }
 
   function renderSearch(now) {
     var q = state.search;
-    $('sportFilters').innerHTML = $('extraFilters').innerHTML = '';
+    $('filters').innerHTML = '';
     $('meta').innerHTML = '';
     var teamFav = teamIsFav(q);
     var head = '<div class="search-head">' +
-      '<button class="nav-btn" id="searchClose">← Günün listesine dön</button>' +
+      '<button class="pill-btn" id="searchClose">← Günün listesine dön</button>' +
       '<button class="fav-btn' + (teamFav ? ' on' : '') + '" data-fav-team="' + esc(q) + '">' +
         (teamFav ? '★ ' : '☆ ') + esc(q) + (teamFav ? ' favorilerde' : ' favorilere ekle') + '</button></div>';
 
     if (!state.searchResults) {
-      $('summary').innerHTML = '<div class="sum-main">“' + esc(q) + '” ARANIYOR…</div>';
-      $('content').innerHTML = head + '<p class="empty">Günler taranıyor…</p>';
+      $('content').innerHTML = head + '<p class="sumline"><b>“' + esc(q) + '”</b> aranıyor…</p>';
       return;
     }
     var total = 0, html = '';
@@ -463,15 +538,13 @@
       if (!list.length) return;
       total += list.length;
       var label = d.date === today() ? 'Bugün' : d.date === T.addDays(today(), 1) ? 'Yarın' : '';
-      html += section(T.longDate(d.date), (label ? label + ' · ' : '') + list.length + ' karşılaşma', cards(list, now));
+      html += section(T.longDate(d.date).replace(/ \d{4}/, ''), (label ? label + ' · ' : '') + list.length, cards(list, now));
     });
-    var last = T.shortDate(T.addDays(today(), SEARCH_DAYS - 1));
-    $('summary').innerHTML =
-      '<div class="sum-main">“' + esc(q) + '” · <strong>' + total + '</strong> KARŞILAŞMA</div>' +
-      '<div class="sum-sub">Bugünden ' + last + '’e kadar TV’de. Uzak günlerin programı henüz eksik olabilir.</div>';
-    $('content').innerHTML = head + (html ||
-      '<p class="empty">Bu tarihler arasında “' + esc(q) + '” için TV’de karşılaşma bulunamadı. ' +
-      'Takım adının bir kısmını yazmak yeterli (ör. “Fener”).</p>');
+    var last = T.shortDate(T.addDays(today(), DAYS_AHEAD));
+    $('content').innerHTML = head +
+      '<p class="sumline"><b>“' + esc(q) + '”</b> · ' + total + ' karşılaşma · bugünden ' + last + '’e kadar</p>' +
+      (html || '<p class="empty">Bu tarihler arasında “' + esc(q) + '” için TV’de karşılaşma bulunamadı. ' +
+        'Takım adının bir kısmını yazmak yeterli (ör. “Fener”).</p>');
   }
 
   // Arama ve favori kutularındaki öneri listesi: popüler takımlar + yüklü günlerdeki takımlar.
@@ -487,7 +560,7 @@
       .map(function (n) { return '<option value="' + esc(n) + '">'; }).join('');
   }
 
-  function draw() {
+  function render() {
     renderHeader();
     if (state.search) return renderSearch(new Date());
     if (state.loading && !state.data) {
@@ -498,21 +571,9 @@
     var now = new Date();
     var all = state.data.events;
     var events = remaining(all, now);
-    renderSummary(all, events);
     renderFilters(events);
     renderContent(all, events, now);
     renderMeta(state.data);
-  }
-
-  // Yeniden çizimde açık "Maç Detayı" kutuları kapanmasın.
-  function render() {
-    var open = Array.prototype.map.call(document.querySelectorAll('.card details[open]'), function (d) {
-      return d.closest('.card').dataset.id;
-    });
-    draw();
-    if (open.length) document.querySelectorAll('.card').forEach(function (c) {
-      if (open.indexOf(c.dataset.id) !== -1) c.querySelector('details').open = true;
-    });
     if ($('favDialog').open) renderFavDialog();
   }
 
@@ -561,30 +622,61 @@
     });
   }
 
+  // Geçmiş günler yok: bugünden önceki ya da 7 günden sonraki tarih bugüne döner.
   function go(date) {
+    var t = today();
+    if (!T.isValidDateStr(date) || date < t || date > T.addDays(t, DAYS_AHEAD)) date = t;
     state.search = null; state.searchResults = null;
+    $('searchForm').hidden = true;
     state.date = date;
-    state.followToday = date === today();
-    state.data = null; state.error = null;
+    state.followToday = date === t;
+    state.data = null; state.error = null; state.open = {};
     history.replaceState(null, '', state.followToday ? location.pathname : '#' + date);
     load();
+  }
+
+  // Önerilen'deki küçük karta dokununca listedeki asıl kart açılır ve oraya kayılır.
+  function goto(id) {
+    state.open[id] = true;
+    render();
+    var el = document.querySelector('#allList .card[data-id="' + CSS.escape(id) + '"]');
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    el.classList.add('flash');
   }
 
   document.addEventListener('click', function (e) {
     var dlg = $('favDialog');
     if (e.target === dlg) return dlg.close();  // pencere dışına tıklama
     var b = e.target.closest('button');
-    if (!b) return;
-    if (b.id === 'prevDay') return go(T.addDays(state.date, -1));
-    if (b.id === 'nextDay') return go(T.addDays(state.date, 1));
-    if (b.id === 'todayBtn') return go(today());
+    if (!b) {
+      // Karta dokunma: ayrıntıyı aç/kapat (ayrıntının içindeki metne dokunmak kapatmaz).
+      var c = e.target.closest('.card');
+      if (c && !e.target.closest('.c-detail')) {
+        var id = c.dataset.id;
+        if (state.open[id]) delete state.open[id]; else state.open[id] = true;
+        document.querySelectorAll('.card[data-id="' + CSS.escape(id) + '"]').forEach(function (x) {
+          x.classList.toggle('open', !!state.open[id]);
+        });
+      }
+      return;
+    }
+    if (b.dataset.day) return go(b.dataset.day);
+    if (b.dataset.goto) return goto(b.dataset.goto);
     if (b.id === 'retryBtn') return load();
     if (b.id === 'searchClose') return closeSearch();
+    if (b.id === 'searchBtn') {
+      if (state.search) return closeSearch();
+      $('searchForm').hidden = !$('searchForm').hidden;
+      if (!$('searchForm').hidden) $('searchInput').focus();
+      return renderHeader();
+    }
     if (b.id === 'favBtn') { renderFavDialog(); return dlg.showModal(); }
     if (b.id === 'favClose') return dlg.close();
     if (b.dataset.sport) { state.sport = b.dataset.sport; return render(); }
     if (b.dataset.toggle) { state[b.dataset.toggle] = !state[b.dataset.toggle]; return render(); }
     if (b.dataset.sort) { state.sortBy = b.dataset.sort; saveSort(); return render(); }
+    if (b.dataset.cal) return addToCalendar(b.dataset.cal);
     if (b.dataset.favTeam) { toggleTeam(b.dataset.favTeam); return render(); }
     if (b.dataset.favLeague) { toggleLeague(b.dataset.favLeague); return render(); }
     if (b.dataset.rmTeam) {
@@ -612,12 +704,20 @@
     render();
   });
 
+  // Şerit yapışınca altına ince çizgi.
+  if ('IntersectionObserver' in window) {
+    var sentinel = document.createElement('div');
+    $('bar').before(sentinel);
+    new IntersectionObserver(function (en) {
+      $('bar').classList.toggle('stuck', !en[0].isIntersecting);
+    }).observe(sentinel);
+  }
+
   setInterval(function () {
     if (state.followToday && state.date !== today()) return go(today());  // gece yarısı: yeni gün
     if (state.followToday && Date.now() - state.loadedAt > REFRESH_MS) return load();
     if (state.data || state.searchResults) render();
   }, TICK_MS);
 
-  var h = location.hash.slice(1);
-  go(T.isValidDateStr(h) ? h : today());
+  go(location.hash.slice(1));
 })();
