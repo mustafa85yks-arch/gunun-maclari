@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Günün Maçları</title>
+  <meta name="description" content="Türkiye'de TV'de günün maçları">
+  <meta name="theme-color" content="#f6f6f4">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Maçlar">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="brandline">GÜNÜN MAÇLARI <span>· Türkiye</span></div>
+      <h1 id="dateTitle">&nbsp;</h1>
+      <nav class="daynav" aria-label="Gün seçimi">
+        <button class="nav-btn" id="prevDay">← Önceki Gün</button>
+        <button class="nav-btn" id="todayBtn">BUGÜN</button>
+        <button class="nav-btn" id="nextDay">Sonraki Gün →</button>
+        <button class="nav-btn fav-open" id="favBtn">★ Favoriler</button>
+      </nav>
+    </header>
+
+    <section class="summary" id="summary"></section>
+
+    <section class="filters" aria-label="Filtreler">
+      <div class="chips" id="sportFilters"></div>
+      <div class="chips" id="extraFilters"></div>
+    </section>
+
+    <main id="content"></main>
+
+    <footer class="meta" id="meta"></footer>
+  </div>
+
+  <dialog id="favDialog" class="fav-dialog" aria-labelledby="favTitle">
+    <div class="fav-head">
+      <h2 id="favTitle">Favoriler</h2>
+      <button class="nav-btn" id="favClose">Tamam</button>
+    </div>
+    <p class="fav-note">Favori maçlar en üstte ayrı bölümde görünür. Seçimler bu tarayıcıda saklanır.</p>
+
+    <h3>Takımlar</h3>
+    <div class="chips" id="favTeams"></div>
+    <form id="favTeamForm" class="fav-form" autocomplete="off">
+      <input id="favTeamInput" list="teamSuggest" placeholder="Takım adı yaz (ör. Fenerbahçe)">
+      <button class="nav-btn" type="submit">Ekle</button>
+    </form>
+    <datalist id="teamSuggest"></datalist>
+    <p class="fav-note">Adı içeren her maç gelir: "Fenerbahçe" hem futbolu hem Fenerbahçe Beko'yu kapsar.</p>
+
+    <h3>Ligler</h3>
+    <div class="chips" id="favLeagues"></div>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
