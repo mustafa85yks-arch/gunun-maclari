@@ -83,6 +83,36 @@ GM.LEAGUES = [
   { id: 'motogp', label: 'MotoGP' },
   { id: 'ufc', label: 'UFC' }
 ];
+// Lig renkleri: kartın zemini bu rengin açık tonu, lig adının yanındaki nokta tam tonu.
+// Her lig ayrı renk. Aynı gün yan yana gelenler özellikle uzak tonlarda:
+//   hafta sonu: Süper Lig / 1. Lig / Premier / La Liga / Serie A / Bundesliga / Ligue 1
+//   hafta içi : Şampiyonlar / Avrupa / Konferans Ligi / EuroLeague / Türkiye Kupası
+GM.LEAGUE_COLORS = {
+  'super-lig': '#fcc419',       // sarı
+  '1-lig': '#a9e34b',           // açık yeşil
+  'turkiye-kupasi': '#d9480f',  // kiremit
+  'milli': '#c92a2a',           // koyu kırmızı
+  'ucl': '#364fc7',             // lacivert
+  'uel': '#ff8787',             // mercan
+  'uecl': '#2b8a3e',            // koyu yeşil
+  'premier-league': '#4dabf7',  // gök mavisi
+  'la-liga': '#ff922b',         // turuncu
+  'serie-a': '#12b886',         // deniz yeşili
+  'bundesliga': '#f06595',      // pembe
+  'ligue-1': '#3bc9db',         // camgöbeği
+  'euroleague': '#be4bdb',      // mor
+  'bsl': '#94d82d',             // fıstık yeşili
+  'nba': '#1c7ed6',             // mavi
+  'nfl': '#5c7cfa',             // çivit
+  'f1': '#fa5252',              // kırmızı
+  'motogp': '#495057',          // koyu gri
+  'ufc': '#868e96',             // gri
+  'atp': '#1098ad',             // petrol
+  'wta': '#e599f7',             // lila
+  'grand-slam': '#37b24d'       // çimen yeşili
+};
+GM.DEFAULT_LEAGUE_COLOR = '#dee2e6';
+
 // Alt organizasyon → favorilerde sayıldığı ana lig.
 GM.LEAGUE_ALIAS = { 'euroleague-super-kupa': 'euroleague' };
 

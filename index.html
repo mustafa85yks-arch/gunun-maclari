@@ -26,6 +26,11 @@
         <button class="nav-btn" id="nextDay">Sonraki Gün →</button>
         <button class="nav-btn fav-open" id="favBtn">★ Favoriler</button>
       </nav>
+      <form class="search" id="searchForm" role="search" autocomplete="off">
+        <input id="searchInput" type="search" list="teamSuggest" enterkeyhint="search"
+               placeholder="Takım veya lig ara (ör. Galatasaray, NFL)" aria-label="Takım veya lig ara">
+        <button class="nav-btn" type="submit">Ara</button>
+      </form>
     </header>
 
     <section class="summary" id="summary"></section>

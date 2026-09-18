@@ -44,6 +44,16 @@ h1 {
 .nav-btn:hover { border-color: var(--ink); }
 #todayBtn.on { background: var(--ink); color: #fff; border-color: var(--ink); }
 
+/* ---------- Arama ---------- */
+.search { display: flex; gap: 8px; margin-top: 12px; }
+.search input {
+  flex: 1; min-width: 0; font: inherit; font-size: 15px; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 999px; padding: 9px 16px; background: var(--card);
+  -webkit-appearance: none; appearance: none;
+}
+.search input:focus { outline: none; border-color: var(--ink); }
+.search-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+
 /* ---------- Özet ---------- */
 .summary { margin: 26px 0 18px; padding: 16px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); }
 .sum-main { font-size: 13px; font-weight: 700; letter-spacing: .08em; }
@@ -83,7 +93,16 @@ h1 {
   display: grid; grid-template-columns: 96px 1fr auto; column-gap: 16px; row-gap: 6px;
   align-items: center;
 }
-.card.is-live { border-color: var(--live); box-shadow: inset 3px 0 0 var(--live); }
+/* Kart zemini = lig renginin açık tonu (--lc karttan gelir). Canlı maçta çerçeve kırmızı. */
+.card {
+  background: color-mix(in srgb, var(--lc, #fff) 28%, var(--card));
+  border-color: color-mix(in srgb, var(--lc, var(--line)) 55%, var(--card));
+}
+.card.is-live { border-color: var(--live); box-shadow: 0 0 0 1px var(--live); }
+.ldot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--lc, var(--line)); margin-right: 6px; vertical-align: 1px;
+}
 
 .c-time { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
 .time { font-size: 26px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; line-height: 1; }

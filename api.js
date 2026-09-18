@@ -55,11 +55,14 @@
     if (date && pending[date]) pending[date](payload);
   };
 
+  var inflight = {};  // aynı gün aynı anda iki kez istenirse (ana ekran + arama) tek yükleme yapılır
+
   var providers = {
     localFile: {
       label: 'yerel dosya',
       getDay: function (date) {
-        return new Promise(function (resolve, reject) {
+        if (inflight[date]) return inflight[date];
+        var p = new Promise(function (resolve, reject) {
           var s = document.createElement('script');
           var bust = location.protocol === 'file:' ? '' : '?v=' + Date.now();
           s.src = GM.CONFIG.dataDir + '/' + date + '.js' + bust;
@@ -75,6 +78,10 @@
           };
           document.head.appendChild(s);
         });
+        inflight[date] = p;
+        var clear = function () { delete inflight[date]; };
+        p.then(clear, clear);
+        return p;
       }
     },
 
