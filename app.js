@@ -311,6 +311,12 @@
       if (tr.length) html += section('Türk Takımları', tr.length + ' karşılaşma', cards(tr, now));
     }
 
+    // Uzak günlerde kanallar programı henüz tamamlamamış olur; liste yaklaştıkça dolar.
+    if (state.date > T.addDays(today(), 2)) {
+      html = '<p class="notice">Bu günün programı henüz kesinleşmedi. Kanallar yayınları yaklaştıkça ekliyor; ' +
+        'liste her gün birkaç kez güncellenir.</p>' + html;
+    }
+
     var empty = !events.length && all.length
       ? 'Bu günün karşılaşmaları tamamlandı.'
       : state.favOnly && !favs.teams.length && !favs.leagues.length

@@ -10,16 +10,19 @@ GM.CATEGORIES = [
   { id: 'futbol',    label: 'FUTBOL' },
   { id: 'basketbol', label: 'BASKETBOL' },
   { id: 'tenis',     label: 'TENİS' },
+  { id: 'amerikan',  label: 'AMERİKAN FUTBOLU' },
   { id: 'diger',     label: 'DİĞER' }
 ];
 
 GM.SPORT_NAMES = {
   futbol: 'Futbol', basketbol: 'Basketbol', tenis: 'Tenis', voleybol: 'Voleybol',
   hentbol: 'Hentbol', f1: 'Formula 1', motogp: 'MotoGP', ufc: 'UFC', boks: 'Boks',
-  bisiklet: 'Bisiklet', golf: 'Golf', atletizm: 'Atletizm', motosiklet: 'Motosiklet'
+  bisiklet: 'Bisiklet', golf: 'Golf', atletizm: 'Atletizm', motosiklet: 'Motosiklet',
+  'amerikan futbolu': 'Amerikan Futbolu'
 };
 
 GM.sportCategory = function (sport) {
+  if (sport === 'amerikan futbolu') return 'amerikan';
   return ['futbol', 'basketbol', 'tenis'].includes(sport) ? sport : 'diger';
 };
 
@@ -73,6 +76,7 @@ GM.LEAGUES = [
   { id: 'euroleague', label: 'EuroLeague' },
   { id: 'bsl', label: 'Basketbol Süper Ligi' },
   { id: 'nba', label: 'NBA' },
+  { id: 'nfl', label: 'NFL' },
   { id: 'atp', label: 'ATP' },
   { id: 'wta', label: 'WTA' },
   { id: 'f1', label: 'Formula 1' },
@@ -98,7 +102,7 @@ GM.COMPETITION_WEIGHT = {
   'premier-league': 85, 'la-liga': 80, 'bundesliga': 80, 'serie-a': 78, 'ligue-1': 72,
   'nba': 80, 'euroleague': 80, 'euroleague-super-kupa': 70, 'bsl': 65, 'f1': 85,
   'ufc': 70, 'boks': 60, 'grand-slam': 90, 'atp-masters': 60, 'wta-1000': 60,
-  '1-lig': 50, 'motogp': 55
+  '1-lig': 50, 'motogp': 55, 'nfl': 75
 };
 GM.DEFAULT_WEIGHT = 20;
 
@@ -106,5 +110,5 @@ GM.TAG_WEIGHT = { final: 30, derbi: 25, 'yari-final': 15, turkish: 25 };
 GM.TAG_LABEL  = { final: 'Final', derbi: 'Derbi', 'yari-final': 'Yarı final', turkish: 'Türk takımı' };
 
 // Maç süresi (dk). Canlı veri yoksa durum bu sürelere göre saatten tahmin edilir.
-GM.DURATION_MIN = { futbol: 115, basketbol: 135, tenis: 150, hentbol: 90, voleybol: 120 };
+GM.DURATION_MIN = { futbol: 115, basketbol: 135, tenis: 150, hentbol: 90, voleybol: 120, 'amerikan futbolu': 200 };
 GM.DEFAULT_DURATION_MIN = 120;

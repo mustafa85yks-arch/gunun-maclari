@@ -159,6 +159,10 @@ h1 {
 .fav-form input:focus { outline: none; border-color: var(--ink); }
 
 /* ---------- Durumlar ---------- */
+.notice {
+  margin: 24px 0 0; padding: 12px 14px; font-size: 13.5px; color: var(--ink-2);
+  background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius);
+}
 .empty { color: var(--ink-3); padding: 24px 0; }
 .error { margin-top: 30px; padding: 28px 20px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
 .error-title { margin: 0 0 6px; font-size: 18px; font-weight: 800; }

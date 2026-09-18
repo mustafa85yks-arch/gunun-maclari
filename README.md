@@ -12,25 +12,26 @@ Bilgisayarda yerel: `index.html`'e çift tıkla. Adres sonuna `#2026-09-18` ekle
 ## Günlük veri nasıl geliyor
 
 `.github/workflows/gunluk.yml` GitHub'ın sunucusunda her gün 00:10, 01:40, 07:00, 12:00 ve 17:00'de
-(TSİ) `scripts/veri_cek.py`'yi çalıştırır. Script sporekrani.com'un bugünkü listesini okur,
-`data/YYYY-AA-GG.js` yazar, değişiklik varsa kaydeder ve siteyi yeniden yayınlar. API anahtarı yok.
-14 günden eski dosyaları siler.
+(TSİ) `scripts/veri_cek.py`'yi çalıştırır. API anahtarı yok.
 
-- sporekrani sadece **bugünün** listesini sayfanın içinde veriyor; yarının listesi ancak gece yarısından sonra oluşur.
-- Site düzeni değişir de hiç maç okunamazsa script mevcut dosyaya dokunmaz; Actions sekmesinde sarı uyarı çıkar.
+1. **Ana liste — sporekrani.com, bugün + 7 gün.** Bugünün listesi sayfanın içinde gelir; diğer
+   günler sitede sekmeye tıklanınca yüklendiği için görünmez tarayıcı (Playwright + Chrome) sekmelere
+   tıklar. Tarayıcı açılamazsa sadece bugün çekilir. Uzak günler seyrek olur (kanallar programı
+   yaklaştıkça ekliyor); arayüz 3 günden ilerisi için "henüz kesinleşmedi" notu gösterir.
+2. **Doğrulama — kanalların kendi akışları.** ssport.tv (bugün + 2 gün, "Canlı Yayın" işaretli) ve
+   beinsports.com.tr (içinde bulunulan hafta). Aynı saatte aynı takımlar kanalın kendi akışında varsa
+   kartta ✓ çıkar. beIN tekrarları canlıdan ayırmıyor; bu yüzden beIN sadece doğrulamada kullanılıyor.
+3. `data/YYYY-AA-GG.js` yazılır, değişiklik varsa kaydedilir, site yeniden yayınlanır.
+   14 günden eski dosyalar silinir.
+
+- sporekrani'nin sitede gömülü duran kendi API anahtarı **kullanılmıyor** (başkasının anahtarı; depo da herkese açık).
+- ssport.tv sertifika zincirini eksik gönderdiği için Python'la değil tarayıcıyla okunuyor.
+- Bir günden hiç maç okunamazsa o günün dosyasına dokunulmaz; Actions sekmesinde sarı uyarı çıkar.
 - Elle çalıştırmak: GitHub → Actions → "Gunluk veri ve yayin" → Run workflow.
-- GitHub, 60 gün hiç hareket olmayan depolarda zamanlı görevi durdurur; görevin kendi kayıtları hareket sayıldığı için normalde sorun olmaz. Durursa Actions sekmesinden yeniden etkinleştir.
-
-## Favoriler
-
-"★ Favoriler" düğmesinden takım ve lig seçilir; kartta "Maç Detayı" altındaki ☆ düğmeleri de ekler.
-Favori maçlar en üstte "Favorilerim" bölümünde görünür, "★ FAVORİLERİM" düğmesi sadece onları süzer.
-Takım eşleşmesi ad içinde geçmeye bakar: "Fenerbahçe" hem futbolu hem "Fenerbahçe Beko"yu kapsar.
-Seçimler tarayıcının localStorage'ında (`gm-favoriler`) durur; başka tarayıcıya/cihaza taşınmaz.
-"Öne çıkanlar" favorilerden etkilenmez, nesnel kalır.
-
-Biten karşılaşmalar gösterilmez (canlı veri yoksa bitiş, başlama saati + spor süresinden hesaplanır:
-futbol 115 dk, basketbol 135 dk, tenis 150 dk → `data.js` → `DURATION_MIN`).
+- Yerelde deneme: `pip install playwright` sonra `python3 scripts/veri_cek.py --gun 3`
+  (python.org Python'unda sertifika hatası çıkarsa başına `SSL_CERT_FILE=/etc/ssl/cert.pem`).
+- GitHub, 60 gün hareketsiz depolarda zamanlı görevi durdurur; görevin kendi kayıtları hareket
+  sayıldığı için normalde sorun olmaz. Durursa Actions sekmesinden yeniden etkinleştir.
 
 ## Dosyalar
 
