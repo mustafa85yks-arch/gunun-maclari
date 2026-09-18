@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:32:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:40:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-18T16:32:20+03:00",
+ "generatedAt": "2026-09-18T16:40:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -581,7 +581,7 @@ GM_REGISTER_DAY({
    "id": "se-488393",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-20T15:00:00+03:00",
    "broadcasters": [
     "EHF TV"
@@ -597,7 +597,7 @@ GM_REGISTER_DAY({
    "id": "se-488394",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-20T15:00:00+03:00",
    "broadcasters": [
     "EHF TV"
@@ -1041,7 +1041,7 @@ GM_REGISTER_DAY({
    "id": "se-488395",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-20T17:00:00+03:00",
    "broadcasters": [
     "EHF TV"
@@ -1057,7 +1057,7 @@ GM_REGISTER_DAY({
    "id": "se-488396",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-20T17:00:00+03:00",
    "broadcasters": [
     "EHF TV"

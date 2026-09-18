@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:32:13+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:40:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-19",
- "generatedAt": "2026-09-18T16:32:13+03:00",
+ "generatedAt": "2026-09-18T16:40:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -267,8 +267,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-487491",
    "sport": "futbol",
-   "competition": "İspanya La Liga  TakımEkipmanı Seç",
-   "competitionId": "ispanya-la-liga-takimekipmani-sec",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
    "kickoff": "2026-09-19T15:00:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -773,7 +773,7 @@ GM_REGISTER_DAY({
    "id": "se-488389",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-19T17:00:00+03:00",
    "broadcasters": [
     "EHF TV"
@@ -789,7 +789,7 @@ GM_REGISTER_DAY({
    "id": "se-488390",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-19T17:00:00+03:00",
    "broadcasters": [
     "EHF TV"
@@ -964,7 +964,7 @@ GM_REGISTER_DAY({
    "id": "se-488391",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-19T19:00:00+03:00",
    "broadcasters": [
     "EHF TV"
@@ -980,7 +980,7 @@ GM_REGISTER_DAY({
    "id": "se-488392",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-09-19T19:00:00+03:00",
    "broadcasters": [
     "EHF TV"
