@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T15:58:37+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:03:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-18",
- "generatedAt": "2026-09-18T15:58:37+03:00",
+ "generatedAt": "2026-09-18T16:03:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-09-18"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -115,9 +123,10 @@ GM_REGISTER_DAY({
     "S Sport",
     "S Sport Plus"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Serbest Antrenman 1"
   },
@@ -177,9 +186,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Bandırmaspor",
    "away": "Ümraniyespor",
@@ -211,9 +221,10 @@ GM_REGISTER_DAY({
     "S Sport 2",
     "S Sport Plus"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Antrenman"
   },
@@ -242,9 +253,10 @@ GM_REGISTER_DAY({
     "S Sport",
     "S Sport Plus"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Fenerbahçe Tarfin",
    "away": "Olympiakos"
@@ -322,9 +334,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Muğlaspor",
    "away": "Iğdırspor",
@@ -340,9 +353,10 @@ GM_REGISTER_DAY({
     "S Sport",
     "S Sport Plus"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Dubai Basket",
    "away": "Real Madrid"
@@ -356,9 +370,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Kasımpaşa",
    "away": "Konyaspor",
@@ -454,9 +469,10 @@ GM_REGISTER_DAY({
     "S Sport 2",
     "S Sport Plus"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Monza",
    "away": "Sassuolo"
@@ -470,9 +486,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Monaco",
    "away": "Lens"
@@ -487,9 +504,10 @@ GM_REGISTER_DAY({
     "S Sport",
     "S Sport Plus"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Espanyol",
    "away": "Elche"
@@ -503,9 +521,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Brentford",
    "away": "Chelsea"
