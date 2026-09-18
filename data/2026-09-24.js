@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T17:06:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T20:45:47+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-18T17:06:04+03:00",
+ "generatedAt": "2026-09-18T20:45:47+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -57,6 +57,22 @@ GM_REGISTER_DAY({
    "away": "Güney Kore"
   },
   {
+   "id": "se-489256",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-24T14:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Perth Wildcats",
+   "away": "Adelaide 36ers"
+  },
+  {
    "id": "se-481461",
    "sport": "motor sporları",
    "competition": "Formula 1 Azerbaycan GP",
@@ -88,22 +104,6 @@ GM_REGISTER_DAY({
    "away": "Kanada"
   },
   {
-   "id": "se-488068",
-   "sport": "futbol",
-   "competition": "UEFA Dostluk Kupasi",
-   "competitionId": "uefa-dostluk-kupasi",
-   "kickoff": "2026-09-24T19:00:00+03:00",
-   "broadcasters": [
-    "UEFA.tv"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İngiltere",
-   "away": "Kolombiya"
-  },
-  {
    "id": "se-485805",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -119,6 +119,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hapoel Tel Aviv",
    "away": "Bayern Münih"
+  },
+  {
+   "id": "se-488068",
+   "sport": "futbol",
+   "competition": "UEFA Dostluk Kupasi",
+   "competitionId": "uefa-dostluk-kupasi",
+   "kickoff": "2026-09-24T19:00:00+03:00",
+   "broadcasters": [
+    "UEFA.tv"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İngiltere",
+   "away": "Kolombiya"
   },
   {
    "id": "se-485804",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T17:05:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T20:45:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-19",
- "generatedAt": "2026-09-18T17:05:57+03:00",
+ "generatedAt": "2026-09-18T20:45:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -150,6 +150,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 1"
+  },
+  {
+   "id": "se-489252",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-19T12:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Melbourne United",
+   "away": "Adelaide 36ers"
   },
   {
    "id": "se-483433",
@@ -611,9 +627,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Keçiörengücü",
    "away": "Sivasspor",
@@ -800,6 +817,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Sola HK",
    "away": "Ferencvaros"
+  },
+  {
+   "id": "se-489261",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-09-19T17:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Roanne",
+   "away": "Asvel Villeurbanne"
   },
   {
    "id": "se-487492",
@@ -1233,6 +1266,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 3"
+  },
+  {
+   "id": "se-489262",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-09-19T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paris",
+   "away": "JSF Nanterre"
   },
   {
    "id": "se-488467",

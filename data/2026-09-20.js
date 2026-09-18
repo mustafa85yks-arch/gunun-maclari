@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T17:06:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T20:45:47+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-18T17:06:04+03:00",
+ "generatedAt": "2026-09-18T20:45:47+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -381,6 +381,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Avustralya",
    "away": "MXGP Yarış 2"
+  },
+  {
+   "id": "se-489253",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-20T10:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sydney Kings",
+   "away": "Cairns Taipans"
   },
   {
    "id": "se-489206",
