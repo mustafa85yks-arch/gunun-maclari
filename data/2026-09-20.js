@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T20:45:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T00:19:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-18T20:45:47+03:00",
+ "generatedAt": "2026-09-19T00:19:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -435,8 +435,8 @@ GM_REGISTER_DAY({
    "competitionId": "moto3",
    "kickoff": "2026-09-20T12:00:00+03:00",
    "broadcasters": [
-    "S Sport",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -452,8 +452,8 @@ GM_REGISTER_DAY({
    "competitionId": "moto2",
    "kickoff": "2026-09-20T13:15:00+03:00",
    "broadcasters": [
-    "S Sport",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -469,8 +469,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-09-20T13:30:00+03:00",
    "broadcasters": [
-    "S Sport 2",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -583,8 +583,8 @@ GM_REGISTER_DAY({
    "competitionId": "motogp",
    "kickoff": "2026-09-20T15:00:00+03:00",
    "broadcasters": [
-    "S Sport",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -712,8 +712,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-09-20T16:00:00+03:00",
    "broadcasters": [
-    "S Sport 2",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -1253,8 +1253,8 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-09-20T18:30:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 3",
-    "beIN CONNECT"
+    "beIN CONNECT",
+    "beIN SPORTS 3"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -1271,8 +1271,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-09-20T19:00:00+03:00",
    "broadcasters": [
-    "S Sport 2",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -1355,8 +1355,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-09-20T19:30:00+03:00",
    "broadcasters": [
-    "S Sport",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -1538,8 +1538,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-09-20T21:45:00+03:00",
    "broadcasters": [
-    "S Sport 2",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -1572,8 +1572,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-09-20T22:00:00+03:00",
    "broadcasters": [
-    "S Sport",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "dogrulandi",
    "sources": [

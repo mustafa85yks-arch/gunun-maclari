@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T20:45:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T00:19:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-18T20:45:47+03:00",
+ "generatedAt": "2026-09-19T00:19:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -95,8 +95,8 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-09-25T20:00:00+03:00",
    "broadcasters": [
-    "S Sport 2",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -112,8 +112,8 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-09-25T20:45:00+03:00",
    "broadcasters": [
-    "S Sport",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -225,8 +225,8 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "S Sport",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
