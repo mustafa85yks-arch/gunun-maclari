@@ -1,17 +1,18 @@
-# G√ºn√ºn listesini sporekrani.com'dan √ßeker, data/ klas√∂r√ºne yazar ve siteyi yayƒ±nlar.
-# Saatler UTC'dir (T√ºrkiye = UTC+3).
+# Gunun Maclari: sporekrani.com'dan bugun + 7 gunun listesini ceker (gorunmez tarayiciyla),
+# beIN / S Sport akislariyla dogrular, data/ klasorune yazar ve siteyi yayinlar.
+# Saatler UTC'dir (Turkiye = UTC+3).
 name: Gunluk veri ve yayin
 
 on:
   schedule:
-    - cron: '10 21 * * *'   # 00:10 TSƒ∞ ‚Äî yeni g√ºn
-    - cron: '40 22 * * *'   # 01:40 TSƒ∞ ‚Äî site ge√ß d√∂nd√ºyse ikinci deneme
-    - cron: '0 4 * * *'     # 07:00 TSƒ∞
-    - cron: '0 9 * * *'     # 12:00 TSƒ∞
-    - cron: '0 14 * * *'    # 17:00 TSƒ∞
+    - cron: '10 21 * * *'   # 00:10 TSI - yeni gun
+    - cron: '40 22 * * *'   # 01:40 TSI - ikinci deneme
+    - cron: '0 4 * * *'     # 07:00 TSI
+    - cron: '0 9 * * *'     # 12:00 TSI
+    - cron: '0 14 * * *'    # 17:00 TSI
   push:
     branches: [main]
-  workflow_dispatch:        # Actions sekmesinden elle √ßalƒ±≈ütƒ±rma
+  workflow_dispatch:        # Actions sekmesinden elle calistirma
 
 permissions:
   contents: write
@@ -28,10 +29,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Gunun listesini cek
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Gorunmez tarayiciyi kur
+        run: |
+          pip install playwright
+          # Sunucuda Google Chrome hazir; yoksa Playwright'in kendi Chromium'u kurulur.
+          google-chrome --version || python -m playwright install --with-deps chromium
+
+      - name: Gunlerin listesini cek
         id: cek
-        continue-on-error: true   # veri √ßekilemese de site eski veriyle yayƒ±nda kalsƒ±n
-        run: python3 scripts/veri_cek.py
+        continue-on-error: true   # veri cekilemese de site eski veriyle yayinda kalsin
+        run: python scripts/veri_cek.py
 
       - name: Degistiyse kaydet
         run: |
@@ -39,7 +50,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A data
           if git diff --cached --quiet; then
-            echo "Veride deƒüi≈üiklik yok."
+            echo "Veride degisiklik yok."
           else
             git commit -m "Veri: $(TZ=Europe/Istanbul date '+%Y-%m-%d %H:%M')"
             git push
@@ -53,7 +64,7 @@ jobs:
       - name: Veri cekilemediyse uyar
         if: steps.cek.outcome == 'failure'
         run: |
-          echo "::warning::Veri √ßekilemedi; site √∂nceki veriyle yayƒ±nda. Ayrƒ±ntƒ± 'Gunun listesini cek' adƒ±mƒ±nda."
+          echo "::warning::Veri cekilemedi; site onceki veriyle yayinda. Ayrinti 'Gunlerin listesini cek' adiminda."
 
   yayinla:
     needs: guncelle
