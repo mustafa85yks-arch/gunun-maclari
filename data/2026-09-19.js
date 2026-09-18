@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:03:16+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:20:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-19",
- "generatedAt": "2026-09-18T16:03:16+03:00",
+ "generatedAt": "2026-09-18T16:20:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -218,8 +218,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-488086",
    "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "competition": "Basketbol 1. Ligi  BasketbolAyakkabısı Dene",
+   "competitionId": "basketbol-1-ligi-basketbolayakkabisi-dene",
    "kickoff": "2026-09-19T14:00:00+03:00",
    "broadcasters": [
     "TBF TV Youtube"
