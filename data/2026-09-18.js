@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:46:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T17:05:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-18",
- "generatedAt": "2026-09-18T16:46:59+03:00",
+ "generatedAt": "2026-09-18T17:05:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -406,9 +406,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Monaco",
    "away": "Lens"

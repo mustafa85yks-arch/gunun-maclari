@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T16:47:08+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-18T17:05:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-19",
- "generatedAt": "2026-09-18T16:47:08+03:00",
+ "generatedAt": "2026-09-18T17:05:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -267,8 +267,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-487491",
    "sport": "futbol",
-   "competition": "İspanya La Liga  TakımEkipmanı Seç",
-   "competitionId": "ispanya-la-liga-takimekipmani-sec",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
    "kickoff": "2026-09-19T15:00:00+03:00",
    "broadcasters": [
     "S Sport Plus"
