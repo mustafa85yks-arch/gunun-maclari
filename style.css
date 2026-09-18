@@ -85,6 +85,12 @@ h1 {
 }
 .sec h2 span { color: var(--ink-3); font-weight: 600; letter-spacing: .02em; text-transform: none; margin-left: 6px; }
 .cards { display: grid; gap: 8px; }
+.sort { display: flex; align-items: center; gap: 6px; margin: 0 0 12px; }
+.sort > span { font-size: 11px; font-weight: 700; letter-spacing: .1em; color: var(--ink-3); text-transform: uppercase; margin-right: 2px; }
+.sort .chip { padding: 4px 12px; }
+h3.lg { margin: 18px 0 8px; font-size: 14px; font-weight: 800; display: flex; align-items: center; }
+h3.lg:first-of-type { margin-top: 4px; }
+h3.lg .n { margin-left: 6px; font-weight: 500; color: var(--ink-3); }
 
 /* ---------- Kart ---------- */
 .card {

@@ -6,6 +6,7 @@
   var REFRESH_MS = 10 * 60 * 1000;  // bugünü izlerken veriyi 10 dk'da bir yeniden oku
   var TICK_MS = 30 * 1000;          // durum/geri sayım 30 sn'de bir güncellenir
   var FAV_KEY = 'gm-favoriler';
+  var SORT_KEY = 'gm-sirala';
 
   var state = {
     date: null,
@@ -13,6 +14,7 @@
     sport: 'tumu',
     turkOnly: false,
     favOnly: false,
+    sortBy: loadSort(),  // 'saat' | 'lig' (tüm karşılaşmalar listesi)
     search: null,        // takım/lig araması: aranan metin (null = normal gün görünümü)
     searchResults: null, // [{date, events}]
     data: null,
@@ -32,6 +34,13 @@
   function today() { return T.dateStr(new Date()); }
   function sportNameOf(ev) {
     return GM.SPORT_NAMES[ev.sport] || (ev.sport.charAt(0).toLocaleUpperCase('tr') + ev.sport.slice(1));
+  }
+
+  function loadSort() {
+    try { return localStorage.getItem(SORT_KEY) === 'lig' ? 'lig' : 'saat'; } catch (e) { return 'saat'; }
+  }
+  function saveSort() {
+    try { localStorage.setItem(SORT_KEY, state.sortBy); } catch (e) { /* önemli değil */ }
   }
 
   /* ---------- Favoriler (bu tarayıcıda saklanır) ---------- */
@@ -341,11 +350,36 @@
         ? 'Henüz favori seçmedin. Yukarıdaki ★ Favoriler düğmesinden takım veya lig ekle.'
         : 'Bu filtreye uyan karşılaşma yok.';
 
+    var sortCtl = '<div class="sort" role="group" aria-label="Sıralama"><span>Sırala</span>' +
+      chip('Saat', state.sortBy === 'saat', 'data-sort="saat"') +
+      chip('Lig', state.sortBy === 'lig', 'data-sort="lig"') + '</div>';
     html += section(filtersActive() ? 'Filtrelenmiş Liste' : 'Tüm Karşılaşmalar',
-      list.length ? list.length + ' karşılaşma · saat sırasıyla' : '',
-      list.length ? cards(list, now) : '<p class="empty">' + empty + '</p>');
+      list.length ? list.length + ' karşılaşma' : '',
+      list.length
+        ? sortCtl + (state.sortBy === 'lig' ? byLeague(list, now) : cards(list, now))
+        : '<p class="empty">' + empty + '</p>');
 
     $('content').innerHTML = html;
+  }
+
+  // Lige göre: ligler önem sırasıyla (ağırlık), aynı ağırlıkta ada göre; lig içinde saat sırası.
+  function byLeague(list, now) {
+    var groups = {}, order = [];
+    list.forEach(function (ev) {
+      var key = ev.competition;  // turnuva adı: WTA São Paulo ile WTA Guadalajara ayrı başlık
+      if (!groups[key]) { groups[key] = { label: ev.competition, id: leagueKey(ev), ev: ev, items: [] }; order.push(key); }
+      groups[key].items.push(ev);
+    });
+    order.sort(function (a, b) {
+      var wa = GM.COMPETITION_WEIGHT[groups[a].id] || GM.DEFAULT_WEIGHT;
+      var wb = GM.COMPETITION_WEIGHT[groups[b].id] || GM.DEFAULT_WEIGHT;
+      return wb - wa || groups[a].label.localeCompare(groups[b].label, 'tr');
+    });
+    return order.map(function (key) {
+      var g = groups[key];
+      return '<h3 class="lg" style="--lc:' + leagueColor(g.ev) + '"><span class="ldot"></span>' + esc(g.label) +
+        ' <span class="n">' + g.items.length + '</span></h3>' + cards(g.items, now);
+    }).join('');
   }
 
   function renderMeta(d) {
@@ -550,6 +584,7 @@
     if (b.id === 'favClose') return dlg.close();
     if (b.dataset.sport) { state.sport = b.dataset.sport; return render(); }
     if (b.dataset.toggle) { state[b.dataset.toggle] = !state[b.dataset.toggle]; return render(); }
+    if (b.dataset.sort) { state.sortBy = b.dataset.sort; saveSort(); return render(); }
     if (b.dataset.favTeam) { toggleTeam(b.dataset.favTeam); return render(); }
     if (b.dataset.favLeague) { toggleLeague(b.dataset.favLeague); return render(); }
     if (b.dataset.rmTeam) {

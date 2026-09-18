@@ -60,9 +60,9 @@ LIG_KURALLARI = [
     (r'trendyol süper lig', 'super-lig'),
     (r'trendyol 1\. lig', '1-lig'),
     (r'türkiye kupası', 'turkiye-kupasi'),
-    (r'şampiyonlar ligi', 'ucl'),
-    (r'avrupa ligi', 'uel'),
-    (r'konferans ligi', 'uecl'),
+    (r'^(uefa )?şampiyonlar ligi', 'ucl'),
+    (r'^(uefa )?avrupa ligi', 'uel'),
+    (r'^(uefa )?konferans ligi', 'uecl'),
     (r'^ingiltere premier lig', 'premier-league'),
     (r'^ispanya la liga$', 'la-liga'),
     (r'^italya serie a$', 'serie-a'),
@@ -99,7 +99,7 @@ def slug(s):
 
 def lig_id(lig):
     k = kucuk(lig)
-    if 'kadın' in k:
+    if re.search(r'kad[ıi]n|women', k):  # sporekrani bazen 'Kadinlar' (noktalı i) yazıyor
         return slug(lig)  # Kadınlar Şampiyonlar Ligi ≠ Şampiyonlar Ligi (ayrı lig, ayrı favori)
     for desen, cid in LIG_KURALLARI:
         if re.search(desen, k):
