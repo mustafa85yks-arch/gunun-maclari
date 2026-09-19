@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T00:18:27+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T01:48:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-20T00:18:27+03:00",
+ "generatedAt": "2026-09-20T01:48:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -410,7 +410,8 @@ GM_REGISTER_DAY({
    "competitionId": "l-etape-turkiye",
    "kickoff": "2026-09-20T07:50:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -507,10 +508,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "title": "Avusturya GP"
   },
@@ -524,10 +524,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "title": "Avusturya GP"
   },
@@ -541,10 +540,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "home": "Fiorentina",
    "away": "Napoli"
@@ -655,10 +653,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "title": "Avusturya GP"
   },
@@ -784,10 +781,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "home": "Frosinone",
    "away": "Como"
@@ -1010,6 +1006,7 @@ GM_REGISTER_DAY({
    "competitionId": "yelken-sail-gp",
    "kickoff": "2026-09-20T16:30:00+03:00",
    "broadcasters": [
+    "tabii Spor",
     "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
@@ -1177,7 +1174,7 @@ GM_REGISTER_DAY({
    "competitionId": "cev-erkekler-avrupa-sampiyonasi",
    "kickoff": "2026-09-20T17:00:00+03:00",
    "broadcasters": [
-    "CEV Youtube"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1214,10 +1211,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "home": "Atletico Madrid",
    "away": "Real Madrid"
@@ -1393,10 +1389,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "home": "Juventus",
    "away": "Atalanta"
@@ -1477,10 +1472,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "home": "Villarreal",
    "away": "Levante"
@@ -1635,6 +1629,26 @@ GM_REGISTER_DAY({
    "title": "Gün 4"
   },
   {
+   "id": "se-489365",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Süper Kupa Final",
+   "competitionId": "ispanya-basketbol-super-kupa-final",
+   "kickoff": "2026-09-20T20:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Joventut Badalona",
+   "away": "Barcelona",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-483401",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -1660,10 +1674,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "home": "Milan",
    "away": "Lecce"
@@ -1694,10 +1707,9 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
    "home": "Valencia",
    "away": "Real Sociedad"

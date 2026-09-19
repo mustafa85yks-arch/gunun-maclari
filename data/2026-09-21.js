@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T00:18:27+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T01:48:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-21",
- "generatedAt": "2026-09-20T00:18:27+03:00",
+ "generatedAt": "2026-09-20T01:48:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -24,6 +24,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Indy Eleven",
    "away": "Oakland Roots"
+  },
+  {
+   "id": "se-489364",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-09-21T01:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atletico PR",
+   "away": "Bahia"
   },
   {
    "id": "se-488509",
