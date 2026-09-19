@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T07:16:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T12:05:47+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-22",
- "generatedAt": "2026-09-19T07:16:36+03:00",
+ "generatedAt": "2026-09-19T12:05:47+03:00",
  "sources": [
   {
    "name": "sporekrani.com",

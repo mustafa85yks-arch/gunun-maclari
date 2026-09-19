@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T07:16:29+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T12:05:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-19",
- "generatedAt": "2026-09-19T07:16:29+03:00",
+ "generatedAt": "2026-09-19T12:05:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -167,6 +167,21 @@ GM_REGISTER_DAY({
    "title": "Yarış 1"
   },
   {
+   "id": "se-489301",
+   "sport": "yelken",
+   "competition": "Bosphorus Cup",
+   "competitionId": "bosphorus-cup",
+   "kickoff": "2026-09-19T12:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final"
+  },
+  {
    "id": "se-489073",
    "sport": "motor sporları",
    "competition": "FIA Formula 4",
@@ -243,6 +258,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankaragücü",
    "away": "Mersin Basketbol"
+  },
+  {
+   "id": "se-488088",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-09-19T14:00:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "OGM Orman",
+   "away": "Göztepe"
+  },
+  {
+   "id": "se-489331",
+   "sport": "golf",
+   "competition": "PGA Tour Şampiyonlar Turnuvasi",
+   "competitionId": "pga-tour-sampiyonlar-turnuvasi",
+   "kickoff": "2026-09-19T14:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İngiltere"
   },
   {
    "id": "se-487556",
@@ -469,22 +516,6 @@ GM_REGISTER_DAY({
    "away": "Unics Kazan"
   },
   {
-   "id": "se-488088",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-09-19T16:00:00+03:00",
-   "broadcasters": [
-    "HT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "OGM Orman",
-   "away": "Göztepe"
-  },
-  {
    "id": "se-488200",
    "sport": "motosiklet",
    "competition": "MotoGP Avusturya GP",
@@ -670,7 +701,8 @@ GM_REGISTER_DAY({
    "competitionId": "yelken-sail-gp",
    "kickoff": "2026-09-19T16:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN CONNECT",
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -688,10 +720,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Keçiörengücü",
    "away": "Sivasspor",
@@ -1074,6 +1105,20 @@ GM_REGISTER_DAY({
    "title": "Etap 4"
   },
   {
+   "id": "se-489334",
+   "sport": "basketbol",
+   "competition": "Basketbol Hazirlik Maçi",
+   "competitionId": "basketbol-hazirlik-maci",
+   "kickoff": "2026-09-19T18:30:00+03:00",
+   "broadcasters": [],
+   "verification": "yayin_yok",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bahçeşehir Klj",
+   "away": "Esenler Erokspor"
+  },
+  {
    "id": "se-483576",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -1164,7 +1209,7 @@ GM_REGISTER_DAY({
    "competitionId": "cev-erkekler-avrupa-sampiyonasi",
    "kickoff": "2026-09-19T19:00:00+03:00",
    "broadcasters": [
-    "CEV Youtube"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1172,6 +1217,26 @@ GM_REGISTER_DAY({
    ],
    "home": "Almanya",
    "away": "Bulgaristan"
+  },
+  {
+   "id": "se-489332",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Süper Kupa Yarı Final",
+   "competitionId": "ispanya-basketbol-super-kupa-yari-final",
+   "kickoff": "2026-09-19T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Joventut Badalona",
+   "away": "Baskonia",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-483398",
@@ -1612,6 +1677,26 @@ GM_REGISTER_DAY({
    ],
    "home": "Atletico Mineiro",
    "away": "Chapecoense"
+  },
+  {
+   "id": "se-489333",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Süper Kupa Yarı Final",
+   "competitionId": "ispanya-basketbol-super-kupa-yari-final",
+   "kickoff": "2026-09-19T22:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valencia Basket",
+   "away": "Barcelona",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-489036",
