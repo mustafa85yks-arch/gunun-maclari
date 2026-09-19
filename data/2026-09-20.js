@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T17:05:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T00:18:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-19T17:05:42+03:00",
+ "generatedAt": "2026-09-20T00:18:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -130,6 +130,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Louisville City",
    "away": "Loudoun United"
+  },
+  {
+   "id": "se-489337",
+   "sport": "tenis",
+   "competition": "WTA Guadalajara Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-20T02:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Stearns",
+   "away": "I.Jovic",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-488503",
@@ -383,6 +402,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Bol d'Or"
+  },
+  {
+   "id": "se-489362",
+   "sport": "bisiklet",
+   "competition": "L'etape Türkiye",
+   "competitionId": "l-etape-turkiye",
+   "kickoff": "2026-09-20T07:50:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İstanbul",
+   "turkish": true
   },
   {
    "id": "se-489204",
@@ -990,7 +1025,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-09-20T17:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "tabii Spor 6",
     "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
@@ -1152,6 +1187,23 @@ GM_REGISTER_DAY({
    "away": "Yunanistan"
   },
   {
+   "id": "se-489363",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-09-20T17:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gremio",
+   "away": "Palmeiras"
+  },
+  {
    "id": "se-487496",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -1159,11 +1211,13 @@ GM_REGISTER_DAY({
    "kickoff": "2026-09-20T17:15:00+03:00",
    "broadcasters": [
     "Medeniyet TV",
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Atletico Madrid",
    "away": "Real Madrid"
