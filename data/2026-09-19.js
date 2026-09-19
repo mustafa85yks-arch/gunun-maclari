@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T01:49:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T07:16:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-19",
- "generatedAt": "2026-09-19T01:49:03+03:00",
+ "generatedAt": "2026-09-19T07:16:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -105,6 +105,21 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-489280",
+   "sport": "basketbol",
+   "competition": "FiBA 3x3 Dünya Kupasi",
+   "competitionId": "fiba-3x3-dunya-kupasi",
+   "kickoff": "2026-09-19T08:20:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Finaller"
+  },
+  {
    "id": "se-489186",
    "sport": "atletizm",
    "competition": "T100 Triatlon Dünya Turu",
@@ -137,6 +152,21 @@ GM_REGISTER_DAY({
    "title": "Serbest Antrenman 2 ve Sıralama Turları"
   },
   {
+   "id": "se-489298",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge",
+   "competitionId": "ferrari-challenge",
+   "kickoff": "2026-09-19T11:45:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 1"
+  },
+  {
    "id": "se-489073",
    "sport": "motor sporları",
    "competition": "FIA Formula 4",
@@ -166,6 +196,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Melbourne United",
    "away": "Adelaide 36ers"
+  },
+  {
+   "id": "se-489281",
+   "sport": "basketbol",
+   "competition": "FiBA 3x3 Dünya Kupasi",
+   "competitionId": "fiba-3x3-dunya-kupasi",
+   "kickoff": "2026-09-19T12:50:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Finaller"
   },
   {
    "id": "se-483433",
@@ -311,6 +356,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Aachen",
    "away": "Fortuna Düsseldorf"
+  },
+  {
+   "id": "se-489278",
+   "sport": "basketbol",
+   "competition": "Cevat Soydaş Basketbol Turnuvasi 3'üncülük",
+   "competitionId": "cevat-soydas-basketbol-turnuvasi-3-unculuk",
+   "kickoff": "2026-09-19T15:00:00+03:00",
+   "broadcasters": [
+    "Tofaş Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Bursaspor"
   },
   {
    "id": "se-488087",
@@ -668,7 +729,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "3'üncülük"
+   "home": "Dubai Basket",
+   "away": "Fenerbahçe Tarfin"
   },
   {
    "id": "se-487557",
@@ -784,7 +846,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "3'üncülük"
+   "home": "Partizan",
+   "away": "JL Bourg"
   },
   {
    "id": "se-488389",
@@ -867,6 +930,25 @@ GM_REGISTER_DAY({
    "away": "Grossaspach"
   },
   {
+   "id": "se-489279",
+   "sport": "basketbol",
+   "competition": "Cevat Soydaş Basketbol Turnuvasi Final",
+   "competitionId": "cevat-soydas-basketbol-turnuvasi-final",
+   "kickoff": "2026-09-19T17:30:00+03:00",
+   "broadcasters": [
+    "Tofaş Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tofaş",
+   "away": "Galatasaray MCT Technic",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-486987",
    "sport": "motosiklet",
    "competition": "MotoGP Rookies Cup",
@@ -912,6 +994,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Türkiye",
    "away": "Arjantin"
+  },
+  {
+   "id": "se-489282",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi Ön Eleme",
+   "competitionId": "fiba-sampiyonlar-ligi-on-eleme",
+   "kickoff": "2026-09-19T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA Şampiyonlar Ligi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dziki Warszawa",
+   "away": "Breogan"
   },
   {
    "id": "se-489074",
@@ -1174,7 +1272,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "Real Madrid",
+   "away": "Olympiakos",
    "tags": [
     "final"
    ]
@@ -1231,7 +1330,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "Panathinaikos",
+   "away": "PAOK",
    "tags": [
     "final"
    ]
@@ -1298,6 +1398,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Aon Fivers",
    "away": "Giresunspor"
+  },
+  {
+   "id": "se-489283",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi Ön Eleme",
+   "competitionId": "fiba-sampiyonlar-ligi-on-eleme",
+   "kickoff": "2026-09-19T20:30:00+03:00",
+   "broadcasters": [
+    "FIBA Şampiyonlar Ligi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Promitheas",
+   "away": "Rasta Vechta"
   },
   {
    "id": "se-467674",
@@ -1479,6 +1595,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Sevilla",
    "away": "Barcelona"
+  },
+  {
+   "id": "se-489295",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-09-19T22:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atletico Mineiro",
+   "away": "Chapecoense"
   },
   {
    "id": "se-489036",

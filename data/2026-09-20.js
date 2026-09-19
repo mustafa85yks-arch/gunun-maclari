@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T01:49:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-19T07:16:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-19T01:49:09+03:00",
+ "generatedAt": "2026-09-19T07:16:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,40 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-489297",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-09-20T00:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Remo",
+   "away": "Santos"
+  },
+  {
+   "id": "se-489296",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-09-20T01:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "River Plate",
+   "away": "CA Huracan"
+  },
   {
    "id": "se-488498",
    "sport": "futbol",
@@ -1214,6 +1248,22 @@ GM_REGISTER_DAY({
    "away": "Nantes"
   },
   {
+   "id": "se-489284",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi Ön Eleme",
+   "competitionId": "fiba-sampiyonlar-ligi-on-eleme",
+   "kickoff": "2026-09-20T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA Şampiyonlar Ligi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Salon Vilpas",
+   "away": "CSM Oradea"
+  },
+  {
    "id": "se-487507",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1263,6 +1313,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Fulham",
    "away": "Manchester Utd"
+  },
+  {
+   "id": "se-489299",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge",
+   "competitionId": "ferrari-challenge",
+   "kickoff": "2026-09-20T18:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
   },
   {
    "id": "se-483581",
