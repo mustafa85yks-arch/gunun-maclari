@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T12:06:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T17:05:51+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-20",
- "generatedAt": "2026-09-20T12:06:01+03:00",
+ "generatedAt": "2026-09-20T17:05:51+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -410,8 +410,10 @@ GM_REGISTER_DAY({
    "competitionId": "l-etape-turkiye",
    "kickoff": "2026-09-20T07:50:00+03:00",
    "broadcasters": [
+    "Spor Smart",
     "S Sport Plus",
-    "TRT Spor Yildiz"
+    "TRT Spor Yildiz",
+    "Smart Spor HD"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -581,6 +583,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Celtic",
    "away": "Glasgow Rangers"
+  },
+  {
+   "id": "se-489377",
+   "sport": "golf",
+   "competition": "PGA Tour Şampiyonlar Turnuvasi",
+   "competitionId": "pga-tour-sampiyonlar-turnuvasi",
+   "kickoff": "2026-09-20T14:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İngiltere"
   },
   {
    "id": "se-483436",
@@ -1674,6 +1692,42 @@ GM_REGISTER_DAY({
    "away": "Hoffenheim"
   },
   {
+   "id": "se-489378",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-09-20T20:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "San Lorenzo",
+   "away": "Boca Juniors"
+  },
+  {
+   "id": "se-489380",
+   "sport": "tenis",
+   "competition": "WTA Sao Paulo Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-20T21:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Quevedo",
+   "away": "N.Podoroska",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-483582",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -1772,6 +1826,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Kadınlar Olimpik Cross Country"
+  },
+  {
+   "id": "se-489379",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-09-20T23:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rosario Central",
+   "away": "Argentinos Jrs."
   },
   {
    "id": "se-488189",
