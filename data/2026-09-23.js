@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T17:05:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T00:18:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-23",
- "generatedAt": "2026-09-20T17:05:51+03:00",
+ "generatedAt": "2026-09-21T00:18:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,54 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-489417",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-23T10:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shanghai",
+   "away": "RSSB Tigers"
+  },
+  {
+   "id": "se-489413",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-23T12:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cairns Taipans",
+   "away": "Tasmania JackJumpers"
+  },
+  {
+   "id": "se-489418",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-23T14:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beijing Royal Fighters",
+   "away": "G League Ignite"
+  },
   {
    "id": "se-486958",
    "sport": "hentbol",
@@ -42,6 +90,22 @@ GM_REGISTER_DAY({
    "away": "Spor Toto SK"
   },
   {
+   "id": "se-489421",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-23T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Neftchi IK",
+   "away": "Parnu"
+  },
+  {
    "id": "se-488510",
    "sport": "futbol",
    "competition": "ABD USL Championship",
@@ -56,6 +120,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Birmingham Legion",
    "away": "Brooklyn"
+  },
+  {
+   "id": "se-489422",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-23T21:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Samobor",
+   "away": "BC Prievidza"
+  },
+  {
+   "id": "se-489423",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-23T21:15:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Peja",
+   "away": "Dinamo Bükreş"
   }
  ]
 });

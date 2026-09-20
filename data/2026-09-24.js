@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T17:05:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T00:18:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-20T17:05:51+03:00",
+ "generatedAt": "2026-09-21T00:18:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-489419",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-24T10:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lietuvos Rytas",
+   "away": "Shanghai"
+  },
   {
    "id": "se-481460",
    "sport": "motor sporları",
@@ -73,6 +89,22 @@ GM_REGISTER_DAY({
    "away": "Adelaide 36ers"
   },
   {
+   "id": "se-489420",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-24T14:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boca Juniors",
+   "away": "G League Ignite"
+  },
+  {
    "id": "se-481461",
    "sport": "motor sporları",
    "competition": "Formula 1 Azerbaycan GP",
@@ -104,6 +136,22 @@ GM_REGISTER_DAY({
    "away": "Kanada"
   },
   {
+   "id": "se-488068",
+   "sport": "futbol",
+   "competition": "UEFA Dostluk Kupasi",
+   "competitionId": "uefa-dostluk-kupasi",
+   "kickoff": "2026-09-24T19:00:00+03:00",
+   "broadcasters": [
+    "UEFA.tv"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İngiltere",
+   "away": "Kolombiya"
+  },
+  {
    "id": "se-485805",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -121,20 +169,20 @@ GM_REGISTER_DAY({
    "away": "Bayern Münih"
   },
   {
-   "id": "se-488068",
+   "id": "se-483271",
    "sport": "futbol",
-   "competition": "UEFA Dostluk Kupasi",
-   "competitionId": "uefa-dostluk-kupasi",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-24T19:00:00+03:00",
    "broadcasters": [
-    "UEFA.tv"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İngiltere",
-   "away": "Kolombiya"
+   "home": "Andorra",
+   "away": "Malta"
   },
   {
    "id": "se-485804",
@@ -152,22 +200,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Dubai Basket",
    "away": "Real Madrid"
-  },
-  {
-   "id": "se-483271",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-24T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Andorra",
-   "away": "Malta"
   },
   {
    "id": "se-485806",

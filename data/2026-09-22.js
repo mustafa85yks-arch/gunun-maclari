@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-20T17:05:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T00:18:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-22",
- "generatedAt": "2026-09-20T17:05:51+03:00",
+ "generatedAt": "2026-09-21T00:18:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,6 +26,22 @@ GM_REGISTER_DAY({
    "away": "NY Giants"
   },
   {
+   "id": "se-489415",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-22T10:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lietuvos Rytas",
+   "away": "RSSB Tigers"
+  },
+  {
    "id": "se-489255",
    "sport": "basketbol",
    "competition": "Avustralya NBL",
@@ -40,6 +56,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Brisbane Bullets",
    "away": "NZ Breakers"
+  },
+  {
+   "id": "se-489416",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-22T14:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beijing Royal Fighters",
+   "away": "Boca Juniors"
   },
   {
    "id": "se-487943",
