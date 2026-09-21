@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-21T12:06:23+03:00",
+ "generatedAt": "2026-09-21T17:05:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,6 +32,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lietuvos Rytas",
    "away": "Shanghai"
+  },
+  {
+   "id": "se-489505",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-24T10:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4 Maç 1"
   },
   {
    "id": "se-481460",
@@ -81,20 +97,20 @@ GM_REGISTER_DAY({
    "away": "Güney Kore"
   },
   {
-   "id": "se-489420",
-   "sport": "basketbol",
-   "competition": "FIBA Intercontinental Cup",
-   "competitionId": "fiba-intercontinental-cup",
-   "kickoff": "2026-09-24T14:30:00+03:00",
+   "id": "se-489506",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-24T12:30:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Boca Juniors",
-   "away": "G League Ignite"
+   "title": "Gün 4 Maç 2"
   },
   {
    "id": "se-489256",
@@ -111,6 +127,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Perth Wildcats",
    "away": "Adelaide 36ers"
+  },
+  {
+   "id": "se-489420",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-24T14:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boca Juniors",
+   "away": "G League Ignite"
+  },
+  {
+   "id": "se-489507",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-24T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4 Maç 3"
   },
   {
    "id": "se-481461",
@@ -174,20 +222,22 @@ GM_REGISTER_DAY({
    "title": "23 Yaş Altı Kadınlar Yol Yarışı"
   },
   {
-   "id": "se-488068",
-   "sport": "futbol",
-   "competition": "UEFA Dostluk Kupasi",
-   "competitionId": "uefa-dostluk-kupasi",
+   "id": "se-485804",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-09-24T19:00:00+03:00",
    "broadcasters": [
-    "UEFA.tv"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
-   "home": "İngiltere",
-   "away": "Kolombiya"
+   "home": "Dubai Basket",
+   "away": "Real Madrid"
   },
   {
    "id": "se-485805",
@@ -208,38 +258,20 @@ GM_REGISTER_DAY({
    "away": "Bayern Münih"
   },
   {
-   "id": "se-483271",
+   "id": "se-488068",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "competition": "UEFA Dostluk Kupasi",
+   "competitionId": "uefa-dostluk-kupasi",
    "kickoff": "2026-09-24T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "UEFA.tv"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Andorra",
-   "away": "Malta"
-  },
-  {
-   "id": "se-485804",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-24T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Dubai Basket",
-   "away": "Real Madrid"
+   "home": "İngiltere",
+   "away": "Kolombiya"
   },
   {
    "id": "se-489457",
@@ -340,22 +372,6 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-483272",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-24T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lihtenştayn",
-   "away": "Litvanya"
-  },
-  {
    "id": "se-483273",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -372,29 +388,13 @@ GM_REGISTER_DAY({
    "away": "Almanya"
   },
   {
-   "id": "se-483274",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-24T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Norveç",
-   "away": "Danimarka"
-  },
-  {
    "id": "se-483275",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-24T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -418,22 +418,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Sırbistan",
    "away": "Yunanistan"
-  },
-  {
-   "id": "se-483277",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-24T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Avusturya",
-   "away": "İsrail"
   },
   {
    "id": "se-483278",

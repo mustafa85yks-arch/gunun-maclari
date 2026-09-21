@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:27+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-21T12:06:27+03:00",
+ "generatedAt": "2026-09-21T17:05:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -162,38 +162,6 @@ GM_REGISTER_DAY({
    "away": "R.Nakamura"
   },
   {
-   "id": "se-488519",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-09-27T05:00:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Monterrey Bay",
-   "away": "Lexington"
-  },
-  {
-   "id": "se-488520",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-09-27T05:00:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Oakland Roots",
-   "away": "Phoenix Rising"
-  },
-  {
    "id": "se-488521",
    "sport": "futbol",
    "competition": "ABD USL Championship",
@@ -224,6 +192,38 @@ GM_REGISTER_DAY({
    ],
    "home": "R.Vieira",
    "away": "R.Bryczek"
+  },
+  {
+   "id": "se-488520",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-09-27T05:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Oakland Roots",
+   "away": "Phoenix Rising"
+  },
+  {
+   "id": "se-488519",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-09-27T05:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Monterrey Bay",
+   "away": "Lexington"
   },
   {
    "id": "se-489234",
@@ -410,6 +410,22 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 4"
   },
   {
+   "id": "se-489513",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-27T14:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gösteri Maçı"
+  },
+  {
    "id": "se-489248",
    "sport": "tenis",
    "competition": "ATP Hangzhou Çeyrek Final",
@@ -488,20 +504,54 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-488100",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "id": "se-489522",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
    "kickoff": "2026-09-27T16:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "Tivibu Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Final Spor",
-   "away": "Fenerbahçe Koleji"
+   "home": "Gebzespor",
+   "away": "Elazığspor",
+   "turkish": true
+  },
+  {
+   "id": "se-489521",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-27T16:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karacabey Bld.",
+   "away": "Ankaragücü",
+   "turkish": true
+  },
+  {
+   "id": "se-489514",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-27T16:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final"
   },
   {
    "id": "se-486969",
@@ -520,20 +570,20 @@ GM_REGISTER_DAY({
    "away": "Nilüfer Bld."
   },
   {
-   "id": "se-483297",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-488100",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-09-27T16:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Litvanya",
-   "away": "Azerbaycan"
+   "home": "Final Spor",
+   "away": "Fenerbahçe Koleji"
   },
   {
    "id": "se-488101",
@@ -616,22 +666,6 @@ GM_REGISTER_DAY({
    "away": "Brezilya"
   },
   {
-   "id": "se-483298",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-27T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Cebelitarık",
-   "away": "Andorra"
-  },
-  {
    "id": "se-483299",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -680,6 +714,74 @@ GM_REGISTER_DAY({
    "away": "Kosova"
   },
   {
+   "id": "se-489523",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-27T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sakaryaspor",
+   "away": "Kütahyaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-489524",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-27T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aliağa FK",
+   "away": "Şanlıurfaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-489525",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-09-27T19:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bucaspor",
+   "away": "Altay",
+   "turkish": true
+  },
+  {
+   "id": "se-489526",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-09-27T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehirspor",
+   "away": "Balıkesirspor",
+   "turkish": true
+  },
+  {
    "id": "se-486973",
    "sport": "basketbol",
    "competition": "İspanya Basketbol Ligi",
@@ -697,20 +799,20 @@ GM_REGISTER_DAY({
    "away": "Unicaja Malaga"
   },
   {
-   "id": "se-489265",
-   "sport": "basketbol",
-   "competition": "Fransa Basketbol Ligi LNB",
-   "competitionId": "fransa-basketbol-ligi-lnb",
+   "id": "se-489235",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
    "kickoff": "2026-09-27T20:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Cholet Basket",
-   "away": "Asvel Villeurbanne"
+   "home": "JV Jaguars",
+   "away": "NE Patriots"
   },
   {
    "id": "se-489251",
@@ -728,20 +830,20 @@ GM_REGISTER_DAY({
    "title": "NFL Red Zone"
   },
   {
-   "id": "se-489235",
-   "sport": "amerikan futbolu",
-   "competition": "NFL",
-   "competitionId": "nfl",
+   "id": "se-489265",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
    "kickoff": "2026-09-27T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Euroleague TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "JV Jaguars",
-   "away": "NE Patriots"
+   "home": "Cholet Basket",
+   "away": "Asvel Villeurbanne"
   },
   {
    "id": "se-488853",
@@ -761,22 +863,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483302",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-27T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Almanya",
-   "away": "Yunanistan"
-  },
-  {
    "id": "se-483303",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -793,20 +879,20 @@ GM_REGISTER_DAY({
    "away": "Portekiz"
   },
   {
-   "id": "se-483304",
+   "id": "se-483302",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-27T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İsrail",
-   "away": "İrlanda"
+   "home": "Almanya",
+   "away": "Yunanistan"
   },
   {
    "id": "se-489237",

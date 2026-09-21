@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-23",
- "generatedAt": "2026-09-21T12:06:23+03:00",
+ "generatedAt": "2026-09-21T17:05:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,6 +26,22 @@ GM_REGISTER_DAY({
    "away": "RSSB Tigers"
   },
   {
+   "id": "se-489502",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-23T10:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3 Maç 1"
+  },
+  {
    "id": "se-489413",
    "sport": "basketbol",
    "competition": "Avustralya NBL",
@@ -42,6 +58,22 @@ GM_REGISTER_DAY({
    "away": "Tasmania JackJumpers"
   },
   {
+   "id": "se-489503",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-23T12:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3 Maç 2"
+  },
+  {
    "id": "se-489418",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -56,6 +88,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Beijing Royal Fighters",
    "away": "G League Ignite"
+  },
+  {
+   "id": "se-489504",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-23T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3 Maç 3"
   },
   {
    "id": "se-486958",

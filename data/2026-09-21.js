@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-21",
- "generatedAt": "2026-09-21T12:06:23+03:00",
+ "generatedAt": "2026-09-21T17:05:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -90,6 +90,38 @@ GM_REGISTER_DAY({
    "away": "South East Melbourne"
   },
   {
+   "id": "se-489495",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-21T12:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1 Maç 1"
+  },
+  {
+   "id": "se-489496",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-21T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1 Maç 2"
+  },
+  {
    "id": "se-489447",
    "sport": "bisiklet",
    "competition": "Dünya Yol Bisikleti Şampiyonasi",
@@ -103,6 +135,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "23 Yaş Altı Kadınlar Ferdi Zamana Karşı"
+  },
+  {
+   "id": "se-489497",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-21T16:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1 Maç 3"
   },
   {
    "id": "se-489217",
@@ -119,6 +167,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Belçika",
    "away": "Çekya"
+  },
+  {
+   "id": "se-489380",
+   "sport": "tenis",
+   "competition": "WTA Sao Paulo Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-21T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Quevedo",
+   "away": "N.Podoroska",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-489448",

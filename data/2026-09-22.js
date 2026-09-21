@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-22",
- "generatedAt": "2026-09-21T12:06:23+03:00",
+ "generatedAt": "2026-09-21T17:05:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,6 +26,54 @@ GM_REGISTER_DAY({
    "away": "NY Giants"
   },
   {
+   "id": "se-489575",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-22T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "V.Wolff",
+   "away": "O.Oliynykova"
+  },
+  {
+   "id": "se-489576",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-22T07:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Parks",
+   "away": "M.Yamaguchi"
+  },
+  {
+   "id": "se-489577",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-22T09:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Vekic",
+   "away": "X.Wang"
+  },
+  {
    "id": "se-489415",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -40,6 +88,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lietuvos Rytas",
    "away": "RSSB Tigers"
+  },
+  {
+   "id": "se-489498",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-22T10:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2 Maç 1"
   },
   {
    "id": "se-489255",
@@ -58,6 +122,38 @@ GM_REGISTER_DAY({
    "away": "NZ Breakers"
   },
   {
+   "id": "se-489499",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-22T12:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2 Maç 2"
+  },
+  {
+   "id": "se-489578",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-22T13:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Krejcikova",
+   "away": "A.L.Friedsam"
+  },
+  {
    "id": "se-489416",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -74,6 +170,38 @@ GM_REGISTER_DAY({
    "away": "Boca Juniors"
   },
   {
+   "id": "se-489500",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-22T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2 Maç 3"
+  },
+  {
+   "id": "se-489579",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-22T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Sakkari",
+   "away": "L.Fruhvirtova"
+  },
+  {
    "id": "se-489449",
    "sport": "bisiklet",
    "competition": "Bisiklet Cro Race",
@@ -87,6 +215,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Etap 1"
+  },
+  {
+   "id": "se-489501",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-22T16:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2 Maç 4"
   },
   {
    "id": "se-489450",

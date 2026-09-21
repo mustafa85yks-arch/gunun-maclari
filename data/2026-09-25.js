@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:55+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-21T12:06:25+03:00",
+ "generatedAt": "2026-09-21T17:05:55+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,22 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-489508",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-25T10:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 5 Maç 1"
+  },
+  {
    "id": "se-481462",
    "sport": "motor sporları",
    "competition": "Formula 1 Azerbaycan GP",
@@ -33,6 +49,38 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-3"
   },
   {
+   "id": "se-489509",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-25T12:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 5 Maç 2"
+  },
+  {
+   "id": "se-489510",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-25T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 5 Maç 3"
+  },
+  {
    "id": "se-481463",
    "sport": "motor sporları",
    "competition": "Formula 1 Azerbaycan GP",
@@ -46,38 +94,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sıralama Turları"
-  },
-  {
-   "id": "se-483279",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-25T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gürcistan",
-   "away": "Kuzey İrlanda"
-  },
-  {
-   "id": "se-483280",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-25T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ermenistan",
-   "away": "Letonya"
   },
   {
    "id": "se-488847",
@@ -133,20 +149,20 @@ GM_REGISTER_DAY({
    "away": "Virtus Bologna"
   },
   {
-   "id": "se-483282",
+   "id": "se-483281",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "ATV"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Türkiye",
-   "away": "Fransa"
+   "home": "İtalya",
+   "away": "Belçika"
   },
   {
    "id": "se-485813",
@@ -164,22 +180,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Partizan",
    "away": "Olimpia Milano"
-  },
-  {
-   "id": "se-483286",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-25T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Karadağ",
-   "away": "Güney Kıbrıs"
   },
   {
    "id": "se-483285",
@@ -230,20 +230,20 @@ GM_REGISTER_DAY({
    "away": "Romanya"
   },
   {
-   "id": "se-483281",
+   "id": "se-483282",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "ATV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İtalya",
-   "away": "Belçika"
+   "home": "Türkiye",
+   "away": "Fransa"
   }
  ]
 });
