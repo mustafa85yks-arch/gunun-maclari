@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T07:17:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-21",
- "generatedAt": "2026-09-21T07:17:00+03:00",
+ "generatedAt": "2026-09-21T12:06:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -24,6 +24,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Indy Eleven",
    "away": "Oakland Roots"
+  },
+  {
+   "id": "se-489446",
+   "sport": "bisiklet",
+   "competition": "Dağ Bisikleti Dünya Kupasi",
+   "competitionId": "dag-bisikleti-dunya-kupasi",
+   "kickoff": "2026-09-21T00:15:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Olimpik Cross Country"
   },
   {
    "id": "se-489364",
@@ -75,6 +90,21 @@ GM_REGISTER_DAY({
    "away": "South East Melbourne"
   },
   {
+   "id": "se-489447",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-21T15:50:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "23 Yaş Altı Kadınlar Ferdi Zamana Karşı"
+  },
+  {
    "id": "se-489217",
    "sport": "voleybol",
    "competition": "CEV Erkekler Avrupa Şampiyonasi",
@@ -91,13 +121,28 @@ GM_REGISTER_DAY({
    "away": "Çekya"
   },
   {
+   "id": "se-489448",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-21T18:50:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "23 Yaş Altı Erkekler Ferdi Zamana Karşı"
+  },
+  {
    "id": "se-489218",
    "sport": "voleybol",
    "competition": "CEV Erkekler Avrupa Şampiyonasi",
    "competitionId": "cev-erkekler-avrupa-sampiyonasi",
    "kickoff": "2026-09-21T22:00:00+03:00",
    "broadcasters": [
-    "CEV Youtube"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [

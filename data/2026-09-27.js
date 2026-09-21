@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T07:17:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-21T07:17:05+03:00",
+ "generatedAt": "2026-09-21T12:06:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-09-27"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -480,22 +488,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483297",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-27T16:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Litvanya",
-   "away": "Azerbaycan"
-  },
-  {
    "id": "se-488100",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -526,6 +518,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Beykoz Bld.",
    "away": "Nilüfer Bld."
+  },
+  {
+   "id": "se-483297",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-27T16:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Litvanya",
+   "away": "Azerbaycan"
   },
   {
    "id": "se-488101",
@@ -825,9 +833,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Oviedo",
    "away": "Sporting Gijon"

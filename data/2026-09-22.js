@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T07:17:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-22",
- "generatedAt": "2026-09-21T07:17:00+03:00",
+ "generatedAt": "2026-09-21T12:06:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -74,6 +74,51 @@ GM_REGISTER_DAY({
    "away": "Boca Juniors"
   },
   {
+   "id": "se-489449",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-22T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 1"
+  },
+  {
+   "id": "se-489450",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-22T17:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Takım Zamana Karşı"
+  },
+  {
+   "id": "se-489451",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-22T19:05:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "18 Yaş Altı Erkekler Ferdi Zamana Karşı"
+  },
+  {
    "id": "se-487943",
    "sport": "basketbol",
    "competition": "TBF Erkekler Cumhurbaşkanligi Kupasi",
@@ -91,6 +136,21 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
+  },
+  {
+   "id": "se-489452",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-22T22:05:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "18 Yaş Altı Kadınlar Ferdi Zamana Karşı"
   }
  ]
 });

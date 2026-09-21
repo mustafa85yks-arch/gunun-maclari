@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T07:17:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-21T07:17:01+03:00",
+ "generatedAt": "2026-09-21T12:06:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-09-24"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -73,22 +81,6 @@ GM_REGISTER_DAY({
    "away": "Güney Kore"
   },
   {
-   "id": "se-489256",
-   "sport": "basketbol",
-   "competition": "Avustralya NBL",
-   "competitionId": "avustralya-nbl",
-   "kickoff": "2026-09-24T14:30:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Perth Wildcats",
-   "away": "Adelaide 36ers"
-  },
-  {
    "id": "se-489420",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -103,6 +95,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Boca Juniors",
    "away": "G League Ignite"
+  },
+  {
+   "id": "se-489256",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-24T14:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Perth Wildcats",
+   "away": "Adelaide 36ers"
   },
   {
    "id": "se-481461",
@@ -120,6 +128,21 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-2"
   },
   {
+   "id": "se-489454",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-24T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 3"
+  },
+  {
    "id": "se-488067",
    "sport": "futbol",
    "competition": "UEFA Dostluk Kupasi",
@@ -134,6 +157,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Brezilya",
    "away": "Kanada"
+  },
+  {
+   "id": "se-489455",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-24T17:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "23 Yaş Altı Kadınlar Yol Yarışı"
   },
   {
    "id": "se-488068",
@@ -161,9 +199,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Hapoel Tel Aviv",
    "away": "Bayern Münih"
@@ -194,12 +233,43 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Dubai Basket",
+   "away": "Real Madrid"
+  },
+  {
+   "id": "se-489457",
+   "sport": "golf",
+   "competition": "Golf Presidents Cup",
+   "competitionId": "golf-presidents-cup",
+   "kickoff": "2026-09-24T19:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dubai Basket",
-   "away": "Real Madrid"
+   "title": "Gün 1"
+  },
+  {
+   "id": "se-489456",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-24T20:20:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "18 Yaş Altı Erkekler Yol Yarışı"
   },
   {
    "id": "se-485806",
@@ -227,9 +297,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Panathinaikos",
    "away": "Paris"
@@ -244,9 +315,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Barcelona",
    "away": "Anadolu Efes"

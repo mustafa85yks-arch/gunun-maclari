@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T07:17:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T12:06:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-23",
- "generatedAt": "2026-09-21T07:17:00+03:00",
+ "generatedAt": "2026-09-21T12:06:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -72,6 +72,21 @@ GM_REGISTER_DAY({
    ],
    "home": "İstanbul Gençlik",
    "away": "Giresunspor"
+  },
+  {
+   "id": "se-489453",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-23T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 2"
   },
   {
    "id": "se-486959",
