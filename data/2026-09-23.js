@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:53+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T00:19:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-23",
- "generatedAt": "2026-09-21T17:05:53+03:00",
+ "generatedAt": "2026-09-22T00:19:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -215,6 +215,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Peja",
    "away": "Dinamo Bükreş"
+  },
+  {
+   "id": "se-489582",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Çeyrek Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-ceyrek-final",
+   "kickoff": "2026-09-23T22:05:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İtalya",
+   "away": "Finlandiya"
   }
  ]
 });

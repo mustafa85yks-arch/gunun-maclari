@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:53+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T00:19:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-22",
- "generatedAt": "2026-09-21T17:05:53+03:00",
+ "generatedAt": "2026-09-22T00:19:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -74,22 +74,6 @@ GM_REGISTER_DAY({
    "away": "X.Wang"
   },
   {
-   "id": "se-489415",
-   "sport": "basketbol",
-   "competition": "FIBA Intercontinental Cup",
-   "competitionId": "fiba-intercontinental-cup",
-   "kickoff": "2026-09-22T10:30:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lietuvos Rytas",
-   "away": "RSSB Tigers"
-  },
-  {
    "id": "se-489498",
    "sport": "tenis",
    "competition": "Ankara Cup Tenis Turnuvasi",
@@ -104,6 +88,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 2 Maç 1"
+  },
+  {
+   "id": "se-489415",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-22T10:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lietuvos Rytas",
+   "away": "RSSB Tigers"
   },
   {
    "id": "se-489255",
@@ -186,6 +186,21 @@ GM_REGISTER_DAY({
    "title": "Gün 2 Maç 3"
   },
   {
+   "id": "se-489449",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-22T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 1"
+  },
+  {
    "id": "se-489579",
    "sport": "tenis",
    "competition": "WTA Singapur",
@@ -202,19 +217,20 @@ GM_REGISTER_DAY({
    "away": "L.Fruhvirtova"
   },
   {
-   "id": "se-489449",
-   "sport": "bisiklet",
-   "competition": "Bisiklet Cro Race",
-   "competitionId": "bisiklet-cro-race",
-   "kickoff": "2026-09-22T15:00:00+03:00",
+   "id": "se-489580",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Çeyrek Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-ceyrek-final",
+   "kickoff": "2026-09-22T16:00:00+03:00",
    "broadcasters": [
-    "Eurosport"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Etap 1"
+   "home": "Fransa",
+   "away": "Romanya"
   },
   {
    "id": "se-489501",
@@ -246,6 +262,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Karışık Takım Zamana Karşı"
+  },
+  {
+   "id": "se-489581",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Çeyrek Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-ceyrek-final",
+   "kickoff": "2026-09-22T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Polonya",
+   "away": "Almanya"
   },
   {
    "id": "se-489451",

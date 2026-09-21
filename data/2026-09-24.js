@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-21T17:05:53+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T00:19:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-21T17:05:53+03:00",
+ "generatedAt": "2026-09-22T00:19:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -58,9 +58,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-1"
   },
@@ -169,9 +170,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-2"
   },
