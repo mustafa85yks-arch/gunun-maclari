@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T17:05:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T00:19:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-26",
- "generatedAt": "2026-09-22T17:05:48+03:00",
+ "generatedAt": "2026-09-23T00:19:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -66,17 +66,35 @@ GM_REGISTER_DAY({
    "away": "FC Tulsa"
   },
   {
+   "id": "se-489659",
+   "sport": "motor sporları",
+   "competition": "FIA Formula 2 Azerbaycan GP",
+   "competitionId": "fia-formula-2-azerbaycan-gp",
+   "kickoff": "2026-09-26T10:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "title": "Yarış 2"
+  },
+  {
    "id": "se-488848",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
    "kickoff": "2026-09-26T13:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Türk Telekom",
    "away": "Karşıyaka",
@@ -89,6 +107,7 @@ GM_REGISTER_DAY({
    "competitionId": "f1",
    "kickoff": "2026-09-26T14:00:00+03:00",
    "broadcasters": [
+    "beIN CONNECT",
     "beIN SPORTS 4"
    ],
    "verification": "dogrulandi",
@@ -195,21 +214,19 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489516",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-09-26T15:30:00+03:00",
+   "id": "se-489660",
+   "sport": "motor sporları",
+   "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
+   "competitionId": "fia-avrupa-kamyon-yarisi-sampiyonasi",
+   "kickoff": "2026-09-26T15:10:00+03:00",
    "broadcasters": [
-    "Yaay"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ankaraspor",
-   "away": "Somaspor",
-   "turkish": true
+   "title": "Yarış 1"
   },
   {
    "id": "se-488849",
@@ -226,6 +243,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Petkimspor",
    "away": "Denizli Basket",
+   "turkish": true
+  },
+  {
+   "id": "se-489516",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-26T15:30:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ankaraspor",
+   "away": "Somaspor",
    "turkish": true
   },
   {
@@ -423,52 +457,53 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483290",
+   "id": "se-489519",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-26T19:00:00+03:00",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-26T18:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Tivibu Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İzlanda",
-   "away": "Estonya"
+   "home": "52 Orduspor",
+   "away": "Kahramanmaraş İstiklal",
+   "turkish": true
   },
   {
-   "id": "se-488099",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-09-26T19:00:00+03:00",
+   "id": "se-489661",
+   "sport": "motor sporları",
+   "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
+   "competitionId": "fia-avrupa-kamyon-yarisi-sampiyonasi",
+   "kickoff": "2026-09-26T18:05:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Keçiören Bld",
-   "away": "Darüşşafaka"
+   "title": "Yarış 2"
   },
   {
-   "id": "se-488377",
+   "id": "se-489520",
    "sport": "futbol",
-   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
-   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
    "kickoff": "2026-09-26T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "Tivibu Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ukrayna",
-   "away": "Türkiye"
+   "home": "Karşıyaka",
+   "away": "Gaziemirspor",
+   "turkish": true
   },
   {
    "id": "se-489263",
@@ -487,38 +522,52 @@ GM_REGISTER_DAY({
    "away": "Roanne"
   },
   {
-   "id": "se-489519",
+   "id": "se-488377",
    "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
+   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
    "kickoff": "2026-09-26T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor 1"
+    "Tivibu Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "52 Orduspor",
-   "away": "Kahramanmaraş İstiklal",
-   "turkish": true
+   "home": "Ukrayna",
+   "away": "Türkiye"
   },
   {
-   "id": "se-489520",
-   "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
+   "id": "se-488099",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-09-26T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor 2"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Karşıyaka",
-   "away": "Gaziemirspor",
-   "turkish": true
+   "home": "Keçiören Bld",
+   "away": "Darüşşafaka"
+  },
+  {
+   "id": "se-483290",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-26T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İzlanda",
+   "away": "Estonya"
   },
   {
    "id": "se-489258",

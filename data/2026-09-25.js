@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T17:05:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T00:19:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-22T17:05:46+03:00",
+ "generatedAt": "2026-09-23T00:19:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-489657",
+   "sport": "motor sporları",
+   "competition": "FIA Formula 2 Azerbaycan GP",
+   "competitionId": "fia-formula-2-azerbaycan-gp",
+   "kickoff": "2026-09-25T07:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "title": "Sprint Yarışı"
+  },
   {
    "id": "se-489508",
    "sport": "tenis",
@@ -66,6 +82,22 @@ GM_REGISTER_DAY({
    "title": "Gün 5 Maç 2"
   },
   {
+   "id": "se-489658",
+   "sport": "motor sporları",
+   "competition": "FIA Formula 2 Azerbaycan GP",
+   "competitionId": "fia-formula-2-azerbaycan-gp",
+   "kickoff": "2026-09-25T13:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "title": "Yarış 1"
+  },
+  {
    "id": "se-489510",
    "sport": "tenis",
    "competition": "Ankara Cup Tenis Turnuvasi",
@@ -104,11 +136,13 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-09-25T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Tofaş",
    "away": "Bandırma Bordo",
@@ -167,53 +201,20 @@ GM_REGISTER_DAY({
    "away": "Belçika"
   },
   {
-   "id": "se-485813",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-25T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Partizan",
-   "away": "Olimpia Milano"
-  },
-  {
-   "id": "se-483285",
+   "id": "se-483282",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "ATV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Polonya",
-   "away": "Bosna Hersek"
-  },
-  {
-   "id": "se-483284",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-25T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Macaristan",
-   "away": "Ukrayna"
+   "home": "Türkiye",
+   "away": "Fransa"
   },
   {
    "id": "se-483283",
@@ -232,20 +233,53 @@ GM_REGISTER_DAY({
    "away": "Romanya"
   },
   {
-   "id": "se-483282",
+   "id": "se-483284",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "ATV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Türkiye",
-   "away": "Fransa"
+   "home": "Macaristan",
+   "away": "Ukrayna"
+  },
+  {
+   "id": "se-483285",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-25T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Polonya",
+   "away": "Bosna Hersek"
+  },
+  {
+   "id": "se-485813",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-25T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Partizan",
+   "away": "Olimpia Milano"
   }
  ]
 });

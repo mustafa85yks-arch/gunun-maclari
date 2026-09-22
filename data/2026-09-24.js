@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T17:05:43+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T00:19:12+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-22T17:05:43+03:00",
+ "generatedAt": "2026-09-23T00:19:12+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-489655",
+   "sport": "motor sporları",
+   "competition": "FIA Formula 2 Azerbaycan GP",
+   "competitionId": "fia-formula-2-azerbaycan-gp",
+   "kickoff": "2026-09-24T09:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "title": "Antrenman Seansı"
+  },
   {
    "id": "se-489419",
    "sport": "basketbol",
@@ -114,20 +130,20 @@ GM_REGISTER_DAY({
    "title": "Gün 4 Maç 2"
   },
   {
-   "id": "se-489256",
-   "sport": "basketbol",
-   "competition": "Avustralya NBL",
-   "competitionId": "avustralya-nbl",
-   "kickoff": "2026-09-24T14:30:00+03:00",
+   "id": "se-489656",
+   "sport": "motor sporları",
+   "competition": "FIA Formula 2 Azerbaycan GP",
+   "competitionId": "fia-formula-2-azerbaycan-gp",
+   "kickoff": "2026-09-24T13:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
-   "home": "Perth Wildcats",
-   "away": "Adelaide 36ers"
+   "title": "Sıralama Turları"
   },
   {
    "id": "se-489420",
@@ -160,6 +176,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 4 Maç 3"
+  },
+  {
+   "id": "se-489256",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-24T14:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Perth Wildcats",
+   "away": "Adelaide 36ers"
   },
   {
    "id": "se-481461",
@@ -222,6 +254,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "23 Yaş Altı Kadınlar Yol Yarışı"
+  },
+  {
+   "id": "se-489646",
+   "sport": "boks",
+   "competition": "Avrupa Boks Şampiyonasi",
+   "competitionId": "avrupa-boks-sampiyonasi",
+   "kickoff": "2026-09-24T18:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Final/Finaller"
   },
   {
    "id": "se-485804",

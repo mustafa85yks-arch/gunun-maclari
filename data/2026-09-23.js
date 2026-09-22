@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T17:05:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T00:19:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-23",
- "generatedAt": "2026-09-22T17:05:42+03:00",
+ "generatedAt": "2026-09-23T00:19:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,38 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-489651",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-23T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "O.Oliynykova",
+   "away": "M.Chwalinska"
+  },
+  {
+   "id": "se-489652",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-23T09:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Mertens",
+   "away": "B.Krejcikova"
+  },
   {
    "id": "se-489417",
    "sport": "basketbol",
@@ -74,6 +106,22 @@ GM_REGISTER_DAY({
    "title": "Gün 3 Maç 2"
   },
   {
+   "id": "se-489653",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-23T13:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Andreeva",
+   "away": "A.Sasnovich"
+  },
+  {
    "id": "se-489418",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -106,19 +154,20 @@ GM_REGISTER_DAY({
    "title": "Gün 3 Maç 3"
   },
   {
-   "id": "se-489453",
-   "sport": "bisiklet",
-   "competition": "Bisiklet Cro Race",
-   "competitionId": "bisiklet-cro-race",
-   "kickoff": "2026-09-23T15:00:00+03:00",
+   "id": "se-489654",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-23T14:30:00+03:00",
    "broadcasters": [
-    "Eurosport"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Etap 2"
+   "home": "A.Parks",
+   "away": "L.Fernandez"
   },
   {
    "id": "se-486958",
@@ -135,6 +184,21 @@ GM_REGISTER_DAY({
    ],
    "home": "İstanbul Gençlik",
    "away": "Giresunspor"
+  },
+  {
+   "id": "se-489453",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-23T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 2"
   },
   {
    "id": "se-486959",
