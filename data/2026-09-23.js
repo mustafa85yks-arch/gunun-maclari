@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T07:16:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T12:05:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-23",
- "generatedAt": "2026-09-22T07:16:19+03:00",
+ "generatedAt": "2026-09-22T12:05:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -106,6 +106,21 @@ GM_REGISTER_DAY({
    "title": "Gün 3 Maç 3"
   },
   {
+   "id": "se-489453",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-23T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 2"
+  },
+  {
    "id": "se-486958",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -122,21 +137,6 @@ GM_REGISTER_DAY({
    "away": "Giresunspor"
   },
   {
-   "id": "se-489453",
-   "sport": "bisiklet",
-   "competition": "Bisiklet Cro Race",
-   "competitionId": "bisiklet-cro-race",
-   "kickoff": "2026-09-23T15:00:00+03:00",
-   "broadcasters": [
-    "Eurosport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Etap 2"
-  },
-  {
    "id": "se-486959",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -151,6 +151,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Beykoz Bld.",
    "away": "Spor Toto SK"
+  },
+  {
+   "id": "se-489609",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Çeyrek Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-ceyrek-final",
+   "kickoff": "2026-09-23T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Belçika",
+   "away": "Slovenya"
   },
   {
    "id": "se-489421",

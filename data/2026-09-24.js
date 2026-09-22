@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T07:16:21+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T12:05:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-22T07:16:21+03:00",
+ "generatedAt": "2026-09-22T12:05:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -388,6 +388,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hollanda",
    "away": "Almanya"
+  },
+  {
+   "id": "se-483274",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-24T21:45:00+03:00",
+   "broadcasters": [
+    "a2 TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Norveç",
+   "away": "Danimarka"
   },
   {
    "id": "se-483275",

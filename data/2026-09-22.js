@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T07:16:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-22T12:05:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-22",
- "generatedAt": "2026-09-22T07:16:19+03:00",
+ "generatedAt": "2026-09-22T12:05:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -74,22 +74,6 @@ GM_REGISTER_DAY({
    "away": "X.Wang"
   },
   {
-   "id": "se-489498",
-   "sport": "tenis",
-   "competition": "Ankara Cup Tenis Turnuvasi",
-   "competitionId": "ankara-cup-tenis-turnuvasi",
-   "kickoff": "2026-09-22T10:30:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor Youtube",
-    "Tivibu Spor 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Gün 2 Maç 1"
-  },
-  {
    "id": "se-489415",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -106,20 +90,20 @@ GM_REGISTER_DAY({
    "away": "RSSB Tigers"
   },
   {
-   "id": "se-489255",
-   "sport": "basketbol",
-   "competition": "Avustralya NBL",
-   "competitionId": "avustralya-nbl",
-   "kickoff": "2026-09-22T12:30:00+03:00",
+   "id": "se-489498",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-22T10:30:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Brisbane Bullets",
-   "away": "NZ Breakers"
+   "title": "Gün 2 Maç 1"
   },
   {
    "id": "se-489499",
@@ -136,6 +120,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 2 Maç 2"
+  },
+  {
+   "id": "se-489255",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-22T12:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brisbane Bullets",
+   "away": "NZ Breakers"
   },
   {
    "id": "se-489578",
