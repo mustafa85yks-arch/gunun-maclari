@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T07:17:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T12:05:55+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-23",
- "generatedAt": "2026-09-23T07:17:19+03:00",
+ "generatedAt": "2026-09-23T12:05:55+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -122,6 +122,21 @@ GM_REGISTER_DAY({
    "away": "A.Sasnovich"
   },
   {
+   "id": "se-489686",
+   "sport": "boks",
+   "competition": "Avrupa Boks Şampiyonasi",
+   "competitionId": "avrupa-boks-sampiyonasi",
+   "kickoff": "2026-09-23T13:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Finaller"
+  },
+  {
    "id": "se-489418",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -176,7 +191,7 @@ GM_REGISTER_DAY({
    "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-09-23T15:00:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -247,6 +262,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Neftchi IK",
    "away": "Parnu"
+  },
+  {
+   "id": "se-489687",
+   "sport": "boks",
+   "competition": "Avrupa Boks Şampiyonasi",
+   "competitionId": "avrupa-boks-sampiyonasi",
+   "kickoff": "2026-09-23T18:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Final Müsabakaları"
   },
   {
    "id": "se-488510",
