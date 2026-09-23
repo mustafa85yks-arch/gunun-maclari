@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T01:49:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T07:17:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-23T01:49:11+03:00",
+ "generatedAt": "2026-09-23T07:17:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -175,7 +175,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Gün 4 Maç 3 HalıSaha Ayırt"
+   "title": "Gün 4 Maç 3"
   },
   {
    "id": "se-489256",
