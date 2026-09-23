@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T00:20:08+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T01:49:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-24T00:20:08+03:00",
+ "generatedAt": "2026-09-24T01:49:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,54 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-489865",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Y.Ma",
+   "away": "K.Birrell"
+  },
+  {
+   "id": "se-489866",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Y.Ku",
+   "away": "E.G.Ruse"
+  },
+  {
+   "id": "se-489861",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Gibson",
+   "away": "V.Morvayova"
+  },
+  {
    "id": "se-489655",
    "sport": "motor sporları",
    "competition": "FIA Formula 2 Azerbaycan GP",
@@ -26,27 +74,44 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Antrenman Seansı"
   },
   {
-   "id": "se-489419",
-   "sport": "basketbol",
-   "competition": "FIBA Intercontinental Cup",
-   "competitionId": "fiba-intercontinental-cup",
-   "kickoff": "2026-09-24T10:30:00+03:00",
+   "id": "se-489862",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T09:30:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Lietuvos Rytas",
-   "away": "Shanghai"
+   "home": "X.Wang",
+   "away": "J.Garland"
+  },
+  {
+   "id": "se-489867",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T10:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Ostapenko",
+   "away": "T.Preston"
   },
   {
    "id": "se-489505",
@@ -65,6 +130,22 @@ GM_REGISTER_DAY({
    "title": "Gün 4 Maç 1"
   },
   {
+   "id": "se-489419",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-24T10:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lietuvos Rytas",
+   "away": "Shanghai"
+  },
+  {
    "id": "se-481460",
    "sport": "motor sporları",
    "competition": "Formula 1 Azerbaycan GP",
@@ -73,9 +154,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-1"
   },
@@ -96,22 +178,6 @@ GM_REGISTER_DAY({
    "away": "İspanya"
   },
   {
-   "id": "se-488066",
-   "sport": "futbol",
-   "competition": "UEFA Dostluk Kupasi",
-   "competitionId": "uefa-dostluk-kupasi",
-   "kickoff": "2026-09-24T12:30:00+03:00",
-   "broadcasters": [
-    "UEFA.tv"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Mısır",
-   "away": "Güney Kore"
-  },
-  {
    "id": "se-489506",
    "sport": "tenis",
    "competition": "Ankara Cup Tenis Turnuvasi",
@@ -128,6 +194,22 @@ GM_REGISTER_DAY({
    "title": "Gün 4 Maç 2"
   },
   {
+   "id": "se-488066",
+   "sport": "futbol",
+   "competition": "UEFA Dostluk Kupasi",
+   "competitionId": "uefa-dostluk-kupasi",
+   "kickoff": "2026-09-24T12:30:00+03:00",
+   "broadcasters": [
+    "UEFA.tv"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mısır",
+   "away": "Güney Kore"
+  },
+  {
    "id": "se-489656",
    "sport": "motor sporları",
    "competition": "FIA Formula 2 Azerbaycan GP",
@@ -136,11 +218,44 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-489863",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T13:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Sıralama Turları"
+   "home": "T.Prozorova",
+   "away": "A.Eala"
+  },
+  {
+   "id": "se-489256",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-09-24T14:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Perth Wildcats",
+   "away": "Adelaide 36ers"
   },
   {
    "id": "se-489420",
@@ -175,22 +290,6 @@ GM_REGISTER_DAY({
    "title": "Gün 4 Maç 3"
   },
   {
-   "id": "se-489256",
-   "sport": "basketbol",
-   "competition": "Avustralya NBL",
-   "competitionId": "avustralya-nbl",
-   "kickoff": "2026-09-24T14:30:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Perth Wildcats",
-   "away": "Adelaide 36ers"
-  },
-  {
    "id": "se-481461",
    "sport": "motor sporları",
    "competition": "Formula 1 Azerbaycan GP",
@@ -199,9 +298,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-2"
   },
@@ -219,6 +319,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Etap 3"
+  },
+  {
+   "id": "se-489864",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Sakkari",
+   "away": "N.Hibino"
   },
   {
    "id": "se-488067",
@@ -267,6 +383,24 @@ GM_REGISTER_DAY({
    "title": "Yarı Final/Finaller"
   },
   {
+   "id": "se-485804",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-24T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Dubai Basket",
+   "away": "Real Madrid"
+  },
+  {
    "id": "se-485805",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -299,24 +433,6 @@ GM_REGISTER_DAY({
    ],
    "home": "İngiltere",
    "away": "Kolombiya"
-  },
-  {
-   "id": "se-485804",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-24T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Dubai Basket",
-   "away": "Real Madrid"
   },
   {
    "id": "se-489457",
@@ -417,20 +533,20 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-483275",
+   "id": "se-483273",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-24T21:45:00+03:00",
    "broadcasters": [
-    "A Haber"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Portekiz",
-   "away": "Galler"
+   "home": "Hollanda",
+   "away": "Almanya"
   },
   {
    "id": "se-485810",
@@ -481,6 +597,22 @@ GM_REGISTER_DAY({
    "away": "Yunanistan"
   },
   {
+   "id": "se-483275",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-24T21:45:00+03:00",
+   "broadcasters": [
+    "A Haber"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Portekiz",
+   "away": "Galler"
+  },
+  {
    "id": "se-483274",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -495,22 +627,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Norveç",
    "away": "Danimarka"
-  },
-  {
-   "id": "se-483273",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-24T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hollanda",
-   "away": "Almanya"
   }
  ]
 });

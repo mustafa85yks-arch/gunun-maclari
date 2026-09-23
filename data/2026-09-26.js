@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T00:20:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T01:49:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-26",
- "generatedAt": "2026-09-24T00:20:15+03:00",
+ "generatedAt": "2026-09-24T01:49:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -664,20 +664,35 @@ GM_REGISTER_DAY({
    "away": "D.Kozma"
   },
   {
-   "id": "se-483294",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-26T21:45:00+03:00",
+   "id": "se-489870",
+   "sport": "dövüş sporları",
+   "competition": "Loca Fight Club",
+   "competitionId": "loca-fight-club",
+   "kickoff": "2026-09-26T21:30:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "TV 8 Buçuk"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çekya",
-   "away": "Hırvatistan"
+   "title": "İstanbul"
+  },
+  {
+   "id": "se-483296",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-26T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kuzey Makedonya",
+   "away": "İsviçre"
   },
   {
    "id": "se-483295",
@@ -696,20 +711,20 @@ GM_REGISTER_DAY({
    "away": "İspanya"
   },
   {
-   "id": "se-483296",
+   "id": "se-483294",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-26T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kuzey Makedonya",
-   "away": "İsviçre"
+   "home": "Çekya",
+   "away": "Hırvatistan"
   },
   {
    "id": "se-486972",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T00:20:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T01:49:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-24T00:20:12+03:00",
+ "generatedAt": "2026-09-24T01:49:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -210,6 +210,25 @@ GM_REGISTER_DAY({
    "away": "S.Sitchalongsak"
   },
   {
+   "id": "se-489869",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Yarı Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-yari-final",
+   "kickoff": "2026-09-25T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slovenya",
+   "away": "Polonya",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-489847",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
@@ -224,6 +243,25 @@ GM_REGISTER_DAY({
    ],
    "home": "S.Jahanara",
    "away": "B.Saraliev"
+  },
+  {
+   "id": "se-489868",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Yarı Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-yari-final",
+   "kickoff": "2026-09-25T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Finlandiya",
+   "away": "Fransa",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-489848",
