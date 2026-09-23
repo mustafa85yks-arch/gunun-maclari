@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-23T17:06:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T00:20:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-23T17:06:38+03:00",
+ "generatedAt": "2026-09-24T00:20:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,22 +17,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-488515",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-09-27T02:00:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Detroit",
-   "away": "Colorado Springs"
-  },
   {
    "id": "se-488514",
    "sport": "futbol",
@@ -66,6 +50,22 @@ GM_REGISTER_DAY({
    "away": "Miami FC"
   },
   {
+   "id": "se-488515",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-09-27T02:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Detroit",
+   "away": "Colorado Springs"
+  },
+  {
    "id": "se-489229",
    "sport": "dövüş sporları",
    "competition": "UFC Dövüş Serisi",
@@ -82,22 +82,6 @@ GM_REGISTER_DAY({
    "away": "E.Brener"
   },
   {
-   "id": "se-488517",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-09-27T03:30:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "San Antonio",
-   "away": "Tampa Bay Rowdies"
-  },
-  {
    "id": "se-489230",
    "sport": "dövüş sporları",
    "competition": "UFC Dövüş Serisi",
@@ -112,6 +96,22 @@ GM_REGISTER_DAY({
    ],
    "home": "M.Amaya",
    "away": "V.Machado"
+  },
+  {
+   "id": "se-488517",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-09-27T03:30:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "San Antonio",
+   "away": "Tampa Bay Rowdies"
   },
   {
    "id": "se-488518",
@@ -162,22 +162,6 @@ GM_REGISTER_DAY({
    "away": "R.Nakamura"
   },
   {
-   "id": "se-488521",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-09-27T05:00:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Orange County",
-   "away": "Pittsburgh RH"
-  },
-  {
    "id": "se-489233",
    "sport": "dövüş sporları",
    "competition": "UFC Dövüş Serisi",
@@ -192,6 +176,22 @@ GM_REGISTER_DAY({
    ],
    "home": "R.Vieira",
    "away": "R.Bryczek"
+  },
+  {
+   "id": "se-488521",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-09-27T05:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Orange County",
+   "away": "Pittsburgh RH"
   },
   {
    "id": "se-488520",
@@ -334,6 +334,21 @@ GM_REGISTER_DAY({
    "away": "Güney Kore"
   },
   {
+   "id": "se-489241",
+   "sport": "tenis",
+   "competition": "ATP Chengdu Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-09-27T12:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 3"
+  },
+  {
    "id": "se-488070",
    "sport": "futbol",
    "competition": "UEFA Dostluk Kupasi",
@@ -348,21 +363,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Kanada",
    "away": "Fildişi Sahili"
-  },
-  {
-   "id": "se-489241",
-   "sport": "tenis",
-   "competition": "ATP Chengdu Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-09-27T12:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 3"
   },
   {
    "id": "se-489225",
