@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T00:20:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T01:50:35+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-25T00:20:33+03:00",
+ "generatedAt": "2026-09-25T01:50:35+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,22 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-490211",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Volynets",
+   "away": "K.Birrell"
+  },
+  {
    "id": "se-489657",
    "sport": "motor sporları",
    "competition": "FIA Formula 2 Azerbaycan GP",
@@ -32,6 +48,70 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Sprint Yarışı"
+  },
+  {
+   "id": "se-490212",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T07:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Bondar",
+   "away": "E.G.Ruse"
+  },
+  {
+   "id": "se-490207",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Mertens",
+   "away": "M.Chwalinska"
+  },
+  {
+   "id": "se-490213",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T09:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Preston",
+   "away": "A.Korneeva"
+  },
+  {
+   "id": "se-490208",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T09:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "X.Wang",
+   "away": "T.Prozorova"
   },
   {
    "id": "se-489508",
@@ -50,6 +130,22 @@ GM_REGISTER_DAY({
    "title": "Gün 5 Maç 1"
   },
   {
+   "id": "se-490214",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T10:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Tararudee",
+   "away": "M.Joint"
+  },
+  {
    "id": "se-481462",
    "sport": "motor sporları",
    "competition": "Formula 1 Azerbaycan GP",
@@ -64,6 +160,22 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-3"
+  },
+  {
+   "id": "se-490202",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-09-25T12:00:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hırvatistan",
+   "away": "Macaristan"
   },
   {
    "id": "se-489509",
@@ -82,6 +194,22 @@ GM_REGISTER_DAY({
    "title": "Gün 5 Maç 2"
   },
   {
+   "id": "se-490205",
+   "sport": "voleybol",
+   "competition": "CEV U20 Erkekler Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-erkekler-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-09-25T12:30:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çekya",
+   "away": "Macaristan"
+  },
+  {
    "id": "se-489658",
    "sport": "motor sporları",
    "competition": "FIA Formula 2 Azerbaycan GP",
@@ -96,6 +224,22 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Yarış 1"
+  },
+  {
+   "id": "se-490209",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T13:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Andreeva",
+   "away": "L.Fernandez"
   },
   {
    "id": "se-489510",
@@ -130,20 +274,20 @@ GM_REGISTER_DAY({
    "away": "T.Phuong Thuy"
   },
   {
-   "id": "se-489843",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
-   "kickoff": "2026-09-25T15:00:00+03:00",
+   "id": "se-490203",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-09-25T14:30:00+03:00",
    "broadcasters": [
-    "One Championship Youtube"
+    "CEV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "D.Sansuk",
-   "away": "Y.Hori"
+   "home": "Slovakya",
+   "away": "Güney Kıbrıs"
   },
   {
    "id": "se-481463",
@@ -160,6 +304,54 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-489843",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-09-25T15:00:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Sansuk",
+   "away": "Y.Hori"
+  },
+  {
+   "id": "se-490206",
+   "sport": "voleybol",
+   "competition": "CEV U20 Erkekler Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-erkekler-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-09-25T15:00:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İsrail",
+   "away": "Güney Kıbrıs"
+  },
+  {
+   "id": "se-490210",
+   "sport": "tenis",
+   "competition": "WTA Singapur",
+   "competitionId": "wta",
+   "kickoff": "2026-09-25T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Sakkari",
+   "away": "T.Gibson"
   },
   {
    "id": "se-489844",
@@ -224,6 +416,22 @@ GM_REGISTER_DAY({
    ],
    "home": "S.Jahanara",
    "away": "B.Saraliev"
+  },
+  {
+   "id": "se-490204",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-09-25T17:00:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çekya",
+   "away": "İsrail"
   },
   {
    "id": "se-489848",
