@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T12:06:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T17:06:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-24T12:06:25+03:00",
+ "generatedAt": "2026-09-24T17:06:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -210,25 +210,6 @@ GM_REGISTER_DAY({
    "away": "S.Sitchalongsak"
   },
   {
-   "id": "se-489869",
-   "sport": "voleybol",
-   "competition": "CEV Erkekler Avrupa Şampiyonasi Yarı Final",
-   "competitionId": "cev-erkekler-avrupa-sampiyonasi-yari-final",
-   "kickoff": "2026-09-25T17:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Slovenya",
-   "away": "Polonya",
-   "tags": [
-    "yari-final"
-   ]
-  },
-  {
    "id": "se-489847",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
@@ -243,25 +224,6 @@ GM_REGISTER_DAY({
    ],
    "home": "S.Jahanara",
    "away": "B.Saraliev"
-  },
-  {
-   "id": "se-489868",
-   "sport": "voleybol",
-   "competition": "CEV Erkekler Avrupa Şampiyonasi Yarı Final",
-   "competitionId": "cev-erkekler-avrupa-sampiyonasi-yari-final",
-   "kickoff": "2026-09-25T17:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Finlandiya",
-   "away": "Fransa",
-   "tags": [
-    "yari-final"
-   ]
   },
   {
    "id": "se-489848",
@@ -294,6 +256,25 @@ GM_REGISTER_DAY({
    ],
    "home": "T.Torfunfarm",
    "away": "M.Sombatfarm"
+  },
+  {
+   "id": "se-489869",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Yarı Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-yari-final",
+   "kickoff": "2026-09-25T18:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slovenya",
+   "away": "Polonya",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-489850",
@@ -383,69 +364,20 @@ GM_REGISTER_DAY({
    "away": "Virtus Bologna"
   },
   {
-   "id": "se-485813",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-25T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Partizan",
-   "away": "Olimpia Milano"
-  },
-  {
-   "id": "se-483285",
+   "id": "se-483281",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Polonya",
-   "away": "Bosna Hersek"
-  },
-  {
-   "id": "se-483284",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-25T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Macaristan",
-   "away": "Ukrayna"
-  },
-  {
-   "id": "se-483283",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-25T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İsveç",
-   "away": "Romanya"
+   "home": "İtalya",
+   "away": "Belçika"
   },
   {
    "id": "se-483282",
@@ -464,20 +396,88 @@ GM_REGISTER_DAY({
    "away": "Fransa"
   },
   {
-   "id": "se-483281",
+   "id": "se-483283",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "A Haber"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İtalya",
-   "away": "Belçika"
+   "home": "İsveç",
+   "away": "Romanya"
+  },
+  {
+   "id": "se-483284",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-25T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Macaristan",
+   "away": "Ukrayna"
+  },
+  {
+   "id": "se-483285",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-25T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Polonya",
+   "away": "Bosna Hersek"
+  },
+  {
+   "id": "se-485813",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-25T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Partizan",
+   "away": "Olimpia Milano"
+  },
+  {
+   "id": "se-489868",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Yarı Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-yari-final",
+   "kickoff": "2026-09-25T22:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Finlandiya",
+   "away": "Fransa",
+   "tags": [
+    "yari-final"
+   ]
   }
  ]
 });
