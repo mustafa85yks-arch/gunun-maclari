@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T17:06:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T00:20:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-01",
- "generatedAt": "2026-09-24T17:06:25+03:00",
+ "generatedAt": "2026-09-25T00:20:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,36 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-490072",
+   "sport": "tenis",
+   "competition": "ATP Tokyo",
+   "competitionId": "atp",
+   "kickoff": "2026-10-01T05:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tokyo"
+  },
+  {
+   "id": "se-490073",
+   "sport": "tenis",
+   "competition": "ATP Beijing",
+   "competitionId": "atp",
+   "kickoff": "2026-10-01T06:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Beijing"
+  },
   {
    "id": "se-483323",
    "sport": "futbol",
@@ -24,6 +54,57 @@ GM_REGISTER_DAY({
    ],
    "home": "Azerbaycan",
    "away": "Lihtenştayn"
+  },
+  {
+   "id": "se-490119",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-01T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hapoel Tel Aviv",
+   "away": "Real Madrid"
+  },
+  {
+   "id": "se-490120",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-01T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kizilyildiz",
+   "away": "Anadolu Efes"
+  },
+  {
+   "id": "se-490121",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-01T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Virtus Bologna",
+   "away": "Olympiakos"
   },
   {
    "id": "se-483324",
@@ -80,7 +161,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -112,7 +193,8 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Spor",
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -136,6 +218,23 @@ GM_REGISTER_DAY({
    ],
    "home": "İsrail",
    "away": "Kosova"
+  },
+  {
+   "id": "se-490122",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-01T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paris",
+   "away": "Zalgiris Kaunas"
   }
  ]
 });

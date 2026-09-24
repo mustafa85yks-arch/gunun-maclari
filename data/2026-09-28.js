@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T17:06:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T00:20:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-28",
- "generatedAt": "2026-09-24T17:06:24+03:00",
+ "generatedAt": "2026-09-25T00:20:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -82,36 +82,21 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-483305",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-488854",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
    "kickoff": "2026-09-28T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Gürcistan",
-   "away": "Ukrayna"
-  },
-  {
-   "id": "se-483306",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ermenistan",
-   "away": "Karadağ"
+   "home": "Körfez Basket",
+   "away": "Esenler Erokspor",
+   "turkish": true
   },
   {
    "id": "se-483307",
@@ -130,21 +115,36 @@ GM_REGISTER_DAY({
    "away": "Güney Kıbrıs"
   },
   {
-   "id": "se-488854",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
+   "id": "se-483306",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-28T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Körfez Basket",
-   "away": "Esenler Erokspor",
-   "turkish": true
+   "home": "Ermenistan",
+   "away": "Karadağ"
+  },
+  {
+   "id": "se-483305",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-28T19:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gürcistan",
+   "away": "Ukrayna"
   },
   {
    "id": "se-489260",

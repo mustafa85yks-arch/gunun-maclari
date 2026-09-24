@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T17:06:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T00:20:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-24T17:06:25+03:00",
+ "generatedAt": "2026-09-25T00:20:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,36 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-490070",
+   "sport": "tenis",
+   "competition": "ATP Tokyo",
+   "competitionId": "atp",
+   "kickoff": "2026-09-30T05:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tokyo"
+  },
+  {
+   "id": "se-490071",
+   "sport": "tenis",
+   "competition": "ATP Beijing",
+   "competitionId": "atp",
+   "kickoff": "2026-09-30T06:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Beijing"
+  },
   {
    "id": "se-488073",
    "sport": "futbol",
@@ -74,6 +104,22 @@ GM_REGISTER_DAY({
    "away": "İstanbul Gençlik"
   },
   {
+   "id": "se-489915",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-09-30T16:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Halkbank",
+   "away": "Maliye Voleybol"
+  },
+  {
    "id": "se-488075",
    "sport": "futbol",
    "competition": "UEFA Dostluk Kupasi",
@@ -122,20 +168,36 @@ GM_REGISTER_DAY({
    "away": "London Lions"
   },
   {
-   "id": "se-487337",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
+   "id": "se-489904",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bahçeşehir Klj",
-   "away": "BC Roma"
+   "home": "İstanbul Voleybol",
+   "away": "Anadolu Voleybol"
+  },
+  {
+   "id": "se-489424",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-30T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dinamo Bükreş",
+   "away": "Peja"
   },
   {
    "id": "se-487338",
@@ -154,20 +216,20 @@ GM_REGISTER_DAY({
    "away": "Tortona"
   },
   {
-   "id": "se-489424",
+   "id": "se-487337",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup Eleme",
-   "competitionId": "fiba-europe-cup-eleme",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dinamo Bükreş",
-   "away": "Peja"
+   "home": "Bahçeşehir Klj",
+   "away": "BC Roma"
   },
   {
    "id": "se-489425",
@@ -234,22 +296,6 @@ GM_REGISTER_DAY({
    "away": "Buducnost"
   },
   {
-   "id": "se-487342",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-09-30T20:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ratiopharm Ulm",
-   "away": "Balkan"
-  },
-  {
    "id": "se-489426",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup Eleme",
@@ -264,6 +310,22 @@ GM_REGISTER_DAY({
    ],
    "home": "BC Prievidza",
    "away": "Samobor"
+  },
+  {
+   "id": "se-487342",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-09-30T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ratiopharm Ulm",
+   "away": "Balkan"
   },
   {
    "id": "se-487343",

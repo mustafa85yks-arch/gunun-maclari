@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T17:06:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T00:20:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-24T17:06:24+03:00",
+ "generatedAt": "2026-09-25T00:20:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -34,22 +34,6 @@ GM_REGISTER_DAY({
    "away": "Rhode Island"
   },
   {
-   "id": "se-488516",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-09-27T02:00:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Indy Eleven",
-   "away": "Miami FC"
-  },
-  {
    "id": "se-488515",
    "sport": "futbol",
    "competition": "ABD USL Championship",
@@ -64,6 +48,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Detroit",
    "away": "Colorado Springs"
+  },
+  {
+   "id": "se-488516",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-09-27T02:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Indy Eleven",
+   "away": "Miami FC"
   },
   {
    "id": "se-489229",
@@ -82,22 +82,6 @@ GM_REGISTER_DAY({
    "away": "E.Brener"
   },
   {
-   "id": "se-489230",
-   "sport": "dövüş sporları",
-   "competition": "UFC Dövüş Serisi",
-   "competitionId": "ufc",
-   "kickoff": "2026-09-27T03:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "M.Amaya",
-   "away": "V.Machado"
-  },
-  {
    "id": "se-488517",
    "sport": "futbol",
    "competition": "ABD USL Championship",
@@ -112,6 +96,22 @@ GM_REGISTER_DAY({
    ],
    "home": "San Antonio",
    "away": "Tampa Bay Rowdies"
+  },
+  {
+   "id": "se-489230",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-09-27T03:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Amaya",
+   "away": "V.Machado"
   },
   {
    "id": "se-488518",
@@ -162,23 +162,7 @@ GM_REGISTER_DAY({
    "away": "R.Nakamura"
   },
   {
-   "id": "se-489233",
-   "sport": "dövüş sporları",
-   "competition": "UFC Dövüş Serisi",
-   "competitionId": "ufc",
-   "kickoff": "2026-09-27T05:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "R.Vieira",
-   "away": "R.Bryczek"
-  },
-  {
-   "id": "se-488521",
+   "id": "se-488519",
    "sport": "futbol",
    "competition": "ABD USL Championship",
    "competitionId": "abd-usl-championship",
@@ -190,8 +174,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Orange County",
-   "away": "Pittsburgh RH"
+   "home": "Monterrey Bay",
+   "away": "Lexington"
   },
   {
    "id": "se-488520",
@@ -210,7 +194,7 @@ GM_REGISTER_DAY({
    "away": "Phoenix Rising"
   },
   {
-   "id": "se-488519",
+   "id": "se-488521",
    "sport": "futbol",
    "competition": "ABD USL Championship",
    "competitionId": "abd-usl-championship",
@@ -222,8 +206,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Monterrey Bay",
-   "away": "Lexington"
+   "home": "Orange County",
+   "away": "Pittsburgh RH"
+  },
+  {
+   "id": "se-489233",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-09-27T05:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "R.Vieira",
+   "away": "R.Bryczek"
   },
   {
    "id": "se-489234",
@@ -334,21 +334,6 @@ GM_REGISTER_DAY({
    "away": "Güney Kore"
   },
   {
-   "id": "se-489241",
-   "sport": "tenis",
-   "competition": "ATP Chengdu Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-09-27T12:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 3"
-  },
-  {
    "id": "se-488070",
    "sport": "futbol",
    "competition": "UEFA Dostluk Kupasi",
@@ -363,6 +348,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Kanada",
    "away": "Fildişi Sahili"
+  },
+  {
+   "id": "se-489241",
+   "sport": "tenis",
+   "competition": "ATP Chengdu Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-09-27T12:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 3"
   },
   {
    "id": "se-489225",
@@ -410,6 +410,21 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 4"
   },
   {
+   "id": "se-489248",
+   "sport": "tenis",
+   "competition": "ATP Hangzhou Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-09-27T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 4"
+  },
+  {
    "id": "se-489513",
    "sport": "tenis",
    "competition": "Ankara Cup Tenis Turnuvasi",
@@ -424,21 +439,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gösteri Maçı"
-  },
-  {
-   "id": "se-489248",
-   "sport": "tenis",
-   "competition": "ATP Hangzhou Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-09-27T14:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 4"
   },
   {
    "id": "se-486989",
@@ -519,56 +519,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489522",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-09-27T16:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gebzespor",
-   "away": "Elazığspor",
-   "turkish": true
-  },
-  {
-   "id": "se-489521",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-09-27T16:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Karacabey Bld.",
-   "away": "Ankaragücü",
-   "turkish": true
-  },
-  {
-   "id": "se-489514",
-   "sport": "tenis",
-   "competition": "Ankara Cup Tenis Turnuvasi",
-   "competitionId": "ankara-cup-tenis-turnuvasi",
-   "kickoff": "2026-09-27T16:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor Youtube",
-    "Tivibu Spor 3"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Final"
-  },
-  {
    "id": "se-486969",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -599,6 +549,56 @@ GM_REGISTER_DAY({
    ],
    "home": "Final Spor",
    "away": "Fenerbahçe Koleji"
+  },
+  {
+   "id": "se-489514",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-27T16:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final"
+  },
+  {
+   "id": "se-489521",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-27T16:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karacabey Bld.",
+   "away": "Ankaragücü",
+   "turkish": true
+  },
+  {
+   "id": "se-489522",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-27T16:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gebzespor",
+   "away": "Elazığspor",
+   "turkish": true
   },
   {
    "id": "se-488101",
@@ -696,37 +696,68 @@ GM_REGISTER_DAY({
    "away": "Brezilya"
   },
   {
-   "id": "se-489526",
+   "id": "se-483299",
    "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-27T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Eskişehirspor",
-   "away": "Balıkesirspor",
-   "turkish": true
+   "home": "Danimarka",
+   "away": "Galler"
   },
   {
-   "id": "se-489525",
+   "id": "se-483300",
    "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-27T19:00:00+03:00",
    "broadcasters": [
-    "Yaay"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bucaspor",
-   "away": "Altay",
+   "home": "Sırbistan",
+   "away": "Hollanda"
+  },
+  {
+   "id": "se-483301",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-27T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Avusturya",
+   "away": "Kosova"
+  },
+  {
+   "id": "se-489523",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-09-27T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sakaryaspor",
+   "away": "Kütahyaspor",
    "turkish": true
   },
   {
@@ -747,69 +778,54 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489523",
+   "id": "se-489525",
    "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
    "kickoff": "2026-09-27T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor 1"
+    "Yaay"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Sakaryaspor",
-   "away": "Kütahyaspor",
+   "home": "Bucaspor",
+   "away": "Altay",
    "turkish": true
   },
   {
-   "id": "se-483300",
+   "id": "se-489526",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
    "kickoff": "2026-09-27T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "Tivibu Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Sırbistan",
-   "away": "Hollanda"
+   "home": "Eskişehirspor",
+   "away": "Balıkesirspor",
+   "turkish": true
   },
   {
-   "id": "se-483299",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-489886",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar Kupa Voley",
+   "competitionId": "tvf-kadinlar-kupa-voley",
    "kickoff": "2026-09-27T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Danimarka",
-   "away": "Galler"
-  },
-  {
-   "id": "se-483301",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-27T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Avusturya",
-   "away": "Kosova"
+   "home": "Nilüfer Bld.",
+   "away": "Beşiktaş"
   },
   {
    "id": "se-486973",
