@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T07:16:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-24T12:06:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-24",
- "generatedAt": "2026-09-24T07:16:32+03:00",
+ "generatedAt": "2026-09-24T12:06:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -34,22 +34,6 @@ GM_REGISTER_DAY({
    "away": "K.Birrell"
   },
   {
-   "id": "se-489866",
-   "sport": "tenis",
-   "competition": "WTA Seul",
-   "competitionId": "wta",
-   "kickoff": "2026-09-24T08:00:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Y.Ku",
-   "away": "E.G.Ruse"
-  },
-  {
    "id": "se-489861",
    "sport": "tenis",
    "competition": "WTA Singapur",
@@ -64,6 +48,22 @@ GM_REGISTER_DAY({
    ],
    "home": "T.Gibson",
    "away": "V.Morvayova"
+  },
+  {
+   "id": "se-489866",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-24T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Y.Ku",
+   "away": "E.G.Ruse"
   },
   {
    "id": "se-489655",
@@ -114,22 +114,6 @@ GM_REGISTER_DAY({
    "away": "T.Preston"
   },
   {
-   "id": "se-489505",
-   "sport": "tenis",
-   "competition": "Ankara Cup Tenis Turnuvasi",
-   "competitionId": "ankara-cup-tenis-turnuvasi",
-   "kickoff": "2026-09-24T10:30:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor Youtube",
-    "Tivibu Spor 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Gün 4 Maç 1"
-  },
-  {
    "id": "se-489419",
    "sport": "basketbol",
    "competition": "FIBA Intercontinental Cup",
@@ -144,6 +128,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lietuvos Rytas",
    "away": "Shanghai"
+  },
+  {
+   "id": "se-489505",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-24T10:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4 Maç 1"
   },
   {
    "id": "se-481460",
@@ -178,22 +178,6 @@ GM_REGISTER_DAY({
    "away": "İspanya"
   },
   {
-   "id": "se-489506",
-   "sport": "tenis",
-   "competition": "Ankara Cup Tenis Turnuvasi",
-   "competitionId": "ankara-cup-tenis-turnuvasi",
-   "kickoff": "2026-09-24T12:30:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor Youtube",
-    "Tivibu Spor 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Gün 4 Maç 2"
-  },
-  {
    "id": "se-488066",
    "sport": "futbol",
    "competition": "UEFA Dostluk Kupasi",
@@ -208,6 +192,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Mısır",
    "away": "Güney Kore"
+  },
+  {
+   "id": "se-489506",
+   "sport": "tenis",
+   "competition": "Ankara Cup Tenis Turnuvasi",
+   "competitionId": "ankara-cup-tenis-turnuvasi",
+   "kickoff": "2026-09-24T12:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor Youtube",
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4 Maç 2"
   },
   {
    "id": "se-489656",
@@ -240,6 +240,21 @@ GM_REGISTER_DAY({
    ],
    "home": "T.Prozorova",
    "away": "A.Eala"
+  },
+  {
+   "id": "se-489873",
+   "sport": "boks",
+   "competition": "Avrupa Boks Şampiyonasi",
+   "competitionId": "avrupa-boks-sampiyonasi",
+   "kickoff": "2026-09-24T13:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Finaller"
   },
   {
    "id": "se-489256",
@@ -549,52 +564,20 @@ GM_REGISTER_DAY({
    "away": "Almanya"
   },
   {
-   "id": "se-485810",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-24T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Asvel Villeurbanne",
-   "away": "Maccabi Fox"
-  },
-  {
-   "id": "se-483278",
+   "id": "se-483274",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-24T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "a2 TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kosova",
-   "away": "İrlanda"
-  },
-  {
-   "id": "se-483276",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-24T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sırbistan",
-   "away": "Yunanistan"
+   "home": "Norveç",
+   "away": "Danimarka"
   },
   {
    "id": "se-483275",
@@ -613,20 +596,52 @@ GM_REGISTER_DAY({
    "away": "Galler"
   },
   {
-   "id": "se-483274",
+   "id": "se-483276",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-24T21:45:00+03:00",
    "broadcasters": [
-    "a2 TV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Norveç",
-   "away": "Danimarka"
+   "home": "Sırbistan",
+   "away": "Yunanistan"
+  },
+  {
+   "id": "se-483278",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-24T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kosova",
+   "away": "İrlanda"
+  },
+  {
+   "id": "se-485810",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-24T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Asvel Villeurbanne",
+   "away": "Maccabi Fox"
   }
  ]
 });
