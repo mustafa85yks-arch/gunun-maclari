@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T01:50:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T07:17:01+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-26",
- "generatedAt": "2026-09-25T01:50:38+03:00",
+ "generatedAt": "2026-09-25T07:17:01+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -99,8 +99,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489910",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig  Futbolligi yayınları",
-   "competitionId": "tvf-erkekler-2-lig-futbolligi-yayinlari",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-09-26T11:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
@@ -182,8 +182,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-488094",
    "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "competition": "Basketbol 1. Ligi  Futbolligi yayınları",
+   "competitionId": "basketbol-1-ligi-futbolligi-yayinlari",
    "kickoff": "2026-09-26T14:00:00+03:00",
    "broadcasters": [
     "TBF TV Youtube"
@@ -214,8 +214,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489902",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig  Futbolligi yayınları",
-   "competitionId": "tvf-erkekler-2-lig-futbolligi-yayinlari",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-09-26T14:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
@@ -293,8 +293,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-486966",
    "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
+   "competition": "Hentbol Erkekler Süper Ligi  Futbolligi yayınları",
+   "competitionId": "hentbol-erkekler-super-ligi-futbolligi-yayinlari",
    "kickoff": "2026-09-26T15:00:00+03:00",
    "broadcasters": [
     "THF TV Youtube"
@@ -358,8 +358,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-483287",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi  Futbolligi yayınları",
-   "competitionId": "uefa-uluslar-ligi-futbolligi-yayinlari",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-26T16:00:00+03:00",
    "broadcasters": [
     "A Spor"
