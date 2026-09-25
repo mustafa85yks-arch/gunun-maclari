@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T00:20:13+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T01:50:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-26",
- "generatedAt": "2026-09-26T00:20:13+03:00",
+ "generatedAt": "2026-09-26T01:50:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -81,6 +81,85 @@ GM_REGISTER_DAY({
    "away": "FC Tulsa"
   },
   {
+   "id": "se-490212",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-26T05:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Bondar",
+   "away": "E.G.Ruse"
+  },
+  {
+   "id": "se-490214",
+   "sport": "tenis",
+   "competition": "WTA Seul",
+   "competitionId": "wta",
+   "kickoff": "2026-09-26T05:20:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Tararudee",
+   "away": "M.Joint"
+  },
+  {
+   "id": "se-490299",
+   "sport": "tenis",
+   "competition": "WTA Seul Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-26T06:10:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Preston",
+   "away": "A.Korneeva"
+  },
+  {
+   "id": "se-490305",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-26T07:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beijing Royal Fighters",
+   "away": "Shanghai"
+  },
+  {
+   "id": "se-490308",
+   "sport": "basketbol",
+   "competition": "FIBA 3x3 Dünya Turu",
+   "competitionId": "fiba-3x3-dunya-turu",
+   "kickoff": "2026-09-26T09:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Seans 1"
+  },
+  {
    "id": "se-489659",
    "sport": "motor sporları",
    "competition": "FIA Formula 2 Azerbaycan GP",
@@ -95,6 +174,22 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Yarış 2"
+  },
+  {
+   "id": "se-490306",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-26T10:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "RSSB Tigers",
+   "away": "G League United"
   },
   {
    "id": "se-489910",
@@ -163,6 +258,22 @@ GM_REGISTER_DAY({
    "away": "Konya BB"
   },
   {
+   "id": "se-490301",
+   "sport": "tenis",
+   "competition": "WTA Kallang",
+   "competitionId": "wta",
+   "kickoff": "2026-09-26T13:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Fernandez",
+   "away": "M.Chwalinska"
+  },
+  {
    "id": "se-481464",
    "sport": "motor sporları",
    "competition": "Formula 1",
@@ -209,7 +320,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1"
+   "home": "T.Kostovic",
+   "away": "P.Iatcenko"
   },
   {
    "id": "se-489902",
@@ -257,6 +369,37 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Guyancourt"
+  },
+  {
+   "id": "se-490309",
+   "sport": "basketbol",
+   "competition": "FIBA 3x3 Dünya Turu",
+   "competitionId": "fiba-3x3-dunya-turu",
+   "kickoff": "2026-09-26T14:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Seans 2"
+  },
+  {
+   "id": "se-490307",
+   "sport": "basketbol",
+   "competition": "FIBA Intercontinental Cup",
+   "competitionId": "fiba-intercontinental-cup",
+   "kickoff": "2026-09-26T14:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lietuvos Rytas",
+   "away": "Boca Juniors"
   },
   {
    "id": "se-486965",
@@ -479,7 +622,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 2"
+   "home": "Deniz Dilek",
+   "away": "Berfu Cengiz"
   },
   {
    "id": "se-489517",
@@ -675,6 +819,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490303",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi 3'üncülük",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-3-unculuk",
+   "kickoff": "2026-09-26T18:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Finlandiya",
+   "away": "Slovenya"
+  },
+  {
    "id": "se-489661",
    "sport": "motor sporları",
    "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
@@ -688,6 +848,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 2"
+  },
+  {
+   "id": "se-490300",
+   "sport": "futbol",
+   "competition": "Game4Hope",
+   "competitionId": "game4hope",
+   "kickoff": "2026-09-26T18:45:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Merseyside XI",
+   "away": "Dünya Karması"
   },
   {
    "id": "se-483290",
@@ -962,6 +1138,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Barcelona",
    "away": "Leyma Coruna"
+  },
+  {
+   "id": "se-490304",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Avrupa Şampiyonasi Final",
+   "competitionId": "cev-erkekler-avrupa-sampiyonasi-final",
+   "kickoff": "2026-09-26T22:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fransa",
+   "away": "Polonya",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-490295",

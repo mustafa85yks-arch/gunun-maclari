@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T00:20:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T01:50:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-26T00:20:14+03:00",
+ "generatedAt": "2026-09-26T01:50:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -330,6 +330,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 2"
+  },
+  {
+   "id": "se-490310",
+   "sport": "basketbol",
+   "competition": "FIBA 3x3 Dünya Turu",
+   "competitionId": "fiba-3x3-dunya-turu",
+   "kickoff": "2026-09-27T10:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Finaller"
   },
   {
    "id": "se-489257",
@@ -1020,6 +1035,21 @@ GM_REGISTER_DAY({
    "home": "Anadolu Efes",
    "away": "Beşiktaş",
    "turkish": true
+  },
+  {
+   "id": "se-490302",
+   "sport": "motor sporları",
+   "competition": "GT World Challenge",
+   "competitionId": "gt-world-challenge",
+   "kickoff": "2026-09-27T20:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Amerika"
   },
   {
    "id": "se-483302",
