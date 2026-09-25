@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T12:06:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T17:06:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-25T12:06:23+03:00",
+ "generatedAt": "2026-09-25T17:06:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -385,6 +385,22 @@ GM_REGISTER_DAY({
    "away": "F.Cerundolo"
   },
   {
+   "id": "se-490245",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T15:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Ruud",
+   "away": "F.Cerundolo"
+  },
+  {
    "id": "se-489844",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
@@ -431,6 +447,22 @@ GM_REGISTER_DAY({
    ],
    "home": "M.Zhenzhao",
    "away": "S.Sitchalongsak"
+  },
+  {
+   "id": "se-490246",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T16:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Mensik",
+   "away": "B.Nakashima"
   },
   {
    "id": "se-489847",
@@ -665,6 +697,22 @@ GM_REGISTER_DAY({
    "title": "Gün 2"
   },
   {
+   "id": "se-490247",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "R.Jodar",
+   "away": "A.Bublik"
+  },
+  {
    "id": "se-483281",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -751,8 +799,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-09-25T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -788,6 +835,22 @@ GM_REGISTER_DAY({
    "kickoff": "2026-09-25T22:30:00+03:00",
    "broadcasters": [
     "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alcaraz/Mensik",
+   "away": "Bublik/Fritz"
+  },
+  {
+   "id": "se-490248",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T22:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
