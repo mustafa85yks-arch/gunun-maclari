@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T17:06:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T00:20:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-25T17:06:46+03:00",
+ "generatedAt": "2026-09-26T00:20:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -346,6 +346,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Sydney Kings",
    "away": "Illawarra Hawks"
+  },
+  {
+   "id": "se-490276",
+   "sport": "futbol",
+   "competition": "Antrenman",
+   "competitionId": "antrenman",
+   "kickoff": "2026-09-27T11:15:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Milli Takım"
   },
   {
    "id": "se-488069",
@@ -901,6 +920,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Nilüfer Bld.",
    "away": "Beşiktaş"
+  },
+  {
+   "id": "se-490271",
+   "sport": "futbol",
+   "competition": "Basin Toplantisi",
+   "competitionId": "basin-toplantisi",
+   "kickoff": "2026-09-27T19:45:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Vincenzo Montella"
   },
   {
    "id": "se-486973",

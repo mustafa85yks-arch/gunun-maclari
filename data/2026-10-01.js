@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T17:06:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T00:20:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-01",
- "generatedAt": "2026-09-25T17:06:46+03:00",
+ "generatedAt": "2026-09-26T00:20:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -40,6 +40,25 @@ GM_REGISTER_DAY({
    "title": "Beijing"
   },
   {
+   "id": "se-490277",
+   "sport": "futbol",
+   "competition": "Antrenman",
+   "competitionId": "antrenman",
+   "kickoff": "2026-10-01T11:15:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Milli Takım"
+  },
+  {
    "id": "se-483323",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -71,6 +90,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Hapoel Tel Aviv",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-490272",
+   "sport": "futbol",
+   "competition": "Basin Toplantisi",
+   "competitionId": "basin-toplantisi",
+   "kickoff": "2026-10-01T19:45:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Vincenzo Montella"
   },
   {
    "id": "se-490120",
