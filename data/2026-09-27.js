@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T07:17:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T12:06:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-25T07:17:01+03:00",
+ "generatedAt": "2026-09-25T12:06:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -162,6 +162,21 @@ GM_REGISTER_DAY({
    "away": "R.Nakamura"
   },
   {
+   "id": "se-490229",
+   "sport": "motor sporları",
+   "competition": "Dünya Dayaniklilik Şampiyonasi",
+   "competitionId": "dunya-dayaniklilik-sampiyonasi",
+   "kickoff": "2026-09-27T04:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "6 Saat Fuji Yarışı"
+  },
+  {
    "id": "se-488519",
    "sport": "futbol",
    "competition": "ABD USL Championship",
@@ -270,6 +285,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 1"
+  },
+  {
+   "id": "se-490238",
+   "sport": "atletizm",
+   "competition": "Atletizm Trail World Series",
+   "competitionId": "atletizm-trail-world-series",
+   "kickoff": "2026-09-27T09:15:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çin"
   },
   {
    "id": "se-489240",
@@ -441,6 +471,36 @@ GM_REGISTER_DAY({
    "title": "Gösteri Maçı"
   },
   {
+   "id": "se-490230",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-27T14:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 6"
+  },
+  {
+   "id": "se-490239",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-27T14:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
    "id": "se-486989",
    "sport": "dalış",
    "competition": "Red Bull Cliff Diving",
@@ -599,6 +659,21 @@ GM_REGISTER_DAY({
    "home": "Gebzespor",
    "away": "Elazığspor",
    "turkish": true
+  },
+  {
+   "id": "se-490231",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-27T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Elit Erkekler Yol Yarışı"
   },
   {
    "id": "se-488101",
@@ -972,6 +1047,36 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Oviedo",
    "away": "Sporting Gijon"
+  },
+  {
+   "id": "se-490240",
+   "sport": "golf",
+   "competition": "Golf Presidents Cup",
+   "competitionId": "golf-presidents-cup",
+   "kickoff": "2026-09-27T22:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4"
+  },
+  {
+   "id": "se-490232",
+   "sport": "bisiklet",
+   "competition": "Dağ Bisikleti Dünya Kupasi",
+   "competitionId": "dag-bisikleti-dunya-kupasi",
+   "kickoff": "2026-09-27T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar İniş"
   },
   {
    "id": "se-489236",

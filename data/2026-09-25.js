@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T07:16:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-25T12:06:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-25",
- "generatedAt": "2026-09-25T07:16:58+03:00",
+ "generatedAt": "2026-09-25T12:06:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -354,6 +354,37 @@ GM_REGISTER_DAY({
    "away": "T.Gibson"
   },
   {
+   "id": "se-490222",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Cro Race",
+   "competitionId": "bisiklet-cro-race",
+   "kickoff": "2026-09-25T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Etap 4"
+  },
+  {
+   "id": "se-490233",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Ruud",
+   "away": "F.Cerundolo"
+  },
+  {
    "id": "se-489844",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
@@ -432,6 +463,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Çekya",
    "away": "İsrail"
+  },
+  {
+   "id": "se-490223",
+   "sport": "bisiklet",
+   "competition": "Dünya Yol Bisikleti Şampiyonasi",
+   "competitionId": "dunya-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-09-25T17:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "23 Yaş Altı Erkekler Yol Yarışı"
+  },
+  {
+   "id": "se-490234",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T17:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Mensik",
+   "away": "B.Nakashima"
   },
   {
    "id": "se-489848",
@@ -572,6 +634,37 @@ GM_REGISTER_DAY({
    "away": "Virtus Bologna"
   },
   {
+   "id": "se-490224",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "R.Jodar",
+   "away": "A.Bublik"
+  },
+  {
+   "id": "se-490235",
+   "sport": "golf",
+   "competition": "Golf Presidents Cup",
+   "competitionId": "golf-presidents-cup",
+   "kickoff": "2026-09-25T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
    "id": "se-483281",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -675,7 +768,7 @@ GM_REGISTER_DAY({
    "competitionId": "cev-erkekler-avrupa-sampiyonasi-yari-final",
    "kickoff": "2026-09-25T22:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -686,6 +779,22 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-490225",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-25T22:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alcaraz/Mensik",
+   "away": "Bublik/Fritz"
   }
  ]
 });
