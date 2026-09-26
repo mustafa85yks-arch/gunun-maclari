@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T07:16:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T12:06:05+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-26",
- "generatedAt": "2026-09-26T07:16:12+03:00",
+ "generatedAt": "2026-09-26T12:06:05+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -280,7 +280,6 @@ GM_REGISTER_DAY({
    "competitionId": "f1",
    "kickoff": "2026-09-26T14:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT",
     "beIN SPORTS 4"
    ],
    "verification": "dogrulandi",
@@ -481,7 +480,7 @@ GM_REGISTER_DAY({
    "title": "Seri Başı Mücadeleleri"
   },
   {
-   "id": "se-490236",
+   "id": "se-490334",
    "sport": "tenis",
    "competition": "Tenis Laver Cup",
    "competitionId": "tenis-laver-cup",
@@ -493,7 +492,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "2'nci Gün"
+   "home": "F.Cobolli",
+   "away": "L.Tien"
   },
   {
    "id": "se-489660",
@@ -767,6 +767,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Final ve Kupa Töreni"
+  },
+  {
+   "id": "se-490335",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-26T17:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "A.De Minaur"
   },
   {
    "id": "se-488098",
@@ -1045,7 +1061,7 @@ GM_REGISTER_DAY({
    "away": "D.Kozma"
   },
   {
-   "id": "se-490228",
+   "id": "se-490332",
    "sport": "tenis",
    "competition": "Tenis Laver Cup",
    "competitionId": "tenis-laver-cup",
@@ -1057,7 +1073,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Gün 2"
+   "home": "C.Alcaraz",
+   "away": "T.Fritz"
   },
   {
    "id": "se-489870",
@@ -1173,6 +1190,22 @@ GM_REGISTER_DAY({
    ],
    "home": "P.McCorry",
    "away": "J.Spadaccini"
+  },
+  {
+   "id": "se-490333",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-26T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ruud/Zverev",
+   "away": "Bublik/Nakashima"
   }
  ]
 });

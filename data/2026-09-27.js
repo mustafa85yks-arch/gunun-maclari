@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T07:16:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T12:06:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-26T07:16:14+03:00",
+ "generatedAt": "2026-09-26T12:06:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -345,6 +345,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Finaller"
+  },
+  {
+   "id": "se-490319",
+   "sport": "futbol",
+   "competition": "Genel Kurul",
+   "competitionId": "genel-kurul",
+   "kickoff": "2026-09-27T10:30:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Fenerbahçe Olağan Genel Kurul"
   },
   {
    "id": "se-489257",

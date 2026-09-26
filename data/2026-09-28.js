@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T07:16:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-26T12:06:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-28",
- "generatedAt": "2026-09-26T07:16:14+03:00",
+ "generatedAt": "2026-09-26T12:06:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -84,8 +84,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-483305",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi  BasketbolLigi",
-   "competitionId": "uefa-uluslar-ligi-basketbolligi",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-28T19:00:00+03:00",
    "broadcasters": [
     "A Spor"
