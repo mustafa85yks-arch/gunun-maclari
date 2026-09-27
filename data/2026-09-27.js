@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T07:16:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T12:06:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-27T07:16:28+03:00",
+ "generatedAt": "2026-09-27T12:06:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -581,21 +581,6 @@ GM_REGISTER_DAY({
    "title": "Etap 6"
   },
   {
-   "id": "se-490239",
-   "sport": "tenis",
-   "competition": "Tenis Laver Cup",
-   "competitionId": "tenis-laver-cup",
-   "kickoff": "2026-09-27T14:00:00+03:00",
-   "broadcasters": [
-    "Eurosport 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Gün 3"
-  },
-  {
    "id": "se-490347",
    "sport": "basketbol",
    "competition": "İspanya Basketbol Ligi",
@@ -611,6 +596,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Iberostar Tenerife",
    "away": "Zaragoza"
+  },
+  {
+   "id": "se-490361",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-27T14:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cobolli/Mensik",
+   "away": "De Minaur/Fritz"
   },
   {
    "id": "se-486989",
@@ -689,6 +690,22 @@ GM_REGISTER_DAY({
    "home": "Trabzonspor",
    "away": "Bursaspor",
    "turkish": true
+  },
+  {
+   "id": "se-490358",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-27T15:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "L.Tien"
   },
   {
    "id": "se-486969",
@@ -836,6 +853,22 @@ GM_REGISTER_DAY({
    "away": "Paris"
   },
   {
+   "id": "se-490359",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-27T17:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Alcaraz",
+   "away": "A.De Minaur"
+  },
+  {
    "id": "se-489663",
    "sport": "motor sporları",
    "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
@@ -882,6 +915,22 @@ GM_REGISTER_DAY({
    ],
    "home": "İspanya",
    "away": "Brezilya"
+  },
+  {
+   "id": "se-490360",
+   "sport": "tenis",
+   "competition": "Tenis Laver Cup",
+   "competitionId": "tenis-laver-cup",
+   "kickoff": "2026-09-27T18:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "R.Jodar",
+   "away": "T.Fritz"
   },
   {
    "id": "se-483299",
