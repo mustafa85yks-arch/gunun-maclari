@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T17:05:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T00:19:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-29",
- "generatedAt": "2026-09-27T17:05:19+03:00",
+ "generatedAt": "2026-09-28T00:19:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -78,20 +78,20 @@ GM_REGISTER_DAY({
    "away": "Seydişehir Bld."
   },
   {
-   "id": "se-483313",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-489914",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-09-29T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Finlandiya",
-   "away": "Belarus"
+   "home": "Yedidağ",
+   "away": "TVF Spor Lisesi"
   },
   {
    "id": "se-483314",
@@ -110,23 +110,6 @@ GM_REGISTER_DAY({
    "away": "Faroe Adaları"
   },
   {
-   "id": "se-485814",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-29T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Dubai Basket",
-   "away": "Barcelona"
-  },
-  {
    "id": "se-487331",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -141,6 +124,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Neptunas",
    "away": "Energia Trento"
+  },
+  {
+   "id": "se-485814",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-29T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dubai Basket",
+   "away": "Barcelona"
+  },
+  {
+   "id": "se-483313",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-29T19:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Finlandiya",
+   "away": "Belarus"
   },
   {
    "id": "se-489891",
@@ -159,22 +174,6 @@ GM_REGISTER_DAY({
    "away": "Afyon Bld."
   },
   {
-   "id": "se-489914",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
-   "kickoff": "2026-09-29T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Yedidağ",
-   "away": "TVF Spor Lisesi"
-  },
-  {
    "id": "se-485815",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -182,7 +181,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-09-29T20:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -198,8 +197,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-09-29T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -231,7 +229,7 @@ GM_REGISTER_DAY({
    "competitionId": "eurocup",
    "kickoff": "2026-09-29T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -258,23 +256,6 @@ GM_REGISTER_DAY({
    "away": "Bayern Münih"
   },
   {
-   "id": "se-485818",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-29T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kizilyildiz",
-   "away": "Hapoel Tel Aviv"
-  },
-  {
    "id": "se-487334",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -291,14 +272,29 @@ GM_REGISTER_DAY({
    "away": "Aris"
   },
   {
+   "id": "se-485818",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-29T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kizilyildiz",
+   "away": "Hapoel Tel Aviv"
+  },
+  {
    "id": "se-485819",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
    "kickoff": "2026-09-29T21:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -306,6 +302,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Olimpia Milano",
    "away": "Virtus Bologna"
+  },
+  {
+   "id": "se-485820",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-29T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valencia Basket",
+   "away": "Baskonia"
   },
   {
    "id": "se-487335",
@@ -322,23 +334,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Venezia",
    "away": "Frankfurt"
-  },
-  {
-   "id": "se-485820",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-29T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Valencia Basket",
-   "away": "Baskonia"
   },
   {
    "id": "se-483315",
@@ -467,23 +462,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Slovenya",
    "away": "Kuzey Makedonya"
-  },
-  {
-   "id": "se-485821",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-29T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Paris",
-   "away": "Partizan"
   }
  ]
 });

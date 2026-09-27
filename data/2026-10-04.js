@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T17:05:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T00:19:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-09-27T17:05:19+03:00",
+ "generatedAt": "2026-09-28T00:19:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -277,6 +277,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490408",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-04T13:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Obradoiro CAB",
+   "away": "Real Madrid"
+  },
+  {
    "id": "se-490016",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
@@ -540,6 +557,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Buffalo Bills",
    "away": "NE Patriots"
+  },
+  {
+   "id": "se-490409",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-04T20:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Murcia",
+   "away": "Barcelona"
   },
   {
    "id": "se-483352",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T17:05:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T00:19:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-09-27T17:05:19+03:00",
+ "generatedAt": "2026-09-28T00:19:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -78,7 +78,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-02T09:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport 2"
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -190,7 +190,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-02T20:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -217,31 +217,13 @@ GM_REGISTER_DAY({
    "away": "Dubai Basket"
   },
   {
-   "id": "se-490125",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-02T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bayern Münih",
-   "away": "Partizan"
-  },
-  {
    "id": "se-490126",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
    "kickoff": "2026-10-02T21:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -257,8 +239,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-02T21:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -268,21 +249,20 @@ GM_REGISTER_DAY({
    "away": "Maccabi Fox"
   },
   {
-   "id": "se-490128",
+   "id": "se-490125",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
    "kickoff": "2026-10-02T21:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Baskonia",
-   "away": "Olimpia Milano"
+   "home": "Bayern Münih",
+   "away": "Partizan"
   },
   {
    "id": "se-483334",

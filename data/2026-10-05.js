@@ -1,20 +1,20 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T00:19:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T00:19:17+03:00) */
 GM_REGISTER_DAY({
- "date": "2026-09-28",
- "generatedAt": "2026-09-28T00:19:11+03:00",
+ "date": "2026-10-05",
+ "generatedAt": "2026-09-28T00:19:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
-   "url": "https://www.sporekrani.com/home/day/2026-09-28"
+   "url": "https://www.sporekrani.com/home/day/2026-10-05"
   }
  ],
  "events": [
   {
-   "id": "se-489243",
-   "sport": "tenis",
-   "competition": "ATP Chengdu Yarı Final",
-   "competitionId": "atp",
-   "kickoff": "2026-09-28T12:00:00+03:00",
+   "id": "se-490109",
+   "sport": "motor sporları",
+   "competition": "Nascar",
+   "competitionId": "nascar",
+   "kickoff": "2026-10-05T00:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -22,18 +22,14 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "N.Basilashvili",
-   "away": "A.D.Fokina",
-   "tags": [
-    "yari-final"
-   ]
+   "title": "South Point 400"
   },
   {
-   "id": "se-489249",
+   "id": "se-490099",
    "sport": "tenis",
-   "competition": "ATP Hangzhou Yarı Final",
+   "competition": "ATP Tokyo Yarı Final",
    "competitionId": "atp",
-   "kickoff": "2026-09-28T12:30:00+03:00",
+   "kickoff": "2026-10-05T10:00:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -41,18 +37,17 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "K.Jacquet",
-   "away": "A.Rublev",
+   "title": "Yarı Final Maç 1",
    "tags": [
     "yari-final"
    ]
   },
   {
-   "id": "se-489244",
+   "id": "se-490105",
    "sport": "tenis",
-   "competition": "ATP Chengdu Yarı Final",
+   "competition": "ATP Beijing Yarı Final",
    "competitionId": "atp",
-   "kickoff": "2026-09-28T14:00:00+03:00",
+   "kickoff": "2026-10-05T10:00:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -60,18 +55,17 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "H.Hurkacz",
-   "away": "D.Shapovalov",
+   "title": "Yarı Final Maç 1",
    "tags": [
     "yari-final"
    ]
   },
   {
-   "id": "se-489250",
+   "id": "se-490100",
    "sport": "tenis",
-   "competition": "ATP Hangzhou Yarı Final",
+   "competition": "ATP Tokyo Yarı Final",
    "competitionId": "atp",
-   "kickoff": "2026-09-28T14:30:00+03:00",
+   "kickoff": "2026-10-05T12:00:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -79,18 +73,51 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "D.Medvedev",
-   "away": "R.Safiullin",
+   "title": "Yarı Final Maç 2",
    "tags": [
     "yari-final"
    ]
   },
   {
-   "id": "se-483305",
+   "id": "se-490106",
+   "sport": "tenis",
+   "competition": "ATP Beijing Yarı Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-05T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Final Maç 2",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-489747",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-10-05T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nilüfer Bld.",
+   "away": "İstanbul Gençlik"
+  },
+  {
+   "id": "se-483357",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T19:00:00+03:00",
+   "kickoff": "2026-10-05T19:00:00+03:00",
    "broadcasters": [
     "A Spor"
    ],
@@ -98,47 +125,15 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Gürcistan",
-   "away": "Ukrayna"
+   "home": "Güney Kıbrıs",
+   "away": "Letonya"
   },
   {
-   "id": "se-483306",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ermenistan",
-   "away": "Karadağ"
-  },
-  {
-   "id": "se-483307",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Letonya",
-   "away": "Güney Kıbrıs"
-  },
-  {
-   "id": "se-488854",
+   "id": "se-488862",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
-   "kickoff": "2026-09-28T19:00:00+03:00",
+   "kickoff": "2026-10-05T19:00:00+03:00",
    "broadcasters": [
     "beIN SPORTS 5"
    ],
@@ -146,33 +141,19 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Körfez Basket",
-   "away": "Esenler Erokspor",
-   "turkish": true
+   "home": "Beşiktaş",
+   "away": "Trabzonspor",
+   "turkish": true,
+   "tags": [
+    "derbi"
+   ]
   },
   {
-   "id": "se-489260",
-   "sport": "futbol",
-   "competition": "İspanya La Liga 2",
-   "competitionId": "ispanya-la-liga-2",
-   "kickoff": "2026-09-28T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Leganes",
-   "away": "Castellon"
-  },
-  {
-   "id": "se-483308",
+   "id": "se-483358",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T21:45:00+03:00",
+   "kickoff": "2026-10-05T21:45:00+03:00",
    "broadcasters": [
     "A Spor"
    ],
@@ -180,15 +161,31 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Belçika",
-   "away": "Fransa"
+   "home": "Karadağ",
+   "away": "Ermenistan"
   },
   {
-   "id": "se-483309",
+   "id": "se-483359",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T21:45:00+03:00",
+   "kickoff": "2026-10-05T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fransa",
+   "away": "Belçika"
+  },
+  {
+   "id": "se-483360",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-05T21:45:00+03:00",
    "broadcasters": [
     "ATV"
    ],
@@ -196,15 +193,31 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Türkiye",
-   "away": "İtalya"
+   "home": "İtalya",
+   "away": "Türkiye"
   },
   {
-   "id": "se-483310",
+   "id": "se-483361",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T21:45:00+03:00",
+   "kickoff": "2026-10-05T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bosna Hersek",
+   "away": "Polonya"
+  },
+  {
+   "id": "se-483362",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-05T21:45:00+03:00",
    "broadcasters": [
     "A Spor"
    ],
@@ -212,40 +225,40 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İsveç",
-   "away": "Polonya"
-  },
-  {
-   "id": "se-483311",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
    "home": "Kuzey İrlanda",
-   "away": "Macaristan"
+   "away": "Gürcistan"
   },
   {
-   "id": "se-483312",
+   "id": "se-483363",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T21:45:00+03:00",
+   "kickoff": "2026-10-05T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "home": "Romanya",
-   "away": "Bosna Hersek"
+   "away": "İsveç"
+  },
+  {
+   "id": "se-483364",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-05T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ukrayna",
+   "away": "Macaristan"
   }
  ]
 });

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T17:05:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T00:19:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-27T17:05:19+03:00",
+ "generatedAt": "2026-09-28T00:19:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -184,7 +184,7 @@ GM_REGISTER_DAY({
    "away": "Anadolu Voleybol"
   },
   {
-   "id": "se-489424",
+   "id": "se-489425",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup Eleme",
    "competitionId": "fiba-europe-cup-eleme",
@@ -196,8 +196,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dinamo Bükreş",
-   "away": "Peja"
+   "home": "Parnu",
+   "away": "Neftchi IK"
   },
   {
    "id": "se-487338",
@@ -232,7 +232,7 @@ GM_REGISTER_DAY({
    "away": "BC Roma"
   },
   {
-   "id": "se-489425",
+   "id": "se-489424",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup Eleme",
    "competitionId": "fiba-europe-cup-eleme",
@@ -244,8 +244,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Parnu",
-   "away": "Neftchi IK"
+   "home": "Dinamo Bükreş",
+   "away": "Peja"
   },
   {
    "id": "se-487339",
@@ -280,7 +280,7 @@ GM_REGISTER_DAY({
    "away": "Manresa"
   },
   {
-   "id": "se-487341",
+   "id": "se-487342",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
@@ -292,8 +292,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Slask Wroclaw",
-   "away": "Buducnost"
+   "home": "Ratiopharm Ulm",
+   "away": "Balkan"
   },
   {
    "id": "se-489426",
@@ -312,7 +312,7 @@ GM_REGISTER_DAY({
    "away": "Samobor"
   },
   {
-   "id": "se-487342",
+   "id": "se-487341",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
@@ -324,8 +324,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ratiopharm Ulm",
-   "away": "Balkan"
+   "home": "Slask Wroclaw",
+   "away": "Buducnost"
   },
   {
    "id": "se-487343",
@@ -368,7 +368,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-09-30T21:15:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
