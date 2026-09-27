@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T01:51:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-27T07:16:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-27",
- "generatedAt": "2026-09-27T01:51:05+03:00",
+ "generatedAt": "2026-09-27T07:16:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -269,7 +269,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "J.Brooksby",
+   "away": "N.Basilashvili"
   },
   {
    "id": "se-489245",
@@ -284,7 +285,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "F.Marozsan",
+   "away": "K.Jacquet"
   },
   {
    "id": "se-490238",
@@ -314,7 +316,27 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "A.Muller",
+   "away": "A.Davidovich"
+  },
+  {
+   "id": "se-490345",
+   "sport": "tenis",
+   "competition": "WTA Seul Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-27T09:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Joint",
+   "away": "K.Birrell",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-489246",
@@ -329,7 +351,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "H.Gaston",
+   "away": "A.Rublev"
   },
   {
    "id": "se-490310",
@@ -441,7 +464,27 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "A.Mannarino",
+   "away": "D.Shapovalov"
+  },
+  {
+   "id": "se-490346",
+   "sport": "tenis",
+   "competition": "WTA Singapur Final",
+   "competitionId": "wta",
+   "kickoff": "2026-09-27T12:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Fernandez",
+   "away": "T.Gibson",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-489225",
@@ -471,7 +514,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "R.Safiullin",
+   "away": "Y.Bu"
   },
   {
    "id": "se-489242",
@@ -486,7 +530,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
+   "home": "L.Harris",
+   "away": "H.Hurkacz"
   },
   {
    "id": "se-489248",
@@ -501,7 +546,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
+   "home": "D.Medvedev",
+   "away": "C.Wong"
   },
   {
    "id": "se-489513",
@@ -517,7 +563,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Gösteri Maçı"
+   "title": "Mansour Bahrami Gösteri Maçı"
   },
   {
    "id": "se-490230",
@@ -548,6 +594,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 3"
+  },
+  {
+   "id": "se-490347",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-09-27T14:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Iberostar Tenerife",
+   "away": "Zaragoza"
   },
   {
    "id": "se-486989",
@@ -673,7 +736,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final"
+   "home": "Berfu Cengiz",
+   "away": "T.Kostovic"
   },
   {
    "id": "se-489521",
@@ -950,6 +1014,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Nilüfer Bld.",
    "away": "Beşiktaş"
+  },
+  {
+   "id": "se-490348",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-09-27T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valencia Basket",
+   "away": "Lleida"
   },
   {
    "id": "se-490271",
