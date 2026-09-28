@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T07:18:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T12:07:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-28",
- "generatedAt": "2026-09-28T07:18:24+03:00",
+ "generatedAt": "2026-09-28T12:07:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -86,6 +86,22 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-483305",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-28T19:00:00+03:00",
+   "broadcasters": [
+    "A Para"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gürcistan",
+   "away": "Ukrayna"
+  },
+  {
    "id": "se-488854",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -118,6 +134,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Leganes",
    "away": "Castellon"
+  },
+  {
+   "id": "se-483310",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-28T21:45:00+03:00",
+   "broadcasters": [
+    "A Para"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İsveç",
+   "away": "Polonya"
   },
   {
    "id": "se-483312",
