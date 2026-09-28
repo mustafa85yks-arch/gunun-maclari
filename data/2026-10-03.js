@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T01:50:29+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T07:18:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-09-28T01:50:29+03:00",
+ "generatedAt": "2026-09-28T07:18:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -523,38 +523,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483342",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-03T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Belarus",
-   "away": "San Marino"
-  },
-  {
-   "id": "se-483343",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-03T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Estonya",
-   "away": "Lüksemburg"
-  },
-  {
    "id": "se-483344",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -609,7 +577,8 @@ GM_REGISTER_DAY({
    "competitionId": "ispanya-la-liga-2",
    "kickoff": "2026-10-03T19:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -639,7 +608,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-03T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -663,22 +632,6 @@ GM_REGISTER_DAY({
    ],
    "home": "İsviçre",
    "away": "Slovenya"
-  },
-  {
-   "id": "se-483348",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-03T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kuzey Makedonya",
-   "away": "İskoçya"
   }
  ]
 });

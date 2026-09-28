@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T01:50:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T07:18:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-01",
- "generatedAt": "2026-09-28T01:50:26+03:00",
+ "generatedAt": "2026-09-28T07:18:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -59,22 +59,6 @@ GM_REGISTER_DAY({
    "title": "Milli Takım"
   },
   {
-   "id": "se-483323",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-01T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Azerbaycan",
-   "away": "Lihtenştayn"
-  },
-  {
    "id": "se-490119",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -90,6 +74,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hapoel Tel Aviv",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-490410",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-10-01T19:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Drogheda"
   },
   {
    "id": "se-490272",
@@ -145,29 +145,13 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-483324",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-01T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Malta",
-   "away": "Cebelitarık"
-  },
-  {
    "id": "se-483325",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -183,7 +167,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "a2 TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -239,22 +223,6 @@ GM_REGISTER_DAY({
    ],
    "home": "İrlanda",
    "away": "Avusturya"
-  },
-  {
-   "id": "se-483330",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-01T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İsrail",
-   "away": "Kosova"
   },
   {
    "id": "se-490122",

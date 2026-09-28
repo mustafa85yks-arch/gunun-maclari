@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T01:50:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T07:18:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-09-28T01:50:30+03:00",
+ "generatedAt": "2026-09-28T07:18:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -198,21 +198,6 @@ GM_REGISTER_DAY({
    "title": "Bahreyn GP"
   },
   {
-   "id": "se-490102",
-   "sport": "tenis",
-   "competition": "ATP Beijing Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-04T10:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 2"
-  },
-  {
    "id": "se-490097",
    "sport": "tenis",
    "competition": "ATP Tokyo Çeyrek Final",
@@ -226,6 +211,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 3"
+  },
+  {
+   "id": "se-490102",
+   "sport": "tenis",
+   "competition": "ATP Beijing Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-04T10:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 2"
   },
   {
    "id": "se-490098",
@@ -343,21 +343,35 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490017",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
+   "id": "se-483349",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-04T16:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İlbank",
-   "away": "Göztepe",
-   "turkish": true
+   "home": "Azerbaycan",
+   "away": "Litvanya"
+  },
+  {
+   "id": "se-490104",
+   "sport": "tenis",
+   "competition": "ATP Beijing Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-04T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 4"
   },
   {
    "id": "se-490020",
@@ -377,35 +391,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490104",
-   "sport": "tenis",
-   "competition": "ATP Beijing Çeyrek Final",
-   "competitionId": "atp",
+   "id": "se-490017",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
    "kickoff": "2026-10-04T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
-  },
-  {
-   "id": "se-483349",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-04T16:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Azerbaycan",
-   "away": "Litvanya"
+   "home": "İlbank",
+   "away": "Göztepe",
+   "turkish": true
   },
   {
    "id": "se-488861",
@@ -425,23 +425,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490019",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
-   "kickoff": "2026-10-04T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "THY",
-   "away": "Galatasaray Daikin",
-   "turkish": true
-  },
-  {
    "id": "se-483351",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -458,36 +441,21 @@ GM_REGISTER_DAY({
    "away": "Avusturya"
   },
   {
-   "id": "se-483350",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-490019",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
    "kickoff": "2026-10-04T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Malta",
-   "away": "Andorra"
-  },
-  {
-   "id": "se-490190",
-   "sport": "futbol",
-   "competition": "İspanya La Liga 2",
-   "competitionId": "ispanya-la-liga-2",
-   "kickoff": "2026-10-04T19:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Las Palmas",
-   "away": "Valladolid"
+   "home": "THY",
+   "away": "Galatasaray Daikin",
+   "turkish": true
   },
   {
    "id": "se-490278",
@@ -507,6 +475,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Milli Takım"
+  },
+  {
+   "id": "se-490190",
+   "sport": "futbol",
+   "competition": "İspanya La Liga 2",
+   "competitionId": "ispanya-la-liga-2",
+   "kickoff": "2026-10-04T19:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Las Palmas",
+   "away": "Valladolid"
   },
   {
    "id": "se-490273",
@@ -576,22 +561,6 @@ GM_REGISTER_DAY({
    "away": "Barcelona"
   },
   {
-   "id": "se-483352",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-04T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İrlanda",
-   "away": "İsrail"
-  },
-  {
    "id": "se-483353",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -614,7 +583,8 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-04T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Spor",
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -630,7 +600,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-04T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "a2 TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -640,29 +610,14 @@ GM_REGISTER_DAY({
    "away": "Norveç"
   },
   {
-   "id": "se-483356",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-04T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Yunanistan",
-   "away": "Almanya"
-  },
-  {
    "id": "se-490191",
    "sport": "futbol",
    "competition": "İspanya La Liga 2",
    "competitionId": "ispanya-la-liga-2",
    "kickoff": "2026-10-04T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [

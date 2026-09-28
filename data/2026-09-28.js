@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T01:50:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T07:18:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-28",
- "generatedAt": "2026-09-28T01:50:25+03:00",
+ "generatedAt": "2026-09-28T07:18:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -86,54 +86,6 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-483305",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gürcistan",
-   "away": "Ukrayna"
-  },
-  {
-   "id": "se-483306",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ermenistan",
-   "away": "Karadağ"
-  },
-  {
-   "id": "se-483307",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Letonya",
-   "away": "Güney Kıbrıs"
-  },
-  {
    "id": "se-488854",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -168,52 +120,20 @@ GM_REGISTER_DAY({
    "away": "Castellon"
   },
   {
-   "id": "se-483308",
+   "id": "se-483312",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-28T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Belçika",
-   "away": "Fransa"
-  },
-  {
-   "id": "se-483309",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T21:45:00+03:00",
-   "broadcasters": [
-    "ATV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Türkiye",
-   "away": "İtalya"
-  },
-  {
-   "id": "se-483310",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-28T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İsveç",
-   "away": "Polonya"
+   "home": "Romanya",
+   "away": "Bosna Hersek"
   },
   {
    "id": "se-483311",
@@ -232,20 +152,36 @@ GM_REGISTER_DAY({
    "away": "Macaristan"
   },
   {
-   "id": "se-483312",
+   "id": "se-483309",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-28T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "ATV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Romanya",
-   "away": "Bosna Hersek"
+   "home": "Türkiye",
+   "away": "İtalya"
+  },
+  {
+   "id": "se-483308",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-28T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Belçika",
+   "away": "Fransa"
   }
  ]
 });

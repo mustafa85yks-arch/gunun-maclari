@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T01:50:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T07:18:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-28T01:50:25+03:00",
+ "generatedAt": "2026-09-28T07:18:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -168,6 +168,22 @@ GM_REGISTER_DAY({
    "away": "London Lions"
   },
   {
+   "id": "se-489424",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-30T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dinamo Bükreş",
+   "away": "Peja"
+  },
+  {
    "id": "se-489904",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -182,22 +198,6 @@ GM_REGISTER_DAY({
    ],
    "home": "İstanbul Voleybol",
    "away": "Anadolu Voleybol"
-  },
-  {
-   "id": "se-489425",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup Eleme",
-   "competitionId": "fiba-europe-cup-eleme",
-   "kickoff": "2026-09-30T19:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Parnu",
-   "away": "Neftchi IK"
   },
   {
    "id": "se-487338",
@@ -232,7 +232,7 @@ GM_REGISTER_DAY({
    "away": "BC Roma"
   },
   {
-   "id": "se-489424",
+   "id": "se-489425",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup Eleme",
    "competitionId": "fiba-europe-cup-eleme",
@@ -244,8 +244,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dinamo Bükreş",
-   "away": "Peja"
+   "home": "Parnu",
+   "away": "Neftchi IK"
   },
   {
    "id": "se-487339",
@@ -280,22 +280,6 @@ GM_REGISTER_DAY({
    "away": "Manresa"
   },
   {
-   "id": "se-487342",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-09-30T20:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ratiopharm Ulm",
-   "away": "Balkan"
-  },
-  {
    "id": "se-489426",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup Eleme",
@@ -310,6 +294,22 @@ GM_REGISTER_DAY({
    ],
    "home": "BC Prievidza",
    "away": "Samobor"
+  },
+  {
+   "id": "se-487342",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-09-30T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ratiopharm Ulm",
+   "away": "Balkan"
   },
   {
    "id": "se-487341",
