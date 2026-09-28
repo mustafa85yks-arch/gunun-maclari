@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T17:08:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T00:21:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-09-28T17:08:51+03:00",
+ "generatedAt": "2026-09-29T00:21:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -254,7 +254,7 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 4"
   },
   {
-   "id": "se-488859",
+   "id": "se-488861",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
@@ -266,8 +266,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bandırma Bordo",
-   "away": "Anadolu Efes",
+   "home": "Çayırova Bld.",
+   "away": "Bahçeşehir Klj",
    "turkish": true
   },
   {
@@ -419,7 +419,7 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-488861",
+   "id": "se-488859",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
@@ -431,8 +431,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çayırova Bld.",
-   "away": "Bahçeşehir Klj",
+   "home": "Bandırma Bordo",
+   "away": "Anadolu Efes",
    "turkish": true
   },
   {

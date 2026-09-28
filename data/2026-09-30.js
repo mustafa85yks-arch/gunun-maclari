@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T17:08:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T00:21:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-28T17:08:42+03:00",
+ "generatedAt": "2026-09-29T00:21:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -246,6 +246,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-europe-cup-eleme",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "FIBA TV"
    ],
    "verification": "tek_kaynak",

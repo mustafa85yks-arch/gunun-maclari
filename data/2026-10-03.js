@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-28T17:08:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T00:21:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-09-28T17:08:48+03:00",
+ "generatedAt": "2026-09-29T00:21:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -598,20 +598,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Cadiz",
    "away": "Leganes"
-  },
-  {
-   "id": "se-489336",
-   "sport": "futbol",
-   "competition": "Dostluk Maçi",
-   "competitionId": "dostluk-maci",
-   "kickoff": "2026-10-03T20:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Turan",
-   "away": "Fenerbahçe"
   },
   {
    "id": "se-483346",
