@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T00:21:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T01:51:03+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-29",
- "generatedAt": "2026-09-29T00:21:14+03:00",
+ "generatedAt": "2026-09-29T01:51:03+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -61,7 +61,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "H.Hurkacz",
+   "away": "A.D.Fokina",
    "tags": [
     "final"
    ]
@@ -79,7 +80,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "D.Medvedev",
+   "away": "A.Rublev",
    "tags": [
     "final"
    ]
@@ -101,20 +103,20 @@ GM_REGISTER_DAY({
    "away": "Seydişehir Bld."
   },
   {
-   "id": "se-485814",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-489914",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-09-29T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dubai Basket",
-   "away": "Barcelona"
+   "home": "Yedidağ",
+   "away": "TVF Spor Lisesi"
   },
   {
    "id": "se-487331",
@@ -149,20 +151,36 @@ GM_REGISTER_DAY({
    "away": "Afyon Bld."
   },
   {
-   "id": "se-489914",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "id": "se-485814",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-09-29T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Yedidağ",
-   "away": "TVF Spor Lisesi"
+   "home": "Dubai Basket",
+   "away": "Barcelona"
+  },
+  {
+   "id": "se-490466",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-29T19:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alonso/Lacabe",
+   "away": "Caruso/Sastre"
   },
   {
    "id": "se-485815",
@@ -249,22 +267,6 @@ GM_REGISTER_DAY({
    "away": "Bayern Münih"
   },
   {
-   "id": "se-485818",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-29T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kizilyildiz",
-   "away": "Hapoel Tel Aviv"
-  },
-  {
    "id": "se-487334",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -279,6 +281,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Le Mans Basket",
    "away": "Aris"
+  },
+  {
+   "id": "se-485818",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-29T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kizilyildiz",
+   "away": "Hapoel Tel Aviv"
   },
   {
    "id": "se-485819",
@@ -329,20 +347,37 @@ GM_REGISTER_DAY({
    "away": "Frankfurt"
   },
   {
-   "id": "se-483318",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-09-29T21:45:00+03:00",
+   "id": "se-490467",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-29T21:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Slovakya",
-   "away": "Kazakistan"
+   "home": "Martinez/Abbate",
+   "away": "Alfonso/Libaak"
+  },
+  {
+   "id": "se-483319",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-29T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor",
+    "A Haber"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çekya",
+   "away": "İngiltere"
   },
   {
    "id": "se-483322",
@@ -361,21 +396,36 @@ GM_REGISTER_DAY({
    "away": "Kuzey Makedonya"
   },
   {
-   "id": "se-483319",
+   "id": "se-483318",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-29T21:45:00+03:00",
    "broadcasters": [
-    "A Spor",
-    "A Haber"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çekya",
-   "away": "İngiltere"
+   "home": "Slovakya",
+   "away": "Kazakistan"
+  },
+  {
+   "id": "se-490468",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-29T23:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aguirre/Rodrigo",
+   "away": "Tello/Simo"
   }
  ]
 });
