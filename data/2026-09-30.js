@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T01:51:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T07:17:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-29T01:51:03+03:00",
+ "generatedAt": "2026-09-29T07:17:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -82,8 +82,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-486963",
    "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
+   "competition": "Hentbol Erkekler Süper Ligi  Voleybolligleri",
+   "competitionId": "hentbol-erkekler-super-ligi-voleybolligleri",
    "kickoff": "2026-09-30T15:00:00+03:00",
    "broadcasters": [
     "THF TV Youtube"
