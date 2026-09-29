@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T17:08:37+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T00:22:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-05",
- "generatedAt": "2026-09-29T17:08:37+03:00",
+ "generatedAt": "2026-09-30T00:22:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -113,20 +113,21 @@ GM_REGISTER_DAY({
    "away": "İstanbul Gençlik"
   },
   {
-   "id": "se-483357",
+   "id": "se-490531",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
    "kickoff": "2026-10-05T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "Tivibu Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Güney Kıbrıs",
-   "away": "Letonya"
+   "home": "Şanlıurfaspor",
+   "away": "Gebzespor",
+   "turkish": true
   },
   {
    "id": "se-488862",
@@ -147,6 +148,22 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
+  },
+  {
+   "id": "se-483357",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-05T19:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Güney Kıbrıs",
+   "away": "Letonya"
   },
   {
    "id": "se-483358",

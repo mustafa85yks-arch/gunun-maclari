@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T17:08:31+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T00:22:06+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-29T17:08:31+03:00",
+ "generatedAt": "2026-09-30T00:22:06+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -63,6 +63,22 @@ GM_REGISTER_DAY({
    "title": "Tur 3"
   },
   {
+   "id": "se-490532",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-09-30T09:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Inglis",
+   "away": "Zeynep Sönmez"
+  },
+  {
    "id": "se-488073",
    "sport": "futbol",
    "competition": "UEFA Dostluk Kupasi",
@@ -112,8 +128,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-486963",
    "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi  Voleybolligleri",
-   "competitionId": "hentbol-erkekler-super-ligi-voleybolligleri",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-09-30T15:00:00+03:00",
    "broadcasters": [
     "THF TV Youtube"
@@ -206,20 +222,20 @@ GM_REGISTER_DAY({
    "away": "London Lions"
   },
   {
-   "id": "se-487338",
+   "id": "se-487337",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Rigas Zelli",
-   "away": "Tortona"
+   "home": "Bahçeşehir Klj",
+   "away": "BC Roma"
   },
   {
    "id": "se-489904",
@@ -254,20 +270,20 @@ GM_REGISTER_DAY({
    "away": "Peja"
   },
   {
-   "id": "se-487337",
+   "id": "se-487338",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "Euroleague TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bahçeşehir Klj",
-   "away": "BC Roma"
+   "home": "Rigas Zelli",
+   "away": "Tortona"
   },
   {
    "id": "se-489425",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T17:08:37+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T00:22:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-09-29T17:08:37+03:00",
+ "generatedAt": "2026-09-30T00:22:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -162,6 +162,21 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 2"
   },
   {
+   "id": "se-490101",
+   "sport": "tenis",
+   "competition": "ATP Beijing Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-04T08:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 1"
+  },
+  {
    "id": "se-490081",
    "sport": "motosiklet",
    "competition": "MotoGP",
@@ -177,21 +192,6 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Japonya GP"
-  },
-  {
-   "id": "se-490101",
-   "sport": "tenis",
-   "competition": "ATP Beijing Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-04T08:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 1"
   },
   {
    "id": "se-488472",
@@ -288,6 +288,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490527",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-04T13:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kahramanmaraş İstiklal",
+   "away": "Ankara Demir",
+   "turkish": true
+  },
+  {
    "id": "se-490408",
    "sport": "basketbol",
    "competition": "İspanya Basketbol Ligi",
@@ -303,6 +320,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Obradoiro CAB",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-490103",
+   "sport": "tenis",
+   "competition": "ATP Beijing Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-04T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 3"
   },
   {
    "id": "se-490016",
@@ -322,21 +354,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490103",
-   "sport": "tenis",
-   "competition": "ATP Beijing Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-04T14:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 3"
-  },
-  {
    "id": "se-488860",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -351,6 +368,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Tarfin",
    "away": "Körfez Basket",
+   "turkish": true
+  },
+  {
+   "id": "se-490528",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-04T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kütahyaspor",
+   "away": "52 Orduspor",
    "turkish": true
   },
   {
@@ -469,23 +503,38 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490278",
+   "id": "se-490529",
    "sport": "futbol",
-   "competition": "Antrenman",
-   "competitionId": "antrenman",
-   "kickoff": "2026-10-04T19:30:00+03:00",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-04T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "HT Spor",
-    "A Spor",
-    "beIN SPORTS HABER",
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ankaragücü",
+   "away": "İnegölspor",
+   "turkish": true
+  },
+  {
+   "id": "se-490530",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-04T19:00:00+03:00",
+   "broadcasters": [
     "Tivibu Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Milli Takım"
+   "home": "Elazığspor",
+   "away": "Çorluspor 1947",
+   "turkish": true
   },
   {
    "id": "se-490190",
@@ -504,6 +553,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Las Palmas",
    "away": "Valladolid"
+  },
+  {
+   "id": "se-490278",
+   "sport": "futbol",
+   "competition": "Antrenman",
+   "competitionId": "antrenman",
+   "kickoff": "2026-10-04T19:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Milli Takım"
   },
   {
    "id": "se-490273",
