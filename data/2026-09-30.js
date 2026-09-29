@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T07:17:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T12:07:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-29T07:17:33+03:00",
+ "generatedAt": "2026-09-29T12:07:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -48,6 +48,21 @@ GM_REGISTER_DAY({
    "title": "Beijing"
   },
   {
+   "id": "se-490477",
+   "sport": "snooker",
+   "competition": "Snooker Shenzen Açik",
+   "competitionId": "snooker-shenzen-acik",
+   "kickoff": "2026-09-30T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 3"
+  },
+  {
    "id": "se-488073",
    "sport": "futbol",
    "competition": "UEFA Dostluk Kupasi",
@@ -80,10 +95,25 @@ GM_REGISTER_DAY({
    "away": "Mısır"
   },
   {
+   "id": "se-490478",
+   "sport": "snooker",
+   "competition": "Snooker Shenzen Açik",
+   "competitionId": "snooker-shenzen-acik",
+   "kickoff": "2026-09-30T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "3'üncü Tur"
+  },
+  {
    "id": "se-486963",
    "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi  Voleybolligleri",
-   "competitionId": "hentbol-erkekler-super-ligi-voleybolligleri",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-09-30T15:00:00+03:00",
    "broadcasters": [
     "THF TV Youtube"
@@ -114,8 +144,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489915",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "competition": "TVF Erkekler 2. Lig  Takımbilgileri",
+   "competitionId": "tvf-erkekler-2-lig-takimbilgileri",
    "kickoff": "2026-09-30T16:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
@@ -176,20 +206,20 @@ GM_REGISTER_DAY({
    "away": "London Lions"
   },
   {
-   "id": "se-489424",
+   "id": "se-487338",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup Eleme",
-   "competitionId": "fiba-europe-cup-eleme",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "Euroleague TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dinamo Bükreş",
-   "away": "Peja"
+   "home": "Rigas Zelli",
+   "away": "Tortona"
   },
   {
    "id": "se-489904",
@@ -208,20 +238,20 @@ GM_REGISTER_DAY({
    "away": "Anadolu Voleybol"
   },
   {
-   "id": "se-487338",
+   "id": "se-489424",
    "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "FIBA TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Rigas Zelli",
-   "away": "Tortona"
+   "home": "Dinamo Bükreş",
+   "away": "Peja"
   },
   {
    "id": "se-487337",

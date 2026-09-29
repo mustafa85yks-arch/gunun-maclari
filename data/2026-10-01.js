@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T07:17:35+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T12:07:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-01",
- "generatedAt": "2026-09-29T07:17:35+03:00",
+ "generatedAt": "2026-09-29T12:07:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -48,6 +48,21 @@ GM_REGISTER_DAY({
    "title": "Beijing"
   },
   {
+   "id": "se-490479",
+   "sport": "snooker",
+   "competition": "Snooker Shenzen Açik",
+   "competitionId": "snooker-shenzen-acik",
+   "kickoff": "2026-10-01T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 4"
+  },
+  {
    "id": "se-490277",
    "sport": "futbol",
    "competition": "Antrenman",
@@ -65,6 +80,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Milli Takım"
+  },
+  {
+   "id": "se-490480",
+   "sport": "snooker",
+   "competition": "Snooker Shenzen Açik",
+   "competitionId": "snooker-shenzen-acik",
+   "kickoff": "2026-10-01T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "4'üncü Tur"
   },
   {
    "id": "se-490119",
@@ -154,38 +184,6 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-483325",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-01T21:45:00+03:00",
-   "broadcasters": [
-    "A Haber"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Almanya",
-   "away": "Sırbistan"
-  },
-  {
-   "id": "se-483326",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-01T21:45:00+03:00",
-   "broadcasters": [
-    "a2 TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Danimarka",
-   "away": "Portekiz"
-  },
-  {
    "id": "se-483327",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -202,20 +200,20 @@ GM_REGISTER_DAY({
    "away": "Norveç"
   },
   {
-   "id": "se-483328",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-490122",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Yunanistan",
-   "away": "Hollanda"
+   "home": "Paris",
+   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-483329",
@@ -234,20 +232,52 @@ GM_REGISTER_DAY({
    "away": "Avusturya"
   },
   {
-   "id": "se-490122",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-483328",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Paris",
-   "away": "Zalgiris Kaunas"
+   "home": "Yunanistan",
+   "away": "Hollanda"
+  },
+  {
+   "id": "se-483326",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-01T21:45:00+03:00",
+   "broadcasters": [
+    "a2 TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Danimarka",
+   "away": "Portekiz"
+  },
+  {
+   "id": "se-483325",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-01T21:45:00+03:00",
+   "broadcasters": [
+    "A Haber"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Almanya",
+   "away": "Sırbistan"
   }
  ]
 });

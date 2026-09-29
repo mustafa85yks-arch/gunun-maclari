@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T07:17:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T12:07:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-29",
- "generatedAt": "2026-09-29T07:17:33+03:00",
+ "generatedAt": "2026-09-29T12:07:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -183,38 +183,20 @@ GM_REGISTER_DAY({
    "away": "Caruso/Sastre"
   },
   {
-   "id": "se-485815",
+   "id": "se-487333",
    "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
    "kickoff": "2026-09-29T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Anadolu Efes",
-   "away": "Real Madrid"
-  },
-  {
-   "id": "se-485816",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-09-29T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Zalgiris Kaunas",
-   "away": "Olympiakos"
+   "home": "Tofaş",
+   "away": "Chemnitz"
   },
   {
    "id": "se-487332",
@@ -233,20 +215,38 @@ GM_REGISTER_DAY({
    "away": "Hansa Rostock"
   },
   {
-   "id": "se-487333",
+   "id": "se-485816",
    "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-09-29T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Tofaş",
-   "away": "Chemnitz"
+   "home": "Zalgiris Kaunas",
+   "away": "Olympiakos"
+  },
+  {
+   "id": "se-485815",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-09-29T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Anadolu Efes",
+   "away": "Real Madrid"
   },
   {
    "id": "se-485817",
@@ -363,21 +363,20 @@ GM_REGISTER_DAY({
    "away": "Alfonso/Libaak"
   },
   {
-   "id": "se-483319",
+   "id": "se-483321",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-09-29T21:45:00+03:00",
    "broadcasters": [
-    "A Spor",
-    "A Haber"
+    "A Para"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çekya",
-   "away": "İngiltere"
+   "home": "İskoçya",
+   "away": "İsviçre"
   },
   {
    "id": "se-483322",
@@ -394,6 +393,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Slovenya",
    "away": "Kuzey Makedonya"
+  },
+  {
+   "id": "se-483320",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-29T21:45:00+03:00",
+   "broadcasters": [
+    "A Haber"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İspanya",
+   "away": "Hırvatistan"
+  },
+  {
+   "id": "se-483319",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-09-29T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çekya",
+   "away": "İngiltere"
   },
   {
    "id": "se-483318",

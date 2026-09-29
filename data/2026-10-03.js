@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T07:17:39+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T12:07:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-09-29T07:17:39+03:00",
+ "generatedAt": "2026-09-29T12:07:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -322,20 +322,21 @@ GM_REGISTER_DAY({
    "away": "Halkbank"
   },
   {
-   "id": "se-489743",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
+   "id": "se-490015",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
    "kickoff": "2026-10-03T14:00:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Eskişehir Mihalıççık",
-   "away": "Beşiktaş"
+   "home": "Vakifbank",
+   "away": "Beşiktaş",
+   "turkish": true
   },
   {
    "id": "se-489905",
@@ -354,21 +355,20 @@ GM_REGISTER_DAY({
    "away": "Esenler Bld"
   },
   {
-   "id": "se-490015",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
+   "id": "se-489743",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-10-03T14:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "THF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Vakifbank",
-   "away": "Beşiktaş",
-   "turkish": true
+   "home": "Eskişehir Mihalıççık",
+   "away": "Beşiktaş"
   },
   {
    "id": "se-489744",
@@ -420,20 +420,21 @@ GM_REGISTER_DAY({
    "away": "Arnavutluk"
   },
   {
-   "id": "se-489740",
-   "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Süper Ligi",
-   "competitionId": "hentbol-kadinlar-super-ligi",
+   "id": "se-490014",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
    "kickoff": "2026-10-03T16:00:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Üsküdar Bld.",
-   "away": "Yozgat GSK"
+   "home": "Nilüfer Bld.",
+   "away": "Eczacibasi",
+   "turkish": true
   },
   {
    "id": "se-489918",
@@ -452,21 +453,20 @@ GM_REGISTER_DAY({
    "away": "Ankara Barosu"
   },
   {
-   "id": "se-490014",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
+   "id": "se-489740",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Süper Ligi",
+   "competitionId": "hentbol-kadinlar-super-ligi",
    "kickoff": "2026-10-03T16:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "THF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Nilüfer Bld.",
-   "away": "Eczacibasi",
-   "turkish": true
+   "home": "Üsküdar Bld.",
+   "away": "Yozgat GSK"
   },
   {
    "id": "se-489906",
@@ -550,22 +550,6 @@ GM_REGISTER_DAY({
    "away": "Bulgaristan"
   },
   {
-   "id": "se-483345",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-03T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hırvatistan",
-   "away": "İngiltere"
-  },
-  {
    "id": "se-489929",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 2. Lig",
@@ -580,6 +564,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "Anadolu Marmara"
+  },
+  {
+   "id": "se-483345",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-03T19:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hırvatistan",
+   "away": "İngiltere"
   },
   {
    "id": "se-490189",

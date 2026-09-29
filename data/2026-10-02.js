@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T07:17:37+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T12:07:42+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-09-29T07:17:37+03:00",
+ "generatedAt": "2026-09-29T12:07:42+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,21 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-490485",
+   "sport": "golf",
+   "competition": "Golf Black Desert Championship",
+   "competitionId": "golf-black-desert-championship",
+   "kickoff": "2026-10-02T00:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1"
+  },
   {
    "id": "se-490074",
    "sport": "motosiklet",
@@ -97,6 +112,21 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
+   "id": "se-490481",
+   "sport": "snooker",
+   "competition": "Snooker Shenzen Açik",
+   "competitionId": "snooker-shenzen-acik",
+   "kickoff": "2026-10-02T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final"
+  },
+  {
    "id": "se-488469",
    "sport": "motor sporları",
    "competition": "Formula 1",
@@ -128,6 +158,51 @@ GM_REGISTER_DAY({
    "away": "Göztepe"
   },
   {
+   "id": "se-490482",
+   "sport": "snooker",
+   "competition": "Snooker Shenzen Açik",
+   "competitionId": "snooker-shenzen-acik",
+   "kickoff": "2026-10-02T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Finaller"
+  },
+  {
+   "id": "se-490486",
+   "sport": "atıcılık",
+   "competition": "Avrupa Aticilik Şampiyonasi",
+   "competitionId": "avrupa-aticilik-sampiyonasi",
+   "kickoff": "2026-10-02T17:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yunanistan"
+  },
+  {
+   "id": "se-490483",
+   "sport": "bisiklet",
+   "competition": "Dağ Bisikleti Dünya Kupasi",
+   "competitionId": "dag-bisikleti-dunya-kupasi",
+   "kickoff": "2026-10-02T18:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Kısa Kulvar Cross Country"
+  },
+  {
    "id": "se-488855",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -143,6 +218,21 @@ GM_REGISTER_DAY({
    "home": "Karşıyaka",
    "away": "Galatasaray MCT Technic",
    "turkish": true
+  },
+  {
+   "id": "se-490484",
+   "sport": "bisiklet",
+   "competition": "Dağ Bisikleti Dünya Kupasi",
+   "competitionId": "dag-bisikleti-dunya-kupasi",
+   "kickoff": "2026-10-02T19:25:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Kısa Kulvar Cross Country"
   },
   {
    "id": "se-490123",
@@ -228,36 +318,20 @@ GM_REGISTER_DAY({
    "away": "Partizan"
   },
   {
-   "id": "se-483339",
+   "id": "se-483335",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-02T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "ATV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Polonya",
-   "away": "Romanya"
-  },
-  {
-   "id": "se-483338",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-02T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Macaristan",
-   "away": "Gürcistan"
+   "home": "Belçika",
+   "away": "Türkiye"
   },
   {
    "id": "se-483336",
@@ -276,20 +350,36 @@ GM_REGISTER_DAY({
    "away": "İtalya"
   },
   {
-   "id": "se-483335",
+   "id": "se-483338",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-02T21:45:00+03:00",
    "broadcasters": [
-    "ATV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Belçika",
-   "away": "Türkiye"
+   "home": "Macaristan",
+   "away": "Gürcistan"
+  },
+  {
+   "id": "se-483339",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-02T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Polonya",
+   "away": "Romanya"
   }
  ]
 });
