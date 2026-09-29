@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T12:07:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-29T17:08:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-29T12:07:38+03:00",
+ "generatedAt": "2026-09-29T17:08:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -112,8 +112,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-486963",
    "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
+   "competition": "Hentbol Erkekler Süper Ligi  Voleybolligleri",
+   "competitionId": "hentbol-erkekler-super-ligi-voleybolligleri",
    "kickoff": "2026-09-30T15:00:00+03:00",
    "broadcasters": [
     "THF TV Youtube"
@@ -144,8 +144,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489915",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig  Takımbilgileri",
-   "competitionId": "tvf-erkekler-2-lig-takimbilgileri",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-09-30T16:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
