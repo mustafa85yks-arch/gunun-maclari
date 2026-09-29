@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T00:22:06+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T01:51:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-30T00:22:06+03:00",
+ "generatedAt": "2026-09-30T01:51:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -30,7 +30,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Tokyo"
+   "home": "V.Vacherot",
+   "away": "A.Blockx"
   },
   {
    "id": "se-490071",
@@ -45,7 +46,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Beijing"
+   "home": "K.Khachanov",
+   "away": "F.Auger Aliassime"
   },
   {
    "id": "se-490477",
@@ -111,6 +113,38 @@ GM_REGISTER_DAY({
    "away": "Mısır"
   },
   {
+   "id": "se-490533",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-30T13:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paredes/Abajo",
+   "away": "Ortiz/Segador"
+  },
+  {
+   "id": "se-490568",
+   "sport": "tenis",
+   "competition": "ATP Beijing",
+   "competitionId": "atp",
+   "kickoff": "2026-09-30T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Borges",
+   "away": "N.Djokovic"
+  },
+  {
    "id": "se-490478",
    "sport": "snooker",
    "competition": "Snooker Shenzen Açik",
@@ -140,6 +174,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Giresunspor",
    "away": "Göztepe"
+  },
+  {
+   "id": "se-490534",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-30T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Richters/Olsson",
+   "away": "Gala/Sirvent"
   },
   {
    "id": "se-486964",
@@ -172,6 +222,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Halkbank",
    "away": "Maliye Voleybol"
+  },
+  {
+   "id": "se-490535",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-30T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stupaczuk/Sanz",
+   "away": "Ortega/Axelsson"
   },
   {
    "id": "se-488075",
@@ -222,22 +288,6 @@ GM_REGISTER_DAY({
    "away": "London Lions"
   },
   {
-   "id": "se-487337",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-09-30T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bahçeşehir Klj",
-   "away": "BC Roma"
-  },
-  {
    "id": "se-489904",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -252,6 +302,23 @@ GM_REGISTER_DAY({
    ],
    "home": "İstanbul Voleybol",
    "away": "Anadolu Voleybol"
+  },
+  {
+   "id": "se-489425",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-30T19:00:00+03:00",
+   "broadcasters": [
+    "Idman TV Youtube",
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Parnu",
+   "away": "Neftchi IK"
   },
   {
    "id": "se-489424",
@@ -286,21 +353,20 @@ GM_REGISTER_DAY({
    "away": "Tortona"
   },
   {
-   "id": "se-489425",
+   "id": "se-487337",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup Eleme",
-   "competitionId": "fiba-europe-cup-eleme",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "Idman TV Youtube",
-    "FIBA TV"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Parnu",
-   "away": "Neftchi IK"
+   "home": "Bahçeşehir Klj",
+   "away": "BC Roma"
   },
   {
    "id": "se-487339",
@@ -335,20 +401,20 @@ GM_REGISTER_DAY({
    "away": "Manresa"
   },
   {
-   "id": "se-489426",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup Eleme",
-   "competitionId": "fiba-europe-cup-eleme",
-   "kickoff": "2026-09-30T20:00:00+03:00",
+   "id": "se-490536",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-30T19:30:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "BC Prievidza",
-   "away": "Samobor"
+   "home": "Koek/Weterings",
+   "away": "Talavan/Lopez"
   },
   {
    "id": "se-487342",
@@ -367,6 +433,22 @@ GM_REGISTER_DAY({
    "away": "Balkan"
   },
   {
+   "id": "se-490550",
+   "sport": "futbol",
+   "competition": "Dostluk Maçi",
+   "competitionId": "dostluk-maci",
+   "kickoff": "2026-09-30T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konyaspor",
+   "away": "Filistin"
+  },
+  {
    "id": "se-487341",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -381,6 +463,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Slask Wroclaw",
    "away": "Buducnost"
+  },
+  {
+   "id": "se-489426",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-30T20:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "BC Prievidza",
+   "away": "Samobor"
   },
   {
    "id": "se-487343",
@@ -435,6 +533,22 @@ GM_REGISTER_DAY({
    "away": "Asvel Villeurbanne"
   },
   {
+   "id": "se-490537",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-30T21:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alvarez/Castano",
+   "away": "Prins/Kroon"
+  },
+  {
    "id": "se-487344",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -481,6 +595,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Iberostar Tenerife",
    "away": "Türk Telekom"
+  },
+  {
+   "id": "se-490538",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-30T23:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rubio/Lancha",
+   "away": "Yanguas/Ruiz"
   }
  ]
 });
