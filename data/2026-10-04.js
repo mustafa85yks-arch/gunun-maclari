@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T17:10:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T00:21:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-09-30T17:10:57+03:00",
+ "generatedAt": "2026-10-01T00:21:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,6 +32,22 @@ GM_REGISTER_DAY({
    ],
    "home": "A.Gautier",
    "away": "R.Kopylov"
+  },
+  {
+   "id": "se-490720",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-10-04T03:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Arjantin",
+   "away": "Burkina Faso"
   },
   {
    "id": "se-490091",
@@ -386,6 +402,22 @@ GM_REGISTER_DAY({
    "title": "Yarış 3"
   },
   {
+   "id": "se-490649",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-04T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konya BB",
+   "away": "Büyükçekmece"
+  },
+  {
    "id": "se-488860",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -420,6 +452,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-483349",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-04T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Azerbaycan",
+   "away": "Litvanya"
+  },
+  {
    "id": "se-490104",
    "sport": "tenis",
    "competition": "ATP Beijing Çeyrek Final",
@@ -452,22 +500,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483349",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-04T16:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Azerbaycan",
-   "away": "Litvanya"
-  },
-  {
    "id": "se-490017",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
@@ -483,6 +515,38 @@ GM_REGISTER_DAY({
    "home": "İlbank",
    "away": "Göztepe",
    "turkish": true
+  },
+  {
+   "id": "se-490650",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-04T16:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Darüşşafaka",
+   "away": "Final Spor"
+  },
+  {
+   "id": "se-490651",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-04T16:30:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "iLab Basketbol",
+   "away": "Mersin Basketbol"
   },
   {
    "id": "se-490611",
@@ -540,29 +604,13 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Nimes",
    "away": "Aix"
-  },
-  {
-   "id": "se-490529",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-10-04T19:00:00+03:00",
-   "broadcasters": [
-    "Yaay"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ankaragücü",
-   "away": "İnegölspor",
-   "turkish": true
   },
   {
    "id": "se-490530",
@@ -582,13 +630,30 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490529",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-04T19:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ankaragücü",
+   "away": "İnegölspor",
+   "turkish": true
+  },
+  {
    "id": "se-490019",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
    "competitionId": "sultanlar-ligi",
    "kickoff": "2026-10-04T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -671,6 +736,37 @@ GM_REGISTER_DAY({
    "title": "Vincenzo Montella"
   },
   {
+   "id": "se-490061",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-10-04T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "NFL Red Zone"
+  },
+  {
+   "id": "se-490062",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-10-04T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Rams",
+   "away": "Philadelphia Eagles"
+  },
+  {
    "id": "se-490409",
    "sport": "basketbol",
    "competition": "İspanya Basketbol Ligi",
@@ -686,37 +782,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Murcia",
    "away": "Barcelona"
-  },
-  {
-   "id": "se-490062",
-   "sport": "amerikan futbolu",
-   "competition": "NFL",
-   "competitionId": "nfl",
-   "kickoff": "2026-10-04T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Buffalo Bills",
-   "away": "NE Patriots"
-  },
-  {
-   "id": "se-490061",
-   "sport": "amerikan futbolu",
-   "competition": "NFL",
-   "competitionId": "nfl",
-   "kickoff": "2026-10-04T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "NFL Red Zone"
   },
   {
    "id": "se-483353",
