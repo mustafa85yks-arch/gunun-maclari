@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T01:51:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T07:18:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-09-30",
- "generatedAt": "2026-09-30T01:51:23+03:00",
+ "generatedAt": "2026-09-30T07:18:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -288,20 +288,52 @@ GM_REGISTER_DAY({
    "away": "London Lions"
   },
   {
-   "id": "se-489904",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "id": "se-487337",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İstanbul Voleybol",
-   "away": "Anadolu Voleybol"
+   "home": "Bahçeşehir Klj",
+   "away": "BC Roma"
+  },
+  {
+   "id": "se-487338",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-09-30T19:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rigas Zelli",
+   "away": "Tortona"
+  },
+  {
+   "id": "se-489424",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup Eleme",
+   "competitionId": "fiba-europe-cup-eleme",
+   "kickoff": "2026-09-30T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dinamo Bükreş",
+   "away": "Peja"
   },
   {
    "id": "se-489425",
@@ -321,52 +353,20 @@ GM_REGISTER_DAY({
    "away": "Neftchi IK"
   },
   {
-   "id": "se-489424",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup Eleme",
-   "competitionId": "fiba-europe-cup-eleme",
+   "id": "se-489904",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-09-30T19:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dinamo Bükreş",
-   "away": "Peja"
-  },
-  {
-   "id": "se-487338",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-09-30T19:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Rigas Zelli",
-   "away": "Tortona"
-  },
-  {
-   "id": "se-487337",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-09-30T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bahçeşehir Klj",
-   "away": "BC Roma"
+   "home": "İstanbul Voleybol",
+   "away": "Anadolu Voleybol"
   },
   {
    "id": "se-487339",
@@ -417,38 +417,6 @@ GM_REGISTER_DAY({
    "away": "Talavan/Lopez"
   },
   {
-   "id": "se-487342",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-09-30T20:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ratiopharm Ulm",
-   "away": "Balkan"
-  },
-  {
-   "id": "se-490550",
-   "sport": "futbol",
-   "competition": "Dostluk Maçi",
-   "competitionId": "dostluk-maci",
-   "kickoff": "2026-09-30T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Konyaspor",
-   "away": "Filistin"
-  },
-  {
    "id": "se-487341",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -465,6 +433,22 @@ GM_REGISTER_DAY({
    "away": "Buducnost"
   },
   {
+   "id": "se-487342",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-09-30T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ratiopharm Ulm",
+   "away": "Balkan"
+  },
+  {
    "id": "se-489426",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup Eleme",
@@ -479,6 +463,22 @@ GM_REGISTER_DAY({
    ],
    "home": "BC Prievidza",
    "away": "Samobor"
+  },
+  {
+   "id": "se-490550",
+   "sport": "futbol",
+   "competition": "Dostluk Maçi",
+   "competitionId": "dostluk-maci",
+   "kickoff": "2026-09-30T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konyaspor",
+   "away": "Filistin"
   },
   {
    "id": "se-487343",
@@ -533,22 +533,6 @@ GM_REGISTER_DAY({
    "away": "Asvel Villeurbanne"
   },
   {
-   "id": "se-490537",
-   "sport": "padel",
-   "competition": "Premier Padel",
-   "competitionId": "premier-padel",
-   "kickoff": "2026-09-30T21:30:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Alvarez/Castano",
-   "away": "Prins/Kroon"
-  },
-  {
    "id": "se-487344",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -563,6 +547,22 @@ GM_REGISTER_DAY({
    ],
    "home": "SP Burgos",
    "away": "Cedevita Olimpija"
+  },
+  {
+   "id": "se-490537",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-09-30T21:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alvarez/Castano",
+   "away": "Prins/Kroon"
   },
   {
    "id": "se-487345",
