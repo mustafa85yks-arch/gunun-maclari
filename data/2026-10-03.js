@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T12:07:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T17:10:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-09-30T12:07:00+03:00",
+ "generatedAt": "2026-09-30T17:10:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -98,21 +98,6 @@ GM_REGISTER_DAY({
    "away": "S.Fitzgerald"
   },
   {
-   "id": "se-488470",
-   "sport": "motor sporları",
-   "competition": "Formula 1",
-   "competitionId": "f1",
-   "kickoff": "2026-10-03T05:30:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 4"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Antrenman Turları-3"
-  },
-  {
    "id": "se-490113",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
@@ -192,6 +177,21 @@ GM_REGISTER_DAY({
    "away": "K.Ghazaryan"
   },
   {
+   "id": "se-488470",
+   "sport": "motor sporları",
+   "competition": "Formula 1",
+   "competitionId": "f1",
+   "kickoff": "2026-10-03T07:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman Turları-3"
+  },
+  {
    "id": "se-490117",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
@@ -258,11 +258,26 @@ GM_REGISTER_DAY({
    "title": "Sprint Yarışları"
   },
   {
+   "id": "se-490614",
+   "sport": "motor sporları",
+   "competition": "GT World Challenge Asya",
+   "competitionId": "gt-world-challenge-asya",
+   "kickoff": "2026-10-03T10:45:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 1"
+  },
+  {
    "id": "se-488471",
    "sport": "motor sporları",
    "competition": "Formula 1",
    "competitionId": "f1",
-   "kickoff": "2026-10-03T10:00:00+03:00",
+   "kickoff": "2026-10-03T11:00:00+03:00",
    "broadcasters": [
     "beIN SPORTS 4"
    ],
@@ -289,21 +304,19 @@ GM_REGISTER_DAY({
    "away": "Yedidağ"
   },
   {
-   "id": "se-488856",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
-   "kickoff": "2026-10-03T13:00:00+03:00",
+   "id": "se-490616",
+   "sport": "motor sporları",
+   "competition": "Gran Turismo World Series",
+   "competitionId": "gran-turismo-world-series",
+   "kickoff": "2026-10-03T12:20:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Denizli Basket",
-   "away": "Tofaş",
-   "turkish": true
+   "title": "Manufacturers Cup"
   },
   {
    "id": "se-489917",
@@ -320,6 +333,25 @@ GM_REGISTER_DAY({
    ],
    "home": "TVF Spor Lisesi",
    "away": "Halkbank"
+  },
+  {
+   "id": "se-488856",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-10-03T13:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Denizli Basket",
+   "away": "Tofaş",
+   "turkish": true
   },
   {
    "id": "se-489743",
@@ -455,6 +487,36 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490612",
+   "sport": "motor sporları",
+   "competition": "GT World Challenge",
+   "competitionId": "gt-world-challenge",
+   "kickoff": "2026-10-03T15:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 1"
+  },
+  {
+   "id": "se-490617",
+   "sport": "motor sporları",
+   "competition": "Gran Turismo World Series",
+   "competitionId": "gran-turismo-world-series",
+   "kickoff": "2026-10-03T15:20:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Nations Cup"
+  },
+  {
    "id": "se-490523",
    "sport": "futbol",
    "competition": "TFF 2. Lig",
@@ -585,6 +647,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "Oğuz Canpolat Anadolu Lisesi"
+  },
+  {
+   "id": "se-490608",
+   "sport": "motor sporları",
+   "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
+   "competitionId": "fia-avrupa-kamyon-yarisi-sampiyonasi",
+   "kickoff": "2026-10-03T16:50:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 1"
   },
   {
    "id": "se-489745",
@@ -735,6 +812,21 @@ GM_REGISTER_DAY({
    "away": "Bulgaristan"
   },
   {
+   "id": "se-490609",
+   "sport": "motor sporları",
+   "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
+   "competitionId": "fia-avrupa-kamyon-yarisi-sampiyonasi",
+   "kickoff": "2026-10-03T19:05:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
+  },
+  {
    "id": "se-490189",
    "sport": "futbol",
    "competition": "İspanya La Liga 2",
@@ -751,6 +843,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Cadiz",
    "away": "Leganes"
+  },
+  {
+   "id": "se-490606",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-10-03T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Montpellier",
+   "away": "Chambery Savoie"
   },
   {
    "id": "se-483346",

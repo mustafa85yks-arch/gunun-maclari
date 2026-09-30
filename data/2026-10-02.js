@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T12:06:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T17:10:50+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-09-30T12:06:58+03:00",
+ "generatedAt": "2026-09-30T17:10:50+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -69,7 +69,7 @@ GM_REGISTER_DAY({
    "sport": "motor sporları",
    "competition": "Formula 1",
    "competitionId": "f1",
-   "kickoff": "2026-10-02T06:30:00+03:00",
+   "kickoff": "2026-10-02T07:30:00+03:00",
    "broadcasters": [
     "beIN SPORTS 4"
    ],
@@ -131,7 +131,7 @@ GM_REGISTER_DAY({
    "sport": "motor sporları",
    "competition": "Formula 1",
    "competitionId": "f1",
-   "kickoff": "2026-10-02T10:00:00+03:00",
+   "kickoff": "2026-10-02T11:00:00+03:00",
    "broadcasters": [
     "beIN SPORTS 4"
    ],
@@ -188,6 +188,22 @@ GM_REGISTER_DAY({
    "title": "Yunanistan"
   },
   {
+   "id": "se-490618",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-10-02T17:30:00+03:00",
+   "broadcasters": [
+    "Galatasaray Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Pendikspor"
+  },
+  {
    "id": "se-490483",
    "sport": "bisiklet",
    "competition": "Dağ Bisikleti Dünya Kupasi",
@@ -209,11 +225,13 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-10-02T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Karşıyaka",
    "away": "Galatasaray MCT Technic",
@@ -284,6 +302,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Asvel Villeurbanne",
    "away": "Valencia Basket"
+  },
+  {
+   "id": "se-490605",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-10-02T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Saran Loiret",
+   "away": "PSG"
   },
   {
    "id": "se-490127",

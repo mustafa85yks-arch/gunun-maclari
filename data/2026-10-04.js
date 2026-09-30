@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T12:07:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-09-30T17:10:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-09-30T12:07:03+03:00",
+ "generatedAt": "2026-09-30T17:10:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -177,6 +177,21 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 1"
   },
   {
+   "id": "se-490615",
+   "sport": "motor sporları",
+   "competition": "GT World Challenge Asya",
+   "competitionId": "gt-world-challenge-asya",
+   "kickoff": "2026-10-04T08:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
+  },
+  {
    "id": "se-490081",
    "sport": "motosiklet",
    "competition": "MotoGP",
@@ -198,13 +213,15 @@ GM_REGISTER_DAY({
    "sport": "motor sporları",
    "competition": "Formula 1",
    "competitionId": "f1",
-   "kickoff": "2026-10-04T09:00:00+03:00",
+   "kickoff": "2026-10-04T10:00:00+03:00",
    "broadcasters": [
+    "beIN CONNECT",
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Bahreyn GP"
   },
@@ -354,6 +371,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490610",
+   "sport": "motor sporları",
+   "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
+   "competitionId": "fia-avrupa-kamyon-yarisi-sampiyonasi",
+   "kickoff": "2026-10-04T14:45:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 3"
+  },
+  {
    "id": "se-488860",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -388,22 +420,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483349",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-04T16:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Azerbaycan",
-   "away": "Litvanya"
-  },
-  {
    "id": "se-490104",
    "sport": "tenis",
    "competition": "ATP Beijing Çeyrek Final",
@@ -436,6 +452,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-483349",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-04T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Azerbaycan",
+   "away": "Litvanya"
+  },
+  {
    "id": "se-490017",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
@@ -451,6 +483,36 @@ GM_REGISTER_DAY({
    "home": "İlbank",
    "away": "Göztepe",
    "turkish": true
+  },
+  {
+   "id": "se-490611",
+   "sport": "motor sporları",
+   "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
+   "competitionId": "fia-avrupa-kamyon-yarisi-sampiyonasi",
+   "kickoff": "2026-10-04T16:55:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 4"
+  },
+  {
+   "id": "se-490613",
+   "sport": "motor sporları",
+   "competition": "GT World Challenge",
+   "competitionId": "gt-world-challenge",
+   "kickoff": "2026-10-04T17:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
   },
   {
    "id": "se-488859",
@@ -470,37 +532,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483351",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-04T19:00:00+03:00",
+   "id": "se-490607",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-10-04T18:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "beIN SPORTS 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kosova",
-   "away": "Avusturya"
-  },
-  {
-   "id": "se-490019",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
-   "kickoff": "2026-10-04T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "THY",
-   "away": "Galatasaray Daikin",
-   "turkish": true
+   "home": "Nimes",
+   "away": "Aix"
   },
   {
    "id": "se-490529",
@@ -535,6 +580,39 @@ GM_REGISTER_DAY({
    "home": "Elazığspor",
    "away": "Çorluspor 1947",
    "turkish": true
+  },
+  {
+   "id": "se-490019",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
+   "kickoff": "2026-10-04T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "THY",
+   "away": "Galatasaray Daikin",
+   "turkish": true
+  },
+  {
+   "id": "se-483351",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-04T19:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kosova",
+   "away": "Avusturya"
   },
   {
    "id": "se-490190",
@@ -593,19 +671,21 @@ GM_REGISTER_DAY({
    "title": "Vincenzo Montella"
   },
   {
-   "id": "se-490061",
-   "sport": "amerikan futbolu",
-   "competition": "NFL",
-   "competitionId": "nfl",
+   "id": "se-490409",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
    "kickoff": "2026-10-04T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Spor Smart",
+    "Smart Spor HD"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "NFL Red Zone"
+   "home": "Murcia",
+   "away": "Barcelona"
   },
   {
    "id": "se-490062",
@@ -624,21 +704,19 @@ GM_REGISTER_DAY({
    "away": "NE Patriots"
   },
   {
-   "id": "se-490409",
-   "sport": "basketbol",
-   "competition": "İspanya Basketbol Ligi",
-   "competitionId": "ispanya-basketbol-ligi",
+   "id": "se-490061",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
    "kickoff": "2026-10-04T20:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Murcia",
-   "away": "Barcelona"
+   "title": "NFL Red Zone"
   },
   {
    "id": "se-483353",
