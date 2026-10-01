@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T00:21:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T01:52:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-10-02T00:21:51+03:00",
+ "generatedAt": "2026-10-02T01:52:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -370,6 +370,22 @@ GM_REGISTER_DAY({
    "away": "Dubai Basket"
   },
   {
+   "id": "se-490125",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-02T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bayern Münih",
+   "away": "Partizan"
+  },
+  {
    "id": "se-490126",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -400,22 +416,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Panathinaikos",
    "away": "Maccabi Fox"
-  },
-  {
-   "id": "se-490125",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-02T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bayern Münih",
-   "away": "Partizan"
   },
   {
    "id": "se-491018",
