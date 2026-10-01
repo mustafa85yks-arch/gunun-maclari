@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T17:09:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T00:21:51+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-10-01T17:09:44+03:00",
+ "generatedAt": "2026-10-02T00:21:51+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -62,7 +62,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Tokyo"
+   "home": "J.Munar",
+   "away": "J.Faria"
   },
   {
    "id": "se-488468",
@@ -78,21 +79,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Antrenman Turları-1"
-  },
-  {
-   "id": "se-490083",
-   "sport": "tenis",
-   "competition": "ATP Beijing",
-   "competitionId": "atp",
-   "kickoff": "2026-10-02T08:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Beijing"
   },
   {
    "id": "se-490075",
@@ -142,6 +128,22 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-2"
   },
   {
+   "id": "se-491013",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Çeyrek Final",
+   "competitionId": "premier-padel-kadinlar-ceyrek-final",
+   "kickoff": "2026-10-02T11:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sanchez/Calvo",
+   "away": "Jensen/Montero"
+  },
+  {
    "id": "se-489739",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Süper Ligi",
@@ -156,6 +158,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Ortahisar Bld",
    "away": "Göztepe"
+  },
+  {
+   "id": "se-491014",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Çeyrek Final",
+   "competitionId": "premier-padel-kadinlar-ceyrek-final",
+   "kickoff": "2026-10-02T13:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gallego/Araujo",
+   "away": "Martin/Fernandez"
   },
   {
    "id": "se-490482",
@@ -173,19 +191,52 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Finaller"
   },
   {
-   "id": "se-490486",
-   "sport": "atıcılık",
-   "competition": "Avrupa Aticilik Şampiyonasi",
-   "competitionId": "avrupa-aticilik-sampiyonasi",
-   "kickoff": "2026-10-02T17:30:00+03:00",
+   "id": "se-491015",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Çeyrek Final",
+   "competitionId": "premier-padel-erkekler-ceyrek-final",
+   "kickoff": "2026-10-02T14:30:00+03:00",
    "broadcasters": [
-    "Eurosport 2"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yunanistan"
+   "home": "Gonzalez/Campagnolo",
+   "away": "Nenno/Navarro"
+  },
+  {
+   "id": "se-490083",
+   "sport": "tenis",
+   "competition": "ATP Beijing",
+   "competitionId": "atp",
+   "kickoff": "2026-10-02T15:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Yunchaokete",
+   "away": "N.Djokovic"
+  },
+  {
+   "id": "se-491016",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Çeyrek Final",
+   "competitionId": "premier-padel-erkekler-ceyrek-final",
+   "kickoff": "2026-10-02T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Alfonso/Libaak"
   },
   {
    "id": "se-490618",
@@ -202,6 +253,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Galatasaray",
    "away": "Pendikspor"
+  },
+  {
+   "id": "se-490486",
+   "sport": "atıcılık",
+   "competition": "Avrupa Aticilik Şampiyonasi",
+   "competitionId": "avrupa-aticilik-sampiyonasi",
+   "kickoff": "2026-10-02T17:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yunanistan"
   },
   {
    "id": "se-490483",
@@ -251,6 +317,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Erkekler Kısa Kulvar Cross Country"
+  },
+  {
+   "id": "se-491017",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Çeyrek Final",
+   "competitionId": "premier-padel-kadinlar-ceyrek-final",
+   "kickoff": "2026-10-02T19:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Bengoechea/Ulrich"
   },
   {
    "id": "se-490123",
@@ -334,6 +416,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Bayern Münih",
    "away": "Partizan"
+  },
+  {
+   "id": "se-491018",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Çeyrek Final",
+   "competitionId": "premier-padel-erkekler-ceyrek-final",
+   "kickoff": "2026-10-02T21:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stupaczuk/Sanz",
+   "away": "Chingotto/Galan"
   },
   {
    "id": "se-483335",

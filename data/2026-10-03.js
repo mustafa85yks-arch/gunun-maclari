@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T17:09:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T00:21:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-10-01T17:09:48+03:00",
+ "generatedAt": "2026-10-02T00:21:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -360,9 +360,10 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Denizli Basket",
    "away": "Tofaş",
