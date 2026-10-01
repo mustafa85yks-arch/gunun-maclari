@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T12:08:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T17:09:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-01",
- "generatedAt": "2026-10-01T12:08:11+03:00",
+ "generatedAt": "2026-10-01T17:09:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -295,6 +295,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Kizilyildiz",
    "away": "Anadolu Efes"
+  },
+  {
+   "id": "se-490605",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-10-01T21:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Saran Loiret",
+   "away": "PSG"
   },
   {
    "id": "se-490121",

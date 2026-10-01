@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T12:08:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T17:09:44+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-10-01T12:08:14+03:00",
+ "generatedAt": "2026-10-01T17:09:44+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -144,8 +144,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489739",
    "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Süper Ligi  TVFKadınlar Ligi",
-   "competitionId": "hentbol-kadinlar-super-ligi-tvfkadinlar-ligi",
+   "competition": "Hentbol Kadinlar Süper Ligi",
+   "competitionId": "hentbol-kadinlar-super-ligi",
    "kickoff": "2026-10-02T12:00:00+03:00",
    "broadcasters": [
     "THF TV Youtube"
@@ -302,22 +302,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Asvel Villeurbanne",
    "away": "Valencia Basket"
-  },
-  {
-   "id": "se-490605",
-   "sport": "hentbol",
-   "competition": "Fransa Hentbol Ligi",
-   "competitionId": "fransa-hentbol-ligi",
-   "kickoff": "2026-10-02T21:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS MAX 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Saran Loiret",
-   "away": "PSG"
   },
   {
    "id": "se-490127",
