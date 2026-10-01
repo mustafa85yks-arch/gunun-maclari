@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T07:18:43+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T12:08:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-01",
- "generatedAt": "2026-10-01T07:18:43+03:00",
+ "generatedAt": "2026-10-01T12:08:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -330,68 +330,20 @@ GM_REGISTER_DAY({
    "away": "Chingotto/Galan"
   },
   {
-   "id": "se-483328",
+   "id": "se-483325",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Yunanistan",
-   "away": "Hollanda"
-  },
-  {
-   "id": "se-490122",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-01T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Paris",
-   "away": "Zalgiris Kaunas"
-  },
-  {
-   "id": "se-483329",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-01T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İrlanda",
-   "away": "Avusturya"
-  },
-  {
-   "id": "se-483327",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-01T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Galler",
-   "away": "Norveç"
+   "home": "Almanya",
+   "away": "Sırbistan"
   },
   {
    "id": "se-483326",
@@ -410,20 +362,68 @@ GM_REGISTER_DAY({
    "away": "Portekiz"
   },
   {
-   "id": "se-483325",
+   "id": "se-483327",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-01T21:45:00+03:00",
    "broadcasters": [
-    "A Haber"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Almanya",
-   "away": "Sırbistan"
+   "home": "Galler",
+   "away": "Norveç"
+  },
+  {
+   "id": "se-483328",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-01T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yunanistan",
+   "away": "Hollanda"
+  },
+  {
+   "id": "se-483329",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-01T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İrlanda",
+   "away": "Avusturya"
+  },
+  {
+   "id": "se-490122",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-01T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paris",
+   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-490746",

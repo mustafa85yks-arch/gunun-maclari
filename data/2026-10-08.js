@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T07:18:56+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T12:08:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-08",
- "generatedAt": "2026-10-01T07:18:56+03:00",
+ "generatedAt": "2026-10-01T12:08:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,22 +26,6 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Gençlik"
   },
   {
-   "id": "se-489894",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
-   "kickoff": "2026-10-08T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İstanbul Gençlik",
-   "away": "Alanya Bld."
-  },
-  {
    "id": "se-489895",
    "sport": "voleybol",
    "competition": "TVF Erkekler Kupa Volley",
@@ -58,21 +42,20 @@ GM_REGISTER_DAY({
    "away": "Gebze Bld."
   },
   {
-   "id": "se-490130",
+   "id": "se-490659",
    "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "HT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dubai Basket",
-   "away": "Kizilyildiz"
+   "home": "Mersin Basketbol",
+   "away": "Gaziantep Basket"
   },
   {
    "id": "se-490131",
@@ -92,20 +75,37 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
-   "id": "se-490659",
+   "id": "se-490130",
    "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "HT Spor"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Mersin Basketbol",
-   "away": "Gaziantep Basket"
+   "home": "Dubai Basket",
+   "away": "Kizilyildiz"
+  },
+  {
+   "id": "se-489894",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
+   "kickoff": "2026-10-08T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul Gençlik",
+   "away": "Alanya Bld."
   },
   {
    "id": "se-490132",

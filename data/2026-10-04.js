@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T07:18:56+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T12:08:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-10-01T07:18:56+03:00",
+ "generatedAt": "2026-10-01T12:08:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -452,22 +452,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483349",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-04T16:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Azerbaycan",
-   "away": "Litvanya"
-  },
-  {
    "id": "se-490104",
    "sport": "tenis",
    "competition": "ATP Beijing Çeyrek Final",
@@ -498,6 +482,22 @@ GM_REGISTER_DAY({
    "home": "Aras Kargo",
    "away": "Zeren Spor",
    "turkish": true
+  },
+  {
+   "id": "se-483349",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-04T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Azerbaycan",
+   "away": "Litvanya"
   },
   {
    "id": "se-490017",

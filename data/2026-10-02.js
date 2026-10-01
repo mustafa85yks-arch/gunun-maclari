@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T07:18:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T12:08:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-10-01T07:18:46+03:00",
+ "generatedAt": "2026-10-01T12:08:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -144,8 +144,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489739",
    "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Süper Ligi",
-   "competitionId": "hentbol-kadinlar-super-ligi",
+   "competition": "Hentbol Kadinlar Süper Ligi  TVFKadınlar Ligi",
+   "competitionId": "hentbol-kadinlar-super-ligi-tvfkadinlar-ligi",
    "kickoff": "2026-10-02T12:00:00+03:00",
    "broadcasters": [
     "THF TV Youtube"
@@ -228,9 +228,10 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Karşıyaka",
    "away": "Galatasaray MCT Technic",
@@ -287,22 +288,6 @@ GM_REGISTER_DAY({
    "away": "Dubai Basket"
   },
   {
-   "id": "se-490605",
-   "sport": "hentbol",
-   "competition": "Fransa Hentbol Ligi",
-   "competitionId": "fransa-hentbol-ligi",
-   "kickoff": "2026-10-02T21:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS MAX 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Saran Loiret",
-   "away": "PSG"
-  },
-  {
    "id": "se-490126",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -317,6 +302,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Asvel Villeurbanne",
    "away": "Valencia Basket"
+  },
+  {
+   "id": "se-490605",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-10-02T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Saran Loiret",
+   "away": "PSG"
   },
   {
    "id": "se-490127",
@@ -351,20 +352,20 @@ GM_REGISTER_DAY({
    "away": "Partizan"
   },
   {
-   "id": "se-483338",
+   "id": "se-483335",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-02T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "ATV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Macaristan",
-   "away": "Gürcistan"
+   "home": "Belçika",
+   "away": "Türkiye"
   },
   {
    "id": "se-483339",
@@ -383,6 +384,22 @@ GM_REGISTER_DAY({
    "away": "Romanya"
   },
   {
+   "id": "se-483338",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-02T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Macaristan",
+   "away": "Gürcistan"
+  },
+  {
    "id": "se-483336",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -397,22 +414,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Fransa",
    "away": "İtalya"
-  },
-  {
-   "id": "se-483335",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-02T21:45:00+03:00",
-   "broadcasters": [
-    "ATV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Belçika",
-   "away": "Türkiye"
   }
  ]
 });

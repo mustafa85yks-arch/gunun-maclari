@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T07:18:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-01T12:08:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-10-01T07:18:51+03:00",
+ "generatedAt": "2026-10-01T12:08:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -304,6 +304,38 @@ GM_REGISTER_DAY({
    "away": "Yedidağ"
   },
   {
+   "id": "se-490989",
+   "sport": "futbol",
+   "competition": "UEFA Dostluk Kupasi 7'ncilik",
+   "competitionId": "uefa-dostluk-kupasi-7-ncilik",
+   "kickoff": "2026-10-03T12:00:00+03:00",
+   "broadcasters": [
+    "UEFA.tv"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Güney Kore",
+   "away": "Kanada"
+  },
+  {
+   "id": "se-490990",
+   "sport": "futbol",
+   "competition": "UEFA Dostluk Kupasi 5'incilik",
+   "competitionId": "uefa-dostluk-kupasi-5-incilik",
+   "kickoff": "2026-10-03T12:00:00+03:00",
+   "broadcasters": [
+    "UEFA.tv"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mısır",
+   "away": "Fildişi Sahili"
+  },
+  {
    "id": "se-490616",
    "sport": "motor sporları",
    "competition": "Gran Turismo World Series",
@@ -354,21 +386,20 @@ GM_REGISTER_DAY({
    "away": "Halkbank"
   },
   {
-   "id": "se-490015",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
+   "id": "se-489743",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-10-03T14:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "THF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Vakifbank",
-   "away": "Beşiktaş",
-   "turkish": true
+   "home": "Eskişehir Mihalıççık",
+   "away": "Beşiktaş"
   },
   {
    "id": "se-489905",
@@ -387,20 +418,21 @@ GM_REGISTER_DAY({
    "away": "Esenler Bld"
   },
   {
-   "id": "se-489743",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
+   "id": "se-490015",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
    "kickoff": "2026-10-03T14:00:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Eskişehir Mihalıççık",
-   "away": "Beşiktaş"
+   "home": "Vakifbank",
+   "away": "Beşiktaş",
+   "turkish": true
   },
   {
    "id": "se-490518",
@@ -533,23 +565,6 @@ GM_REGISTER_DAY({
    "title": "Nations Cup"
   },
   {
-   "id": "se-490523",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-10-03T15:30:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor 4"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kırklarelispor",
-   "away": "Sakaryaspor",
-   "turkish": true
-  },
-  {
    "id": "se-488857",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -582,6 +597,39 @@ GM_REGISTER_DAY({
    "home": "İnegöl Kafkas",
    "away": "Muşspor",
    "turkish": true
+  },
+  {
+   "id": "se-490523",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-03T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kırklarelispor",
+   "away": "Sakaryaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-483341",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-03T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Finlandiya",
+   "away": "Arnavutluk"
   },
   {
    "id": "se-489740",
@@ -633,36 +681,36 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483341",
+   "id": "se-490991",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "competition": "UEFA Dostluk Kupasi 3'üncülük",
+   "competitionId": "uefa-dostluk-kupasi-3-unculuk",
    "kickoff": "2026-10-03T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "UEFA.tv"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Finlandiya",
-   "away": "Arnavutluk"
+   "home": "Kolombiya",
+   "away": "Brezilya"
   },
   {
-   "id": "se-490646",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "id": "se-489906",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-10-03T16:30:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ankaragücü",
-   "away": "OGM Orman"
+   "home": "Fenerbahçe Medicana",
+   "away": "Oğuz Canpolat Anadolu Lisesi"
   },
   {
    "id": "se-490645",
@@ -681,20 +729,20 @@ GM_REGISTER_DAY({
    "away": "Cedi Osman Basketbol"
   },
   {
-   "id": "se-489906",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "id": "se-490646",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-10-03T16:30:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Oğuz Canpolat Anadolu Lisesi"
+   "home": "Ankaragücü",
+   "away": "OGM Orman"
   },
   {
    "id": "se-490608",
@@ -791,6 +839,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Kahramanmaraş İstiklal",
    "away": "Keçiören Bld"
+  },
+  {
+   "id": "se-490992",
+   "sport": "futbol",
+   "competition": "UEFA Dostluk Kupasi Final",
+   "competitionId": "uefa-dostluk-kupasi-final",
+   "kickoff": "2026-10-03T18:00:00+03:00",
+   "broadcasters": [
+    "UEFA.tv"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İngiltere",
+   "away": "İspanya",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-483344",
