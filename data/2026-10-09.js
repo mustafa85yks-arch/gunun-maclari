@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T07:18:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T18:14:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-02T07:18:11+03:00",
+ "generatedAt": "2026-10-02T18:14:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,53 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-491040",
+   "sport": "motosiklet",
+   "competition": "MotoGP Endonezya GP",
+   "competitionId": "motogp",
+   "kickoff": "2026-10-09T05:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Serbest Antrenman 1"
+  },
+  {
+   "id": "se-491049",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-09T07:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Shanghai"
+  },
+  {
+   "id": "se-491041",
+   "sport": "motosiklet",
+   "competition": "MotoGP Endonezya GP",
+   "competitionId": "motogp",
+   "kickoff": "2026-10-09T10:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman"
+  },
   {
    "id": "se-488473",
    "sport": "motor sporları",
@@ -139,22 +186,6 @@ GM_REGISTER_DAY({
    "away": "İstanbul Gençlik"
   },
   {
-   "id": "se-488262",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-10-09T19:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Braunschweig",
-   "away": "Holstein Kiel"
-  },
-  {
    "id": "se-488263",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -224,6 +255,38 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491050",
+   "sport": "futbol",
+   "competition": "Hollanda Eredivisie",
+   "competitionId": "hollanda-eredivisie",
+   "kickoff": "2026-10-09T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "PSV",
+   "away": "Heerenveen"
+  },
+  {
+   "id": "se-491051",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-09T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Nassr",
+   "away": "Al Diriyah"
+  },
+  {
    "id": "se-490136",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -239,22 +302,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Olympiakos",
    "away": "Anadolu Efes"
-  },
-  {
-   "id": "se-488226",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-10-09T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Borussia Dortmund",
-   "away": "Werder Bremen"
   },
   {
    "id": "se-490137",
@@ -321,6 +368,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Malaga",
    "away": "Espanyol"
+  },
+  {
+   "id": "se-491052",
+   "sport": "futbol",
+   "competition": "İngiltere Championship",
+   "competitionId": "ingiltere-championship",
+   "kickoff": "2026-10-09T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "West Ham",
+   "away": "QPR"
   }
  ]
 });

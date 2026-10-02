@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T07:18:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T18:14:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-06",
- "generatedAt": "2026-10-02T07:18:11+03:00",
+ "generatedAt": "2026-10-02T18:14:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -10,13 +10,65 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-491035",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-10-06T03:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NO Saints",
+   "away": "Atlanta Falcons"
+  },
+  {
+   "id": "se-491036",
+   "sport": "tenis",
+   "competition": "ATP Tokyo Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-06T12:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final",
+   "tags": [
+    "final"
+   ]
+  },
+  {
+   "id": "se-491037",
+   "sport": "tenis",
+   "competition": "ATP Beijing Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-06T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-483365",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-06T17:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -158,7 +210,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-06T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [

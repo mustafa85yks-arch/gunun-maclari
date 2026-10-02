@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T07:18:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T18:14:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-02",
- "generatedAt": "2026-10-02T07:18:03+03:00",
+ "generatedAt": "2026-10-02T18:14:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -239,6 +239,21 @@ GM_REGISTER_DAY({
    "away": "Alfonso/Libaak"
   },
   {
+   "id": "se-490486",
+   "sport": "atıcılık",
+   "competition": "Avrupa Aticilik Şampiyonasi",
+   "competitionId": "avrupa-aticilik-sampiyonasi",
+   "kickoff": "2026-10-02T17:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yunanistan"
+  },
+  {
    "id": "se-490618",
    "sport": "futbol",
    "competition": "Hazirlik Maçi",
@@ -253,21 +268,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Galatasaray",
    "away": "Pendikspor"
-  },
-  {
-   "id": "se-490486",
-   "sport": "atıcılık",
-   "competition": "Avrupa Aticilik Şampiyonasi",
-   "competitionId": "avrupa-aticilik-sampiyonasi",
-   "kickoff": "2026-10-02T17:30:00+03:00",
-   "broadcasters": [
-    "Eurosport 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Yunanistan"
   },
   {
    "id": "se-490483",
@@ -450,20 +450,36 @@ GM_REGISTER_DAY({
    "away": "Türkiye"
   },
   {
-   "id": "se-483339",
+   "id": "se-483336",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-02T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Polonya",
-   "away": "Romanya"
+   "home": "Fransa",
+   "away": "İtalya"
+  },
+  {
+   "id": "se-483337",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-02T21:45:00+03:00",
+   "broadcasters": [
+    "A Para"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bosna Hersek",
+   "away": "İsveç"
   },
   {
    "id": "se-483338",
@@ -482,20 +498,36 @@ GM_REGISTER_DAY({
    "away": "Gürcistan"
   },
   {
-   "id": "se-483336",
+   "id": "se-483339",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-02T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fransa",
-   "away": "İtalya"
+   "home": "Polonya",
+   "away": "Romanya"
+  },
+  {
+   "id": "se-491034",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Çeyrek Final",
+   "competitionId": "premier-padel-erkekler-ceyrek-final",
+   "kickoff": "2026-10-02T23:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Augsburger/Lebron",
+   "away": "Yanguas/Ruiz"
   }
  ]
 });

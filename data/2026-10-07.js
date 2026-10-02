@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T07:18:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T18:14:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-07",
- "generatedAt": "2026-10-02T07:18:11+03:00",
+ "generatedAt": "2026-10-02T18:14:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -10,20 +10,35 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
-   "id": "se-490652",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-10-07T16:00:00+03:00",
+   "id": "se-491038",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-10-07T02:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Büyükçekmece",
-   "away": "iLab Basketbol"
+   "home": "Arjantin",
+   "away": "Benin"
+  },
+  {
+   "id": "se-491039",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-07T07:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Shanghai"
   },
   {
    "id": "se-490653",
@@ -40,6 +55,22 @@ GM_REGISTER_DAY({
    ],
    "home": "OGM Orman",
    "away": "Konya BB"
+  },
+  {
+   "id": "se-490652",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-07T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Büyükçekmece",
+   "away": "iLab Basketbol"
   },
   {
    "id": "se-490654",
