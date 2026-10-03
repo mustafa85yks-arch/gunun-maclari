@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T04:26:41+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T12:47:00+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-03T04:26:41+03:00",
+ "generatedAt": "2026-10-03T12:47:00+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-491178",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-10-10T02:30:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lexington",
+   "away": "FC Tulsa"
+  },
   {
    "id": "se-491042",
    "sport": "motosiklet",
@@ -153,6 +169,23 @@ GM_REGISTER_DAY({
    "away": "Başkent Beşiktaşlılar"
   },
   {
+   "id": "se-488938",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-10-10T13:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gençlerbirliği",
+   "away": "Amedspor",
+   "turkish": true
+  },
+  {
    "id": "se-489776",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -168,23 +201,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Boluspor",
    "away": "Antalyaspor",
-   "turkish": true
-  },
-  {
-   "id": "se-488938",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-10T13:30:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gençlerbirliği",
-   "away": "Amedspor",
    "turkish": true
   },
   {

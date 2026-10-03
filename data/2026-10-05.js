@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T04:26:41+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T12:47:00+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-05",
- "generatedAt": "2026-10-03T04:26:41+03:00",
+ "generatedAt": "2026-10-03T12:47:00+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -23,6 +23,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "South Point 400"
+  },
+  {
+   "id": "se-491177",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-10-05T01:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "New Mexico",
+   "away": "Phoenix Rising"
   },
   {
    "id": "se-490099",

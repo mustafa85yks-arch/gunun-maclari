@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T04:26:37+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T12:46:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-10-03T04:26:37+03:00",
+ "generatedAt": "2026-10-03T12:46:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -434,6 +434,22 @@ GM_REGISTER_DAY({
    "away": "J.L.Struff"
   },
   {
+   "id": "se-491236",
+   "sport": "futbol",
+   "competition": "UEFA Elit U20 Ligi",
+   "competitionId": "uefa-elit-u20-ligi",
+   "kickoff": "2026-10-03T12:00:00+03:00",
+   "broadcasters": [
+    "Fransa FF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fransa",
+   "away": "İtalya"
+  },
+  {
    "id": "se-490616",
    "sport": "motor sporları",
    "competition": "Gran Turismo World Series",
@@ -519,6 +535,22 @@ GM_REGISTER_DAY({
    "away": "Monako"
   },
   {
+   "id": "se-491257",
+   "sport": "golf",
+   "competition": "A.Dunhill Links Golf Turnuvasi",
+   "competitionId": "a-dunhill-links-golf-turnuvasi",
+   "kickoff": "2026-10-03T13:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İskoçya"
+  },
+  {
    "id": "se-489743",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -598,6 +630,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Sonay Kartal",
    "away": "X.Wang"
+  },
+  {
+   "id": "se-491227",
+   "sport": "bowling",
+   "competition": "Bowling Avrupa Şampiyonasi",
+   "competitionId": "bowling-avrupa-sampiyonasi",
+   "kickoff": "2026-10-03T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Finaller"
   },
   {
    "id": "se-490518",
@@ -732,6 +779,20 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-491235",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-10-03T15:00:00+03:00",
+   "broadcasters": [],
+   "verification": "yayin_yok",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbulspor",
+   "away": "İstanbul Başakşehir"
   },
   {
    "id": "se-490617",
@@ -1307,6 +1368,23 @@ GM_REGISTER_DAY({
    "away": "Chambery Savoie"
   },
   {
+   "id": "se-491255",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-03T20:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Unicaja Malaga",
+   "away": "Iberostar Tenerife"
+  },
+  {
    "id": "se-491167",
    "sport": "voleybol",
    "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
@@ -1321,6 +1399,25 @@ GM_REGISTER_DAY({
    ],
    "home": "San Marino",
    "away": "Faroe Adaları"
+  },
+  {
+   "id": "se-491237",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Yarı Final",
+   "competitionId": "premier-padel-erkekler-yari-final",
+   "kickoff": "2026-10-03T21:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yanguas/Ruiz",
+   "away": "Stupaczuk/Sanz",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-483346",
@@ -1353,6 +1450,23 @@ GM_REGISTER_DAY({
    ],
    "home": "İsviçre",
    "away": "Slovenya"
+  },
+  {
+   "id": "se-491256",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-03T22:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manresa",
+   "away": "Breogan"
   }
  ]
 });
