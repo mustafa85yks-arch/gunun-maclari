@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T22:15:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T02:45:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-06",
- "generatedAt": "2026-10-03T22:15:47+03:00",
+ "generatedAt": "2026-10-04T02:45:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,70 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-491358",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-06T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Detroit Pistons",
+   "away": "Phoenix Suns"
+  },
+  {
+   "id": "se-491357",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-06T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atlanta Hawks",
+   "away": "Memphis Grizzlies"
+  },
+  {
+   "id": "se-491359",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-06T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Philadelphia 76ers",
+   "away": "New York Knicks"
+  },
+  {
+   "id": "se-491360",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-06T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Milwaukee Bucks",
+   "away": "Minnesota TW"
+  },
   {
    "id": "se-491035",
    "sport": "amerikan futbolu",
@@ -24,6 +88,22 @@ GM_REGISTER_DAY({
    ],
    "home": "NO Saints",
    "away": "Atlanta Falcons"
+  },
+  {
+   "id": "se-491361",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-06T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sacramento Kings",
+   "away": "LA Lakers"
   },
   {
    "id": "se-491036",
@@ -92,20 +172,20 @@ GM_REGISTER_DAY({
    "away": "Macaristan"
   },
   {
-   "id": "se-483366",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
+   "id": "se-491326",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
+   "kickoff": "2026-10-06T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Arnavutluk",
-   "away": "San Marino"
+   "home": "BC Cibona",
+   "away": "Galatasaray MCT Technic"
   },
   {
    "id": "se-483367",
@@ -124,7 +204,7 @@ GM_REGISTER_DAY({
    "away": "Finlandiya"
   },
   {
-   "id": "se-483368",
+   "id": "se-483374",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
@@ -136,72 +216,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Estonya",
-   "away": "İzlanda"
-  },
-  {
-   "id": "se-483369",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lüksemburg",
-   "away": "Bulgaristan"
-  },
-  {
-   "id": "se-483370",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Moldova",
-   "away": "Slovakya"
-  },
-  {
-   "id": "se-483371",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hırvatistan",
-   "away": "İspanya"
-  },
-  {
-   "id": "se-483372",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İngiltere",
-   "away": "Çekya"
+   "home": "İsviçre",
+   "away": "Kuzey Makedonya"
   },
   {
    "id": "se-483373",
@@ -220,7 +236,7 @@ GM_REGISTER_DAY({
    "away": "Slovenya"
   },
   {
-   "id": "se-483374",
+   "id": "se-483372",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
@@ -232,8 +248,88 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İsviçre",
-   "away": "Kuzey Makedonya"
+   "home": "İngiltere",
+   "away": "Çekya"
+  },
+  {
+   "id": "se-483371",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-06T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hırvatistan",
+   "away": "İspanya"
+  },
+  {
+   "id": "se-483370",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-06T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Moldova",
+   "away": "Slovakya"
+  },
+  {
+   "id": "se-483369",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-06T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lüksemburg",
+   "away": "Bulgaristan"
+  },
+  {
+   "id": "se-483368",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-06T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Estonya",
+   "away": "İzlanda"
+  },
+  {
+   "id": "se-483366",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-06T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Arnavutluk",
+   "away": "San Marino"
   }
  ]
 });

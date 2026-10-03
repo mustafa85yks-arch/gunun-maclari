@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T22:15:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T02:45:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-03T22:15:47+03:00",
+ "generatedAt": "2026-10-04T02:45:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,102 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-491371",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cleveland Cavaliers",
+   "away": "Boston Celtics"
+  },
+  {
+   "id": "se-491372",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brooklyn Nets",
+   "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-491374",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "New York Knicks",
+   "away": "Washington Wizards"
+  },
+  {
+   "id": "se-491373",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Miami Heat",
+   "away": "NO Pelicans"
+  },
+  {
+   "id": "se-491375",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SA Spurs",
+   "away": "Atlanta Hawks"
+  },
+  {
+   "id": "se-491376",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T05:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Lakers",
+   "away": "Sacramento Kings"
+  },
   {
    "id": "se-491040",
    "sport": "motosiklet",
@@ -87,6 +183,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491377",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T15:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dallas Mavericks",
+   "away": "Houston Rockets"
+  },
+  {
    "id": "se-488474",
    "sport": "motor sporları",
    "competition": "Formula 1",
@@ -100,6 +212,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sprint Sıralama Turları"
+  },
+  {
+   "id": "se-491270",
+   "sport": "futbol",
+   "competition": "Ukrayna Premier Ligi",
+   "competitionId": "ukrayna-premier-ligi",
+   "kickoff": "2026-10-09T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Veres Rivne",
+   "away": "Shakhtar Donetsk"
   },
   {
    "id": "se-489896",
@@ -116,24 +244,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Onikişubat Belediyespor",
    "away": "TFL Altekma"
-  },
-  {
-   "id": "se-489772",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-09T17:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sivasspor",
-   "away": "Pendikspor",
-   "turkish": true
   },
   {
    "id": "se-489773",
@@ -154,20 +264,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489898",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
-   "kickoff": "2026-10-09T19:00:00+03:00",
+   "id": "se-489772",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-09T17:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Sungurlu Bld.",
-   "away": "Sultanbeyli Bld."
+   "home": "Sivasspor",
+   "away": "Pendikspor",
+   "turkish": true
   },
   {
    "id": "se-489897",
@@ -184,6 +296,22 @@ GM_REGISTER_DAY({
    ],
    "home": "İstanbul BB",
    "away": "İstanbul Gençlik"
+  },
+  {
+   "id": "se-489898",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
+   "kickoff": "2026-10-09T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sungurlu Bld.",
+   "away": "Sultanbeyli Bld."
   },
   {
    "id": "se-488263",
@@ -219,24 +347,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489774",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-09T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ümraniyespor",
-   "away": "Sarıyer",
-   "turkish": true
-  },
-  {
    "id": "se-489775",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -252,6 +362,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Vanspor",
    "away": "Bandırmaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-489774",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-09T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ümraniyespor",
+   "away": "Sarıyer",
    "turkish": true
   },
   {

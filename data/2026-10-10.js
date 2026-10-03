@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T22:15:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T02:45:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-03T22:15:47+03:00",
+ "generatedAt": "2026-10-04T02:45:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -24,6 +24,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lexington",
    "away": "FC Tulsa"
+  },
+  {
+   "id": "se-491378",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-10T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chicago Bulls",
+   "away": "Memphis Grizzlies"
   },
   {
    "id": "se-491042",
@@ -120,21 +136,20 @@ GM_REGISTER_DAY({
    "title": "Sprint Yarışı"
   },
   {
-   "id": "se-489748",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
+   "id": "se-489920",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-10-10T13:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bahçeşehir Klj",
-   "away": "Karşıyaka",
-   "turkish": true
+   "home": "Halkbank",
+   "away": "Başkent Beşiktaşlılar"
   },
   {
    "id": "se-489899",
@@ -153,20 +168,21 @@ GM_REGISTER_DAY({
    "away": "Onikişubat Belediyespor"
   },
   {
-   "id": "se-489920",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "id": "se-489748",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
    "kickoff": "2026-10-10T13:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Halkbank",
-   "away": "Başkent Beşiktaşlılar"
+   "home": "Bahçeşehir Klj",
+   "away": "Karşıyaka",
+   "turkish": true
   },
   {
    "id": "se-488938",
@@ -236,6 +252,22 @@ GM_REGISTER_DAY({
    "away": "Doğu Akademi"
   },
   {
+   "id": "se-491303",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-10-10T14:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehir Mihalıççık",
+   "away": "Spor Toto SK"
+  },
+  {
    "id": "se-487565",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -252,20 +284,19 @@ GM_REGISTER_DAY({
    "away": "Leeds United"
   },
   {
-   "id": "se-488217",
+   "id": "se-489734",
    "sport": "futbol",
-   "competition": "İspanya La Liga",
-   "competitionId": "la-liga",
+   "competition": "TFF Elit U19 Ligi",
+   "competitionId": "tff-elit-u19-ligi",
    "kickoff": "2026-10-10T15:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
+   "broadcasters": [],
+   "verification": "yayin_yok",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Rayo Vallecano",
-   "away": "Athletic Bilbao"
+   "home": "Ç.Rizespor",
+   "away": "Fenerbahçe",
+   "turkish": true
   },
   {
    "id": "se-490660",
@@ -284,19 +315,36 @@ GM_REGISTER_DAY({
    "away": "Final Spor"
   },
   {
-   "id": "se-489734",
-   "sport": "futbol",
-   "competition": "TFF Elit U19 Ligi",
-   "competitionId": "tff-elit-u19-ligi",
+   "id": "se-491304",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-10-10T15:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ç.Rizespor",
-   "away": "Fenerbahçe",
-   "turkish": true
+   "home": "Giresunspor",
+   "away": "Güneysuspor"
+  },
+  {
+   "id": "se-488217",
+   "sport": "futbol",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
+   "kickoff": "2026-10-10T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rayo Vallecano",
+   "away": "Athletic Bilbao"
   },
   {
    "id": "se-489749",
@@ -346,6 +394,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Barosu",
    "away": "TVF Spor Lisesi"
+  },
+  {
+   "id": "se-491305",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-10-10T16:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Göztepe",
+   "away": "Nilüfer Bld."
   },
   {
    "id": "se-491054",
@@ -605,6 +669,22 @@ GM_REGISTER_DAY({
    "title": "Portekiz Yarış 1"
   },
   {
+   "id": "se-490663",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-10T18:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ankaragücü",
+   "away": "Göztepe"
+  },
+  {
    "id": "se-489750",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -622,22 +702,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490663",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-10-10T18:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ankaragücü",
-   "away": "Göztepe"
-  },
-  {
    "id": "se-487510",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -652,6 +716,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Lille",
    "away": "Le Havre"
+  },
+  {
+   "id": "se-491306",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-10-10T18:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beykoz Bld.",
+   "away": "Beşiktaş"
+  },
+  {
+   "id": "se-491268",
+   "sport": "bisiklet",
+   "competition": "Red Bull Rampage",
+   "competitionId": "red-bull-rampage",
+   "kickoff": "2026-10-10T19:00:00+03:00",
+   "broadcasters": [
+    "Red Bull TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Utah"
   },
   {
    "id": "se-489901",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T22:15:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T02:45:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-10-03T22:15:47+03:00",
+ "generatedAt": "2026-10-04T02:45:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -80,6 +80,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lexington",
    "away": "El Paso Locomotive"
+  },
+  {
+   "id": "se-491354",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-04T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Toronto Raptors",
+   "away": "Miami Heat"
   },
   {
    "id": "se-491172",
@@ -270,7 +286,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "J.Munar",
+   "away": "K.Jacquet"
   },
   {
    "id": "se-491175",
@@ -305,6 +322,22 @@ GM_REGISTER_DAY({
    "away": "San Antonio"
   },
   {
+   "id": "se-491349",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-04T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Charaeva",
+   "away": "Sonay Kartal"
+  },
+  {
    "id": "se-490080",
    "sport": "motosiklet",
    "competition": "Moto2",
@@ -334,7 +367,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "C.Alcaraz",
+   "away": "D.Shapovalov"
   },
   {
    "id": "se-490081",
@@ -366,7 +400,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "H.Hurkacz",
+   "away": "K.Khachanov"
   },
   {
    "id": "se-490615",
@@ -382,6 +417,38 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 2"
+  },
+  {
+   "id": "se-491351",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-04T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Kudermetova",
+   "away": "M.Andreeva"
+  },
+  {
+   "id": "se-491352",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-04T09:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Noskova",
+   "away": "V.Golubic"
   },
   {
    "id": "se-488472",
@@ -413,7 +480,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "V.Vacherot",
+   "away": "A.Fils"
   },
   {
    "id": "se-490102",
@@ -428,7 +496,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "A.De Minaur",
+   "away": "A.Rublev"
   },
   {
    "id": "se-491224",
@@ -448,6 +517,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490103",
+   "sport": "tenis",
+   "competition": "ATP Beijing Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-04T11:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Medvedev",
+   "away": "F.Cerundolo"
+  },
+  {
    "id": "se-490098",
    "sport": "tenis",
    "competition": "ATP Tokyo Çeyrek Final",
@@ -460,7 +545,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
+   "home": "J.Lehecka",
+   "away": "A.D.Vallejo"
   },
   {
    "id": "se-488861",
@@ -548,7 +634,7 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490103",
+   "id": "se-490104",
    "sport": "tenis",
    "competition": "ATP Beijing Çeyrek Final",
    "competitionId": "atp",
@@ -560,7 +646,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "A.Zverev",
+   "away": "N.Djokovic"
+  },
+  {
+   "id": "se-491353",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-04T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "S.Bejlek",
+   "away": "N.Osaka"
   },
   {
    "id": "se-490610",
@@ -628,6 +731,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491350",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-04T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Muchova",
+   "away": "L.Samsonova"
+  },
+  {
    "id": "se-483349",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -676,21 +795,6 @@ GM_REGISTER_DAY({
    "home": "Aras Kargo",
    "away": "Zeren Spor",
    "turkish": true
-  },
-  {
-   "id": "se-490104",
-   "sport": "tenis",
-   "competition": "ATP Beijing Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-04T16:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 4"
   },
   {
    "id": "se-490650",
@@ -755,6 +859,25 @@ GM_REGISTER_DAY({
    "title": "Yarış 2"
   },
   {
+   "id": "se-491426",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Final",
+   "competitionId": "premier-padel-kadinlar-final",
+   "kickoff": "2026-10-04T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Prieto/Fallada",
+   "away": "Martin/Fernandez",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-488859",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -787,6 +910,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Nimes",
    "away": "Aix"
+  },
+  {
+   "id": "se-491427",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Final",
+   "competitionId": "premier-padel-erkekler-final",
+   "kickoff": "2026-10-04T18:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Stupaczuk/Sanz",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-483351",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T22:15:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T02:45:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-07",
- "generatedAt": "2026-10-03T22:15:47+03:00",
+ "generatedAt": "2026-10-04T02:45:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-491362",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-07T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Charlotte Hornets",
+   "away": "Brooklyn Nets"
+  },
   {
    "id": "se-491038",
    "sport": "futbol",
@@ -26,6 +42,54 @@ GM_REGISTER_DAY({
    "away": "Benin"
   },
   {
+   "id": "se-491363",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-07T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "OKC Thunder",
+   "away": "NO Pelicans"
+  },
+  {
+   "id": "se-491364",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-07T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Utah Jazz",
+   "away": "Denver Nuggets"
+  },
+  {
+   "id": "se-491365",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-07T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "GS Warriors",
+   "away": "LA Lakers"
+  },
+  {
    "id": "se-491039",
    "sport": "tenis",
    "competition": "ATP Shanghai",
@@ -39,22 +103,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Shanghai"
-  },
-  {
-   "id": "se-490653",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-10-07T16:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "OGM Orman",
-   "away": "Konya BB"
   },
   {
    "id": "se-490652",
@@ -71,6 +119,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Büyükçekmece",
    "away": "iLab Basketbol"
+  },
+  {
+   "id": "se-490653",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-07T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "OGM Orman",
+   "away": "Konya BB"
   },
   {
    "id": "se-490654",
@@ -103,6 +167,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Keçiören Bld",
    "away": "TED Kolejliler"
+  },
+  {
+   "id": "se-491327",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
+   "kickoff": "2026-10-07T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "JSF Nanterre"
   },
   {
    "id": "se-490656",

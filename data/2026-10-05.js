@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T22:15:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T02:45:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-05",
- "generatedAt": "2026-10-03T22:15:47+03:00",
+ "generatedAt": "2026-10-04T02:45:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -39,6 +39,38 @@ GM_REGISTER_DAY({
    ],
    "home": "New Mexico",
    "away": "Phoenix Rising"
+  },
+  {
+   "id": "se-491355",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-05T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Denver Nuggets",
+   "away": "Utah Jazz"
+  },
+  {
+   "id": "se-491356",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-05T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Clippers",
+   "away": "GS Warriors"
   },
   {
    "id": "se-490099",
@@ -115,8 +147,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489747",
    "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
+   "competition": "Hentbol Erkekler Süper Ligi  Takımbilgileri",
+   "competitionId": "hentbol-erkekler-super-ligi-takimbilgileri",
    "kickoff": "2026-10-05T17:00:00+03:00",
    "broadcasters": [
     "TRT Spor Yildiz"
