@@ -28,7 +28,8 @@ Mustafa arkadaşlarıyla paylaşıyor, telefonda ana ekrana eklenmiş uygulama g
 
 | Dosya | Ne yapar |
 |---|---|
-| `index.html` | İskelet: üst satır (🔍 ★), yapışkan şerit (gün + filtre), favori penceresi. JS/CSS `?v=3` ile bağlı |
+| `index.html` | İskelet: üst satır (🔍 ★), yapışkan şerit (gün + filtre), favori penceresi. JS/CSS `?v=4` ile bağlı |
+| `images/spor/` | Bunları Kaçırma kart fotoğrafları (10 jpg, toplam ~300 KB) |
 | `style.css` | Görünüm. Açık tema, mobil öncelikli. Kart zemini lig renginin açık tonu (`--tint` %12) |
 | `data.js` | Sabitler: kategoriler, yayıncılar, Türk takımları, ligler, **lig renkleri**, **büyük kulüpler**, **derbiler**, öne çıkarma puanları, `GM.fold` |
 | `api.js` | Veri katmanı: günlük dosyayı `<script>` ile yükler (file:// için), İstanbul saati, kontroller |
@@ -94,6 +95,11 @@ Gemini vb. yapay zekâ API'si gerekmedi.
 - **Bunları Kaçırma** (günde en fazla 5) + kartlarda derbi etiketi.
 - Kart: lig adı üstte, solda saat (+ geri sayım / CANLI), ortada takımlar, sağda kanal kutucuğu + "✓ akışta var".
   Karta dokununca ayrıntı, 📅 Takvime ekle (başlamamış maçta) ve favori düğmeleri açılır.
+- **Arayüz v3** (3 Ekim 2026, Mustafa'nın verdiği mockup'a göre): büyük başlık, yuvarlak gün hapları, simgeli spor filtreleri,
+  **Bunları Kaçırma kartları fotoğraflı** (`images/spor/<spor>.jpg` — Gemini ile üretilmiş, yüzü/logosu/yazısı olmayan genel
+  görseller; 10 adet: futbol, basketbol, tenis, voleybol, amerikan, hentbol, padel, motor, dovus, genel). ▶ düğmesi listedeki karta gider.
+  Spor simgeleri `app.js` içinde elle çizilmiş SVG (marka yok). Kanal logosu **yok** (Mustafa "sadece spor simgeleri" dedi).
+  Karar §5 korundu: lig adı kartın üst satırında, kart zemini lig renginin hafif tonu. JS/CSS `?v=4`.
 - **↗ Paylaş** (3 Ekim 2026): kart ayrıntısında. Telefonda paylaşma menüsü (WhatsApp vb.), masaüstünde panoya kopyalar.
   Metin: spor simgesi + takımlar, lig, gün/saat, kanal. Bağlantı `#2026-10-10/se-491178` → o günü açar, karta gider.
   Maç kimliği sporekrani'nin numarası (`se-…`), bot güncellemesinde değişmiyor. JS/CSS artık `?v=3`.

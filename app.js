@@ -125,6 +125,39 @@
     }
   }
 
+  /* ---------- Spor simgeleri + fotoğraflar ---------- */
+  // Simgeler elle çizildi (marka/telif yok). Fotoğraflar images/spor/ altında, AI ile üretilmiş genel görseller.
+
+  var SVG = function (inner) {
+    return '<svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.7" ' +
+      'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + inner + '</svg>';
+  };
+  var ICONS = {
+    futbol: SVG('<circle cx="12" cy="12" r="9"/><path d="M12 8.2l3.2 2.3-1.2 3.8h-4l-1.2-3.8zM12 8.2V3M15.2 10.5l4.8-1.6M14 14.3l3 4.1M10 14.3l-3 4.1M8.8 10.5L4 8.9"/>'),
+    basketbol: SVG('<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M5.6 5.6c3 3 3 9.8 0 12.8M18.4 5.6c-3 3-3 9.8 0 12.8"/>'),
+    tenis: SVG('<circle cx="12" cy="12" r="9"/><path d="M5.6 5.6c4 3 4 9.8 0 12.8M18.4 5.6c-4 3-4 9.8 0 12.8"/>'),
+    voleybol: SVG('<circle cx="12" cy="12" r="9"/><path d="M12 3c0 5 2.5 8.5 8.5 9.5M12 3C9 5 7 8 6 12M3.5 11.5C8 11 11 13 12.5 21M20 16c-4-1-7 0-9 4"/>'),
+    amerikan: SVG('<path d="M4 20C4 11 11 4 20 4c0 9-7 16-16 16z"/><path d="M9 15l6-6M10.5 11.5l2 2M12.5 9.5l2 2"/>'),
+    genel: SVG('<g fill="currentColor" stroke="none"><circle cx="6" cy="6" r="1.6"/><circle cx="12" cy="6" r="1.6"/><circle cx="18" cy="6" r="1.6"/><circle cx="6" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18" cy="12" r="1.6"/><circle cx="6" cy="18" r="1.6"/><circle cx="12" cy="18" r="1.6"/><circle cx="18" cy="18" r="1.6"/></g>')
+  };
+  var CAT_ICON = { futbol: 'futbol', basketbol: 'basketbol', tenis: 'tenis', amerikan: 'amerikan', diger: 'genel' };
+  var TV_ICON = SVG('<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>');
+  var PLAY_ICON = '<svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>';
+  var CHEV_ICON = SVG('<path d="M9 6l6 6-6 6"/>');
+
+  function sportIcon(ev) {
+    var s = ev.sport;
+    return ICONS[s] || (s === 'padel' ? ICONS.tenis : s === 'amerikan futbolu' ? ICONS.amerikan : ICONS.genel);
+  }
+  // Fotoğraf anahtarı (images/spor/<anahtar>.jpg)
+  function photoKey(ev) {
+    var s = ev.sport;
+    if (s === 'amerikan futbolu') return 'amerikan';
+    if (s === 'motor sporları' || s === 'motosiklet') return 'motor';
+    if (s === 'boks' || s === 'dövüş sporları') return 'dovus';
+    return ['futbol', 'basketbol', 'tenis', 'voleybol', 'hentbol', 'padel'].indexOf(s) !== -1 ? s : 'genel';
+  }
+
   /* ---------- Yayıncı ---------- */
 
   // Kanal adı kartın sağında kutucuk: "beIN SPORTS 1" doğrudan görünür.
@@ -189,7 +222,7 @@
     return '<article data-id="' + esc(ev.id) + '" style="--lc:' + leagueColor(ev) + '" class="card' +
         (state.open[ev.id] ? ' open' : '') + '">' +
       // Lig adı kartın en üstünde: maçın hangi lige ait olduğu ilk bakışta okunsun.
-      '<div class="comp' + (compFav ? ' fav' : '') + '">' + esc(ev.competition) +
+      '<div class="comp' + (compFav ? ' fav' : '') + '"><span class="sp-ico">' + sportIcon(ev) + '</span>' + esc(ev.competition) +
         (ev.home && ev.title ? ' · ' + esc(ev.title) : '') +
         (ev.category === 'diger' ? ' · ' + esc(sportName) : '') + '</div>' +
       '<div class="c-time"><span class="time">' + T.hm(ev.kickoff) + '</span>' + statusBadge(st) +
@@ -198,6 +231,7 @@
         (ev.rivalry ? '<div class="derby">⚔ ' + esc(ev.rivalry) + '</div>' : '') +
       '</div>' +
       '<div class="c-tv">' + tvBlock(ev) + '</div>' +
+      '<div class="c-chev">' + CHEV_ICON + '</div>' +
       '<div class="c-detail"><dl>' +
         '<dt>Spor</dt><dd>' + esc(sportName) + '</dd>' +
         '<dt>Durum</dt><dd>' + statusText + '</dd>' +
@@ -229,12 +263,17 @@
   // Önerilen maçlar: yatay kayan küçük kartlar. Dokununca listedeki asıl karta gider.
   function hlCard(ev, now) {
     var st = statusOf(ev, now);
-    return '<button class="hl" data-goto="' + esc(ev.id) + '" style="--lc:' + leagueColor(ev) + '">' +
-      '<div class="comp">' + esc(ev.competition) + '</div>' +
-      '<div class="hl-top"><span class="time">' + T.hm(ev.kickoff) + '</span>' + statusBadge(st) + '</div>' +
-      '<div class="hl-teams"><span>' + esc(ev.home) + '</span><span>' + esc(ev.away) + '</span></div>' +
-      (ev.rivalry ? '<span class="derby">⚔ ' + esc(ev.rivalry) + '</span>' : '') +
-      '<div class="hl-tv">' + esc(tvShort(ev)) + '</div>' +
+    return '<button class="hl" data-goto="' + esc(ev.id) + '" style="--lc:' + leagueColor(ev) +
+        ';background-image:url(images/spor/' + photoKey(ev) + '.jpg)">' +
+      '<div class="hl-badge">' + statusBadge(st) + '</div>' +
+      '<div class="hl-body">' +
+        '<div class="comp">' + esc(ev.competition) + '</div>' +
+        '<div class="time">' + T.hm(ev.kickoff) + '</div>' +
+        '<div class="hl-teams"><span>' + esc(ev.home) + '</span><span>' + esc(ev.away) + '</span></div>' +
+        (ev.rivalry ? '<span class="derby">⚔ ' + esc(ev.rivalry) + '</span>' : '') +
+        '<div class="hl-foot"><div class="hl-tv">' + (tvShort(ev) ? TV_ICON + '<span>' + esc(tvShort(ev)) + '</span>' : '') +
+        '</div><span class="hl-play">' + PLAY_ICON + '</span></div>' +
+      '</div>' +
     '</button>';
   }
 
@@ -399,9 +438,9 @@
     renderDays();
   }
 
-  function chip(label, on, attrs, count) {
+  function chip(label, on, attrs, count, icon) {
     return '<button class="chip' + (on ? ' on' : '') + '" ' + attrs + ' aria-pressed="' + on + '">' +
-      esc(label) + (count != null ? '<span class="n">' + count + '</span>' : '') + '</button>';
+      (icon ? '<span class="chip-ico">' + ICONS[icon] + '</span>' : '') + esc(label) + (count != null ? '<span class="n">' + count + '</span>' : '') + '</button>';
   }
 
   function renderFilters(events) {
@@ -409,9 +448,9 @@
     $('filters').innerHTML = GM.CATEGORIES.map(function (c) {
       var n = c.id === 'tumu' ? events.length : events.filter(function (e) { return e.category === c.id; }).length;
       if (c.id !== 'tumu' && !n && state.sport !== c.id) return '';
-      return chip(c.label, state.sport === c.id, 'data-sport="' + c.id + '"', n);
+      return chip(c.label, state.sport === c.id, 'data-sport="' + c.id + '"', n, CAT_ICON[c.id]);
     }).join('') +
-      (favN || state.favOnly ? chip('★ FAVORİLERİM', state.favOnly, 'data-toggle="favOnly"', favN) : '');
+      (favN || state.favOnly ? chip('★ Favorilerim', state.favOnly, 'data-toggle="favOnly"', favN) : '');
   }
 
   function section(title, sub, html, right) {

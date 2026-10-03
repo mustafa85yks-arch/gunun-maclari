@@ -12,12 +12,12 @@ GM.fold = function (s) {
 
 // Üstteki filtre kategorileri. Buraya girmeyen her spor "diger" sayılır.
 GM.CATEGORIES = [
-  { id: 'tumu',      label: 'TÜMÜ' },
-  { id: 'futbol',    label: 'FUTBOL' },
-  { id: 'basketbol', label: 'BASKETBOL' },
-  { id: 'tenis',     label: 'TENİS' },
-  { id: 'amerikan',  label: 'AMERİKAN FUTBOLU' },
-  { id: 'diger',     label: 'DİĞER' }
+  { id: 'tumu',      label: 'Tümü' },
+  { id: 'futbol',    label: 'Futbol' },
+  { id: 'basketbol', label: 'Basketbol' },
+  { id: 'tenis',     label: 'Tenis' },
+  { id: 'amerikan',  label: 'Amerikan Futbolu' },
+  { id: 'diger',     label: 'Diğer' }
 ];
 
 GM.SPORT_NAMES = {
