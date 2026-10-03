@@ -207,6 +207,7 @@
         (ev.note ? '<dt>Not</dt><dd>' + esc(ev.note) + '</dd>' : '') +
       '</dl><div class="fav-row">' +
         (st.state === 'scheduled' ? '<button class="cal-btn" data-cal="' + esc(ev.id) + '">📅 Takvime ekle</button>' : '') +
+        '<button class="share-btn" data-share="' + esc(ev.id) + '">↗ Paylaş</button>' +
         favButtons(ev) + '</div></div>' +
     '</article>';
   }
@@ -295,6 +296,41 @@
     a.href = url; a.download = name + '.ics';
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(function () { URL.revokeObjectURL(url); }, 30000);
+  }
+
+  /* ---------- Maçı paylaş ---------- */
+  // Telefonda paylaşma menüsü (WhatsApp vb.) açılır; yoksa metin panoya kopyalanır.
+  // Bağlantı maçın gününü açar ve karta gider: ...#2026-10-10/se-491178
+
+  var SPORT_ICON = {
+    'futbol': '⚽', 'basketbol': '🏀', 'tenis': '🎾', 'voleybol': '🏐', 'amerikan futbolu': '🏈',
+    'hentbol': '🤾', 'motor sporları': '🏎️', 'motosiklet': '🏍️', 'golf': '⛳', 'bisiklet': '🚴',
+    'boks': '🥊', 'dövüş sporları': '🥊', 'snooker': '🎱', 'padel': '🎾'
+  };
+
+  function shareText(ev) {
+    var title = ev.home && ev.away ? ev.home + ' – ' + ev.away : (ev.title || ev.competition);
+    var day = T.dateStr(ev.kickoff) === today() ? 'Bugün' : T.longDate(T.dateStr(ev.kickoff)).replace(/ \d{4}/, '');
+    var tv = ev.broadcasters.join(' / ');
+    return (SPORT_ICON[ev.sport] || '📺') + ' ' + title + '\n' + ev.competition + '\n' +
+      '🕒 ' + day + ' ' + T.hm(ev.kickoff) + (tv ? '\n📺 ' + tv : '');
+  }
+
+  function shareEvent(id, btn) {
+    var ev = findEvent(id);
+    if (!ev) return;
+    var url = location.origin + location.pathname + '#' + T.dateStr(ev.kickoff) + '/' + encodeURIComponent(ev.id);
+    var text = shareText(ev);
+    if (navigator.share) {
+      navigator.share({ text: text, url: url }).catch(function () { /* vazgeçildi */ });
+      return;
+    }
+    var done = function () {
+      btn.textContent = '✓ Kopyalandı';
+      setTimeout(function () { btn.textContent = '↗ Paylaş'; }, 2000);
+    };
+    if (navigator.clipboard) navigator.clipboard.writeText(text + '\n' + url).then(done, function () { prompt('Kopyala:', url); });
+    else prompt('Kopyala:', url);
   }
 
   /* ---------- Filtre + seçim ---------- */
@@ -604,6 +640,8 @@
 
   /* ---------- Yükleme + gezinme ---------- */
 
+  var pendingGoto = null;  // paylaşılan bağlantıdaki maç: gün yüklenince ona gidilir
+
   function load() {
     var date = state.date;
     state.loading = true;
@@ -619,6 +657,10 @@
       if (date !== state.date) return;
       state.loading = false; state.loadedAt = Date.now();
       render();
+      if (pendingGoto) {
+        var id = pendingGoto; pendingGoto = null;
+        if (findEvent(id)) goto(id);
+      }
     });
   }
 
@@ -677,6 +719,7 @@
     if (b.dataset.toggle) { state[b.dataset.toggle] = !state[b.dataset.toggle]; return render(); }
     if (b.dataset.sort) { state.sortBy = b.dataset.sort; saveSort(); return render(); }
     if (b.dataset.cal) return addToCalendar(b.dataset.cal);
+    if (b.dataset.share) return shareEvent(b.dataset.share, b);
     if (b.dataset.favTeam) { toggleTeam(b.dataset.favTeam); return render(); }
     if (b.dataset.favLeague) { toggleLeague(b.dataset.favLeague); return render(); }
     if (b.dataset.rmTeam) {
@@ -719,5 +762,7 @@
     if (state.data || state.searchResults) render();
   }, TICK_MS);
 
-  go(location.hash.slice(1));
+  var hash = location.hash.slice(1).split('/');
+  if (hash[1]) pendingGoto = decodeURIComponent(hash[1]);
+  go(hash[0]);
 })();

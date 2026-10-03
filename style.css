@@ -216,6 +216,10 @@ a { color: inherit; }
   border: 1px solid var(--ink); background: var(--ink); color: #fff; border-radius: 999px;
   padding: 4px 12px; font-size: 12px; font-weight: 700;
 }
+.share-btn {
+  border: 1px solid var(--ink); background: var(--card); color: var(--ink); border-radius: 999px;
+  padding: 4px 12px; font-size: 12px; font-weight: 700;
+}
 .fav-btn.on { border-color: var(--fav); background: var(--fav-bg); }
 
 /* ---------- Favori penceresi ---------- */

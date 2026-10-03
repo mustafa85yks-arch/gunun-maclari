@@ -28,7 +28,7 @@ Mustafa arkadaşlarıyla paylaşıyor, telefonda ana ekrana eklenmiş uygulama g
 
 | Dosya | Ne yapar |
 |---|---|
-| `index.html` | İskelet: üst satır (🔍 ★), yapışkan şerit (gün + filtre), favori penceresi. JS/CSS `?v=2` ile bağlı |
+| `index.html` | İskelet: üst satır (🔍 ★), yapışkan şerit (gün + filtre), favori penceresi. JS/CSS `?v=3` ile bağlı |
 | `style.css` | Görünüm. Açık tema, mobil öncelikli. Kart zemini lig renginin açık tonu (`--tint` %12) |
 | `data.js` | Sabitler: kategoriler, yayıncılar, Türk takımları, ligler, **lig renkleri**, **büyük kulüpler**, **derbiler**, öne çıkarma puanları, `GM.fold` |
 | `api.js` | Veri katmanı: günlük dosyayı `<script>` ile yükler (file:// için), İstanbul saati, kontroller |
@@ -94,6 +94,9 @@ Gemini vb. yapay zekâ API'si gerekmedi.
 - **Bunları Kaçırma** (günde en fazla 5) + kartlarda derbi etiketi.
 - Kart: lig adı üstte, solda saat (+ geri sayım / CANLI), ortada takımlar, sağda kanal kutucuğu + "✓ akışta var".
   Karta dokununca ayrıntı, 📅 Takvime ekle (başlamamış maçta) ve favori düğmeleri açılır.
+- **↗ Paylaş** (3 Ekim 2026): kart ayrıntısında. Telefonda paylaşma menüsü (WhatsApp vb.), masaüstünde panoya kopyalar.
+  Metin: spor simgesi + takımlar, lig, gün/saat, kanal. Bağlantı `#2026-10-10/se-491178` → o günü açar, karta gider.
+  Maç kimliği sporekrani'nin numarası (`se-…`), bot güncellemesinde değişmiyor. JS/CSS artık `?v=3`.
 - Saat sıralamasında "Şu an yayında" ve "Sıradaki" ayrı başlık.
 - **Sırala: Saat | Lig** (`gm-sirala`). Lig sıralamasında lig adı sadece grup başlığında.
 - Canlı durum saatten tahmin (`~` işareti); gerçek canlı skor yok.
