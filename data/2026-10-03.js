@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-02T21:51:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T03:25:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-03",
- "generatedAt": "2026-10-02T21:51:04+03:00",
+ "generatedAt": "2026-10-03T03:25:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -79,7 +79,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Tokyo"
+   "home": "D.Shapovalov",
+   "away": "A.Tabilo"
   },
   {
    "id": "se-490112",
@@ -126,7 +127,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Beijing"
+   "home": "A.De Minaur",
+   "away": "Q.Halys"
   },
   {
    "id": "se-490114",
@@ -143,6 +145,22 @@ GM_REGISTER_DAY({
    ],
    "home": "J.Perreira",
    "away": "A.Cesar"
+  },
+  {
+   "id": "se-491158",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-03T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Gauff",
+   "away": "C.Osorio"
   },
   {
    "id": "se-490115",
@@ -241,6 +259,38 @@ GM_REGISTER_DAY({
    "away": "P.Elliott"
   },
   {
+   "id": "se-491150",
+   "sport": "tenis",
+   "competition": "ATP Beijing",
+   "competitionId": "atp",
+   "kickoff": "2026-10-03T08:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Rublev",
+   "away": "R.Safiullin"
+  },
+  {
+   "id": "se-491159",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-03T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "X.Gao",
+   "away": "I.Swiatek"
+  },
+  {
    "id": "se-490078",
    "sport": "motosiklet",
    "competition": "MotoGP Japonya GP",
@@ -256,6 +306,38 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Sprint Yarışları"
+  },
+  {
+   "id": "se-491160",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-03T09:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Q.Zheng",
+   "away": "A.Kalinskaya"
+  },
+  {
+   "id": "se-491163",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-10-03T10:30:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İrlanda",
+   "away": "İskoçya"
   },
   {
    "id": "se-490614",
@@ -336,6 +418,22 @@ GM_REGISTER_DAY({
    "away": "Fildişi Sahili"
   },
   {
+   "id": "se-491151",
+   "sport": "tenis",
+   "competition": "ATP Beijing",
+   "competitionId": "atp",
+   "kickoff": "2026-10-03T12:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Medvedev",
+   "away": "J.L.Struff"
+  },
+  {
    "id": "se-490616",
    "sport": "motor sporları",
    "competition": "Gran Turismo World Series",
@@ -386,6 +484,41 @@ GM_REGISTER_DAY({
    "away": "Halkbank"
   },
   {
+   "id": "se-491155",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Yarı Final",
+   "competitionId": "premier-padel-kadinlar-yari-final",
+   "kickoff": "2026-10-03T13:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sanchez/Calvo",
+   "away": "Martin/Fernandez",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-491164",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-10-03T13:00:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Faroe Adaları",
+   "away": "Monako"
+  },
+  {
    "id": "se-489743",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -433,6 +566,38 @@ GM_REGISTER_DAY({
    "home": "Vakifbank",
    "away": "Beşiktaş",
    "turkish": true
+  },
+  {
+   "id": "se-491152",
+   "sport": "tenis",
+   "competition": "ATP Beijing",
+   "competitionId": "atp",
+   "kickoff": "2026-10-03T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "J.Shang"
+  },
+  {
+   "id": "se-491161",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-03T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sonay Kartal",
+   "away": "X.Wang"
   },
   {
    "id": "se-490518",
@@ -550,6 +715,25 @@ GM_REGISTER_DAY({
    "away": "Balıkesir BB"
   },
   {
+   "id": "se-491156",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Yarı Final",
+   "competitionId": "premier-padel-erkekler-yari-final",
+   "kickoff": "2026-10-03T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Gonzalez/Campagnolo",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-490617",
    "sport": "motor sporları",
    "competition": "Gran Turismo World Series",
@@ -614,6 +798,22 @@ GM_REGISTER_DAY({
    "home": "Kırklarelispor",
    "away": "Sakaryaspor",
    "turkish": true
+  },
+  {
+   "id": "se-491162",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-03T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Rybakina",
+   "away": "A.Charaeva"
   },
   {
    "id": "se-483341",
@@ -743,6 +943,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankaragücü",
    "away": "OGM Orman"
+  },
+  {
+   "id": "se-491165",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-10-03T16:30:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İrlanda",
+   "away": "İzlanda"
   },
   {
    "id": "se-490608",
@@ -892,6 +1108,22 @@ GM_REGISTER_DAY({
    "away": "İngiltere"
   },
   {
+   "id": "se-489336",
+   "sport": "futbol",
+   "competition": "Dostluk Maçi",
+   "competitionId": "dostluk-maci",
+   "kickoff": "2026-10-03T19:00:00+03:00",
+   "broadcasters": [
+    "TV100"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Turan",
+   "away": "Fenerbahçe"
+  },
+  {
    "id": "se-489929",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 2. Lig",
@@ -975,6 +1207,38 @@ GM_REGISTER_DAY({
    "away": "Keçiörengücü"
   },
   {
+   "id": "se-491153",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-10-03T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mississippi State",
+   "away": "Alabama"
+  },
+  {
+   "id": "se-491166",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-10-03T19:00:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İskoçya",
+   "away": "Kuzey İrlanda"
+  },
+  {
    "id": "se-490609",
    "sport": "motor sporları",
    "competition": "FiA Avrupa Kamyon Yarişi Şampiyonasi",
@@ -1008,6 +1272,25 @@ GM_REGISTER_DAY({
    "away": "Leganes"
   },
   {
+   "id": "se-491157",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Yarı Final",
+   "competitionId": "premier-padel-kadinlar-yari-final",
+   "kickoff": "2026-10-03T19:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Prieto/Fallada",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-490606",
    "sport": "hentbol",
    "competition": "Fransa Hentbol Ligi",
@@ -1022,6 +1305,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Montpellier",
    "away": "Chambery Savoie"
+  },
+  {
+   "id": "se-491167",
+   "sport": "voleybol",
+   "competition": "CEV U20 Kizlar Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "cev-u20-kizlar-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-10-03T21:30:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "San Marino",
+   "away": "Faroe Adaları"
   },
   {
    "id": "se-483346",
