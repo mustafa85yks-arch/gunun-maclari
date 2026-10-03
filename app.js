@@ -90,6 +90,8 @@
 
   // Veri canlı durum veriyorsa onu kullan; vermiyorsa saatten tahmin et (approx=true).
   function statusOf(ev, now) {
+    var L = liveOf(ev);
+    if (L && L.state !== 'scheduled') return { state: L.state, minute: L.minute, approx: false };
     if (ev.status) return { state: ev.status.state, minute: ev.status.minute, approx: false };
     var start = ev.kickoff.getTime();
     var end = start + ev.durationMin * 60000;
@@ -183,12 +185,13 @@
 
   /* ---------- Kart ---------- */
 
-  function teamSpan(name) {
-    return '<span class="team' + (teamIsFav(name) ? ' fav' : '') + '">' + esc(name) + '</span>';
+  function teamSpan(name, score) {
+    return '<span class="team' + (teamIsFav(name) ? ' fav' : '') + '"><span class="tn">' + esc(name) + '</span>' +
+      (score != null ? '<b class="sc">' + score + '</b>' : '') + '</span>';
   }
 
   function matchTitle(ev) {
-    if (ev.home && ev.away) return '<div class="teams">' + teamSpan(ev.home) + teamSpan(ev.away) + '</div>';
+    if (ev.home && ev.away) return '<div class="teams">' + teamSpan(ev.home, scoreOf(ev, 'h')) + teamSpan(ev.away, scoreOf(ev, 'a')) + '</div>';
     return '<div class="teams solo"><span class="team">' + esc(ev.title || ev.home || ev.competition) + '</span></div>';
   }
 
@@ -209,6 +212,11 @@
     return b.join('');
   }
 
+  function liveLabelHtml(ev) {
+    var L = liveOf(ev);
+    return L && L.label && L.state === 'live' ? '<span class="livelabel">' + esc(L.label) + '</span>' : '';
+  }
+
   function card(ev, now) {
     var st = statusOf(ev, now);
     var cd = st.state === 'scheduled' && T.dateStr(ev.kickoff) === today() ? countdown(ev, now) : '';
@@ -225,7 +233,7 @@
       '<div class="comp' + (compFav ? ' fav' : '') + '"><span class="sp-ico">' + sportIcon(ev) + '</span>' + esc(ev.competition) +
         (ev.home && ev.title ? ' · ' + esc(ev.title) : '') +
         (ev.category === 'diger' ? ' · ' + esc(sportName) : '') + '</div>' +
-      '<div class="c-time"><span class="time">' + T.hm(ev.kickoff) + '</span>' + statusBadge(st) +
+      '<div class="c-time"><span class="time">' + T.hm(ev.kickoff) + '</span>' + statusBadge(st) + liveLabelHtml(ev) +
         (cd ? '<span class="countdown">' + cd + '</span>' : '') + '</div>' +
       '<div class="c-main">' + matchTitle(ev) +
         (ev.rivalry ? '<div class="derby">⚔ ' + esc(ev.rivalry) + '</div>' : '') +
@@ -260,6 +268,10 @@
     return '<div class="cards">' + list.map(function (e) { return card(e, now); }).join('') + '</div>';
   }
 
+  function hlTeam(name, score) {
+    return '<span><span class="tn">' + esc(name) + '</span>' + (score != null ? '<b class="sc">' + score + '</b>' : '') + '</span>';
+  }
+
   // Önerilen maçlar: yatay kayan küçük kartlar. Dokununca listedeki asıl karta gider.
   function hlCard(ev, now) {
     var st = statusOf(ev, now);
@@ -269,7 +281,7 @@
       '<div class="hl-body">' +
         '<div class="comp">' + esc(ev.competition) + '</div>' +
         '<div class="time">' + T.hm(ev.kickoff) + '</div>' +
-        '<div class="hl-teams"><span>' + esc(ev.home) + '</span><span>' + esc(ev.away) + '</span></div>' +
+        '<div class="hl-teams">' + hlTeam(ev.home, scoreOf(ev, 'h')) + hlTeam(ev.away, scoreOf(ev, 'a')) + '</div>' +
         (ev.rivalry ? '<span class="derby">⚔ ' + esc(ev.rivalry) + '</span>' : '') +
         '<div class="hl-foot"><div class="hl-tv">' + (tvShort(ev) ? TV_ICON + '<span>' + esc(tvShort(ev)) + '</span>' : '') +
         '</div><span class="hl-play">' + PLAY_ICON + '</span></div>' +
@@ -370,6 +382,133 @@
     };
     if (navigator.clipboard) navigator.clipboard.writeText(text + '\n' + url).then(done, function () { prompt('Kopyala:', url); });
     else prompt('Kopyala:', url);
+  }
+
+  /* ---------- Canlı skor (ESPN) ---------- */
+  // Sunucu yok: tarayıcı ESPN'in herkese açık skor listesini doğrudan okur (anahtar gerekmez).
+  // Sadece iki takım adı + başlama saati AYNI ANDA tutarsa ve tek aday varsa eşleşir; emin değilsek skor yok,
+  // maç eskisi gibi "CANLI~" kalır. Kapsam: ESPN'in futbol/NBA/NFL/NCAA listeleri.
+
+  var SCORE_MS = 45 * 1000;
+  // NOT: site.api.espn.com tarayıcıdan CORS ile engelleniyor; site.web.api.espn.com aynı veriyi veriyor ve çalışıyor.
+  var ESPN = 'https://site.web.api.espn.com/apis/site/v2/sports/';
+  var FEEDS = {
+    futbol: ['soccer/all'],
+    basketbol: ['basketball/nba'],
+    amerikan: ['football/nfl', 'football/college-football']
+  };
+  var STOP = ['fc', 'sc', 'ac', 'as', 'fk', 'cf', 'sk', 'bk', 'afc', 'ssc', 'the', 'de', 'kulubu'];
+  var liveById = {};   // maç kimliği → {h, a, state, minute, label, t}
+
+  function liveOf(ev) {
+    var L = liveById[ev.id];
+    return L && Date.now() - L.t < 5 * 60 * 1000 ? L : null;  // 5 dk'dır güncellenmediyse eskiyi kullanma
+  }
+
+  function tokens(s) {
+    return GM.fold(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim()
+      .split(' ').filter(function (t) { return t.length > 1 && STOP.indexOf(t) === -1; });
+  }
+  function tokSim(a, b) {
+    if (a === b) return true;
+    var n = 0, m = Math.min(a.length, b.length);
+    while (n < m && a[n] === b[n]) n++;
+    return n >= 4 && n >= 0.75 * m;
+  }
+  // Kısa olan adın HER sözcüğü diğerinde karşılık bulmalı ("Manchester United" ≠ "Manchester City").
+  function nameMatch(ours, theirs) {
+    var a = tokens(ours), b = tokens(theirs);
+    if (!a.length || !b.length) return false;
+    var s = a.length <= b.length ? a : b, o = a.length <= b.length ? b : a;
+    return s.every(function (t) { return o.some(function (u) { return tokSim(t, u); }); });
+  }
+  function teamMatch(ours, c) {
+    var t = c.team || {};
+    return [t.displayName, t.shortDisplayName, t.name].some(function (n) { return n && nameMatch(ours, n); });
+  }
+
+  function espnState(st) {
+    var n = (st.type && st.type.name) || '';
+    if (st.type.state === 'post') return 'finished';
+    if (n === 'STATUS_POSTPONED' || n === 'STATUS_CANCELED') return 'postponed';
+    if (n === 'STATUS_HALFTIME') return 'halftime';
+    return st.type.state === 'in' ? 'live' : 'scheduled';
+  }
+  function liveLabel(st, soccer) {
+    var d = st.type.shortDetail || '', m;
+    if (soccer) return '';
+    if (/halftime/i.test(d)) return 'Devre arası';
+    if ((m = d.match(/^(.*?)\s*-\s*(\d)(?:st|nd|rd|th)$/))) return m[2] + '. çeyrek ' + m[1];
+    return d;
+  }
+
+  // ours: bizim maçlar, feed: ESPN event listesi → {id: canlı bilgi}
+  function matchAll(ours, feed, soccer) {
+    var out = {};
+    ours.forEach(function (ev) {
+      if (!ev.home || !ev.away) return;
+      var hits = [];
+      feed.forEach(function (e) {
+        var comp = e.competitions && e.competitions[0];
+        if (!comp || comp.competitors.length !== 2 || Math.abs(new Date(e.date) - ev.kickoff) > 3 * 3600 * 1000) return;
+        var c1 = comp.competitors[0], c2 = comp.competitors[1];
+        if (teamMatch(ev.home, c1) && teamMatch(ev.away, c2)) hits.push({ e: e, h: c1, a: c2 });
+        else if (teamMatch(ev.home, c2) && teamMatch(ev.away, c1)) hits.push({ e: e, h: c2, a: c1 });
+      });
+      if (hits.length !== 1) return;  // yok ya da belirsiz: skor gösterme
+      var x = hits[0], st = x.e.status, state = espnState(st);
+      var minute = null;
+      if (soccer && state === 'live') minute = String(st.displayClock || '').replace(/'/g, '').replace(/\s+/g, '') || null;
+      out[ev.id] = {
+        h: parseInt(x.h.score, 10), a: parseInt(x.a.score, 10), state: state,
+        minute: minute, label: liveLabel(st, soccer), t: Date.now()
+      };
+    });
+    return out;
+  }
+
+  function ymd(d) { return d.toISOString().slice(0, 10).replace(/-/g, ''); }
+
+  // Şu an oynanıyor olabilecek (ya da az önce başlamış) bugünkü maçlar için skorları getir.
+  function refreshScores() {
+    if (document.hidden || !state.data || state.search || state.date !== today()) return;
+    var now = Date.now();
+    var cand = state.data.events.filter(function (ev) {
+      var dt = now - ev.kickoff.getTime();
+      return ev.home && ev.away && dt > -10 * 60000 && dt < (ev.durationMin + 60) * 60000;
+    });
+    var jobs = [];
+    Object.keys(FEEDS).forEach(function (cat) {
+      var mine = cand.filter(function (ev) { return ev.category === cat; });
+      if (!mine.length) return;
+      // ESPN tarihleri ABD saatiyle: gece yarısı sonrası maçlar bir önceki güne düşebilir.
+      var days = {};
+      mine.forEach(function (ev) { days[ymd(new Date(ev.kickoff.getTime() - 5 * 3600000))] = 1; });
+      FEEDS[cat].forEach(function (path) {
+        Object.keys(days).forEach(function (d) {
+          jobs.push(fetch(ESPN + path + '/scoreboard?limit=300&dates=' + d)
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+            .then(function (j) { return { mine: mine, feed: j.events || [], soccer: cat === 'futbol' }; })
+            .catch(function () { return null; }));
+        });
+      });
+    });
+    if (!jobs.length) return;
+    Promise.all(jobs).then(function (res) {
+      var changed = false;
+      res.forEach(function (r) {
+        if (!r) return;
+        var got = matchAll(r.mine, r.feed, r.soccer);
+        Object.keys(got).forEach(function (id) { liveById[id] = got[id]; changed = true; });
+      });
+      if (changed) render();
+    });
+  }
+  GM.live = { matchAll: matchAll };
+
+  function scoreOf(ev, side) {
+    var L = liveOf(ev);
+    return L && (L.state === 'live' || L.state === 'halftime') && !isNaN(L[side]) ? L[side] : null;
   }
 
   /* ---------- Filtre + seçim ---------- */
@@ -545,7 +684,8 @@
       (src ? ' · Kaynaklar: ' + src : '') + '</p>' +
       '<p>Saatler Türkiye saatidir (TSİ). Biten karşılaşmalar gösterilmez. Karta dokununca ayrıntı ve favori düğmeleri açılır. ' +
       '“CANLI~”: canlı veri değil, başlama saatine göre tahmin. ' +
-      '“✓ akışta var”: maç kanalın kendi yayın akışında da var.</p>' +
+      '“✓ akışta var”: maç kanalın kendi yayın akışında da var. ' +
+      'Canlı skorlar ESPN’den gelir ve her maçta bulunmaz; skoru olmayan maçta “CANLI~” saate göre tahmindir.</p>' +
       (d.dropped ? '<p>' + d.dropped + ' kayıt başka güne ait olduğu için gösterilmedi.</p>' : '');
   }
 
@@ -696,6 +836,7 @@
       if (date !== state.date) return;
       state.loading = false; state.loadedAt = Date.now();
       render();
+      refreshScores();
       if (pendingGoto) {
         var id = pendingGoto; pendingGoto = null;
         if (findEvent(id)) goto(id);
@@ -794,6 +935,8 @@
       $('bar').classList.toggle('stuck', !en[0].isIntersecting);
     }).observe(sentinel);
   }
+
+  setInterval(refreshScores, SCORE_MS);
 
   setInterval(function () {
     if (state.followToday && state.date !== today()) return go(today());  // gece yarısı: yeni gün

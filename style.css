@@ -153,7 +153,8 @@ a { color: inherit; }
 .hl .comp { color: rgba(255,255,255,.82); font-weight: 500; font-size: 13px; margin: 0 0 2px; }
 .hl .time { font-size: 30px; font-weight: 800; letter-spacing: -.02em; }
 .hl-teams { font-size: 17px; font-weight: 700; line-height: 1.2; margin-top: 2px; }
-.hl-teams span { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hl-teams > span { display: flex; gap: 8px; align-items: baseline; }
+.hl-teams .tn { white-space: nowrap; }
 .hl-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 10px; }
 .hl-tv { display: flex; align-items: center; gap: 6px; min-width: 0; font-size: 12.5px; font-weight: 600; color: rgba(255,255,255,.9); }
 .hl-tv svg { font-size: 18px; flex: none; }
@@ -195,7 +196,10 @@ a { color: inherit; }
 
 .c-main { min-width: 0; }
 .teams { font-size: 16px; font-weight: 600; line-height: 1.25; }
-.team { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.team { display: flex; align-items: baseline; gap: 8px; min-width: 0; white-space: nowrap; }
+.tn { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.sc { flex: none; font-weight: 800; font-variant-numeric: tabular-nums; }
+.livelabel { font-size: 11px; line-height: 1.2; color: var(--ink-2); }
 .teams.solo .team { white-space: normal; }
 .team.fav::before { content: "★ "; color: var(--fav); }
 .comp {
