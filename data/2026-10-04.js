@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T20:42:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-03T21:35:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-10-03T20:42:38+03:00",
+ "generatedAt": "2026-10-03T21:35:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -270,7 +270,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1 Spormüsabaka takvimi"
+   "title": "Çeyrek Final Maç 1"
   },
   {
    "id": "se-491175",
