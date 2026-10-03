@@ -405,9 +405,31 @@
     return L && Date.now() - L.t < 5 * 60 * 1000 ? L : null;  // 5 dk'dır güncellenmediyse eskiyi kullanma
   }
 
+  // Milli takımlar bizde Türkçe, ESPN'de İngilizce ("Hırvatistan" / "Croatia"). Anahtarlar aksansız küçük harf.
+  var COUNTRY = {
+    'fransa': 'france', 'italya': 'italy', 'ispanya': 'spain', 'almanya': 'germany', 'ingiltere': 'england',
+    'iskocya': 'scotland', 'galler': 'wales', 'kuzey irlanda': 'northern ireland', 'irlanda': 'ireland',
+    'hollanda': 'netherlands', 'belcika': 'belgium', 'portekiz': 'portugal', 'isvicre': 'switzerland',
+    'avusturya': 'austria', 'polonya': 'poland', 'cekya': 'czechia', 'slovakya': 'slovakia', 'macaristan': 'hungary',
+    'romanya': 'romania', 'bulgaristan': 'bulgaria', 'sirbistan': 'serbia', 'hirvatistan': 'croatia',
+    'slovenya': 'slovenia', 'bosna hersek': 'bosnia herzegovina', 'karadag': 'montenegro',
+    'kuzey makedonya': 'north macedonia', 'arnavutluk': 'albania', 'yunanistan': 'greece', 'turkiye': 'turkiye',
+    'gurcistan': 'georgia', 'ermenistan': 'armenia', 'azerbaycan': 'azerbaijan', 'kazakistan': 'kazakhstan',
+    'ukrayna': 'ukraine', 'rusya': 'russia', 'litvanya': 'lithuania', 'letonya': 'latvia', 'estonya': 'estonia',
+    'finlandiya': 'finland', 'isvec': 'sweden', 'norvec': 'norway', 'danimarka': 'denmark', 'izlanda': 'iceland',
+    'faroe adalari': 'faroe islands', 'luksemburg': 'luxembourg', 'guney kibris': 'cyprus', 'kibris': 'cyprus',
+    'kosova': 'kosovo', 'cebelitarik': 'gibraltar', 'lihtenstayn': 'liechtenstein', 'israil': 'israel',
+    'abd': 'united states', 'meksika': 'mexico', 'kanada': 'canada', 'brezilya': 'brazil', 'arjantin': 'argentina',
+    'kolombiya': 'colombia', 'sili': 'chile', 'ekvador': 'ecuador', 'japonya': 'japan', 'guney kore': 'south korea',
+    'avustralya': 'australia', 'misir': 'egypt', 'fas': 'morocco', 'cezayir': 'algeria', 'tunus': 'tunisia',
+    'nijerya': 'nigeria', 'kamerun': 'cameroon', 'fildisi sahili': 'ivory coast', 'gana': 'ghana'
+  };
+  var COUNTRY_RE = new RegExp('\\b(' + Object.keys(COUNTRY).sort(function (a, b) { return b.length - a.length; }).join('|') + ')\\b', 'g');
+
   function tokens(s) {
-    return GM.fold(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim()
-      .split(' ').filter(function (t) { return t.length > 1 && STOP.indexOf(t) === -1; });
+    var n = GM.fold(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim()
+      .replace(COUNTRY_RE, function (m) { return COUNTRY[m]; });
+    return n.split(' ').filter(function (t) { return t.length > 1 && STOP.indexOf(t) === -1; });
   }
   function tokSim(a, b) {
     if (a === b) return true;

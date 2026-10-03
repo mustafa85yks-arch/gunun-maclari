@@ -28,7 +28,7 @@ Mustafa arkadaşlarıyla paylaşıyor, telefonda ana ekrana eklenmiş uygulama g
 
 | Dosya | Ne yapar |
 |---|---|
-| `index.html` | İskelet: üst satır (🔍 ★), yapışkan şerit (gün + filtre), favori penceresi. JS/CSS `?v=5` ile bağlı |
+| `index.html` | İskelet: üst satır (🔍 ★), yapışkan şerit (gün + filtre), favori penceresi. JS/CSS `?v=6` ile bağlı |
 | `images/spor/` | Bunları Kaçırma kart fotoğrafları (10 jpg, toplam ~300 KB) |
 | `style.css` | Görünüm. Açık tema, mobil öncelikli. Kart zemini lig renginin açık tonu (`--tint` %12) |
 | `data.js` | Sabitler: kategoriler, yayıncılar, Türk takımları, ligler, **lig renkleri**, **büyük kulüpler**, **derbiler**, öne çıkarma puanları, `GM.fold` |
@@ -105,7 +105,9 @@ Gemini vb. yapay zekâ API'si gerekmedi.
   Eşleştirme: iki takım adı + başlama saati (±3 sa) birlikte tutmalı ve TEK aday olmalı; emin değilse skor yok, "CANLI~" kalır.
   ⚠️ `site.api.espn.com` tarayıcıdan CORS ile engelleniyor (curl'de çalışıyor, yanıltıcı!) — `site.web.api.espn.com` kullanılıyor. ESPN resmî
   servis değil; bozulursa site skorsuz çalışmaya devam eder. Kapsanmayan: Türk/İspanyol basketbolu, kadın voleybolu, hentbol, padel, gençlik maçları.
-  JS/CSS `?v=5`.
+  Milli takımlar (Uluslar Ligi vb.) bizde Türkçe, ESPN'de İngilizce → `app.js` içindeki `COUNTRY` sözlüğü çevirir. Yeni ülke
+  eşleşmezse oraya ekle (anahtar: aksansız küçük harf Türkçe ad). Bu eksik yüzünden ilk sürümde Uluslar Ligi skoru gelmedi (3 Ekim).
+  JS/CSS `?v=6`.
 - **↗ Paylaş** (3 Ekim 2026): kart ayrıntısında. Telefonda paylaşma menüsü (WhatsApp vb.), masaüstünde panoya kopyalar.
   Metin: spor simgesi + takımlar, lig, gün/saat, kanal. Bağlantı `#2026-10-10/se-491178` → o günü açar, karta gider.
   Maç kimliği sporekrani'nin numarası (`se-…`), bot güncellemesinde değişmiyor. JS/CSS artık `?v=3`.
