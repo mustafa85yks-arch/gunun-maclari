@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T17:32:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T20:56:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-05",
- "generatedAt": "2026-10-04T17:32:26+03:00",
+ "generatedAt": "2026-10-04T20:56:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -199,8 +199,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-490531",
    "sport": "futbol",
-   "competition": "TFF 2. Lig  Takımbilgileri",
-   "competitionId": "tff-2-lig-takimbilgileri",
+   "competition": "TFF 2. Lig  Ligmaçları izle",
+   "competitionId": "tff-2-lig-ligmaclari-izle",
    "kickoff": "2026-10-05T19:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"
