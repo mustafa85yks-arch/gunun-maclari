@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T04:59:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T13:30:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-04T04:59:20+03:00",
+ "generatedAt": "2026-10-04T13:30:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -186,6 +186,22 @@ GM_REGISTER_DAY({
    "away": "Minnesota TW"
   },
   {
+   "id": "se-491445",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-11T03:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Wellmaker",
+   "away": "O.Tanzilovi"
+  },
+  {
    "id": "se-491384",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -200,6 +216,22 @@ GM_REGISTER_DAY({
    ],
    "home": "GS Warriors",
    "away": "Sacramento Kings"
+  },
+  {
+   "id": "se-491446",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-11T03:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Walker",
+   "away": "G.Meerschaert"
   },
   {
    "id": "se-491185",
@@ -232,6 +264,38 @@ GM_REGISTER_DAY({
    ],
    "home": "New Mexico",
    "away": "Monterrey Bay"
+  },
+  {
+   "id": "se-491447",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-11T04:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Fili",
+   "away": "K.Kamaka"
+  },
+  {
+   "id": "se-491448",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-11T04:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Godinez",
+   "away": "K.Souza"
   },
   {
    "id": "se-491187",
@@ -282,6 +346,22 @@ GM_REGISTER_DAY({
    "away": "Colorado Springs"
   },
   {
+   "id": "se-491449",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-11T05:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Camilo",
+   "away": "J.Herbert"
+  },
+  {
    "id": "se-491385",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -298,6 +378,22 @@ GM_REGISTER_DAY({
    "away": "SA Spurs"
   },
   {
+   "id": "se-491450",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-11T05:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Allen",
+   "away": "C.Duncan"
+  },
+  {
    "id": "se-491045",
    "sport": "motosiklet",
    "competition": "Moto3",
@@ -312,6 +408,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Endonezya GP"
+  },
+  {
+   "id": "se-491433",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-11T07:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Shanghai"
   },
   {
    "id": "se-491046",
@@ -434,7 +545,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-10-11T13:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -595,7 +707,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-11T15:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -739,7 +852,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-10-11T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -985,7 +1099,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-11T17:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1081,7 +1196,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-10-11T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1168,7 +1284,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-11T19:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1248,7 +1365,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-10-11T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1264,7 +1382,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-11T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [

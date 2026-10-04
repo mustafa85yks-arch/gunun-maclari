@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T04:59:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T13:30:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-04",
- "generatedAt": "2026-10-04T04:59:20+03:00",
+ "generatedAt": "2026-10-04T13:30:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -435,6 +435,22 @@ GM_REGISTER_DAY({
    "away": "M.Andreeva"
   },
   {
+   "id": "se-491428",
+   "sport": "atletizm",
+   "competition": "Eker I Run",
+   "competitionId": "eker-i-run",
+   "kickoff": "2026-10-04T09:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Bursa"
+  },
+  {
    "id": "se-491352",
    "sport": "tenis",
    "competition": "WTA Pekin",
@@ -615,6 +631,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Obradoiro CAB",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-491429",
+   "sport": "golf",
+   "competition": "A.Dunhill Links Golf Turnuvasi",
+   "competitionId": "a-dunhill-links-golf-turnuvasi",
+   "kickoff": "2026-10-04T13:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İskoçya"
   },
   {
    "id": "se-490016",
@@ -878,6 +910,21 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-491437",
+   "sport": "judo",
+   "competition": "Dünya Judo Şampiyonasi",
+   "competitionId": "dunya-judo-sampiyonasi",
+   "kickoff": "2026-10-04T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Bakü"
+  },
+  {
    "id": "se-488859",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -910,6 +957,42 @@ GM_REGISTER_DAY({
    ],
    "home": "Nimes",
    "away": "Aix"
+  },
+  {
+   "id": "se-491432",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-04T18:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zaragoza",
+   "away": "Valencia Basket"
+  },
+  {
+   "id": "se-491438",
+   "sport": "tenis",
+   "competition": "WTA Adana Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-04T18:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Jeanjean",
+   "away": "L.Boisson",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-491427",
@@ -1124,8 +1207,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-04T21:45:00+03:00",
    "broadcasters": [
-    "A Spor",
-    "A Haber"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1141,7 +1223,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-04T21:45:00+03:00",
    "broadcasters": [
-    "a2 TV"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1149,6 +1231,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Portekiz",
    "away": "Norveç"
+  },
+  {
+   "id": "se-483356",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-04T21:45:00+03:00",
+   "broadcasters": [
+    "a2 TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yunanistan",
+   "away": "Almanya"
   },
   {
    "id": "se-490191",
@@ -1167,6 +1265,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Girona",
    "away": "Mallorca"
+  },
+  {
+   "id": "se-491431",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-04T23:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Talleres Cordoba",
+   "away": "Belgrano"
   },
   {
    "id": "se-490063",
