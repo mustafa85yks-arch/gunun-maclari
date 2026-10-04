@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T02:45:56+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T04:59:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-05",
- "generatedAt": "2026-10-04T02:45:56+03:00",
+ "generatedAt": "2026-10-04T04:59:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -147,8 +147,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-489747",
    "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi  Takımbilgileri",
-   "competitionId": "hentbol-erkekler-super-ligi-takimbilgileri",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-10-05T17:00:00+03:00",
    "broadcasters": [
     "TRT Spor Yildiz"
