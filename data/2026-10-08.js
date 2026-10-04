@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T20:56:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T02:56:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-08",
- "generatedAt": "2026-10-04T20:56:24+03:00",
+ "generatedAt": "2026-10-05T02:56:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -105,6 +105,23 @@ GM_REGISTER_DAY({
    "title": "Shanghai"
   },
   {
+   "id": "se-491518",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-08T14:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Erciyes 38 FK",
+   "away": "Kahta 02",
+   "turkish": true
+  },
+  {
    "id": "se-489893",
    "sport": "voleybol",
    "competition": "TVF Erkekler Kupa Volley",
@@ -119,6 +136,23 @@ GM_REGISTER_DAY({
    ],
    "home": "TFL Altekma",
    "away": "Gaziantep Gençlik"
+  },
+  {
+   "id": "se-491519",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-08T17:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Denizli İdmanyurdu Güreller",
+   "away": "Serik Bld.",
+   "turkish": true
   },
   {
    "id": "se-489894",
@@ -215,6 +249,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Utah"
+  },
+  {
+   "id": "se-491520",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-08T20:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Orduspor",
+   "away": "Karadeniz Ereğli",
+   "turkish": true
   },
   {
    "id": "se-490132",

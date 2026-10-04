@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T20:56:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T02:56:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-06",
- "generatedAt": "2026-10-04T20:56:24+03:00",
+ "generatedAt": "2026-10-05T02:56:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -142,6 +142,23 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-491512",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-06T14:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kırklarelispor",
+   "away": "Bayburtspor",
+   "turkish": true
+  },
+  {
    "id": "se-483365",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -156,6 +173,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Kazakistan",
    "away": "Faroe Adaları"
+  },
+  {
+   "id": "se-491513",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-06T17:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sakaryaspor",
+   "away": "Arit Kayadibi",
+   "turkish": true
   },
   {
    "id": "se-488378",
@@ -174,8 +208,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-491326",
    "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
+   "competition": "FIBA Şampiyonlar Ligi  Ligmaçları izle",
+   "competitionId": "fiba-sampiyonlar-ligi-ligmaclari-izle",
    "kickoff": "2026-10-06T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor Yildiz"
@@ -188,11 +222,11 @@ GM_REGISTER_DAY({
    "away": "Galatasaray MCT Technic"
   },
   {
-   "id": "se-483367",
+   "id": "se-491514",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-06T19:00:00+03:00",
    "broadcasters": [
     "A Spor"
    ],
@@ -200,24 +234,9 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Belarus",
-   "away": "Finlandiya"
-  },
-  {
-   "id": "se-483374",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İsviçre",
-   "away": "Kuzey Makedonya"
+   "home": "Karşıyaka",
+   "away": "Afyonkarahisarspor",
+   "turkish": true
   },
   {
    "id": "se-483373",
@@ -258,7 +277,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-06T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -266,70 +285,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Hırvatistan",
    "away": "İspanya"
-  },
-  {
-   "id": "se-483370",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Moldova",
-   "away": "Slovakya"
-  },
-  {
-   "id": "se-483369",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lüksemburg",
-   "away": "Bulgaristan"
-  },
-  {
-   "id": "se-483368",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Estonya",
-   "away": "İzlanda"
-  },
-  {
-   "id": "se-483366",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Arnavutluk",
-   "away": "San Marino"
   }
  ]
 });

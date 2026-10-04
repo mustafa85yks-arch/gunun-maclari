@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T20:56:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T02:56:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-05",
- "generatedAt": "2026-10-04T20:56:24+03:00",
+ "generatedAt": "2026-10-05T02:56:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -161,22 +161,6 @@ GM_REGISTER_DAY({
    "away": "İstanbul Gençlik"
   },
   {
-   "id": "se-483357",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-05T19:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Güney Kıbrıs",
-   "away": "Letonya"
-  },
-  {
    "id": "se-488862",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -199,8 +183,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-490531",
    "sport": "futbol",
-   "competition": "TFF 2. Lig  Ligmaçları izle",
-   "competitionId": "tff-2-lig-ligmaclari-izle",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
    "kickoff": "2026-10-05T19:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"
@@ -212,22 +196,6 @@ GM_REGISTER_DAY({
    "home": "Şanlıurfaspor",
    "away": "Gebzespor",
    "turkish": true
-  },
-  {
-   "id": "se-483358",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-05T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Karadağ",
-   "away": "Ermenistan"
   },
   {
    "id": "se-483359",
@@ -276,38 +244,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Bosna Hersek",
    "away": "Polonya"
-  },
-  {
-   "id": "se-483362",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-05T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kuzey İrlanda",
-   "away": "Gürcistan"
-  },
-  {
-   "id": "se-483363",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-05T21:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Romanya",
-   "away": "İsveç"
   },
   {
    "id": "se-483364",

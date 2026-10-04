@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-04T20:56:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T02:56:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-07",
- "generatedAt": "2026-10-04T20:56:24+03:00",
+ "generatedAt": "2026-10-05T02:56:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -105,6 +105,23 @@ GM_REGISTER_DAY({
    "title": "Shanghai"
   },
   {
+   "id": "se-491515",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-07T14:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zonguldakspor",
+   "away": "Düzcespor",
+   "turkish": true
+  },
+  {
    "id": "se-490652",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -169,6 +186,23 @@ GM_REGISTER_DAY({
    "away": "TED Kolejliler"
   },
   {
+   "id": "se-491516",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-07T17:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yeşilyurt Bld.",
+   "away": "Gelecek Siirt 56 SK",
+   "turkish": true
+  },
+  {
    "id": "se-491327",
    "sport": "basketbol",
    "competition": "FIBA Şampiyonlar Ligi",
@@ -215,6 +249,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Cedi Osman Basketbol",
    "away": "Darüşşafaka"
+  },
+  {
+   "id": "se-491517",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-07T20:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehirspor",
+   "away": "Akşehirspor",
+   "turkish": true
   },
   {
    "id": "se-490658",
