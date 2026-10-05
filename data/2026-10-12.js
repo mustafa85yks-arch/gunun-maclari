@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T20:39:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T00:24:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-12",
- "generatedAt": "2026-10-05T20:39:28+03:00",
+ "generatedAt": "2026-10-06T00:24:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -71,6 +71,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Shanghai"
+  },
+  {
+   "id": "se-491715",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-12T15:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adana Adaletgücü Spor",
+   "away": "Silifke Bld.",
+   "turkish": true
   },
   {
    "id": "se-489755",

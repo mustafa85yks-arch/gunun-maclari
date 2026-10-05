@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T20:39:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T00:24:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-08",
- "generatedAt": "2026-10-05T20:39:20+03:00",
+ "generatedAt": "2026-10-06T00:24:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -34,6 +34,22 @@ GM_REGISTER_DAY({
    "away": "Minnesota TW"
   },
   {
+   "id": "se-491367",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-08T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chicago Bulls",
+   "away": "Phoenix Suns"
+  },
+  {
    "id": "se-491368",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -64,22 +80,6 @@ GM_REGISTER_DAY({
    ],
    "home": "OKC Thunder",
    "away": "Milwaukee Bucks"
-  },
-  {
-   "id": "se-491367",
-   "sport": "basketbol",
-   "competition": "NBA Preseason",
-   "competitionId": "nba",
-   "kickoff": "2026-10-08T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Chicago Bulls",
-   "away": "Phoenix Suns"
   },
   {
    "id": "se-491370",
@@ -193,36 +193,51 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489894",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
+   "id": "se-491267",
+   "sport": "bisiklet",
+   "competition": "Red Bull Rampage",
+   "competitionId": "red-bull-rampage",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "Red Bull TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İstanbul Gençlik",
-   "away": "Alanya Bld."
+   "title": "Utah"
   },
   {
-   "id": "se-489895",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
+   "id": "se-490659",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "HT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Sultanbeyli Bld.",
-   "away": "Gebze Bld."
+   "home": "Mersin Basketbol",
+   "away": "Gaziantep Basket"
+  },
+  {
+   "id": "se-490131",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-08T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Maccabi Fox",
+   "away": "Olimpia Milano"
   },
   {
    "id": "se-490130",
@@ -243,51 +258,36 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-490131",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-489895",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Maccabi Fox",
-   "away": "Olimpia Milano"
+   "home": "Sultanbeyli Bld.",
+   "away": "Gebze Bld."
   },
   {
-   "id": "se-490659",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "id": "se-489894",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "HT Spor"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Mersin Basketbol",
-   "away": "Gaziantep Basket"
-  },
-  {
-   "id": "se-491267",
-   "sport": "bisiklet",
-   "competition": "Red Bull Rampage",
-   "competitionId": "red-bull-rampage",
-   "kickoff": "2026-10-08T19:00:00+03:00",
-   "broadcasters": [
-    "Red Bull TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Utah"
+   "home": "İstanbul Gençlik",
+   "away": "Alanya Bld."
   },
   {
    "id": "se-491520",

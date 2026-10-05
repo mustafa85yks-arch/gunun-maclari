@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T20:39:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T00:24:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-05T20:39:28+03:00",
+ "generatedAt": "2026-10-06T00:24:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -714,6 +714,23 @@ GM_REGISTER_DAY({
    "away": "Karlsruhe"
   },
   {
+   "id": "se-491706",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-11T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karaköprü Bld.",
+   "away": "Bitlis 1916 FK",
+   "turkish": true
+  },
+  {
    "id": "se-488221",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -795,6 +812,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491707",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-11T15:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hatayspor",
+   "away": "Elazığspor",
+   "turkish": true
+  },
+  {
    "id": "se-489753",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -809,6 +843,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Anadolu Efes",
    "away": "Denizli Basket",
+   "turkish": true
+  },
+  {
+   "id": "se-491708",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-11T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gebzespor",
+   "away": "Erbaaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-491709",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-11T15:30:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kartal Bulvar Kartalimen",
+   "away": "Orduspor",
    "turkish": true
   },
   {
@@ -1043,6 +1111,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Göztepe",
    "away": "Manisa BB"
+  },
+  {
+   "id": "se-491710",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-11T16:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "24 Erzincanspor",
+   "away": "Beyoğlu Yeni Çarşı",
+   "turkish": true
   },
   {
    "id": "se-488233",
@@ -1295,6 +1380,74 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
+  },
+  {
+   "id": "se-491711",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-11T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sakaryaspor",
+   "away": "İskenderunspor",
+   "turkish": true
+  },
+  {
+   "id": "se-491712",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-11T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehirspor",
+   "away": "Etimesgut Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-491713",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-11T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karşıyaka",
+   "away": "Eskişehir Anadolu Spor",
+   "turkish": true
+  },
+  {
+   "id": "se-491714",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-11T19:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mersin İY",
+   "away": "Osmaniyespor",
+   "turkish": true
   },
   {
    "id": "se-488223",

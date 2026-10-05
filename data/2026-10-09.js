@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T20:39:22+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T00:24:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-05T20:39:22+03:00",
+ "generatedAt": "2026-10-06T00:24:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -34,7 +34,7 @@ GM_REGISTER_DAY({
    "away": "Boston Celtics"
   },
   {
-   "id": "se-491372",
+   "id": "se-491373",
    "sport": "basketbol",
    "competition": "NBA Preseason",
    "competitionId": "nba",
@@ -46,8 +46,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Brooklyn Nets",
-   "away": "Philadelphia 76ers"
+   "home": "Miami Heat",
+   "away": "NO Pelicans"
   },
   {
    "id": "se-491374",
@@ -66,7 +66,7 @@ GM_REGISTER_DAY({
    "away": "Washington Wizards"
   },
   {
-   "id": "se-491373",
+   "id": "se-491372",
    "sport": "basketbol",
    "competition": "NBA Preseason",
    "competitionId": "nba",
@@ -78,8 +78,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Miami Heat",
-   "away": "NO Pelicans"
+   "home": "Brooklyn Nets",
+   "away": "Philadelphia 76ers"
   },
   {
    "id": "se-491375",
@@ -340,24 +340,6 @@ GM_REGISTER_DAY({
    "away": "Kaiserslautern"
   },
   {
-   "id": "se-489774",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-09T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ümraniyespor",
-   "away": "Sarıyer",
-   "turkish": true
-  },
-  {
    "id": "se-489775",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -391,6 +373,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Galatasaray",
    "away": "Kasımpaşa",
+   "turkish": true
+  },
+  {
+   "id": "se-489774",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-09T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ümraniyespor",
+   "away": "Sarıyer",
    "turkish": true
   },
   {
@@ -460,22 +460,6 @@ GM_REGISTER_DAY({
    "away": "Werder Bremen"
   },
   {
-   "id": "se-490137",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-09T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Barcelona",
-   "away": "Zalgiris Kaunas"
-  },
-  {
    "id": "se-490138",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -492,6 +476,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Baskonia",
    "away": "Beşiktaş"
+  },
+  {
+   "id": "se-490137",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-09T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Barcelona",
+   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-487509",
