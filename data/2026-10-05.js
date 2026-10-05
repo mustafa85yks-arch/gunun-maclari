@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T04:16:21+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T14:20:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-05",
- "generatedAt": "2026-10-05T04:16:21+03:00",
+ "generatedAt": "2026-10-05T14:20:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -73,9 +73,9 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
-   "id": "se-490099",
+   "id": "se-490105",
    "sport": "tenis",
-   "competition": "ATP Tokyo Yarı Final",
+   "competition": "ATP Beijing Yarı Final",
    "competitionId": "atp",
    "kickoff": "2026-10-05T10:00:00+03:00",
    "broadcasters": [
@@ -91,9 +91,9 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-490105",
+   "id": "se-490099",
    "sport": "tenis",
-   "competition": "ATP Beijing Yarı Final",
+   "competition": "ATP Tokyo Yarı Final",
    "competitionId": "atp",
    "kickoff": "2026-10-05T10:00:00+03:00",
    "broadcasters": [
@@ -143,6 +143,21 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-491549",
+   "sport": "bisiklet",
+   "competition": "Bisiklet Coppa Bernocchi",
+   "competitionId": "bisiklet-coppa-bernocchi",
+   "kickoff": "2026-10-05T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İtalya"
   },
   {
    "id": "se-489747",
@@ -198,36 +213,36 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483359",
+   "id": "se-483364",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-05T21:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fransa",
-   "away": "Belçika"
+   "home": "Ukrayna",
+   "away": "Macaristan"
   },
   {
-   "id": "se-483360",
+   "id": "se-483363",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-05T21:45:00+03:00",
    "broadcasters": [
-    "ATV"
+    "A Para"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İtalya",
-   "away": "Türkiye"
+   "home": "Romanya",
+   "away": "İsveç"
   },
   {
    "id": "se-483361",
@@ -246,20 +261,36 @@ GM_REGISTER_DAY({
    "away": "Polonya"
   },
   {
-   "id": "se-483364",
+   "id": "se-483360",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-05T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "ATV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ukrayna",
-   "away": "Macaristan"
+   "home": "İtalya",
+   "away": "Türkiye"
+  },
+  {
+   "id": "se-483359",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-05T21:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fransa",
+   "away": "Belçika"
   }
  ]
 });

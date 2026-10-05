@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T04:16:21+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T14:20:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-07",
- "generatedAt": "2026-10-05T04:16:21+03:00",
+ "generatedAt": "2026-10-05T14:20:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-10-07"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -122,20 +130,19 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490652",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-10-07T16:00:00+03:00",
+   "id": "se-491552",
+   "sport": "bisiklet",
+   "competition": "Avrupa Yol Bisikleti Şampiyonasi",
+   "competitionId": "avrupa-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-10-07T15:20:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "Eurosport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Büyükçekmece",
-   "away": "iLab Basketbol"
+   "title": "Elit Kadınlar Bireysel Zamana Karşı"
   },
   {
    "id": "se-490653",
@@ -152,6 +159,22 @@ GM_REGISTER_DAY({
    ],
    "home": "OGM Orman",
    "away": "Konya BB"
+  },
+  {
+   "id": "se-490652",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-07T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Büyükçekmece",
+   "away": "iLab Basketbol"
   },
   {
    "id": "se-490654",
@@ -201,6 +224,21 @@ GM_REGISTER_DAY({
    "home": "Yeşilyurt Bld.",
    "away": "Gelecek Siirt 56 SK",
    "turkish": true
+  },
+  {
+   "id": "se-491553",
+   "sport": "bisiklet",
+   "competition": "Avrupa Yol Bisikleti Şampiyonasi",
+   "competitionId": "avrupa-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-10-07T17:05:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Elit Erkekler Bireysel Zamana Karşı"
   },
   {
    "id": "se-491327",
@@ -293,9 +331,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Paris",
    "away": "Asvel Villeurbanne"

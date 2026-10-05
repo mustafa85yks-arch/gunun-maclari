@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T04:16:27+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T14:20:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-05T04:16:27+03:00",
+ "generatedAt": "2026-10-05T14:20:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -59,9 +59,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Serbest Antrenman 2 ve Sıralama Turları"
   },
@@ -90,9 +91,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Sıralama Turları"
   },
@@ -106,9 +108,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Sprint Yarışları"
   },
@@ -144,20 +147,21 @@ GM_REGISTER_DAY({
    "title": "Sprint Yarışı"
   },
   {
-   "id": "se-489920",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "id": "se-489748",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
    "kickoff": "2026-10-10T13:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Halkbank",
-   "away": "Başkent Beşiktaşlılar"
+   "home": "Bahçeşehir Klj",
+   "away": "Karşıyaka",
+   "turkish": true
   },
   {
    "id": "se-489899",
@@ -176,21 +180,20 @@ GM_REGISTER_DAY({
    "away": "Onikişubat Belediyespor"
   },
   {
-   "id": "se-489748",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
+   "id": "se-489920",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-10-10T13:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bahçeşehir Klj",
-   "away": "Karşıyaka",
-   "turkish": true
+   "home": "Halkbank",
+   "away": "Başkent Beşiktaşlılar"
   },
   {
    "id": "se-488938",
@@ -349,9 +352,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Rayo Vallecano",
    "away": "Athletic Bilbao"
@@ -547,9 +551,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Genoa",
    "away": "Fiorentina"
@@ -708,9 +713,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Alaves",
    "away": "Atletico Madrid"
@@ -811,20 +817,22 @@ GM_REGISTER_DAY({
    "title": "Utah"
   },
   {
-   "id": "se-489901",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
+   "id": "se-489779",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
    "kickoff": "2026-10-10T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Alanya Bld.",
-   "away": "İstanbul BB"
+   "home": "İstanbulspor",
+   "away": "Esenler Erokspor",
+   "turkish": true
   },
   {
    "id": "se-489778",
@@ -872,30 +880,29 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Inter",
    "away": "Parma"
   },
   {
-   "id": "se-489779",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
+   "id": "se-489901",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-10T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İstanbulspor",
-   "away": "Esenler Erokspor",
-   "turkish": true
+   "home": "Alanya Bld.",
+   "away": "İstanbul BB"
   },
   {
    "id": "se-487570",
@@ -923,9 +930,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Barcelona",
    "away": "Getafe"
@@ -1069,9 +1077,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Napoli",
    "away": "Frosinone"
@@ -1086,9 +1095,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Madrid",
    "away": "Villarreal"

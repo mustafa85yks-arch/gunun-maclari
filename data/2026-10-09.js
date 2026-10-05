@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T04:16:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T14:20:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-05T04:16:23+03:00",
+ "generatedAt": "2026-10-05T14:20:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -123,9 +123,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Serbest Antrenman 1"
   },
@@ -154,9 +155,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Antrenman"
   },
@@ -228,7 +230,7 @@ GM_REGISTER_DAY({
    "competitionId": "ukrayna-premier-ligi",
    "kickoff": "2026-10-09T15:30:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "Tivibu Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -338,21 +340,21 @@ GM_REGISTER_DAY({
    "away": "Kaiserslautern"
   },
   {
-   "id": "se-488937",
+   "id": "se-489774",
    "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
    "kickoff": "2026-10-09T20:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
-   "home": "Galatasaray",
-   "away": "Kasımpaşa",
+   "home": "Ümraniyespor",
+   "away": "Sarıyer",
    "turkish": true
   },
   {
@@ -374,21 +376,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489774",
+   "id": "se-488937",
    "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
    "kickoff": "2026-10-09T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
-   "home": "Ümraniyespor",
-   "away": "Sarıyer",
+   "home": "Galatasaray",
+   "away": "Kasımpaşa",
    "turkish": true
   },
   {
@@ -433,9 +435,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Olympiakos",
    "away": "Anadolu Efes"
@@ -482,9 +485,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Baskonia",
    "away": "Beşiktaş"

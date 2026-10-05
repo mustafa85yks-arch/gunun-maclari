@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T04:16:21+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T14:20:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-08",
- "generatedAt": "2026-10-05T04:16:21+03:00",
+ "generatedAt": "2026-10-05T14:20:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-10-08"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -24,22 +32,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Indiana Pacers",
    "away": "Minnesota TW"
-  },
-  {
-   "id": "se-491367",
-   "sport": "basketbol",
-   "competition": "NBA Preseason",
-   "competitionId": "nba",
-   "kickoff": "2026-10-08T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Chicago Bulls",
-   "away": "Phoenix Suns"
   },
   {
    "id": "se-491368",
@@ -74,6 +66,22 @@ GM_REGISTER_DAY({
    "away": "Milwaukee Bucks"
   },
   {
+   "id": "se-491367",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-08T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chicago Bulls",
+   "away": "Phoenix Suns"
+  },
+  {
    "id": "se-491370",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -88,6 +96,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Portland TB",
    "away": "GS Warriors"
+  },
+  {
+   "id": "se-491556",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Japonya",
+   "competitionId": "golf-pga-tour-japonya",
+   "kickoff": "2026-10-08T06:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1"
   },
   {
    "id": "se-491048",
@@ -120,6 +143,21 @@ GM_REGISTER_DAY({
    "home": "Erciyes 38 FK",
    "away": "Kahta 02",
    "turkish": true
+  },
+  {
+   "id": "se-491554",
+   "sport": "golf",
+   "competition": "Gran Piemonte Bisiklet Turu",
+   "competitionId": "gran-piemonte-bisiklet-turu",
+   "kickoff": "2026-10-08T15:50:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İtalya"
   },
   {
    "id": "se-489893",
@@ -196,9 +234,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Dubai Basket",
    "away": "Kizilyildiz"
@@ -293,9 +332,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Panathinaikos",
    "away": "Fenerbahçe Tarfin"
@@ -326,9 +366,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Madrid",
    "away": "Partizan"

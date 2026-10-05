@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T04:16:21+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T14:20:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-06",
- "generatedAt": "2026-10-05T04:16:21+03:00",
+ "generatedAt": "2026-10-05T14:20:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -159,6 +159,51 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491550",
+   "sport": "bisiklet",
+   "competition": "Binche-Chimay-Binche Bisiklet Turu",
+   "competitionId": "binche-chimay-binche-bisiklet-turu",
+   "kickoff": "2026-10-06T14:35:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Belçika"
+  },
+  {
+   "id": "se-491551",
+   "sport": "bisiklet",
+   "competition": "Avrupa Yol Bisikleti Şampiyonasi",
+   "competitionId": "avrupa-yol-bisikleti-sampiyonasi",
+   "kickoff": "2026-10-06T16:20:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Takım Zamana Karşı"
+  },
+  {
+   "id": "se-491555",
+   "sport": "bisiklet",
+   "competition": "Tre Valli Varesine Bisiklet Turu",
+   "competitionId": "tre-valli-varesine-bisiklet-turu",
+   "kickoff": "2026-10-06T16:25:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İtalya"
+  },
+  {
    "id": "se-483365",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -190,20 +235,6 @@ GM_REGISTER_DAY({
    "home": "Sakaryaspor",
    "away": "Arit Kayadibi",
    "turkish": true
-  },
-  {
-   "id": "se-488378",
-   "sport": "futbol",
-   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
-   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
-   "kickoff": "2026-10-06T18:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Türkiye",
-   "away": "Macaristan"
   },
   {
    "id": "se-491326",
@@ -239,20 +270,36 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-483373",
+   "id": "se-488378",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-10-06T21:45:00+03:00",
+   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-10-06T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Tivibu Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İskoçya",
-   "away": "Slovenya"
+   "home": "Türkiye",
+   "away": "Macaristan"
+  },
+  {
+   "id": "se-483371",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-06T21:45:00+03:00",
+   "broadcasters": [
+    "A Haber"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hırvatistan",
+   "away": "İspanya"
   },
   {
    "id": "se-483372",
@@ -271,20 +318,20 @@ GM_REGISTER_DAY({
    "away": "Çekya"
   },
   {
-   "id": "se-483371",
+   "id": "se-483373",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-10-06T21:45:00+03:00",
    "broadcasters": [
-    "A Haber"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Hırvatistan",
-   "away": "İspanya"
+   "home": "İskoçya",
+   "away": "Slovenya"
   }
  ]
 });
