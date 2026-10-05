@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T02:56:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-05T04:16:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-06",
- "generatedAt": "2026-10-05T02:56:04+03:00",
+ "generatedAt": "2026-10-05T04:16:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -208,8 +208,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-491326",
    "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi  Ligmaçları izle",
-   "competitionId": "fiba-sampiyonlar-ligi-ligmaclari-izle",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-06T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor Yildiz"
