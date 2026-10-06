@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T00:24:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T04:44:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-06T00:24:26+03:00",
+ "generatedAt": "2026-10-06T04:44:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -829,6 +829,38 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491912",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-11T15:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Blomberg Lippe",
+   "away": "Odense"
+  },
+  {
+   "id": "se-491913",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-11T15:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Buducnost",
+   "away": "Sola HK"
+  },
+  {
    "id": "se-489753",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -1194,6 +1226,54 @@ GM_REGISTER_DAY({
    "away": "Philadelphia Eagles"
   },
   {
+   "id": "se-491914",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-11T17:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Borussia Dortmund",
+   "away": "Ljubljana"
+  },
+  {
+   "id": "se-491915",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-11T17:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "CSM Bucuresti",
+   "away": "Esbjerg"
+  },
+  {
+   "id": "se-491916",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-11T17:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Storhamar",
+   "away": "Podravka Vegeta"
+  },
+  {
    "id": "se-488222",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -1448,6 +1528,22 @@ GM_REGISTER_DAY({
    "home": "Mersin İY",
    "away": "Osmaniyespor",
    "turkish": true
+  },
+  {
+   "id": "se-491917",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-11T19:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NFH",
+   "away": "Bistrita"
   },
   {
    "id": "se-488223",

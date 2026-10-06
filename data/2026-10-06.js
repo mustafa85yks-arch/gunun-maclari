@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T00:24:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T04:44:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-06",
- "generatedAt": "2026-10-06T00:24:17+03:00",
+ "generatedAt": "2026-10-06T04:44:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -118,7 +118,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "C.Alcaraz",
+   "away": "J.Lehecka",
    "tags": [
     "final"
    ]
@@ -136,7 +137,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "N.Djokovic",
+   "away": "A.De Minaur",
    "tags": [
     "final"
    ]
@@ -172,6 +174,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Belçika"
+  },
+  {
+   "id": "se-491935",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-06T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gonzalez/Campagnolo",
+   "away": "Tello/Simo"
   },
   {
    "id": "se-491551",
@@ -237,6 +255,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491936",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-06T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alonso/Lacabe",
+   "away": "Nenno/Navarro"
+  },
+  {
    "id": "se-491514",
    "sport": "futbol",
    "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
@@ -300,6 +334,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Tartu Ulikool",
    "away": "Dziki Warszawa"
+  },
+  {
+   "id": "se-491937",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-06T19:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yanguas/Ruiz",
+   "away": "Bautista/Bergamini"
   },
   {
    "id": "se-491326",
@@ -446,22 +496,6 @@ GM_REGISTER_DAY({
    "away": "PAOK"
   },
   {
-   "id": "se-491596",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-10-06T20:30:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Frankfurt",
-   "away": "BC Siauliai"
-  },
-  {
    "id": "se-491597",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -476,6 +510,22 @@ GM_REGISTER_DAY({
    ],
    "home": "JL Bourg",
    "away": "Tofaş"
+  },
+  {
+   "id": "se-491596",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-10-06T20:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Frankfurt",
+   "away": "BC Siauliai"
   },
   {
    "id": "se-491659",
@@ -556,6 +606,22 @@ GM_REGISTER_DAY({
    ],
    "home": "London Lions",
    "away": "Iberostar Tenerife"
+  },
+  {
+   "id": "se-483374",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-10-06T21:45:00+03:00",
+   "broadcasters": [
+    "A Para"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İsviçre",
+   "away": "Kuzey Makedonya"
   },
   {
    "id": "se-483373",

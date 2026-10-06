@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T00:24:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T04:44:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-06T00:24:23+03:00",
+ "generatedAt": "2026-10-06T04:44:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -755,6 +755,22 @@ GM_REGISTER_DAY({
    "away": "Odunpazari"
   },
   {
+   "id": "se-491910",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-10T17:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Györi Audi",
+   "away": "Metz"
+  },
+  {
    "id": "se-488218",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -990,6 +1006,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-491911",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-10-10T19:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brest Bretagne",
+   "away": "Ferencvaros"
+  },
+  {
    "id": "se-487570",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -1071,6 +1103,22 @@ GM_REGISTER_DAY({
    ],
    "home": "A.Kane",
    "away": "B.Medkouri"
+  },
+  {
+   "id": "se-491909",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
+   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
+   "kickoff": "2026-10-10T21:00:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Szeged",
+   "away": "Sporting"
   },
   {
    "id": "se-488267",
