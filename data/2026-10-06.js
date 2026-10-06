@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T05:30:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T14:09:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-06",
- "generatedAt": "2026-10-06T05:30:42+03:00",
+ "generatedAt": "2026-10-06T14:09:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -358,7 +358,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-06T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [
