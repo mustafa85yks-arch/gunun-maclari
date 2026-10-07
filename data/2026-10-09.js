@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T22:16:10+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T03:37:01+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-06T22:16:10+03:00",
+ "generatedAt": "2026-10-07T03:37:01+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -34,6 +34,22 @@ GM_REGISTER_DAY({
    "away": "Boston Celtics"
   },
   {
+   "id": "se-491372",
+   "sport": "basketbol",
+   "competition": "NBA Preseason",
+   "competitionId": "nba",
+   "kickoff": "2026-10-09T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brooklyn Nets",
+   "away": "Philadelphia 76ers"
+  },
+  {
    "id": "se-491373",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -64,22 +80,6 @@ GM_REGISTER_DAY({
    ],
    "home": "New York Knicks",
    "away": "Washington Wizards"
-  },
-  {
-   "id": "se-491372",
-   "sport": "basketbol",
-   "competition": "NBA Preseason",
-   "competitionId": "nba",
-   "kickoff": "2026-10-09T02:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Brooklyn Nets",
-   "away": "Philadelphia 76ers"
   },
   {
    "id": "se-491375",

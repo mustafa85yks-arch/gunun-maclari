@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-06T22:16:07+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T03:36:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-08",
- "generatedAt": "2026-10-06T22:16:07+03:00",
+ "generatedAt": "2026-10-07T03:36:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -193,38 +193,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489894",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
-   "kickoff": "2026-10-08T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İstanbul Gençlik",
-   "away": "Alanya Bld."
-  },
-  {
-   "id": "se-489895",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
-   "kickoff": "2026-10-08T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sultanbeyli Bld.",
-   "away": "Gebze Bld."
-  },
-  {
    "id": "se-490130",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -243,20 +211,19 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-490131",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-491267",
+   "sport": "bisiklet",
+   "competition": "Red Bull Rampage",
+   "competitionId": "red-bull-rampage",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Red Bull TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Maccabi Fox",
-   "away": "Olimpia Milano"
+   "title": "Utah"
   },
   {
    "id": "se-490659",
@@ -275,35 +242,52 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Basket"
   },
   {
-   "id": "se-491267",
-   "sport": "bisiklet",
-   "competition": "Red Bull Rampage",
-   "competitionId": "red-bull-rampage",
+   "id": "se-490131",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "Red Bull TV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Utah"
+   "home": "Maccabi Fox",
+   "away": "Olimpia Milano"
   },
   {
-   "id": "se-491904",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
-   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
-   "kickoff": "2026-10-08T19:45:00+03:00",
+   "id": "se-489895",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
+   "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "EHF TV"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "HC Zagreb",
-   "away": "Aalborg"
+   "home": "Sultanbeyli Bld.",
+   "away": "Gebze Bld."
+  },
+  {
+   "id": "se-489894",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
+   "kickoff": "2026-10-08T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul Gençlik",
+   "away": "Alanya Bld."
   },
   {
    "id": "se-491903",
@@ -320,6 +304,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Füchse Berlin",
    "away": "Porto"
+  },
+  {
+   "id": "se-491904",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
+   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
+   "kickoff": "2026-10-08T19:45:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "HC Zagreb",
+   "away": "Aalborg"
   },
   {
    "id": "se-491520",
@@ -389,24 +389,6 @@ GM_REGISTER_DAY({
    "away": "Hapoel Tel Aviv"
   },
   {
-   "id": "se-490135",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-08T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Real Madrid",
-   "away": "Partizan"
-  },
-  {
    "id": "se-491905",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
@@ -423,7 +405,7 @@ GM_REGISTER_DAY({
    "away": "Dinamo Bükreş"
   },
   {
-   "id": "se-491906",
+   "id": "se-491908",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -435,8 +417,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "MT Melsungen",
-   "away": "Nantes"
+   "home": "Vardar",
+   "away": "Wisla Plock"
   },
   {
    "id": "se-491907",
@@ -455,7 +437,7 @@ GM_REGISTER_DAY({
    "away": "Montpellier"
   },
   {
-   "id": "se-491908",
+   "id": "se-491906",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -467,8 +449,26 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Vardar",
-   "away": "Wisla Plock"
+   "home": "MT Melsungen",
+   "away": "Nantes"
+  },
+  {
+   "id": "se-490135",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-08T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Real Madrid",
+   "away": "Partizan"
   }
  ]
 });
