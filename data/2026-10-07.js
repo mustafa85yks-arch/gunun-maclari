@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T04:48:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T13:58:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-07",
- "generatedAt": "2026-10-07T04:48:42+03:00",
+ "generatedAt": "2026-10-07T13:58:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -419,6 +419,21 @@ GM_REGISTER_DAY({
    "away": "Checa/Reca"
   },
   {
+   "id": "se-492012",
+   "sport": "judo",
+   "competition": "Dünya Judo Şampiyonasi",
+   "competitionId": "dunya-judo-sampiyonasi",
+   "kickoff": "2026-10-07T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Birleşik Arap Emirlikleri"
+  },
+  {
    "id": "se-491553",
    "sport": "bisiklet",
    "competition": "Avrupa Yol Bisikleti Şampiyonasi",
@@ -472,7 +487,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-07T19:00:00+03:00",
    "broadcasters": [
-    "tabii Spor 6"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -552,8 +567,8 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-europe-cup",
    "kickoff": "2026-10-07T19:00:00+03:00",
    "broadcasters": [
-    "Idman TV Youtube",
-    "FIBA TV"
+    "tabii Spor 6",
+    "Idman TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
