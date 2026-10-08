@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T18:59:56+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T22:36:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-12",
- "generatedAt": "2026-10-08T18:59:56+03:00",
+ "generatedAt": "2026-10-08T22:36:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -96,7 +96,8 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-10-12T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -183,7 +184,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-12T22:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
    "verification": "tek_kaynak",
    "sources": [

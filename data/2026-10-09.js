@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T18:59:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T22:36:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-08T18:59:49+03:00",
+ "generatedAt": "2026-10-08T22:36:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -158,7 +158,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Shanghai"
+   "home": "B.Shelton",
+   "away": "D.Altmaier"
+  },
+  {
+   "id": "se-492174",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-09T09:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "Y.Wu"
   },
   {
    "id": "se-491041",
@@ -178,6 +195,37 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
+   "id": "se-492131",
+   "sport": "tenis",
+   "competition": "WTA Pekin Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-09T10:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Q.Zheng",
+   "away": "E.Svitolina"
+  },
+  {
+   "id": "se-492161",
+   "sport": "motor sporları",
+   "competition": "Ligier European Series",
+   "competitionId": "ligier-european-series",
+   "kickoff": "2026-10-09T11:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 1"
+  },
+  {
    "id": "se-488473",
    "sport": "motor sporları",
    "competition": "Formula 1",
@@ -191,6 +239,38 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Antrenman Turları-1"
+  },
+  {
+   "id": "se-492175",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-09T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Djokovic",
+   "away": "H.Hurkacz"
+  },
+  {
+   "id": "se-492132",
+   "sport": "tenis",
+   "competition": "WTA Pekin Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-09T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Mertens",
+   "away": "I.Swiatek"
   },
   {
    "id": "se-492045",
@@ -207,6 +287,21 @@ GM_REGISTER_DAY({
    ],
    "home": "D.Torfunfarm",
    "away": "M.Por Pim-on"
+  },
+  {
+   "id": "se-489733",
+   "sport": "futbol",
+   "competition": "TFF Elit U19 Ligi",
+   "competitionId": "tff-elit-u19-ligi",
+   "kickoff": "2026-10-09T15:00:00+03:00",
+   "broadcasters": [],
+   "verification": "yayin_yok",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kasımpaşa",
+   "away": "Galatasaray",
+   "turkish": true
   },
   {
    "id": "se-491377",
@@ -241,19 +336,20 @@ GM_REGISTER_DAY({
    "away": "A.Cruz"
   },
   {
-   "id": "se-489733",
-   "sport": "futbol",
-   "competition": "TFF Elit U19 Ligi",
-   "competitionId": "tff-elit-u19-ligi",
+   "id": "se-492176",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
    "kickoff": "2026-10-09T15:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kasımpaşa",
-   "away": "Galatasaray",
-   "turkish": true
+   "home": "Y.Zhou",
+   "away": "L.Musetti"
   },
   {
    "id": "se-488474",
@@ -303,22 +399,6 @@ GM_REGISTER_DAY({
    "away": "S.SitKhuntab"
   },
   {
-   "id": "se-492048",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
-   "kickoff": "2026-10-09T16:00:00+03:00",
-   "broadcasters": [
-    "One Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "D.Andreev",
-   "away": "W.Britez"
-  },
-  {
    "id": "se-489897",
    "sport": "voleybol",
    "competition": "TVF Erkekler Kupa Volley",
@@ -335,11 +415,11 @@ GM_REGISTER_DAY({
    "away": "İstanbul Gençlik"
   },
   {
-   "id": "se-492049",
+   "id": "se-492048",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
    "competitionId": "one-championship-dovus-serisi",
-   "kickoff": "2026-10-09T16:30:00+03:00",
+   "kickoff": "2026-10-09T16:00:00+03:00",
    "broadcasters": [
     "One Championship Youtube"
    ],
@@ -347,8 +427,23 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "P.Siamaxmpservic",
-   "away": "K.Thailand"
+   "home": "D.Andreev",
+   "away": "W.Britez"
+  },
+  {
+   "id": "se-492162",
+   "sport": "motor sporları",
+   "competition": "Ligier European Series",
+   "competitionId": "ligier-european-series",
+   "kickoff": "2026-10-09T16:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
   },
   {
    "id": "se-489896",
@@ -367,6 +462,22 @@ GM_REGISTER_DAY({
    "away": "TFL Altekma"
   },
   {
+   "id": "se-492049",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T16:30:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Siamaxmpservic",
+   "away": "K.Thailand"
+  },
+  {
    "id": "se-489772",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -374,7 +485,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-09T17:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -392,11 +503,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-09T17:00:00+03:00",
    "broadcasters": [
     "TRT Avaz",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Bodrumspor",
    "away": "Keçiörengücü",
@@ -507,10 +619,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Galatasaray",
    "away": "Kasımpaşa",
@@ -524,11 +635,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-09T20:00:00+03:00",
    "broadcasters": [
     "TRT Avaz",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ümraniyespor",
    "away": "Sarıyer",
@@ -542,7 +654,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-09T20:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -619,6 +731,22 @@ GM_REGISTER_DAY({
    "away": "Werder Bremen"
   },
   {
+   "id": "se-490137",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-09T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Barcelona",
+   "away": "Zalgiris Kaunas"
+  },
+  {
    "id": "se-490138",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -637,33 +765,18 @@ GM_REGISTER_DAY({
    "away": "Beşiktaş"
   },
   {
-   "id": "se-490137",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-09T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Barcelona",
-   "away": "Zalgiris Kaunas"
-  },
-  {
    "id": "se-487509",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
    "competitionId": "ligue-1",
    "kickoff": "2026-10-09T21:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lens",
    "away": "Lyon"
@@ -699,6 +812,23 @@ GM_REGISTER_DAY({
    ],
    "home": "West Ham",
    "away": "QPR"
+  },
+  {
+   "id": "se-492146",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-10-09T22:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Braga",
+   "away": "Sporting Lisbon"
   }
  ]
 });

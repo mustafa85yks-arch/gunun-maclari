@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T18:59:56+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T22:36:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-08T18:59:56+03:00",
+ "generatedAt": "2026-10-08T22:36:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -482,6 +482,21 @@ GM_REGISTER_DAY({
    "title": "Endonezya GP"
   },
   {
+   "id": "se-492157",
+   "sport": "motor sporları",
+   "competition": "Euro 4 Championship",
+   "competitionId": "euro-4-championship",
+   "kickoff": "2026-10-11T09:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
+  },
+  {
    "id": "se-491047",
    "sport": "motosiklet",
    "competition": "MotoGP",
@@ -497,6 +512,21 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Endonezya GP"
+  },
+  {
+   "id": "se-492151",
+   "sport": "motor sporları",
+   "competition": "ADAC GT4",
+   "competitionId": "adac-gt4",
+   "kickoff": "2026-10-11T11:55:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 3"
   },
   {
    "id": "se-489752",
@@ -595,6 +625,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Portekiz Superpole"
+  },
+  {
+   "id": "se-492155",
+   "sport": "motor sporları",
+   "competition": "Porsche Carrera Kupasi",
+   "competitionId": "porsche-carrera-kupasi",
+   "kickoff": "2026-10-11T13:25:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
   },
   {
    "id": "se-488301",
@@ -776,6 +821,21 @@ GM_REGISTER_DAY({
    "home": "Karaköprü Bld.",
    "away": "Bitlis 1916 FK",
    "turkish": true
+  },
+  {
+   "id": "se-492158",
+   "sport": "motor sporları",
+   "competition": "Euro 4 Championship",
+   "competitionId": "euro-4-championship",
+   "kickoff": "2026-10-11T14:40:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 3"
   },
   {
    "id": "se-488221",
@@ -960,6 +1020,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492153",
+   "sport": "motor sporları",
+   "competition": "ADAC GT4 Masters",
+   "competitionId": "adac-gt4-masters",
+   "kickoff": "2026-10-11T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
+  },
+  {
    "id": "se-487515",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -982,7 +1057,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-11T16:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -998,11 +1073,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-11T16:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Hull City",
    "away": "Everton"
@@ -1067,11 +1143,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-11T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Karagümrük",
    "away": "Muğlaspor",
@@ -1338,6 +1415,38 @@ GM_REGISTER_DAY({
    "away": "Podravka Vegeta"
   },
   {
+   "id": "se-492133",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-10-11T17:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "St Quentin",
+   "away": "Le Mans Basket"
+  },
+  {
+   "id": "se-492138",
+   "sport": "basketbol",
+   "competition": "İtalya Basketbol Ligi",
+   "competitionId": "italya-basketbol-ligi",
+   "kickoff": "2026-10-11T17:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Olimpia Milano",
+   "away": "Delonghi Treviso"
+  },
+  {
    "id": "se-488222",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -1386,6 +1495,37 @@ GM_REGISTER_DAY({
    "title": "Portekiz Yarış 2"
   },
   {
+   "id": "se-492134",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-10-11T17:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paris",
+   "away": "Strasbourg"
+  },
+  {
+   "id": "se-492148",
+   "sport": "motor sporları",
+   "competition": "DTM",
+   "competitionId": "dtm",
+   "kickoff": "2026-10-11T17:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
+  },
+  {
    "id": "se-489754",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -1409,7 +1549,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-11T18:15:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1425,11 +1565,13 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-11T18:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN CONNECT",
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Liverpool",
    "away": "Manchester City"
@@ -1494,11 +1636,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-11T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Bursaspor",
    "away": "Mardin 1969",
@@ -1691,17 +1834,67 @@ GM_REGISTER_DAY({
    "away": "Valencia Basket"
   },
   {
+   "id": "se-492135",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-10-11T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Asvel Villeurbanne",
+   "away": "Roanne"
+  },
+  {
+   "id": "se-492139",
+   "sport": "basketbol",
+   "competition": "İtalya Basketbol Ligi",
+   "competitionId": "italya-basketbol-ligi",
+   "kickoff": "2026-10-11T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Venezia",
+   "away": "Virtus Bologna"
+  },
+  {
+   "id": "se-492145",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-10-11T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Benfica",
+   "away": "Vitoria"
+  },
+  {
    "id": "se-487517",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
    "competitionId": "ligue-1",
    "kickoff": "2026-10-11T21:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Troyes",
    "away": "Marsilya"
