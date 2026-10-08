@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T22:40:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T03:56:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-14",
- "generatedAt": "2026-10-07T22:40:36+03:00",
+ "generatedAt": "2026-10-08T03:56:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -170,7 +170,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Aras Kargo",
-   "away": "Galatasaray Daikin",
+   "away": "Galatasaray",
    "turkish": true
   },
   {
@@ -489,7 +489,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-14T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [

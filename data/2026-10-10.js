@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T22:40:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T03:56:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-07T22:40:33+03:00",
+ "generatedAt": "2026-10-08T03:56:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -194,6 +194,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Halkbank",
    "away": "Başkent Beşiktaşlılar"
+  },
+  {
+   "id": "se-492079",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 1. Lig",
+   "competitionId": "tvf-erkekler-1-lig",
+   "kickoff": "2026-10-10T13:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Karapınar Anadolu Leoparları"
   },
   {
    "id": "se-488938",
@@ -538,7 +554,7 @@ GM_REGISTER_DAY({
    "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-10T16:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "tabii Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -562,22 +578,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Barosu",
    "away": "TVF Spor Lisesi"
-  },
-  {
-   "id": "se-489991",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 1. Lig",
-   "competitionId": "tvf-kadinlar-1-lig",
-   "kickoff": "2026-10-10T16:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Yeşilyurt"
   },
   {
    "id": "se-491054",
@@ -628,6 +628,22 @@ GM_REGISTER_DAY({
    "away": "Bayern Münih"
   },
   {
+   "id": "se-488228",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-10-10T16:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hoffenheim",
+   "away": "Hamburg"
+  },
+  {
    "id": "se-488229",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -642,22 +658,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Mainz",
    "away": "Bayer Leverkusen"
-  },
-  {
-   "id": "se-488230",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-10-10T16:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Paderborn",
-   "away": "Stuttgart"
   },
   {
    "id": "se-490662",
@@ -931,7 +931,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-10T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "TRT Avaz"
    ],
    "verification": "tek_kaynak",
    "sources": [

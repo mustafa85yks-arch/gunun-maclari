@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T22:40:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T03:56:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-07T22:40:28+03:00",
+ "generatedAt": "2026-10-08T03:56:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -178,19 +178,20 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-1"
   },
   {
-   "id": "se-489733",
-   "sport": "futbol",
-   "competition": "TFF Elit U19 Ligi",
-   "competitionId": "tff-elit-u19-ligi",
-   "kickoff": "2026-10-09T15:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
+   "id": "se-492045",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T14:30:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kasımpaşa",
-   "away": "Galatasaray",
-   "turkish": true
+   "home": "D.Torfunfarm",
+   "away": "M.Por Pim-on"
   },
   {
    "id": "se-491377",
@@ -207,6 +208,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Dallas Mavericks",
    "away": "Houston Rockets"
+  },
+  {
+   "id": "se-492046",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T15:00:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Saenchai",
+   "away": "A.Cruz"
+  },
+  {
+   "id": "se-489733",
+   "sport": "futbol",
+   "competition": "TFF Elit U19 Ligi",
+   "competitionId": "tff-elit-u19-ligi",
+   "kickoff": "2026-10-09T15:00:00+03:00",
+   "broadcasters": [],
+   "verification": "yayin_yok",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kasımpaşa",
+   "away": "Galatasaray",
+   "turkish": true
   },
   {
    "id": "se-488474",
@@ -240,13 +272,77 @@ GM_REGISTER_DAY({
    "away": "Shakhtar Donetsk"
   },
   {
+   "id": "se-492047",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T15:30:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Sitchalongsak",
+   "away": "S.SitKhuntab"
+  },
+  {
+   "id": "se-492048",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T16:00:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Andreev",
+   "away": "W.Britez"
+  },
+  {
+   "id": "se-489897",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler Kupa Volley",
+   "competitionId": "tvf-erkekler-kupa-volley",
+   "kickoff": "2026-10-09T16:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul BB",
+   "away": "İstanbul Gençlik"
+  },
+  {
+   "id": "se-492049",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T16:30:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Siamaxmpservic",
+   "away": "K.Thailand"
+  },
+  {
    "id": "se-489896",
    "sport": "voleybol",
    "competition": "TVF Erkekler Kupa Volley",
    "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-09T16:30:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "tabii Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -254,24 +350,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Onikişubat Belediyespor",
    "away": "TFL Altekma"
-  },
-  {
-   "id": "se-489773",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-09T17:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bodrumspor",
-   "away": "Keçiörengücü",
-   "turkish": true
   },
   {
    "id": "se-489772",
@@ -292,20 +370,70 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489897",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler Kupa Volley",
-   "competitionId": "tvf-erkekler-kupa-volley",
-   "kickoff": "2026-10-09T19:00:00+03:00",
+   "id": "se-489773",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-09T17:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "TRT Avaz",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İstanbul BB",
-   "away": "İstanbul Gençlik"
+   "home": "Bodrumspor",
+   "away": "Keçiörengücü",
+   "turkish": true
+  },
+  {
+   "id": "se-492050",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T17:00:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Teanchai",
+   "away": "S.Sor Sasiwat"
+  },
+  {
+   "id": "se-492051",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T17:30:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Bitrus Jeb",
+   "away": "B.Ganbaatar"
+  },
+  {
+   "id": "se-492052",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-10-09T18:00:00+03:00",
+   "broadcasters": [
+    "One Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Sor KanJanchai",
+   "away": "Y.Yip"
   },
   {
    "id": "se-489898",
@@ -324,6 +452,22 @@ GM_REGISTER_DAY({
    "away": "Sultanbeyli Bld."
   },
   {
+   "id": "se-489991",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
+   "kickoff": "2026-10-09T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Yeşilyurt"
+  },
+  {
    "id": "se-488263",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -338,24 +482,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Heidenheim",
    "away": "Kaiserslautern"
-  },
-  {
-   "id": "se-489775",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-09T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Vanspor",
-   "away": "Bandırmaspor",
-   "turkish": true
   },
   {
    "id": "se-488937",
@@ -382,7 +508,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-10-09T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Avaz",
     "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
@@ -391,6 +517,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Ümraniyespor",
    "away": "Sarıyer",
+   "turkish": true
+  },
+  {
+   "id": "se-489775",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-09T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Vanspor",
+   "away": "Bandırmaspor",
    "turkish": true
   },
   {

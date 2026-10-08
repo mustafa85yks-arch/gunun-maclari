@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T22:40:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T03:56:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-12",
- "generatedAt": "2026-10-07T22:40:36+03:00",
+ "generatedAt": "2026-10-08T03:56:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -122,6 +122,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Atalanta",
    "away": "Venezia"
+  },
+  {
+   "id": "se-492088",
+   "sport": "voleybol",
+   "competition": "TVF Axa Erkekler Şampiyonlar Kupasi Final",
+   "competitionId": "tvf-axa-erkekler-sampiyonlar-kupasi-final",
+   "kickoff": "2026-10-12T19:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ziraat Bankkart",
+   "away": "Galatasaray",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-488945",

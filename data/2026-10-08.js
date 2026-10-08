@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T22:40:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T03:56:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-08",
- "generatedAt": "2026-10-07T22:40:26+03:00",
+ "generatedAt": "2026-10-08T03:56:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -125,7 +125,56 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Shanghai"
+   "home": "K.Coppejans",
+   "away": "S.Tsitsipas"
+  },
+  {
+   "id": "se-492075",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-08T09:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "H.Hurkacz",
+   "away": "J.Duckworth"
+  },
+  {
+   "id": "se-492073",
+   "sport": "tenis",
+   "competition": "WTA Pekin Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-08T10:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Muchova",
+   "away": "N.Bartunkova"
+  },
+  {
+   "id": "se-492076",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-08T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Van Assche",
+   "away": "Y.Bu"
   },
   {
    "id": "se-491518",
@@ -143,6 +192,38 @@ GM_REGISTER_DAY({
    "home": "Erciyes 38 FK",
    "away": "Kahta 02",
    "turkish": true
+  },
+  {
+   "id": "se-492074",
+   "sport": "tenis",
+   "competition": "WTA Pekin Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-08T14:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Alexandrova",
+   "away": "M.Andreeva"
+  },
+  {
+   "id": "se-492077",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-08T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Norrie",
+   "away": "D.Svrcina"
   },
   {
    "id": "se-491554",
@@ -193,22 +274,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490130",
+   "id": "se-490131",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
+    "S Sport Plus"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
-   "home": "Dubai Basket",
-   "away": "Kizilyildiz"
+   "home": "Maccabi Fox",
+   "away": "Olimpia Milano"
   },
   {
    "id": "se-491267",
@@ -242,20 +321,22 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Basket"
   },
   {
-   "id": "se-490131",
+   "id": "se-490130",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
-   "home": "Maccabi Fox",
-   "away": "Olimpia Milano"
+   "home": "Dubai Basket",
+   "away": "Kizilyildiz"
   },
   {
    "id": "se-489895",
@@ -264,7 +345,7 @@ GM_REGISTER_DAY({
    "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "tabii Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -280,6 +361,7 @@ GM_REGISTER_DAY({
    "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
+    "tabii Spor",
     "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",

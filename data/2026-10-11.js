@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-07T22:40:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T03:56:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-07T22:40:36+03:00",
+ "generatedAt": "2026-10-08T03:56:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -160,6 +160,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Washington Wizards",
    "away": "Detroit Pistons"
+  },
+  {
+   "id": "se-492078",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-10-11T02:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alabama",
+   "away": "Georgia Bulldogs"
   },
   {
    "id": "se-491382",
@@ -497,7 +513,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Galatasaray Daikin",
+   "home": "Galatasaray",
    "away": "Nilüfer Bld.",
    "turkish": true
   },
@@ -533,6 +549,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Houston Rockets",
    "away": "Dallas Mavericks"
+  },
+  {
+   "id": "se-492080",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 1. Lig",
+   "competitionId": "tvf-erkekler-1-lig",
+   "kickoff": "2026-10-11T13:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ziraat Bankkart",
+   "away": "Düzce Bld."
   },
   {
    "id": "se-491056",
@@ -576,9 +608,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Konyaspor",
    "away": "İstanbul Başakşehir",
@@ -1002,9 +1035,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Gaziantep FK",
    "away": "Çorum FK",
@@ -1398,9 +1432,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Beşiktaş",
    "away": "Kocaelispor",
