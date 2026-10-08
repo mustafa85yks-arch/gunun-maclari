@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T14:15:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T18:59:47+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-08",
- "generatedAt": "2026-10-08T14:15:34+03:00",
+ "generatedAt": "2026-10-08T18:59:47+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -291,6 +291,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492114",
+   "sport": "judo",
+   "competition": "Dünya Judo Şampiyonasi",
+   "competitionId": "dunya-judo-sampiyonasi",
+   "kickoff": "2026-10-08T17:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Azerbaycan"
+  },
+  {
    "id": "se-492091",
    "sport": "bilardo",
    "competition": "Türkiye 3 Bant Bilardo Şampiyonasi",
@@ -313,8 +328,7 @@ GM_REGISTER_DAY({
    "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "tabii Spor",
-    "TVF Voleybol TV Youtube"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -330,7 +344,7 @@ GM_REGISTER_DAY({
    "competitionId": "tvf-erkekler-kupa-volley",
    "kickoff": "2026-10-08T19:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [
