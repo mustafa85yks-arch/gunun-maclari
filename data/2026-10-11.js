@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T05:16:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T14:15:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-08T05:16:34+03:00",
+ "generatedAt": "2026-10-08T14:15:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -416,6 +416,21 @@ GM_REGISTER_DAY({
    ],
    "home": "B.Allen",
    "away": "C.Duncan"
+  },
+  {
+   "id": "se-492111",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Japonya",
+   "competitionId": "golf-pga-tour-japonya",
+   "kickoff": "2026-10-11T06:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4"
   },
   {
    "id": "se-491045",
@@ -1195,6 +1210,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492108",
+   "sport": "bisiklet",
+   "competition": "Paris Bisiklet Turu",
+   "competitionId": "paris-bisiklet-turu",
+   "kickoff": "2026-10-11T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Fransa"
+  },
+  {
    "id": "se-488233",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -1324,6 +1354,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Sociedad",
    "away": "Deportivo"
+  },
+  {
+   "id": "se-492113",
+   "sport": "atıcılık",
+   "competition": "Avrupa Aticilik Şampiyonasi",
+   "competitionId": "avrupa-aticilik-sampiyonasi",
+   "kickoff": "2026-10-11T17:15:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yunanistan"
   },
   {
    "id": "se-491058",

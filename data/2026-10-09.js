@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T05:16:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T14:15:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-08T05:16:26+03:00",
+ "generatedAt": "2026-10-08T14:15:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -129,6 +129,21 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Serbest Antrenman 1"
+  },
+  {
+   "id": "se-492109",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Japonya",
+   "competitionId": "golf-pga-tour-japonya",
+   "kickoff": "2026-10-09T06:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
   },
   {
    "id": "se-491049",

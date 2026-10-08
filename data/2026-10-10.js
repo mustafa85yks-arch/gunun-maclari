@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T05:16:31+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-08T14:15:42+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-08T05:16:31+03:00",
+ "generatedAt": "2026-10-08T14:15:42+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -67,6 +67,21 @@ GM_REGISTER_DAY({
    "title": "Serbest Antrenman 2 ve Sıralama Turları"
   },
   {
+   "id": "se-492110",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Japonya",
+   "competitionId": "golf-pga-tour-japonya",
+   "kickoff": "2026-10-10T06:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
    "id": "se-491053",
    "sport": "tenis",
    "competition": "ATP Shanghai",
@@ -130,6 +145,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Yedidağ",
    "away": "Konya BB"
+  },
+  {
+   "id": "se-492107",
+   "sport": "bisiklet",
+   "competition": "Lombardia Bisiklet Turu",
+   "competitionId": "lombardia-bisiklet-turu",
+   "kickoff": "2026-10-10T11:35:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İtalya"
   },
   {
    "id": "se-488475",
