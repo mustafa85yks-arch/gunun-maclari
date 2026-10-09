@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T18:42:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T22:10:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-09T18:42:40+03:00",
+ "generatedAt": "2026-10-09T22:10:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -40,6 +40,52 @@ GM_REGISTER_DAY({
    ],
    "home": "Houston Rockets",
    "away": "OKC Thunder"
+  },
+  {
+   "id": "se-492221",
+   "sport": "tenis",
+   "competition": "ATP Shanghai Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-16T09:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 3"
+  },
+  {
+   "id": "se-492222",
+   "sport": "tenis",
+   "competition": "ATP Shanghai Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-16T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 4"
+  },
+  {
+   "id": "se-492226",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-16T18:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Riyadh",
+   "away": "Al Hilal"
   },
   {
    "id": "se-489756",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T18:42:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T22:10:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-09T18:42:25+03:00",
+ "generatedAt": "2026-10-09T22:10:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -261,7 +261,7 @@ GM_REGISTER_DAY({
    "sport": "motor sporları",
    "competition": "Formula 1",
    "competitionId": "f1",
-   "kickoff": "2026-10-09T12:30:00+03:00",
+   "kickoff": "2026-10-09T11:30:00+03:00",
    "broadcasters": [
     "beIN SPORTS 4"
    ],
@@ -583,10 +583,9 @@ GM_REGISTER_DAY({
     "tabii Spor 6",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Bodrumspor",
    "away": "Keçiörengücü",
@@ -763,10 +762,9 @@ GM_REGISTER_DAY({
     "tabii Spor 6",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ümraniyespor",
    "away": "Sarıyer",
@@ -821,6 +819,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Nassr",
    "away": "Al Diriyah"
+  },
+  {
+   "id": "se-492206",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Çeyrek Final",
+   "competitionId": "premier-padel-erkekler-ceyrek-final",
+   "kickoff": "2026-10-09T21:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stupaczuk/Sanz",
+   "away": "Nenno/Navarro"
   },
   {
    "id": "se-490136",
@@ -899,10 +913,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Lens",
    "away": "Lyon"

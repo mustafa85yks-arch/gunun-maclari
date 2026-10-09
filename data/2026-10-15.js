@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T18:42:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T22:10:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-15",
- "generatedAt": "2026-10-09T18:42:40+03:00",
+ "generatedAt": "2026-10-09T22:10:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -152,6 +152,36 @@ GM_REGISTER_DAY({
    ],
    "home": "LA Clippers",
    "away": "Denver Nuggets"
+  },
+  {
+   "id": "se-492219",
+   "sport": "tenis",
+   "competition": "ATP Shanghai Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-15T09:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 1"
+  },
+  {
+   "id": "se-492220",
+   "sport": "tenis",
+   "competition": "ATP Shanghai Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-15T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 2"
   },
   {
    "id": "se-489789",
@@ -367,6 +397,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Tarfin",
    "away": "Partizan"
+  },
+  {
+   "id": "se-492218",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-15T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ahli",
+   "away": "Al Nassr"
   },
   {
    "id": "se-490150",
