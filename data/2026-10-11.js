@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T14:14:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T18:42:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-09T14:14:49+03:00",
+ "generatedAt": "2026-10-09T18:42:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1075,9 +1075,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Hull City",
    "away": "Everton"
@@ -1567,9 +1568,10 @@ GM_REGISTER_DAY({
     "beIN CONNECT",
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Liverpool",
    "away": "Manchester City"
@@ -1889,9 +1891,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Troyes",
    "away": "Marsilya"
