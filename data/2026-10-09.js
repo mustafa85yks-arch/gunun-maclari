@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T05:34:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T14:14:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-09",
- "generatedAt": "2026-10-09T05:34:02+03:00",
+ "generatedAt": "2026-10-09T14:14:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -211,6 +211,21 @@ GM_REGISTER_DAY({
    "away": "E.Svitolina"
   },
   {
+   "id": "se-492183",
+   "sport": "basketbol",
+   "competition": "Göbeklitepe Tekerlekli Sandalye Basketbol Turnuvasi",
+   "competitionId": "gobeklitepe-tekerlekli-sandalye-basketbol-turnuvasi",
+   "kickoff": "2026-10-09T10:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Maç 1"
+  },
+  {
    "id": "se-492161",
    "sport": "motor sporları",
    "competition": "Ligier European Series",
@@ -319,6 +334,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Bengoechea/Ulrich",
    "away": "Prieto/Fallada"
+  },
+  {
+   "id": "se-492184",
+   "sport": "basketbol",
+   "competition": "Göbeklitepe Tekerlekli Sandalye Basketbol Turnuvasi",
+   "competitionId": "gobeklitepe-tekerlekli-sandalye-basketbol-turnuvasi",
+   "kickoff": "2026-10-09T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Maç 2"
   },
   {
    "id": "se-492045",
@@ -593,6 +623,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Senesi/Pons",
    "away": "Jensen/Paredes"
+  },
+  {
+   "id": "se-492185",
+   "sport": "judo",
+   "competition": "Dünya Judo Şampiyonasi",
+   "competitionId": "dunya-judo-sampiyonasi",
+   "kickoff": "2026-10-09T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Birleşik Arap Emirlikleri"
   },
   {
    "id": "se-492051",
