@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T17:57:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T21:08:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-10T17:57:26+03:00",
+ "generatedAt": "2026-10-10T21:08:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -248,9 +248,10 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Bahçeşehir Klj",
    "away": "Karşıyaka",
@@ -454,6 +455,22 @@ GM_REGISTER_DAY({
    "title": "Yarış 1"
   },
   {
+   "id": "se-492332",
+   "sport": "golf",
+   "competition": "İspanya Açik Golf Turnuvasi",
+   "competitionId": "ispanya-acik-golf-turnuvasi",
+   "kickoff": "2026-10-10T14:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İspanya"
+  },
+  {
    "id": "se-492156",
    "sport": "motor sporları",
    "competition": "Euro 4 Championship",
@@ -581,6 +598,38 @@ GM_REGISTER_DAY({
    ],
    "home": "S.Baez",
    "away": "V.Vacherot"
+  },
+  {
+   "id": "se-492392",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-10T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kağıtspor",
+   "away": "Bayrampaşaspor"
+  },
+  {
+   "id": "se-492393",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-10T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konya Gelişim",
+   "away": "Çorum Bld."
   },
   {
    "id": "se-489749",
@@ -711,9 +760,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Iğdırspor",
    "away": "Batman Petrol",
@@ -781,6 +831,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Göztepe",
    "away": "Nilüfer Bld."
+  },
+  {
+   "id": "se-492336",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-10-10T16:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Empoli",
+   "away": "Palermo"
+  },
+  {
+   "id": "se-492394",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-10T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türk Telekom Gelişim",
+   "away": "Uşak Basket"
   },
   {
    "id": "se-492152",
@@ -973,6 +1055,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Györi Audi",
    "away": "Metz"
+  },
+  {
+   "id": "se-492395",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-10T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kütahya Bld.",
+   "away": "Karatay Bld."
+  },
+  {
+   "id": "se-492396",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-10T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Halkbank",
+   "away": "Teşvikiye"
   },
   {
    "id": "se-488218",

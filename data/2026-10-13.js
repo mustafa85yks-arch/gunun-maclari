@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T17:57:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T21:09:00+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-13",
- "generatedAt": "2026-10-10T17:57:33+03:00",
+ "generatedAt": "2026-10-10T21:09:00+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -283,22 +283,6 @@ GM_REGISTER_DAY({
    "away": "Nancy"
   },
   {
-   "id": "se-487261",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-10-13T19:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sabah Bakü",
-   "away": "Slavia Prag"
-  },
-  {
    "id": "se-487260",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
@@ -313,6 +297,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lens",
    "away": "Sporting Lisbon"
+  },
+  {
+   "id": "se-487261",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-10-13T19:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sabah Bakü",
+   "away": "Slavia Prag"
   },
   {
    "id": "se-489784",
@@ -382,7 +382,7 @@ GM_REGISTER_DAY({
    "away": "Zalgiris Kaunas"
   },
   {
-   "id": "se-491613",
+   "id": "se-491612",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
@@ -394,8 +394,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Energia Trento",
-   "away": "Chemnitz"
+   "home": "BC Roma",
+   "away": "Balkan Botevgrad"
   },
   {
    "id": "se-492258",
@@ -478,7 +478,7 @@ GM_REGISTER_DAY({
    "away": "Mykonos"
   },
   {
-   "id": "se-491612",
+   "id": "se-491613",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
@@ -490,8 +490,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "BC Roma",
-   "away": "Balkan Botevgrad"
+   "home": "Energia Trento",
+   "away": "Chemnitz"
   },
   {
    "id": "se-490140",

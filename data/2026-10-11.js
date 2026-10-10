@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T17:57:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T21:09:00+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-10T17:57:33+03:00",
+ "generatedAt": "2026-10-10T21:09:00+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -809,6 +809,22 @@ GM_REGISTER_DAY({
    "away": "Ortahisar Bld"
   },
   {
+   "id": "se-492333",
+   "sport": "golf",
+   "competition": "İspanya Açik Golf Turnuvasi",
+   "competitionId": "ispanya-acik-golf-turnuvasi",
+   "kickoff": "2026-10-11T14:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İspanya"
+  },
+  {
    "id": "se-488268",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -1353,6 +1369,22 @@ GM_REGISTER_DAY({
    "title": "Fransa"
   },
   {
+   "id": "se-492397",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-11T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Petkimspor",
+   "away": "Egospor"
+  },
+  {
    "id": "se-488233",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -1592,6 +1624,23 @@ GM_REGISTER_DAY({
    "home": "Türk Telekom",
    "away": "Beşiktaş",
    "turkish": true
+  },
+  {
+   "id": "se-492334",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-11T18:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Baskonia",
+   "away": "Joventut Badalona"
   },
   {
    "id": "se-487516",
@@ -1932,6 +1981,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Benfica",
    "away": "Vitoria"
+  },
+  {
+   "id": "se-492337",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-10-11T20:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Modena",
+   "away": "Verona"
   },
   {
    "id": "se-487517",
