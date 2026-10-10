@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T04:55:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T13:31:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-10T04:55:18+03:00",
+ "generatedAt": "2026-10-10T13:31:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -396,7 +396,7 @@ GM_REGISTER_DAY({
    "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-10-10T14:00:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1151,8 +1151,8 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-10-10T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "TRT Avaz"
+    "tabii Spor 6",
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
