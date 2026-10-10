@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T13:31:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T17:57:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-10T13:31:30+03:00",
+ "generatedAt": "2026-10-10T17:57:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -248,10 +248,9 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Bahçeşehir Klj",
    "away": "Karşıyaka",
@@ -712,10 +711,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Iğdırspor",
    "away": "Batman Petrol",
