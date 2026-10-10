@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T22:10:53+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T03:43:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-09T22:10:53+03:00",
+ "generatedAt": "2026-10-10T03:43:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,6 +32,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Sporting Jax",
    "away": "Birmingham Legion"
+  },
+  {
+   "id": "se-492290",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-11T00:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Vasco Da Gama",
+   "away": "Remo"
   },
   {
    "id": "se-491180",
@@ -226,6 +243,23 @@ GM_REGISTER_DAY({
    "away": "O.Tanzilovi"
   },
   {
+   "id": "se-492292",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-11T03:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sao Paulo",
+   "away": "Vitoria"
+  },
+  {
    "id": "se-491384",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -256,6 +290,23 @@ GM_REGISTER_DAY({
    ],
    "home": "J.Walker",
    "away": "G.Meerschaert"
+  },
+  {
+   "id": "se-492291",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-11T03:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "River Plate",
+   "away": "Estudiantes"
   },
   {
    "id": "se-491185",

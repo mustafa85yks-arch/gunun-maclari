@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-09T22:10:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T03:43:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-10",
- "generatedAt": "2026-10-09T22:10:47+03:00",
+ "generatedAt": "2026-10-10T03:43:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -94,7 +94,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Shanghai"
+   "home": "C.U.Carabelli",
+   "away": "F.Auger Aliassime"
   },
   {
    "id": "se-491043",
@@ -112,6 +113,22 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-492287",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-10T09:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Y.Bu",
+   "away": "C.Ruud"
   },
   {
    "id": "se-491044",
@@ -287,6 +304,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "Karapınar Anadolu Leoparları"
+  },
+  {
+   "id": "se-492288",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-10T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Cerundolo",
+   "away": "C.Alcaraz"
   },
   {
    "id": "se-488938",
@@ -533,6 +566,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Nantes",
    "away": "Reims"
+  },
+  {
+   "id": "se-492289",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-10T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "S.Baez",
+   "away": "V.Vacherot"
   },
   {
    "id": "se-489749",
@@ -1195,6 +1244,23 @@ GM_REGISTER_DAY({
    "away": "Ferencvaros"
   },
   {
+   "id": "se-492294",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-10T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Leyma Coruna",
+   "away": "Zaragoza"
+  },
+  {
    "id": "se-487570",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -1292,6 +1358,23 @@ GM_REGISTER_DAY({
    "home": "Çayırova Bld.",
    "away": "Fenerbahçe Tarfin",
    "turkish": true
+  },
+  {
+   "id": "se-492293",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-10T20:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Unicaja Malaga",
+   "away": "MoraBanc Andorra"
   },
   {
    "id": "se-491070",
