@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T21:09:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-11T03:12:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-10T21:09:00+03:00",
+ "generatedAt": "2026-10-11T03:12:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -178,7 +178,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-16T20:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -194,8 +194,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-16T21:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -211,8 +210,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-16T21:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -244,8 +242,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-16T21:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -261,8 +258,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-16T21:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -310,13 +306,14 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-16T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "La Coruna",
+   "home": "Deportivo",
    "away": "Levante"
   }
  ]

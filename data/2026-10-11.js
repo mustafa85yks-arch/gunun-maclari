@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T21:09:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-11T03:12:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-10T21:09:00+03:00",
+ "generatedAt": "2026-10-11T03:12:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -513,7 +513,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Shanghai"
+   "home": "B.Shelton",
+   "away": "A.Gea"
   },
   {
    "id": "se-491046",
@@ -531,6 +532,22 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Endonezya GP"
+  },
+  {
+   "id": "se-492464",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-11T09:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "H.Hurkacz",
+   "away": "Y.Zhou"
   },
   {
    "id": "se-492157",
@@ -661,6 +678,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Ziraat Bankkart",
    "away": "Düzce Bld."
+  },
+  {
+   "id": "se-492465",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-11T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "Q.Halys"
   },
   {
    "id": "se-491056",
@@ -825,54 +858,6 @@ GM_REGISTER_DAY({
    "title": "İspanya"
   },
   {
-   "id": "se-488268",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-10-11T14:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bochum",
-   "away": "Arminia Bielefeld"
-  },
-  {
-   "id": "se-488269",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-10-11T14:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hertha Berlin",
-   "away": "Greuther Fürth"
-  },
-  {
-   "id": "se-488270",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-10-11T14:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "St.Pauli",
-   "away": "Karlsruhe"
-  },
-  {
    "id": "se-491706",
    "sport": "futbol",
    "competition": "TFF 3. Lig",
@@ -1034,6 +1019,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Buducnost",
    "away": "Sola HK"
+  },
+  {
+   "id": "se-492466",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-11T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.D.Fokina",
+   "away": "F.Tiafoe"
   },
   {
    "id": "se-489753",
@@ -1528,6 +1529,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Olimpia Milano",
    "away": "Delonghi Treviso"
+  },
+  {
+   "id": "se-492476",
+   "sport": "judo",
+   "competition": "Dünya Judo Şampiyonasi",
+   "competitionId": "dunya-judo-sampiyonasi",
+   "kickoff": "2026-10-11T17:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Azerbaycan"
   },
   {
    "id": "se-488222",
@@ -2067,6 +2083,23 @@ GM_REGISTER_DAY({
    "title": "Bank of America"
   },
   {
+   "id": "se-492467",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-11T23:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rosario Central",
+   "away": "Independiente Rivadavia"
+  },
+  {
    "id": "se-491068",
    "sport": "amerikan futbolu",
    "competition": "NFL",
@@ -2081,6 +2114,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Seattle Seahawks",
    "away": "SF 49ers"
+  },
+  {
+   "id": "se-492469",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-11T23:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Palmeiras",
+   "away": "Corinthians"
   }
  ]
 });

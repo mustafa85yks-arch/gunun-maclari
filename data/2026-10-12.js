@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-10T21:09:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-11T03:12:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-12",
- "generatedAt": "2026-10-10T21:09:00+03:00",
+ "generatedAt": "2026-10-11T03:12:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,40 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-492468",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-12T01:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Racing Club",
+   "away": "Belgrano"
+  },
+  {
+   "id": "se-492470",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-12T01:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bahia",
+   "away": "Mirassol"
+  },
   {
    "id": "se-491387",
    "sport": "basketbol",
@@ -90,6 +124,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492471",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T16:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pakhtakor",
+   "away": "Al Qadsiah"
+  },
+  {
    "id": "se-489755",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -106,6 +157,56 @@ GM_REGISTER_DAY({
    "home": "Galatasaray MCT Technic",
    "away": "Bursaspor",
    "turkish": true
+  },
+  {
+   "id": "se-492472",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Wasl",
+   "away": "Al Ahli"
+  },
+  {
+   "id": "se-492473",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T19:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 90"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tractor Sazi",
+   "away": "Al Shamal"
+  },
+  {
+   "id": "se-488306",
+   "sport": "futbol",
+   "competition": "İtalya Serie A",
+   "competitionId": "serie-a",
+   "kickoff": "2026-10-12T19:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atalanta",
+   "away": "Venezia"
   },
   {
    "id": "se-492088",
@@ -127,23 +228,6 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-488306",
-   "sport": "futbol",
-   "competition": "İtalya Serie A",
-   "competitionId": "serie-a",
-   "kickoff": "2026-10-12T19:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Atalanta",
-   "away": "Venezia"
-  },
-  {
    "id": "se-488945",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -159,6 +243,40 @@ GM_REGISTER_DAY({
    "home": "Eyüpspor",
    "away": "Göztepe",
    "turkish": true
+  },
+  {
+   "id": "se-492474",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T21:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Gharafa",
+   "away": "Esteghlal FC"
+  },
+  {
+   "id": "se-492475",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T21:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Nassr Riyadh",
+   "away": "Neftchi Fargona"
   },
   {
    "id": "se-488307",
