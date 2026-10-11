@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-11T04:15:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-11T13:43:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-11",
- "generatedAt": "2026-10-11T04:15:12+03:00",
+ "generatedAt": "2026-10-11T13:43:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -696,6 +696,25 @@ GM_REGISTER_DAY({
    "away": "Q.Halys"
   },
   {
+   "id": "se-492492",
+   "sport": "tenis",
+   "competition": "WTA Samsun Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-11T13:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ayla Aksu",
+   "away": "L.Stefanini",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-491056",
    "sport": "motosiklet",
    "competition": "Superbike",
@@ -873,6 +892,25 @@ GM_REGISTER_DAY({
    "home": "Karaköprü Bld.",
    "away": "Bitlis 1916 FK",
    "turkish": true
+  },
+  {
+   "id": "se-492490",
+   "sport": "tenis",
+   "competition": "WTA Pekin Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-11T14:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Q.Zheng",
+   "away": "M.Andreeva",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-492158",
