@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-11T18:13:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-11T21:33:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-14",
- "generatedAt": "2026-10-11T18:13:57+03:00",
+ "generatedAt": "2026-10-11T21:33:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -318,6 +318,54 @@ GM_REGISTER_DAY({
    "away": "Cluj Napoca"
   },
   {
+   "id": "se-491692",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-10-14T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valmiera Glass",
+   "away": "BC Kalev"
+  },
+  {
+   "id": "se-491691",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-10-14T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SCMU Craiova",
+   "away": "Sporting CP"
+  },
+  {
+   "id": "se-491690",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-10-14T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Promitheas",
+   "away": "Trier"
+  },
+  {
    "id": "se-491689",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -348,54 +396,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Neftchi IK",
    "away": "VEF Riga"
-  },
-  {
-   "id": "se-491690",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-10-14T19:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Promitheas",
-   "away": "Trier"
-  },
-  {
-   "id": "se-491691",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-10-14T19:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "SCMU Craiova",
-   "away": "Sporting CP"
-  },
-  {
-   "id": "se-491692",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-10-14T19:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Valmiera Glass",
-   "away": "BC Kalev"
   },
   {
    "id": "se-491686",
