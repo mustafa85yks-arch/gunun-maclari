@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T14:49:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T21:26:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-12",
- "generatedAt": "2026-10-12T14:49:11+03:00",
+ "generatedAt": "2026-10-12T21:26:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -168,6 +168,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492473",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T19:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 90"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tractor Sazi",
+   "away": "Al Shamal"
+  },
+  {
    "id": "se-492472",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi",
@@ -183,22 +199,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Wasl",
    "away": "Al Ahli"
-  },
-  {
-   "id": "se-492473",
-   "sport": "futbol",
-   "competition": "AFC Şampiyonlar Ligi",
-   "competitionId": "afc-sampiyonlar-ligi",
-   "kickoff": "2026-10-12T19:00:00+03:00",
-   "broadcasters": [
-    "D Smart Kanal 90"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Tractor Sazi",
-   "away": "Al Shamal"
   },
   {
    "id": "se-488306",
@@ -246,10 +246,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Eyüpspor",
    "away": "Göztepe",
@@ -308,6 +307,22 @@ GM_REGISTER_DAY({
    "away": "Udinese"
   },
   {
+   "id": "se-491444",
+   "sport": "futbol",
+   "competition": "İspanya La Liga 2",
+   "competitionId": "ispanya-la-liga-2",
+   "kickoff": "2026-10-12T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tenerife",
+   "away": "Girona"
+  },
+  {
    "id": "se-488225",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -324,22 +339,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Levante",
    "away": "Sevilla"
-  },
-  {
-   "id": "se-491444",
-   "sport": "futbol",
-   "competition": "İspanya La Liga 2",
-   "competitionId": "ispanya-la-liga-2",
-   "kickoff": "2026-10-12T22:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Tenerife",
-   "away": "Girona"
   },
   {
    "id": "se-487574",

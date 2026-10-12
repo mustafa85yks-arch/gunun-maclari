@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T14:49:13+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T21:26:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-12T14:49:13+03:00",
+ "generatedAt": "2026-10-12T21:26:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -145,21 +145,22 @@ GM_REGISTER_DAY({
    "away": "Hertha Berlin"
   },
   {
-   "id": "se-488946",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
+   "id": "se-490154",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-16T20:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "S Sport Plus",
+    "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
-   "home": "Çorum FK",
-   "away": "Ç.Rizespor",
-   "turkish": true
+   "home": "Zalgiris Kaunas",
+   "away": "Anadolu Efes"
   },
   {
    "id": "se-490153",
@@ -180,22 +181,21 @@ GM_REGISTER_DAY({
    "away": "Bayern Münih"
   },
   {
-   "id": "se-490154",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-488946",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
    "kickoff": "2026-10-16T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
+    "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
-   "home": "Zalgiris Kaunas",
-   "away": "Anadolu Efes"
+   "home": "Çorum FK",
+   "away": "Ç.Rizespor",
+   "turkish": true
   },
   {
    "id": "se-490155",

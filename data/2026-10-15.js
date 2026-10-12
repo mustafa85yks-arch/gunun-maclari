@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T14:49:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T21:26:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-15",
- "generatedAt": "2026-10-12T14:49:11+03:00",
+ "generatedAt": "2026-10-12T21:26:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -34,22 +34,6 @@ GM_REGISTER_DAY({
    "away": "Charleston"
   },
   {
-   "id": "se-491191",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-10-15T02:30:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Rhode Island",
-   "away": "Loudoun United"
-  },
-  {
    "id": "se-491399",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -64,6 +48,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Boston Celtics",
    "away": "Charlotte Hornets"
+  },
+  {
+   "id": "se-491191",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-10-15T02:30:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rhode Island",
+   "away": "Loudoun United"
   },
   {
    "id": "se-491400",
@@ -177,6 +177,21 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 1"
   },
   {
+   "id": "se-492548",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-15T12:05:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Etap 2"
+  },
+  {
    "id": "se-492220",
    "sport": "tenis",
    "competition": "ATP Shanghai Çeyrek Final",
@@ -190,6 +205,36 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 2"
+  },
+  {
+   "id": "se-492551",
+   "sport": "bisiklet",
+   "competition": "Dünya Pist Bisikleti Şampiyonasi",
+   "competitionId": "dunya-pist-bisikleti-sampiyonasi",
+   "kickoff": "2026-10-15T13:25:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
+   "id": "se-492549",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-15T14:20:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Etap 2"
   },
   {
    "id": "se-489789",
