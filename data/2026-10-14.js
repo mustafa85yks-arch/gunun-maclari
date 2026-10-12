@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T21:26:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T00:56:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-14",
- "generatedAt": "2026-10-12T21:26:38+03:00",
+ "generatedAt": "2026-10-13T00:56:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -167,11 +167,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-14T14:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Batman Petrol",
    "away": "İstanbulspor",
@@ -263,11 +264,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-14T17:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ümraniyespor",
    "away": "Boluspor",
@@ -478,7 +480,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-14T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -686,7 +688,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -702,6 +704,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T19:45:00+03:00",
    "broadcasters": [
+    "CBC Sport Youtube",
     "tabii Spor"
    ],
    "verification": "tek_kaynak",
@@ -718,8 +721,8 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-10-14T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
+    "tabii Spor 6",
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -736,12 +739,13 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-10-14T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
+    "TRT Türk",
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Antalyaspor",
    "away": "Kayserispor",
@@ -1015,7 +1019,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1047,7 +1051,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1063,7 +1067,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1079,7 +1083,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1095,7 +1100,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1111,7 +1116,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-14T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
