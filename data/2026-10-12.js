@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T04:46:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T14:49:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-12",
- "generatedAt": "2026-10-12T04:46:59+03:00",
+ "generatedAt": "2026-10-12T14:49:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -149,39 +149,6 @@ GM_REGISTER_DAY({
    "away": "Al Qadsiah"
   },
   {
-   "id": "se-492473",
-   "sport": "futbol",
-   "competition": "AFC Şampiyonlar Ligi",
-   "competitionId": "afc-sampiyonlar-ligi",
-   "kickoff": "2026-10-12T19:00:00+03:00",
-   "broadcasters": [
-    "D Smart Kanal 90"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Tractor Sazi",
-   "away": "Al Shamal"
-  },
-  {
-   "id": "se-492472",
-   "sport": "futbol",
-   "competition": "AFC Şampiyonlar Ligi",
-   "competitionId": "afc-sampiyonlar-ligi",
-   "kickoff": "2026-10-12T19:00:00+03:00",
-   "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Al Wasl",
-   "away": "Al Ahli"
-  },
-  {
    "id": "se-489755",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -201,6 +168,39 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492472",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Wasl",
+   "away": "Al Ahli"
+  },
+  {
+   "id": "se-492473",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-12T19:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 90"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tractor Sazi",
+   "away": "Al Shamal"
+  },
+  {
    "id": "se-488306",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -210,9 +210,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Atalanta",
    "away": "Venezia"
@@ -298,12 +299,47 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Torino",
+   "away": "Udinese"
+  },
+  {
+   "id": "se-488225",
+   "sport": "futbol",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
+   "kickoff": "2026-10-12T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Levante",
+   "away": "Sevilla"
+  },
+  {
+   "id": "se-491444",
+   "sport": "futbol",
+   "competition": "İspanya La Liga 2",
+   "competitionId": "ispanya-la-liga-2",
+   "kickoff": "2026-10-12T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Torino",
-   "away": "Udinese"
+   "home": "Tenerife",
+   "away": "Girona"
   },
   {
    "id": "se-487574",
@@ -323,37 +359,20 @@ GM_REGISTER_DAY({
    "away": "Newcastle"
   },
   {
-   "id": "se-491444",
-   "sport": "futbol",
-   "competition": "İspanya La Liga 2",
-   "competitionId": "ispanya-la-liga-2",
-   "kickoff": "2026-10-12T22:00:00+03:00",
+   "id": "se-492540",
+   "sport": "basketbol",
+   "competition": "Basketbol Hazirlik Maçi",
+   "competitionId": "basketbol-hazirlik-maci",
+   "kickoff": "2026-10-12T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Prime Video"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Tenerife",
-   "away": "Girona"
-  },
-  {
-   "id": "se-488225",
-   "sport": "futbol",
-   "competition": "İspanya La Liga",
-   "competitionId": "la-liga",
-   "kickoff": "2026-10-12T22:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Levante",
-   "away": "Sevilla"
+   "home": "Portland TB",
+   "away": "London Lions"
   }
  ]
 });

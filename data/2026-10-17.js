@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T04:47:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-12T14:49:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-12T04:47:02+03:00",
+ "generatedAt": "2026-10-12T14:49:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-10-17"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -474,9 +482,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Espanyol",
    "away": "Atletico Madrid"
@@ -555,9 +564,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Venezia",
    "away": "Napoli"
@@ -915,9 +925,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Villarreal",
    "away": "Elche"
@@ -1029,9 +1040,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Bologna",
    "away": "Inter"
@@ -1162,9 +1174,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Betis",
    "away": "Barcelona"
@@ -1291,9 +1304,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Roma",
    "away": "Genoa"
@@ -1323,9 +1337,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Valencia",
    "away": "Athletic Bilbao"
