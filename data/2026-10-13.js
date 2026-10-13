@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T00:56:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T05:32:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-13",
- "generatedAt": "2026-10-13T00:56:44+03:00",
+ "generatedAt": "2026-10-13T05:32:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -126,7 +126,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Shanghai"
+   "home": "A.De Minaur",
+   "away": "K.Khachanov"
   },
   {
    "id": "se-492589",
@@ -159,6 +160,22 @@ GM_REGISTER_DAY({
    ],
    "home": "H.Guo",
    "away": "S.Cirstea"
+  },
+  {
+   "id": "se-492630",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-13T09:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Gea",
+   "away": "J.Mensik"
   },
   {
    "id": "se-492588",
@@ -276,6 +293,38 @@ GM_REGISTER_DAY({
    "away": "Daejeon Citizen"
   },
   {
+   "id": "se-492618",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-13T13:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 90"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pohang",
+   "away": "Johor Darul"
+  },
+  {
+   "id": "se-492631",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-13T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "A.Bublik"
+  },
+  {
    "id": "se-490994",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -357,6 +406,22 @@ GM_REGISTER_DAY({
    "away": "PSV"
   },
   {
+   "id": "se-492632",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-13T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "H.Hurkacz",
+   "away": "A.D.Fokina"
+  },
+  {
    "id": "se-492535",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi",
@@ -421,6 +486,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Gonzalez/Campagnolo",
    "away": "Barahona/Albornoz"
+  },
+  {
+   "id": "se-492619",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-13T16:45:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 90"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "East Bengal",
+   "away": "Al Shorta"
   },
   {
    "id": "se-489783",
