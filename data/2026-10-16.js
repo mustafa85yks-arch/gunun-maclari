@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T14:37:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T19:38:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-13T14:37:02+03:00",
+ "generatedAt": "2026-10-13T19:38:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -86,6 +86,7 @@ GM_REGISTER_DAY({
    "competitionId": "suudi-arabistan-pro-lig",
    "kickoff": "2026-10-16T18:00:00+03:00",
    "broadcasters": [
+    "HT Spor",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

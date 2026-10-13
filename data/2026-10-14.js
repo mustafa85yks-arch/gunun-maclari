@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T14:36:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T19:38:41+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-14",
- "generatedAt": "2026-10-13T14:36:59+03:00",
+ "generatedAt": "2026-10-13T19:38:41+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -98,6 +98,22 @@ GM_REGISTER_DAY({
    "away": "Portland TB"
   },
   {
+   "id": "se-492649",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-14T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Frech",
+   "away": "I.Swiatek"
+  },
+  {
    "id": "se-492212",
    "sport": "tenis",
    "competition": "ATP Shanghai",
@@ -111,6 +127,54 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Shanghai"
+  },
+  {
+   "id": "se-492650",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-14T07:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Muchova",
+   "away": "C.McNally"
+  },
+  {
+   "id": "se-492651",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-14T09:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Ostapenko",
+   "away": "J.Pegula"
+  },
+  {
+   "id": "se-492654",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-14T10:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alcorisa/Jensen",
+   "away": "Moral/Goyeneche"
   },
   {
    "id": "se-492620",
@@ -142,6 +206,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Kadınlar Etap 1"
+  },
+  {
+   "id": "se-492655",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-14T12:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Marmolejo/Pereyra",
+   "away": "Stupaczuk/Sanz"
   },
   {
    "id": "se-492628",
@@ -210,6 +290,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492652",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-14T14:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Sabalenka",
+   "away": "A.Li"
+  },
+  {
    "id": "se-489785",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -227,6 +323,22 @@ GM_REGISTER_DAY({
    "home": "Batman Petrol",
    "away": "İstanbulspor",
    "turkish": true
+  },
+  {
+   "id": "se-492656",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-14T14:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Montes/Barrera",
+   "away": "Gallego/Araujo"
   },
   {
    "id": "se-489742",
@@ -259,6 +371,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Roma",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-492653",
+   "sport": "tenis",
+   "competition": "WTA Pekin",
+   "competitionId": "wta",
+   "kickoff": "2026-10-14T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "H.Shi",
+   "away": "L.Fernandez"
   },
   {
    "id": "se-492621",
@@ -322,6 +450,22 @@ GM_REGISTER_DAY({
    "home": "Aras Kargo",
    "away": "Galatasaray",
    "turkish": true
+  },
+  {
+   "id": "se-492657",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-14T16:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Ayats/Chamero"
   },
   {
    "id": "se-492622",
@@ -752,6 +896,22 @@ GM_REGISTER_DAY({
    "away": "Al Rayyan"
   },
   {
+   "id": "se-492658",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-14T19:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tello/Simo",
+   "away": "Gil/Valenzuela"
+  },
+  {
    "id": "se-491616",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -790,7 +950,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-europe-cup",
    "kickoff": "2026-10-14T19:30:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "HT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1080,6 +1240,22 @@ GM_REGISTER_DAY({
    "away": "Hapoel Holon"
   },
   {
+   "id": "se-492659",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-14T21:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Deus/Deus",
+   "away": "Chingotto/Galan"
+  },
+  {
    "id": "se-492626",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi 2",
@@ -1338,6 +1514,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lincoln City",
    "away": "West Ham"
+  },
+  {
+   "id": "se-492660",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-14T23:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Augsburger/Lebron",
+   "away": "Mourino/Quilez"
   }
  ]
 });
