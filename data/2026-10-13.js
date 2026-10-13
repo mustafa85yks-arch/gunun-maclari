@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T06:11:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T14:36:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-13",
- "generatedAt": "2026-10-13T06:11:30+03:00",
+ "generatedAt": "2026-10-13T14:36:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1051,7 +1051,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-13T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
