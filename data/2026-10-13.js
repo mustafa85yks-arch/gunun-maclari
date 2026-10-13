@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T19:38:39+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T23:00:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-13",
- "generatedAt": "2026-10-13T19:38:39+03:00",
+ "generatedAt": "2026-10-13T23:00:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -740,6 +740,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-13T20:00:00+03:00",
    "broadcasters": [
     "tabii Spor 6",
+    "TRT Kurdi",
     "beIN SPORTS 2"
    ],
    "verification": "dogrulandi",
