@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-13T23:00:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-14T03:15:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-14",
- "generatedAt": "2026-10-13T23:00:30+03:00",
+ "generatedAt": "2026-10-14T03:15:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -126,7 +126,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Shanghai"
+   "home": "B.Van de Zandschulp",
+   "away": "R.Jodar"
   },
   {
    "id": "se-492650",
@@ -159,6 +160,22 @@ GM_REGISTER_DAY({
    ],
    "home": "J.Ostapenko",
    "away": "J.Pegula"
+  },
+  {
+   "id": "se-492678",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-14T09:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Ruud",
+   "away": "F.Auger Aliassime"
   },
   {
    "id": "se-492654",
@@ -256,6 +273,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Vissel Kobe",
    "away": "Jeonbuk"
+  },
+  {
+   "id": "se-492679",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-14T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Medvedev",
+   "away": "S.Tsitsipas"
   },
   {
    "id": "se-492550",
@@ -387,6 +420,22 @@ GM_REGISTER_DAY({
    ],
    "home": "H.Shi",
    "away": "L.Fernandez"
+  },
+  {
+   "id": "se-492680",
+   "sport": "tenis",
+   "competition": "ATP Shanghai",
+   "competitionId": "atp",
+   "kickoff": "2026-10-14T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Paul",
+   "away": "Z.Bergs"
   },
   {
    "id": "se-492621",
