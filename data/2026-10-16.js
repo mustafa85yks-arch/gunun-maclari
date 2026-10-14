@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-14T21:15:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T02:53:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-14T21:15:14+03:00",
+ "generatedAt": "2026-10-15T02:53:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -146,24 +146,6 @@ GM_REGISTER_DAY({
    "away": "Hertha Berlin"
   },
   {
-   "id": "se-490154",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-16T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Zalgiris Kaunas",
-   "away": "Anadolu Efes"
-  },
-  {
    "id": "se-490153",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -199,6 +181,24 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490154",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-16T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Zalgiris Kaunas",
+   "away": "Anadolu Efes"
+  },
+  {
    "id": "se-490155",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -231,10 +231,10 @@ GM_REGISTER_DAY({
    "away": "Hapoel Tel Aviv"
   },
   {
-   "id": "se-488235",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
+   "id": "se-490158",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-16T21:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -243,8 +243,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Eintracht Frankfurt",
-   "away": "Köln"
+   "home": "Virtus Bologna",
+   "away": "Baskonia"
   },
   {
    "id": "se-490157",
@@ -263,10 +263,10 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-490158",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-488235",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
    "kickoff": "2026-10-16T21:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -275,8 +275,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Virtus Bologna",
-   "away": "Baskonia"
+   "home": "Eintracht Frankfurt",
+   "away": "Köln"
   },
   {
    "id": "se-487518",

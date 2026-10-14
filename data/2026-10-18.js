@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-14T21:15:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T02:53:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-14T21:15:17+03:00",
+ "generatedAt": "2026-10-15T02:53:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -96,6 +96,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Tampa Bay Rowdies",
    "away": "Detroit"
+  },
+  {
+   "id": "se-492780",
+   "sport": "basketbol",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-10-18T02:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brigham Young",
+   "away": "Notre Dame"
   },
   {
    "id": "se-491197",
@@ -459,6 +475,74 @@ GM_REGISTER_DAY({
    "away": "Bilbao Basket"
   },
   {
+   "id": "se-492750",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-18T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adana 01 FK",
+   "away": "Karacabey Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-492751",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-18T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aksaray Bld.",
+   "away": "Adana Demirspor",
+   "turkish": true
+  },
+  {
+   "id": "se-492752",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-18T14:30:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehir Anadolu Spor",
+   "away": "Gemlik Sümerbey",
+   "turkish": true
+  },
+  {
+   "id": "se-492753",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-18T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kırşehirspor",
+   "away": "Niğde Bld.",
+   "turkish": true
+  },
+  {
    "id": "se-491099",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
@@ -526,19 +610,21 @@ GM_REGISTER_DAY({
    "title": "İspanya Yarış 2"
   },
   {
-   "id": "se-492240",
-   "sport": "plaj voleybolu",
-   "competition": "World Beach Pro Tour",
-   "competitionId": "world-beach-pro-tour",
+   "id": "se-492754",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
    "kickoff": "2026-10-18T15:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Tivibu Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Kadınlar Finali"
+   "home": "Beyoğlu Yeni Çarşı",
+   "away": "Sakaryaspor",
+   "turkish": true
   },
   {
    "id": "se-489761",
@@ -743,6 +829,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492240",
+   "sport": "plaj voleybolu",
+   "competition": "World Beach Pro Tour",
+   "competitionId": "world-beach-pro-tour",
+   "kickoff": "2026-10-18T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler/Kadınlar Finali"
+  },
+  {
    "id": "se-488242",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -836,21 +937,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Nilüfer Bld.",
    "away": "Runar"
-  },
-  {
-   "id": "se-492241",
-   "sport": "plaj voleybolu",
-   "competition": "World Beach Pro Tour",
-   "competitionId": "world-beach-pro-tour",
-   "kickoff": "2026-10-18T17:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Erkekler Final/Ödül Töreni"
   },
   {
    "id": "se-492243",
@@ -1132,6 +1218,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Arkas",
    "away": "Ziraat Bankkart"
+  },
+  {
+   "id": "se-492755",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-18T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Somaspor",
+   "away": "Aliağa FK",
+   "turkish": true
+  },
+  {
+   "id": "se-492756",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-18T19:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bozokspor",
+   "away": "Erciyes 38 FK",
+   "turkish": true
   },
   {
    "id": "se-491125",

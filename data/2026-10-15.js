@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-14T21:15:13+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T02:53:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-15",
- "generatedAt": "2026-10-14T21:15:13+03:00",
+ "generatedAt": "2026-10-15T02:53:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -162,6 +162,38 @@ GM_REGISTER_DAY({
    "away": "Denver Nuggets"
   },
   {
+   "id": "se-492721",
+   "sport": "tenis",
+   "competition": "WTA Wuhan",
+   "competitionId": "wta",
+   "kickoff": "2026-10-15T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Muchova",
+   "away": "D.Shnaider"
+  },
+  {
+   "id": "se-492722",
+   "sport": "tenis",
+   "competition": "WTA Wuhan",
+   "competitionId": "wta",
+   "kickoff": "2026-10-15T07:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Svitolina",
+   "away": "H.Guo"
+  },
+  {
    "id": "se-492219",
    "sport": "tenis",
    "competition": "ATP Shanghai Çeyrek Final",
@@ -174,7 +206,40 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "A.Gea",
+   "away": "A.D.Fokina"
+  },
+  {
+   "id": "se-492723",
+   "sport": "tenis",
+   "competition": "WTA Wuhan",
+   "competitionId": "wta",
+   "kickoff": "2026-10-15T10:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Fernandez",
+   "away": "J.Ostapenko"
+  },
+  {
+   "id": "se-492735",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-15T10:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Martinez/Gomez",
+   "away": "Prieto/Fallada"
   },
   {
    "id": "se-492548",
@@ -192,6 +257,22 @@ GM_REGISTER_DAY({
    "title": "Kadınlar Etap 2"
   },
   {
+   "id": "se-492736",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-15T12:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Sanchez/Paredes"
+  },
+  {
    "id": "se-492220",
    "sport": "tenis",
    "competition": "ATP Shanghai Çeyrek Final",
@@ -204,7 +285,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "A.Zverev",
+   "away": "A.De Minaur"
   },
   {
    "id": "se-492701",
@@ -256,6 +338,22 @@ GM_REGISTER_DAY({
    "title": "Gün 2"
   },
   {
+   "id": "se-492724",
+   "sport": "tenis",
+   "competition": "WTA Wuhan",
+   "competitionId": "wta",
+   "kickoff": "2026-10-15T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Krueger",
+   "away": "I.Swiatek"
+  },
+  {
    "id": "se-492549",
    "sport": "bisiklet",
    "competition": "Eneco Bisiklet Turu",
@@ -269,6 +367,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Erkekler Etap 2"
+  },
+  {
+   "id": "se-492737",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-15T14:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Garcia/Granados",
+   "away": "Stupaczuk/Sanz"
   },
   {
    "id": "se-492703",
@@ -305,6 +419,38 @@ GM_REGISTER_DAY({
    "away": "Shanghai Shenhua"
   },
   {
+   "id": "se-492725",
+   "sport": "tenis",
+   "competition": "WTA Wuhan",
+   "competitionId": "wta",
+   "kickoff": "2026-10-15T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Li",
+   "away": "J.Tjen"
+  },
+  {
+   "id": "se-492738",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-15T16:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Casas/Arroyo"
+  },
+  {
    "id": "se-489789",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -322,6 +468,22 @@ GM_REGISTER_DAY({
    "home": "Mardin 1969",
    "away": "Karagümrük",
    "turkish": true
+  },
+  {
+   "id": "se-492739",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-15T19:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ortiz/Segador",
+   "away": "Martin/Fernandez"
   },
   {
    "id": "se-487297",
@@ -492,21 +654,20 @@ GM_REGISTER_DAY({
    "away": "Partizan"
   },
   {
-   "id": "se-492218",
-   "sport": "futbol",
-   "competition": "Suudi Arabistan Pro Lig",
-   "competitionId": "suudi-arabistan-pro-lig",
+   "id": "se-492740",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
    "kickoff": "2026-10-15T21:00:00+03:00",
    "broadcasters": [
-    "HT Spor",
-    "S Sport Plus"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Al Ahli",
-   "away": "Al Nassr"
+   "home": "Augsburger/Lebron",
+   "away": "Alonso/Lacabe"
   },
   {
    "id": "se-490150",
@@ -685,6 +846,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Madrid",
    "away": "Asvel Villeurbanne"
+  },
+  {
+   "id": "se-492741",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-15T23:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gil/Valenzuela",
+   "away": "Chingotto/Galan"
   }
  ]
 });
