@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-14T04:23:29+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-14T12:24:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-14",
- "generatedAt": "2026-10-14T04:23:29+03:00",
+ "generatedAt": "2026-10-14T12:24:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -291,6 +291,23 @@ GM_REGISTER_DAY({
    "away": "S.Tsitsipas"
   },
   {
+   "id": "se-492710",
+   "sport": "futbol",
+   "competition": "TFF Elit U16 Ligi",
+   "competitionId": "tff-elit-u16-ligi",
+   "kickoff": "2026-10-14T13:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Fatih Karagümrük",
+   "turkish": true
+  },
+  {
    "id": "se-492550",
    "sport": "bisiklet",
    "competition": "Dünya Pist Bisikleti Şampiyonasi",
@@ -348,10 +365,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Batman Petrol",
    "away": "İstanbulspor",
@@ -543,10 +559,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ümraniyespor",
    "away": "Boluspor",
@@ -591,7 +606,7 @@ GM_REGISTER_DAY({
    "competitionId": "hentbol-erkekler-super-ligi",
    "kickoff": "2026-10-14T17:00:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -706,7 +721,7 @@ GM_REGISTER_DAY({
    "competitionId": "sultanlar-ligi",
    "kickoff": "2026-10-14T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "FB TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1085,10 +1100,9 @@ GM_REGISTER_DAY({
     "TRT Türk",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Antalyaspor",
    "away": "Kayserispor",
@@ -1133,7 +1147,7 @@ GM_REGISTER_DAY({
    "competitionId": "eurocup",
    "kickoff": "2026-10-14T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1523,7 +1537,7 @@ GM_REGISTER_DAY({
    "competitionId": "eurocup",
    "kickoff": "2026-10-14T22:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
