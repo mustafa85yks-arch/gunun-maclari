@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T20:58:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T02:40:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-20",
- "generatedAt": "2026-10-15T20:58:04+03:00",
+ "generatedAt": "2026-10-16T02:40:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-492861",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-10-20T03:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SF 49ers",
+   "away": "Washington Commanders"
+  },
   {
    "id": "se-491000",
    "sport": "futbol",
@@ -138,6 +154,22 @@ GM_REGISTER_DAY({
    "away": "Legia Varşova"
   },
   {
+   "id": "se-492862",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-20T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Nassr",
+   "away": "Neom"
+  },
+  {
    "id": "se-491453",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
@@ -248,6 +280,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Stuttgart",
    "away": "Atletico Madrid"
+  },
+  {
+   "id": "se-492819",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-20T22:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Detroit Pistons",
+   "away": "Boston Celtics"
   }
  ]
 });

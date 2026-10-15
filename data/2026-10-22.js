@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T20:58:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T02:40:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-22",
- "generatedAt": "2026-10-15T20:58:04+03:00",
+ "generatedAt": "2026-10-16T02:40:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -388,6 +388,22 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
+   "id": "se-491800",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-10-22T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NK Celje",
+   "away": "Salzburg"
+  },
+  {
    "id": "se-491807",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
@@ -498,22 +514,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Celtic",
    "away": "Celta Vigo"
-  },
-  {
-   "id": "se-491800",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-10-22T22:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NK Celje",
-   "away": "Salzburg"
   },
   {
    "id": "se-491799",
