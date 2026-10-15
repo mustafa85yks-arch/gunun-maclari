@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T12:03:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T16:49:59+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-15T12:03:36+03:00",
+ "generatedAt": "2026-10-15T16:49:59+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -193,11 +193,13 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-10-16T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Karşıyaka",
    "away": "Çayırova Bld.",
@@ -305,6 +307,22 @@ GM_REGISTER_DAY({
    "away": "Paris"
   },
   {
+   "id": "se-492811",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-10-16T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenix Toulouse",
+   "away": "St.Raphael"
+  },
+  {
    "id": "se-490156",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -375,11 +393,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-16T21:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Le Mans",
    "away": "Toulouse"

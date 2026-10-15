@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T12:03:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T16:50:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-19",
- "generatedAt": "2026-10-15T12:03:40+03:00",
+ "generatedAt": "2026-10-15T16:50:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -51,7 +51,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-19T17:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -69,7 +69,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-19T17:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -141,7 +141,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-19T20:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -159,7 +159,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-19T20:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -203,13 +203,29 @@ GM_REGISTER_DAY({
    "away": "Torino"
   },
   {
+   "id": "se-492810",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-10-19T21:45:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rodez",
+   "away": "Montpellier"
+  },
+  {
    "id": "se-487584",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
    "competitionId": "premier-league",
    "kickoff": "2026-10-19T22:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
