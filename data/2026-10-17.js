@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T03:52:06+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T12:03:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-15T03:52:06+03:00",
+ "generatedAt": "2026-10-15T12:03:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -325,6 +325,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492789",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-17T13:35:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Etap 4"
+  },
+  {
    "id": "se-488275",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -604,6 +619,21 @@ GM_REGISTER_DAY({
    "home": "Bursaspor",
    "away": "Bahçeşehir Klj",
    "turkish": true
+  },
+  {
+   "id": "se-492790",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-17T15:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Etap 4"
   },
   {
    "id": "se-488309",

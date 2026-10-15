@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T03:52:07+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T12:03:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-15T03:52:07+03:00",
+ "generatedAt": "2026-10-15T12:03:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -306,6 +306,21 @@ GM_REGISTER_DAY({
    "away": "M.Malott"
   },
   {
+   "id": "se-492791",
+   "sport": "atletizm",
+   "competition": "Şehir Maratonu",
+   "competitionId": "sehir-maratonu",
+   "kickoff": "2026-10-18T09:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Amsterdam"
+  },
+  {
    "id": "se-492081",
    "sport": "voleybol",
    "competition": "TVF Erkekler 1. Lig",
@@ -475,6 +490,21 @@ GM_REGISTER_DAY({
    "away": "Bilbao Basket"
   },
   {
+   "id": "se-492792",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-18T13:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Etap 5"
+  },
+  {
    "id": "se-492750",
    "sport": "futbol",
    "competition": "TFF 2. Lig",
@@ -642,6 +672,21 @@ GM_REGISTER_DAY({
    "home": "Fenerbahçe Tarfin",
    "away": "Petkimspor",
    "turkish": true
+  },
+  {
+   "id": "se-492793",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-18T15:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Etap 5"
   },
   {
    "id": "se-487522",
@@ -907,6 +952,21 @@ GM_REGISTER_DAY({
    "away": "Houston Texans"
   },
   {
+   "id": "se-492794",
+   "sport": "bisiklet",
+   "competition": "Veneto Klasik Bisiklet Turu",
+   "competitionId": "veneto-klasik-bisiklet-turu",
+   "kickoff": "2026-10-18T16:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İtalya"
+  },
+  {
    "id": "se-491311",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -1020,6 +1080,21 @@ GM_REGISTER_DAY({
    "home": "Eczacibasi",
    "away": "Vakifbank",
    "turkish": true
+  },
+  {
+   "id": "se-492795",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-18T18:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 1"
   },
   {
    "id": "se-487523",
@@ -1338,6 +1413,21 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
+  },
+  {
+   "id": "se-492796",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-18T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "1'inci Tur"
   },
   {
    "id": "se-487526",

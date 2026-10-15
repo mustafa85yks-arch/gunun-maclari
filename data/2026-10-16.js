@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T03:52:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T12:03:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-15T03:52:05+03:00",
+ "generatedAt": "2026-10-15T12:03:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -50,6 +50,21 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
+   "id": "se-492799",
+   "sport": "bisiklet",
+   "competition": "Dünya Pist Bisikleti Şampiyonasi",
+   "competitionId": "dunya-pist-bisikleti-sampiyonasi",
+   "kickoff": "2026-10-16T08:25:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 5"
+  },
+  {
    "id": "se-492221",
    "sport": "tenis",
    "competition": "ATP Shanghai Çeyrek Final",
@@ -65,6 +80,66 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 3"
   },
   {
+   "id": "se-492787",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-16T11:25:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Etap 3"
+  },
+  {
+   "id": "se-492797",
+   "sport": "bisiklet",
+   "competition": "Dünya Pist Bisikleti Şampiyonasi",
+   "competitionId": "dunya-pist-bisikleti-sampiyonasi",
+   "kickoff": "2026-10-16T11:55:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
+   "id": "se-492798",
+   "sport": "bisiklet",
+   "competition": "Dünya Pist Bisikleti Şampiyonasi",
+   "competitionId": "dunya-pist-bisikleti-sampiyonasi",
+   "kickoff": "2026-10-16T12:25:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4"
+  },
+  {
+   "id": "se-492800",
+   "sport": "motor sporları",
+   "competition": "Dünya Dayaniklilik Şampiyonasi",
+   "competitionId": "dunya-dayaniklilik-sampiyonasi",
+   "kickoff": "2026-10-16T12:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "6 Saat Barcelona"
+  },
+  {
    "id": "se-492222",
    "sport": "tenis",
    "competition": "ATP Shanghai Çeyrek Final",
@@ -78,6 +153,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 4"
+  },
+  {
+   "id": "se-492788",
+   "sport": "bisiklet",
+   "competition": "Eneco Bisiklet Turu",
+   "competitionId": "eneco-bisiklet-turu",
+   "kickoff": "2026-10-16T15:20:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Etap 3"
   },
   {
    "id": "se-492226",
@@ -146,6 +236,24 @@ GM_REGISTER_DAY({
    "away": "Hertha Berlin"
   },
   {
+   "id": "se-490154",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-16T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Zalgiris Kaunas",
+   "away": "Anadolu Efes"
+  },
+  {
    "id": "se-490153",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -179,24 +287,6 @@ GM_REGISTER_DAY({
    "home": "Çorum FK",
    "away": "Ç.Rizespor",
    "turkish": true
-  },
-  {
-   "id": "se-490154",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-16T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Zalgiris Kaunas",
-   "away": "Anadolu Efes"
   },
   {
    "id": "se-490155",
