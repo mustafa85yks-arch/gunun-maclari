@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T16:50:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T20:58:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-21",
- "generatedAt": "2026-10-15T16:50:11+03:00",
+ "generatedAt": "2026-10-15T20:58:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,42 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-492820",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-21T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "New York Knicks",
+   "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-492821",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-21T04:30:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SA Spurs",
+   "away": "OKC Thunder"
+  },
   {
    "id": "se-491001",
    "sport": "futbol",
@@ -129,7 +165,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-21T21:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [

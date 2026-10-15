@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T16:50:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-15T20:58:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-22",
- "generatedAt": "2026-10-15T16:50:11+03:00",
+ "generatedAt": "2026-10-15T20:58:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -40,6 +40,106 @@ GM_REGISTER_DAY({
    ],
    "home": "Sporting Jax",
    "away": "Louisville City"
+  },
+  {
+   "id": "se-492822",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-22T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Toronto Raptors",
+   "away": "Chicago Bulls"
+  },
+  {
+   "id": "se-492823",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-22T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Miami Heat",
+   "away": "Minnesota TW"
+  },
+  {
+   "id": "se-492824",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-22T02:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brooklyn Nets",
+   "away": "Charlotte Hornets"
+  },
+  {
+   "id": "se-492825",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-22T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Portland TB",
+   "away": "Phoenix Suns"
+  },
+  {
+   "id": "se-492826",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-22T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Lakers",
+   "away": "GS Warriors"
+  },
+  {
+   "id": "se-492827",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-22T05:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Clippers",
+   "away": "Sacramento Kings"
   },
   {
    "id": "se-491853",
