@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T20:46:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T02:29:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-20",
- "generatedAt": "2026-10-16T20:46:05+03:00",
+ "generatedAt": "2026-10-17T02:29:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -58,6 +58,22 @@ GM_REGISTER_DAY({
    "away": "AEK Athens"
   },
   {
+   "id": "se-492264",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
+   "kickoff": "2026-10-20T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA Şampiyonlar Ligi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Falco Szombathely",
+   "away": "Salon Vilpas"
+  },
+  {
    "id": "se-492263",
    "sport": "basketbol",
    "competition": "FIBA Şampiyonlar Ligi",
@@ -74,20 +90,20 @@ GM_REGISTER_DAY({
    "away": "Unicaja Malaga"
   },
   {
-   "id": "se-492264",
-   "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
+   "id": "se-493020",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
    "kickoff": "2026-10-20T19:00:00+03:00",
    "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Falco Szombathely",
-   "away": "Salon Vilpas"
+   "home": "Fenerbahçe Medicana",
+   "away": "Eczacibasi"
   },
   {
    "id": "se-491451",
@@ -138,22 +154,6 @@ GM_REGISTER_DAY({
    "away": "Strasbourg"
   },
   {
-   "id": "se-492265",
-   "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
-   "kickoff": "2026-10-20T21:00:00+03:00",
-   "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "BC Cibona",
-   "away": "Legia Varşova"
-  },
-  {
    "id": "se-492862",
    "sport": "futbol",
    "competition": "Suudi Arabistan Pro Lig",
@@ -168,6 +168,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Nassr",
    "away": "Neom"
+  },
+  {
+   "id": "se-492265",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
+   "kickoff": "2026-10-20T21:00:00+03:00",
+   "broadcasters": [
+    "FIBA Şampiyonlar Ligi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "BC Cibona",
+   "away": "Legia Varşova"
   },
   {
    "id": "se-491453",

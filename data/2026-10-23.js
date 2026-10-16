@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T20:46:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T02:29:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-16T20:46:05+03:00",
+ "generatedAt": "2026-10-17T02:29:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -170,6 +170,22 @@ GM_REGISTER_DAY({
    "away": "OGM Orman"
   },
   {
+   "id": "se-492083",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 1. Lig",
+   "competitionId": "tvf-erkekler-1-lig",
+   "kickoff": "2026-10-23T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Arkas"
+  },
+  {
    "id": "se-489764",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -185,22 +201,6 @@ GM_REGISTER_DAY({
    "home": "Çayırova Bld.",
    "away": "Bursaspor",
    "turkish": true
-  },
-  {
-   "id": "se-492083",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 1. Lig",
-   "competitionId": "tvf-erkekler-1-lig",
-   "kickoff": "2026-10-23T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Arkas"
   },
   {
    "id": "se-488280",
@@ -251,21 +251,21 @@ GM_REGISTER_DAY({
    "away": "Spor Toto SK"
   },
   {
-   "id": "se-490166",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-488955",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
    "kickoff": "2026-10-23T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Zalgiris Kaunas",
-   "away": "Asvel Villeurbanne"
+   "home": "Alanyaspor",
+   "away": "Kocaelispor",
+   "turkish": true
   },
   {
    "id": "se-489802",
@@ -286,21 +286,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-488955",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
+   "id": "se-490166",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-23T20:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 2"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Alanyaspor",
-   "away": "Kocaelispor",
-   "turkish": true
+   "home": "Zalgiris Kaunas",
+   "away": "Asvel Villeurbanne"
   },
   {
    "id": "se-488478",
@@ -430,6 +430,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Alaves",
    "away": "Malaga"
+  },
+  {
+   "id": "se-493035",
+   "sport": "basketbol",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
+   "kickoff": "2026-10-23T23:10:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Defensor Sporting",
+   "away": "Obera"
   }
  ]
 });

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T20:45:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T02:29:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-16T20:45:58+03:00",
+ "generatedAt": "2026-10-17T02:29:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -68,7 +68,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-491410",
    "sport": "basketbol",
-   "competition": "NBA Preseason  BasketbolOyna",
+   "competition": "NBA Preseason",
    "competitionId": "nba",
    "kickoff": "2026-10-17T02:00:00+03:00",
    "broadcasters": [
@@ -115,6 +115,22 @@ GM_REGISTER_DAY({
    "away": "Internacional"
   },
   {
+   "id": "se-493030",
+   "sport": "basketbol",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
+   "kickoff": "2026-10-17T02:10:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brasilia",
+   "away": "San Jose"
+  },
+  {
    "id": "se-491412",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -133,7 +149,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-491413",
    "sport": "basketbol",
-   "competition": "NBA Preseason  BasketbolOyna",
+   "competition": "NBA Preseason",
    "competitionId": "nba",
    "kickoff": "2026-10-17T03:00:00+03:00",
    "broadcasters": [
@@ -260,6 +276,21 @@ GM_REGISTER_DAY({
    "away": "Denver Nuggets"
   },
   {
+   "id": "se-493025",
+   "sport": "basketbol",
+   "competition": "FIBA 3x3 Dünya Turu",
+   "competitionId": "fiba-3x3-dunya-turu",
+   "kickoff": "2026-10-17T09:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Seans 1"
+  },
+  {
    "id": "se-489922",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -288,9 +319,96 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "home": "A.Zverev",
+   "away": "A.D.Fokina",
    "tags": [
     "yari-final"
+   ]
+  },
+  {
+   "id": "se-493041",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-10-17T11:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sydney Kings",
+   "away": "Perth Wildcats"
+  },
+  {
+   "id": "se-493045",
+   "sport": "tenis",
+   "competition": "WTA Wuhan Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-17T12:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sonay Kartal",
+   "away": "J.Ostapenko",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-492996",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T12:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bahçeşehir Klj",
+   "away": "Tofaş"
+  },
+  {
+   "id": "se-492997",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T12:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bursaspor",
+   "away": "Körfez Basket"
+  },
+  {
+   "id": "se-492998",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T12:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Beşiktaş",
+   "tags": [
+    "derbi"
    ]
   },
   {
@@ -328,22 +446,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489923",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
-   "kickoff": "2026-10-17T13:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Maliye Voleybol",
-   "away": "ÜRGÜP SPOR"
-  },
-  {
    "id": "se-488947",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -362,6 +464,25 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-493046",
+   "sport": "tenis",
+   "competition": "WTA Wuhan Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-17T13:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "I.Swiatek",
+   "away": "M.Chwalinska",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-492789",
    "sport": "bisiklet",
    "competition": "Eneco Bisiklet Turu",
@@ -375,6 +496,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Kadınlar Etap 4"
+  },
+  {
+   "id": "se-493026",
+   "sport": "basketbol",
+   "competition": "FIBA 3x3 Dünya Turu",
+   "competitionId": "fiba-3x3-dunya-turu",
+   "kickoff": "2026-10-17T13:40:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Seans 2"
   },
   {
    "id": "se-488275",
@@ -426,6 +562,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-490009",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-17T14:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sultanbeyli Bld.",
+   "away": "Alanya Bld.",
+   "turkish": true
+  },
+  {
    "id": "se-490668",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -470,7 +623,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 2",
+   "home": "R.Jodar",
+   "away": "D.Medvedev",
    "tags": [
     "yari-final"
    ]
@@ -642,6 +796,102 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492999",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çayırova Bld.",
+   "away": "Bandırma Bordo"
+  },
+  {
+   "id": "se-493000",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Tarfin",
+   "away": "Karşıyaka"
+  },
+  {
+   "id": "se-493001",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Esenler Erokspor",
+   "away": "Denizli Basket"
+  },
+  {
+   "id": "se-493042",
+   "sport": "basketbol",
+   "competition": "Çin CBA Basketbol Ligi",
+   "competitionId": "cin-cba-basketbol-ligi",
+   "kickoff": "2026-10-17T15:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Xinjiang",
+   "away": "Qingdao"
+  },
+  {
+   "id": "se-493047",
+   "sport": "padel",
+   "competition": "Premier Padel Çeyrek Final",
+   "competitionId": "premier-padel-ceyrek-final",
+   "kickoff": "2026-10-17T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Prieto/Fallada"
+  },
+  {
+   "id": "se-493062",
+   "sport": "rugby",
+   "competition": "Korumali Futbol Avrupa Şampiyonasi",
+   "competitionId": "korumali-futbol-avrupa-sampiyonasi",
+   "kickoff": "2026-10-17T15:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Belçika"
+  },
+  {
    "id": "se-489758",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -777,23 +1027,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Halkbank",
    "away": "Galatasaray",
-   "turkish": true
-  },
-  {
-   "id": "se-490009",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-10-17T16:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sultanbeyli Bld.",
-   "away": "Alanya Bld.",
    "turkish": true
   },
   {
@@ -1029,7 +1262,7 @@ GM_REGISTER_DAY({
    "competitionId": "hentbol-erkekler-ehf-avrupa-kupasi",
    "kickoff": "2026-10-17T17:00:00+03:00",
    "broadcasters": [
-    "EHF TV"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1037,6 +1270,70 @@ GM_REGISTER_DAY({
    ],
    "home": "Beşiktaş",
    "away": "Aon Fivers"
+  },
+  {
+   "id": "se-492993",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-17T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Titan Akademi",
+   "away": "İstanbul BB"
+  },
+  {
+   "id": "se-492994",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-17T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manisa BB",
+   "away": "Kütahya Bld."
+  },
+  {
+   "id": "se-492995",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-10-17T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karatay Bld.",
+   "away": "Çorlu Bld."
+  },
+  {
+   "id": "se-493048",
+   "sport": "padel",
+   "competition": "Premier Padel Çeyrek Final",
+   "competitionId": "premier-padel-ceyrek-final",
+   "kickoff": "2026-10-17T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Stupaczuk/Sanz"
   },
   {
    "id": "se-491120",
@@ -1055,6 +1352,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Villarreal",
    "away": "Elche"
+  },
+  {
+   "id": "se-493002",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T17:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türk Telekom",
+   "away": "Petkimspor"
+  },
+  {
+   "id": "se-493003",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-17T17:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Anadolu Efes",
+   "away": "Galatasaray"
   },
   {
    "id": "se-489759",
@@ -1146,9 +1475,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Strasbourg",
    "away": "PSG"
@@ -1349,13 +1679,63 @@ GM_REGISTER_DAY({
    "competitionId": "gt-world-challenge",
    "kickoff": "2026-10-17T19:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN CONNECT",
+    "Red Bull TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "title": "Yarış"
+  },
+  {
+   "id": "se-492988",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-17T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manresa",
+   "away": "Unicaja Malaga"
+  },
+  {
+   "id": "se-493049",
+   "sport": "padel",
+   "competition": "Premier Padel Çeyrek Final",
+   "competitionId": "premier-padel-ceyrek-final",
+   "kickoff": "2026-10-17T19:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sanchez/Santamaria",
+   "away": "Martin/Fernandez"
+  },
+  {
+   "id": "se-493050",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA Amerikan Futbolu",
+   "competitionId": "ncaa-amerikan-futbolu",
+   "kickoff": "2026-10-17T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Texas Longhorns",
+   "away": "Florida Gators"
   },
   {
    "id": "se-487579",
@@ -1438,8 +1818,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "P.Kincl",
-   "away": "D.Hamburger"
+   "home": "D.Skvor",
+   "away": "T.Narkun"
   },
   {
    "id": "se-492812",
@@ -1523,6 +1903,22 @@ GM_REGISTER_DAY({
    "away": "St. Etienne"
   },
   {
+   "id": "se-493061",
+   "sport": "padel",
+   "competition": "Premier Padel Çeyrek Final",
+   "competitionId": "premier-padel-ceyrek-final",
+   "kickoff": "2026-10-17T21:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Augsburger/Lebron",
+   "away": "Chingotto/Galan"
+  },
+  {
    "id": "se-492136",
    "sport": "basketbol",
    "competition": "Fransa Basketbol Ligi LNB",
@@ -1547,9 +1943,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lille",
    "away": "Brest"
@@ -1636,6 +2033,39 @@ GM_REGISTER_DAY({
    ],
    "home": "Dundee FC",
    "away": "Glasgow Rangers"
+  },
+  {
+   "id": "se-492989",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-17T22:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SP Burgos",
+   "away": "Obradoiro CAB"
+  },
+  {
+   "id": "se-493031",
+   "sport": "basketbol",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
+   "kickoff": "2026-10-17T22:10:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "San Jose",
+   "away": "Boca Juniors"
   }
  ]
 });
