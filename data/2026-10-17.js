@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T11:55:56+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T16:40:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-16T11:55:56+03:00",
+ "generatedAt": "2026-10-16T16:40:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -98,6 +98,23 @@ GM_REGISTER_DAY({
    "away": "Boston Celtics"
   },
   {
+   "id": "se-492965",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-17T02:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mirassol",
+   "away": "Internacional"
+  },
+  {
    "id": "se-491412",
    "sport": "basketbol",
    "competition": "NBA Preseason",
@@ -176,6 +193,23 @@ GM_REGISTER_DAY({
    ],
    "home": "SA Spurs",
    "away": "Sacramento Kings"
+  },
+  {
+   "id": "se-492966",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-17T03:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boca Juniors",
+   "away": "Talleres Cordoba"
   },
   {
    "id": "se-491417",
@@ -684,10 +718,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Gençlerbirliği",
    "away": "Galatasaray",
@@ -1147,10 +1180,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Fenerbahçe",
    "away": "Alanyaspor",
@@ -1439,6 +1471,22 @@ GM_REGISTER_DAY({
    ],
    "home": "BC Roma",
    "away": "Venezia"
+  },
+  {
+   "id": "se-492930",
+   "sport": "futbol",
+   "competition": "Avusturya Bundesliga",
+   "competitionId": "avusturya-bundesliga",
+   "kickoff": "2026-10-17T20:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SV Ried",
+   "away": "Austria Vienna"
   },
   {
    "id": "se-492238",

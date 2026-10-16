@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T11:55:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T16:40:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-16",
- "generatedAt": "2026-10-16T11:55:48+03:00",
+ "generatedAt": "2026-10-16T16:40:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -127,6 +127,22 @@ GM_REGISTER_DAY({
    ],
    "home": "R.Jodar",
    "away": "C.Ruud"
+  },
+  {
+   "id": "se-492967",
+   "sport": "golf",
+   "competition": "Hero indian Açik Golf Turnuvasi",
+   "competitionId": "hero-indian-acik-golf-turnuvasi",
+   "kickoff": "2026-10-16T09:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Hindistan"
   },
   {
    "id": "se-492910",
@@ -284,22 +300,6 @@ GM_REGISTER_DAY({
    "title": "Erkekler Etap 3"
   },
   {
-   "id": "se-492913",
-   "sport": "padel",
-   "competition": "Premier Padel",
-   "competitionId": "premier-padel",
-   "kickoff": "2026-10-16T19:00:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Alcorisa/Jensen",
-   "away": "Martin/Fernandez"
-  },
-  {
    "id": "se-489756",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -316,6 +316,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Karşıyaka",
    "away": "Çayırova Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-492913",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-16T19:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alcorisa/Jensen",
+   "away": "Martin/Fernandez"
+  },
+  {
+   "id": "se-488946",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-10-16T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Çorum FK",
+   "away": "Ç.Rizespor",
    "turkish": true
   },
   {
@@ -355,24 +389,6 @@ GM_REGISTER_DAY({
    "away": "Anadolu Efes"
   },
   {
-   "id": "se-488946",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-16T20:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
-   ],
-   "home": "Çorum FK",
-   "away": "Ç.Rizespor",
-   "turkish": true
-  },
-  {
    "id": "se-490155",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -405,6 +421,22 @@ GM_REGISTER_DAY({
    "away": "St.Raphael"
   },
   {
+   "id": "se-492929",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-16T21:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alfonso/Libaak",
+   "away": "Chingotto/Galan"
+  },
+  {
    "id": "se-490156",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -421,10 +453,10 @@ GM_REGISTER_DAY({
    "away": "Hapoel Tel Aviv"
   },
   {
-   "id": "se-490158",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-488235",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
    "kickoff": "2026-10-16T21:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -433,8 +465,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Virtus Bologna",
-   "away": "Baskonia"
+   "home": "Eintracht Frankfurt",
+   "away": "Köln"
   },
   {
    "id": "se-490157",
@@ -453,10 +485,10 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-488235",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
+   "id": "se-490158",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-16T21:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -465,8 +497,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Eintracht Frankfurt",
-   "away": "Köln"
+   "home": "Virtus Bologna",
+   "away": "Baskonia"
   },
   {
    "id": "se-487518",

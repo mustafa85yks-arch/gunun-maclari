@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T11:56:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T16:40:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-19",
- "generatedAt": "2026-10-16T11:56:03+03:00",
+ "generatedAt": "2026-10-16T16:40:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -114,26 +114,6 @@ GM_REGISTER_DAY({
    "away": "Cagliari"
   },
   {
-   "id": "se-488954",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-19T20:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Trabzonspor",
-   "away": "Beşiktaş",
-   "turkish": true,
-   "tags": [
-    "derbi"
-   ]
-  },
-  {
    "id": "se-489800",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -168,6 +148,26 @@ GM_REGISTER_DAY({
    "home": "Esenler Erokspor",
    "away": "Mardin 1969",
    "turkish": true
+  },
+  {
+   "id": "se-488954",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-10-19T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Beşiktaş",
+   "turkish": true,
+   "tags": [
+    "derbi"
+   ]
   },
   {
    "id": "se-492249",

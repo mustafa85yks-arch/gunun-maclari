@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T11:56:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T16:40:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-16T11:56:03+03:00",
+ "generatedAt": "2026-10-16T16:40:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -691,6 +691,22 @@ GM_REGISTER_DAY({
    "title": "Erkekler Etap 5"
   },
   {
+   "id": "se-492931",
+   "sport": "futbol",
+   "competition": "Avusturya Bundesliga",
+   "competitionId": "avusturya-bundesliga",
+   "kickoff": "2026-10-18T15:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Salzburg",
+   "away": "Altach"
+  },
+  {
    "id": "se-487522",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -748,10 +764,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Leeds United",
    "away": "Manchester Utd"
@@ -1119,6 +1134,22 @@ GM_REGISTER_DAY({
    "away": "Limoges"
   },
   {
+   "id": "se-492932",
+   "sport": "futbol",
+   "competition": "Avusturya Bundesliga",
+   "competitionId": "avusturya-bundesliga",
+   "kickoff": "2026-10-18T18:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sturm Graz",
+   "away": "Grazer"
+  },
+  {
    "id": "se-487523",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1176,10 +1207,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Nottingham Forest",
    "away": "Arsenal"
