@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T03:45:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T11:55:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-16T03:45:18+03:00",
+ "generatedAt": "2026-10-16T11:55:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -84,7 +84,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-491411",
    "sport": "basketbol",
-   "competition": "NBA Preseason  BasketbolOyna",
+   "competition": "NBA Preseason",
    "competitionId": "nba",
    "kickoff": "2026-10-17T02:00:00+03:00",
    "broadcasters": [
@@ -318,9 +318,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Erzurumspor",
    "away": "Eyüpspor",
@@ -665,9 +666,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Amedspor",
    "away": "Konyaspor",
@@ -1110,9 +1112,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Strasbourg",
    "away": "PSG"
@@ -1163,9 +1166,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Bodrumspor",
    "away": "Bandırmaspor",
@@ -1461,9 +1465,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Red Star",
    "away": "St. Etienne"
