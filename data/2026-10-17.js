@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T16:40:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T20:45:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-16T16:40:46+03:00",
+ "generatedAt": "2026-10-16T20:45:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -68,7 +68,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-491410",
    "sport": "basketbol",
-   "competition": "NBA Preseason",
+   "competition": "NBA Preseason  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-10-17T02:00:00+03:00",
    "broadcasters": [
@@ -133,7 +133,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-491413",
    "sport": "basketbol",
-   "competition": "NBA Preseason",
+   "competition": "NBA Preseason  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-10-17T03:00:00+03:00",
    "broadcasters": [
@@ -718,9 +718,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Gençlerbirliği",
    "away": "Galatasaray",
@@ -1145,10 +1146,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Strasbourg",
    "away": "PSG"
@@ -1180,9 +1180,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Fenerbahçe",
    "away": "Alanyaspor",
@@ -1546,10 +1547,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Lille",
    "away": "Brest"
