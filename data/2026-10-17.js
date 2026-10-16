@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T02:40:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-16T03:45:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-16T02:40:00+03:00",
+ "generatedAt": "2026-10-16T03:45:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -84,7 +84,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-491411",
    "sport": "basketbol",
-   "competition": "NBA Preseason",
+   "competition": "NBA Preseason  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-10-17T02:00:00+03:00",
    "broadcasters": [
@@ -116,7 +116,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-491413",
    "sport": "basketbol",
-   "competition": "NBA Preseason  BasketbolOyna",
+   "competition": "NBA Preseason",
    "competitionId": "nba",
    "kickoff": "2026-10-17T03:00:00+03:00",
    "broadcasters": [
@@ -312,7 +312,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-488947",
    "sport": "futbol",
-   "competition": "Trendyol Süper Lig  SahaKirala",
+   "competition": "Trendyol Süper Lig",
    "competitionId": "super-lig",
    "kickoff": "2026-10-17T13:30:00+03:00",
    "broadcasters": [
