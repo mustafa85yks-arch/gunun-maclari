@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T19:46:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-18T02:02:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-17T19:46:45+03:00",
+ "generatedAt": "2026-10-18T02:02:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-493094",
+   "sport": "boks",
+   "competition": "WBO Ağir Siklet",
+   "competitionId": "wbo-agir-siklet",
+   "kickoff": "2026-10-18T00:30:00+03:00",
+   "broadcasters": [
+    "DAZN"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "F.Wardley",
+   "away": "D.Dubois"
+  },
   {
    "id": "se-493032",
    "sport": "basketbol",
@@ -397,7 +413,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "A.D.Fokina",
+   "away": "R.Jodar",
    "tags": [
     "final"
    ]
@@ -498,6 +515,22 @@ GM_REGISTER_DAY({
    "home": "Beşiktaş",
    "away": "Kuzeyboru",
    "turkish": true
+  },
+  {
+   "id": "se-491312",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-10-18T13:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beykoz Bld.",
+   "away": "Eskişehir Mihalıççık"
   },
   {
    "id": "se-492141",
@@ -616,6 +649,25 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Finaller"
+  },
+  {
+   "id": "se-493105",
+   "sport": "tenis",
+   "competition": "WTA Wuhan Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-18T13:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Chwalinska",
+   "away": "Sonay Kartal",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-492750",
@@ -1011,6 +1063,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-18T16:00:00+03:00",
    "broadcasters": [
     "tabii Spor 6",
+    "TRT Kurdi",
     "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
@@ -1359,6 +1412,23 @@ GM_REGISTER_DAY({
    "away": "Grazer"
   },
   {
+   "id": "se-493106",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-18T18:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valencia Basket",
+   "away": "Murcia"
+  },
+  {
    "id": "se-487523",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1529,22 +1599,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-491312",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-10-18T19:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Beykoz Bld.",
-   "away": "Eskişehir Mihalıççık"
-  },
-  {
    "id": "se-492082",
    "sport": "voleybol",
    "competition": "TVF Erkekler 1. Lig",
@@ -1650,8 +1704,8 @@ GM_REGISTER_DAY({
    "competitionId": "ispanya-basketbol-ligi",
    "kickoff": "2026-10-18T20:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1694,6 +1748,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "1'inci Tur"
+  },
+  {
+   "id": "se-493107",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-18T21:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Racing Club",
+   "away": "Independiente Rivadavia"
   },
   {
    "id": "se-487526",
@@ -1762,6 +1833,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Freeway Insurance"
+  },
+  {
+   "id": "se-493108",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-18T22:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fluminense",
+   "away": "Santos"
   },
   {
    "id": "se-493033",
