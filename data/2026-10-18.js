@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T02:29:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T03:46:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-17T02:29:54+03:00",
+ "generatedAt": "2026-10-17T03:46:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -922,9 +922,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Leeds United",
    "away": "Manchester Utd"
@@ -1397,9 +1398,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Nottingham Forest",
    "away": "Arsenal"
