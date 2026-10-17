@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T03:46:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T11:27:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-17T03:46:40+03:00",
+ "generatedAt": "2026-10-17T11:27:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -892,6 +892,22 @@ GM_REGISTER_DAY({
    "away": "Belçika"
   },
   {
+   "id": "se-493065",
+   "sport": "futbol",
+   "competition": "Korumali Futbol Avrupa Şampiyonasi",
+   "competitionId": "korumali-futbol-avrupa-sampiyonasi",
+   "kickoff": "2026-10-17T15:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Belçika"
+  },
+  {
    "id": "se-489758",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -1199,10 +1215,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS MAX 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Brentford",
    "away": "Liverpool"
@@ -1232,9 +1247,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Manchester City",
    "away": "Ipswich Town"
