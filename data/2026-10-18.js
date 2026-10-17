@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T15:37:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T19:46:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-17T15:37:49+03:00",
+ "generatedAt": "2026-10-17T19:46:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -923,9 +923,10 @@ GM_REGISTER_DAY({
     "beIN CONNECT",
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Brighton",
    "away": "Crystal Palace"
