@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T11:27:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T15:37:41+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-17",
- "generatedAt": "2026-10-17T11:27:30+03:00",
+ "generatedAt": "2026-10-17T15:37:41+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -276,6 +276,22 @@ GM_REGISTER_DAY({
    "away": "Denver Nuggets"
   },
   {
+   "id": "se-493089",
+   "sport": "atletizm",
+   "competition": "Salomon Kapadokya Ultra Trail",
+   "competitionId": "salomon-kapadokya-ultra-trail",
+   "kickoff": "2026-10-17T06:50:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kapadokya"
+  },
+  {
    "id": "se-493025",
    "sport": "basketbol",
    "competition": "FIBA 3x3 Dünya Turu",
@@ -289,6 +305,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Seans 1"
+  },
+  {
+   "id": "se-493090",
+   "sport": "golf",
+   "competition": "Hero indian Açik Golf Turnuvasi",
+   "competitionId": "hero-indian-acik-golf-turnuvasi",
+   "kickoff": "2026-10-17T09:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Hindistan"
   },
   {
    "id": "se-489922",
@@ -664,6 +696,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-493092",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-17T14:00:00+03:00",
+   "broadcasters": [
+    "Kahramanmaraş İstiklal Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kahramanmaraş İstiklal",
+   "away": "Serik Bld.",
+   "turkish": true
+  },
+  {
    "id": "se-487575",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -672,10 +721,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Everton",
    "away": "Chelsea"
@@ -1247,10 +1295,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Manchester City",
    "away": "Ipswich Town"
@@ -1754,6 +1801,23 @@ GM_REGISTER_DAY({
    "away": "Florida Gators"
   },
   {
+   "id": "se-493093",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-17T19:00:00+03:00",
+   "broadcasters": [
+    "Muş Spor Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Muşspor",
+   "away": "Ankaraspor",
+   "turkish": true
+  },
+  {
    "id": "se-487579",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -1762,10 +1826,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Newcastle",
    "away": "Aston Villa"

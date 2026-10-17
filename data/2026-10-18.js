@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T11:27:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-17T15:37:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-17T11:27:38+03:00",
+ "generatedAt": "2026-10-17T15:37:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,6 +32,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Brasilia",
    "away": "Leones Quilpue"
+  },
+  {
+   "id": "se-493088",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-18T01:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atletico PR",
+   "away": "Palmeiras"
   },
   {
    "id": "se-491192",
