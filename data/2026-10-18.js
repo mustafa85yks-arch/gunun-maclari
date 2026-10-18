@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-18T11:45:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-18T15:54:47+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-18",
- "generatedAt": "2026-10-18T11:45:48+03:00",
+ "generatedAt": "2026-10-18T15:54:47+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -353,6 +353,37 @@ GM_REGISTER_DAY({
    ],
    "home": "J.Buckley",
    "away": "M.Malott"
+  },
+  {
+   "id": "se-493109",
+   "sport": "golf",
+   "competition": "Hero indian Açik Golf Turnuvasi",
+   "competitionId": "hero-indian-acik-golf-turnuvasi",
+   "kickoff": "2026-10-18T09:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Hindistan"
+  },
+  {
+   "id": "se-493110",
+   "sport": "atletizm",
+   "competition": "Şehir Maratonu",
+   "competitionId": "sehir-maratonu",
+   "kickoff": "2026-10-18T09:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Zeytinburnu Cumhuriyet Koşusu"
   },
   {
    "id": "se-492791",
@@ -1140,6 +1171,25 @@ GM_REGISTER_DAY({
    "title": "Erkekler/Kadınlar Finali"
   },
   {
+   "id": "se-493128",
+   "sport": "padel",
+   "competition": "Premier Padel Yarı Final",
+   "competitionId": "premier-padel-yari-final",
+   "kickoff": "2026-10-18T16:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Prieto/Fallada",
+   "away": "Martin/Fernandez",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-488242",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -1427,6 +1477,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Valencia Basket",
    "away": "Murcia"
+  },
+  {
+   "id": "se-493129",
+   "sport": "padel",
+   "competition": "Premier Padel Yarı Final",
+   "competitionId": "premier-padel-yari-final",
+   "kickoff": "2026-10-18T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Augsburger/Lebron",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-487523",
