@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-18T20:01:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T02:02:10+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-18T20:01:46+03:00",
+ "generatedAt": "2026-10-19T02:02:10+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -105,22 +105,6 @@ GM_REGISTER_DAY({
    "away": "Chicago Bulls"
   },
   {
-   "id": "se-492871",
-   "sport": "motosiklet",
-   "competition": "Moto2",
-   "competitionId": "moto2",
-   "kickoff": "2026-10-24T04:15:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Avustralya GP"
-  },
-  {
    "id": "se-486273",
    "sport": "basketbol",
    "competition": "NBA",
@@ -217,6 +201,22 @@ GM_REGISTER_DAY({
    "title": "Sprint Yarışları"
   },
   {
+   "id": "se-493293",
+   "sport": "basketbol",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "kickoff": "2026-10-24T10:00:00+03:00",
+   "broadcasters": [
+    "Euroleague Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Split",
+   "away": "Rijeka"
+  },
+  {
    "id": "se-492384",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -249,6 +249,22 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-493294",
+   "sport": "basketbol",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "kickoff": "2026-10-24T12:15:00+03:00",
+   "broadcasters": [
+    "Euroleague Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Belgrad",
+   "away": "Zentro Basket Madrid"
   },
   {
    "id": "se-489765",
@@ -337,36 +353,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-492380",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "id": "se-488283",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 2",
+   "competitionId": "almanya-bundesliga-2",
    "kickoff": "2026-10-24T14:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İstanbul Voleybol",
-   "away": "Gebze Gençlik"
-  },
-  {
-   "id": "se-491921",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler EHF Avrupa Kupasi",
-   "competitionId": "hentbol-erkekler-ehf-avrupa-kupasi",
-   "kickoff": "2026-10-24T14:00:00+03:00",
-   "broadcasters": [
-    "EHF TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İstanbul Gençlik",
-   "away": "Ostrow Wielkopolski"
+   "home": "Hertha Berlin",
+   "away": "Arminia Bielefeld"
   },
   {
    "id": "se-491313",
@@ -385,20 +385,36 @@ GM_REGISTER_DAY({
    "away": "Güneysuspor"
   },
   {
-   "id": "se-488283",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
+   "id": "se-491921",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler EHF Avrupa Kupasi",
+   "competitionId": "hentbol-erkekler-ehf-avrupa-kupasi",
    "kickoff": "2026-10-24T14:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "EHF TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Hertha Berlin",
-   "away": "Arminia Bielefeld"
+   "home": "İstanbul Gençlik",
+   "away": "Ostrow Wielkopolski"
+  },
+  {
+   "id": "se-492380",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-10-24T14:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul Voleybol",
+   "away": "Gebze Gençlik"
   },
   {
    "id": "se-487586",
@@ -417,13 +433,30 @@ GM_REGISTER_DAY({
    "away": "Manchester City"
   },
   {
+   "id": "se-493295",
+   "sport": "basketbol",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "kickoff": "2026-10-24T14:30:00+03:00",
+   "broadcasters": [
+    "Euroleague Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tofaş",
+   "away": "Bosna BH Telecom Sarajevo"
+  },
+  {
    "id": "se-491130",
    "sport": "futbol",
    "competition": "İspanya La Liga",
    "competitionId": "la-liga",
    "kickoff": "2026-10-24T15:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -518,20 +551,20 @@ GM_REGISTER_DAY({
    "away": "Ankaragücü"
   },
   {
-   "id": "se-492386",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "id": "se-488319",
+   "sport": "futbol",
+   "competition": "İtalya Serie A",
+   "competitionId": "serie-a",
    "kickoff": "2026-10-24T16:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Yedidağ",
-   "away": "Kastamonu Yurdum Gençlik Spor"
+   "home": "Cagliari",
+   "away": "Bologna"
   },
   {
    "id": "se-488320",
@@ -540,7 +573,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-10-24T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -585,20 +619,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-488319",
-   "sport": "futbol",
-   "competition": "İtalya Serie A",
-   "competitionId": "serie-a",
+   "id": "se-492386",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-10-24T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Cagliari",
-   "away": "Bologna"
+   "home": "Yedidağ",
+   "away": "Kastamonu Yurdum Gençlik Spor"
   },
   {
    "id": "se-488245",
@@ -697,6 +731,54 @@ GM_REGISTER_DAY({
    "away": "Harem Spor"
   },
   {
+   "id": "se-493296",
+   "sport": "basketbol",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "kickoff": "2026-10-24T16:45:00+03:00",
+   "broadcasters": [
+    "Euroleague Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kvarner CEBA Academy",
+   "away": "Pablo Laso Academy"
+  },
+  {
+   "id": "se-487587",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-10-24T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Arsenal",
+   "away": "Everton"
+  },
+  {
+   "id": "se-487588",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-10-24T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coventry",
+   "away": "Fulham"
+  },
+  {
    "id": "se-492881",
    "sport": "tenis",
    "competition": "ATP Lyon Yarı Final",
@@ -733,45 +815,14 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-487588",
-   "sport": "futbol",
-   "competition": "İngiltere Premier Lig",
-   "competitionId": "premier-league",
-   "kickoff": "2026-10-24T17:00:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Coventry",
-   "away": "Fulham"
-  },
-  {
-   "id": "se-487587",
-   "sport": "futbol",
-   "competition": "İngiltere Premier Lig",
-   "competitionId": "premier-league",
-   "kickoff": "2026-10-24T17:00:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Arsenal",
-   "away": "Everton"
-  },
-  {
    "id": "se-491131",
    "sport": "futbol",
    "competition": "İspanya La Liga",
    "competitionId": "la-liga",
    "kickoff": "2026-10-24T17:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -829,47 +880,14 @@ GM_REGISTER_DAY({
    "away": "Troyes"
   },
   {
-   "id": "se-490681",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-10-24T19:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Keçiören Bld",
-   "away": "Final Spor"
-  },
-  {
-   "id": "se-489806",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-24T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sarıyer",
-   "away": "Karagümrük",
-   "turkish": true
-  },
-  {
    "id": "se-488321",
    "sport": "futbol",
    "competition": "İtalya Serie A",
    "competitionId": "serie-a",
    "kickoff": "2026-10-24T19:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -894,6 +912,72 @@ GM_REGISTER_DAY({
    "home": "Samsunspor",
    "away": "Amedspor",
    "turkish": true
+  },
+  {
+   "id": "se-489806",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sarıyer",
+   "away": "Karagümrük",
+   "turkish": true
+  },
+  {
+   "id": "se-490681",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Keçiören Bld",
+   "away": "Final Spor"
+  },
+  {
+   "id": "se-493297",
+   "sport": "basketbol",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Euroleague Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rijeka",
+   "away": "Belgrad"
+  },
+  {
+   "id": "se-493411",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Krilov",
+   "away": "A.Rakhman Yakhyaev"
   },
   {
    "id": "se-487589",
@@ -934,7 +1018,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-24T19:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1026,6 +1111,38 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-493406",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-24T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Pico",
+   "away": "L.Keita"
+  },
+  {
+   "id": "se-493298",
+   "sport": "basketbol",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "kickoff": "2026-10-24T21:15:00+03:00",
+   "broadcasters": [
+    "Euroleague Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zentro Basket Madrid",
+   "away": "Split"
+  },
+  {
    "id": "se-488285",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -1040,6 +1157,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Nürnberg",
    "away": "Kaiserslautern"
+  },
+  {
+   "id": "se-493407",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-24T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Volkov",
+   "away": "R.Kuniev"
   },
   {
    "id": "se-487529",
@@ -1064,7 +1197,8 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-10-24T21:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1080,7 +1214,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-10-24T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1104,6 +1239,71 @@ GM_REGISTER_DAY({
    ],
    "home": "Almeria",
    "away": "Real Oviedo"
+  },
+  {
+   "id": "se-493134",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-24T22:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Barcelona",
+   "away": "Zaragoza"
+  },
+  {
+   "id": "se-493408",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-24T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Kavanagh",
+   "away": "R.Temirov"
+  },
+  {
+   "id": "se-493409",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-24T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Yan",
+   "away": "M.Dvalishvili"
+  },
+  {
+   "id": "se-493410",
+   "sport": "dövüş sporları",
+   "competition": "UFC Dövüş Serisi",
+   "competitionId": "ufc",
+   "kickoff": "2026-10-24T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Volkanovski",
+   "away": "M.Evloev"
   },
   {
    "id": "se-493037",
