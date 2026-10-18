@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-18T15:54:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-18T20:01:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-19",
- "generatedAt": "2026-10-18T15:54:47+03:00",
+ "generatedAt": "2026-10-18T20:01:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -29,8 +29,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-491203",
    "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
+   "competition": "ABD USL Championship  FutbolMaçı İzle",
+   "competitionId": "abd-usl-championship-futbolmaci-izle",
    "kickoff": "2026-10-19T00:00:00+03:00",
    "broadcasters": [
     "USL Championship Youtube"
@@ -143,8 +143,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493016",
    "sport": "basketbol",
-   "competition": "Basketbol Gençler Ligi",
-   "competitionId": "basketbol-gencler-ligi",
+   "competition": "Basketbol Gençler Ligi  BasketbolOyna",
+   "competitionId": "basketbol-gencler-ligi-basketboloyna",
    "kickoff": "2026-10-19T15:00:00+03:00",
    "broadcasters": [
     "TBF TV Youtube"
