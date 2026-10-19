@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T03:29:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-20",
- "generatedAt": "2026-10-19T03:29:38+03:00",
+ "generatedAt": "2026-10-19T12:46:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-10-20"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -88,6 +96,22 @@ GM_REGISTER_DAY({
    "away": "Al Qadsiah"
   },
   {
+   "id": "se-493020",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
+   "kickoff": "2026-10-20T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Eczacibasi"
+  },
+  {
    "id": "se-493255",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -150,22 +174,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Pardubice",
    "away": "Unicaja Malaga"
-  },
-  {
-   "id": "se-493020",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 1. Lig",
-   "competitionId": "tvf-kadinlar-1-lig",
-   "kickoff": "2026-10-20T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Eczacibasi"
   },
   {
    "id": "se-493256",
@@ -514,9 +522,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Detroit Pistons",
    "away": "Boston Celtics"

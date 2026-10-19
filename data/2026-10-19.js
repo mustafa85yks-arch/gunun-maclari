@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T03:29:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-19",
- "generatedAt": "2026-10-19T03:29:38+03:00",
+ "generatedAt": "2026-10-19T12:46:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,22 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-491203",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-10-19T00:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Birmingham Legion",
+   "away": "Loudoun United"
+  },
+  {
    "id": "se-493125",
    "sport": "futbol",
    "competition": "Arjantin Primera Division",
@@ -33,22 +49,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Estudiantes",
    "away": "San Lorenzo"
-  },
-  {
-   "id": "se-491203",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-10-19T00:00:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Birmingham Legion",
-   "away": "Loudoun United"
   },
   {
    "id": "se-493126",
@@ -133,22 +133,6 @@ GM_REGISTER_DAY({
    "away": "H.Shi"
   },
   {
-   "id": "se-493013",
-   "sport": "basketbol",
-   "competition": "Basketbol Gençler Ligi",
-   "competitionId": "basketbol-gencler-ligi",
-   "kickoff": "2026-10-19T12:30:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Trabzonspor",
-   "away": "Körfez Basket"
-  },
-  {
    "id": "se-493012",
    "sport": "basketbol",
    "competition": "Basketbol Gençler Ligi",
@@ -163,6 +147,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Çayırova Bld.",
    "away": "Denizli Basket"
+  },
+  {
+   "id": "se-493013",
+   "sport": "basketbol",
+   "competition": "Basketbol Gençler Ligi",
+   "competitionId": "basketbol-gencler-ligi",
+   "kickoff": "2026-10-19T12:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Körfez Basket"
   },
   {
    "id": "se-493423",
@@ -263,22 +263,19 @@ GM_REGISTER_DAY({
    "away": "Bandırma Bordo"
   },
   {
-   "id": "se-489799",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-19T17:00:00+03:00",
+   "id": "se-493447",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-19T15:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "beIN SPORTS MAX 1"
+    "Eurosport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Manisa FK",
-   "away": "Muğlaspor",
-   "turkish": true
+   "title": "Tur 1"
   },
   {
    "id": "se-489798",
@@ -296,6 +293,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Karagümrük",
    "away": "Keçiörengücü",
+   "turkish": true
+  },
+  {
+   "id": "se-489799",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-19T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manisa FK",
+   "away": "Muğlaspor",
    "turkish": true
   },
   {
@@ -347,6 +362,25 @@ GM_REGISTER_DAY({
    "away": "Beşiktaş"
   },
   {
+   "id": "se-493433",
+   "sport": "futbol",
+   "competition": "Basin Toplantisi",
+   "competitionId": "basin-toplantisi",
+   "kickoff": "2026-10-19T18:45:00+03:00",
+   "broadcasters": [
+    "FB TV",
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "İsmail Kartal"
+  },
+  {
    "id": "se-489763",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -373,12 +407,34 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Monza",
    "away": "Cagliari"
+  },
+  {
+   "id": "se-488954",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-10-19T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Trabzonspor",
+   "away": "Beşiktaş",
+   "turkish": true,
+   "tags": [
+    "derbi"
+   ]
   },
   {
    "id": "se-489800",
@@ -418,27 +474,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-488954",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-19T20:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
-   ],
-   "home": "Trabzonspor",
-   "away": "Beşiktaş",
-   "turkish": true,
-   "tags": [
-    "derbi"
-   ]
-  },
-  {
    "id": "se-492249",
    "sport": "futbol",
    "competition": "Suudi Arabistan Pro Lig",
@@ -455,6 +490,21 @@ GM_REGISTER_DAY({
    "away": "Al Hazem"
   },
   {
+   "id": "se-493448",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-19T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "1'inci Tur"
+  },
+  {
    "id": "se-488317",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -464,9 +514,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Parma",
    "away": "Torino"
@@ -515,9 +566,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Getafe",
    "away": "Rayo Vallecano"

@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T03:29:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-22",
- "generatedAt": "2026-10-19T03:29:38+03:00",
+ "generatedAt": "2026-10-19T12:46:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-10-22"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -24,22 +32,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Brooklyn",
    "away": "Birmingham Legion"
-  },
-  {
-   "id": "se-491205",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-10-22T02:30:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sporting Jax",
-   "away": "Louisville City"
   },
   {
    "id": "se-492822",
@@ -68,9 +60,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Miami Heat",
    "away": "Minnesota TW"
@@ -90,6 +83,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Brooklyn Nets",
    "away": "Charlotte Hornets"
+  },
+  {
+   "id": "se-491205",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-10-22T02:30:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sporting Jax",
+   "away": "Louisville City"
   },
   {
    "id": "se-492825",
@@ -118,9 +127,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "LA Lakers",
    "away": "GS Warriors"
@@ -375,9 +385,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Anadolu Efes",
    "away": "Beşiktaş"
@@ -488,9 +499,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Partizan",
    "away": "Kizilyildiz"
