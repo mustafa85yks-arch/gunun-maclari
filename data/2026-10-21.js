@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T19:04:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-21",
- "generatedAt": "2026-10-19T12:46:33+03:00",
+ "generatedAt": "2026-10-19T19:04:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -256,6 +256,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-europe-cup",
    "kickoff": "2026-10-21T19:30:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "FIBA TV"
    ],
    "verification": "tek_kaynak",
@@ -368,7 +369,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-21T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -866,7 +868,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-21T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [

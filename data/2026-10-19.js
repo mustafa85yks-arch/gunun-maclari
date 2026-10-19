@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T19:04:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-19",
- "generatedAt": "2026-10-19T12:46:33+03:00",
+ "generatedAt": "2026-10-19T19:04:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -101,38 +101,6 @@ GM_REGISTER_DAY({
    "away": "Argentinos Jrs."
   },
   {
-   "id": "se-493421",
-   "sport": "tenis",
-   "competition": "WTA Ningbo",
-   "competitionId": "wta",
-   "kickoff": "2026-10-19T07:00:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "E.Mertens",
-   "away": "L.Fernandez"
-  },
-  {
-   "id": "se-493422",
-   "sport": "tenis",
-   "competition": "WTA Ningbo",
-   "competitionId": "wta",
-   "kickoff": "2026-10-19T08:30:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "S.Cirstea",
-   "away": "H.Shi"
-  },
-  {
    "id": "se-493012",
    "sport": "basketbol",
    "competition": "Basketbol Gençler Ligi",
@@ -163,22 +131,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Trabzonspor",
    "away": "Körfez Basket"
-  },
-  {
-   "id": "se-493423",
-   "sport": "tenis",
-   "competition": "WTA Ningbo",
-   "competitionId": "wta",
-   "kickoff": "2026-10-19T14:30:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "A.Eala",
-   "away": "D.Parry"
   },
   {
    "id": "se-493044",
@@ -480,6 +432,7 @@ GM_REGISTER_DAY({
    "competitionId": "suudi-arabistan-pro-lig",
    "kickoff": "2026-10-19T21:00:00+03:00",
    "broadcasters": [
+    "HT Spor Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:37+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T19:04:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-19T12:46:37+03:00",
+ "generatedAt": "2026-10-19T19:04:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -428,6 +428,23 @@ GM_REGISTER_DAY({
    "away": "Gebze Gençlik"
   },
   {
+   "id": "se-493486",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-24T14:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mazıdağı Fosfat",
+   "away": "Bitlis 1916 FK",
+   "turkish": true
+  },
+  {
    "id": "se-487586",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -528,6 +545,57 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-493487",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-24T15:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gebzespor",
+   "away": "Somaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-493488",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-24T15:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çorluspor 1947",
+   "away": "Menemenspor",
+   "turkish": true
+  },
+  {
+   "id": "se-493489",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-24T15:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gemlik Sümerbey",
+   "away": "Ayvalıkgücü Bld.",
+   "turkish": true
   },
   {
    "id": "se-489766",
@@ -828,6 +896,23 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-493490",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-24T17:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "52 Orduspor",
+   "away": "Beyoğlu Yeni Çarşı",
+   "turkish": true
+  },
+  {
    "id": "se-491131",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -868,7 +953,7 @@ GM_REGISTER_DAY({
    "competitionId": "ukrayna-premier-ligi",
    "kickoff": "2026-10-24T18:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "Tivibu Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -993,6 +1078,91 @@ GM_REGISTER_DAY({
    ],
    "home": "N.Krilov",
    "away": "A.Rakhman Yakhyaev"
+  },
+  {
+   "id": "se-493491",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Isparta 32 Spor",
+   "away": "Elazığspor",
+   "turkish": true
+  },
+  {
+   "id": "se-493492",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aliağa FK",
+   "away": "Aksaray Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-493493",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sakaryaspor",
+   "away": "24 Erzincanspor",
+   "turkish": true
+  },
+  {
+   "id": "se-493494",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ankaragücü",
+   "away": "1461 Trabzon",
+   "turkish": true
+  },
+  {
+   "id": "se-493495",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehirspor",
+   "away": "Yıldırımspor",
+   "turkish": true
   },
   {
    "id": "se-487589",

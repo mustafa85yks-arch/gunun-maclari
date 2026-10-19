@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:39+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T19:04:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-19T12:46:39+03:00",
+ "generatedAt": "2026-10-19T19:04:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -244,6 +244,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Sevilla",
    "away": "Osasuna"
+  },
+  {
+   "id": "se-493502",
+   "sport": "futbol",
+   "competition": "Ballon Dor",
+   "competitionId": "ballon-dor",
+   "kickoff": "2026-10-26T23:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Ballon d'Or Ödül Töreni"
   }
  ]
 });

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T19:04:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-20",
- "generatedAt": "2026-10-19T12:46:33+03:00",
+ "generatedAt": "2026-10-19T19:04:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,6 +32,22 @@ GM_REGISTER_DAY({
    ],
    "home": "SF 49ers",
    "away": "Washington Commanders"
+  },
+  {
+   "id": "se-493503",
+   "sport": "tenis",
+   "competition": "WTA Osaka",
+   "competitionId": "wta",
+   "kickoff": "2026-10-20T07:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Joint",
+   "away": "Zeynep Sönmez"
   },
   {
    "id": "se-493148",
@@ -66,8 +82,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-490999",
    "sport": "futbol",
-   "competition": "UEFA Gençlik Ligi",
-   "competitionId": "uefa-genclik-ligi",
+   "competition": "UEFA Gençlik Ligi  Ligmaçları",
+   "competitionId": "uefa-genclik-ligi-ligmaclari",
    "kickoff": "2026-10-20T17:00:00+03:00",
    "broadcasters": [
     "UEFA.tv"
@@ -96,20 +112,20 @@ GM_REGISTER_DAY({
    "away": "Al Qadsiah"
   },
   {
-   "id": "se-493020",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 1. Lig",
-   "competitionId": "tvf-kadinlar-1-lig",
+   "id": "se-492264",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-20T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "FIBA Şampiyonlar Ligi Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Eczacibasi"
+   "home": "Falco Szombathely",
+   "away": "Salon Vilpas"
   },
   {
    "id": "se-493255",
@@ -144,20 +160,20 @@ GM_REGISTER_DAY({
    "away": "Lokomotiv Plovdiv"
   },
   {
-   "id": "se-492264",
-   "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
+   "id": "se-493020",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
    "kickoff": "2026-10-20T19:00:00+03:00",
    "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Falco Szombathely",
-   "away": "Salon Vilpas"
+   "home": "Fenerbahçe Medicana",
+   "away": "Eczacibasi"
   },
   {
    "id": "se-492263",
@@ -214,7 +230,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-10-20T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -342,6 +359,7 @@ GM_REGISTER_DAY({
    "competitionId": "suudi-arabistan-pro-lig",
    "kickoff": "2026-10-20T21:00:00+03:00",
    "broadcasters": [
+    "HT Spor Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

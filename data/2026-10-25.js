@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T12:46:39+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T19:04:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-19T12:46:39+03:00",
+ "generatedAt": "2026-10-19T19:04:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -508,6 +508,40 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-493496",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-25T14:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "12 Bingölspor",
+   "away": "Kırklarelispor",
+   "turkish": true
+  },
+  {
+   "id": "se-493497",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-25T14:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fatsa Bld.",
+   "away": "İnkılap FK",
+   "turkish": true
+  },
+  {
    "id": "se-488323",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -524,6 +558,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Inter",
    "away": "Fiorentina"
+  },
+  {
+   "id": "se-493498",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-25T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alanya 1221",
+   "away": "Kepez Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-493499",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-25T14:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kırıkkalespor",
+   "away": "Osmaniyespor",
+   "turkish": true
   },
   {
    "id": "se-492879",
@@ -558,6 +626,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Hibernian",
    "away": "Celtic"
+  },
+  {
+   "id": "se-493500",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-25T15:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kartal Bulvar Kartalimen",
+   "away": "Galata Spor",
+   "turkish": true
+  },
+  {
+   "id": "se-493501",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-25T15:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Uşakspor",
+   "away": "Gaziemirspor",
+   "turkish": true
   },
   {
    "id": "se-489769",
