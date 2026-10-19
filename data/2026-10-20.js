@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T02:02:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-19T03:29:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-20",
- "generatedAt": "2026-10-19T02:02:05+03:00",
+ "generatedAt": "2026-10-19T03:29:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -58,8 +58,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-490999",
    "sport": "futbol",
-   "competition": "UEFA Gençlik Ligi  SahaKirala",
-   "competitionId": "uefa-genclik-ligi-sahakirala",
+   "competition": "UEFA Gençlik Ligi",
+   "competitionId": "uefa-genclik-ligi",
    "kickoff": "2026-10-20T17:00:00+03:00",
    "broadcasters": [
     "UEFA.tv"
