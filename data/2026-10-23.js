@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T04:16:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T12:19:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-20T04:16:18+03:00",
+ "generatedAt": "2026-10-20T12:19:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -213,6 +213,21 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 1"
   },
   {
+   "id": "se-493559",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-23T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final"
+  },
+  {
    "id": "se-492876",
    "sport": "tenis",
    "competition": "ATP Almatı Çeyrek Final",
@@ -322,21 +337,35 @@ GM_REGISTER_DAY({
    "away": "Büyükçekmece"
   },
   {
-   "id": "se-489764",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
+   "id": "se-493563",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-10-23T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çayırova Bld.",
-   "away": "Bursaspor",
-   "turkish": true
+   "title": "Karışık Buz Dansı Kısa Program"
+  },
+  {
+   "id": "se-493291",
+   "sport": "basketbol",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "kickoff": "2026-10-23T19:00:00+03:00",
+   "broadcasters": [
+    "Euroleague Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pablo Laso Academy",
+   "away": "Tofaş"
   },
   {
    "id": "se-492083",
@@ -355,20 +384,21 @@ GM_REGISTER_DAY({
    "away": "Arkas"
   },
   {
-   "id": "se-493291",
+   "id": "se-489764",
    "sport": "basketbol",
-   "competition": "Adidas U18 Next Generation Turnuvasi",
-   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
    "kickoff": "2026-10-23T19:00:00+03:00",
    "broadcasters": [
-    "Euroleague Youtube"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Pablo Laso Academy",
-   "away": "Tofaş"
+   "home": "Çayırova Bld.",
+   "away": "Bursaspor",
+   "turkish": true
   },
   {
    "id": "se-488280",
@@ -486,6 +516,21 @@ GM_REGISTER_DAY({
    "away": "Asvel Villeurbanne"
   },
   {
+   "id": "se-493562",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Bermuda",
+   "competitionId": "golf-pga-tour-bermuda",
+   "kickoff": "2026-10-23T20:20:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
    "id": "se-488478",
    "sport": "motor sporları",
    "competition": "Formula 1",
@@ -499,6 +544,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Antrenman Turları-1"
+  },
+  {
+   "id": "se-493560",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-23T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Finaller"
   },
   {
    "id": "se-490167",
@@ -535,6 +595,21 @@ GM_REGISTER_DAY({
    "away": "Kvarner CEBA Academy"
   },
   {
+   "id": "se-493398",
+   "sport": "tenis",
+   "competition": "ATP Brüksel Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-23T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 4"
+  },
+  {
    "id": "se-488244",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -549,21 +624,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Stuttgart",
    "away": "Monchengladbach"
-  },
-  {
-   "id": "se-493398",
-   "sport": "tenis",
-   "competition": "ATP Brüksel Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-23T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 4"
   },
   {
    "id": "se-487527",
@@ -582,22 +642,6 @@ GM_REGISTER_DAY({
    "away": "Nice"
   },
   {
-   "id": "se-490168",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-23T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Paris",
-   "away": "Valencia Basket"
-  },
-  {
    "id": "se-488318",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -612,6 +656,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Torino",
    "away": "Monza"
+  },
+  {
+   "id": "se-490168",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-23T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paris",
+   "away": "Valencia Basket"
   },
   {
    "id": "se-487585",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T04:16:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T12:19:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-21",
- "generatedAt": "2026-10-20T04:16:15+03:00",
+ "generatedAt": "2026-10-20T12:19:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -70,6 +70,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Lille",
    "away": "Galatasaray"
+  },
+  {
+   "id": "se-493555",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-21T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 2"
   },
   {
    "id": "se-491002",
@@ -668,6 +683,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Hapoel Jerusalem",
    "away": "Rigas Zelli"
+  },
+  {
+   "id": "se-493556",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-21T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "2'nci Tur"
   },
   {
    "id": "se-493187",

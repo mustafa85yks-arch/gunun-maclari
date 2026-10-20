@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T04:16:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T12:19:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-20",
- "generatedAt": "2026-10-20T04:16:15+03:00",
+ "generatedAt": "2026-10-20T12:19:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -55,8 +55,10 @@ GM_REGISTER_DAY({
    "competition": "UEFA Gençlik Ligi",
    "competitionId": "uefa-genclik-ligi",
    "kickoff": "2026-10-20T14:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
@@ -78,6 +80,21 @@ GM_REGISTER_DAY({
    ],
    "home": "PSG",
    "away": "Barcelona"
+  },
+  {
+   "id": "se-493553",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-20T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 1"
   },
   {
    "id": "se-490999",
@@ -112,52 +129,20 @@ GM_REGISTER_DAY({
    "away": "Al Qadsiah"
   },
   {
-   "id": "se-493255",
+   "id": "se-492263",
    "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-20T19:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "FIBA Şampiyonlar Ligi Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Balkan",
-   "away": "BC Lietkabelis"
-  },
-  {
-   "id": "se-493167",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-10-20T19:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Mykonos",
-   "away": "Lokomotiv Plovdiv"
-  },
-  {
-   "id": "se-493020",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 1. Lig",
-   "competitionId": "tvf-kadinlar-1-lig",
-   "kickoff": "2026-10-20T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Eczacibasi"
+   "home": "Pardubice",
+   "away": "Unicaja Malaga"
   },
   {
    "id": "se-492264",
@@ -176,20 +161,52 @@ GM_REGISTER_DAY({
    "away": "Salon Vilpas"
   },
   {
-   "id": "se-492263",
-   "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
+   "id": "se-493020",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
    "kickoff": "2026-10-20T19:00:00+03:00",
    "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Pardubice",
-   "away": "Unicaja Malaga"
+   "home": "Fenerbahçe Medicana",
+   "away": "Eczacibasi"
+  },
+  {
+   "id": "se-493167",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-10-20T19:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mykonos",
+   "away": "Lokomotiv Plovdiv"
+  },
+  {
+   "id": "se-493255",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-10-20T19:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Balkan",
+   "away": "BC Lietkabelis"
   },
   {
    "id": "se-493256",
@@ -386,6 +403,21 @@ GM_REGISTER_DAY({
    "away": "Aris"
   },
   {
+   "id": "se-493554",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik",
+   "competitionId": "snooker-kuzey-irlanda-acik",
+   "kickoff": "2026-10-20T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 2"
+  },
+  {
    "id": "se-493172",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -434,87 +466,20 @@ GM_REGISTER_DAY({
    "away": "Slovan Bratislava"
   },
   {
-   "id": "se-492819",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-20T22:00:00+03:00",
-   "broadcasters": [
-    "Prime Video",
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Detroit Pistons",
-   "away": "Boston Celtics"
-  },
-  {
-   "id": "se-491459",
+   "id": "se-491454",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
    "competitionId": "ucl",
    "kickoff": "2026-10-20T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor 3"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Stuttgart",
-   "away": "Atletico Madrid"
-  },
-  {
-   "id": "se-491458",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-10-20T22:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "PSG",
-   "away": "Barcelona"
-  },
-  {
-   "id": "se-491457",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-10-20T22:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor 5"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Napoli",
-   "away": "Bodo Glimt"
-  },
-  {
-   "id": "se-491456",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-10-20T22:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Manchester City",
-   "away": "AEK"
+   "home": "Porto",
+   "away": "PSV"
   },
   {
    "id": "se-491455",
@@ -533,20 +498,87 @@ GM_REGISTER_DAY({
    "away": "Villarreal"
   },
   {
-   "id": "se-491454",
+   "id": "se-491456",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
    "competitionId": "ucl",
    "kickoff": "2026-10-20T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor 4"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Porto",
-   "away": "PSV"
+   "home": "Manchester City",
+   "away": "AEK"
+  },
+  {
+   "id": "se-491457",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-10-20T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Napoli",
+   "away": "Bodo Glimt"
+  },
+  {
+   "id": "se-491458",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-10-20T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "PSG",
+   "away": "Barcelona"
+  },
+  {
+   "id": "se-491459",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-10-20T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stuttgart",
+   "away": "Atletico Madrid"
+  },
+  {
+   "id": "se-492819",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-20T22:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Detroit Pistons",
+   "away": "Boston Celtics"
   }
  ]
 });
