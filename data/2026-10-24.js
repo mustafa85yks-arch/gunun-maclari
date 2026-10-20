@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T12:19:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T17:00:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-20T12:19:25+03:00",
+ "generatedAt": "2026-10-20T17:00:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -738,6 +738,7 @@ GM_REGISTER_DAY({
    "competitionId": "bundesliga",
    "kickoff": "2026-10-24T16:30:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",
@@ -1187,6 +1188,7 @@ GM_REGISTER_DAY({
    "competitionId": "bundesliga",
    "kickoff": "2026-10-24T19:30:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T12:19:29+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T17:00:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-20T12:19:29+03:00",
+ "generatedAt": "2026-10-20T17:00:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -592,6 +592,22 @@ GM_REGISTER_DAY({
    "home": "Kırıkkalespor",
    "away": "Osmaniyespor",
    "turkish": true
+  },
+  {
+   "id": "se-493588",
+   "sport": "basketbol",
+   "competition": "Çin CBA Basketbol Ligi",
+   "competitionId": "cin-cba-basketbol-ligi",
+   "kickoff": "2026-10-25T14:35:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Liaoning",
+   "away": "Xinjiang"
   },
   {
    "id": "se-492879",

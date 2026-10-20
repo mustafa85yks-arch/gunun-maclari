@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T12:19:22+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T17:00:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-20T12:19:22+03:00",
+ "generatedAt": "2026-10-20T17:00:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -167,6 +167,22 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 3"
   },
   {
+   "id": "se-493586",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-10-23T13:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Perth Wildcats",
+   "away": "Melbourne United"
+  },
+  {
    "id": "se-493289",
    "sport": "basketbol",
    "competition": "Adidas U18 Next Generation Turnuvasi",
@@ -249,6 +265,7 @@ GM_REGISTER_DAY({
    "competitionId": "suudi-arabistan-pro-lig",
    "kickoff": "2026-10-23T16:30:00+03:00",
    "broadcasters": [
+    "HT Spor",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T12:19:29+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T17:00:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-20T12:19:29+03:00",
+ "generatedAt": "2026-10-20T17:00:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -120,6 +120,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Basel"
+  },
+  {
+   "id": "se-493589",
+   "sport": "basketbol",
+   "competition": "Çin CBA Basketbol Ligi",
+   "competitionId": "cin-cba-basketbol-ligi",
+   "kickoff": "2026-10-26T14:35:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shanghai",
+   "away": "Guangdong"
   },
   {
    "id": "se-491300",
