@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T21:13:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T02:48:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-20T21:13:15+03:00",
+ "generatedAt": "2026-10-21T02:48:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -322,22 +322,6 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 2"
   },
   {
-   "id": "se-490677",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-10-23T18:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Koleji",
-   "away": "OGM Orman"
-  },
-  {
    "id": "se-490676",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -354,35 +338,37 @@ GM_REGISTER_DAY({
    "away": "Büyükçekmece"
   },
   {
-   "id": "se-493563",
-   "sport": "buz pateni",
-   "competition": "Artistik Buz Pateni Grand Prix",
-   "competitionId": "artistik-buz-pateni-grand-prix",
-   "kickoff": "2026-10-23T19:00:00+03:00",
+   "id": "se-490677",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-23T18:00:00+03:00",
    "broadcasters": [
-    "Eurosport 2"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Karışık Buz Dansı Kısa Program"
+   "home": "Fenerbahçe Koleji",
+   "away": "OGM Orman"
   },
   {
-   "id": "se-493291",
+   "id": "se-489764",
    "sport": "basketbol",
-   "competition": "Adidas U18 Next Generation Turnuvasi",
-   "competitionId": "adidas-u18-next-generation-turnuvasi",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
    "kickoff": "2026-10-23T19:00:00+03:00",
    "broadcasters": [
-    "Euroleague Youtube"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Pablo Laso Academy",
-   "away": "Tofaş"
+   "home": "Çayırova Bld.",
+   "away": "Bursaspor",
+   "turkish": true
   },
   {
    "id": "se-492083",
@@ -401,21 +387,35 @@ GM_REGISTER_DAY({
    "away": "Arkas"
   },
   {
-   "id": "se-489764",
+   "id": "se-493291",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
+   "competition": "Adidas U18 Next Generation Turnuvasi",
+   "competitionId": "adidas-u18-next-generation-turnuvasi",
    "kickoff": "2026-10-23T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "Euroleague Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çayırova Bld.",
-   "away": "Bursaspor",
-   "turkish": true
+   "home": "Pablo Laso Academy",
+   "away": "Tofaş"
+  },
+  {
+   "id": "se-493563",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-10-23T19:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Kısa Program"
   },
   {
    "id": "se-488280",

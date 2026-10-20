@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T21:13:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T02:48:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-20T21:13:20+03:00",
+ "generatedAt": "2026-10-21T02:48:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -205,6 +205,22 @@ GM_REGISTER_DAY({
    "home": "Beşiktaş",
    "away": "İstanbul Başakşehir",
    "turkish": true
+  },
+  {
+   "id": "se-493620",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Ataşehir Kartalları"
   },
   {
    "id": "se-489811",
