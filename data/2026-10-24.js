@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T17:00:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-20T21:13:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-20T17:00:40+03:00",
+ "generatedAt": "2026-10-20T21:13:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1164,6 +1164,22 @@ GM_REGISTER_DAY({
    "home": "Eskişehirspor",
    "away": "Yıldırımspor",
    "turkish": true
+  },
+  {
+   "id": "se-493599",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İzmir DSİ",
+   "away": "Karşıyaka"
   },
   {
    "id": "se-487589",
