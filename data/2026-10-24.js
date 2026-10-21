@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T17:16:27+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T20:11:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-21T17:16:27+03:00",
+ "generatedAt": "2026-10-21T20:11:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -468,10 +468,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Aston Villa",
    "away": "Manchester City"
@@ -819,7 +818,7 @@ GM_REGISTER_DAY({
    "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-10-24T16:30:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "HT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -853,10 +852,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Arsenal",
    "away": "Everton"
@@ -1056,7 +1054,7 @@ GM_REGISTER_DAY({
    "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-10-24T19:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "HT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1207,10 +1205,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Chelsea",
    "away": "Tottenham"
@@ -1522,10 +1519,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Gil Vicente",
    "away": "Porto"
