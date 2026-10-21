@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T12:15:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T17:16:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-22",
- "generatedAt": "2026-10-21T12:15:58+03:00",
+ "generatedAt": "2026-10-21T17:16:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -152,6 +152,86 @@ GM_REGISTER_DAY({
    "away": "Sacramento Kings"
   },
   {
+   "id": "se-493763",
+   "sport": "tenis",
+   "competition": "WTA Osaka",
+   "competitionId": "wta",
+   "kickoff": "2026-10-22T05:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Li",
+   "away": "Zeynep Sönmez"
+  },
+  {
+   "id": "se-493764",
+   "sport": "tenis",
+   "competition": "WTA Osaka",
+   "competitionId": "wta",
+   "kickoff": "2026-10-22T07:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Stoiana",
+   "away": "M.Uchijima"
+  },
+  {
+   "id": "se-493766",
+   "sport": "tenis",
+   "competition": "WTA Ningbo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-22T08:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "I.Jovic",
+   "away": "J.Paolini"
+  },
+  {
+   "id": "se-493765",
+   "sport": "tenis",
+   "competition": "WTA Osaka",
+   "competitionId": "wta",
+   "kickoff": "2026-10-22T09:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Linette",
+   "away": "K.Siniakova"
+  },
+  {
+   "id": "se-493767",
+   "sport": "tenis",
+   "competition": "WTA Ningbo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-22T10:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Kawa",
+   "away": "B.Bencic"
+  },
+  {
    "id": "se-493557",
    "sport": "bisiklet",
    "competition": "Bisiklet Tour de France",
@@ -165,6 +245,38 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Rota Tanıtımı"
+  },
+  {
+   "id": "se-493768",
+   "sport": "tenis",
+   "competition": "WTA Ningbo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-22T12:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Eala",
+   "away": "D.Shnaider"
+  },
+  {
+   "id": "se-493769",
+   "sport": "tenis",
+   "competition": "WTA Ningbo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-22T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Rybakina",
+   "away": "P.Kudermetova"
   },
   {
    "id": "se-493558",
@@ -204,7 +316,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -220,7 +332,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -236,7 +348,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -268,7 +380,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -284,7 +396,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -294,29 +406,13 @@ GM_REGISTER_DAY({
    "away": "Bayer Leverkusen"
   },
   {
-   "id": "se-491796",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-10-22T19:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "St.Gilloise",
-   "away": "Hapoel Beer Sheva"
-  },
-  {
    "id": "se-491797",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
    "kickoff": "2026-10-22T19:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -324,22 +420,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Sturm Graz",
    "away": "Marsilya"
-  },
-  {
-   "id": "se-491849",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Konferans Ligi",
-   "competitionId": "uefa-avrupa-konferans-ligi",
-   "kickoff": "2026-10-22T19:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Jablonec",
-   "away": "Brighton"
   },
   {
    "id": "se-491853",
@@ -634,29 +714,13 @@ GM_REGISTER_DAY({
    "away": "Milan"
   },
   {
-   "id": "se-491800",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-10-22T22:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NK Celje",
-   "away": "Salzburg"
-  },
-  {
    "id": "se-491801",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
    "kickoff": "2026-10-22T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -672,7 +736,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -682,29 +746,13 @@ GM_REGISTER_DAY({
    "away": "Lyon"
   },
   {
-   "id": "se-491803",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-10-22T22:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Jagiellonia",
-   "away": "Anderlecht"
-  },
-  {
    "id": "se-491804",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
    "kickoff": "2026-10-22T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -720,7 +768,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -736,7 +784,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-10-22T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -746,20 +794,20 @@ GM_REGISTER_DAY({
    "away": "Benfica"
   },
   {
-   "id": "se-491807",
+   "id": "se-491855",
    "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
+   "competition": "UEFA Avrupa Konferans Ligi",
+   "competitionId": "uefa-avrupa-konferans-ligi",
    "kickoff": "2026-10-22T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Viktoria Plzen",
-   "away": "Levski Sofya"
+   "home": "Ajax",
+   "away": "Atalanta"
   }
  ]
 });

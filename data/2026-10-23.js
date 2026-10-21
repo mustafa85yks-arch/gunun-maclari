@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T12:16:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T17:16:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-21T12:16:02+03:00",
+ "generatedAt": "2026-10-21T17:16:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -369,37 +369,19 @@ GM_REGISTER_DAY({
    "away": "OGM Orman"
   },
   {
-   "id": "se-489764",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
+   "id": "se-493563",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-10-23T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çayırova Bld.",
-   "away": "Bursaspor",
-   "turkish": true
-  },
-  {
-   "id": "se-492083",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 1. Lig",
-   "competitionId": "tvf-erkekler-1-lig",
-   "kickoff": "2026-10-23T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Arkas"
+   "title": "Karışık Buz Dansı Kısa Program"
   },
   {
    "id": "se-493291",
@@ -418,19 +400,37 @@ GM_REGISTER_DAY({
    "away": "Tofaş"
   },
   {
-   "id": "se-493563",
-   "sport": "buz pateni",
-   "competition": "Artistik Buz Pateni Grand Prix",
-   "competitionId": "artistik-buz-pateni-grand-prix",
+   "id": "se-492083",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 1. Lig",
+   "competitionId": "tvf-erkekler-1-lig",
    "kickoff": "2026-10-23T19:00:00+03:00",
    "broadcasters": [
-    "Eurosport 2"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Karışık Buz Dansı Kısa Program"
+   "home": "Fenerbahçe Medicana",
+   "away": "Arkas"
+  },
+  {
+   "id": "se-489764",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-10-23T19:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çayırova Bld.",
+   "away": "Bursaspor",
+   "turkish": true
   },
   {
    "id": "se-488280",
@@ -627,21 +627,6 @@ GM_REGISTER_DAY({
    "away": "Kvarner CEBA Academy"
   },
   {
-   "id": "se-493398",
-   "sport": "tenis",
-   "competition": "ATP Brüksel Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-23T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 4"
-  },
-  {
    "id": "se-488244",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -656,6 +641,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Stuttgart",
    "away": "Monchengladbach"
+  },
+  {
+   "id": "se-493398",
+   "sport": "tenis",
+   "competition": "ATP Brüksel Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-23T21:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 4"
   },
   {
    "id": "se-487527",
@@ -674,22 +674,6 @@ GM_REGISTER_DAY({
    "away": "Nice"
   },
   {
-   "id": "se-488318",
-   "sport": "futbol",
-   "competition": "İtalya Serie A",
-   "competitionId": "serie-a",
-   "kickoff": "2026-10-23T21:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Torino",
-   "away": "Monza"
-  },
-  {
    "id": "se-490168",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -704,6 +688,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Paris",
    "away": "Valencia Basket"
+  },
+  {
+   "id": "se-488318",
+   "sport": "futbol",
+   "competition": "İtalya Serie A",
+   "competitionId": "serie-a",
+   "kickoff": "2026-10-23T21:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Torino",
+   "away": "Monza"
   },
   {
    "id": "se-487585",
