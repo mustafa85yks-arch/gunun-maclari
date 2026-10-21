@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T03:56:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T12:15:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-22",
- "generatedAt": "2026-10-21T03:56:20+03:00",
+ "generatedAt": "2026-10-21T12:15:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -420,6 +420,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 1"
+  },
+  {
+   "id": "se-493741",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-10-22T20:25:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman Seansı"
   },
   {
    "id": "se-490160",

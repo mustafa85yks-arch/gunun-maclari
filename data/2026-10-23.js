@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T03:56:22+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T12:16:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-21T03:56:22+03:00",
+ "generatedAt": "2026-10-21T12:16:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,21 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-493742",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-10-23T00:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Sıralama Turları"
+  },
   {
    "id": "se-492828",
    "sport": "basketbol",
@@ -697,11 +712,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-23T22:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ipswich Town",
    "away": "Nottingham Forest"

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T03:56:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T12:16:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-21T03:56:25+03:00",
+ "generatedAt": "2026-10-21T12:16:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -31,6 +31,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Antrenman Turları-2"
+  },
+  {
+   "id": "se-493743",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-10-24T01:50:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Açılış Yarışı"
   },
   {
    "id": "se-492830",
@@ -452,11 +467,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-24T14:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Aston Villa",
    "away": "Manchester City"
@@ -837,11 +853,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-24T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Arsenal",
    "away": "Everton"
@@ -853,7 +870,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-24T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1191,11 +1208,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-24T19:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Chelsea",
    "away": "Tottenham"
@@ -1497,6 +1515,23 @@ GM_REGISTER_DAY({
    ],
    "home": "P.Yan",
    "away": "M.Dvalishvili"
+  },
+  {
+   "id": "se-493738",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-10-24T22:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Gil Vicente",
+   "away": "Porto"
   },
   {
    "id": "se-493410",

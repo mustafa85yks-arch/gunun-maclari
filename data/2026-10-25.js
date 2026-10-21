@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T03:56:27+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T12:16:12+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-21T03:56:27+03:00",
+ "generatedAt": "2026-10-21T12:16:12+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -127,6 +127,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Pittsburgh RH",
    "away": "Birmingham Legion"
+  },
+  {
+   "id": "se-493744",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-10-25T02:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Ters Grid Yarışı"
   },
   {
    "id": "se-493038",
@@ -904,7 +919,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-25T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -920,11 +935,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-25T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Liverpool",
    "away": "Brighton"
@@ -936,7 +952,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-25T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1220,11 +1236,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-10-25T19:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Sunderland",
    "away": "Leeds United"
@@ -1293,6 +1310,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Baltimore Ravens",
    "away": "Cincinnati Bengals"
+  },
+  {
+   "id": "se-493745",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-10-25T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış"
   },
   {
    "id": "se-489771",
@@ -1402,6 +1434,7 @@ GM_REGISTER_DAY({
    "competitionId": "f1",
    "kickoff": "2026-10-25T23:00:00+03:00",
    "broadcasters": [
+    "beIN CONNECT",
     "beIN SPORTS 4"
    ],
    "verification": "tek_kaynak",
@@ -1459,6 +1492,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Detroit Lions",
    "away": "GB Packers"
+  },
+  {
+   "id": "se-493739",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-10-25T23:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sporting Lisbon",
+   "away": "Academico Viseu"
   }
  ]
 });
