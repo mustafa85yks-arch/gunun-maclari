@@ -111,6 +111,11 @@ Gemini vb. yapay zekâ API'si gerekmedi.
 - **↗ Paylaş** (3 Ekim 2026): kart ayrıntısında. Telefonda paylaşma menüsü (WhatsApp vb.), masaüstünde panoya kopyalar.
   Metin: spor simgesi + takımlar, lig, gün/saat, kanal. Bağlantı `#2026-10-10/se-491178` → o günü açar, karta gider.
   Maç kimliği sporekrani'nin numarası (`se-…`), bot güncellemesinde değişmiyor. JS/CSS artık `?v=3`.
+- **Kadrolar** (21 Ekim 2026): futbol kartı açılınca ESPN maç özetinden (`soccer/all/summary?event=`) ilk 11, diziliş,
+  forma no, yedekler (açılır liste), oyuna giren/çıkan ↑↓. Eşleştirme canlı skorla aynı (`matchAll`, tek aday).
+  Maça 75 dk'dan fazla varsa özet istenmez, "henüz açıklanmadı" notu çıkar. ESPN bazen yarım liste veriyor
+  (sadece kaleci ilk 11'de) → 11 kişi yoksa açıklanmamış sayılır. ESPN'de olmayan maçta bölüm hiç görünmez.
+  Sadece futbol (basketbol/NFL için ESPN kadroyu maç başlayınca veriyor, eklenmedi). JS `?v=7`, CSS `?v=6`.
 - Saat sıralamasında "Şu an yayında" ve "Sıradaki" ayrı başlık.
 - **Sırala: Saat | Lig** (`gm-sirala`). Lig sıralamasında lig adı sadece grup başlığında.
 - Canlı durum saatten tahmin (`~` işareti); gerçek canlı skor yok.

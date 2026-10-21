@@ -236,6 +236,21 @@ a { color: inherit; }
 .c-detail dt { color: var(--ink-3); }
 .c-detail dd { margin: 0; }
 .fav-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+
+/* Kadrolar (futbol, ESPN) */
+.lineup { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(0,0,0,.1); }
+.lu-title { font-weight: 700; margin-bottom: 6px; }
+.lu-note { margin: 0; color: var(--ink-3); }
+.lu-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.lu-team { min-width: 0; }
+.lu-team h4 { margin: 0 0 4px; font-size: 12.5px; }
+.lu-team h4 small { font-weight: 500; color: var(--ink-3); }
+.lu-team ol { list-style: none; margin: 0; padding: 0; }
+.lu-team li { display: flex; gap: 6px; line-height: 1.5; overflow-wrap: anywhere; }
+.lu-team li b { flex: 0 0 1.6em; text-align: right; color: var(--ink-3); font-weight: 600; }
+.lu-team li i { font-style: normal; color: var(--ink-3); }
+.lu-team details { margin-top: 4px; }
+.lu-team summary { cursor: pointer; color: var(--ink-2); }
 .fav-btn {
   border: 1px solid var(--line); background: var(--card); border-radius: 999px;
   padding: 4px 10px; font-size: 12px; font-weight: 600;

@@ -247,7 +247,7 @@
         '<dt>Doğrulama</dt><dd>' + VERIFY_TEXT[ev.verification] + '</dd>' +
         '<dt>Kaynak</dt><dd>' + (ev.sources.length ? esc(ev.sources.join(', ')) : '—') + '</dd>' +
         (ev.note ? '<dt>Not</dt><dd>' + esc(ev.note) + '</dd>' : '') +
-      '</dl><div class="fav-row">' +
+      '</dl>' + lineupHtml(ev) + '<div class="fav-row">' +
         (st.state === 'scheduled' ? '<button class="cal-btn" data-cal="' + esc(ev.id) + '">📅 Takvime ekle</button>' : '') +
         '<button class="share-btn" data-share="' + esc(ev.id) + '">↗ Paylaş</button>' +
         favButtons(ev) + '</div></div>' +
@@ -483,7 +483,7 @@
       if (soccer && state === 'live') minute = String(st.displayClock || '').replace(/'/g, '').replace(/\s+/g, '') || null;
       out[ev.id] = {
         h: parseInt(x.h.score, 10), a: parseInt(x.a.score, 10), state: state,
-        minute: minute, label: liveLabel(st, soccer), t: Date.now()
+        minute: minute, label: liveLabel(st, soccer), eid: x.e.id, t: Date.now()
       };
     });
     return out;
@@ -527,6 +527,93 @@
     });
   }
   GM.live = { matchAll: matchAll };
+
+  /* ---------- Kadrolar (ESPN) ---------- */
+  // Futbol kartı açılınca ESPN'in maç özetinden ilk 11 + yedekler okunur. Eşleştirme canlı skorla aynı
+  // (iki takım + saat, tek aday). Kadrolar maçtan ~1 saat önce açıklanır; daha önce sadece not yazar.
+  // ESPN'de olmayan maçta (eşleşme yok) kadro bölümü hiç görünmez.
+
+  var LINEUP_BEFORE_MS = 75 * 60000;  // başlamaya bundan fazla varsa özet hiç istenmez
+  var feedCache = {};                 // 'YYYYMMDD' → {t, p: Promise<events>}
+  var lineupById = {};                // maç kimliği → {s: 'loading'|'pending'|'ok', home, away, t}
+
+  function soccerFeed(d) {
+    var c = feedCache[d];
+    if (c && Date.now() - c.t < 10 * 60000) return c.p;
+    var p = fetch(ESPN + 'soccer/all/scoreboard?limit=300&dates=' + d)
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+      .then(function (j) { return j.events || []; })
+      .catch(function () { delete feedCache[d]; return []; });
+    feedCache[d] = { t: Date.now(), p: p };
+    return p;
+  }
+
+  // subbedIn/Out bazen true/false, bazen {didSub: true/false} geliyor.
+  function didSub(v) { return v === true || !!(v && v.didSub); }
+
+  function sideOf(r) {
+    var list = (r && r.roster) || [];
+    var p = function (x) {
+      return { n: x.jersey || '', name: (x.athlete && x.athlete.displayName) || '', inn: didSub(x.subbedIn), out: didSub(x.subbedOut) };
+    };
+    return {
+      formation: r && r.formation,
+      xi: list.filter(function (x) { return x.starter; })
+        .sort(function (a, b) { return (+a.formationPlace || 99) - (+b.formationPlace || 99); }).map(p),
+      subs: list.filter(function (x) { return !x.starter; }).map(p)
+    };
+  }
+
+  function loadLineup(id) {
+    var ev = findEvent(id);
+    if (!ev || ev.category !== 'futbol' || !ev.home || !ev.away) return;
+    var L = lineupById[id];
+    if (L && (L.s === 'ok' || L.s === 'loading' || Date.now() - L.t < 5 * 60000)) return;
+    lineupById[id] = { s: 'loading', t: Date.now() };
+    soccerFeed(ymd(new Date(ev.kickoff.getTime() - 5 * 3600000))).then(function (feed) {
+      var hit = matchAll([ev], feed, true)[id];
+      if (!hit) { lineupById[id] = { s: 'none', t: Date.now() }; return null; }
+      if (ev.kickoff - Date.now() > LINEUP_BEFORE_MS) { lineupById[id] = { s: 'pending', t: Date.now() }; return null; }
+      return fetch(ESPN + 'soccer/all/summary?event=' + encodeURIComponent(hit.eid))
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(); });
+    }).then(function (j) {
+      if (!j) return;
+      var rs = (j.rosters || []).filter(function (r) { return r.roster && r.roster.length; });
+      var h = rs.filter(function (r) { return teamMatch(ev.home, r); })[0];
+      var a = rs.filter(function (r) { return teamMatch(ev.away, r); })[0];
+      if (rs.length === 2 && (!h || !a || h === a)) {  // ad tutmazsa ESPN'in ev/deplasman bilgisine güven
+        h = rs.filter(function (r) { return r.homeAway === 'home'; })[0];
+        a = rs.filter(function (r) { return r.homeAway === 'away'; })[0];
+      }
+      var H = h && sideOf(h), A = a && sideOf(a);
+      // ESPN bazen yarım liste verir (sadece kaleci ilk 11'de): 11 kişi yoksa henüz açıklanmamış say.
+      lineupById[id] = H && A && H.xi.length >= 11 && A.xi.length >= 11
+        ? { s: 'ok', home: H, away: A, t: Date.now() } : { s: 'pending', t: Date.now() };
+    }).catch(function () {
+      delete lineupById[id];
+    }).then(function () { render(); });
+  }
+
+  function lineupHtml(ev) {
+    var L = lineupById[ev.id];
+    if (!L || L.s === 'none') return '';
+    var body;
+    if (L.s === 'loading') body = '<p class="lu-note">Kadrolar yükleniyor…</p>';
+    else if (L.s === 'pending') body = '<p class="lu-note">Kadrolar henüz açıklanmadı (genelde maçtan ~1 saat önce).</p>';
+    else {
+      var col = function (name, t) {
+        var row = function (p) {
+          return '<li><b>' + esc(p.n) + '</b>' + esc(p.name) + (p.out ? ' <i>↓</i>' : '') + (p.inn ? ' <i>↑</i>' : '') + '</li>';
+        };
+        return '<div class="lu-team"><h4>' + esc(name) + (t.formation ? ' <small>' + esc(t.formation) + '</small>' : '') + '</h4>' +
+          '<ol>' + t.xi.map(row).join('') + '</ol>' +
+          (t.subs.length ? '<details><summary>Yedekler (' + t.subs.length + ')</summary><ol>' + t.subs.map(row).join('') + '</ol></details>' : '') +
+          '</div>';
+      };
+      body = '<div class="lu-cols">' + col(ev.home, L.home) + col(ev.away, L.away) + '</div>';
+    }
+    return '<div class="lineup"><div class="lu-title">Kadrolar</div>' + body + '</div>';
+  }
 
   function scoreOf(ev, side) {
     var L = liveOf(ev);
@@ -882,6 +969,7 @@
   // Önerilen'deki küçük karta dokununca listedeki asıl kart açılır ve oraya kayılır.
   function goto(id) {
     state.open[id] = true;
+    loadLineup(id);
     render();
     var el = document.querySelector('#allList .card[data-id="' + CSS.escape(id) + '"]');
     if (!el) return;
@@ -898,7 +986,7 @@
       var c = e.target.closest('.card');
       if (c && !e.target.closest('.c-detail')) {
         var id = c.dataset.id;
-        if (state.open[id]) delete state.open[id]; else state.open[id] = true;
+        if (state.open[id]) delete state.open[id]; else { state.open[id] = true; loadLineup(id); }
         document.querySelectorAll('.card[data-id="' + CSS.escape(id) + '"]').forEach(function (x) {
           x.classList.toggle('open', !!state.open[id]);
         });
