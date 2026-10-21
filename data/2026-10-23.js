@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-21T21:19:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T02:59:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-21T21:19:49+03:00",
+ "generatedAt": "2026-10-22T02:59:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -730,9 +730,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ipswich Town",
    "away": "Nottingham Forest"
