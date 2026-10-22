@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T17:16:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-27",
- "generatedAt": "2026-10-22T17:16:12+03:00",
+ "generatedAt": "2026-10-22T21:13:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -80,7 +80,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-10-27T05:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -139,6 +141,22 @@ GM_REGISTER_DAY({
    "away": "PAOK"
   },
   {
+   "id": "se-493951",
+   "sport": "futbol",
+   "competition": "Almanya Kupasi DFB Pokal",
+   "competitionId": "almanya-kupasi-dfb-pokal",
+   "kickoff": "2026-10-27T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hamburg",
+   "away": "Eintracht Frankfurt"
+  },
+  {
    "id": "se-493273",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -155,22 +173,6 @@ GM_REGISTER_DAY({
    "away": "Ratiopharm Ulm"
   },
   {
-   "id": "se-493272",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-10-27T20:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Balkan",
-   "away": "Manresa"
-  },
-  {
    "id": "se-493191",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -185,6 +187,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Dinamo Bükreş",
    "away": "Patrioti Levice"
+  },
+  {
+   "id": "se-493272",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-10-27T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Balkan",
+   "away": "Manresa"
   },
   {
    "id": "se-488328",
@@ -283,21 +301,20 @@ GM_REGISTER_DAY({
    "away": "Cluj Napoca"
   },
   {
-   "id": "se-490171",
+   "id": "se-492272",
    "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-27T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "FIBA Şampiyonlar Ligi Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kizilyildiz",
-   "away": "Maccabi Fox"
+   "home": "BC Igokea",
+   "away": "Slavia Prag"
   },
   {
    "id": "se-493276",
@@ -332,20 +349,21 @@ GM_REGISTER_DAY({
    "away": "KK Bosna"
   },
   {
-   "id": "se-492272",
+   "id": "se-490171",
    "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-27T22:00:00+03:00",
    "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "BC Igokea",
-   "away": "Slavia Prag"
+   "home": "Kizilyildiz",
+   "away": "Maccabi Fox"
   },
   {
    "id": "se-490170",
@@ -447,6 +465,22 @@ GM_REGISTER_DAY({
    "away": "Como"
   },
   {
+   "id": "se-493952",
+   "sport": "futbol",
+   "competition": "Almanya Kupasi DFB Pokal",
+   "competitionId": "almanya-kupasi-dfb-pokal",
+   "kickoff": "2026-10-27T22:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Borussia Dortmund",
+   "away": "Werder Bremen"
+  },
+  {
    "id": "se-490174",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -462,6 +496,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Baskonia",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-493955",
+   "sport": "futbol",
+   "competition": "İngiltere Lig Kupasi",
+   "competitionId": "ingiltere-lig-kupasi",
+   "kickoff": "2026-10-27T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fleetwood",
+   "away": "Arsenal"
   }
  ]
 });

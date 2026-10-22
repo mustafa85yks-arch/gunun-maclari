@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T17:16:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-22T17:16:12+03:00",
+ "generatedAt": "2026-10-22T21:13:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -460,11 +460,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-25T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Pendikspor",
    "away": "Kayserispor",
@@ -478,7 +479,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-25T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -609,6 +610,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-494006",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-10-25T14:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Havelse",
+   "away": "Saarbrucken FC"
+  },
+  {
    "id": "se-493588",
    "sport": "basketbol",
    "competition": "Çin CBA Basketbol Ligi",
@@ -710,22 +727,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-490682",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-10-25T15:30:00+03:00",
-   "broadcasters": [
-    "HT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Konya BB",
-   "away": "Göztepe"
-  },
-  {
    "id": "se-492882",
    "sport": "tenis",
    "competition": "ATP Lyon Final",
@@ -769,11 +770,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-25T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Antalyaspor",
    "away": "Bodrumspor",
@@ -865,6 +867,22 @@ GM_REGISTER_DAY({
    "away": "Getafe"
   },
   {
+   "id": "se-490682",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-10-25T16:30:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konya BB",
+   "away": "Göztepe"
+  },
+  {
    "id": "se-492888",
    "sport": "futbol",
    "competition": "Hollanda Eredivisie",
@@ -887,7 +905,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-25T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1031,6 +1049,22 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-494007",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-10-25T17:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Preussen Münster",
+   "away": "Viktoria Köln"
+  },
+  {
    "id": "se-489770",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -1107,11 +1141,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-25T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Keçiörengücü",
    "away": "Bursaspor",
@@ -1167,6 +1202,38 @@ GM_REGISTER_DAY({
    "away": "Fenerbahçe Medicana"
   },
   {
+   "id": "se-494010",
+   "sport": "futbol",
+   "competition": "Avusturya Bundesliga",
+   "competitionId": "avusturya-bundesliga",
+   "kickoff": "2026-10-25T19:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LASK Linz",
+   "away": "Salzburg"
+  },
+  {
+   "id": "se-487528",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-10-25T19:15:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Toulouse",
+   "away": "Troyes"
+  },
+  {
    "id": "se-487531",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1205,7 +1272,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-25T19:15:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1221,7 +1288,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-25T19:15:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1401,11 +1468,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-25T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "PSG",
    "away": "Lyon"

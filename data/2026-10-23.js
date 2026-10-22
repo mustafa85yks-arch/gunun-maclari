@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T17:16:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-22T17:16:00+03:00",
+ "generatedAt": "2026-10-22T21:13:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -375,11 +375,13 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-10-23T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Çayırova Bld.",
    "away": "Bursaspor",
@@ -486,11 +488,12 @@ GM_REGISTER_DAY({
    "competitionId": "super-lig",
    "kickoff": "2026-10-23T20:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 2"
+    "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Alanyaspor",
    "away": "Kocaelispor",
@@ -504,11 +507,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-23T20:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Boluspor",
    "away": "Vanspor",
@@ -546,6 +550,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 3"
+  },
+  {
+   "id": "se-494003",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-10-23T20:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Essen",
+   "away": "Jahn Regensburg"
   },
   {
    "id": "se-493562",
@@ -680,7 +700,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-23T21:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [

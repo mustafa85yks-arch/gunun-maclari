@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T17:16:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-22T17:16:12+03:00",
+ "generatedAt": "2026-10-22T21:13:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -196,7 +196,7 @@ GM_REGISTER_DAY({
    "competitionId": "super-lig",
    "kickoff": "2026-10-26T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -230,7 +230,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-26T20:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -267,7 +267,7 @@ GM_REGISTER_DAY({
    "competitionId": "portekiz-liga-nos",
    "kickoff": "2026-10-26T21:45:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 4"
+    "beIN SPORTS 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -275,6 +275,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Santa Clara",
    "away": "Benfica"
+  },
+  {
+   "id": "se-493945",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-10-26T22:45:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Montpellier",
+   "away": "Red Star"
   },
   {
    "id": "se-491138",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T17:16:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-22T17:16:12+03:00",
+ "generatedAt": "2026-10-22T21:13:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,7 +32,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-10-29T02:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -40,22 +42,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Indiana Pacers",
    "away": "Philadelphia 76ers"
-  },
-  {
-   "id": "se-492857",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-29T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NO Pelicans",
-   "away": "Denver Nuggets"
   },
   {
    "id": "se-492858",
@@ -88,6 +74,54 @@ GM_REGISTER_DAY({
    ],
    "home": "Minnesota TW",
    "away": "GS Warriors"
+  },
+  {
+   "id": "se-492857",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-29T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NO Pelicans",
+   "away": "Denver Nuggets"
+  },
+  {
+   "id": "se-493963",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-29T04:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dallas Mavericks",
+   "away": "OKC Thunder"
+  },
+  {
+   "id": "se-493964",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Basel"
   },
   {
    "id": "se-493214",
@@ -168,6 +202,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Kristianstad",
    "away": "Szeged"
+  },
+  {
+   "id": "se-493965",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-29T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Nassr",
+   "away": "Al Kholood"
   },
   {
    "id": "se-490179",
@@ -267,6 +317,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Skanderborg",
    "away": "Barcelona"
+  },
+  {
+   "id": "se-493959",
+   "sport": "futbol",
+   "competition": "İngiltere Lig Kupasi",
+   "competitionId": "ingiltere-lig-kupasi",
+   "kickoff": "2026-10-29T22:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Everton",
+   "away": "Newcastle"
   }
  ]
 });
