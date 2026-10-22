@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:52+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T02:57:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-22T21:13:52+03:00",
+ "generatedAt": "2026-10-23T02:57:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -190,6 +190,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Cleveland Cavaliers",
    "away": "Brooklyn Nets"
+  },
+  {
+   "id": "se-494060",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA Amerikan Futbolu",
+   "competitionId": "ncaa-amerikan-futbolu",
+   "kickoff": "2026-10-25T02:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Texas Longhorns",
+   "away": "Ole Miss"
   },
   {
    "id": "se-491212",
@@ -462,10 +478,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Pendikspor",
    "away": "Kayserispor",
@@ -772,10 +787,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Antalyaspor",
    "away": "Bodrumspor",
@@ -1143,10 +1157,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Keçiörengücü",
    "away": "Bursaspor",
@@ -1572,10 +1585,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Sporting Lisbon",
    "away": "Academico Viseu"

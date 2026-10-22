@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T02:57:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-22T21:13:40+03:00",
+ "generatedAt": "2026-10-23T02:57:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -109,7 +109,7 @@ GM_REGISTER_DAY({
    "sport": "tenis",
    "competition": "ATP Almatı Çeyrek Final",
    "competitionId": "atp",
-   "kickoff": "2026-10-23T08:30:00+03:00",
+   "kickoff": "2026-10-23T09:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -117,7 +117,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "N.Basilashvili",
+   "away": "A.Mannarino"
   },
   {
    "id": "se-493287",
@@ -140,7 +141,7 @@ GM_REGISTER_DAY({
    "sport": "tenis",
    "competition": "ATP Almatı Çeyrek Final",
    "competitionId": "atp",
-   "kickoff": "2026-10-23T10:30:00+03:00",
+   "kickoff": "2026-10-23T11:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -148,7 +149,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "S.Tsitsipas",
+   "away": "J.Duckworth"
   },
   {
    "id": "se-493288",
@@ -171,7 +173,7 @@ GM_REGISTER_DAY({
    "sport": "tenis",
    "competition": "ATP Almatı Çeyrek Final",
    "competitionId": "atp",
-   "kickoff": "2026-10-23T12:30:00+03:00",
+   "kickoff": "2026-10-23T13:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -179,7 +181,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "D.Medvedev",
+   "away": "T.Atmane"
   },
   {
    "id": "se-493586",
@@ -226,7 +229,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "C.Chidekh",
+   "away": "F.Cerundolo"
   },
   {
    "id": "se-493399",
@@ -241,7 +245,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "C.Moutet",
+   "away": "T.Paul"
   },
   {
    "id": "se-493559",
@@ -257,21 +262,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final"
-  },
-  {
-   "id": "se-492876",
-   "sport": "tenis",
-   "competition": "ATP Almatı Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-23T16:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 4"
   },
   {
    "id": "se-493403",
@@ -319,7 +309,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "T.Griekspoor",
+   "away": "J.Lehecka"
   },
   {
    "id": "se-493400",
@@ -334,7 +325,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "D.Altmaier",
+   "away": "T.Fritz"
+  },
+  {
+   "id": "se-492876",
+   "sport": "tenis",
+   "competition": "ATP Almatı Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-23T17:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Bublik",
+   "away": "K.Khachanov"
   },
   {
    "id": "se-490676",
@@ -467,21 +475,6 @@ GM_REGISTER_DAY({
    "away": "Spor Toto SK"
   },
   {
-   "id": "se-493397",
-   "sport": "tenis",
-   "competition": "ATP Brüksel Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-23T19:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 3"
-  },
-  {
    "id": "se-488955",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -537,6 +530,22 @@ GM_REGISTER_DAY({
    "away": "Asvel Villeurbanne"
   },
   {
+   "id": "se-493397",
+   "sport": "tenis",
+   "competition": "ATP Brüksel Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-23T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Fils",
+   "away": "A.Michelsen"
+  },
+  {
    "id": "se-493401",
    "sport": "tenis",
    "competition": "ATP Lyon Çeyrek Final",
@@ -549,7 +558,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "F.Cobolli",
+   "away": "B.Nakashima"
   },
   {
    "id": "se-494003",
@@ -679,21 +689,6 @@ GM_REGISTER_DAY({
    "away": "Monchengladbach"
   },
   {
-   "id": "se-493398",
-   "sport": "tenis",
-   "competition": "ATP Brüksel Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-23T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 4"
-  },
-  {
    "id": "se-487527",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -777,6 +772,22 @@ GM_REGISTER_DAY({
    "away": "Malaga"
   },
   {
+   "id": "se-493398",
+   "sport": "tenis",
+   "competition": "ATP Brüksel Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-23T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.L.Struff",
+   "away": "Z.Bergs"
+  },
+  {
    "id": "se-493402",
    "sport": "tenis",
    "competition": "ATP Lyon Çeyrek Final",
@@ -789,7 +800,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
+   "home": "L.Van Assche",
+   "away": "L.Musetti"
   },
   {
    "id": "se-493404",

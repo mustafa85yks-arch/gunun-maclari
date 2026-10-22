@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T21:13:52+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T02:57:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-27",
- "generatedAt": "2026-10-22T21:13:52+03:00",
+ "generatedAt": "2026-10-23T02:57:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -92,6 +92,57 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
+   "id": "se-494033",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-27T15:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "TFL Altekma",
+   "away": "Halkbank",
+   "turkish": true
+  },
+  {
+   "id": "se-494030",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-27T16:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sultanbeyli Bld.",
+   "away": "Gebze Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-494029",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-27T16:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sungurlu Bld.",
+   "away": "Galatasaray",
+   "turkish": true
+  },
+  {
    "id": "se-490169",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -139,6 +190,74 @@ GM_REGISTER_DAY({
    ],
    "home": "Bahçeşehir Klj",
    "away": "PAOK"
+  },
+  {
+   "id": "se-494028",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-27T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ziraat Bankkart",
+   "away": "Gaziantep Gençlik",
+   "turkish": true
+  },
+  {
+   "id": "se-494031",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-27T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul Gençlik",
+   "away": "İstanbul BB",
+   "turkish": true
+  },
+  {
+   "id": "se-494032",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-27T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Alanya Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-494034",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-10-27T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Onikişubat Belediyespor",
+   "away": "Spor Toto SK",
+   "turkish": true
   },
   {
    "id": "se-493951",
