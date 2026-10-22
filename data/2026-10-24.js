@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T03:54:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-22T12:19:06+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-22T03:54:20+03:00",
+ "generatedAt": "2026-10-22T12:19:06+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -872,9 +872,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Coventry",
    "away": "Fulham"
@@ -1525,10 +1526,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Gil Vicente",
    "away": "Porto"
