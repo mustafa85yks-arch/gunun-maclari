@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T03:56:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T12:14:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-23T03:56:44+03:00",
+ "generatedAt": "2026-10-23T12:14:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -83,8 +83,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493036",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi",
-   "competitionId": "guney-amerika-basketbol-ligi",
+   "competition": "Güney Amerika Basketbol Ligi  SahaKirala",
+   "competitionId": "guney-amerika-basketbol-ligi-sahakirala",
    "kickoff": "2026-10-24T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -271,7 +271,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "title": "Yarı Final Maç 1 SporÜrünü Al",
    "tags": [
     "yari-final"
    ]

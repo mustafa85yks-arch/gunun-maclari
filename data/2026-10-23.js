@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T03:56:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T12:14:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-23T03:56:36+03:00",
+ "generatedAt": "2026-10-23T12:14:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -367,7 +367,7 @@ GM_REGISTER_DAY({
    "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-10-23T18:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "FB TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -578,6 +578,21 @@ GM_REGISTER_DAY({
    "away": "Jahn Regensburg"
   },
   {
+   "id": "se-494065",
+   "sport": "jimnastik",
+   "competition": "FiG Artistik Jimnastik Dünya Şampiyonasi",
+   "competitionId": "fig-artistik-jimnastik-dunya-sampiyonasi",
+   "kickoff": "2026-10-23T20:15:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar All Around Finalleri"
+  },
+  {
    "id": "se-493562",
    "sport": "golf",
    "competition": "Golf PGA Tour Bermuda",
@@ -745,10 +760,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ipswich Town",
    "away": "Nottingham Forest"
