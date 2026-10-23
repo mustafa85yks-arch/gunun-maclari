@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T16:59:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T21:02:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-23T16:59:48+03:00",
+ "generatedAt": "2026-10-23T21:02:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -44,6 +44,22 @@ GM_REGISTER_DAY({
    "away": "Philadelphia 76ers"
   },
   {
+   "id": "se-492857",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-29T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NO Pelicans",
+   "away": "Denver Nuggets"
+  },
+  {
    "id": "se-492858",
    "sport": "basketbol",
    "competition": "NBA",
@@ -74,22 +90,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Minnesota TW",
    "away": "GS Warriors"
-  },
-  {
-   "id": "se-492857",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-29T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NO Pelicans",
-   "away": "Denver Nuggets"
   },
   {
    "id": "se-493963",
@@ -156,7 +156,7 @@ GM_REGISTER_DAY({
    "away": "Lecce"
   },
   {
-   "id": "se-493250",
+   "id": "se-493252",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -168,8 +168,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Füchse Berlin",
-   "away": "Partizan"
+   "home": "Kristianstad",
+   "away": "Szeged"
   },
   {
    "id": "se-493251",
@@ -188,7 +188,7 @@ GM_REGISTER_DAY({
    "away": "Sporting"
   },
   {
-   "id": "se-493252",
+   "id": "se-493250",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -200,8 +200,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kristianstad",
-   "away": "Szeged"
+   "home": "Füchse Berlin",
+   "away": "Partizan"
   },
   {
    "id": "se-493965",

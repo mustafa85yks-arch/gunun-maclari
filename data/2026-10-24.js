@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T16:59:39+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T21:02:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-23T16:59:39+03:00",
+ "generatedAt": "2026-10-23T21:02:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -100,8 +100,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493036",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  BasketbolLigi",
-   "competitionId": "guney-amerika-basketbol-ligi-basketbolligi",
+   "competition": "Güney Amerika Basketbol Ligi  SahaKirala",
+   "competitionId": "guney-amerika-basketbol-ligi-sahakirala",
    "kickoff": "2026-10-24T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -211,6 +211,25 @@ GM_REGISTER_DAY({
    "title": "Sıralama Turları"
   },
   {
+   "id": "se-494139",
+   "sport": "tenis",
+   "competition": "WTA Osaka Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-24T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Li",
+   "away": "A.Krueger",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-492869",
    "sport": "motosiklet",
    "competition": "MotoGP Avustralya GP",
@@ -226,6 +245,25 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Sprint Yarışları"
+  },
+  {
+   "id": "se-494140",
+   "sport": "tenis",
+   "competition": "WTA Osaka Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-24T07:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Boulter",
+   "away": "K.Siniakova",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-493293",
@@ -246,8 +284,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-492384",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig  BasketbolLigi",
-   "competitionId": "tvf-erkekler-2-lig-basketbolligi",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-10-24T11:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
@@ -272,7 +310,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "title": "Yarı Final Maç 1 SporÜrünü Al",
    "tags": [
     "yari-final"
    ]
@@ -296,7 +334,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-489765",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi  BasketbolLigi",
+   "competition": "Basketbol Süper Ligi  SahaKirala",
    "competitionId": "bsl",
    "kickoff": "2026-10-24T13:00:00+03:00",
    "broadcasters": [
@@ -354,10 +392,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Eyüpspor",
    "away": "Kasımpaşa",
@@ -388,7 +425,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-10-24T13:30:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Avaz",
     "beIN SPORTS 2"
    ],
    "verification": "dogrulandi",
@@ -744,10 +781,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Gaziantep FK",
    "away": "Erzurumspor",
@@ -1165,10 +1201,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Samsunspor",
    "away": "Amedspor",
