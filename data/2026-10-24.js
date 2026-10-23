@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T02:57:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T03:56:44+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-23T02:57:44+03:00",
+ "generatedAt": "2026-10-23T03:56:44+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -295,7 +295,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-489765",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi  BasketbolLigi",
+   "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
    "kickoff": "2026-10-24T13:00:00+03:00",
    "broadcasters": [
@@ -762,9 +762,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Muğlaspor",
    "away": "İstanbulspor",
