@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T21:02:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T02:51:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-23T21:02:40+03:00",
+ "generatedAt": "2026-10-24T02:51:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -47,6 +47,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Loudoun United",
    "away": "Brooklyn"
+  },
+  {
+   "id": "se-494210",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-25T00:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Palmeiras",
+   "away": "Bragantino"
   },
   {
    "id": "se-491207",
@@ -321,6 +338,23 @@ GM_REGISTER_DAY({
    "away": "Houston Rockets"
   },
   {
+   "id": "se-494211",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-25T03:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rosario Central",
+   "away": "CA Huracan"
+  },
+  {
    "id": "se-493405",
    "sport": "motosiklet",
    "competition": "Moto2",
@@ -572,6 +606,23 @@ GM_REGISTER_DAY({
    "home": "Fatsa Bld.",
    "away": "İnkılap FK",
    "turkish": true
+  },
+  {
+   "id": "se-494212",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-25T14:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Basquet Girona",
+   "away": "Joventut Badalona"
   },
   {
    "id": "se-488323",
@@ -1232,6 +1283,23 @@ GM_REGISTER_DAY({
    ],
    "home": "LASK Linz",
    "away": "Salzburg"
+  },
+  {
+   "id": "se-494213",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-25T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valencia Basket",
+   "away": "Baskonia"
   },
   {
    "id": "se-487528",

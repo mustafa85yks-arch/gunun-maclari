@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T21:02:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T02:50:55+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-23T21:02:34+03:00",
+ "generatedAt": "2026-10-24T02:50:55+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -100,8 +100,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493036",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  SahaKirala",
-   "competitionId": "guney-amerika-basketbol-ligi-sahakirala",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
    "kickoff": "2026-10-24T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -282,6 +282,25 @@ GM_REGISTER_DAY({
    "away": "Rijeka"
   },
   {
+   "id": "se-494189",
+   "sport": "tenis",
+   "competition": "WTA Ningbo Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-24T10:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Fernandez",
+   "away": "M.Bouzkova",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-492384",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -296,24 +315,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Barosu",
    "away": "Konya BB"
-  },
-  {
-   "id": "se-492877",
-   "sport": "tenis",
-   "competition": "ATP Almatı Yarı Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-24T12:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Yarı Final Maç 1 SporÜrünü Al",
-   "tags": [
-    "yari-final"
-   ]
   },
   {
    "id": "se-493294",
@@ -332,9 +333,28 @@ GM_REGISTER_DAY({
    "away": "Zentro Basket Madrid"
   },
   {
+   "id": "se-494190",
+   "sport": "tenis",
+   "competition": "WTA Ningbo Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-24T12:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Rybakina",
+   "away": "D.Shnaider",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-489765",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi  SahaKirala",
+   "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
    "kickoff": "2026-10-24T13:00:00+03:00",
    "broadcasters": [
@@ -367,6 +387,25 @@ GM_REGISTER_DAY({
    "away": "Atakum Bld."
   },
   {
+   "id": "se-492877",
+   "sport": "tenis",
+   "competition": "ATP Almatı Yarı Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-24T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Basilashvili",
+   "away": "S.Tsitsipas",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-494026",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -392,9 +431,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Eyüpspor",
    "away": "Kasımpaşa",
@@ -603,24 +643,6 @@ GM_REGISTER_DAY({
    "away": "Trabzon BB"
   },
   {
-   "id": "se-492878",
-   "sport": "tenis",
-   "competition": "ATP Almatı Yarı Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-24T15:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Yarı Final Maç 2",
-   "tags": [
-    "yari-final"
-   ]
-  },
-  {
    "id": "se-492880",
    "sport": "tenis",
    "competition": "ATP Lyon Yarı Final",
@@ -633,7 +655,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "home": "T.Paul",
+   "away": "T.Fritz",
    "tags": [
     "yari-final"
    ]
@@ -781,9 +804,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Gaziantep FK",
    "away": "Erzurumspor",
@@ -825,20 +849,39 @@ GM_REGISTER_DAY({
    "away": "Kastamonu Yurdum Gençlik Spor"
   },
   {
+   "id": "se-492878",
+   "sport": "tenis",
+   "competition": "ATP Almatı Yarı Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-24T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Medvedev",
+   "away": "A.Bublik",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-494021",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
    "competitionId": "efeler-ligi",
    "kickoff": "2026-10-24T16:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "tabii Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "home": "Spor Toto SK",
-   "away": "HALKBANK",
+   "away": "Halkbank",
    "turkish": true
   },
   {
@@ -923,22 +966,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Mainz",
    "away": "Werder Bremen"
-  },
-  {
-   "id": "se-488248",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-10-24T16:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Paderborn",
-   "away": "Hamburg"
   },
   {
    "id": "se-488249",
@@ -1070,7 +1097,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "home": "F.Cerundolo",
+   "away": "T.Griekspoor",
    "tags": [
     "yari-final"
    ]
@@ -1201,9 +1229,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Samsunspor",
    "away": "Amedspor",
@@ -1395,6 +1424,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-494191",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manresa",
+   "away": "SP Burgos"
+  },
+  {
    "id": "se-487589",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -1476,7 +1522,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 2",
+   "home": "A.Fils",
+   "away": "J.L.Struff",
    "tags": [
     "yari-final"
    ]
