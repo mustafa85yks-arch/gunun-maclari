@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T12:14:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T16:59:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-23",
- "generatedAt": "2026-10-23T12:14:25+03:00",
+ "generatedAt": "2026-10-23T16:59:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -86,6 +86,22 @@ GM_REGISTER_DAY({
    ],
    "home": "OKC Thunder",
    "away": "Denver Nuggets"
+  },
+  {
+   "id": "se-494082",
+   "sport": "golf",
+   "competition": "Genesis Açik Golf Turnuvasi",
+   "competitionId": "genesis-acik-golf-turnuvasi",
+   "kickoff": "2026-10-23T06:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Güney Kore"
   },
   {
    "id": "se-492866",
@@ -375,6 +391,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Koleji",
    "away": "OGM Orman"
+  },
+  {
+   "id": "se-494084",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-23T18:30:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ittihad",
+   "away": "Al Diriyah"
   },
   {
    "id": "se-489764",
@@ -760,9 +792,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ipswich Town",
    "away": "Nottingham Forest"
@@ -832,6 +865,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Bolton Wanderers",
    "away": "Middlesbrough"
+  },
+  {
+   "id": "se-492832",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-23T23:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Milwaukee Bucks",
+   "away": "Chicago Bulls"
   },
   {
    "id": "se-493035",

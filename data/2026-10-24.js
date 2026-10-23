@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T12:14:31+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-23T16:59:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-23T12:14:31+03:00",
+ "generatedAt": "2026-10-23T16:59:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -64,6 +64,23 @@ GM_REGISTER_DAY({
    "away": "Minnesota TW"
   },
   {
+   "id": "se-494083",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-24T02:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cruzeiro",
+   "away": "Remo"
+  },
+  {
    "id": "se-492867",
    "sport": "motosiklet",
    "competition": "MotoGP Avustralya GP",
@@ -83,8 +100,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493036",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  SahaKirala",
-   "competitionId": "guney-amerika-basketbol-ligi-sahakirala",
+   "competition": "Güney Amerika Basketbol Ligi  BasketbolLigi",
+   "competitionId": "guney-amerika-basketbol-ligi-basketbolligi",
    "kickoff": "2026-10-24T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -111,22 +128,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Miami Heat",
    "away": "Detroit Pistons"
-  },
-  {
-   "id": "se-492832",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-24T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Milwaukee Bucks",
-   "away": "Chicago Bulls"
   },
   {
    "id": "se-486273",
@@ -245,8 +246,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-492384",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "competition": "TVF Erkekler 2. Lig  BasketbolLigi",
+   "competitionId": "tvf-erkekler-2-lig-basketbolligi",
    "kickoff": "2026-10-24T11:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
@@ -271,7 +272,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1 SporÜrünü Al",
+   "title": "Yarı Final Maç 1",
    "tags": [
     "yari-final"
    ]
@@ -295,7 +296,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-489765",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
+   "competition": "Basketbol Süper Ligi  BasketbolLigi",
    "competitionId": "bsl",
    "kickoff": "2026-10-24T13:00:00+03:00",
    "broadcasters": [
