@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T20:08:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T02:06:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-24T20:08:19+03:00",
+ "generatedAt": "2026-10-25T02:06:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -485,6 +485,25 @@ GM_REGISTER_DAY({
    "title": "Avustralya GP"
   },
   {
+   "id": "se-494456",
+   "sport": "tenis",
+   "competition": "WTA Osaka Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-25T07:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Krueger",
+   "away": "K.Siniakova",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-494245",
    "sport": "atletizm",
    "competition": "Atletizm Trail World Series",
@@ -498,6 +517,25 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 2"
+  },
+  {
+   "id": "se-494457",
+   "sport": "tenis",
+   "competition": "WTA Ningbo Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-25T11:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Rybakina",
+   "away": "L.Fernandez",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-494246",
@@ -563,6 +601,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Ziraat Bankkart",
    "away": "Niksar Bld."
+  },
+  {
+   "id": "se-492879",
+   "sport": "tenis",
+   "competition": "ATP Almatı Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-25T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Medvedev",
+   "away": "N.Basilashvili",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-489807",
@@ -801,24 +858,6 @@ GM_REGISTER_DAY({
    "title": "Erkekler Dev Slalom Ayak 2"
   },
   {
-   "id": "se-492879",
-   "sport": "tenis",
-   "competition": "ATP Almatı Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-25T15:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Final",
-   "tags": [
-    "final"
-   ]
-  },
-  {
    "id": "se-492887",
    "sport": "futbol",
    "competition": "İskoçya Premier Lig",
@@ -901,24 +940,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-492882",
-   "sport": "tenis",
-   "competition": "ATP Lyon Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-25T15:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Final",
-   "tags": [
-    "final"
-   ]
-  },
-  {
    "id": "se-488959",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -927,10 +948,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Konyaspor",
    "away": "Gençlerbirliği",
@@ -1073,6 +1093,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Konya BB",
    "away": "Göztepe"
+  },
+  {
+   "id": "se-492882",
+   "sport": "tenis",
+   "competition": "ATP Lyon Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-25T16:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Musetti",
+   "away": "T.Fritz",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-492888",
@@ -1238,24 +1277,6 @@ GM_REGISTER_DAY({
    "away": "Bayer Leverkusen"
   },
   {
-   "id": "se-492885",
-   "sport": "tenis",
-   "competition": "ATP Brüksel Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-25T17:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Final",
-   "tags": [
-    "final"
-   ]
-  },
-  {
    "id": "se-494007",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 3",
@@ -1307,6 +1328,25 @@ GM_REGISTER_DAY({
    "away": "Real Betis"
   },
   {
+   "id": "se-492885",
+   "sport": "tenis",
+   "competition": "ATP Brüksel Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-25T18:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.L.Struff",
+   "away": "T.Griekspoor",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-492889",
    "sport": "futbol",
    "competition": "Hollanda Eredivisie",
@@ -1331,10 +1371,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Göztepe",
    "away": "Çorum FK",

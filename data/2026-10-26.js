@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T20:08:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T02:06:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-24T20:08:19+03:00",
+ "generatedAt": "2026-10-25T02:06:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -77,8 +77,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493040",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi",
-   "competitionId": "guney-amerika-basketbol-ligi",
+   "competition": "Güney Amerika Basketbol Ligi  BasketbolLigi",
+   "competitionId": "guney-amerika-basketbol-ligi-basketbolligi",
    "kickoff": "2026-10-26T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -155,8 +155,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-491301",
    "sport": "futbol",
-   "competition": "TFF Elit U19 Ligi",
-   "competitionId": "tff-elit-u19-ligi",
+   "competition": "TFF Elit U19 Ligi  BasketbolLigi",
+   "competitionId": "tff-elit-u19-ligi-basketbolligi",
    "kickoff": "2026-10-26T16:00:00+03:00",
    "broadcasters": [
     "Galatasaray Youtube"
