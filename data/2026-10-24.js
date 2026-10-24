@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T04:04:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T11:48:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-24T04:04:45+03:00",
+ "generatedAt": "2026-10-24T11:48:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -128,6 +128,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Miami Heat",
    "away": "Detroit Pistons"
+  },
+  {
+   "id": "se-494216",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-24T03:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Grekoromen Yarı Finaller"
   },
   {
    "id": "se-486273",
@@ -266,6 +281,21 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-494240",
+   "sport": "atletizm",
+   "competition": "Atletizm Trail World Series",
+   "competitionId": "atletizm-trail-world-series",
+   "kickoff": "2026-10-24T08:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1"
+  },
+  {
    "id": "se-493293",
    "sport": "basketbol",
    "competition": "Adidas U18 Next Generation Turnuvasi",
@@ -299,6 +329,21 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-494241",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-10-24T10:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Dev Slalom Ayak 1"
   },
   {
    "id": "se-492384",
@@ -468,13 +513,44 @@ GM_REGISTER_DAY({
     "TRT Avaz",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ümraniyespor",
    "away": "Sivasspor",
    "turkish": true
+  },
+  {
+   "id": "se-494250",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-10-24T13:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Kısa Program"
+  },
+  {
+   "id": "se-494242",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-10-24T13:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Dev Slalom Ayak 2"
   },
   {
    "id": "se-488283",
@@ -726,6 +802,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Hansa Rostock",
    "away": "Fortuna Düsseldorf"
+  },
+  {
+   "id": "se-494243",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik Yarı Final",
+   "competitionId": "snooker-kuzey-irlanda-acik-yari-final",
+   "kickoff": "2026-10-24T15:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Wilson",
+   "away": "S.Craigie",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-494251",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-10-24T15:20:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Serbest Program"
   },
   {
    "id": "se-489766",
@@ -1202,6 +1312,21 @@ GM_REGISTER_DAY({
    "away": "Grazer"
   },
   {
+   "id": "se-494215",
+   "sport": "jimnastik",
+   "competition": "FiG Artistik Jimnastik Dünya Şampiyonasi",
+   "competitionId": "fig-artistik-jimnastik-dunya-sampiyonasi",
+   "kickoff": "2026-10-24T18:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Bireysel Alet Finalleri"
+  },
+  {
    "id": "se-488321",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -1247,9 +1372,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Sarıyer",
    "away": "Karagümrük",
@@ -1439,13 +1565,27 @@ GM_REGISTER_DAY({
    "away": "SP Burgos"
   },
   {
+   "id": "se-494252",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-10-24T19:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Çiftler Kısa Program"
+  },
+  {
    "id": "se-487589",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
    "competitionId": "premier-league",
    "kickoff": "2026-10-24T19:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT",
     "beIN SPORTS 3"
    ],
    "verification": "dogrulandi",
@@ -1543,6 +1683,36 @@ GM_REGISTER_DAY({
    "away": "Beşiktaş"
   },
   {
+   "id": "se-494253",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Bermuda",
+   "competitionId": "golf-pga-tour-bermuda",
+   "kickoff": "2026-10-24T20:05:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
+   "id": "se-494258",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Bermuda",
+   "competitionId": "golf-pga-tour-bermuda",
+   "kickoff": "2026-10-24T20:05:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4"
+  },
+  {
    "id": "se-488480",
    "sport": "motor sporları",
    "competition": "Formula 1",
@@ -1605,6 +1775,25 @@ GM_REGISTER_DAY({
    ],
    "home": "A.Pico",
    "away": "L.Keita"
+  },
+  {
+   "id": "se-494244",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik Yarı Final",
+   "competitionId": "snooker-kuzey-irlanda-acik-yari-final",
+   "kickoff": "2026-10-24T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Williams",
+   "away": "J.Jones",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-493298",
@@ -1797,9 +1986,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Gil Vicente",
    "away": "Porto"

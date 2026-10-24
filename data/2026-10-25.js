@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T04:04:52+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T11:48:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-24T04:04:52+03:00",
+ "generatedAt": "2026-10-24T11:48:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -47,6 +47,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Loudoun United",
    "away": "Brooklyn"
+  },
+  {
+   "id": "se-494254",
+   "sport": "atletizm",
+   "competition": "Tirmaniş Dünya Serisi",
+   "competitionId": "tirmanis-dunya-serisi",
+   "kickoff": "2026-10-25T00:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Hız Finalleri"
   },
   {
    "id": "se-494210",
@@ -163,8 +178,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493038",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi",
-   "competitionId": "guney-amerika-basketbol-ligi",
+   "competition": "Güney Amerika Basketbol Ligi  BasketbolOyna",
+   "competitionId": "guney-amerika-basketbol-ligi-basketboloyna",
    "kickoff": "2026-10-25T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -453,6 +468,36 @@ GM_REGISTER_DAY({
    "title": "Avustralya GP"
   },
   {
+   "id": "se-494245",
+   "sport": "atletizm",
+   "competition": "Atletizm Trail World Series",
+   "competitionId": "atletizm-trail-world-series",
+   "kickoff": "2026-10-25T08:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
+   "id": "se-494246",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-10-25T11:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Dev Slalom Ayak 1"
+  },
+  {
    "id": "se-489768",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -538,6 +583,21 @@ GM_REGISTER_DAY({
    "home": "Batman Petrol",
    "away": "Esenler Erokspor",
    "turkish": true
+  },
+  {
+   "id": "se-494255",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-10-25T13:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Çiftler Serbest Program"
   },
   {
    "id": "se-491106",
@@ -709,6 +769,21 @@ GM_REGISTER_DAY({
    "away": "Xinjiang"
   },
   {
+   "id": "se-494247",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-10-25T14:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Dev Slalom Ayak 2"
+  },
+  {
    "id": "se-492879",
    "sport": "tenis",
    "competition": "ATP Almatı Final",
@@ -775,6 +850,21 @@ GM_REGISTER_DAY({
    "home": "Uşakspor",
    "away": "Gaziemirspor",
    "turkish": true
+  },
+  {
+   "id": "se-494256",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-10-25T15:10:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Serbest Program"
   },
   {
    "id": "se-489769",
@@ -934,6 +1024,24 @@ GM_REGISTER_DAY({
    "away": "Getafe"
   },
   {
+   "id": "se-494248",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik Final",
+   "competitionId": "snooker-kuzey-irlanda-acik-final",
+   "kickoff": "2026-10-25T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final Seans 1",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-490682",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -1080,6 +1188,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Genoa",
    "away": "Venezia"
+  },
+  {
+   "id": "se-494257",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Dünya Kupasi",
+   "competitionId": "bisikletli-kros-dunya-kupasi",
+   "kickoff": "2026-10-25T17:05:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Superprestige Erkekler"
   },
   {
    "id": "se-488251",
@@ -1544,6 +1667,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Lleida",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-494249",
+   "sport": "snooker",
+   "competition": "Snooker Kuzey İrlanda Açik Final",
+   "competitionId": "snooker-kuzey-irlanda-acik-final",
+   "kickoff": "2026-10-25T22:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final Seans 2",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-487535",
