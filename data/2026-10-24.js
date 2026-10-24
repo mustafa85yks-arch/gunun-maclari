@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T02:50:55+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T04:04:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-24T02:50:55+03:00",
+ "generatedAt": "2026-10-24T04:04:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -468,10 +468,9 @@ GM_REGISTER_DAY({
     "TRT Avaz",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ümraniyespor",
    "away": "Sivasspor",
@@ -1248,10 +1247,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Sarıyer",
    "away": "Karagümrük",
@@ -1799,10 +1797,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Gil Vicente",
    "away": "Porto"
