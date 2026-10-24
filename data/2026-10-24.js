@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T11:48:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T16:02:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-24",
- "generatedAt": "2026-10-24T11:48:02+03:00",
+ "generatedAt": "2026-10-24T16:02:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -243,6 +243,22 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-494261",
+   "sport": "golf",
+   "competition": "Genesis Açik Golf Turnuvasi",
+   "competitionId": "genesis-acik-golf-turnuvasi",
+   "kickoff": "2026-10-24T06:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Güney Kore"
   },
   {
    "id": "se-492869",
@@ -1993,6 +2009,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Gil Vicente",
    "away": "Porto"
+  },
+  {
+   "id": "se-494259",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-24T22:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mirassol",
+   "away": "Sao Paulo"
   },
   {
    "id": "se-493410",

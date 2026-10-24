@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T11:48:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T16:02:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-24T11:48:09+03:00",
+ "generatedAt": "2026-10-24T16:02:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -317,6 +317,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Avustralya GP"
+  },
+  {
+   "id": "se-494260",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-25T03:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Santos",
+   "away": "Bahia"
   },
   {
    "id": "se-491214",
