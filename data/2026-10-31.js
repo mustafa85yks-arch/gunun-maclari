@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T16:02:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T20:08:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-24T16:02:14+03:00",
+ "generatedAt": "2026-10-24T20:08:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -121,22 +121,6 @@ GM_REGISTER_DAY({
    "away": "Halkbank"
   },
   {
-   "id": "se-492388",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
-   "kickoff": "2026-10-31T13:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "TVF Spor Lisesi",
-   "away": "Seydişehir Bld."
-  },
-  {
    "id": "se-494035",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -152,6 +136,22 @@ GM_REGISTER_DAY({
    "home": "HALKBANK",
    "away": "Onikişubat Belediyespor",
    "turkish": true
+  },
+  {
+   "id": "se-492388",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-10-31T13:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "TVF Spor Lisesi",
+   "away": "Seydişehir Bld."
   },
   {
    "id": "se-488965",
@@ -270,6 +270,23 @@ GM_REGISTER_DAY({
    "away": "Hertha Berlin"
   },
   {
+   "id": "se-493787",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-10-31T15:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Körfez Basket",
+   "away": "Trabzonspor",
+   "turkish": true
+  },
+  {
    "id": "se-493671",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -286,21 +303,20 @@ GM_REGISTER_DAY({
    "away": "Manchester Utd"
   },
   {
-   "id": "se-493787",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
-   "kickoff": "2026-10-31T15:30:00+03:00",
+   "id": "se-493652",
+   "sport": "futbol",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
+   "kickoff": "2026-10-31T16:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Körfez Basket",
-   "away": "Trabzonspor",
-   "turkish": true
+   "home": "Levante",
+   "away": "Atletico Madrid"
   },
   {
    "id": "se-494038",
@@ -352,22 +368,6 @@ GM_REGISTER_DAY({
    "home": "Spor Toto SK",
    "away": "Sungurlu Bld.",
    "turkish": true
-  },
-  {
-   "id": "se-493652",
-   "sport": "futbol",
-   "competition": "İspanya La Liga",
-   "competitionId": "la-liga",
-   "kickoff": "2026-10-31T16:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Levante",
-   "away": "Atletico Madrid"
   },
   {
    "id": "se-490686",
@@ -504,6 +504,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-488338",
+   "sport": "futbol",
+   "competition": "İtalya Serie A",
+   "competitionId": "serie-a",
+   "kickoff": "2026-10-31T17:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bologna",
+   "away": "Monza"
+  },
+  {
    "id": "se-493979",
    "sport": "tenis",
    "competition": "ATP Basel Yarı Final",
@@ -522,11 +538,11 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-488338",
+   "id": "se-488257",
    "sport": "futbol",
-   "competition": "İtalya Serie A",
-   "competitionId": "serie-a",
-   "kickoff": "2026-10-31T17:00:00+03:00",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-10-31T17:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -534,8 +550,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bologna",
-   "away": "Monza"
+   "home": "Monchengladbach",
+   "away": "Paderborn"
+  },
+  {
+   "id": "se-488258",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-10-31T17:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Schalke 04",
+   "away": "Leipzig"
   },
   {
    "id": "se-488254",
@@ -586,36 +618,20 @@ GM_REGISTER_DAY({
    "away": "Stuttgart"
   },
   {
-   "id": "se-488257",
+   "id": "se-493672",
    "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-10-31T17:30:00+03:00",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-10-31T18:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Monchengladbach",
-   "away": "Paderborn"
-  },
-  {
-   "id": "se-488258",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-10-31T17:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Schalke 04",
-   "away": "Leipzig"
+   "home": "Bournemouth",
+   "away": "Leeds United"
   },
   {
    "id": "se-493673",
@@ -634,24 +650,7 @@ GM_REGISTER_DAY({
    "away": "Nottingham Forest"
   },
   {
-   "id": "se-493788",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
-   "kickoff": "2026-10-31T18:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 5"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bandırma Bordo",
-   "away": "Bahçeşehir Klj",
-   "turkish": true
-  },
-  {
-   "id": "se-493676",
+   "id": "se-493674",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
    "competitionId": "premier-league",
@@ -663,8 +662,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Manchester City",
-   "away": "Brighton"
+   "home": "Coventry",
+   "away": "Sunderland"
   },
   {
    "id": "se-493675",
@@ -683,7 +682,7 @@ GM_REGISTER_DAY({
    "away": "Ipswich Town"
   },
   {
-   "id": "se-493674",
+   "id": "se-493676",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
    "competitionId": "premier-league",
@@ -695,24 +694,25 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Coventry",
-   "away": "Sunderland"
+   "home": "Manchester City",
+   "away": "Brighton"
   },
   {
-   "id": "se-493672",
-   "sport": "futbol",
-   "competition": "İngiltere Premier Lig",
-   "competitionId": "premier-league",
+   "id": "se-493788",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
    "kickoff": "2026-10-31T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bournemouth",
-   "away": "Leeds United"
+   "home": "Bandırma Bordo",
+   "away": "Bahçeşehir Klj",
+   "turkish": true
   },
   {
    "id": "se-490688",
@@ -745,6 +745,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Rayo Vallecano",
    "away": "Celta Vigo"
+  },
+  {
+   "id": "se-488967",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-10-31T19:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Göztepe",
+   "turkish": true
   },
   {
    "id": "se-494040",
@@ -832,23 +849,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-488967",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-31T19:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe",
-   "away": "Göztepe",
-   "turkish": true
-  },
-  {
    "id": "se-487538",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -879,6 +879,69 @@ GM_REGISTER_DAY({
    ],
    "home": "Udinese",
    "away": "Roma"
+  },
+  {
+   "id": "se-488259",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-10-31T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bayern Münih",
+   "away": "Borussia Dortmund"
+  },
+  {
+   "id": "se-493301",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Meksika GP",
+   "competitionId": "f1",
+   "kickoff": "2026-10-31T20:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman Turları-3"
+  },
+  {
+   "id": "se-493654",
+   "sport": "futbol",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
+   "kickoff": "2026-10-31T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Real Betis",
+   "away": "Malaga"
+  },
+  {
+   "id": "se-493677",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-10-31T20:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tottenham",
+   "away": "Crystal Palace"
   },
   {
    "id": "se-493789",
@@ -915,69 +978,6 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
-  },
-  {
-   "id": "se-493677",
-   "sport": "futbol",
-   "competition": "İngiltere Premier Lig",
-   "competitionId": "premier-league",
-   "kickoff": "2026-10-31T20:30:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Tottenham",
-   "away": "Crystal Palace"
-  },
-  {
-   "id": "se-493654",
-   "sport": "futbol",
-   "competition": "İspanya La Liga",
-   "competitionId": "la-liga",
-   "kickoff": "2026-10-31T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Real Betis",
-   "away": "Malaga"
-  },
-  {
-   "id": "se-493301",
-   "sport": "motor sporları",
-   "competition": "Formula 1 Meksika GP",
-   "competitionId": "f1",
-   "kickoff": "2026-10-31T20:30:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 4"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Antrenman Turları-3"
-  },
-  {
-   "id": "se-488259",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-10-31T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bayern Münih",
-   "away": "Borussia Dortmund"
   },
   {
    "id": "se-493986",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T16:02:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T20:08:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-27",
- "generatedAt": "2026-10-24T16:02:14+03:00",
+ "generatedAt": "2026-10-24T20:08:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -92,6 +92,23 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
+   "id": "se-494262",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-27T13:30:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Etimesgut Bld.",
+   "away": "Gaziantep FK",
+   "turkish": true
+  },
+  {
    "id": "se-494033",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -106,6 +123,23 @@ GM_REGISTER_DAY({
    ],
    "home": "TFL Altekma",
    "away": "Halkbank",
+   "turkish": true
+  },
+  {
+   "id": "se-494263",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-27T15:30:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boluspor",
+   "away": "Karşıyaka",
    "turkish": true
   },
   {
@@ -140,6 +174,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Sungurlu Bld.",
    "away": "Galatasaray",
+   "turkish": true
+  },
+  {
+   "id": "se-494264",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-27T18:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kocaelispor",
+   "away": "Mazıdağı Fosfat",
    "turkish": true
   },
   {
@@ -260,38 +311,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493951",
-   "sport": "futbol",
-   "competition": "Almanya Kupasi DFB Pokal",
-   "competitionId": "almanya-kupasi-dfb-pokal",
-   "kickoff": "2026-10-27T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hamburg",
-   "away": "Eintracht Frankfurt"
-  },
-  {
-   "id": "se-493273",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-10-27T20:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "BC Lietkabelis",
-   "away": "Ratiopharm Ulm"
-  },
-  {
    "id": "se-493191",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -324,6 +343,38 @@ GM_REGISTER_DAY({
    "away": "Manresa"
   },
   {
+   "id": "se-493273",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-10-27T20:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "BC Lietkabelis",
+   "away": "Ratiopharm Ulm"
+  },
+  {
+   "id": "se-493951",
+   "sport": "futbol",
+   "competition": "Almanya Kupasi DFB Pokal",
+   "competitionId": "almanya-kupasi-dfb-pokal",
+   "kickoff": "2026-10-27T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hamburg",
+   "away": "Eintracht Frankfurt"
+  },
+  {
    "id": "se-488328",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -338,6 +389,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Sassuolo",
    "away": "Lazio"
+  },
+  {
+   "id": "se-494265",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-27T20:30:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alanyaspor",
+   "away": "12 Bingölspor",
+   "turkish": true
   },
   {
    "id": "se-492271",
@@ -420,20 +488,21 @@ GM_REGISTER_DAY({
    "away": "Cluj Napoca"
   },
   {
-   "id": "se-492272",
+   "id": "se-490171",
    "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-27T22:00:00+03:00",
    "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "BC Igokea",
-   "away": "Slavia Prag"
+   "home": "Kizilyildiz",
+   "away": "Maccabi Fox"
   },
   {
    "id": "se-493276",
@@ -468,21 +537,20 @@ GM_REGISTER_DAY({
    "away": "KK Bosna"
   },
   {
-   "id": "se-490171",
+   "id": "se-492272",
    "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-10-27T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "FIBA Şampiyonlar Ligi Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kizilyildiz",
-   "away": "Maccabi Fox"
+   "home": "BC Igokea",
+   "away": "Slavia Prag"
   },
   {
    "id": "se-490170",

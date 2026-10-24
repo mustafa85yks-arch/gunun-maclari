@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T16:02:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T20:08:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-24T16:02:14+03:00",
+ "generatedAt": "2026-10-24T20:08:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -44,22 +44,6 @@ GM_REGISTER_DAY({
    "away": "Philadelphia 76ers"
   },
   {
-   "id": "se-492857",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-29T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NO Pelicans",
-   "away": "Denver Nuggets"
-  },
-  {
    "id": "se-492858",
    "sport": "basketbol",
    "competition": "NBA",
@@ -92,6 +76,22 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
+   "id": "se-492857",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-29T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NO Pelicans",
+   "away": "Denver Nuggets"
+  },
+  {
    "id": "se-493963",
    "sport": "basketbol",
    "competition": "NBA",
@@ -107,6 +107,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Dallas Mavericks",
    "away": "OKC Thunder"
+  },
+  {
+   "id": "se-494270",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-29T13:30:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bitlis 1916 FK",
+   "away": "Kayserispor",
+   "turkish": true
+  },
+  {
+   "id": "se-494271",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-29T15:30:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gençlerbirliği",
+   "away": "Karaköprü Bld.",
+   "turkish": true
   },
   {
    "id": "se-493964",
@@ -140,6 +174,40 @@ GM_REGISTER_DAY({
    "away": "Sporting CP"
   },
   {
+   "id": "se-494272",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-29T18:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kasımpaşa",
+   "away": "Çorluspor 1947",
+   "turkish": true
+  },
+  {
+   "id": "se-494273",
+   "sport": "futbol",
+   "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
+   "competitionId": "ziraat-turkiye-kupasi-ztk-elemeler",
+   "kickoff": "2026-10-29T20:30:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehirspor",
+   "away": "Iğdırspor",
+   "turkish": true
+  },
+  {
    "id": "se-488336",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -156,7 +224,7 @@ GM_REGISTER_DAY({
    "away": "Lecce"
   },
   {
-   "id": "se-493252",
+   "id": "se-493250",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -168,8 +236,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kristianstad",
-   "away": "Szeged"
+   "home": "Füchse Berlin",
+   "away": "Partizan"
   },
   {
    "id": "se-493251",
@@ -188,7 +256,7 @@ GM_REGISTER_DAY({
    "away": "Sporting"
   },
   {
-   "id": "se-493250",
+   "id": "se-493252",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -200,8 +268,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Füchse Berlin",
-   "away": "Partizan"
+   "home": "Kristianstad",
+   "away": "Szeged"
   },
   {
    "id": "se-493965",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T16:02:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-24T20:08:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-24T16:02:14+03:00",
+ "generatedAt": "2026-10-24T20:08:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -178,8 +178,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493038",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  BasketbolOyna",
-   "competitionId": "guney-amerika-basketbol-ligi-basketboloyna",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
    "kickoff": "2026-10-25T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
