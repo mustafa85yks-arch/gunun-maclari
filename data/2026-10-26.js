@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T03:31:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T12:03:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-25T03:31:45+03:00",
+ "generatedAt": "2026-10-25T12:03:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -41,6 +41,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Brooklyn Nets",
    "away": "Indiana Pacers"
+  },
+  {
+   "id": "se-494489",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-26T01:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "River Plate",
+   "away": "Racing Club"
   },
   {
    "id": "se-492843",

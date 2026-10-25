@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T03:31:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T12:03:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-25T03:31:45+03:00",
+ "generatedAt": "2026-10-25T12:03:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -468,6 +468,22 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
+   "id": "se-494487",
+   "sport": "golf",
+   "competition": "Genesis Açik Golf Turnuvasi",
+   "competitionId": "genesis-acik-golf-turnuvasi",
+   "kickoff": "2026-10-25T05:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Güney Kore"
+  },
+  {
    "id": "se-492872",
    "sport": "motosiklet",
    "competition": "MotoGP",
@@ -647,6 +663,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-10-25T13:30:00+03:00",
    "broadcasters": [
+    "tabii Spor 6",
     "TRT Kurdi",
     "beIN SPORTS MAX 1"
    ],
@@ -858,6 +875,21 @@ GM_REGISTER_DAY({
    "title": "Erkekler Dev Slalom Ayak 2"
   },
   {
+   "id": "se-494485",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-25T14:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Finaller"
+  },
+  {
    "id": "se-492887",
    "sport": "futbol",
    "competition": "İskoçya Premier Lig",
@@ -938,6 +970,21 @@ GM_REGISTER_DAY({
    "home": "Karşıyaka",
    "away": "Fenerbahçe Tarfin",
    "turkish": true
+  },
+  {
+   "id": "se-494486",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Dünya Şampiyonasi",
+   "competitionId": "artistik-buz-pateni-dunya-sampiyonasi",
+   "kickoff": "2026-10-25T15:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Finlandiya"
   },
   {
    "id": "se-488959",
@@ -1074,10 +1121,26 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final Seans 1",
+   "home": "K.Wilson",
+   "away": "Jak. Jones",
    "tags": [
     "final"
    ]
+  },
+  {
+   "id": "se-494458",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-25T16:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Grekoromen Yarı Finaller"
   },
   {
    "id": "se-490682",
@@ -1716,8 +1779,8 @@ GM_REGISTER_DAY({
    "competitionId": "ispanya-basketbol-ligi",
    "kickoff": "2026-10-25T21:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1739,7 +1802,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final Seans 2",
+   "home": "Jak. Jones",
+   "away": "K.Wilson",
    "tags": [
     "final"
    ]
@@ -1753,10 +1817,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "PSG",
    "away": "Lyon"
@@ -1786,7 +1849,6 @@ GM_REGISTER_DAY({
    "competitionId": "f1",
    "kickoff": "2026-10-25T23:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT",
     "beIN SPORTS 4"
    ],
    "verification": "dogrulandi",
@@ -1813,6 +1875,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Barcelona",
    "away": "Real Madrid"
+  },
+  {
+   "id": "se-494488",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-25T23:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "CA Independiente",
+   "away": "Boca Juniors"
   },
   {
    "id": "se-493039",
