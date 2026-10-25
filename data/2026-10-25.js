@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T12:03:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T16:29:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-25",
- "generatedAt": "2026-10-25T12:03:40+03:00",
+ "generatedAt": "2026-10-25T16:29:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1807,22 +1807,6 @@ GM_REGISTER_DAY({
    "tags": [
     "final"
    ]
-  },
-  {
-   "id": "se-487535",
-   "sport": "futbol",
-   "competition": "Fransa Ligue 1",
-   "competitionId": "ligue-1",
-   "kickoff": "2026-10-25T22:45:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 3"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "PSG",
-   "away": "Lyon"
   },
   {
    "id": "se-488327",

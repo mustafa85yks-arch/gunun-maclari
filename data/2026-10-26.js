@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T12:03:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T16:29:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-25T12:03:40+03:00",
+ "generatedAt": "2026-10-25T16:29:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -157,8 +157,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-491300",
    "sport": "futbol",
-   "competition": "TFF Elit U19 Ligi",
-   "competitionId": "tff-elit-u19-ligi",
+   "competition": "TFF Elit U19 Ligi  SahaKirala",
+   "competitionId": "tff-elit-u19-ligi-sahakirala",
    "kickoff": "2026-10-26T15:00:00+03:00",
    "broadcasters": [],
    "verification": "yayin_yok",
@@ -292,6 +292,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Santa Clara",
    "away": "Benfica"
+  },
+  {
+   "id": "se-487535",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-10-26T22:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "PSG",
+   "away": "Lyon"
   },
   {
    "id": "se-493945",
