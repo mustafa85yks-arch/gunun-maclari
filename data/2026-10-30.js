@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T20:20:41+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T02:10:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-25T20:20:41+03:00",
+ "generatedAt": "2026-10-26T02:10:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,38 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-494677",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-30T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atlanta Hawks",
+   "away": "Cleveland Cavaliers"
+  },
+  {
+   "id": "se-494678",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-30T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NO Pelicans",
+   "away": "Sacramento Kings"
+  },
   {
    "id": "se-493966",
    "sport": "basketbol",
@@ -18,6 +50,22 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "S Sport Plus",
     "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Portland TB",
+   "away": "Memphis Grizzlies"
+  },
+  {
+   "id": "se-494679",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-30T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -120,23 +168,6 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 2"
   },
   {
-   "id": "se-490182",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-30T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Dubai Basket",
-   "away": "Hapoel Tel Aviv"
-  },
-  {
    "id": "se-493600",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 1. Lig",
@@ -151,6 +182,56 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "Vakifbank"
+  },
+  {
+   "id": "se-490182",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-30T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dubai Basket",
+   "away": "Hapoel Tel Aviv"
+  },
+  {
+   "id": "se-491273",
+   "sport": "futbol",
+   "competition": "Ukrayna Premier Ligi",
+   "competitionId": "ukrayna-premier-ligi",
+   "kickoff": "2026-10-30T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shakhtar Donetsk",
+   "away": "Obolon Brovar"
+  },
+  {
+   "id": "se-488964",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-10-30T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konyaspor",
+   "away": "Galatasaray",
+   "turkish": true
   },
   {
    "id": "se-489812",
@@ -186,55 +267,6 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 3"
   },
   {
-   "id": "se-488964",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-30T20:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Konyaspor",
-   "away": "Galatasaray",
-   "turkish": true
-  },
-  {
-   "id": "se-488289",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-10-30T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Arminia Bielefeld",
-   "away": "Braunschweig"
-  },
-  {
-   "id": "se-488290",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-10-30T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Energie Cottbus",
-   "away": "Bochum"
-  },
-  {
    "id": "se-490183",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -252,6 +284,22 @@ GM_REGISTER_DAY({
    "away": "Panathinaikos"
   },
   {
+   "id": "se-490184",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-30T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zalgiris Kaunas",
+   "away": "Partizan"
+  },
+  {
    "id": "se-487536",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -266,23 +314,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Le Havre",
    "away": "PSG"
-  },
-  {
-   "id": "se-490184",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-30T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Zalgiris Kaunas",
-   "away": "Partizan"
   },
   {
    "id": "se-493299",
@@ -306,8 +337,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-30T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -338,8 +368,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-30T22:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -389,7 +418,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-30T22:30:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [

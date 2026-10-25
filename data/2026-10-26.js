@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T20:20:41+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T02:10:35+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-25T20:20:41+03:00",
+ "generatedAt": "2026-10-26T02:10:35+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -94,8 +94,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-493040",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  BasketbolLigi",
-   "competitionId": "guney-amerika-basketbol-ligi-basketbolligi",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
    "kickoff": "2026-10-26T02:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -124,21 +124,6 @@ GM_REGISTER_DAY({
    "away": "Memphis Grizzlies"
   },
   {
-   "id": "se-492896",
-   "sport": "tenis",
-   "competition": "ATP Basel",
-   "competitionId": "atp",
-   "kickoff": "2026-10-26T14:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Basel"
-  },
-  {
    "id": "se-493589",
    "sport": "basketbol",
    "competition": "Çin CBA Basketbol Ligi",
@@ -157,8 +142,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-491300",
    "sport": "futbol",
-   "competition": "TFF Elit U19 Ligi  BasketbolLigi",
-   "competitionId": "tff-elit-u19-ligi-basketbolligi",
+   "competition": "TFF Elit U19 Ligi",
+   "competitionId": "tff-elit-u19-ligi",
    "kickoff": "2026-10-26T15:00:00+03:00",
    "broadcasters": [],
    "verification": "yayin_yok",
@@ -170,13 +155,45 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-492896",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-26T15:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "V.Vacherot",
+   "away": "M.Navone"
+  },
+  {
+   "id": "se-494497",
+   "sport": "futbol",
+   "competition": "Plaj Futbolu Dünya Kulüpler Şampiyonasi",
+   "competitionId": "plaj-futbolu-dunya-kulupler-sampiyonasi",
+   "kickoff": "2026-10-26T15:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "BSC",
+   "away": "Alanya Belediye"
+  },
+  {
    "id": "se-491301",
    "sport": "futbol",
    "competition": "TFF Elit U19 Ligi",
    "competitionId": "tff-elit-u19-ligi",
    "kickoff": "2026-10-26T16:00:00+03:00",
    "broadcasters": [
-    "Galatasaray Youtube"
+    "GS TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -190,21 +207,87 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-488961",
+   "id": "se-495105",
    "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-26T19:00:00+03:00",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-26T16:45:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "Spor Smart",
+    "Smart Spor HD"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ç.Rizespor",
-   "away": "Trabzonspor",
-   "turkish": true
+   "home": "Neftchi Fargona",
+   "away": "Al Ittihad"
+  },
+  {
+   "id": "se-495103",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-26T17:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "H.Rune",
+   "away": "Q.Halys"
+  },
+  {
+   "id": "se-495107",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ain",
+   "away": "Tractor Sazi"
+  },
+  {
+   "id": "se-495106",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ahli",
+   "away": "Al Gharafa"
+  },
+  {
+   "id": "se-493620",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Ataşehir Kartalları"
   },
   {
    "id": "se-488962",
@@ -224,20 +307,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493620",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 2. Lig",
-   "competitionId": "tvf-kadinlar-2-lig",
+   "id": "se-488961",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
    "kickoff": "2026-10-26T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "beIN SPORTS 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Galatasaray",
-   "away": "Ataşehir Kartalları"
+   "home": "Ç.Rizespor",
+   "away": "Trabzonspor",
+   "turkish": true
   },
   {
    "id": "se-489811",
@@ -256,6 +340,38 @@ GM_REGISTER_DAY({
    "home": "Mardin 1969",
    "away": "Manisa FK",
    "turkish": true
+  },
+  {
+   "id": "se-495108",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-26T21:15:00+03:00",
+   "broadcasters": [
+    "D Smart GO"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Qadsiah",
+   "away": "Al Sadd"
+  },
+  {
+   "id": "se-495109",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-26T21:15:00+03:00",
+   "broadcasters": [
+    "D Smart GO"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Quwa Al Jawiya",
+   "away": "Pakhtakor"
   },
   {
    "id": "se-488963",
@@ -292,6 +408,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Santa Clara",
    "away": "Benfica"
+  },
+  {
+   "id": "se-495104",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-26T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Stricker",
+   "away": "C.Ruud"
   },
   {
    "id": "se-487535",

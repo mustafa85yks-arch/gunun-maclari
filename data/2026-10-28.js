@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-25T20:20:41+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T02:10:35+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-28",
- "generatedAt": "2026-10-25T20:20:41+03:00",
+ "generatedAt": "2026-10-26T02:10:35+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -542,6 +542,23 @@ GM_REGISTER_DAY({
    "away": "Inter"
   },
   {
+   "id": "se-490176",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-28T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beşiktaş",
+   "away": "Olympiakos"
+  },
+  {
    "id": "se-491330",
    "sport": "basketbol",
    "competition": "FIBA Şampiyonlar Ligi",
@@ -678,7 +695,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-10-28T21:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -752,23 +769,6 @@ GM_REGISTER_DAY({
    "away": "JL Bourg"
   },
   {
-   "id": "se-490176",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-28T21:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Beşiktaş",
-   "away": "Olympiakos"
-  },
-  {
    "id": "se-493282",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -791,8 +791,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-28T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -888,8 +887,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-10-28T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -977,22 +975,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Genoa",
    "away": "Juventus"
-  },
-  {
-   "id": "se-488335",
-   "sport": "futbol",
-   "competition": "İtalya Serie A",
-   "competitionId": "serie-a",
-   "kickoff": "2026-10-28T22:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Monza",
-   "away": "Napoli"
   },
   {
    "id": "se-493246",
