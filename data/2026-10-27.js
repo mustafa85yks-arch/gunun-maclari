@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T18:41:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T22:41:05+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-27",
- "generatedAt": "2026-10-26T18:41:32+03:00",
+ "generatedAt": "2026-10-26T22:41:05+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -163,6 +163,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Y.Putintseva",
    "away": "M.Sakkari"
+  },
+  {
+   "id": "se-495225",
+   "sport": "tenis",
+   "competition": "WTA Tokyo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-27T07:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bondar/Sönmez",
+   "away": "Cho/Cho"
   },
   {
    "id": "se-495191",
