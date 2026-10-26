@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T18:41:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-26T12:58:26+03:00",
+ "generatedAt": "2026-10-26T18:41:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -134,6 +134,23 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
+   "id": "se-495171",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-30T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adanaspor",
+   "away": "Kırıkkalespor",
+   "turkish": true
+  },
+  {
    "id": "se-491302",
    "sport": "futbol",
    "competition": "TFF Elit U19 Ligi",
@@ -219,7 +236,7 @@ GM_REGISTER_DAY({
    "competitionId": "ukrayna-premier-ligi",
    "kickoff": "2026-10-30T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "Tivibu Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [

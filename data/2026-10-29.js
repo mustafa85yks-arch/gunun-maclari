@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T18:41:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-26T12:58:24+03:00",
+ "generatedAt": "2026-10-26T18:41:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,22 +17,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-492856",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-29T02:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Atlanta Hawks",
-   "away": "Miami Heat"
-  },
   {
    "id": "se-492855",
    "sport": "basketbol",
@@ -51,6 +35,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Indiana Pacers",
    "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-492856",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-29T02:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atlanta Hawks",
+   "away": "Miami Heat"
   },
   {
    "id": "se-492857",
@@ -184,22 +184,6 @@ GM_REGISTER_DAY({
    "away": "İsviçre"
   },
   {
-   "id": "se-493214",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-10-29T18:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gence",
-   "away": "Sporting CP"
-  },
-  {
    "id": "se-494272",
    "sport": "futbol",
    "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
@@ -215,6 +199,22 @@ GM_REGISTER_DAY({
    "home": "Kasımpaşa",
    "away": "Çorluspor 1947",
    "turkish": true
+  },
+  {
+   "id": "se-493214",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-10-29T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gence",
+   "away": "Sporting CP"
   },
   {
    "id": "se-488336",
@@ -252,7 +252,7 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493250",
+   "id": "se-493252",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -264,8 +264,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Füchse Berlin",
-   "away": "Partizan"
+   "home": "Kristianstad",
+   "away": "Szeged"
   },
   {
    "id": "se-493251",
@@ -284,7 +284,7 @@ GM_REGISTER_DAY({
    "away": "Sporting"
   },
   {
-   "id": "se-493252",
+   "id": "se-493250",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -296,8 +296,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kristianstad",
-   "away": "Szeged"
+   "home": "Füchse Berlin",
+   "away": "Partizan"
   },
   {
    "id": "se-493965",
@@ -306,6 +306,7 @@ GM_REGISTER_DAY({
    "competitionId": "suudi-arabistan-pro-lig",
    "kickoff": "2026-10-29T21:00:00+03:00",
    "broadcasters": [
+    "HT Spor",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

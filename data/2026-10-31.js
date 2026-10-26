@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:29+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T18:41:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-26T12:58:29+03:00",
+ "generatedAt": "2026-10-26T18:41:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -325,6 +325,40 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-495172",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-31T13:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zonguldakspor",
+   "away": "Fatsa Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-495173",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-31T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kepez Bld.",
+   "away": "Uşakspor",
+   "turkish": true
+  },
+  {
    "id": "se-488965",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -471,6 +505,57 @@ GM_REGISTER_DAY({
    ],
    "home": "Körfez Basket",
    "away": "Trabzonspor",
+   "turkish": true
+  },
+  {
+   "id": "se-495174",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-31T15:30:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İnkılap FK",
+   "away": "Kartal Bulvar Kartalimen",
+   "turkish": true
+  },
+  {
+   "id": "se-495175",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-31T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beykoz Anadolu",
+   "away": "Y.Amasyaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-495176",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-10-31T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Altay",
+   "away": "Akşehirspor",
    "turkish": true
   },
   {
@@ -1007,6 +1092,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Galatasaray",
    "away": "Sultanbeyli Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-495177",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-10-31T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Muşspor",
+   "away": "Adana Demirspor",
    "turkish": true
   },
   {

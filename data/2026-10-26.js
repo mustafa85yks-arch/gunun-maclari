@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T18:41:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-26T12:58:24+03:00",
+ "generatedAt": "2026-10-26T18:41:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -452,7 +452,8 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-10-26T21:15:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -468,7 +469,7 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-10-26T21:15:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "D Smart Kanal 91"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -554,11 +555,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-26T22:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "PSG",
    "away": "Lyon"
@@ -570,7 +572,7 @@ GM_REGISTER_DAY({
    "competitionId": "fransa-ligue-2",
    "kickoff": "2026-10-26T22:45:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 4"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [

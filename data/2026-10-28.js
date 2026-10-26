@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T18:41:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-28",
- "generatedAt": "2026-10-26T12:58:24+03:00",
+ "generatedAt": "2026-10-26T18:41:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -165,6 +165,22 @@ GM_REGISTER_DAY({
    "home": "Fethiyespor",
    "away": "Eyüpspor",
    "turkish": true
+  },
+  {
+   "id": "se-495217",
+   "sport": "futbol",
+   "competition": "Plaj Futbolu Dünya Kulüpler Şampiyonasi",
+   "competitionId": "plaj-futbolu-dunya-kulupler-sampiyonasi",
+   "kickoff": "2026-10-28T15:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alanya Belediye",
+   "away": "C.Y. Limon"
   },
   {
    "id": "se-491321",
