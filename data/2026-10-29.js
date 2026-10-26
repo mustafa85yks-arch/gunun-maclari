@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T03:43:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-26T03:43:44+03:00",
+ "generatedAt": "2026-10-26T12:58:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-10-29"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -36,12 +44,29 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Indiana Pacers",
+   "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-492857",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-29T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Indiana Pacers",
-   "away": "Philadelphia 76ers"
+   "home": "NO Pelicans",
+   "away": "Denver Nuggets"
   },
   {
    "id": "se-492858",
@@ -76,22 +101,6 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
-   "id": "se-492857",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-29T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NO Pelicans",
-   "away": "Denver Nuggets"
-  },
-  {
    "id": "se-493963",
    "sport": "basketbol",
    "competition": "NBA",
@@ -101,9 +110,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Dallas Mavericks",
    "away": "OKC Thunder"
@@ -158,6 +168,22 @@ GM_REGISTER_DAY({
    "title": "Basel"
   },
   {
+   "id": "se-495169",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi Erkekler",
+   "competitionId": "korling-avrupa-sampiyonasi-erkekler",
+   "kickoff": "2026-10-29T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Almanya",
+   "away": "İsviçre"
+  },
+  {
    "id": "se-493214",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -191,6 +217,24 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-488336",
+   "sport": "futbol",
+   "competition": "İtalya Serie A",
+   "competitionId": "serie-a",
+   "kickoff": "2026-10-29T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Frosinone",
+   "away": "Lecce"
+  },
+  {
    "id": "se-494273",
    "sport": "futbol",
    "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
@@ -206,23 +250,6 @@ GM_REGISTER_DAY({
    "home": "Eskişehirspor",
    "away": "Iğdırspor",
    "turkish": true
-  },
-  {
-   "id": "se-488336",
-   "sport": "futbol",
-   "competition": "İtalya Serie A",
-   "competitionId": "serie-a",
-   "kickoff": "2026-10-29T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Frosinone",
-   "away": "Lecce"
   },
   {
    "id": "se-493250",
@@ -330,9 +357,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Fiorentina",
    "away": "Atalanta"
@@ -347,9 +375,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Madrid",
    "away": "Fenerbahçe Tarfin"
@@ -401,6 +430,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Everton",
    "away": "Newcastle"
+  },
+  {
+   "id": "se-495170",
+   "sport": "golf",
+   "competition": "PGA Tur Meksika Açik Golf Turnuvasi",
+   "competitionId": "pga-tur-meksika-acik-golf-turnuvasi",
+   "kickoff": "2026-10-29T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1"
   }
  ]
 });

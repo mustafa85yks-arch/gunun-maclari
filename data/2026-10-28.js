@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T03:43:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-28",
- "generatedAt": "2026-10-26T03:43:44+03:00",
+ "generatedAt": "2026-10-26T12:58:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-10-28"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -36,9 +44,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "New York Knicks",
    "away": "Detroit Pistons"
@@ -74,6 +83,22 @@ GM_REGISTER_DAY({
    ],
    "home": "LA Lakers",
    "away": "Portland TB"
+  },
+  {
+   "id": "se-495167",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi Erkekler",
+   "competitionId": "korling-avrupa-sampiyonasi-erkekler",
+   "kickoff": "2026-10-28T10:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İtalya",
+   "away": "Almanya"
   },
   {
    "id": "se-494266",
@@ -551,9 +576,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Beşiktaş",
    "away": "Olympiakos"
@@ -697,9 +723,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Hapoel Tel Aviv",
    "away": "Anadolu Efes"
@@ -767,6 +794,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Chemnitz",
    "away": "JL Bourg"
+  },
+  {
+   "id": "se-495168",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi Erkekler",
+   "competitionId": "korling-avrupa-sampiyonasi-erkekler",
+   "kickoff": "2026-10-28T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Almanya",
+   "away": "Hollanda"
   },
   {
    "id": "se-493282",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T03:43:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-26T03:43:46+03:00",
+ "generatedAt": "2026-10-26T12:58:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -59,9 +59,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Portland TB",
    "away": "Memphis Grizzlies"
@@ -92,9 +93,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Serbest Antrenman 1"
   },
@@ -124,9 +126,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Antrenman"
   },
@@ -201,9 +204,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Dubai Basket",
    "away": "Hapoel Tel Aviv"
@@ -284,28 +288,13 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Anadolu Efes",
    "away": "Panathinaikos"
-  },
-  {
-   "id": "se-490184",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-30T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Zalgiris Kaunas",
-   "away": "Partizan"
   },
   {
    "id": "se-487536",
@@ -322,6 +311,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Le Havre",
    "away": "PSG"
+  },
+  {
+   "id": "se-490184",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-30T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zalgiris Kaunas",
+   "away": "Partizan"
   },
   {
    "id": "se-493299",
@@ -403,23 +408,6 @@ GM_REGISTER_DAY({
    "away": "Mainz"
   },
   {
-   "id": "se-490187",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-30T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Barcelona",
-   "away": "Valencia Basket"
-  },
-  {
    "id": "se-490188",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -429,12 +417,31 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Virtus Bologna",
    "away": "Beşiktaş"
+  },
+  {
+   "id": "se-490187",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-30T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Barcelona",
+   "away": "Valencia Basket"
   },
   {
    "id": "se-493651",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T03:43:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T12:58:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-26",
- "generatedAt": "2026-10-26T03:43:44+03:00",
+ "generatedAt": "2026-10-26T12:58:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -33,6 +33,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Utah Jazz",
    "away": "LA Lakers"
+  },
+  {
+   "id": "se-495166",
+   "sport": "atletizm",
+   "competition": "Tirmaniş Dünya Serisi",
+   "competitionId": "tirmanis-dunya-serisi",
+   "kickoff": "2026-10-26T00:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Lead Finalleri"
   },
   {
    "id": "se-492842",
@@ -148,6 +163,21 @@ GM_REGISTER_DAY({
    "away": "Guangdong"
   },
   {
+   "id": "se-495114",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-26T14:45:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Grekoromen Yarı Finaller"
+  },
+  {
    "id": "se-491300",
    "sport": "futbol",
    "competition": "TFF Elit U19 Ligi",
@@ -195,6 +225,22 @@ GM_REGISTER_DAY({
    "away": "Alanya Belediye"
   },
   {
+   "id": "se-495110",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-26T15:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Berrettini",
+   "away": "T.M.Etcheverry"
+  },
+  {
    "id": "se-491301",
    "sport": "futbol",
    "competition": "TFF Elit U19 Ligi",
@@ -213,6 +259,21 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
+  },
+  {
+   "id": "se-495115",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-26T16:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Grekoromen Finaller"
   },
   {
    "id": "se-495105",
@@ -248,72 +309,20 @@ GM_REGISTER_DAY({
    "away": "Q.Halys"
   },
   {
-   "id": "se-495107",
-   "sport": "futbol",
-   "competition": "AFC Şampiyonlar Ligi",
-   "competitionId": "afc-sampiyonlar-ligi",
-   "kickoff": "2026-10-26T19:00:00+03:00",
+   "id": "se-495111",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-26T17:30:00+03:00",
    "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Al Ain",
-   "away": "Tractor Sazi"
-  },
-  {
-   "id": "se-495106",
-   "sport": "futbol",
-   "competition": "AFC Şampiyonlar Ligi",
-   "competitionId": "afc-sampiyonlar-ligi",
-   "kickoff": "2026-10-26T19:00:00+03:00",
-   "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Al Ahli",
-   "away": "Al Gharafa"
-  },
-  {
-   "id": "se-493620",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 2. Lig",
-   "competitionId": "tvf-kadinlar-2-lig",
-   "kickoff": "2026-10-26T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Galatasaray",
-   "away": "Ataşehir Kartalları"
-  },
-  {
-   "id": "se-488962",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-10-26T19:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
-   ],
-   "home": "Beşiktaş",
-   "away": "İstanbul Başakşehir",
-   "turkish": true
+   "home": "T.Machac",
+   "away": "A.De Minaur"
   },
   {
    "id": "se-488961",
@@ -334,13 +343,98 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-488962",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Beşiktaş",
+   "away": "İstanbul Başakşehir",
+   "turkish": true
+  },
+  {
+   "id": "se-493620",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Ataşehir Kartalları"
+  },
+  {
+   "id": "se-495106",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ahli",
+   "away": "Al Gharafa"
+  },
+  {
+   "id": "se-495107",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-26T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ain",
+   "away": "Tractor Sazi"
+  },
+  {
+   "id": "se-495116",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-26T19:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Mensik",
+   "away": "L.Neumayer"
+  },
+  {
    "id": "se-489811",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
    "competitionId": "1-lig",
    "kickoff": "2026-10-26T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "tabii Spor 6",
+    "TRT Kurdi",
     "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
@@ -438,6 +532,22 @@ GM_REGISTER_DAY({
    "away": "C.Ruud"
   },
   {
+   "id": "se-495117",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-26T22:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Van Assche",
+   "away": "L.Tien"
+  },
+  {
    "id": "se-487535",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -479,9 +589,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Sevilla",
    "away": "Osasuna"
