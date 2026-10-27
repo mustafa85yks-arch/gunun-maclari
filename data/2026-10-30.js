@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T12:43:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T18:03:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-27T12:43:19+03:00",
+ "generatedAt": "2026-10-27T18:03:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -409,20 +409,22 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
-   "id": "se-488253",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
+   "id": "se-490187",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-10-30T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
-   "home": "Elversberg",
-   "away": "Mainz"
+   "home": "Barcelona",
+   "away": "Valencia Basket"
   },
   {
    "id": "se-490188",
@@ -443,22 +445,20 @@ GM_REGISTER_DAY({
    "away": "Beşiktaş"
   },
   {
-   "id": "se-490187",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-488253",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
    "kickoff": "2026-10-30T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "ssport.tv"
+    "sporekrani.com"
    ],
-   "home": "Barcelona",
-   "away": "Valencia Basket"
+   "home": "Elversberg",
+   "away": "Mainz"
   },
   {
    "id": "se-493651",
@@ -507,6 +507,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lille",
    "away": "Lens"
+  },
+  {
+   "id": "se-495268",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-10-30T23:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Casa Pia",
+   "away": "Sporting Lisbon"
   }
  ]
 });

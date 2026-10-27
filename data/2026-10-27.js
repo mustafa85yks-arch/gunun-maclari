@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T12:43:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T18:03:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-27",
- "generatedAt": "2026-10-27T12:43:17+03:00",
+ "generatedAt": "2026-10-27T18:03:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -213,6 +213,22 @@ GM_REGISTER_DAY({
    "away": "J.Paolini"
   },
   {
+   "id": "se-495271",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-27T12:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bengoechea/Ulrich",
+   "away": "Bidahorria/Riera"
+  },
+  {
    "id": "se-495193",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi",
@@ -294,6 +310,22 @@ GM_REGISTER_DAY({
    "home": "Etimesgut Bld.",
    "away": "Gaziantep FK",
    "turkish": true
+  },
+  {
+   "id": "se-495272",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-27T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gallego/Araujo",
+   "away": "Gasco/Ferreyra"
   },
   {
    "id": "se-495244",
@@ -474,6 +506,22 @@ GM_REGISTER_DAY({
    "title": "Grekoromen Finaller"
   },
   {
+   "id": "se-495273",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-27T16:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Marmolejo/Pereyra",
+   "away": "Yanguas/Ruiz"
+  },
+  {
    "id": "se-494563",
    "sport": "güreş",
    "competition": "Dünya Güreş Şampiyonasi",
@@ -553,6 +601,22 @@ GM_REGISTER_DAY({
    "home": "Kocaelispor",
    "away": "Mazıdağı Fosfat",
    "turkish": true
+  },
+  {
+   "id": "se-495274",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-27T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Belluati/Abud",
+   "away": "Augsburger/Lebron"
   },
   {
    "id": "se-490169",
@@ -801,6 +865,22 @@ GM_REGISTER_DAY({
    ],
    "home": "B.Shelton",
    "away": "A.Kovacevic"
+  },
+  {
+   "id": "se-495275",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-27T20:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Abbate/Bianco"
   },
   {
    "id": "se-488328",

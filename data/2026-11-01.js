@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T12:43:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T18:03:55+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-01",
- "generatedAt": "2026-10-27T12:43:25+03:00",
+ "generatedAt": "2026-10-27T18:03:55+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1196,11 +1196,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-01T19:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Liverpool",
    "away": "Arsenal"
