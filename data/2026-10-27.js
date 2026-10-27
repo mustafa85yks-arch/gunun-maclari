@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-26T22:41:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T03:22:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-27",
- "generatedAt": "2026-10-26T22:41:05+03:00",
+ "generatedAt": "2026-10-27T03:22:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -363,6 +363,22 @@ GM_REGISTER_DAY({
    "away": "Batumi"
   },
   {
+   "id": "se-495238",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-27T15:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Paul",
+   "away": "A.Rublev"
+  },
+  {
    "id": "se-494030",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -392,7 +408,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Basel"
+   "home": "A.Tabilo",
+   "away": "R.Jodar"
   },
   {
    "id": "se-494563",
@@ -425,6 +442,38 @@ GM_REGISTER_DAY({
    "home": "Sungurlu Bld.",
    "away": "Galatasaray",
    "turkish": true
+  },
+  {
+   "id": "se-495235",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-27T17:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "G.Mpetshi Perricard",
+   "away": "A.Fils"
+  },
+  {
+   "id": "se-495239",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-27T17:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Khachanov",
+   "away": "C.Alcaraz"
   },
   {
    "id": "se-494264",
@@ -596,6 +645,22 @@ GM_REGISTER_DAY({
    "away": "East Bengal"
   },
   {
+   "id": "se-495240",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-27T19:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "M.Landaluce"
+  },
+  {
    "id": "se-493191",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -658,6 +723,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hamburg",
    "away": "Eintracht Frankfurt"
+  },
+  {
+   "id": "se-495236",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-27T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Shelton",
+   "away": "A.Kovacevic"
   },
   {
    "id": "se-488328",
@@ -884,6 +965,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Energia Trento",
    "away": "Buducnost"
+  },
+  {
+   "id": "se-495237",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-27T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "S.Wawrinka",
+   "away": "J.Lehecka"
   },
   {
    "id": "se-490172",
