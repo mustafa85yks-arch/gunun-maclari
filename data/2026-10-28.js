@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T04:37:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T12:43:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-28",
- "generatedAt": "2026-10-27T04:37:17+03:00",
+ "generatedAt": "2026-10-27T12:43:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,23 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-495267",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-28T01:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Argentinos Jrs.",
+   "away": "Independiente Rivadavia"
+  },
   {
    "id": "se-492851",
    "sport": "basketbol",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T04:37:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T12:43:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-27",
- "generatedAt": "2026-10-27T04:37:17+03:00",
+ "generatedAt": "2026-10-27T12:43:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -236,7 +236,7 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-10-27T13:00:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "D Smart Kanal 92"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -252,7 +252,7 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-10-27T13:00:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "D Smart Kanal 91"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -296,6 +296,36 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-495244",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-10-27T14:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar 49kg"
+  },
+  {
+   "id": "se-495246",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-27T14:45:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Grekoromen Yarı Finaller"
+  },
+  {
    "id": "se-494033",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -319,8 +349,8 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-10-27T15:15:00+03:00",
    "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
+    "Spor Smart",
+    "Smart Spor HD"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -328,6 +358,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Ratchaburi",
    "away": "Kashiwa Reysol"
+  },
+  {
+   "id": "se-495266",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-27T15:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beijing Guoan",
+   "away": "Jeonbuk"
   },
   {
    "id": "se-494263",
@@ -410,6 +457,21 @@ GM_REGISTER_DAY({
    ],
    "home": "A.Tabilo",
    "away": "R.Jodar"
+  },
+  {
+   "id": "se-495247",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-27T16:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Grekoromen Finaller"
   },
   {
    "id": "se-494563",
@@ -861,7 +923,7 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi-2",
    "kickoff": "2026-10-27T21:15:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "D Smart Kanal 91"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -981,6 +1043,22 @@ GM_REGISTER_DAY({
    ],
    "home": "S.Wawrinka",
    "away": "J.Lehecka"
+  },
+  {
+   "id": "se-495245",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-27T22:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "F.Cobolli",
+   "away": "G.Dimitrov"
   },
   {
    "id": "se-490172",
