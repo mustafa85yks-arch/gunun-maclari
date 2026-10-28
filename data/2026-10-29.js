@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T04:42:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T13:28:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-28T04:42:47+03:00",
+ "generatedAt": "2026-10-28T13:28:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,40 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-495334",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-29T01:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Santos",
+   "away": "Palmeiras"
+  },
+  {
+   "id": "se-495335",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-29T01:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fluminense",
+   "away": "Internacional"
+  },
   {
    "id": "se-492855",
    "sport": "basketbol",

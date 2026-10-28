@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T04:42:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T13:28:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-28",
- "generatedAt": "2026-10-28T04:42:47+03:00",
+ "generatedAt": "2026-10-28T13:28:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -151,6 +151,40 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-495324",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-28T13:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gamba Osaka",
+   "away": "Buriram"
+  },
+  {
+   "id": "se-495325",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-10-28T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kashima Antlers",
+   "away": "Pohang"
+  },
+  {
    "id": "se-493590",
    "sport": "basketbol",
    "competition": "Avustralya NBL",
@@ -183,11 +217,11 @@ GM_REGISTER_DAY({
    "away": "Vallejo/Talavan"
   },
   {
-   "id": "se-491320",
-   "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Süper Ligi",
-   "competitionId": "hentbol-kadinlar-super-ligi",
-   "kickoff": "2026-10-28T15:00:00+03:00",
+   "id": "se-495307",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi Dönüşümlü",
+   "competitionId": "iwf-dunya-halter-sampiyonasi-donusumlu",
+   "kickoff": "2026-10-28T14:00:00+03:00",
    "broadcasters": [
     "TRT Spor Yildiz"
    ],
@@ -195,8 +229,72 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
+   "title": "Rusya"
+  },
+  {
+   "id": "se-495308",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi Dönüşümlü",
+   "competitionId": "dunya-gures-sampiyonasi-donusumlu",
+   "kickoff": "2026-10-28T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kazakistan"
+  },
+  {
+   "id": "se-491320",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Süper Ligi",
+   "competitionId": "hentbol-kadinlar-super-ligi",
+   "kickoff": "2026-10-28T15:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
    "home": "Bursa BB",
    "away": "Odunpazari"
+  },
+  {
+   "id": "se-495326",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T15:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Persib Bandung",
+   "away": "Melbourne Victory"
+  },
+  {
+   "id": "se-495327",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Viettel",
+   "away": "FC Seoul"
   },
   {
    "id": "se-494267",
@@ -310,6 +408,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Stupaczuk/Sanz",
    "away": "Jofre/Esbri"
+  },
+  {
+   "id": "se-495328",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T16:45:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 92"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Golgohar",
+   "away": "Arkadag"
+  },
+  {
+   "id": "se-495329",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T16:45:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 91"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nasaf Qarshi",
+   "away": "Al Kuwait"
   },
   {
    "id": "se-495287",
@@ -457,6 +587,40 @@ GM_REGISTER_DAY({
    "away": "Esenler Erokspor"
   },
   {
+   "id": "se-495330",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Nahda",
+   "away": "Al Rayyan"
+  },
+  {
+   "id": "se-495331",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Jazira",
+   "away": "Al Muharraq"
+  },
+  {
    "id": "se-493198",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -487,6 +651,22 @@ GM_REGISTER_DAY({
    ],
    "home": "BC Siauliai",
    "away": "Maxima Roma"
+  },
+  {
+   "id": "se-495322",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-28T19:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Rodionov",
+   "away": "N.Basilashvili"
   },
   {
    "id": "se-493199",
@@ -990,6 +1170,40 @@ GM_REGISTER_DAY({
    "away": "Hollanda"
   },
   {
+   "id": "se-495332",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T21:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Faisaly Amman",
+   "away": "Al Taawon"
+  },
+  {
+   "id": "se-495333",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-28T21:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Khalidiyah",
+   "away": "Al Wahda"
+  },
+  {
    "id": "se-493282",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -1118,6 +1332,22 @@ GM_REGISTER_DAY({
    "away": "H.Rune"
   },
   {
+   "id": "se-495323",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-28T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Tien",
+   "away": "A.De Minaur"
+  },
+  {
    "id": "se-490178",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -1156,7 +1386,7 @@ GM_REGISTER_DAY({
    "competitionId": "eurocup",
    "kickoff": "2026-10-28T22:30:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
