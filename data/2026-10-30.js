@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-27T22:09:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T03:26:48+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-27T22:09:03+03:00",
+ "generatedAt": "2026-10-28T03:26:48+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -196,22 +196,6 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 2"
   },
   {
-   "id": "se-493600",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 1. Lig",
-   "competitionId": "tvf-kadinlar-1-lig",
-   "kickoff": "2026-10-30T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Vakifbank"
-  },
-  {
    "id": "se-490182",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -244,6 +228,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Shakhtar Donetsk",
    "away": "Obolon Brovar"
+  },
+  {
+   "id": "se-493600",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
+   "kickoff": "2026-10-30T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Vakifbank"
   },
   {
    "id": "se-488964",
@@ -409,24 +409,6 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
-   "id": "se-490187",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-30T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Barcelona",
-   "away": "Valencia Basket"
-  },
-  {
    "id": "se-490188",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -443,6 +425,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Virtus Bologna",
    "away": "Beşiktaş"
+  },
+  {
+   "id": "se-490187",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-30T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Barcelona",
+   "away": "Valencia Basket"
   },
   {
    "id": "se-488253",
