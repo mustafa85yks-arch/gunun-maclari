@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T13:48:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T18:45:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-29T13:48:47+03:00",
+ "generatedAt": "2026-10-29T18:45:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -70,7 +70,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494678",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-10-30T03:00:00+03:00",
    "broadcasters": [
@@ -183,6 +183,22 @@ GM_REGISTER_DAY({
    "home": "Konyaspor",
    "away": "Galatasaray",
    "turkish": true
+  },
+  {
+   "id": "se-495474",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-30T15:30:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Abha",
+   "away": "Al Ittihad"
   },
   {
    "id": "se-493975",

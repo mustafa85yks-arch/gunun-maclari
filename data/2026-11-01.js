@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T13:49:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T18:46:00+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-01",
- "generatedAt": "2026-10-29T13:49:04+03:00",
+ "generatedAt": "2026-10-29T18:46:00+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -260,6 +260,22 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Malezya GP"
+  },
+  {
+   "id": "se-495487",
+   "sport": "futbol",
+   "competition": "Japonya J.League",
+   "competitionId": "japonya-j-league",
+   "kickoff": "2026-11-01T10:00:00+03:00",
+   "broadcasters": [
+    "KRT TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Machida",
+   "away": "Gamba Osaka"
   },
   {
    "id": "se-495358",
@@ -787,7 +803,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-01T16:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Kurdi",
     "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
@@ -1251,6 +1267,7 @@ GM_REGISTER_DAY({
    "competitionId": "bundesliga",
    "kickoff": "2026-11-01T19:30:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

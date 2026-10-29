@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T13:48:55+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T18:45:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-29T13:48:55+03:00",
+ "generatedAt": "2026-10-29T18:45:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -226,6 +226,22 @@ GM_REGISTER_DAY({
    "title": "Sıralama Turları"
   },
   {
+   "id": "se-495486",
+   "sport": "futbol",
+   "competition": "Japonya J.League",
+   "competitionId": "japonya-j-league",
+   "kickoff": "2026-10-31T09:00:00+03:00",
+   "broadcasters": [
+    "KRT TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kashima Antlers",
+   "away": "Cerezo Osaka"
+  },
+  {
    "id": "se-493971",
    "sport": "motosiklet",
    "competition": "MotoGP Malezya GP",
@@ -368,9 +384,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Vanspor",
    "away": "Sarıyer",
@@ -567,12 +584,13 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-10-31T16:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "tabii Spor 6",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Karagümrük",
    "away": "Pendikspor",
@@ -1040,9 +1058,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Manisa FK",
    "away": "Batman Petrol",
@@ -1268,6 +1287,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Cesson Rennes",
    "away": "Nantes"
+  },
+  {
+   "id": "se-495475",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-10-31T21:00:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Hilal",
+   "away": "Al Fateh"
   },
   {
    "id": "se-493987",
