@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T22:13:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T03:49:06+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-28T22:13:01+03:00",
+ "generatedAt": "2026-10-29T03:49:06+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -153,6 +153,134 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
+   "id": "se-495366",
+   "sport": "tenis",
+   "competition": "WTA Tokyo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T04:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Parks",
+   "away": "K.Birrell"
+  },
+  {
+   "id": "se-495367",
+   "sport": "tenis",
+   "competition": "WTA Tokyo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T06:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Fernandez",
+   "away": "E.Mertens"
+  },
+  {
+   "id": "se-495362",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T08:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Liu",
+   "away": "K.Siniakova"
+  },
+  {
+   "id": "se-495363",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Teichmann",
+   "away": "Zeynep Sönmez"
+  },
+  {
+   "id": "se-495368",
+   "sport": "tenis",
+   "competition": "WTA Tokyo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T08:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Osaka",
+   "away": "M.Pohankova"
+  },
+  {
+   "id": "se-495364",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T09:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Timofeeva",
+   "away": "X.Sun"
+  },
+  {
+   "id": "se-495365",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T10:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Bondar",
+   "away": "K.Quevedo"
+  },
+  {
+   "id": "se-495369",
+   "sport": "tenis",
+   "competition": "WTA Tokyo",
+   "competitionId": "wta",
+   "kickoff": "2026-10-29T11:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Rybakina",
+   "away": "Y.Putintseva"
+  },
+  {
    "id": "se-494270",
    "sport": "futbol",
    "competition": "Ziraat Türkiye Kupasi ZTK Elemeler",
@@ -168,6 +296,38 @@ GM_REGISTER_DAY({
    "home": "Bitlis 1916 FK",
    "away": "Kayserispor",
    "turkish": true
+  },
+  {
+   "id": "se-493964",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "V.Vacherot",
+   "away": "R.Jodar"
+  },
+  {
+   "id": "se-495383",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-29T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Prieto/Fallada",
+   "away": "Alcorisa/Jensen"
   },
   {
    "id": "se-494271",
@@ -187,19 +347,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493964",
+   "id": "se-495388",
    "sport": "tenis",
-   "competition": "ATP Basel",
+   "competition": "ATP Viyana",
    "competitionId": "atp",
-   "kickoff": "2026-10-29T16:00:00+03:00",
+   "kickoff": "2026-10-29T15:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Basel"
+   "home": "C.Norrie",
+   "away": "D.Medvedev"
   },
   {
    "id": "se-495169",
@@ -216,6 +377,86 @@ GM_REGISTER_DAY({
    ],
    "home": "Almanya",
    "away": "İsviçre"
+  },
+  {
+   "id": "se-495379",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Michelsen",
+   "away": "A.Fils"
+  },
+  {
+   "id": "se-495384",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-29T16:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stupaczuk/Sanz",
+   "away": "Alonso/Lacabe"
+  },
+  {
+   "id": "se-495389",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T17:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Basilashvili",
+   "away": "C.Alcaraz"
+  },
+  {
+   "id": "se-495385",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-29T17:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Camacho/Pozzo"
+  },
+  {
+   "id": "se-493214",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-10-29T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gence",
+   "away": "Sporting CP"
   },
   {
    "id": "se-494272",
@@ -235,20 +476,84 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493214",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "id": "se-495380",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
    "kickoff": "2026-10-29T18:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Gence",
-   "away": "Sporting CP"
+   "home": "T.Fritz",
+   "away": "D.Shapovalov"
+  },
+  {
+   "id": "se-495386",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-29T18:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nenno/Navarro",
+   "away": "Alfonso/Libaak"
+  },
+  {
+   "id": "se-495390",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T19:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "T.Griekspoor"
+  },
+  {
+   "id": "se-495381",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Djokovic",
+   "away": "J.L.Struff"
+  },
+  {
+   "id": "se-495387",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-10-29T20:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Bautista/Bergamini"
   },
   {
    "id": "se-488336",
@@ -286,7 +591,7 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493252",
+   "id": "se-493250",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -298,8 +603,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kristianstad",
-   "away": "Szeged"
+   "home": "Füchse Berlin",
+   "away": "Partizan"
   },
   {
    "id": "se-493251",
@@ -318,7 +623,7 @@ GM_REGISTER_DAY({
    "away": "Sporting"
   },
   {
-   "id": "se-493250",
+   "id": "se-493252",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
    "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
@@ -330,8 +635,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Füchse Berlin",
-   "away": "Partizan"
+   "home": "Kristianstad",
+   "away": "Szeged"
   },
   {
    "id": "se-493965",
@@ -365,6 +670,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Kizilyildiz",
    "away": "Bayern Münih"
+  },
+  {
+   "id": "se-495382",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Shelton",
+   "away": "J.Kym"
+  },
+  {
+   "id": "se-495391",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "F.Cobolli",
+   "away": "M.Berrettini"
   },
   {
    "id": "se-490180",

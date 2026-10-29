@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T22:13:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T03:49:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-01",
- "generatedAt": "2026-10-28T22:13:18+03:00",
+ "generatedAt": "2026-10-29T03:49:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -135,6 +135,7 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-01T03:30:00+03:00",
    "broadcasters": [
+    "Prime Video",
     "S Sport Plus",
     "S Sport"
    ],
@@ -161,22 +162,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Y.Santos",
    "away": "L.Santos"
-  },
-  {
-   "id": "se-494696",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-01T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Houston Rockets",
-   "away": "OKC Thunder"
   },
   {
    "id": "se-493998",
@@ -228,6 +213,21 @@ GM_REGISTER_DAY({
    "title": "Malezya GP"
   },
   {
+   "id": "se-495361",
+   "sport": "motor sporları",
+   "competition": "GT World Challenge",
+   "competitionId": "gt-world-challenge",
+   "kickoff": "2026-11-01T08:05:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
+  },
+  {
    "id": "se-493973",
    "sport": "motosiklet",
    "competition": "Moto2",
@@ -260,6 +260,21 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Malezya GP"
+  },
+  {
+   "id": "se-495358",
+   "sport": "motor sporları",
+   "competition": "FIA Formula 4",
+   "competitionId": "fia-formula-4",
+   "kickoff": "2026-11-01T10:40:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 3"
   },
   {
    "id": "se-493790",
@@ -419,7 +434,7 @@ GM_REGISTER_DAY({
    "competitionId": "super-lig",
    "kickoff": "2026-11-01T13:30:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "beIN SPORTS 2"
    ],
    "verification": "dogrulandi",
    "sources": [
@@ -438,7 +453,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-01T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -447,6 +462,21 @@ GM_REGISTER_DAY({
    "home": "Sivasspor",
    "away": "Boluspor",
    "turkish": true
+  },
+  {
+   "id": "se-495359",
+   "sport": "motor sporları",
+   "competition": "FIA Formula 4",
+   "competitionId": "fia-formula-4",
+   "kickoff": "2026-11-01T14:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 4"
   },
   {
    "id": "se-488341",
@@ -740,7 +770,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-01T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -758,7 +788,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-01T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -926,11 +956,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-01T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Strasbourg",
    "away": "Auxerre"
@@ -1026,7 +1057,8 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-11-01T18:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1131,11 +1163,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-01T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Bodrumspor",
    "away": "Ümraniyespor",
@@ -1162,17 +1195,50 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-495355",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-11-01T19:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "PSG",
+   "away": "Montpellier"
+  },
+  {
+   "id": "se-487540",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-11-01T19:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lyon",
+   "away": "Angers"
+  },
+  {
    "id": "se-487543",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
    "competitionId": "ligue-1",
    "kickoff": "2026-11-01T19:15:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Paris FC",
    "away": "Monaco"
@@ -1332,11 +1398,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-01T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Marsilya",
    "away": "Toulouse"
@@ -1368,9 +1435,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Meksika GP"
   },
@@ -1393,29 +1461,14 @@ GM_REGISTER_DAY({
    "away": "Real Sociedad"
   },
   {
-   "id": "se-493994",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-01T23:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Orlando Magic",
-   "away": "Boston Celtics"
-  },
-  {
    "id": "se-494697",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-01T23:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [

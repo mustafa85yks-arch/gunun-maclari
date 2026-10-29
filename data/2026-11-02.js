@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T22:13:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T03:49:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-02",
- "generatedAt": "2026-10-28T22:13:18+03:00",
+ "generatedAt": "2026-10-29T03:49:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -96,7 +96,8 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-11-02T18:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -104,24 +105,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Petkimspor",
    "away": "Anadolu Efes",
-   "turkish": true
-  },
-  {
-   "id": "se-489821",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-11-02T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kayserispor",
-   "away": "Muğlaspor",
    "turkish": true
   },
   {
@@ -139,6 +122,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Gençlerbirliği",
    "away": "Alanyaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-489821",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-02T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN SPORTS 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kayserispor",
+   "away": "Muğlaspor",
    "turkish": true
   },
   {
@@ -208,6 +209,22 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
+   "id": "se-487539",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-11-02T22:45:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lorient",
+   "away": "Brest"
+  },
+  {
    "id": "se-488347",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -223,6 +240,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Atalanta",
    "away": "Parma"
+  },
+  {
+   "id": "se-495352",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-11-02T22:45:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Reims",
+   "away": "Sochaux"
   },
   {
    "id": "se-493660",

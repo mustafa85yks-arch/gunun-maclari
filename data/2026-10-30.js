@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-28T22:13:06+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T03:49:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-28T22:13:06+03:00",
+ "generatedAt": "2026-10-29T03:49:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,23 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-495393",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-30T01:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atletico Mineiro",
+   "away": "Cruzeiro"
+  },
+  {
    "id": "se-494677",
    "sport": "basketbol",
    "competition": "NBA",
@@ -32,6 +49,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Atlanta Hawks",
    "away": "Cleveland Cavaliers"
+  },
+  {
+   "id": "se-495392",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-10-30T02:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Vasco Da Gama",
+   "away": "Flamengo"
   },
   {
    "id": "se-494678",
@@ -56,6 +90,7 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-10-30T05:00:00+03:00",
    "broadcasters": [
+    "Prime Video",
     "S Sport Plus",
     "S Sport"
    ],
@@ -63,22 +98,6 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com",
     "ssport.tv"
-   ],
-   "home": "Portland TB",
-   "away": "Memphis Grizzlies"
-  },
-  {
-   "id": "se-494679",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-30T05:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
    ],
    "home": "Portland TB",
    "away": "Memphis Grizzlies"
@@ -181,6 +200,21 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 1"
   },
   {
+   "id": "se-495345",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
+   "kickoff": "2026-10-30T16:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Finaller"
+  },
+  {
    "id": "se-493976",
    "sport": "tenis",
    "competition": "ATP Basel Çeyrek Final",
@@ -264,24 +298,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489812",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-10-30T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Esenler Erokspor",
-   "away": "Keçiörengücü",
-   "turkish": true
-  },
-  {
    "id": "se-493977",
    "sport": "tenis",
    "competition": "ATP Basel Çeyrek Final",
@@ -295,6 +311,25 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 3"
+  },
+  {
+   "id": "se-489812",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-10-30T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN SPORTS 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Esenler Erokspor",
+   "away": "Keçiörengücü",
+   "turkish": true
   },
   {
    "id": "se-490183",
@@ -315,22 +350,6 @@ GM_REGISTER_DAY({
    "away": "Panathinaikos"
   },
   {
-   "id": "se-487536",
-   "sport": "futbol",
-   "competition": "Fransa Ligue 1",
-   "competitionId": "ligue-1",
-   "kickoff": "2026-10-30T21:00:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Le Havre",
-   "away": "PSG"
-  },
-  {
    "id": "se-490184",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -345,6 +364,39 @@ GM_REGISTER_DAY({
    ],
    "home": "Zalgiris Kaunas",
    "away": "Partizan"
+  },
+  {
+   "id": "se-487536",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-10-30T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Le Havre",
+   "away": "PSG"
+  },
+  {
+   "id": "se-487538",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-10-30T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nice",
+   "away": "Rennes"
   },
   {
    "id": "se-493299",
@@ -394,6 +446,22 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 4"
   },
   {
+   "id": "se-495353",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-10-30T22:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenix Toulouse",
+   "away": "Limoges"
+  },
+  {
    "id": "se-490186",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -408,24 +476,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Olympiakos",
    "away": "Olimpia Milano"
-  },
-  {
-   "id": "se-490188",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-30T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Virtus Bologna",
-   "away": "Beşiktaş"
   },
   {
    "id": "se-490187",
@@ -444,6 +494,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Barcelona",
    "away": "Valencia Basket"
+  },
+  {
+   "id": "se-490188",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-30T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Virtus Bologna",
+   "away": "Beşiktaş"
   },
   {
    "id": "se-488253",
@@ -500,11 +568,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-10-30T23:05:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lille",
    "away": "Lens"
