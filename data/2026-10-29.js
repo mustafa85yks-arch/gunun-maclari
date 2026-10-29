@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T04:57:13+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T13:48:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-29T04:57:13+03:00",
+ "generatedAt": "2026-10-29T13:48:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -265,6 +265,23 @@ GM_REGISTER_DAY({
    "away": "K.Quevedo"
   },
   {
+   "id": "se-495411",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-29T10:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adelaide United",
+   "away": "Lion City"
+  },
+  {
    "id": "se-495369",
    "sport": "tenis",
    "competition": "WTA Tokyo",
@@ -279,6 +296,60 @@ GM_REGISTER_DAY({
    ],
    "home": "E.Rybakina",
    "away": "Y.Putintseva"
+  },
+  {
+   "id": "se-495398",
+   "sport": "futbol",
+   "competition": "TFF Elit U14 Ligi",
+   "competitionId": "tff-elit-u14-ligi",
+   "kickoff": "2026-10-29T13:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Beşiktaş",
+   "turkish": true,
+   "tags": [
+    "derbi"
+   ]
+  },
+  {
+   "id": "se-495412",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-29T13:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gangwon",
+   "away": "Kuching City"
+  },
+  {
+   "id": "se-495413",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-29T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tampines",
+   "away": "Svay Rieng"
   },
   {
    "id": "se-494270",
@@ -328,6 +399,76 @@ GM_REGISTER_DAY({
    ],
    "home": "Prieto/Fallada",
    "away": "Alcorisa/Jensen"
+  },
+  {
+   "id": "se-495399",
+   "sport": "futbol",
+   "competition": "TFF Elit U15 Ligi",
+   "competitionId": "tff-elit-u15-ligi",
+   "kickoff": "2026-10-29T15:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Beşiktaş",
+   "turkish": true,
+   "tags": [
+    "derbi"
+   ]
+  },
+  {
+   "id": "se-495414",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-29T15:15:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 91"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Phnom Penh",
+   "away": "Kitchee"
+  },
+  {
+   "id": "se-495415",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-29T15:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shanghai Shenhua",
+   "away": "Machida"
+  },
+  {
+   "id": "se-495416",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-10-29T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tai Po",
+   "away": "Pathum United"
   },
   {
    "id": "se-494271",
@@ -694,7 +835,8 @@ GM_REGISTER_DAY({
    "competitionId": "atp",
    "kickoff": "2026-10-29T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor 7"
+    "tabii Spor 7",
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -702,6 +844,22 @@ GM_REGISTER_DAY({
    ],
    "home": "F.Cobolli",
    "away": "M.Berrettini"
+  },
+  {
+   "id": "se-495395",
+   "sport": "tenis",
+   "competition": "ATP Viyana",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Tien",
+   "away": "A.De Minaur"
   },
   {
    "id": "se-490180",

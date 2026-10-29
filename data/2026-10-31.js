@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T04:57:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T13:48:55+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-29T04:57:28+03:00",
+ "generatedAt": "2026-10-29T13:48:55+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -368,10 +368,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Vanspor",
    "away": "Sarıyer",
@@ -571,10 +570,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Karagümrük",
    "away": "Pendikspor",
@@ -1042,10 +1040,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Manisa FK",
    "away": "Batman Petrol",

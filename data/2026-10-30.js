@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T04:57:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T13:48:47+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-29T04:57:19+03:00",
+ "generatedAt": "2026-10-29T13:48:47+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -35,22 +35,6 @@ GM_REGISTER_DAY({
    "away": "Cruzeiro"
   },
   {
-   "id": "se-494677",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-10-30T02:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Atlanta Hawks",
-   "away": "Cleveland Cavaliers"
-  },
-  {
    "id": "se-495392",
    "sport": "futbol",
    "competition": "Brezilya Serie A",
@@ -66,6 +50,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Vasco Da Gama",
    "away": "Flamengo"
+  },
+  {
+   "id": "se-494677",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-10-30T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atlanta Hawks",
+   "away": "Cleveland Cavaliers"
   },
   {
    "id": "se-494678",
