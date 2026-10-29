@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T18:45:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T22:22:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-29T18:45:45+03:00",
+ "generatedAt": "2026-10-29T22:22:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -84,6 +84,22 @@ GM_REGISTER_DAY({
    "away": "Sacramento Kings"
   },
   {
+   "id": "se-495503",
+   "sport": "tenis",
+   "competition": "WTA Tokyo Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T04:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Rakhimova",
+   "away": "M.Joint"
+  },
+  {
    "id": "se-493966",
    "sport": "basketbol",
    "competition": "NBA",
@@ -120,6 +136,54 @@ GM_REGISTER_DAY({
    "title": "Serbest Antrenman 1"
   },
   {
+   "id": "se-495504",
+   "sport": "tenis",
+   "competition": "WTA Tokyo Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T06:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Pohankova",
+   "away": "A.Parks"
+  },
+  {
+   "id": "se-495507",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "P.Badosa",
+   "away": "H.Dart"
+  },
+  {
+   "id": "se-495505",
+   "sport": "tenis",
+   "competition": "WTA Tokyo Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T08:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Rybakina",
+   "away": "L.Fernandez"
+  },
+  {
    "id": "se-493591",
    "sport": "basketbol",
    "competition": "Avustralya NBL",
@@ -153,6 +217,54 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
+   "id": "se-495508",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T10:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Quevedo",
+   "away": "J.Teichmann"
+  },
+  {
+   "id": "se-495506",
+   "sport": "tenis",
+   "competition": "WTA Tokyo Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T11:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Eala",
+   "away": "D.Shnaider"
+  },
+  {
+   "id": "se-495509",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T12:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "X.Sun",
+   "away": "C.Liu"
+  },
+  {
    "id": "se-495171",
    "sport": "futbol",
    "competition": "TFF 3. Lig",
@@ -168,6 +280,22 @@ GM_REGISTER_DAY({
    "home": "Adanaspor",
    "away": "Kırıkkalespor",
    "turkish": true
+  },
+  {
+   "id": "se-495510",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou Çeyrek Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-30T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Tagger",
+   "away": "H.Shi"
   },
   {
    "id": "se-491302",
@@ -314,21 +442,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493977",
-   "sport": "tenis",
-   "competition": "ATP Basel Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-10-30T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 3"
-  },
-  {
    "id": "se-489812",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -348,6 +461,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-493977",
+   "sport": "tenis",
+   "competition": "ATP Basel Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-30T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 3"
+  },
+  {
    "id": "se-490183",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -364,22 +492,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Anadolu Efes",
    "away": "Panathinaikos"
-  },
-  {
-   "id": "se-490184",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-10-30T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Zalgiris Kaunas",
-   "away": "Partizan"
   },
   {
    "id": "se-487536",
@@ -413,6 +525,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Nice",
    "away": "Rennes"
+  },
+  {
+   "id": "se-490184",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-10-30T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zalgiris Kaunas",
+   "away": "Partizan"
   },
   {
    "id": "se-493299",
@@ -494,6 +622,22 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
+   "id": "se-488253",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-10-30T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Elversberg",
+   "away": "Mainz"
+  },
+  {
    "id": "se-490187",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -528,22 +672,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Virtus Bologna",
    "away": "Beşiktaş"
-  },
-  {
-   "id": "se-488253",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-10-30T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Elversberg",
-   "away": "Mainz"
   },
   {
    "id": "se-493651",

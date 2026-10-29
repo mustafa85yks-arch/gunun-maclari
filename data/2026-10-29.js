@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T18:45:40+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-29T22:22:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-29",
- "generatedAt": "2026-10-29T18:45:40+03:00",
+ "generatedAt": "2026-10-29T22:22:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -665,22 +665,6 @@ GM_REGISTER_DAY({
    "away": "T.Griekspoor"
   },
   {
-   "id": "se-495381",
-   "sport": "tenis",
-   "competition": "ATP Basel",
-   "competitionId": "atp",
-   "kickoff": "2026-10-29T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "N.Djokovic",
-   "away": "J.L.Struff"
-  },
-  {
    "id": "se-495387",
    "sport": "padel",
    "competition": "Premier Padel",
@@ -797,6 +781,22 @@ GM_REGISTER_DAY({
    "away": "Al Kholood"
   },
   {
+   "id": "se-495381",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Djokovic",
+   "away": "J.L.Struff"
+  },
+  {
    "id": "se-490179",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -811,22 +811,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Kizilyildiz",
    "away": "Bayern Münih"
-  },
-  {
-   "id": "se-495382",
-   "sport": "tenis",
-   "competition": "ATP Basel",
-   "competitionId": "atp",
-   "kickoff": "2026-10-29T22:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "B.Shelton",
-   "away": "J.Kym"
   },
   {
    "id": "se-495391",
@@ -876,6 +860,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Maccabi Fox",
    "away": "Paris"
+  },
+  {
+   "id": "se-495382",
+   "sport": "tenis",
+   "competition": "ATP Basel",
+   "competitionId": "atp",
+   "kickoff": "2026-10-29T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Shelton",
+   "away": "J.Kym"
   },
   {
    "id": "se-488337",
