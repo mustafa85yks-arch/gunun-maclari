@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T13:48:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T18:28:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-30T13:48:03+03:00",
+ "generatedAt": "2026-10-30T18:28:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -147,8 +147,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-495525",
    "sport": "futbol",
-   "competition": "Arjantin Primera Division",
-   "competitionId": "arjantin-primera-division",
+   "competition": "Arjantin Primera Division  SahaKirala",
+   "competitionId": "arjantin-primera-division-sahakirala",
    "kickoff": "2026-10-31T03:15:00+03:00",
    "broadcasters": [
     "Spor Smart",
