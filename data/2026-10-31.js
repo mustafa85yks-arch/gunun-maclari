@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T05:09:16+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T13:48:03+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-30T05:09:16+03:00",
+ "generatedAt": "2026-10-30T13:48:03+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -143,6 +143,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Minnesota TW",
    "away": "LA Clippers"
+  },
+  {
+   "id": "se-495525",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-10-31T03:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Racing Club",
+   "away": "Aldosivi"
   },
   {
    "id": "se-486275",
@@ -483,9 +500,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Chelsea",
    "away": "Manchester Utd"
@@ -969,9 +987,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Hull City",
    "away": "Ipswich Town"
@@ -985,9 +1004,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Manchester City",
    "away": "Brighton"
@@ -1151,6 +1171,23 @@ GM_REGISTER_DAY({
    "away": "Roma"
   },
   {
+   "id": "se-495526",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-31T20:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zaragoza",
+   "away": "Basquet Girona"
+  },
+  {
    "id": "se-488259",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -1175,9 +1212,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-3"
   },
@@ -1208,9 +1246,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Tottenham",
    "away": "Crystal Palace"
@@ -1408,9 +1447,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Aston Villa",
    "away": "Fulham"
@@ -1430,6 +1470,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Ajax",
    "away": "AZ Alkmaar"
+  },
+  {
+   "id": "se-495527",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-10-31T23:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Leyma Coruna",
+   "away": "Iberostar Tenerife"
   },
   {
    "id": "se-495269",

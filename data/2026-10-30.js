@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T05:09:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T13:47:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-30",
- "generatedAt": "2026-10-30T05:09:09+03:00",
+ "generatedAt": "2026-10-30T13:47:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -249,6 +249,37 @@ GM_REGISTER_DAY({
    "away": "D.Shnaider"
   },
   {
+   "id": "se-495529",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-10-30T11:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar 57kg"
+  },
+  {
+   "id": "se-495551",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi Kadınlar",
+   "competitionId": "korling-avrupa-sampiyonasi-kadinlar",
+   "kickoff": "2026-10-30T11:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çekya",
+   "away": "Almanya"
+  },
+  {
    "id": "se-495509",
    "sport": "tenis",
    "competition": "WTA Guangzhou Çeyrek Final",
@@ -298,6 +329,55 @@ GM_REGISTER_DAY({
    "away": "H.Shi"
   },
   {
+   "id": "se-495521",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Yarı Final",
+   "competitionId": "premier-padel-kadinlar-yari-final",
+   "kickoff": "2026-10-30T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Prieto/Fallada",
+   "away": "Martin/Fernandez",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-495530",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi Dönüşümlü",
+   "competitionId": "iwf-dunya-halter-sampiyonasi-donusumlu",
+   "kickoff": "2026-10-30T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Rusya"
+  },
+  {
+   "id": "se-495531",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi Dönüşümlü",
+   "competitionId": "dunya-gures-sampiyonasi-donusumlu",
+   "kickoff": "2026-10-30T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kazakistan"
+  },
+  {
    "id": "se-491302",
    "sport": "futbol",
    "competition": "TFF Elit U19 Ligi",
@@ -329,6 +409,22 @@ GM_REGISTER_DAY({
    "away": "Al Ittihad"
   },
   {
+   "id": "se-495534",
+   "sport": "tenis",
+   "competition": "ATP Viyana Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-30T15:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Mannarino",
+   "away": "D.Medvedev"
+  },
+  {
    "id": "se-493975",
    "sport": "tenis",
    "competition": "ATP Basel Çeyrek Final",
@@ -341,7 +437,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "H.Rune",
+   "away": "V.Vacherot"
   },
   {
    "id": "se-495345",
@@ -359,6 +456,57 @@ GM_REGISTER_DAY({
    "title": "Finaller"
   },
   {
+   "id": "se-495522",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Yarı Final",
+   "competitionId": "premier-padel-erkekler-yari-final",
+   "kickoff": "2026-10-30T16:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alonso/Lacabe",
+   "away": "Tello/Simo",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-495552",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi Erkekler",
+   "competitionId": "korling-avrupa-sampiyonasi-erkekler",
+   "kickoff": "2026-10-30T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çekya",
+   "away": "İsveç"
+  },
+  {
+   "id": "se-495535",
+   "sport": "tenis",
+   "competition": "ATP Viyana Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-30T17:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Paul",
+   "away": "C.Alcaraz"
+  },
+  {
    "id": "se-493976",
    "sport": "tenis",
    "competition": "ATP Basel Çeyrek Final",
@@ -371,7 +519,27 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "T.Fritz",
+   "away": "A.Fils"
+  },
+  {
+   "id": "se-495523",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Yarı Final",
+   "competitionId": "premier-padel-kadinlar-yari-final",
+   "kickoff": "2026-10-30T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Sanchez/Santamaria",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-490182",
@@ -424,6 +592,22 @@ GM_REGISTER_DAY({
    "away": "Vakifbank"
   },
   {
+   "id": "se-495532",
+   "sport": "tenis",
+   "competition": "ATP Viyana Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-30T19:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "A.Fery"
+  },
+  {
    "id": "se-488964",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -473,7 +657,27 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "J.L.Struff",
+   "away": "N.Borges"
+  },
+  {
+   "id": "se-495524",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Yarı Final",
+   "competitionId": "premier-padel-erkekler-yari-final",
+   "kickoff": "2026-10-30T20:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Alfonso/Libaak",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-490183",
@@ -494,6 +698,22 @@ GM_REGISTER_DAY({
    "away": "Panathinaikos"
   },
   {
+   "id": "se-495553",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi Kadınlar",
+   "competitionId": "korling-avrupa-sampiyonasi-kadinlar",
+   "kickoff": "2026-10-30T20:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İtalya",
+   "away": "Almanya"
+  },
+  {
    "id": "se-487536",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -502,10 +722,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Le Havre",
    "away": "PSG"
@@ -587,7 +806,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
+   "home": "J.Kym",
+   "away": "J.Lehecka"
   },
   {
    "id": "se-495353",
@@ -604,6 +824,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenix Toulouse",
    "away": "Limoges"
+  },
+  {
+   "id": "se-495533",
+   "sport": "tenis",
+   "competition": "ATP Viyana Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-30T22:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Berrettini",
+   "away": "A.De Minaur"
   },
   {
    "id": "se-490186",
@@ -706,6 +942,21 @@ GM_REGISTER_DAY({
    "away": "Wrexham"
   },
   {
+   "id": "se-495554",
+   "sport": "golf",
+   "competition": "PGA Tur Meksika Açik Golf Turnuvasi",
+   "competitionId": "pga-tur-meksika-acik-golf-turnuvasi",
+   "kickoff": "2026-10-30T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
    "id": "se-487537",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -714,10 +965,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Lille",
    "away": "Lens"
