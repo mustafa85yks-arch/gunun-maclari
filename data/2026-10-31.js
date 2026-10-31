@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T04:47:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T13:17:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-31T04:47:42+03:00",
+ "generatedAt": "2026-10-31T13:17:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -297,6 +297,21 @@ GM_REGISTER_DAY({
    "away": "Cerezo Osaka"
   },
   {
+   "id": "se-495583",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-10-31T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 1"
+  },
+  {
    "id": "se-493971",
    "sport": "motosiklet",
    "competition": "MotoGP Malezya GP",
@@ -347,6 +362,37 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-495596",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi Erkekler",
+   "competitionId": "korling-avrupa-sampiyonasi-erkekler",
+   "kickoff": "2026-10-31T11:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İskoçya",
+   "away": "İtalya"
+  },
+  {
+   "id": "se-495622",
+   "sport": "futbol",
+   "competition": "Plaj Futbolu Dünya Kulüpler Şampiyonasi",
+   "competitionId": "plaj-futbolu-dunya-kulupler-sampiyonasi",
+   "kickoff": "2026-10-31T11:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Finaller"
   },
   {
    "id": "se-495356",
@@ -458,9 +504,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Erzurumspor",
    "away": "Çorum FK",
@@ -476,10 +523,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Vanspor",
    "away": "Sarıyer",
@@ -533,6 +579,51 @@ GM_REGISTER_DAY({
    "home": "Gebze Bld.",
    "away": "İstanbul Gençlik",
    "turkish": true
+  },
+  {
+   "id": "se-495575",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi Dönüşümlü",
+   "competitionId": "iwf-dunya-halter-sampiyonasi-donusumlu",
+   "kickoff": "2026-10-31T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Rusya"
+  },
+  {
+   "id": "se-495576",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi Dönüşümlü",
+   "competitionId": "dunya-gures-sampiyonasi-donusumlu",
+   "kickoff": "2026-10-31T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kazakistan"
+  },
+  {
+   "id": "se-495584",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-10-31T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "1'inci Tur"
   },
   {
    "id": "se-493592",
@@ -660,9 +751,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Kocaelispor",
    "away": "Ç.Rizespor",
@@ -678,10 +770,9 @@ GM_REGISTER_DAY({
     "tabii Spor 6",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Karagümrük",
    "away": "Pendikspor",
@@ -780,6 +871,7 @@ GM_REGISTER_DAY({
    "competitionId": "efeler-ligi",
    "kickoff": "2026-10-31T16:00:00+03:00",
    "broadcasters": [
+    "tabii Spor 5",
     "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
@@ -824,6 +916,21 @@ GM_REGISTER_DAY({
    "away": "Stuttgart II"
   },
   {
+   "id": "se-495597",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi",
+   "competitionId": "korling-avrupa-sampiyonasi",
+   "kickoff": "2026-10-31T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Yarı Final"
+  },
+  {
    "id": "se-490687",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -862,7 +969,7 @@ GM_REGISTER_DAY({
    "competitionId": "efeler-ligi",
    "kickoff": "2026-10-31T16:30:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "FB TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1198,9 +1305,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Fenerbahçe",
    "away": "Göztepe",
@@ -1216,10 +1324,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Manisa FK",
    "away": "Batman Petrol",
@@ -1468,6 +1575,21 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-495585",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi",
+   "competitionId": "korling-avrupa-sampiyonasi",
+   "kickoff": "2026-10-31T20:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Yarı Final"
+  },
+  {
    "id": "se-493986",
    "sport": "futbol",
    "competition": "Hollanda Eredivisie",
@@ -1532,6 +1654,21 @@ GM_REGISTER_DAY({
    "away": "Virtus Entella"
   },
   {
+   "id": "se-495577",
+   "sport": "olimpiyat",
+   "competition": "Yaz Gençlik Olimpiyatlari",
+   "competitionId": "yaz-genclik-olimpiyatlari",
+   "kickoff": "2026-10-31T21:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Açılış Töreni"
+  },
+  {
    "id": "se-494690",
    "sport": "basketbol",
    "competition": "NBA",
@@ -1588,10 +1725,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Troyes",
    "away": "Le Mans"
@@ -1681,6 +1817,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Leyma Coruna",
    "away": "Iberostar Tenerife"
+  },
+  {
+   "id": "se-495598",
+   "sport": "golf",
+   "competition": "PGA Tur Meksika Açik Golf Turnuvasi",
+   "competitionId": "pga-tur-meksika-acik-golf-turnuvasi",
+   "kickoff": "2026-10-31T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
   },
   {
    "id": "se-495269",

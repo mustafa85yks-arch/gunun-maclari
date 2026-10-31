@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T04:47:50+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T13:17:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-03",
- "generatedAt": "2026-10-31T04:47:50+03:00",
+ "generatedAt": "2026-10-31T13:17:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -188,20 +188,20 @@ GM_REGISTER_DAY({
    "away": "Chicago Bears"
   },
   {
-   "id": "se-495420",
+   "id": "se-494710",
    "sport": "basketbol",
-   "competition": "NCAA",
-   "competitionId": "ncaa",
+   "competition": "NBA",
+   "competitionId": "nba",
    "kickoff": "2026-11-03T04:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Prime Video"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Florida State",
-   "away": "Florida A&M University"
+   "home": "Houston Rockets",
+   "away": "Boston Celtics"
   },
   {
    "id": "se-494711",
@@ -220,20 +220,20 @@ GM_REGISTER_DAY({
    "away": "Utah Jazz"
   },
   {
-   "id": "se-494710",
+   "id": "se-495420",
    "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
    "kickoff": "2026-11-03T04:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Houston Rockets",
-   "away": "Boston Celtics"
+   "home": "Florida State",
+   "away": "Florida A&M University"
   },
   {
    "id": "se-494712",
@@ -300,6 +300,21 @@ GM_REGISTER_DAY({
    "away": "Miami Heat"
   },
   {
+   "id": "se-495594",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-11-03T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 3"
+  },
+  {
    "id": "se-493149",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -344,6 +359,21 @@ GM_REGISTER_DAY({
    "home": "İstanbul Gençlik",
    "away": "Gaziantep Gençlik",
    "turkish": true
+  },
+  {
+   "id": "se-495595",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-11-03T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "3'üncü Tur"
   },
   {
    "id": "se-492389",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T04:47:50+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T13:17:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-02",
- "generatedAt": "2026-10-31T04:47:50+03:00",
+ "generatedAt": "2026-10-31T13:17:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -42,6 +42,21 @@ GM_REGISTER_DAY({
    "away": "Brooklyn Nets"
   },
   {
+   "id": "se-495591",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-02T01:15:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Serbest Program"
+  },
+  {
    "id": "se-494699",
    "sport": "basketbol",
    "competition": "NBA",
@@ -72,6 +87,36 @@ GM_REGISTER_DAY({
    ],
    "home": "LA Lakers",
    "away": "Toronto Raptors"
+  },
+  {
+   "id": "se-495592",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-11-02T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 2"
+  },
+  {
+   "id": "se-495593",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-11-02T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "2'nci Tur"
   },
   {
    "id": "se-493594",

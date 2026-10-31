@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T04:47:50+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T13:17:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-01",
- "generatedAt": "2026-10-31T04:47:50+03:00",
+ "generatedAt": "2026-10-31T13:17:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -31,6 +31,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-495586",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-01T00:15:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Kısa Program"
   },
   {
    "id": "se-494691",
@@ -262,6 +277,21 @@ GM_REGISTER_DAY({
    "title": "Malezya GP"
   },
   {
+   "id": "se-495587",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-11-01T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Tur 1"
+  },
+  {
    "id": "se-493974",
    "sport": "motosiklet",
    "competition": "MotoGP",
@@ -308,6 +338,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 3"
+  },
+  {
+   "id": "se-495599",
+   "sport": "körling",
+   "competition": "Körling Avrupa Şampiyonasi",
+   "competitionId": "korling-avrupa-sampiyonasi",
+   "kickoff": "2026-11-01T12:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Final"
   },
   {
    "id": "se-493790",
@@ -547,6 +592,21 @@ GM_REGISTER_DAY({
    "away": "SP Burgos"
   },
   {
+   "id": "se-495588",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona",
+   "competitionId": "snooker-uluslararasi-sampiyona",
+   "kickoff": "2026-11-01T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "1'inci Tur"
+  },
+  {
    "id": "se-493593",
    "sport": "basketbol",
    "competition": "Çin CBA Basketbol Ligi",
@@ -768,10 +828,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Trabzonspor",
    "away": "Gaziantep FK",
@@ -1015,6 +1074,21 @@ GM_REGISTER_DAY({
    "away": "Aus Lustenau"
   },
   {
+   "id": "se-495589",
+   "sport": "atletizm",
+   "competition": "Şehir Maratonu",
+   "competitionId": "sehir-maratonu",
+   "kickoff": "2026-11-01T16:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "New York"
+  },
+  {
    "id": "se-487542",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1228,10 +1302,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Kasımpaşa",
    "away": "Beşiktaş",
@@ -1591,6 +1664,36 @@ GM_REGISTER_DAY({
    ],
    "home": "Athletic Bilbao",
    "away": "Real Sociedad"
+  },
+  {
+   "id": "se-495590",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-01T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Serbest Program"
+  },
+  {
+   "id": "se-495601",
+   "sport": "golf",
+   "competition": "PGA Tur Meksika Açik Golf Turnuvasi",
+   "competitionId": "pga-tur-meksika-acik-golf-turnuvasi",
+   "kickoff": "2026-11-01T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4"
   },
   {
    "id": "se-494697",
