@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T17:56:29+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T21:05:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-02",
- "generatedAt": "2026-10-31T17:56:29+03:00",
+ "generatedAt": "2026-10-31T21:05:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -104,6 +104,21 @@ GM_REGISTER_DAY({
    "title": "Tur 2"
   },
   {
+   "id": "se-493995",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-02T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Paris"
+  },
+  {
    "id": "se-495593",
    "sport": "snooker",
    "competition": "Snooker Uluslararasi Şampiyona",
@@ -153,6 +168,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-488972",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-11-02T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gençlerbirliği",
+   "away": "Alanyaspor",
+   "turkish": true
+  },
+  {
    "id": "se-489821",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -168,23 +200,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Kayserispor",
    "away": "Muğlaspor",
-   "turkish": true
-  },
-  {
-   "id": "se-488972",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-11-02T20:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gençlerbirliği",
-   "away": "Alanyaspor",
    "turkish": true
   },
   {
@@ -309,7 +324,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-02T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -333,21 +349,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Newcastle",
    "away": "Everton"
-  },
-  {
-   "id": "se-493995",
-   "sport": "tenis",
-   "competition": "ATP Paris",
-   "competitionId": "atp",
-   "kickoff": "2026-11-02T23:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Paris"
   },
   {
    "id": "se-495093",
