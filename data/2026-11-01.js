@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T21:57:13+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T03:42:51+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-01",
- "generatedAt": "2026-10-30T21:57:13+03:00",
+ "generatedAt": "2026-10-31T03:42:51+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -47,6 +47,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Charlotte Hornets",
    "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-495573",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-01T01:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Velez Sarsfield",
+   "away": "San Lorenzo"
   },
   {
    "id": "se-494692",
@@ -966,6 +983,38 @@ GM_REGISTER_DAY({
    "away": "Kahramanmaraş İstiklal"
   },
   {
+   "id": "se-495562",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-11-01T16:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Palermo",
+   "away": "Vicenza"
+  },
+  {
+   "id": "se-495564",
+   "sport": "futbol",
+   "competition": "Avusturya Bundesliga",
+   "competitionId": "avusturya-bundesliga",
+   "kickoff": "2026-11-01T16:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Salzburg",
+   "away": "Aus Lustenau"
+  },
+  {
    "id": "se-487542",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1155,6 +1204,22 @@ GM_REGISTER_DAY({
    "away": "Maxima Roma"
   },
   {
+   "id": "se-495558",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-11-01T18:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Grossaspach",
+   "away": "Essen"
+  },
+  {
    "id": "se-488971",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -1226,6 +1291,22 @@ GM_REGISTER_DAY({
    ],
    "home": "PSG",
    "away": "Montpellier"
+  },
+  {
+   "id": "se-495565",
+   "sport": "futbol",
+   "competition": "Avusturya Bundesliga",
+   "competitionId": "avusturya-bundesliga",
+   "kickoff": "2026-11-01T19:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Austria Vienna",
+   "away": "Rapid Wien"
   },
   {
    "id": "se-487540",
@@ -1393,6 +1474,39 @@ GM_REGISTER_DAY({
    ],
    "home": "Unicaja Malaga",
    "away": "Barcelona"
+  },
+  {
+   "id": "se-495574",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-01T21:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boca Juniors",
+   "away": "River Plate"
+  },
+  {
+   "id": "se-495559",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-11-01T21:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aachen",
+   "away": "Preussen Münster"
   },
   {
    "id": "se-493993",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-30T21:57:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T03:42:41+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-30T21:57:04+03:00",
+ "generatedAt": "2026-10-31T03:42:41+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -147,8 +147,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-495525",
    "sport": "futbol",
-   "competition": "Arjantin Primera Division  SahaKirala",
-   "competitionId": "arjantin-primera-division-sahakirala",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
    "kickoff": "2026-10-31T03:15:00+03:00",
    "broadcasters": [
     "Spor Smart",
@@ -209,6 +209,44 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Serbest Antrenman 2 ve Sıralama Turları"
+  },
+  {
+   "id": "se-495566",
+   "sport": "tenis",
+   "competition": "WTA Tokyo Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-31T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Fernandez",
+   "away": "K.Rakhimova",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-495567",
+   "sport": "tenis",
+   "competition": "WTA Tokyo Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-31T07:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Shnaider",
+   "away": "M.Pohankova",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-495360",
@@ -292,6 +330,25 @@ GM_REGISTER_DAY({
    "away": "Halkbank"
   },
   {
+   "id": "se-495568",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-31T11:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "X.Sun",
+   "away": "H.Dart",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-495356",
    "sport": "motor sporları",
    "competition": "FIA Formula 4",
@@ -305,6 +362,25 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 1"
+  },
+  {
+   "id": "se-495569",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-10-31T12:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Quevedo",
+   "away": "L.Tagger",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-492388",
@@ -335,7 +411,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "HALKBANK",
+   "home": "Halkbank",
    "away": "Onikişubat Belediyespor",
    "turkish": true
   },
@@ -734,6 +810,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-495556",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-10-31T16:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Duisburg",
+   "away": "Stuttgart II"
+  },
+  {
    "id": "se-490687",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -828,7 +920,43 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "home": "V.Vacherot",
+   "away": "T.Fritz",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-495560",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-10-31T17:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cremonese",
+   "away": "Benevento"
+  },
+  {
+   "id": "se-495571",
+   "sport": "tenis",
+   "competition": "ATP Viyana Yarı Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-31T17:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Medvedev",
+   "away": "C.Alcaraz",
    "tags": [
     "yari-final"
    ]
@@ -1048,6 +1176,22 @@ GM_REGISTER_DAY({
    "away": "Celta Vigo"
   },
   {
+   "id": "se-495557",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-10-31T18:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fortuna Köln",
+   "away": "Wurzburger Kickers"
+  },
+  {
    "id": "se-488967",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -1113,7 +1257,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 2",
+   "home": "J.Lehecka",
+   "away": "J.L.Struff",
    "tags": [
     "yari-final"
    ]
@@ -1153,6 +1298,25 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-495572",
+   "sport": "tenis",
+   "competition": "ATP Viyana Yarı Final",
+   "competitionId": "atp",
+   "kickoff": "2026-10-31T19:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "A.De Minaur",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-488339",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -1169,6 +1333,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Udinese",
    "away": "Roma"
+  },
+  {
+   "id": "se-493987",
+   "sport": "dövüş sporları",
+   "competition": "MMA Kafes Dövüşü",
+   "competitionId": "mma-kafes-dovusu",
+   "kickoff": "2026-10-31T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Gogoladze",
+   "away": "J.Ayari"
   },
   {
    "id": "se-495526",
@@ -1339,20 +1519,20 @@ GM_REGISTER_DAY({
    "away": "Al Fateh"
   },
   {
-   "id": "se-493987",
-   "sport": "dövüş sporları",
-   "competition": "MMA Kafes Dövüşü",
-   "competitionId": "mma-kafes-dovusu",
-   "kickoff": "2026-10-31T22:00:00+03:00",
+   "id": "se-495561",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-10-31T21:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Sıfır TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "A.Gogoladze",
-   "away": "F.Klinkhammer"
+   "home": "Sampdoria",
+   "away": "Virtus Entella"
   },
   {
    "id": "se-494690",
@@ -1387,6 +1567,22 @@ GM_REGISTER_DAY({
    "away": "St. Etienne"
   },
   {
+   "id": "se-495570",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-10-31T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Florida Gators",
+   "away": "Georgia Bulldogs"
+  },
+  {
    "id": "se-487541",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1395,9 +1591,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Troyes",
    "away": "Le Mans"
