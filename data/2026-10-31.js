@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T13:17:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T17:56:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-10-31",
- "generatedAt": "2026-10-31T13:17:17+03:00",
+ "generatedAt": "2026-10-31T17:56:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -523,9 +523,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Vanspor",
    "away": "Sarıyer",
@@ -770,9 +771,10 @@ GM_REGISTER_DAY({
     "tabii Spor 6",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Karagümrük",
    "away": "Pendikspor",
@@ -1324,9 +1326,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Manisa FK",
    "away": "Batman Petrol",
@@ -1725,9 +1728,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Troyes",
    "away": "Le Mans"
