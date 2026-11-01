@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T18:39:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T21:41:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-02",
- "generatedAt": "2026-11-01T18:39:03+03:00",
+ "generatedAt": "2026-11-01T21:41:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -269,20 +269,20 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
-   "id": "se-487539",
+   "id": "se-495352",
    "sport": "futbol",
-   "competition": "Fransa Ligue 1",
-   "competitionId": "ligue-1",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
    "kickoff": "2026-11-02T22:45:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 2"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Lorient",
-   "away": "Brest"
+   "home": "Reims",
+   "away": "Sochaux"
   },
   {
    "id": "se-488347",
@@ -302,20 +302,20 @@ GM_REGISTER_DAY({
    "away": "Parma"
   },
   {
-   "id": "se-495352",
+   "id": "se-487539",
    "sport": "futbol",
-   "competition": "Fransa Ligue 2",
-   "competitionId": "fransa-ligue-2",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
    "kickoff": "2026-11-02T22:45:00+03:00",
    "broadcasters": [
-    "beIN SPORTS MAX 1"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Reims",
-   "away": "Sochaux"
+   "home": "Lorient",
+   "away": "Brest"
   },
   {
    "id": "se-493660",

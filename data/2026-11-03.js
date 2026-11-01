@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T18:39:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T21:41:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-03",
- "generatedAt": "2026-11-01T18:39:03+03:00",
+ "generatedAt": "2026-11-01T21:41:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -93,22 +93,6 @@ GM_REGISTER_DAY({
    "away": "Washington Wizards"
   },
   {
-   "id": "se-494704",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-03T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "New York Knicks",
-   "away": "Brooklyn Nets"
-  },
-  {
    "id": "se-494703",
    "sport": "basketbol",
    "competition": "NBA",
@@ -123,6 +107,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Indiana Pacers",
    "away": "Atlanta Hawks"
+  },
+  {
+   "id": "se-494704",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-03T03:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "New York Knicks",
+   "away": "Brooklyn Nets"
   },
   {
    "id": "se-494707",
@@ -380,22 +380,6 @@ GM_REGISTER_DAY({
    "title": "3'üncü Tur"
   },
   {
-   "id": "se-492389",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
-   "kickoff": "2026-11-03T16:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Halkbank",
-   "away": "Kastamonu Yurdum Gençlik Spor"
-  },
-  {
    "id": "se-493142",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -410,6 +394,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Manchester Utd",
    "away": "Roma"
+  },
+  {
+   "id": "se-492389",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-11-03T16:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Halkbank",
+   "away": "Kastamonu Yurdum Gençlik Spor"
   },
   {
    "id": "se-493143",
