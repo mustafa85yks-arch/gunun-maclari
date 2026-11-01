@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T21:05:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T03:02:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-01",
- "generatedAt": "2026-10-31T21:05:33+03:00",
+ "generatedAt": "2026-11-01T03:02:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -228,6 +228,25 @@ GM_REGISTER_DAY({
    "away": "T.Nolan"
   },
   {
+   "id": "se-495782",
+   "sport": "tenis",
+   "competition": "WTA Tokyo Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-01T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Fernandez",
+   "away": "D.Shnaider",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-493972",
    "sport": "motosiklet",
    "competition": "Moto3",
@@ -338,6 +357,25 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 3"
+  },
+  {
+   "id": "se-495781",
+   "sport": "tenis",
+   "competition": "WTA Guangzhou Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-01T11:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Tagger",
+   "away": "H.Dart",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-495599",
@@ -581,8 +619,8 @@ GM_REGISTER_DAY({
    "competitionId": "ispanya-basketbol-ligi",
    "kickoff": "2026-11-01T14:30:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -880,6 +918,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-01T16:00:00+03:00",
    "broadcasters": [
+    "tabii Spor 6",
     "TRT Kurdi",
     "beIN SPORTS MAX 2"
    ],
@@ -966,7 +1005,7 @@ GM_REGISTER_DAY({
    "competitionId": "sultanlar-ligi",
    "kickoff": "2026-11-01T16:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -990,7 +1029,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "THY",
-   "away": "İLBANK",
+   "away": "İlbank",
    "turkish": true
   },
   {
@@ -1025,6 +1064,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Falkirk",
    "away": "Celtic"
+  },
+  {
+   "id": "se-495780",
+   "sport": "tenis",
+   "competition": "ATP Viyana Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-01T16:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.De Minaur",
+   "away": "C.Alcaraz",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-490691",
@@ -1185,7 +1243,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "J.Lehecka",
+   "away": "V.Vacherot",
    "tags": [
     "final"
    ]
@@ -1442,10 +1501,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Liverpool",
    "away": "Arsenal"
@@ -1540,8 +1598,8 @@ GM_REGISTER_DAY({
    "competitionId": "ispanya-basketbol-ligi",
    "kickoff": "2026-11-01T21:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1607,10 +1665,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Marsilya",
    "away": "Toulouse"

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T21:05:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T03:02:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-10-31T21:05:33+03:00",
+ "generatedAt": "2026-11-01T03:02:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -147,13 +147,47 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-06T19:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "title": "Antrenman"
+  },
+  {
+   "id": "se-493856",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-06T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beşiktaş",
+   "away": "Zalgiris Kaunas"
+  },
+  {
+   "id": "se-489823",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-06T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sarıyer",
+   "away": "Iğdırspor",
+   "turkish": true
   },
   {
    "id": "se-488973",
@@ -189,41 +223,6 @@ GM_REGISTER_DAY({
    "home": "Antalyaspor",
    "away": "Bursaspor",
    "turkish": true
-  },
-  {
-   "id": "se-489823",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-11-06T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sarıyer",
-   "away": "Iğdırspor",
-   "turkish": true
-  },
-  {
-   "id": "se-493856",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-06T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Beşiktaş",
-   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-494363",
@@ -279,7 +278,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-06T22:15:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -295,8 +294,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-06T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -328,8 +326,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-06T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -361,8 +358,7 @@ GM_REGISTER_DAY({
    "competitionId": "serie-a",
    "kickoff": "2026-11-06T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [

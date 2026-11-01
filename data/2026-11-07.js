@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T21:05:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T03:02:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-10-31T21:05:33+03:00",
+ "generatedAt": "2026-11-01T03:02:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -170,7 +170,7 @@ GM_REGISTER_DAY({
    "away": "D.Johnson"
   },
   {
-   "id": "se-494739",
+   "id": "se-494740",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -182,8 +182,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "LA Lakers",
-   "away": "Portland TB"
+   "home": "Sacramento Kings",
+   "away": "SA Spurs"
   },
   {
    "id": "se-495467",
@@ -202,7 +202,7 @@ GM_REGISTER_DAY({
    "away": "G.Mammadov"
   },
   {
-   "id": "se-494740",
+   "id": "se-494739",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -214,8 +214,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Sacramento Kings",
-   "away": "SA Spurs"
+   "home": "LA Lakers",
+   "away": "Portland TB"
   },
   {
    "id": "se-486277",
@@ -424,7 +424,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-07T14:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -573,7 +573,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-07T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -651,23 +652,6 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
-  },
-  {
-   "id": "se-494418",
-   "sport": "futbol",
-   "competition": "İtalya Serie A",
-   "competitionId": "serie-a",
-   "kickoff": "2026-11-07T17:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Cagliari",
-   "away": "Frosinone"
   },
   {
    "id": "se-494419",
@@ -772,8 +756,7 @@ GM_REGISTER_DAY({
    "competitionId": "moto2-katar-gp",
    "kickoff": "2026-11-07T17:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -853,7 +836,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-07T18:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -861,40 +845,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Espanyol",
    "away": "Deportivo"
-  },
-  {
-   "id": "se-489827",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-11-07T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Pendikspor",
-   "away": "İstanbulspor",
-   "turkish": true
-  },
-  {
-   "id": "se-495450",
-   "sport": "boks",
-   "competition": "Zuffa Boxing",
-   "competitionId": "zuffa-boxing",
-   "kickoff": "2026-11-07T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "C.Smith",
-   "away": "C.Clarke"
   },
   {
    "id": "se-495445",
@@ -915,6 +865,22 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-495450",
+   "sport": "boks",
+   "competition": "Zuffa Boxing",
+   "competitionId": "zuffa-boxing",
+   "kickoff": "2026-11-07T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Smith",
+   "away": "C.Clarke"
+  },
+  {
    "id": "se-495436",
    "sport": "motosiklet",
    "competition": "MotoGP Katar GP",
@@ -922,13 +888,31 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-07T19:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "title": "Sprint Yarışları"
+  },
+  {
+   "id": "se-489827",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-07T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pendikspor",
+   "away": "İstanbulspor",
+   "turkish": true
   },
   {
    "id": "se-488977",
@@ -1134,7 +1118,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-07T20:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1230,7 +1215,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-07T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1254,6 +1240,22 @@ GM_REGISTER_DAY({
    ],
    "home": "St.Mirren",
    "away": "Glasgow Rangers"
+  },
+  {
+   "id": "se-495744",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-07T23:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LSU",
+   "away": "Alabama"
   }
  ]
 });

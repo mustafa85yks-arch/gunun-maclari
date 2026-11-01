@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-10-31T21:05:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T03:02:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-10-31T21:05:33+03:00",
+ "generatedAt": "2026-11-01T03:02:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,22 +9,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-494717",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-05T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Washington Wizards",
-   "away": "Atlanta Hawks"
-  },
   {
    "id": "se-494716",
    "sport": "basketbol",
@@ -44,6 +28,22 @@ GM_REGISTER_DAY({
    "away": "Philadelphia 76ers"
   },
   {
+   "id": "se-494717",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-05T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Washington Wizards",
+   "away": "Atlanta Hawks"
+  },
+  {
    "id": "se-494718",
    "sport": "basketbol",
    "competition": "NBA",
@@ -60,22 +60,6 @@ GM_REGISTER_DAY({
    "away": "Milwaukee Bucks"
   },
   {
-   "id": "se-494719",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-05T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Brooklyn Nets",
-   "away": "Charlotte Hornets"
-  },
-  {
    "id": "se-494720",
    "sport": "basketbol",
    "competition": "NBA",
@@ -90,6 +74,22 @@ GM_REGISTER_DAY({
    ],
    "home": "New York Knicks",
    "away": "Chicago Bulls"
+  },
+  {
+   "id": "se-494719",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-05T03:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brooklyn Nets",
+   "away": "Charlotte Hornets"
   },
   {
    "id": "se-494721",
@@ -294,7 +294,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-05T20:15:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -487,8 +487,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-05T21:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -504,8 +503,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-05T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -522,7 +520,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-05T22:30:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -530,6 +528,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Olimpia Milano",
    "away": "Valencia Basket"
+  },
+  {
+   "id": "se-495649",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-11-05T23:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Iberostar Tenerife",
+   "away": "Cluj Napoca"
+  },
+  {
+   "id": "se-491820",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-05T23:00:00+03:00",
+   "broadcasters": [
+    "TRT 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Celtic",
+   "away": "Beşiktaş"
   },
   {
    "id": "se-491825",
@@ -610,22 +640,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Hapoel Beer Sheva",
    "away": "OFI Crete"
-  },
-  {
-   "id": "se-491820",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T23:00:00+03:00",
-   "broadcasters": [
-    "TRT 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Celtic",
-   "away": "Beşiktaş"
   },
   {
    "id": "se-491819",
