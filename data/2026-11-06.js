@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T04:28:13+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T14:10:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-01T04:28:13+03:00",
+ "generatedAt": "2026-11-01T14:10:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -156,40 +156,6 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
-   "id": "se-493856",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-06T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Beşiktaş",
-   "away": "Zalgiris Kaunas"
-  },
-  {
-   "id": "se-489823",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-11-06T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sarıyer",
-   "away": "Iğdırspor",
-   "turkish": true
-  },
-  {
    "id": "se-488973",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -223,6 +189,40 @@ GM_REGISTER_DAY({
    "home": "Antalyaspor",
    "away": "Bursaspor",
    "turkish": true
+  },
+  {
+   "id": "se-489823",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-06T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sarıyer",
+   "away": "Iğdırspor",
+   "turkish": true
+  },
+  {
+   "id": "se-493856",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-06T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beşiktaş",
+   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-494363",

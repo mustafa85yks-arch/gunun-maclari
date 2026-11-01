@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T04:28:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T14:10:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-01",
- "generatedAt": "2026-11-01T04:28:12+03:00",
+ "generatedAt": "2026-11-01T14:10:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -393,6 +393,23 @@ GM_REGISTER_DAY({
    "title": "Kadınlar Final"
   },
   {
+   "id": "se-495787",
+   "sport": "basketbol",
+   "competition": "Tekerlekli Sandalye Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-11-01T12:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe İstanbul Jet",
+   "away": "Bağcılar Bld.",
+   "turkish": true
+  },
+  {
    "id": "se-493790",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -544,6 +561,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496038",
+   "sport": "futbol",
+   "competition": "Plaj Futbolu Dünya Kulüpler Şampiyonasi",
+   "competitionId": "plaj-futbolu-dunya-kulupler-sampiyonasi",
+   "kickoff": "2026-11-01T13:15:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Alanya"
+  },
+  {
    "id": "se-488968",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -578,6 +610,21 @@ GM_REGISTER_DAY({
    "home": "Sivasspor",
    "away": "Boluspor",
    "turkish": true
+  },
+  {
+   "id": "se-495785",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-01T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar 61kg"
   },
   {
    "id": "se-495359",
@@ -755,6 +802,25 @@ GM_REGISTER_DAY({
    "home": "Kasımpaşa",
    "away": "Beşiktaş",
    "turkish": true
+  },
+  {
+   "id": "se-495780",
+   "sport": "tenis",
+   "competition": "ATP Viyana Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-01T15:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.De Minaur",
+   "away": "C.Alcaraz",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-488297",
@@ -1066,23 +1132,19 @@ GM_REGISTER_DAY({
    "away": "Celtic"
   },
   {
-   "id": "se-495780",
-   "sport": "tenis",
-   "competition": "ATP Viyana Final",
-   "competitionId": "atp",
+   "id": "se-495786",
+   "sport": "güreş",
+   "competition": "Dünya Güreş Şampiyonasi",
+   "competitionId": "dunya-gures-sampiyonasi",
    "kickoff": "2026-11-01T16:00:00+03:00",
    "broadcasters": [
-    "tabii Spor 7"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "A.De Minaur",
-   "away": "C.Alcaraz",
-   "tags": [
-    "final"
-   ]
+   "title": "Finaller"
   },
   {
    "id": "se-490691",
@@ -1441,6 +1503,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Austria Vienna",
    "away": "Rapid Wien"
+  },
+  {
+   "id": "se-496039",
+   "sport": "futbol",
+   "competition": "Plaj Futbolu Dünya Kulüpler Şampiyonasi",
+   "competitionId": "plaj-futbolu-dunya-kulupler-sampiyonasi",
+   "kickoff": "2026-11-01T19:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Final"
   },
   {
    "id": "se-487540",

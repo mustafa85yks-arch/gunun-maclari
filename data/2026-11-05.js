@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T04:28:12+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T14:10:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-11-01T04:28:12+03:00",
+ "generatedAt": "2026-11-01T14:10:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -60,22 +60,6 @@ GM_REGISTER_DAY({
    "away": "Milwaukee Bucks"
   },
   {
-   "id": "se-494720",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-05T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "New York Knicks",
-   "away": "Chicago Bulls"
-  },
-  {
    "id": "se-494719",
    "sport": "basketbol",
    "competition": "NBA",
@@ -90,6 +74,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Brooklyn Nets",
    "away": "Charlotte Hornets"
+  },
+  {
+   "id": "se-494720",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-05T03:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "New York Knicks",
+   "away": "Chicago Bulls"
   },
   {
    "id": "se-494721",
@@ -320,6 +320,38 @@ GM_REGISTER_DAY({
    "away": "Freiburg"
   },
   {
+   "id": "se-491812",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-05T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lilleström",
+   "away": "Viktoria Plzen"
+  },
+  {
+   "id": "se-491816",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-05T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sparta Prag",
+   "away": "Bournemouth"
+  },
+  {
    "id": "se-491815",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
@@ -366,22 +398,6 @@ GM_REGISTER_DAY({
    ],
    "home": "NEC Nijmegen",
    "away": "Omonia"
-  },
-  {
-   "id": "se-491812",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lilleström",
-   "away": "Viktoria Plzen"
   },
   {
    "id": "se-491811",
@@ -446,22 +462,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Milan",
    "away": "Ferencvaros"
-  },
-  {
-   "id": "se-491816",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sparta Prag",
-   "away": "Bournemouth"
   },
   {
    "id": "se-493852",
