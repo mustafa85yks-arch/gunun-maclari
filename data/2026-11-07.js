@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T21:41:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T03:36:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-01T21:41:54+03:00",
+ "generatedAt": "2026-11-02T03:36:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -42,22 +42,6 @@ GM_REGISTER_DAY({
    "away": "Washington Wizards"
   },
   {
-   "id": "se-486276",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-07T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Cleveland Cavaliers",
-   "away": "Philadelphia 76ers"
-  },
-  {
    "id": "se-494734",
    "sport": "basketbol",
    "competition": "NBA",
@@ -74,11 +58,11 @@ GM_REGISTER_DAY({
    "away": "Philadelphia 76ers"
   },
   {
-   "id": "se-494735",
+   "id": "se-486276",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
-   "kickoff": "2026-11-07T04:00:00+03:00",
+   "kickoff": "2026-11-07T03:30:00+03:00",
    "broadcasters": [
     "Prime Video"
    ],
@@ -86,8 +70,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dallas Mavericks",
-   "away": "Utah Jazz"
+   "home": "Cleveland Cavaliers",
+   "away": "Philadelphia 76ers"
   },
   {
    "id": "se-494736",
@@ -138,6 +122,22 @@ GM_REGISTER_DAY({
    "away": "Minnesota TW"
   },
   {
+   "id": "se-494735",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-07T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dallas Mavericks",
+   "away": "Utah Jazz"
+  },
+  {
    "id": "se-495465",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
@@ -170,23 +170,7 @@ GM_REGISTER_DAY({
    "away": "D.Johnson"
   },
   {
-   "id": "se-495467",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
-   "kickoff": "2026-11-07T06:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "B.Shumarov",
-   "away": "G.Mammadov"
-  },
-  {
-   "id": "se-494740",
+   "id": "se-486277",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -198,8 +182,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Sacramento Kings",
-   "away": "SA Spurs"
+   "home": "LA Lakers",
+   "away": "Portland TB"
   },
   {
    "id": "se-494739",
@@ -218,7 +202,7 @@ GM_REGISTER_DAY({
    "away": "Portland TB"
   },
   {
-   "id": "se-486277",
+   "id": "se-494740",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -230,8 +214,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "LA Lakers",
-   "away": "Portland TB"
+   "home": "Sacramento Kings",
+   "away": "SA Spurs"
+  },
+  {
+   "id": "se-495467",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-11-07T06:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Shumarov",
+   "away": "G.Mammadov"
   },
   {
    "id": "se-495468",
@@ -347,24 +347,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489824",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-11-07T13:30:00+03:00",
-   "broadcasters": [
-    "TRT Spor",
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Keçiörengücü",
-   "away": "Manisa FK",
-   "turkish": true
-  },
-  {
    "id": "se-489825",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -397,6 +379,24 @@ GM_REGISTER_DAY({
    ],
    "home": "Eyüpspor",
    "away": "Kocaelispor",
+   "turkish": true
+  },
+  {
+   "id": "se-489824",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-07T13:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Keçiörengücü",
+   "away": "Manisa FK",
    "turkish": true
   },
   {
@@ -1063,20 +1063,37 @@ GM_REGISTER_DAY({
    "away": "M.Holzer"
   },
   {
-   "id": "se-494341",
+   "id": "se-493664",
    "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
    "kickoff": "2026-11-07T20:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Stuttgart",
-   "away": "Werder Bremen"
+   "home": "Osasuna",
+   "away": "Athletic Bilbao"
+  },
+  {
+   "id": "se-493685",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-11-07T20:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nottingham Forest",
+   "away": "Manchester City"
   },
   {
    "id": "se-493798",
@@ -1096,37 +1113,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493685",
+   "id": "se-494341",
    "sport": "futbol",
-   "competition": "İngiltere Premier Lig",
-   "competitionId": "premier-league",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
    "kickoff": "2026-11-07T20:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Nottingham Forest",
-   "away": "Manchester City"
-  },
-  {
-   "id": "se-493664",
-   "sport": "futbol",
-   "competition": "İspanya La Liga",
-   "competitionId": "la-liga",
-   "kickoff": "2026-11-07T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Osasuna",
-   "away": "Athletic Bilbao"
+   "home": "Stuttgart",
+   "away": "Werder Bremen"
   },
   {
    "id": "se-493307",
@@ -1174,6 +1174,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hertha Berlin",
    "away": "Wolfsburg"
+  },
+  {
+   "id": "se-496080",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-11-07T22:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Asvel Villeurbanne",
+   "away": "Pau Orthez"
   },
   {
    "id": "se-494392",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T21:41:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T03:36:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-01T21:41:54+03:00",
+ "generatedAt": "2026-11-02T03:36:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -914,6 +914,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496081",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-11-08T18:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paris",
+   "away": "JL Bourg"
+  },
+  {
    "id": "se-495457",
    "sport": "futbol",
    "competition": "Hollanda Eredivisie",
@@ -1011,6 +1027,38 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Katar GP"
+  },
+  {
+   "id": "se-496082",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-11-08T19:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sydney Kings",
+   "away": "Melbourne Phoenix"
+  },
+  {
+   "id": "se-496083",
+   "sport": "basketbol",
+   "competition": "İtalya Basketbol Ligi",
+   "competitionId": "italya-basketbol-ligi",
+   "kickoff": "2026-11-08T19:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Olimpia Milano",
+   "away": "Energia Trento"
   },
   {
    "id": "se-494394",

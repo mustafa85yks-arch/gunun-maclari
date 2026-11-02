@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T21:41:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T03:36:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-01T21:41:54+03:00",
+ "generatedAt": "2026-11-02T03:36:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -42,6 +42,22 @@ GM_REGISTER_DAY({
    ],
    "home": "GS Warriors",
    "away": "Miami Heat"
+  },
+  {
+   "id": "se-496079",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-11-06T11:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tasmania JackJumpers",
+   "away": "NZ Breakers"
   },
   {
    "id": "se-495432",

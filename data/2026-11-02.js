@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T21:41:53+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T03:36:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-02",
- "generatedAt": "2026-11-01T21:41:53+03:00",
+ "generatedAt": "2026-11-02T03:36:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-11-02"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -116,7 +124,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Paris"
+   "home": "L.Musetti",
+   "away": "H.Hurkacz"
   },
   {
    "id": "se-495593",
@@ -150,6 +159,38 @@ GM_REGISTER_DAY({
    "away": "Qingdao"
   },
   {
+   "id": "se-496074",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-02T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Tabilo",
+   "away": "R.Jodar"
+  },
+  {
+   "id": "se-496075",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-02T17:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Ruud",
+   "away": "J.Cerundolo"
+  },
+  {
    "id": "se-493793",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -159,29 +200,13 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Petkimspor",
    "away": "Anadolu Efes",
-   "turkish": true
-  },
-  {
-   "id": "se-488972",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-11-02T20:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gençlerbirliği",
-   "away": "Alanyaspor",
    "turkish": true
   },
   {
@@ -194,12 +219,31 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Kayserispor",
    "away": "Muğlaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-488972",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
+   "kickoff": "2026-11-02T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 1"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Gençlerbirliği",
+   "away": "Alanyaspor",
    "turkish": true
   },
   {
@@ -235,6 +279,22 @@ GM_REGISTER_DAY({
    "home": "Beşiktaş",
    "away": "Çayırova Bld.",
    "turkish": true
+  },
+  {
+   "id": "se-496076",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-02T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Shapovalov",
+   "away": "K.Khachanov"
   },
   {
    "id": "se-494141",
@@ -310,9 +370,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lorient",
    "away": "Brest"
@@ -343,9 +404,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Newcastle",
    "away": "Everton"
@@ -365,6 +427,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Mallorca",
    "away": "Cadiz"
+  },
+  {
+   "id": "se-496077",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-02T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "U.Humbert",
+   "away": "B.Van de Zandschulp"
   },
   {
    "id": "se-495270",

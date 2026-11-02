@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-01T21:41:53+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T03:36:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-03",
- "generatedAt": "2026-11-01T21:41:53+03:00",
+ "generatedAt": "2026-11-02T03:36:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -666,6 +666,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Strasbourg",
    "away": "BC Cibona"
+  },
+  {
+   "id": "se-496078",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-11-03T22:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Basket Napoli",
+   "away": "Energia Trento"
   },
   {
    "id": "se-494657",
