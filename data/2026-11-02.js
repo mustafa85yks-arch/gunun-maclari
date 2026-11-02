@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T22:00:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-02",
- "generatedAt": "2026-11-02T15:12:19+03:00",
+ "generatedAt": "2026-11-02T22:00:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -149,7 +149,8 @@ GM_REGISTER_DAY({
    "competitionId": "tenis-fip-dunya-kupasi",
    "kickoff": "2026-11-02T14:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN CONNECT",
+    "Red Bull TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -206,6 +207,23 @@ GM_REGISTER_DAY({
    "away": "R.Jodar"
   },
   {
+   "id": "se-496190",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-02T16:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pakhtakor",
+   "away": "Al Nassr Riyadh"
+  },
+  {
    "id": "se-496075",
    "sport": "tenis",
    "competition": "ATP Paris",
@@ -247,7 +265,8 @@ GM_REGISTER_DAY({
    "competitionId": "tenis-fip-dunya-kupasi",
    "kickoff": "2026-11-02T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN CONNECT",
+    "Red Bull TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -255,6 +274,54 @@ GM_REGISTER_DAY({
    ],
    "home": "Portekiz",
    "away": "Katar"
+  },
+  {
+   "id": "se-496191",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-02T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Sadd",
+   "away": "Al Ahli"
+  },
+  {
+   "id": "se-496192",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-02T19:00:00+03:00",
+   "broadcasters": [],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Wasl",
+   "away": "Al Quwa Al Jawiya"
+  },
+  {
+   "id": "se-496193",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-02T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tractor Sazi",
+   "away": "Neftchi Fargona"
   },
   {
    "id": "se-488972",
@@ -303,9 +370,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Sassuolo",
    "away": "Fiorentina"
@@ -360,6 +428,37 @@ GM_REGISTER_DAY({
    "away": "K.Khachanov"
   },
   {
+   "id": "se-496194",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-02T21:15:00+03:00",
+   "broadcasters": [],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Gharafa",
+   "away": "Al Qadsiah"
+  },
+  {
+   "id": "se-496195",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-02T21:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ittihad",
+   "away": "Al Ain"
+  },
+  {
    "id": "se-493598",
    "sport": "basketbol",
    "competition": "İtalya Basketbol Ligi",
@@ -402,9 +501,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Atalanta",
    "away": "Parma"
@@ -435,9 +535,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Deportivo",
    "away": "Osasuna"

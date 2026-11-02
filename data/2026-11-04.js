@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T22:00:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-04",
- "generatedAt": "2026-11-02T15:12:19+03:00",
+ "generatedAt": "2026-11-02T22:00:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-11-04"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -728,9 +736,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Madrid",
    "away": "Panathinaikos"
@@ -742,7 +751,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -758,7 +767,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -774,7 +783,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -790,7 +799,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -822,7 +831,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -838,7 +847,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor",
+    "tabii Spor 6",
     "İçtimai TV"
    ],
    "verification": "tek_kaynak",

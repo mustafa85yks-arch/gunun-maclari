@@ -1,14 +1,39 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:19+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T22:00:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-03",
- "generatedAt": "2026-11-02T15:12:19+03:00",
+ "generatedAt": "2026-11-02T22:00:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-11-03"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
+  {
+   "id": "se-496196",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-03T01:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Defensa",
+   "away": "Independiente Rivadavia"
+  },
   {
    "id": "se-495419",
    "sport": "basketbol",
@@ -19,12 +44,30 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Florida Gators",
+   "away": "Miami"
+  },
+  {
+   "id": "se-496197",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-03T02:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Florida Gators",
-   "away": "Miami"
+   "home": "Bragantino",
+   "away": "Santos"
   },
   {
    "id": "se-494701",
@@ -37,9 +80,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Cleveland Cavaliers",
    "away": "OKC Thunder"
@@ -59,38 +103,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Charlotte Hornets",
    "away": "Detroit Pistons"
-  },
-  {
-   "id": "se-494706",
-   "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
-   "competitionId": "nba",
-   "kickoff": "2026-11-03T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Philadelphia 76ers",
-   "away": "Chicago Bulls"
-  },
-  {
-   "id": "se-494705",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-03T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Orlando Magic",
-   "away": "Washington Wizards"
   },
   {
    "id": "se-494703",
@@ -125,9 +137,41 @@ GM_REGISTER_DAY({
    "away": "Brooklyn Nets"
   },
   {
+   "id": "se-494705",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-03T03:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Orlando Magic",
+   "away": "Washington Wizards"
+  },
+  {
+   "id": "se-494706",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-03T03:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Philadelphia 76ers",
+   "away": "Chicago Bulls"
+  },
+  {
    "id": "se-494707",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-03T04:00:00+03:00",
    "broadcasters": [
@@ -191,7 +235,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494710",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-03T04:30:00+03:00",
    "broadcasters": [
@@ -230,9 +274,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Florida State",
    "away": "Florida A&M University"
@@ -270,22 +315,6 @@ GM_REGISTER_DAY({
    "away": "Phoenix Suns"
   },
   {
-   "id": "se-494715",
-   "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
-   "competitionId": "nba",
-   "kickoff": "2026-11-03T06:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "LA Lakers",
-   "away": "Miami Heat"
-  },
-  {
    "id": "se-494714",
    "sport": "basketbol",
    "competition": "NBA",
@@ -302,6 +331,22 @@ GM_REGISTER_DAY({
    "away": "Toronto Raptors"
   },
   {
+   "id": "se-494715",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-03T06:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Lakers",
+   "away": "Miami Heat"
+  },
+  {
    "id": "se-495594",
    "sport": "snooker",
    "competition": "Snooker Uluslararasi Şampiyona",
@@ -315,6 +360,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Tur 3"
+  },
+  {
+   "id": "se-496180",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-03T09:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Yastremska",
+   "away": "Zeynep Sönmez"
   },
   {
    "id": "se-495425",
@@ -524,22 +585,6 @@ GM_REGISTER_DAY({
    "away": "Antwerp Giants"
   },
   {
-   "id": "se-491470",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-03T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Shakhtar Donetsk",
-   "away": "Sporting Lisbon"
-  },
-  {
    "id": "se-491469",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
@@ -554,6 +599,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Galatasaray",
    "away": "Stuttgart"
+  },
+  {
+   "id": "se-491470",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-03T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shakhtar Donetsk",
+   "away": "Sporting Lisbon"
   },
   {
    "id": "se-494654",
@@ -739,7 +800,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-03T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -755,7 +816,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-03T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -771,7 +832,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-03T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -787,7 +848,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-03T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -803,7 +864,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-03T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -819,7 +880,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-03T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
