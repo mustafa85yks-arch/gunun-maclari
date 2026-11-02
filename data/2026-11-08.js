@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T04:48:39+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-02T04:48:39+03:00",
+ "generatedAt": "2026-11-02T15:12:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -268,6 +268,74 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496150",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T13:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ankara Demir",
+   "away": "24 Erzincanspor",
+   "turkish": true
+  },
+  {
+   "id": "se-496151",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Isparta 32 Spor",
+   "away": "Erbaaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-496152",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "12 Bingölspor",
+   "away": "Beyoğlu Yeni Çarşı",
+   "turkish": true
+  },
+  {
+   "id": "se-496153",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sebat Gençlik",
+   "away": "Kastamonuspor",
+   "turkish": true
+  },
+  {
    "id": "se-488978",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -405,6 +473,23 @@ GM_REGISTER_DAY({
    "away": "Manisa BB"
   },
   {
+   "id": "se-496154",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T15:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gebzespor",
+   "away": "İnegöl Kafkas",
+   "turkish": true
+  },
+  {
    "id": "se-493800",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -419,6 +504,74 @@ GM_REGISTER_DAY({
    ],
    "home": "Anadolu Efes",
    "away": "Tofaş",
+   "turkish": true
+  },
+  {
+   "id": "se-496155",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "52 Orduspor",
+   "away": "Sakaryaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-496156",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Elazığspor",
+   "away": "Şanlıurfaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-496157",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fethiyespor",
+   "away": "Adana 01 FK",
+   "turkish": true
+  },
+  {
+   "id": "se-496158",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-08T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adana Demirspor",
+   "away": "Ankaraspor",
    "turkish": true
   },
   {
@@ -1003,7 +1156,7 @@ GM_REGISTER_DAY({
    "competitionId": "ukrayna-premier-ligi",
    "kickoff": "2026-11-08T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "Tivibu Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [

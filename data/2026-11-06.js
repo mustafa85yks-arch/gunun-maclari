@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T04:48:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-02T04:48:34+03:00",
+ "generatedAt": "2026-11-02T15:12:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -137,6 +137,22 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-1"
   },
   {
+   "id": "se-495433",
+   "sport": "motosiklet",
+   "competition": "MotoGP Katar GP",
+   "competitionId": "motogp",
+   "kickoff": "2026-11-06T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman"
+  },
+  {
    "id": "se-493845",
    "sport": "voleybol",
    "competition": "TVF Erkekler 1. Lig",
@@ -154,22 +170,6 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
-  },
-  {
-   "id": "se-495433",
-   "sport": "motosiklet",
-   "competition": "MotoGP Katar GP",
-   "competitionId": "motogp",
-   "kickoff": "2026-11-06T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Antrenman"
   },
   {
    "id": "se-488973",

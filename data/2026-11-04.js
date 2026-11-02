@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T04:48:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-04",
- "generatedAt": "2026-11-02T04:48:32+03:00",
+ "generatedAt": "2026-11-02T15:12:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -253,22 +253,6 @@ GM_REGISTER_DAY({
    "away": "Frankfurt"
   },
   {
-   "id": "se-494149",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-11-04T20:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lokomotiv Plovdiv",
-   "away": "Neftchi IK"
-  },
-  {
    "id": "se-494150",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -323,6 +307,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-europe-cup",
    "kickoff": "2026-11-04T20:00:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "FIBA TV"
    ],
    "verification": "tek_kaynak",
@@ -483,7 +468,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -852,7 +838,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-04T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [

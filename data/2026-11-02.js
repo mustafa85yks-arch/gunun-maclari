@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T04:48:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-02",
- "generatedAt": "2026-11-02T04:48:32+03:00",
+ "generatedAt": "2026-11-02T15:12:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -128,6 +128,37 @@ GM_REGISTER_DAY({
    "away": "H.Hurkacz"
   },
   {
+   "id": "se-496086",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-02T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler 85kg"
+  },
+  {
+   "id": "se-496136",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-02T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fransa",
+   "away": "Belçika"
+  },
+  {
    "id": "se-495593",
    "sport": "snooker",
    "competition": "Snooker Uluslararasi Şampiyona",
@@ -210,23 +241,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489821",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-11-02T20:00:00+03:00",
+   "id": "se-496137",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-02T18:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "beIN SPORTS 2"
+    "beIN CONNECT"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
-   "home": "Kayserispor",
-   "away": "Muğlaspor",
-   "turkish": true
+   "home": "Portekiz",
+   "away": "Katar"
   },
   {
    "id": "se-488972",
@@ -244,6 +272,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Gençlerbirliği",
    "away": "Alanyaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-489821",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-02T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "beIN SPORTS 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Kayserispor",
+   "away": "Muğlaspor",
    "turkish": true
   },
   {
@@ -281,22 +328,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-496076",
-   "sport": "tenis",
-   "competition": "ATP Paris",
-   "competitionId": "atp",
-   "kickoff": "2026-11-02T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "D.Shapovalov",
-   "away": "K.Khachanov"
-  },
-  {
    "id": "se-494141",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -311,6 +342,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Wurzburg",
    "away": "Tartu Ulikool"
+  },
+  {
+   "id": "se-496076",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-02T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Shapovalov",
+   "away": "K.Khachanov"
   },
   {
    "id": "se-493598",
@@ -329,20 +376,21 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
-   "id": "se-495352",
+   "id": "se-487539",
    "sport": "futbol",
-   "competition": "Fransa Ligue 2",
-   "competitionId": "fransa-ligue-2",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
    "kickoff": "2026-11-02T22:45:00+03:00",
    "broadcasters": [
-    "beIN SPORTS MAX 1"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
-   "home": "Reims",
-   "away": "Sochaux"
+   "home": "Lorient",
+   "away": "Brest"
   },
   {
    "id": "se-488347",
@@ -362,21 +410,20 @@ GM_REGISTER_DAY({
    "away": "Parma"
   },
   {
-   "id": "se-487539",
+   "id": "se-495352",
    "sport": "futbol",
-   "competition": "Fransa Ligue 1",
-   "competitionId": "ligue-1",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
    "kickoff": "2026-11-02T22:45:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 2"
+    "beIN SPORTS MAX 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
-   "home": "Lorient",
-   "away": "Brest"
+   "home": "Reims",
+   "away": "Sochaux"
   },
   {
    "id": "se-493660",

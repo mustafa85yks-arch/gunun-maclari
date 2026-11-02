@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T04:48:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-02T15:12:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-03",
- "generatedAt": "2026-11-02T04:48:32+03:00",
+ "generatedAt": "2026-11-02T15:12:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -63,7 +63,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494706",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-03T03:30:00+03:00",
    "broadcasters": [
@@ -127,7 +127,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494707",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-03T04:00:00+03:00",
    "broadcasters": [
@@ -191,7 +191,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494710",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-03T04:30:00+03:00",
    "broadcasters": [
@@ -270,6 +270,22 @@ GM_REGISTER_DAY({
    "away": "Phoenix Suns"
   },
   {
+   "id": "se-494715",
+   "sport": "basketbol",
+   "competition": "NBA  BasketbolOyna",
+   "competitionId": "nba",
+   "kickoff": "2026-11-03T06:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Lakers",
+   "away": "Miami Heat"
+  },
+  {
    "id": "se-494714",
    "sport": "basketbol",
    "competition": "NBA",
@@ -284,22 +300,6 @@ GM_REGISTER_DAY({
    ],
    "home": "LA Clippers",
    "away": "Toronto Raptors"
-  },
-  {
-   "id": "se-494715",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-03T06:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "LA Lakers",
-   "away": "Miami Heat"
   },
   {
    "id": "se-495594",
@@ -380,22 +380,6 @@ GM_REGISTER_DAY({
    "title": "3'üncü Tur"
   },
   {
-   "id": "se-493142",
-   "sport": "futbol",
-   "competition": "UEFA Gençlik Ligi",
-   "competitionId": "uefa-genclik-ligi",
-   "kickoff": "2026-11-03T16:00:00+03:00",
-   "broadcasters": [
-    "UEFA.tv"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Manchester Utd",
-   "away": "Roma"
-  },
-  {
    "id": "se-492389",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -410,6 +394,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Halkbank",
    "away": "Kastamonu Yurdum Gençlik Spor"
+  },
+  {
+   "id": "se-493142",
+   "sport": "futbol",
+   "competition": "UEFA Gençlik Ligi",
+   "competitionId": "uefa-genclik-ligi",
+   "kickoff": "2026-11-03T16:00:00+03:00",
+   "broadcasters": [
+    "UEFA.tv"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manchester Utd",
+   "away": "Roma"
   },
   {
    "id": "se-493143",
@@ -524,22 +524,6 @@ GM_REGISTER_DAY({
    "away": "Antwerp Giants"
   },
   {
-   "id": "se-491469",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-03T20:45:00+03:00",
-   "broadcasters": [
-    "TRT 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Galatasaray",
-   "away": "Stuttgart"
-  },
-  {
    "id": "se-491470",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
@@ -554,6 +538,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Shakhtar Donetsk",
    "away": "Sporting Lisbon"
+  },
+  {
+   "id": "se-491469",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-03T20:45:00+03:00",
+   "broadcasters": [
+    "TRT 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Stuttgart"
   },
   {
    "id": "se-494654",
@@ -572,22 +572,6 @@ GM_REGISTER_DAY({
    "away": "Pardubice"
   },
   {
-   "id": "se-495638",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-11-03T21:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "PAOK",
-   "away": "BC Roma"
-  },
-  {
    "id": "se-495637",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -602,6 +586,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Buducnost",
    "away": "Chemnitz"
+  },
+  {
+   "id": "se-495638",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-11-03T21:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "PAOK",
+   "away": "BC Roma"
   },
   {
    "id": "se-495639",
@@ -684,22 +684,6 @@ GM_REGISTER_DAY({
    "away": "Energia Trento"
   },
   {
-   "id": "se-494657",
-   "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
-   "kickoff": "2026-11-03T22:30:00+03:00",
-   "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Unicaja Malaga",
-   "away": "Reggiana"
-  },
-  {
    "id": "se-494656",
    "sport": "basketbol",
    "competition": "FIBA Şampiyonlar Ligi",
@@ -716,13 +700,30 @@ GM_REGISTER_DAY({
    "away": "Joventut Badalona"
   },
   {
+   "id": "se-494657",
+   "sport": "basketbol",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T22:30:00+03:00",
+   "broadcasters": [
+    "FIBA Şampiyonlar Ligi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Unicaja Malaga",
+   "away": "Reggiana"
+  },
+  {
    "id": "se-491471",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
    "competitionId": "ucl",
    "kickoff": "2026-11-03T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
