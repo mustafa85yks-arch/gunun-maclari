@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T06:42:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-04",
- "generatedAt": "2026-11-03T06:42:25+03:00",
+ "generatedAt": "2026-11-03T14:47:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -50,6 +50,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496214",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-04T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pohang",
+   "away": "Gamba Osaka"
+  },
+  {
    "id": "se-493145",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -62,6 +79,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe",
    "away": "Liverpool"
+  },
+  {
+   "id": "se-496215",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-04T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Buriram",
+   "away": "Kashima Antlers"
   },
   {
    "id": "se-493146",
@@ -161,6 +195,22 @@ GM_REGISTER_DAY({
    "home": "Kuzeyboru",
    "away": "Aras Kargo",
    "turkish": true
+  },
+  {
+   "id": "se-491815",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-04T18:30:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rennes",
+   "away": "Olympiakos"
   },
   {
    "id": "se-492391",

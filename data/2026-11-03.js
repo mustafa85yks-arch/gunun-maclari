@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T06:42:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-03",
- "generatedAt": "2026-11-03T06:42:25+03:00",
+ "generatedAt": "2026-11-03T14:47:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -378,6 +378,23 @@ GM_REGISTER_DAY({
    "away": "Zeynep Sönmez"
   },
   {
+   "id": "se-496204",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T10:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Newcastle Jets",
+   "away": "Shanghai Port"
+  },
+  {
    "id": "se-495425",
    "sport": "tenis",
    "competition": "ATP Paris",
@@ -390,24 +407,58 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Paris"
+   "home": "A.Rinderknech",
+   "away": "F.Cerundolo"
   },
   {
-   "id": "se-490013",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-11-03T14:00:00+03:00",
+   "id": "se-496205",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T13:00:00+03:00",
    "broadcasters": [
-    "TRT Spor Yildiz"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İstanbul Gençlik",
-   "away": "Gaziantep Gençlik",
-   "turkish": true
+   "home": "Jeonbuk",
+   "away": "Johor Darul"
+  },
+  {
+   "id": "se-496206",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T13:00:00+03:00",
+   "broadcasters": [
+    "D Smart GO"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kashiwa Reysol",
+   "away": "Daejeon Citizen"
+  },
+  {
+   "id": "se-496207",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Vissel Kobe",
+   "away": "Ratchaburi"
   },
   {
    "id": "se-493149",
@@ -416,7 +467,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-genclik-ligi",
    "kickoff": "2026-11-03T14:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "Galatasaray Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -424,6 +475,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Galatasaray",
    "away": "Stuttgart"
+  },
+  {
+   "id": "se-496202",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-03T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brezilya",
+   "away": "Almanya"
+  },
+  {
+   "id": "se-496226",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-03T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar 69kg"
   },
   {
    "id": "se-495595",
@@ -439,6 +521,76 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "3'üncü Tur"
+  },
+  {
+   "id": "se-496198",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-03T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.D.Fokina",
+   "away": "M.Kouame"
+  },
+  {
+   "id": "se-496228",
+   "sport": "futbol",
+   "competition": "Basin Toplantisi",
+   "competitionId": "basin-toplantisi",
+   "kickoff": "2026-11-03T15:00:00+03:00",
+   "broadcasters": [
+    "FB TV",
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Dirk Kuyt"
+  },
+  {
+   "id": "se-496208",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T15:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cong An Ha Noi",
+   "away": "Kyoto"
+  },
+  {
+   "id": "se-496209",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Port FC",
+   "away": "Beijing Guoan"
   },
   {
    "id": "se-492389",
@@ -473,6 +625,55 @@ GM_REGISTER_DAY({
    "away": "Roma"
   },
   {
+   "id": "se-496212",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-03T16:45:00+03:00",
+   "broadcasters": [
+    "D Smart GO"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "East Bengal",
+   "away": "Al Seeb"
+  },
+  {
+   "id": "se-490013",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-11-03T17:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul Gençlik",
+   "away": "Gaziantep Gençlik",
+   "turkish": true
+  },
+  {
+   "id": "se-496199",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-03T17:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Djokovic",
+   "away": "V.Vacherot"
+  },
+  {
    "id": "se-493143",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -489,6 +690,22 @@ GM_REGISTER_DAY({
    "away": "Bayern Münih"
   },
   {
+   "id": "se-496203",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-03T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İtalya",
+   "away": "Meksika"
+  },
+  {
    "id": "se-492390",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -503,6 +720,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Barosu",
    "away": "Yedidağ"
+  },
+  {
+   "id": "se-496210",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Esteghlal FC",
+   "away": "Al Shamal"
+  },
+  {
+   "id": "se-496213",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-03T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Hussein",
+   "away": "Al Shorta"
   },
   {
    "id": "se-494142",
@@ -663,6 +914,39 @@ GM_REGISTER_DAY({
    ],
    "home": "PAOK",
    "away": "BC Roma"
+  },
+  {
+   "id": "se-496200",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-03T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Shelton",
+   "away": "C.Norrie"
+  },
+  {
+   "id": "se-496211",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-03T21:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Hilal",
+   "away": "Al Ahli Dubai"
   },
   {
    "id": "se-495639",
@@ -904,6 +1188,22 @@ GM_REGISTER_DAY({
    ],
    "home": "WBA",
    "away": "Southampton"
+  },
+  {
+   "id": "se-496201",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-03T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Ruud",
+   "away": "R.Jodar"
   }
  ]
 });

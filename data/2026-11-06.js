@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T06:42:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-03T06:42:28+03:00",
+ "generatedAt": "2026-11-03T14:47:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -107,6 +107,7 @@ GM_REGISTER_DAY({
    "competitionId": "suudi-arabistan-pro-lig",
    "kickoff": "2026-11-06T17:55:00+03:00",
    "broadcasters": [
+    "HT Spor",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",
@@ -147,23 +148,6 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-1"
   },
   {
-   "id": "se-495433",
-   "sport": "motosiklet",
-   "competition": "MotoGP Katar GP",
-   "competitionId": "motogp",
-   "kickoff": "2026-11-06T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "title": "Antrenman"
-  },
-  {
    "id": "se-493845",
    "sport": "voleybol",
    "competition": "TVF Erkekler 1. Lig",
@@ -181,6 +165,23 @@ GM_REGISTER_DAY({
    "tags": [
     "derbi"
    ]
+  },
+  {
+   "id": "se-495433",
+   "sport": "motosiklet",
+   "competition": "MotoGP Katar GP",
+   "competitionId": "motogp",
+   "kickoff": "2026-11-06T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "title": "Antrenman"
   },
   {
    "id": "se-488973",
@@ -225,7 +226,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-06T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Türk",
     "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
@@ -251,6 +252,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Beşiktaş",
    "away": "Zalgiris Kaunas"
+  },
+  {
+   "id": "se-496255",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-11-06T20:30:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ittihad",
+   "away": "Neom"
   },
   {
    "id": "se-494363",
@@ -317,22 +334,6 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-493858",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-06T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Virtus Bologna",
-   "away": "Dubai Basket"
-  },
-  {
    "id": "se-494336",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -347,6 +348,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hamburg",
    "away": "Monchengladbach"
+  },
+  {
+   "id": "se-493858",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-06T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Virtus Bologna",
+   "away": "Dubai Basket"
   },
   {
    "id": "se-493859",

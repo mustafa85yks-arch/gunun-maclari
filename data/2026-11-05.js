@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T06:42:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-11-03T06:42:25+03:00",
+ "generatedAt": "2026-11-03T14:47:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -425,22 +425,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Sociedad",
    "away": "Lyon"
-  },
-  {
-   "id": "se-491815",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Rennes",
-   "away": "Olympiakos"
   },
   {
    "id": "se-491816",
