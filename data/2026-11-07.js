@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T19:46:05+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-03T14:47:26+03:00",
+ "generatedAt": "2026-11-03T19:46:05+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -338,17 +338,35 @@ GM_REGISTER_DAY({
    "away": "M.Magomedov"
   },
   {
+   "id": "se-496443",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-11-07T11:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Halkbank",
+   "away": "Ankara Barosu"
+  },
+  {
    "id": "se-493795",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
    "kickoff": "2026-11-07T13:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Çayırova Bld.",
    "away": "Bandırma Bordo",
@@ -440,6 +458,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496444",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-11-07T13:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yedidağ",
+   "away": "Çankırı Birlik Spor"
+  },
+  {
    "id": "se-488974",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -465,11 +499,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-07T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Keçiörengücü",
    "away": "Manisa FK",
@@ -483,7 +518,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-07T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -526,6 +561,22 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Serbest Antrenman 2 ve Sıralama Turları"
+  },
+  {
+   "id": "se-496436",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-11-07T14:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "İstanbul BB"
   },
   {
    "id": "se-494367",
@@ -578,17 +629,34 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496368",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-07T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "TED Kolejliler",
+   "away": "Büyükçekmece"
+  },
+  {
    "id": "se-493682",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
    "competitionId": "premier-league",
    "kickoff": "2026-11-07T15:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Leeds United",
    "away": "Tottenham"
@@ -687,11 +755,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-07T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Muğlaspor",
    "away": "Esenler Erokspor",
@@ -782,6 +851,54 @@ GM_REGISTER_DAY({
    "home": "TFL Altekma",
    "away": "Onikişubat Belediyespor",
    "turkish": true
+  },
+  {
+   "id": "se-496369",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-07T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gaziantep Basket",
+   "away": "Konya BB"
+  },
+  {
+   "id": "se-496370",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-07T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kahramanmaraş İstiklal",
+   "away": "OGM Orman"
+  },
+  {
+   "id": "se-496445",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-11-07T16:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Başkent Beşiktaşlılar",
+   "away": "Maliye Voleybol"
   },
   {
    "id": "se-494043",
@@ -953,11 +1070,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-07T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Arsenal",
    "away": "Hull City"
@@ -969,7 +1087,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-07T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1056,7 +1174,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-07T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1167,6 +1285,54 @@ GM_REGISTER_DAY({
    "home": "Balıkesirspor",
    "away": "Gaziemirspor",
    "turkish": true
+  },
+  {
+   "id": "se-496281",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
+   "kickoff": "2026-11-07T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İzmir DSİ",
+   "away": "Fenerbahçe Medicana"
+  },
+  {
+   "id": "se-496301",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-11-07T19:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ateş Spor",
+   "away": "Fenerbahçe Medicana"
+  },
+  {
+   "id": "se-496371",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-07T19:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Keçiören Bld",
+   "away": "Harem Spor"
   },
   {
    "id": "se-494391",
@@ -1291,11 +1457,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-07T20:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Nottingham Forest",
    "away": "Manchester City"
@@ -1365,6 +1532,22 @@ GM_REGISTER_DAY({
    "away": "M.Aliev"
   },
   {
+   "id": "se-496401",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-11-07T22:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "St. Etienne",
+   "away": "Laval"
+  },
+  {
    "id": "se-494368",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -1403,7 +1586,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-07T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1479,6 +1662,23 @@ GM_REGISTER_DAY({
    ],
    "home": "LSU",
    "away": "Alabama"
+  },
+  {
+   "id": "se-496402",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-11-07T23:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Sporting Lisbon",
+   "away": "Moreirense"
   }
  ]
 });

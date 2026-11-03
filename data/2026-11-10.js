@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T19:46:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-10",
- "generatedAt": "2026-11-03T14:47:28+03:00",
+ "generatedAt": "2026-11-03T19:46:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -136,6 +136,38 @@ GM_REGISTER_DAY({
    ],
    "home": "GS Warriors",
    "away": "NO Pelicans"
+  },
+  {
+   "id": "se-496446",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-11-10T16:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Maliye Voleybol",
+   "away": "Konya BB"
+  },
+  {
+   "id": "se-496437",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-11-10T18:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Doğu Akademi",
+   "away": "Fenerbahçe Medicana"
   },
   {
    "id": "se-494661",

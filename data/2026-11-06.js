@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:22+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T19:45:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-03T14:47:22+03:00",
+ "generatedAt": "2026-11-03T19:45:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -209,11 +209,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-06T20:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Antalyaspor",
    "away": "Bursaspor",
@@ -227,7 +228,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-06T20:00:00+03:00",
    "broadcasters": [
     "TRT Türk",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -316,6 +317,22 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-2"
   },
   {
+   "id": "se-496400",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-11-06T22:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Montpellier",
+   "away": "Metz"
+  },
+  {
    "id": "se-493857",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -334,22 +351,6 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-494336",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-11-06T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hamburg",
-   "away": "Monchengladbach"
-  },
-  {
    "id": "se-493858",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -364,6 +365,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Virtus Bologna",
    "away": "Dubai Basket"
+  },
+  {
+   "id": "se-494336",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-11-06T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hamburg",
+   "away": "Monchengladbach"
   },
   {
    "id": "se-493859",
@@ -388,7 +405,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-06T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -436,7 +453,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-06T23:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
    "verification": "tek_kaynak",
    "sources": [

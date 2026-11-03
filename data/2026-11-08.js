@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T14:47:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T19:46:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-03T14:47:28+03:00",
+ "generatedAt": "2026-11-03T19:46:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -229,6 +229,21 @@ GM_REGISTER_DAY({
    "away": "S.Brady"
   },
   {
+   "id": "se-496405",
+   "sport": "atletizm",
+   "competition": "Şehir Maratonu",
+   "competitionId": "sehir-maratonu",
+   "kickoff": "2026-11-08T10:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Malaga Maratonu"
+  },
+  {
    "id": "se-493799",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -351,7 +366,7 @@ GM_REGISTER_DAY({
    "competitionId": "super-lig",
    "kickoff": "2026-11-08T13:30:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -369,7 +384,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-08T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -414,6 +429,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Yozgat GSK",
    "away": "Bursa BB"
+  },
+  {
+   "id": "se-496315",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-11-08T14:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Can Milan Atletik"
+  },
+  {
+   "id": "se-496372",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-08T14:00:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Final Spor",
+   "away": "Cedi Osman Basketbol"
   },
   {
    "id": "se-495453",
@@ -610,11 +657,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-08T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ümraniyespor",
    "away": "Kayserispor",
@@ -628,7 +676,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-08T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -786,6 +834,38 @@ GM_REGISTER_DAY({
    "title": "Katar GP"
   },
   {
+   "id": "se-496373",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-08T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Balıkesir BB",
+   "away": "Mersin Basketbol"
+  },
+  {
+   "id": "se-496374",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-08T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Koleji",
+   "away": "Ankaragücü"
+  },
+  {
    "id": "se-495454",
    "sport": "futbol",
    "competition": "Hollanda Eredivisie",
@@ -802,13 +882,29 @@ GM_REGISTER_DAY({
    "away": "Ajax"
   },
   {
+   "id": "se-496375",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-08T16:30:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "iLab Basketbol",
+   "away": "Göztepe"
+  },
+  {
    "id": "se-493686",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
    "competitionId": "premier-league",
    "kickoff": "2026-11-08T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -824,11 +920,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-08T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Crystal Palace",
    "away": "Liverpool"
@@ -856,11 +953,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-08T17:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Sunderland",
    "away": "Chelsea"
@@ -1120,11 +1218,12 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-08T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Mardin 1969",
    "away": "Batman Petrol",
@@ -1251,7 +1350,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-08T19:15:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1299,11 +1398,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-08T19:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Manchester Utd",
    "away": "Aston Villa"
@@ -1439,6 +1539,22 @@ GM_REGISTER_DAY({
    "away": "LA Rams"
   },
   {
+   "id": "se-496403",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-11-08T21:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Vitoria",
+   "away": "Porto"
+  },
+  {
    "id": "se-494344",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -1461,11 +1577,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-08T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lens",
    "away": "Marsilya"
@@ -1537,6 +1654,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Chicago Bulls",
    "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-496404",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-11-08T23:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Estrela",
+   "away": "Benfica"
   }
  ]
 });
