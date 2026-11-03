@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T01:33:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T05:52:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-03T01:33:02+03:00",
+ "generatedAt": "2026-11-03T05:52:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -448,9 +448,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Eyüpspor",
    "away": "Kocaelispor",
@@ -669,9 +670,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Samsunspor",
    "away": "Konyaspor",
@@ -1037,9 +1039,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Galatasaray",
    "away": "Amedspor",
