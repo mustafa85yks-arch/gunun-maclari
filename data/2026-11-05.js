@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T05:41:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T14:58:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-11-04T05:41:54+03:00",
+ "generatedAt": "2026-11-04T14:58:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -71,7 +71,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494719",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-05T03:30:00+03:00",
    "broadcasters": [
@@ -87,7 +87,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494720",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-05T03:30:00+03:00",
    "broadcasters": [
@@ -99,6 +99,23 @@ GM_REGISTER_DAY({
    ],
    "home": "New York Knicks",
    "away": "Chicago Bulls"
+  },
+  {
+   "id": "se-496567",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-05T03:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sao Paulo",
+   "away": "Corinthians"
   },
   {
    "id": "se-494721",
@@ -135,7 +152,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494723",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-05T04:00:00+03:00",
    "broadcasters": [
@@ -151,7 +168,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494724",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-05T04:30:00+03:00",
    "broadcasters": [
@@ -199,7 +216,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494727",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-05T05:30:00+03:00",
    "broadcasters": [
@@ -234,7 +251,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494729",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-05T06:30:00+03:00",
    "broadcasters": [
@@ -261,6 +278,106 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Paris"
+  },
+  {
+   "id": "se-496568",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-05T13:00:00+03:00",
+   "broadcasters": [
+    "D Smart GO"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kitchee",
+   "away": "Phnom Penh"
+  },
+  {
+   "id": "se-496569",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-05T13:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lion City",
+   "away": "Adelaide United"
+  },
+  {
+   "id": "se-496570",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-05T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Machida",
+   "away": "Shanghai Shenhua"
+  },
+  {
+   "id": "se-496571",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-05T15:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kuching City",
+   "away": "Gangwon"
+  },
+  {
+   "id": "se-496572",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-05T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pathum United",
+   "away": "Tai Po"
+  },
+  {
+   "id": "se-496573",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-05T15:15:00+03:00",
+   "broadcasters": [
+    "D Smart GO"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Svay Rieng",
+   "away": "Tampines"
   },
   {
    "id": "se-493703",
@@ -393,6 +510,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Sparta Prag",
    "away": "Bournemouth"
+  },
+  {
+   "id": "se-491863",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Konferans Ligi",
+   "competitionId": "uefa-avrupa-konferans-ligi",
+   "kickoff": "2026-11-05T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atalanta",
+   "away": "Kairat Almaty"
   },
   {
    "id": "se-491870",
@@ -574,6 +707,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Sunderland",
    "away": "Dinamo Zagreb"
+  },
+  {
+   "id": "se-491872",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Konferans Ligi",
+   "competitionId": "uefa-avrupa-konferans-ligi",
+   "kickoff": "2026-11-05T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Getafe",
+   "away": "Brighton"
+  },
+  {
+   "id": "se-491874",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Konferans Ligi",
+   "competitionId": "uefa-avrupa-konferans-ligi",
+   "kickoff": "2026-11-05T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Monaco",
+   "away": "Nordsjaelland"
   },
   {
    "id": "se-495649",

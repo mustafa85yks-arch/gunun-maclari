@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T05:42:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T14:58:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-04T05:42:14+03:00",
+ "generatedAt": "2026-11-04T14:58:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -461,6 +461,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Final Spor",
    "away": "Cedi Osman Basketbol"
+  },
+  {
+   "id": "se-496574",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-08T14:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Barcelona",
+   "away": "Breogan"
   },
   {
    "id": "se-495453",
@@ -1553,6 +1570,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Vitoria",
    "away": "Porto"
+  },
+  {
+   "id": "se-496575",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-08T21:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Real Madrid",
+   "away": "Murcia"
   },
   {
    "id": "se-494344",

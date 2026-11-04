@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T05:41:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T14:58:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-04",
- "generatedAt": "2026-11-04T05:41:54+03:00",
+ "generatedAt": "2026-11-04T14:58:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -107,8 +107,10 @@ GM_REGISTER_DAY({
    "competition": "UEFA Gençlik Ligi",
    "competitionId": "uefa-genclik-ligi",
    "kickoff": "2026-11-04T14:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
@@ -130,6 +132,21 @@ GM_REGISTER_DAY({
    ],
    "home": "İtalya",
    "away": "İsveç"
+  },
+  {
+   "id": "se-496552",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-04T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler 95kg"
   },
   {
    "id": "se-496215",
@@ -319,7 +336,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-04T18:30:00+03:00",
    "broadcasters": [
-    "tabii Spor 4"
+    "tabii Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
