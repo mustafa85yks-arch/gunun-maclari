@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T19:43:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T23:38:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-04T19:43:38+03:00",
+ "generatedAt": "2026-11-04T23:38:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -867,6 +867,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Başkent Beşiktaşlılar",
    "away": "Maliye Voleybol"
+  },
+  {
+   "id": "se-496576",
+   "sport": "motor sporları",
+   "competition": "Türkiye Enduro Şampiyonasi",
+   "competitionId": "turkiye-enduro-sampiyonasi",
+   "kickoff": "2026-11-07T16:00:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Rize",
+   "turkish": true
   },
   {
    "id": "se-494043",

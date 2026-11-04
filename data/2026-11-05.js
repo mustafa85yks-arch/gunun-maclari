@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T19:43:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T23:38:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-11-04T19:43:23+03:00",
+ "generatedAt": "2026-11-04T23:38:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -265,6 +265,38 @@ GM_REGISTER_DAY({
    "away": "Miami Heat"
   },
   {
+   "id": "se-496583",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-05T09:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "X.Wang",
+   "away": "A.Ruzic"
+  },
+  {
+   "id": "se-496584",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-05T10:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Stojsavljevic",
+   "away": "Zeynep Sönmez"
+  },
+  {
    "id": "se-495427",
    "sport": "tenis",
    "competition": "ATP Paris",
@@ -328,6 +360,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Machida",
    "away": "Shanghai Shenhua"
+  },
+  {
+   "id": "se-496585",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-05T13:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "T.Valentova",
+   "away": "A.Eala"
   },
   {
    "id": "se-496571",
