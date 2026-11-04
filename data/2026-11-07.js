@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T23:22:37+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T04:15:05+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-03T23:22:37+03:00",
+ "generatedAt": "2026-11-04T04:15:05+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -51,22 +51,6 @@ GM_REGISTER_DAY({
   },
   {
    "id": "se-486276",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-07T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Cleveland Cavaliers",
-   "away": "Philadelphia 76ers"
-  },
-  {
-   "id": "se-494734",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -176,22 +160,6 @@ GM_REGISTER_DAY({
    ],
    "home": "V.Hugo",
    "away": "D.Johnson"
-  },
-  {
-   "id": "se-486277",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-07T06:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "LA Lakers",
-   "away": "Portland TB"
   },
   {
    "id": "se-494739",
@@ -482,10 +450,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Eyüpspor",
    "away": "Kocaelispor",
@@ -653,9 +620,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Leeds United",
    "away": "Tottenham"
@@ -737,10 +705,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Samsunspor",
    "away": "Konyaspor",
@@ -913,7 +880,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Sungurlu Bld.",
-   "away": "HALKBANK",
+   "away": "Halkbank",
    "turkish": true
   },
   {
@@ -1071,9 +1038,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Arsenal",
    "away": "Hull City"
@@ -1155,10 +1123,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Galatasaray",
    "away": "Amedspor",
@@ -1457,9 +1424,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Nottingham Forest",
    "away": "Manchester City"
@@ -1669,9 +1637,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Sporting Lisbon",
    "away": "Moreirense"

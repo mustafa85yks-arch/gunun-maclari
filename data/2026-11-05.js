@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T23:22:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T04:14:51+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-11-03T23:22:24+03:00",
+ "generatedAt": "2026-11-04T04:14:51+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -275,7 +275,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İLBANK",
+   "home": "İlbank",
    "away": "Nilüfer Bld.",
    "turkish": true
   },
@@ -321,7 +321,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-05T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -337,7 +337,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-05T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -363,61 +363,13 @@ GM_REGISTER_DAY({
    "away": "Hoffenheim"
   },
   {
-   "id": "se-491811",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Levski Sofya",
-   "away": "Jagiellonia"
-  },
-  {
-   "id": "se-491812",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lilleström",
-   "away": "Viktoria Plzen"
-  },
-  {
-   "id": "se-491813",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NEC Nijmegen",
-   "away": "Omonia"
-  },
-  {
    "id": "se-491814",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
    "kickoff": "2026-11-05T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -433,7 +385,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-05T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -534,7 +486,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-05T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -550,7 +502,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-05T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -566,7 +518,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-05T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -592,22 +544,6 @@ GM_REGISTER_DAY({
    "away": "Beşiktaş"
   },
   {
-   "id": "se-491821",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hapoel Beer Sheva",
-   "away": "OFI Crete"
-  },
-  {
    "id": "se-491822",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
@@ -624,29 +560,13 @@ GM_REGISTER_DAY({
    "away": "Marsilya"
   },
   {
-   "id": "se-491823",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sturm Graz",
-   "away": "NK Celje"
-  },
-  {
    "id": "se-491824",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
    "kickoff": "2026-11-05T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -654,22 +574,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Sunderland",
    "away": "Dinamo Zagreb"
-  },
-  {
-   "id": "se-491825",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-05T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Torreense",
-   "away": "Ararat"
   },
   {
    "id": "se-495649",

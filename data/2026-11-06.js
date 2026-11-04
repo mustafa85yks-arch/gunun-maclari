@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T23:22:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T04:14:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-03T23:22:30+03:00",
+ "generatedAt": "2026-11-04T04:14:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -67,6 +67,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Tasmania JackJumpers",
    "away": "NZ Breakers"
+  },
+  {
+   "id": "se-496549",
+   "sport": "futbol",
+   "competition": "Basin Toplantisi",
+   "competitionId": "basin-toplantisi",
+   "kickoff": "2026-11-06T14:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Sergen Yalçın"
   },
   {
    "id": "se-495432",
@@ -455,10 +470,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Everton",
    "away": "Coventry"

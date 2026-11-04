@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-03T23:22:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T04:14:51+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-04",
- "generatedAt": "2026-11-03T23:22:24+03:00",
+ "generatedAt": "2026-11-04T04:14:51+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,23 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-496535",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T10:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Melbourne Victory",
+   "away": "Persib Bandung"
+  },
+  {
    "id": "se-495426",
    "sport": "tenis",
    "competition": "ATP Paris",
@@ -30,7 +47,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Paris"
+   "home": "Q.Halys",
+   "away": "F.Tiafoe"
   },
   {
    "id": "se-496040",
@@ -67,6 +85,23 @@ GM_REGISTER_DAY({
    "away": "Gamba Osaka"
   },
   {
+   "id": "se-496536",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T13:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "FC Seoul",
+   "away": "Viettel"
+  },
+  {
    "id": "se-493145",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -79,6 +114,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe",
    "away": "Liverpool"
+  },
+  {
+   "id": "se-496543",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-04T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İtalya",
+   "away": "İsveç"
   },
   {
    "id": "se-496215",
@@ -96,6 +147,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Buriram",
    "away": "Kashima Antlers"
+  },
+  {
+   "id": "se-496545",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-04T15:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "L.Musetti"
   },
   {
    "id": "se-493146",
@@ -131,6 +198,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496537",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T16:45:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Arkadag",
+   "away": "Golgohar"
+  },
+  {
    "id": "se-493701",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
@@ -146,6 +230,22 @@ GM_REGISTER_DAY({
    "home": "Göztepe",
    "away": "Zeren Spor",
    "turkish": true
+  },
+  {
+   "id": "se-496546",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-04T17:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "N.Djokovic",
+   "away": "R.Hijikata"
   },
   {
    "id": "se-492383",
@@ -197,13 +297,29 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496544",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-04T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İsveç",
+   "away": "Paraguay"
+  },
+  {
    "id": "se-491815",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
    "kickoff": "2026-11-04T18:30:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -279,6 +395,56 @@ GM_REGISTER_DAY({
    "away": "Sporting CP"
   },
   {
+   "id": "se-496538",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T19:00:00+03:00",
+   "broadcasters": [
+    "D Smart GO"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Kuwait",
+   "away": "Nasaf Qarshi"
+  },
+  {
+   "id": "se-496539",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Rayyan",
+   "away": "Al Nahda"
+  },
+  {
+   "id": "se-496540",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Wahda",
+   "away": "Al Khalidiyah"
+  },
+  {
    "id": "se-494148",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -301,7 +467,7 @@ GM_REGISTER_DAY({
    "competitionId": "eurocup",
    "kickoff": "2026-11-04T19:30:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -398,7 +564,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-11-04T20:00:00+03:00",
    "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -601,6 +767,56 @@ GM_REGISTER_DAY({
    "away": "JL Bourg"
   },
   {
+   "id": "se-496547",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-04T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Michelsen",
+   "away": "C.Alcaraz"
+  },
+  {
+   "id": "se-496541",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T21:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Muharraq",
+   "away": "Al Jazira"
+  },
+  {
+   "id": "se-496542",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-04T21:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Taawon",
+   "away": "Al Faisaly Amman"
+  },
+  {
    "id": "se-495645",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -775,6 +991,22 @@ GM_REGISTER_DAY({
    ],
    "home": "SP Burgos",
    "away": "Hansa Rostock"
+  },
+  {
+   "id": "se-496548",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-04T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Fils",
+   "away": "T.Machac"
   },
   {
    "id": "se-493850",
