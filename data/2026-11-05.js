@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T05:46:41+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:03+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-11-05T05:46:41+03:00",
+ "generatedAt": "2026-11-05T15:04:03+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -281,6 +281,25 @@ GM_REGISTER_DAY({
    "away": "A.Ruzic"
   },
   {
+   "id": "se-496621",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona Yarı Final",
+   "competitionId": "snooker-uluslararasi-sampiyona-yari-final",
+   "kickoff": "2026-11-05T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Wilson",
+   "away": "Z.Fan",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-496584",
    "sport": "tenis",
    "competition": "WTA Hong Kong",
@@ -295,6 +314,22 @@ GM_REGISTER_DAY({
    ],
    "home": "M.Stojsavljevic",
    "away": "Zeynep Sönmez"
+  },
+  {
+   "id": "se-496637",
+   "sport": "golf",
+   "competition": "Abu Dabi Aldar Şampiyonasi",
+   "competitionId": "abu-dabi-aldar-sampiyonasi",
+   "kickoff": "2026-11-05T10:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Abu Dabi"
   },
   {
    "id": "se-496606",
@@ -395,6 +430,39 @@ GM_REGISTER_DAY({
    "away": "A.Eala"
   },
   {
+   "id": "se-493704",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
+   "kickoff": "2026-11-05T14:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Afyon Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-496644",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-05T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Arjantin",
+   "away": "Portekiz"
+  },
+  {
    "id": "se-496614",
    "sport": "tenis",
    "competition": "ATP Paris",
@@ -409,6 +477,25 @@ GM_REGISTER_DAY({
    ],
    "home": "B.Shelton",
    "away": "A.Rinderknech"
+  },
+  {
+   "id": "se-496622",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona Yarı Final",
+   "competitionId": "snooker-uluslararasi-sampiyona-yari-final",
+   "kickoff": "2026-11-05T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Z.Fan",
+   "away": "K.Wilson",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-496571",
@@ -509,6 +596,22 @@ GM_REGISTER_DAY({
    "away": "V.Adkar"
   },
   {
+   "id": "se-496645",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-05T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İspanya",
+   "away": "Brezilya"
+  },
+  {
    "id": "se-493703",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
@@ -523,23 +626,6 @@ GM_REGISTER_DAY({
    ],
    "home": "İlbank",
    "away": "Nilüfer Bld.",
-   "turkish": true
-  },
-  {
-   "id": "se-493704",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
-   "kickoff": "2026-11-05T19:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Afyon Bld.",
    "turkish": true
   },
   {
@@ -559,6 +645,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Anadolu Efes",
    "away": "Paris"
+  },
+  {
+   "id": "se-496623",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Dünya Kupasi",
+   "competitionId": "bisikletli-kros-dunya-kupasi",
+   "kickoff": "2026-11-05T20:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Superprestige Kadınlar"
   },
   {
    "id": "se-491808",
@@ -708,6 +809,23 @@ GM_REGISTER_DAY({
    "away": "C.Alcaraz"
   },
   {
+   "id": "se-496634",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-05T21:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aldosivi",
+   "away": "River Plate"
+  },
+  {
    "id": "se-493853",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -756,6 +874,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Olimpia Milano",
    "away": "Valencia Basket"
+  },
+  {
+   "id": "se-496624",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Dünya Kupasi",
+   "competitionId": "bisikletli-kros-dunya-kupasi",
+   "kickoff": "2026-11-05T22:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Superprestige Erkekler"
   },
   {
    "id": "se-491817",
@@ -900,6 +1033,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Iberostar Tenerife",
    "away": "Cluj Napoca"
+  },
+  {
+   "id": "se-496625",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Los Cabos Championship",
+   "competitionId": "golf-pga-tour-los-cabos-championship",
+   "kickoff": "2026-11-05T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1"
+  },
+  {
+   "id": "se-496638",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-05T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Fils",
+   "away": "T.Fritz"
   }
  ]
 });

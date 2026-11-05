@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T05:46:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-05T05:46:54+03:00",
+ "generatedAt": "2026-11-05T15:04:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -331,10 +331,9 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Çayırova Bld.",
    "away": "Bandırma Bordo",
@@ -450,10 +449,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Eyüpspor",
    "away": "Kocaelispor",
@@ -469,10 +467,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Keçiörengücü",
    "away": "Manisa FK",
@@ -706,10 +703,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Samsunspor",
    "away": "Konyaspor",
@@ -725,10 +721,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Muğlaspor",
    "away": "Esenler Erokspor",
@@ -1124,10 +1119,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Göztepe",
    "away": "İstanbul Başakşehir",
@@ -1142,10 +1136,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Galatasaray",
    "away": "Amedspor",
@@ -1476,6 +1469,7 @@ GM_REGISTER_DAY({
    "competitionId": "bundesliga",
    "kickoff": "2026-11-07T20:30:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

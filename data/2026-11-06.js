@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T05:46:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:10+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-05T05:46:46+03:00",
+ "generatedAt": "2026-11-05T15:04:10+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,40 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-496635",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-06T01:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Palmeiras",
+   "away": "Remo"
+  },
+  {
+   "id": "se-496636",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-06T03:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cruzeiro",
+   "away": "Bahia"
+  },
   {
    "id": "se-494730",
    "sport": "basketbol",
@@ -53,6 +87,25 @@ GM_REGISTER_DAY({
    "away": "Miami Heat"
   },
   {
+   "id": "se-496632",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona Yarı Final",
+   "competitionId": "snooker-uluslararasi-sampiyona-yari-final",
+   "kickoff": "2026-11-06T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Higgins",
+   "away": "B.Chang",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-496079",
    "sport": "basketbol",
    "competition": "Avustralya NBL",
@@ -82,6 +135,25 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sergen Yalçın"
+  },
+  {
+   "id": "se-496633",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona Yarı Final",
+   "competitionId": "snooker-uluslararasi-sampiyona-yari-final",
+   "kickoff": "2026-11-06T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Chang",
+   "away": "J.Higgins",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-495432",
@@ -206,10 +278,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Gaziantep FK",
    "away": "Kasımpaşa",
@@ -470,10 +541,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Everton",
    "away": "Coventry"

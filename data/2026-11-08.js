@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T05:47:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-05T05:47:00+03:00",
+ "generatedAt": "2026-11-05T15:04:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -244,6 +244,22 @@ GM_REGISTER_DAY({
    "title": "Malaga Maratonu"
   },
   {
+   "id": "se-496640",
+   "sport": "motor sporları",
+   "competition": "Türkiye Enduro Şampiyonasi",
+   "competitionId": "turkiye-enduro-sampiyonasi",
+   "kickoff": "2026-11-08T11:00:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Rize",
+   "turkish": true
+  },
+  {
    "id": "se-493799",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -368,10 +384,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ç.Rizespor",
    "away": "Erzurumspor",
@@ -677,10 +692,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ümraniyespor",
    "away": "Kayserispor",
@@ -973,10 +987,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Sunderland",
    "away": "Chelsea"
@@ -1071,6 +1084,7 @@ GM_REGISTER_DAY({
    "competitionId": "bundesliga",
    "kickoff": "2026-11-08T17:30:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",
@@ -1238,10 +1252,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Mardin 1969",
    "away": "Batman Petrol",
