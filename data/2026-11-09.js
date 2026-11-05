@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T23:38:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T04:26:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-09",
- "generatedAt": "2026-11-04T23:38:24+03:00",
+ "generatedAt": "2026-11-05T04:26:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,6 +26,22 @@ GM_REGISTER_DAY({
    "away": "GB Packers"
   },
   {
+   "id": "se-496610",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-09T00:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Gauff",
+   "away": "J.Pegula"
+  },
+  {
    "id": "se-494749",
    "sport": "basketbol",
    "competition": "NBA",
@@ -40,6 +56,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Detroit Pistons",
    "away": "LA Lakers"
+  },
+  {
+   "id": "se-496612",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-09T02:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Siniakova/Townsend",
+   "away": "Errani/Paolini"
   },
   {
    "id": "se-494750",
@@ -72,6 +104,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Dallas Mavericks",
    "away": "Brooklyn Nets"
+  },
+  {
+   "id": "se-496613",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-09T03:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bucsa/Martinez",
+   "away": "Perez/Schuurs"
   },
   {
    "id": "se-494752",
@@ -154,6 +202,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Virtus Bologna",
    "away": "Verona"
+  },
+  {
+   "id": "se-496611",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-09T23:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Sabalenka",
+   "away": "K.Muchova"
   }
  ]
 });

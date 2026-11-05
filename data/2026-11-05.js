@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T23:38:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T04:26:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-05",
- "generatedAt": "2026-11-04T23:38:02+03:00",
+ "generatedAt": "2026-11-05T04:26:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -297,6 +297,22 @@ GM_REGISTER_DAY({
    "away": "Zeynep Sönmez"
   },
   {
+   "id": "se-496606",
+   "sport": "tenis",
+   "competition": "WTA Chennai",
+   "competitionId": "wta",
+   "kickoff": "2026-11-05T12:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Uchijima",
+   "away": "M.Linette"
+  },
+  {
    "id": "se-495427",
    "sport": "tenis",
    "competition": "ATP Paris",
@@ -309,7 +325,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Paris"
+   "home": "T.Paul",
+   "away": "Q.Halys"
   },
   {
    "id": "se-496568",
@@ -378,6 +395,22 @@ GM_REGISTER_DAY({
    "away": "A.Eala"
   },
   {
+   "id": "se-496614",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-05T14:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Shelton",
+   "away": "A.Rinderknech"
+  },
+  {
    "id": "se-496571",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi 2",
@@ -426,6 +459,54 @@ GM_REGISTER_DAY({
    ],
    "home": "Svay Rieng",
    "away": "Tampines"
+  },
+  {
+   "id": "se-496607",
+   "sport": "tenis",
+   "competition": "WTA Chennai",
+   "competitionId": "wta",
+   "kickoff": "2026-11-05T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "S.Waltert",
+   "away": "L.Stefanini"
+  },
+  {
+   "id": "se-496615",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-05T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Musetti",
+   "away": "L.Van Assche"
+  },
+  {
+   "id": "se-496608",
+   "sport": "tenis",
+   "competition": "WTA Chennai",
+   "competitionId": "wta",
+   "kickoff": "2026-11-05T17:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zakharova",
+   "away": "V.Adkar"
   },
   {
    "id": "se-493703",
@@ -611,11 +692,27 @@ GM_REGISTER_DAY({
    "away": "Baskonia"
   },
   {
+   "id": "se-496616",
+   "sport": "tenis",
+   "competition": "ATP Paris",
+   "competitionId": "atp",
+   "kickoff": "2026-11-05T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Berrettini",
+   "away": "C.Alcaraz"
+  },
+  {
    "id": "se-493853",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
-   "kickoff": "2026-11-05T21:00:00+03:00",
+   "kickoff": "2026-11-05T21:45:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],

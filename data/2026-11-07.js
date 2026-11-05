@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-04T23:38:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T04:26:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-04T23:38:17+03:00",
+ "generatedAt": "2026-11-05T04:26:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1320,22 +1320,6 @@ GM_REGISTER_DAY({
    "away": "Harem Spor"
   },
   {
-   "id": "se-494391",
-   "sport": "futbol",
-   "competition": "Fransa Ligue 1",
-   "competitionId": "ligue-1",
-   "kickoff": "2026-11-07T19:15:00+03:00",
-   "broadcasters": [
-    "beIN CONNECT"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Auxerre",
-   "away": "Paris FC"
-  },
-  {
    "id": "se-493216",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
@@ -1382,6 +1366,22 @@ GM_REGISTER_DAY({
    ],
    "home": "NFH",
    "away": "Storhamar"
+  },
+  {
+   "id": "se-494391",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-11-07T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Auxerre",
+   "away": "Paris FC"
   },
   {
    "id": "se-494420",
@@ -1565,23 +1565,6 @@ GM_REGISTER_DAY({
    "away": "Pau Orthez"
   },
   {
-   "id": "se-494392",
-   "sport": "futbol",
-   "competition": "Fransa Ligue 1",
-   "competitionId": "ligue-1",
-   "kickoff": "2026-11-07T22:45:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 2"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
-   ],
-   "home": "PSG",
-   "away": "Troyes"
-  },
-  {
    "id": "se-494421",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -1632,6 +1615,22 @@ GM_REGISTER_DAY({
    ],
    "home": "St.Mirren",
    "away": "Glasgow Rangers"
+  },
+  {
+   "id": "se-494392",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 1",
+   "competitionId": "ligue-1",
+   "kickoff": "2026-11-07T23:05:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "PSG",
+   "away": "Troyes"
   },
   {
    "id": "se-495744",
