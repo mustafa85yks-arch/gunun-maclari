@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:10+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T20:00:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-05T15:04:10+03:00",
+ "generatedAt": "2026-11-05T20:00:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -106,6 +106,22 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-496646",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-06T09:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zeynep Sönmez",
+   "away": "C.Liu"
+  },
+  {
    "id": "se-496079",
    "sport": "basketbol",
    "competition": "Avustralya NBL",
@@ -120,6 +136,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Tasmania JackJumpers",
    "away": "NZ Breakers"
+  },
+  {
+   "id": "se-496647",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-06T13:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Sasnovich",
+   "away": "M.Sakkari"
   },
   {
    "id": "se-496549",
@@ -171,6 +203,22 @@ GM_REGISTER_DAY({
     "ssport.tv"
    ],
    "title": "Serbest Antrenman 1"
+  },
+  {
+   "id": "se-496648",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-06T15:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Ruzic",
+   "away": "A.Eala"
   },
   {
    "id": "se-495440",
@@ -278,12 +326,47 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "beinsports.com.tr"
+   ],
+   "home": "Gaziantep FK",
+   "away": "Kasımpaşa",
+   "turkish": true
+  },
+  {
+   "id": "se-493856",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-06T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Gaziantep FK",
-   "away": "Kasımpaşa",
+   "home": "Beşiktaş",
+   "away": "Zalgiris Kaunas"
+  },
+  {
+   "id": "se-489823",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-06T20:00:00+03:00",
+   "broadcasters": [
+    "TRT Türk",
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sarıyer",
+   "away": "Iğdırspor",
    "turkish": true
   },
   {
@@ -306,29 +389,11 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489823",
+   "id": "se-494363",
    "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
-   "kickoff": "2026-11-06T20:00:00+03:00",
-   "broadcasters": [
-    "TRT Türk",
-    "beIN SPORTS MAX 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sarıyer",
-   "away": "Iğdırspor",
-   "turkish": true
-  },
-  {
-   "id": "se-493856",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-06T20:00:00+03:00",
+   "competition": "Almanya Bundesliga 2",
+   "competitionId": "almanya-bundesliga-2",
+   "kickoff": "2026-11-06T20:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -336,8 +401,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Beşiktaş",
-   "away": "Zalgiris Kaunas"
+   "home": "Braunschweig",
+   "away": "Energie Cottbus"
   },
   {
    "id": "se-496255",
@@ -354,22 +419,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Ittihad",
    "away": "Neom"
-  },
-  {
-   "id": "se-494363",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-11-06T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Braunschweig",
-   "away": "Energie Cottbus"
   },
   {
    "id": "se-495442",
@@ -436,20 +485,20 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-493858",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-496649",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
    "kickoff": "2026-11-06T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "Sıfır TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Virtus Bologna",
-   "away": "Dubai Basket"
+   "home": "Ascoli",
+   "away": "Palermo"
   },
   {
    "id": "se-494336",
@@ -466,6 +515,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hamburg",
    "away": "Monchengladbach"
+  },
+  {
+   "id": "se-493858",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-06T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Virtus Bologna",
+   "away": "Dubai Basket"
   },
   {
    "id": "se-493859",
@@ -541,9 +606,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Everton",
    "away": "Coventry"

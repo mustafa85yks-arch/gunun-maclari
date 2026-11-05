@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T20:00:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-11",
- "generatedAt": "2026-11-05T15:04:25+03:00",
+ "generatedAt": "2026-11-05T20:00:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-496656",
+   "sport": "basketbol",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-11T03:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Duke",
+   "away": "Michigan State"
+  },
   {
    "id": "se-494763",
    "sport": "basketbol",
@@ -32,7 +48,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-11T04:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -40,6 +58,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Philadelphia 76ers",
    "away": "Boston Celtics"
+  },
+  {
+   "id": "se-494765",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-11T05:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Phoenix Suns",
+   "away": "LA Clippers"
   },
   {
    "id": "se-494766",
@@ -58,20 +92,20 @@ GM_REGISTER_DAY({
    "away": "Miami Heat"
   },
   {
-   "id": "se-494765",
+   "id": "se-496657",
    "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-11T05:00:00+03:00",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-11T05:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Phoenix Suns",
-   "away": "LA Clippers"
+   "home": "Kentucky Wildcats",
+   "away": "Kansas Chiefs"
   },
   {
    "id": "se-494767",
@@ -234,6 +268,22 @@ GM_REGISTER_DAY({
    "away": "Iberostar Tenerife"
   },
   {
+   "id": "se-494171",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-11-11T20:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nitra Blue Wings",
+   "away": "Szczecin"
+  },
+  {
    "id": "se-494665",
    "sport": "basketbol",
    "competition": "FIBA Şampiyonlar Ligi",
@@ -282,22 +332,6 @@ GM_REGISTER_DAY({
    "away": "Kolossos Rhodes"
   },
   {
-   "id": "se-494172",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-11-11T20:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Promitheas",
-   "away": "BC Trepca"
-  },
-  {
    "id": "se-494170",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -330,7 +364,7 @@ GM_REGISTER_DAY({
    "away": "Basquet Girona"
   },
   {
-   "id": "se-494171",
+   "id": "se-494172",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
    "competitionId": "fiba-europe-cup",
@@ -342,8 +376,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Nitra Blue Wings",
-   "away": "Szczecin"
+   "home": "Promitheas",
+   "away": "BC Trepca"
   },
   {
    "id": "se-494175",

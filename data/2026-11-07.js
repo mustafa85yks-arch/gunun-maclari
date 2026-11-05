@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T20:00:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-05T15:04:18+03:00",
+ "generatedAt": "2026-11-05T20:00:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -331,9 +331,10 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Çayırova Bld.",
    "away": "Bandırma Bordo",
@@ -449,9 +450,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Eyüpspor",
    "away": "Kocaelispor",
@@ -467,9 +469,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Keçiörengücü",
    "away": "Manisa FK",
@@ -703,9 +706,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Samsunspor",
    "away": "Konyaspor",
@@ -721,9 +725,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Muğlaspor",
    "away": "Esenler Erokspor",
@@ -1093,6 +1098,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-494503",
+   "sport": "boks",
+   "competition": "WBC Ağir Siklet",
+   "competitionId": "wbc-agir-siklet",
+   "kickoff": "2026-11-07T18:00:00+03:00",
+   "broadcasters": [
+    "TV 8 Buçuk"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Umut Camkiran",
+   "away": "M.Aliev"
+  },
+  {
    "id": "se-493663",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -1119,9 +1140,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Göztepe",
    "away": "İstanbul Başakşehir",
@@ -1136,9 +1158,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Galatasaray",
    "away": "Amedspor",
@@ -1311,6 +1334,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Keçiören Bld",
    "away": "Harem Spor"
+  },
+  {
+   "id": "se-496650",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-11-07T19:15:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mantova",
+   "away": "Verona"
   },
   {
    "id": "se-493216",
@@ -1493,22 +1532,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sıralama Turları"
-  },
-  {
-   "id": "se-494503",
-   "sport": "boks",
-   "competition": "WBC Ağir Siklet",
-   "competitionId": "wbc-agir-siklet",
-   "kickoff": "2026-11-07T21:30:00+03:00",
-   "broadcasters": [
-    "TV 8 Buçuk"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Umut Camkiran",
-   "away": "M.Aliev"
   },
   {
    "id": "se-496401",

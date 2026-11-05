@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T20:00:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-05T15:04:25+03:00",
+ "generatedAt": "2026-11-05T20:00:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -16,7 +16,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-12T03:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -144,7 +146,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-12T05:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -168,6 +172,36 @@ GM_REGISTER_DAY({
    ],
    "home": "Portland TB",
    "away": "OKC Thunder"
+  },
+  {
+   "id": "se-496659",
+   "sport": "tenis",
+   "competition": "ATP Stockholm Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-12T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 1"
+  },
+  {
+   "id": "se-496660",
+   "sport": "tenis",
+   "competition": "ATP Stockholm Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-12T17:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 2"
   },
   {
    "id": "se-494187",
@@ -234,6 +268,53 @@ GM_REGISTER_DAY({
    "away": "Güney Kıbrıs"
   },
   {
+   "id": "se-496668",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-11-12T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Litvanya",
+   "away": "Surinam"
+  },
+  {
+   "id": "se-496661",
+   "sport": "tenis",
+   "competition": "ATP Stockholm Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-12T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 3"
+  },
+  {
+   "id": "se-496669",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-11-12T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Andorra",
+   "away": "Azerbaycan"
+  },
+  {
    "id": "se-493862",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -285,6 +366,21 @@ GM_REGISTER_DAY({
    "away": "Zalgiris Kaunas"
   },
   {
+   "id": "se-496662",
+   "sport": "tenis",
+   "competition": "ATP Stockholm Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-12T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 4"
+  },
+  {
    "id": "se-493865",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -308,7 +404,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-12T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -372,7 +468,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-12T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [

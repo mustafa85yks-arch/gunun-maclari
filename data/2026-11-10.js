@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T15:04:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T20:00:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-10",
- "generatedAt": "2026-11-05T15:04:25+03:00",
+ "generatedAt": "2026-11-05T20:00:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -90,13 +90,31 @@ GM_REGISTER_DAY({
    "away": "Indiana Pacers"
   },
   {
+   "id": "se-496652",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-11-10T04:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Minnesota Vikings",
+   "away": "Buffalo Bills"
+  },
+  {
    "id": "se-494760",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-10T04:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
