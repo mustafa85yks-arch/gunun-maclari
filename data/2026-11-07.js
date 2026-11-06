@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-06T19:31:55+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-06T23:11:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-06T19:31:55+03:00",
+ "generatedAt": "2026-11-06T23:11:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -308,8 +308,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-496443",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
+   "competition": "TVF Erkekler 2. Lig  Futbolligi takvimi",
+   "competitionId": "tvf-erkekler-2-lig-futbolligi-takvimi",
    "kickoff": "2026-11-07T11:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
@@ -360,8 +360,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-496140",
    "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
+   "competition": "TFF 3. Lig  Futbolligi takvimi",
+   "competitionId": "tff-3-lig-futbolligi-takvimi",
    "kickoff": "2026-11-07T13:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"
