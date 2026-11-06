@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-05T23:54:05+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-06T04:30:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-05T23:54:05+03:00",
+ "generatedAt": "2026-11-06T04:30:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -138,6 +138,22 @@ GM_REGISTER_DAY({
    "away": "NZ Breakers"
   },
   {
+   "id": "se-496686",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong",
+   "competitionId": "wta",
+   "kickoff": "2026-11-06T11:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "S.Cirstea",
+   "away": "A.Shubladze"
+  },
+  {
    "id": "se-496647",
    "sport": "tenis",
    "competition": "WTA Hong Kong",
@@ -167,6 +183,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sergen Yalçın"
+  },
+  {
+   "id": "se-496684",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-06T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İspanya",
+   "away": "Fransa"
   },
   {
    "id": "se-496633",
@@ -233,7 +265,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "B.Shelton",
+   "away": "T.Paul"
   },
   {
    "id": "se-495448",
@@ -264,7 +297,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "L.Van Assche",
+   "away": "R.Hijikata"
+  },
+  {
+   "id": "se-496685",
+   "sport": "tenis",
+   "competition": "Tenis FIP Dünya Kupasi",
+   "competitionId": "tenis-fip-dunya-kupasi",
+   "kickoff": "2026-11-06T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Arjantin",
+   "away": "İtalya"
   },
   {
    "id": "se-493304",
@@ -336,20 +386,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493856",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-489822",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
    "kickoff": "2026-11-06T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TRT Spor",
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
-   "home": "Beşiktaş",
-   "away": "Zalgiris Kaunas"
+   "home": "Antalyaspor",
+   "away": "Bursaspor",
+   "turkish": true
   },
   {
    "id": "se-489823",
@@ -370,39 +423,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-489822",
-   "sport": "futbol",
-   "competition": "Trendyol 1. Lig",
-   "competitionId": "1-lig",
+   "id": "se-493856",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-11-06T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
-    "beIN SPORTS 2"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "dogrulandi",
    "sources": [
     "sporekrani.com",
-    "beinsports.com.tr"
+    "ssport.tv"
    ],
-   "home": "Antalyaspor",
-   "away": "Bursaspor",
-   "turkish": true
-  },
-  {
-   "id": "se-494363",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-11-06T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Braunschweig",
-   "away": "Energie Cottbus"
+   "home": "Beşiktaş",
+   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-496255",
@@ -421,6 +457,22 @@ GM_REGISTER_DAY({
    "away": "Neom"
   },
   {
+   "id": "se-494363",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 2",
+   "competitionId": "almanya-bundesliga-2",
+   "kickoff": "2026-11-06T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Braunschweig",
+   "away": "Energie Cottbus"
+  },
+  {
    "id": "se-495442",
    "sport": "tenis",
    "competition": "ATP Paris Çeyrek Final",
@@ -433,7 +485,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
+   "home": "T.Fritz",
+   "away": "C.Alcaraz"
   },
   {
    "id": "se-493305",
@@ -485,22 +538,6 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-496649",
-   "sport": "futbol",
-   "competition": "İtalya Serie B",
-   "competitionId": "italya-serie-b",
-   "kickoff": "2026-11-06T22:30:00+03:00",
-   "broadcasters": [
-    "Sıfır TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ascoli",
-   "away": "Palermo"
-  },
-  {
    "id": "se-494336",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -515,6 +552,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Hamburg",
    "away": "Monchengladbach"
+  },
+  {
+   "id": "se-496649",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-11-06T22:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ascoli",
+   "away": "Palermo"
   },
   {
    "id": "se-493858",
@@ -539,11 +592,13 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-06T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Partizan",
    "away": "Maccabi Fox"
@@ -627,7 +682,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
+   "home": "C.Ruud",
+   "away": "N.Borges"
   }
  ]
 });
