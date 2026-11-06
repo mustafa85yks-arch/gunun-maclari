@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-06T05:50:10+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-06T14:58:00+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-06",
- "generatedAt": "2026-11-06T05:50:10+03:00",
+ "generatedAt": "2026-11-06T14:58:00+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -122,6 +122,36 @@ GM_REGISTER_DAY({
    "away": "C.Liu"
   },
   {
+   "id": "se-496703",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-06T09:45:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Kısa Program"
+  },
+  {
+   "id": "se-496704",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-06T11:25:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Kısa Program"
+  },
+  {
    "id": "se-496079",
    "sport": "basketbol",
    "competition": "Avustralya NBL",
@@ -201,6 +231,36 @@ GM_REGISTER_DAY({
    "away": "Fransa"
   },
   {
+   "id": "se-496689",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-06T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler 110kg"
+  },
+  {
+   "id": "se-496705",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-06T14:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Çiftler Kısa Program"
+  },
+  {
    "id": "se-496633",
    "sport": "snooker",
    "competition": "Snooker Uluslararasi Şampiyona Yarı Final",
@@ -269,20 +329,19 @@ GM_REGISTER_DAY({
    "away": "T.Paul"
   },
   {
-   "id": "se-495448",
-   "sport": "futbol",
-   "competition": "Suudi Arabistan Pro Lig",
-   "competitionId": "suudi-arabistan-pro-lig",
-   "kickoff": "2026-11-06T17:55:00+03:00",
+   "id": "se-496706",
+   "sport": "dövüş sporları",
+   "competition": "Sambo Dünya Şampiyonasi",
+   "competitionId": "sambo-dunya-sampiyonasi",
+   "kickoff": "2026-11-06T16:35:00+03:00",
    "broadcasters": [
-    "HT Spor"
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Al Hazem",
-   "away": "Al Nassr"
+   "title": "Gün 1"
   },
   {
    "id": "se-495441",
@@ -441,22 +500,6 @@ GM_REGISTER_DAY({
    "away": "Zalgiris Kaunas"
   },
   {
-   "id": "se-496255",
-   "sport": "futbol",
-   "competition": "Suudi Arabistan Pro Lig",
-   "competitionId": "suudi-arabistan-pro-lig",
-   "kickoff": "2026-11-06T20:30:00+03:00",
-   "broadcasters": [
-    "HT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Al Ittihad",
-   "away": "Neom"
-  },
-  {
    "id": "se-494363",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -538,6 +581,22 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
+   "id": "se-493858",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-06T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Virtus Bologna",
+   "away": "Dubai Basket"
+  },
+  {
    "id": "se-494336",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -568,22 +627,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Ascoli",
    "away": "Palermo"
-  },
-  {
-   "id": "se-493858",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-06T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Virtus Bologna",
-   "away": "Dubai Basket"
   },
   {
    "id": "se-493859",
@@ -684,6 +727,21 @@ GM_REGISTER_DAY({
    ],
    "home": "C.Ruud",
    "away": "N.Borges"
+  },
+  {
+   "id": "se-496707",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Los Cabos Championship",
+   "competitionId": "golf-pga-tour-los-cabos-championship",
+   "kickoff": "2026-11-06T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
   }
  ]
 });
