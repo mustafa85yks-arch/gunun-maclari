@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T03:52:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T05:22:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-07T03:52:45+03:00",
+ "generatedAt": "2026-11-07T05:22:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -384,10 +384,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ç.Rizespor",
    "away": "Erzurumspor",
@@ -693,10 +692,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Ümraniyespor",
    "away": "Kayserispor",
@@ -1254,10 +1252,9 @@ GM_REGISTER_DAY({
     "TRT Kurdi",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Mardin 1969",
    "away": "Batman Petrol",
