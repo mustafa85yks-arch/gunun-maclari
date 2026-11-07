@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-06T23:11:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T03:52:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-06T23:11:26+03:00",
+ "generatedAt": "2026-11-07T03:52:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -306,10 +306,48 @@ GM_REGISTER_DAY({
    "away": "M.Magomedov"
   },
   {
+   "id": "se-496731",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-07T09:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Shubladze",
+   "away": "C.Liu",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-496732",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-07T10:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Sakkari",
+   "away": "A.Eala",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-496443",
    "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig  Futbolligi takvimi",
-   "competitionId": "tvf-erkekler-2-lig-futbolligi-takvimi",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
    "kickoff": "2026-11-07T11:00:00+03:00",
    "broadcasters": [
     "TVF Voleybol TV Youtube"
@@ -320,6 +358,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Halkbank",
    "away": "Ankara Barosu"
+  },
+  {
+   "id": "se-496748",
+   "sport": "futbol",
+   "competition": "KKTC Dostluk Kupasi",
+   "competitionId": "kktc-dostluk-kupasi",
+   "kickoff": "2026-11-07T11:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Lefkoşa Karnasi"
+  },
+  {
+   "id": "se-496749",
+   "sport": "futbol",
+   "competition": "KKTC Dostluk Kupasi",
+   "competitionId": "kktc-dostluk-kupasi",
+   "kickoff": "2026-11-07T12:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Girne Karnasi"
   },
   {
    "id": "se-493795",
@@ -360,8 +430,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-496140",
    "sport": "futbol",
-   "competition": "TFF 3. Lig  Futbolligi takvimi",
-   "competitionId": "tff-3-lig-futbolligi-takvimi",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
    "kickoff": "2026-11-07T13:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"
@@ -442,6 +512,22 @@ GM_REGISTER_DAY({
    "away": "Çankırı Birlik Spor"
   },
   {
+   "id": "se-496750",
+   "sport": "futbol",
+   "competition": "KKTC Dostluk Kupasi",
+   "competitionId": "kktc-dostluk-kupasi",
+   "kickoff": "2026-11-07T13:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beşiktaş",
+   "away": "Gazimağusa İskele Karnasi"
+  },
+  {
    "id": "se-488974",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -466,7 +552,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-07T13:30:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "tabii Spor 6",
     "beIN SPORTS 2"
    ],
    "verification": "dogrulandi",
@@ -485,7 +571,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-07T13:30:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Avaz",
     "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
@@ -545,6 +631,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "İstanbul BB"
+  },
+  {
+   "id": "se-496751",
+   "sport": "futbol",
+   "competition": "KKTC Dostluk Kupasi",
+   "competitionId": "kktc-dostluk-kupasi",
+   "kickoff": "2026-11-07T14:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 7"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Güzelyurt Lefke İskele Karnasi"
   },
   {
    "id": "se-494367",
@@ -611,6 +713,21 @@ GM_REGISTER_DAY({
    ],
    "home": "TED Kolejliler",
    "away": "Büyükçekmece"
+  },
+  {
+   "id": "se-496714",
+   "sport": "futbol",
+   "competition": "KKTC Dostluk Kupasi",
+   "competitionId": "kktc-dostluk-kupasi",
+   "kickoff": "2026-11-07T15:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gösteri Maçı"
   },
   {
    "id": "se-493682",
@@ -698,6 +815,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496746",
+   "sport": "tenis",
+   "competition": "WTA Chennai",
+   "competitionId": "wta",
+   "kickoff": "2026-11-07T15:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Tien",
+   "away": "R.Montgomery"
+  },
+  {
    "id": "se-488975",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -722,7 +855,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-07T16:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Türk",
     "beIN SPORTS HABER"
    ],
    "verification": "dogrulandi",
@@ -914,10 +1047,27 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "home": "L.Van Assche",
+   "away": "B.Shelton",
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-496747",
+   "sport": "tenis",
+   "competition": "WTA Chennai",
+   "competitionId": "wta",
+   "kickoff": "2026-11-07T16:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Linette",
+   "away": "A.Zakharova"
   },
   {
    "id": "se-494419",
@@ -1434,22 +1584,6 @@ GM_REGISTER_DAY({
    "away": "Bologna"
   },
   {
-   "id": "se-495451",
-   "sport": "dövüş sporları",
-   "competition": "MMA Kafes Dövüşü",
-   "competitionId": "mma-kafes-dovusu",
-   "kickoff": "2026-11-07T20:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "I.Severino",
-   "away": "M.Holzer"
-  },
-  {
    "id": "se-493664",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -1532,6 +1666,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-495451",
+   "sport": "dövüş sporları",
+   "competition": "MMA Kafes Dövüşü",
+   "competitionId": "mma-kafes-dovusu",
+   "kickoff": "2026-11-07T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "I.Severino",
+   "away": "M.Holzer"
   },
   {
    "id": "se-496401",

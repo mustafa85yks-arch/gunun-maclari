@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-06T23:11:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T03:52:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-06T23:11:33+03:00",
+ "generatedAt": "2026-11-07T03:52:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -709,7 +709,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-08T16:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "tabii Spor 6",
     "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
@@ -1251,7 +1251,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-08T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Kurdi",
     "beIN SPORTS 2"
    ],
    "verification": "dogrulandi",
