@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T05:22:07+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T13:58:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-07T05:22:07+03:00",
+ "generatedAt": "2026-11-07T13:58:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -229,6 +229,21 @@ GM_REGISTER_DAY({
    "away": "S.Brady"
   },
   {
+   "id": "se-496788",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-08T08:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Serbest Program"
+  },
+  {
    "id": "se-496405",
    "sport": "atletizm",
    "competition": "Şehir Maratonu",
@@ -258,6 +273,21 @@ GM_REGISTER_DAY({
    ],
    "title": "Rize",
    "turkish": true
+  },
+  {
+   "id": "se-496789",
+   "sport": "bisiklet",
+   "competition": "Singapur Bisiklet Turu",
+   "competitionId": "singapur-bisiklet-turu",
+   "kickoff": "2026-11-08T11:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Singapur"
   },
   {
    "id": "se-493799",
@@ -928,6 +958,21 @@ GM_REGISTER_DAY({
    ],
    "home": "iLab Basketbol",
    "away": "Göztepe"
+  },
+  {
+   "id": "se-496790",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Avrupa Şampiyonasi",
+   "competitionId": "bisikletli-kros-avrupa-sampiyonasi",
+   "kickoff": "2026-11-08T16:50:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Elit Erkekler"
   },
   {
    "id": "se-493686",
@@ -1717,6 +1762,21 @@ GM_REGISTER_DAY({
    ],
    "home": "E.Rybakina",
    "away": "L.Noskova"
+  },
+  {
+   "id": "se-496791",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Los Cabos Championship",
+   "competitionId": "golf-pga-tour-los-cabos-championship",
+   "kickoff": "2026-11-08T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4"
   },
   {
    "id": "se-494748",

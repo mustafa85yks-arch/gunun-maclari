@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T05:22:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T13:58:03+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-07T05:22:01+03:00",
+ "generatedAt": "2026-11-07T13:58:03+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -325,6 +325,56 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-496782",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona Final",
+   "competitionId": "snooker-uluslararasi-sampiyona-final",
+   "kickoff": "2026-11-07T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "K.Wilson",
+   "away": "J.Higgins",
+   "tags": [
+    "final"
+   ]
+  },
+  {
+   "id": "se-496784",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-07T09:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Serbest Program"
+  },
+  {
+   "id": "se-496755",
+   "sport": "golf",
+   "competition": "Abu Dabi Aldar Şampiyonasi",
+   "competitionId": "abu-dabi-aldar-sampiyonasi",
+   "kickoff": "2026-11-07T10:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Abu Dabi"
+  },
+  {
    "id": "se-496732",
    "sport": "tenis",
    "competition": "WTA Hong Kong Yarı Final",
@@ -392,6 +442,40 @@ GM_REGISTER_DAY({
    "away": "Girne Karnasi"
   },
   {
+   "id": "se-496766",
+   "sport": "futbol",
+   "competition": "TFF Elit U16 Ligi",
+   "competitionId": "tff-elit-u16-ligi",
+   "kickoff": "2026-11-07T12:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Ümraniyespor",
+   "turkish": true
+  },
+  {
+   "id": "se-496776",
+   "sport": "basketbol",
+   "competition": "Tekerlekli Sandalye Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-11-07T12:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe İstanbul Jet",
+   "away": "Şanlıurfa BB",
+   "turkish": true
+  },
+  {
    "id": "se-493795",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -401,10 +485,9 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Çayırova Bld.",
    "away": "Bandırma Bordo",
@@ -583,6 +666,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496785",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-07T13:40:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Çiftler Serbest Program"
+  },
+  {
    "id": "se-494046",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -647,6 +745,57 @@ GM_REGISTER_DAY({
    ],
    "home": "Trabzonspor",
    "away": "Güzelyurt Lefke İskele Karnasi"
+  },
+  {
+   "id": "se-496756",
+   "sport": "motor sporları",
+   "competition": "Türkiye Enduro Şampiyonasi",
+   "competitionId": "turkiye-enduro-sampiyonasi",
+   "kickoff": "2026-11-07T14:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Rize Yayın 1",
+   "turkish": true
+  },
+  {
+   "id": "se-496765",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-07T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar 86kg"
+  },
+  {
+   "id": "se-496783",
+   "sport": "snooker",
+   "competition": "Snooker Uluslararasi Şampiyona Final",
+   "competitionId": "snooker-uluslararasi-sampiyona-final",
+   "kickoff": "2026-11-07T14:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Higgins",
+   "away": "K.Wilson",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-494367",
@@ -728,6 +877,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gösteri Maçı"
+  },
+  {
+   "id": "se-496767",
+   "sport": "futbol",
+   "competition": "TFF Elit U17 Ligi",
+   "competitionId": "tff-elit-u17-ligi",
+   "kickoff": "2026-11-07T15:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Ümraniyespor",
+   "turkish": true
   },
   {
    "id": "se-493682",
@@ -858,10 +1024,9 @@ GM_REGISTER_DAY({
     "TRT Türk",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Muğlaspor",
    "away": "Esenler Erokspor",
@@ -1070,6 +1235,21 @@ GM_REGISTER_DAY({
    "away": "A.Zakharova"
   },
   {
+   "id": "se-496786",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Avrupa Şampiyonasi",
+   "competitionId": "bisikletli-kros-avrupa-sampiyonasi",
+   "kickoff": "2026-11-07T16:50:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Elit Kadınlar"
+  },
+  {
    "id": "se-494419",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -1248,22 +1428,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-494503",
-   "sport": "boks",
-   "competition": "WBC Ağir Siklet",
-   "competitionId": "wbc-agir-siklet",
-   "kickoff": "2026-11-07T18:00:00+03:00",
-   "broadcasters": [
-    "TV 8 Buçuk"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Umut Camkiran",
-   "away": "M.Aliev"
-  },
-  {
    "id": "se-493663",
    "sport": "futbol",
    "competition": "İspanya La Liga",
@@ -1280,6 +1444,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Espanyol",
    "away": "Deportivo"
+  },
+  {
+   "id": "se-494503",
+   "sport": "boks",
+   "competition": "WBC Ağir Siklet",
+   "competitionId": "wbc-agir-siklet",
+   "kickoff": "2026-11-07T18:30:00+03:00",
+   "broadcasters": [
+    "Fight Club Türkiye Youtube",
+    "TV 8 Buçuk"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Umut Camkiran",
+   "away": "M.Aliev"
   },
   {
    "id": "se-488976",
@@ -1382,7 +1563,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 2",
+   "home": "C.Ruud",
+   "away": "C.Alcaraz",
    "tags": [
     "yari-final"
    ]
@@ -1582,6 +1764,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Parma",
    "away": "Bologna"
+  },
+  {
+   "id": "se-496753",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-07T20:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manresa",
+   "away": "Obradoiro CAB"
   },
   {
    "id": "se-493664",
@@ -1784,6 +1983,38 @@ GM_REGISTER_DAY({
    "away": "Glasgow Rangers"
   },
   {
+   "id": "se-496754",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-07T23:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lleida",
+   "away": "Baskonia"
+  },
+  {
+   "id": "se-496787",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Los Cabos Championship",
+   "competitionId": "golf-pga-tour-los-cabos-championship",
+   "kickoff": "2026-11-07T23:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
    "id": "se-494392",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1792,9 +2023,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "PSG",
    "away": "Troyes"
@@ -1831,6 +2063,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Sporting Lisbon",
    "away": "Moreirense"
+  },
+  {
+   "id": "se-496752",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-07T23:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boca Juniors",
+   "away": "Defensa"
   }
  ]
 });
