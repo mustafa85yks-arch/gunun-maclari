@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T13:58:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T18:18:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-07",
- "generatedAt": "2026-11-07T13:58:03+03:00",
+ "generatedAt": "2026-11-07T18:18:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -485,9 +485,10 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Çayırova Bld.",
    "away": "Bandırma Bordo",
@@ -1024,9 +1025,10 @@ GM_REGISTER_DAY({
     "TRT Türk",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Muğlaspor",
    "away": "Esenler Erokspor",
