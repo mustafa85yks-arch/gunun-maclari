@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T03:26:52+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T04:49:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-09",
- "generatedAt": "2026-11-08T03:26:52+03:00",
+ "generatedAt": "2026-11-08T04:49:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -93,7 +93,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494750",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-09T03:00:00+03:00",
    "broadcasters": [
@@ -173,7 +173,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494753",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-09T05:00:00+03:00",
    "broadcasters": [
@@ -205,7 +205,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-493802",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
+   "competition": "Basketbol Süper Ligi  Basketbolekipmanları",
    "competitionId": "bsl",
    "kickoff": "2026-11-09T19:00:00+03:00",
    "broadcasters": [
@@ -223,8 +223,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-496084",
    "sport": "basketbol",
-   "competition": "İtalya Basketbol Ligi  BasketbolOyna",
-   "competitionId": "italya-basketbol-ligi-basketboloyna",
+   "competition": "İtalya Basketbol Ligi",
+   "competitionId": "italya-basketbol-ligi",
    "kickoff": "2026-11-09T22:00:00+03:00",
    "broadcasters": [
     "Euroleague TV"
