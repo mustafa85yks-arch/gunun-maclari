@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T21:26:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T03:26:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-07T21:26:03+03:00",
+ "generatedAt": "2026-11-08T03:26:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -20,7 +20,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494741",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-08T01:00:00+03:00",
    "broadcasters": [
@@ -52,7 +52,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494743",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-08T04:00:00+03:00",
    "broadcasters": [
@@ -135,7 +135,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494746",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-08T05:00:00+03:00",
    "broadcasters": [
@@ -273,6 +273,25 @@ GM_REGISTER_DAY({
    ],
    "title": "Rize",
    "turkish": true
+  },
+  {
+   "id": "se-496812",
+   "sport": "tenis",
+   "competition": "WTA Hong Kong Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-08T11:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Liu",
+   "away": "A.Eala",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-496789",
@@ -516,8 +535,8 @@ GM_REGISTER_DAY({
    "competitionId": "ispanya-basketbol-ligi",
    "kickoff": "2026-11-08T14:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -930,6 +949,25 @@ GM_REGISTER_DAY({
    "away": "Ankaragücü"
   },
   {
+   "id": "se-496813",
+   "sport": "tenis",
+   "competition": "WTA Chennai Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-08T16:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Tien",
+   "away": "M.Linette",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-495454",
    "sport": "futbol",
    "competition": "Hollanda Eredivisie",
@@ -1105,7 +1143,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "B.Shelton",
+   "away": "C.Alcaraz",
    "tags": [
     "final"
    ]
@@ -1408,6 +1447,23 @@ GM_REGISTER_DAY({
    "away": "Energia Trento"
   },
   {
+   "id": "se-496816",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-08T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zaragoza",
+   "away": "Unicaja Malaga"
+  },
+  {
    "id": "se-494394",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1576,7 +1632,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-08T20:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [

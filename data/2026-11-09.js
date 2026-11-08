@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-07T21:26:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T03:26:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-09",
- "generatedAt": "2026-11-07T21:26:03+03:00",
+ "generatedAt": "2026-11-08T03:26:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -42,6 +42,23 @@ GM_REGISTER_DAY({
    "away": "J.Pegula"
   },
   {
+   "id": "se-496815",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-09T01:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Central Cordoba",
+   "away": "Lanus"
+  },
+  {
    "id": "se-494749",
    "sport": "basketbol",
    "competition": "NBA",
@@ -76,7 +93,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494750",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-09T03:00:00+03:00",
    "broadcasters": [
@@ -138,9 +155,25 @@ GM_REGISTER_DAY({
    "away": "Boston Celtics"
   },
   {
+   "id": "se-496814",
+   "sport": "boks",
+   "competition": "MVP Boxing",
+   "competitionId": "mvp-boxing",
+   "kickoff": "2026-11-09T04:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Elif Turhan",
+   "away": "A.Baumgardner"
+  },
+  {
    "id": "se-494753",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-09T05:00:00+03:00",
    "broadcasters": [
@@ -190,8 +223,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-496084",
    "sport": "basketbol",
-   "competition": "İtalya Basketbol Ligi",
-   "competitionId": "italya-basketbol-ligi",
+   "competition": "İtalya Basketbol Ligi  BasketbolOyna",
+   "competitionId": "italya-basketbol-ligi-basketboloyna",
    "kickoff": "2026-11-09T22:00:00+03:00",
    "broadcasters": [
     "Euroleague TV"
