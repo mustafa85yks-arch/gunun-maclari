@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T04:49:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T14:11:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-08",
- "generatedAt": "2026-11-08T04:49:46+03:00",
+ "generatedAt": "2026-11-08T14:11:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -244,6 +244,37 @@ GM_REGISTER_DAY({
    "title": "Erkekler Serbest Program"
   },
   {
+   "id": "se-496819",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-08T09:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler 110kg"
+  },
+  {
+   "id": "se-496843",
+   "sport": "golf",
+   "competition": "Abu Dabi Aldar Şampiyonasi",
+   "competitionId": "abu-dabi-aldar-sampiyonasi",
+   "kickoff": "2026-11-08T09:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Abu Dabi"
+  },
+  {
    "id": "se-496405",
    "sport": "atletizm",
    "competition": "Şehir Maratonu",
@@ -307,6 +338,38 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Singapur"
+  },
+  {
+   "id": "se-496776",
+   "sport": "basketbol",
+   "competition": "Tekerlekli Sandalye Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-11-08T12:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe İstanbul Jet",
+   "away": "Şanlıurfa BB",
+   "turkish": true
+  },
+  {
+   "id": "se-496820",
+   "sport": "halter",
+   "competition": "iWF Dünya Halter Şampiyonasi",
+   "competitionId": "iwf-dunya-halter-sampiyonasi",
+   "kickoff": "2026-11-08T12:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar 86kg"
   },
   {
    "id": "se-493799",
@@ -968,6 +1031,22 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-496817",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Şampiyonasi Elemeleri",
+   "competitionId": "hentbol-erkekler-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-08T16:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Norveç"
+  },
+  {
    "id": "se-495454",
    "sport": "futbol",
    "competition": "Hollanda Eredivisie",
@@ -1072,10 +1151,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Sunderland",
    "away": "Chelsea"
@@ -1552,10 +1630,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Manchester Utd",
    "away": "Aston Villa"
@@ -1865,10 +1942,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Estrela",
    "away": "Benfica"
