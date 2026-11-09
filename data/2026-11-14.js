@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T22:23:53+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T02:14:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-09T22:23:53+03:00",
+ "generatedAt": "2026-11-10T02:14:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -270,20 +270,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-497046",
+   "id": "se-497047",
    "sport": "futbol",
    "competition": "TFF 2. Lig",
    "competitionId": "tff-2-lig",
    "kickoff": "2026-11-14T13:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "Tivibu Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Muşspor",
-   "away": "Gebzespor",
+   "home": "Ankaraspor",
+   "away": "Aliağa FK",
    "turkish": true
   },
   {
@@ -304,6 +304,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497046",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-14T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Muşspor",
+   "away": "Gebzespor",
+   "turkish": true
+  },
+  {
    "id": "se-496450",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -318,23 +335,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Barosu",
    "away": "Çankırı Birlik Spor"
-  },
-  {
-   "id": "se-497047",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-11-14T13:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ankaraspor",
-   "away": "Aliağa FK",
-   "turkish": true
   },
   {
    "id": "se-494051",
@@ -522,21 +522,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-494049",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
+   "id": "se-496377",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-11-14T16:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Spor Toto SK",
-   "away": "İstanbul Gençlik",
-   "turkish": true
+   "home": "Göztepe",
+   "away": "Cedi Osman Basketbol"
   },
   {
    "id": "se-496672",
@@ -571,20 +570,21 @@ GM_REGISTER_DAY({
    "away": "TED Kolejliler"
   },
   {
-   "id": "se-496377",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "id": "se-494049",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
    "kickoff": "2026-11-14T16:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Göztepe",
-   "away": "Cedi Osman Basketbol"
+   "home": "Spor Toto SK",
+   "away": "İstanbul Gençlik",
+   "turkish": true
   },
   {
    "id": "se-494054",
@@ -701,21 +701,20 @@ GM_REGISTER_DAY({
    "away": "NFH"
   },
   {
-   "id": "se-493805",
+   "id": "se-496381",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-11-14T18:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Körfez Basket",
-   "away": "Galatasaray MCT Technic",
-   "turkish": true
+   "home": "Ankaragücü",
+   "away": "Darüşşafaka"
   },
   {
    "id": "se-496380",
@@ -734,20 +733,21 @@ GM_REGISTER_DAY({
    "away": "Balıkesir BB"
   },
   {
-   "id": "se-496381",
+   "id": "se-493805",
    "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
    "kickoff": "2026-11-14T18:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "beIN SPORTS 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ankaragücü",
-   "away": "Darüşşafaka"
+   "home": "Körfez Basket",
+   "away": "Galatasaray MCT Technic",
+   "turkish": true
   },
   {
    "id": "se-494053",
@@ -787,20 +787,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493224",
-   "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
+   "id": "se-494524",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-14T20:00:00+03:00",
    "broadcasters": [
-    "EHF TV"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Györi Audi",
-   "away": "Blomberg Lippe"
+   "home": "Norveç",
+   "away": "Galler"
   },
   {
    "id": "se-493225",
@@ -819,20 +819,20 @@ GM_REGISTER_DAY({
    "away": "Bistrita"
   },
   {
-   "id": "se-494524",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-493224",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-11-14T20:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "EHF TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Norveç",
-   "away": "Galler"
+   "home": "Györi Audi",
+   "away": "Blomberg Lippe"
   },
   {
    "id": "se-493806",

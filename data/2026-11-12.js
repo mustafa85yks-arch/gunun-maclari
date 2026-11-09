@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T22:23:52+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T02:14:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-09T22:23:52+03:00",
+ "generatedAt": "2026-11-10T02:14:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -85,22 +85,6 @@ GM_REGISTER_DAY({
    "away": "SA Spurs"
   },
   {
-   "id": "se-494775",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-12T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NO Pelicans",
-   "away": "Brooklyn Nets"
-  },
-  {
    "id": "se-494773",
    "sport": "basketbol",
    "competition": "NBA",
@@ -131,6 +115,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Milwaukee Bucks",
    "away": "LA Lakers"
+  },
+  {
+   "id": "se-494775",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-12T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NO Pelicans",
+   "away": "Brooklyn Nets"
   },
   {
    "id": "se-494776",
@@ -230,22 +230,6 @@ GM_REGISTER_DAY({
    "away": "Esenler Erokspor"
   },
   {
-   "id": "se-494188",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-11-12T20:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Parnu",
-   "away": "Keravnos"
-  },
-  {
    "id": "se-494504",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -278,6 +262,22 @@ GM_REGISTER_DAY({
    "away": "Surinam"
   },
   {
+   "id": "se-494188",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-11-12T20:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Parnu",
+   "away": "Keravnos"
+  },
+  {
    "id": "se-496661",
    "sport": "tenis",
    "competition": "ATP Stockholm Çeyrek Final",
@@ -291,22 +291,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 3"
-  },
-  {
-   "id": "se-496669",
-   "sport": "futbol",
-   "competition": "Hazirlik Maçi",
-   "competitionId": "hazirlik-maci",
-   "kickoff": "2026-11-12T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Andorra",
-   "away": "Azerbaycan"
   },
   {
    "id": "se-497101",
@@ -323,6 +307,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Navalcarnero",
    "away": "Real Betis"
+  },
+  {
+   "id": "se-496669",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-11-12T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Andorra",
+   "away": "Azerbaycan"
   },
   {
    "id": "se-493862",
@@ -375,22 +375,6 @@ GM_REGISTER_DAY({
    "away": "Dubai Basket"
   },
   {
-   "id": "se-493864",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-12T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Olimpia Milano",
-   "away": "Zalgiris Kaunas"
-  },
-  {
    "id": "se-496662",
    "sport": "tenis",
    "competition": "ATP Stockholm Çeyrek Final",
@@ -420,6 +404,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Valencia Basket",
    "away": "Bayern Münih"
+  },
+  {
+   "id": "se-493864",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-12T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Olimpia Milano",
+   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-494506",
