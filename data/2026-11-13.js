@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T15:43:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T22:23:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-09T15:43:01+03:00",
+ "generatedAt": "2026-11-09T22:23:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-11-13"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -20,9 +28,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Philadelphia 76ers",
    "away": "Toronto Raptors"
@@ -217,9 +226,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Anadolu Efes",
    "away": "Virtus Bologna"
@@ -250,9 +260,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Asvel Villeurbanne",
    "away": "Beşiktaş"
