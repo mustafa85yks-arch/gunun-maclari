@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T04:57:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T15:43:01+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-09T04:57:58+03:00",
+ "generatedAt": "2026-11-09T15:43:01+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -110,6 +110,22 @@ GM_REGISTER_DAY({
    "away": "R.Ondash"
   },
   {
+   "id": "se-496667",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-11-13T18:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "R.Jitmuangnon",
+   "away": "N.Ohama"
+  },
+  {
    "id": "se-496317",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 2. Lig",
@@ -142,22 +158,6 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Basket"
   },
   {
-   "id": "se-496667",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
-   "kickoff": "2026-11-13T18:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "R.Jitmuangnon",
-   "away": "N.Ohama"
-  },
-  {
    "id": "se-496282",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 1. Lig",
@@ -172,22 +172,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "Bergama Bld."
-  },
-  {
-   "id": "se-496986",
-   "sport": "futbol",
-   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
-   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
-   "kickoff": "2026-11-13T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Türkiye",
-   "away": "Çekya"
   },
   {
    "id": "se-496664",
@@ -206,6 +190,22 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-496986",
+   "sport": "futbol",
+   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-13T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Çekya"
   },
   {
    "id": "se-493867",

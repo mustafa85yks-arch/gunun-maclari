@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T04:57:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T15:43:01+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-10",
- "generatedAt": "2026-11-09T04:57:58+03:00",
+ "generatedAt": "2026-11-09T15:43:01+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,6 +26,22 @@ GM_REGISTER_DAY({
    "away": "LA Lakers"
   },
   {
+   "id": "se-494756",
+   "sport": "basketbol",
+   "competition": "NBA  BasketbolOyna",
+   "competitionId": "nba",
+   "kickoff": "2026-11-10T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Charlotte Hornets",
+   "away": "Cleveland Cavaliers"
+  },
+  {
    "id": "se-494757",
    "sport": "basketbol",
    "competition": "NBA",
@@ -40,22 +56,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Detroit Pistons",
    "away": "Washington Wizards"
-  },
-  {
-   "id": "se-494756",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-10T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Charlotte Hornets",
-   "away": "Cleveland Cavaliers"
   },
   {
    "id": "se-494758",
@@ -108,7 +108,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494760",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-10T04:30:00+03:00",
    "broadcasters": [
@@ -237,20 +237,20 @@ GM_REGISTER_DAY({
    "away": "Onikişubat Belediyespor"
   },
   {
-   "id": "se-495652",
+   "id": "se-495651",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
    "kickoff": "2026-11-10T20:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Neptunas",
-   "away": "Slask Wroclaw"
+   "home": "Cluj Napoca",
+   "away": "Türk Telekom"
   },
   {
    "id": "se-495650",
@@ -269,20 +269,20 @@ GM_REGISTER_DAY({
    "away": "PAOK"
   },
   {
-   "id": "se-495651",
+   "id": "se-495652",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
    "kickoff": "2026-11-10T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "Euroleague TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Cluj Napoca",
-   "away": "Türk Telekom"
+   "home": "Neptunas",
+   "away": "Slask Wroclaw"
   },
   {
    "id": "se-494662",

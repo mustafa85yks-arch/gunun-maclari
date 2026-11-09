@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T04:57:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T15:43:01+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-09T04:57:58+03:00",
+ "generatedAt": "2026-11-09T15:43:01+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,38 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-494769",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-12T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Indiana Pacers",
+   "away": "Washington Wizards"
+  },
+  {
+   "id": "se-494771",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-12T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Toronto Raptors",
+   "away": "Boston Celtics"
+  },
   {
    "id": "se-494770",
    "sport": "basketbol",
@@ -28,38 +60,6 @@ GM_REGISTER_DAY({
    "away": "Cleveland Cavaliers"
   },
   {
-   "id": "se-494771",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-12T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Toronto Raptors",
-   "away": "Boston Celtics"
-  },
-  {
-   "id": "se-494769",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-12T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Indiana Pacers",
-   "away": "Washington Wizards"
-  },
-  {
    "id": "se-494772",
    "sport": "basketbol",
    "competition": "NBA",
@@ -74,6 +74,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Chicago Bulls",
    "away": "SA Spurs"
+  },
+  {
+   "id": "se-494775",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-12T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "NO Pelicans",
+   "away": "Brooklyn Nets"
   },
   {
    "id": "se-494773",
@@ -106,22 +122,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Milwaukee Bucks",
    "away": "LA Lakers"
-  },
-  {
-   "id": "se-494775",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-12T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NO Pelicans",
-   "away": "Brooklyn Nets"
   },
   {
    "id": "se-494776",
@@ -299,11 +299,27 @@ GM_REGISTER_DAY({
    "away": "Azerbaycan"
   },
   {
+   "id": "se-497101",
+   "sport": "futbol",
+   "competition": "İspanya Kral Kupasi Copa Del Rey",
+   "competitionId": "ispanya-kral-kupasi-copa-del-rey",
+   "kickoff": "2026-11-12T21:00:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Navalcarnero",
+   "away": "Real Betis"
+  },
+  {
    "id": "se-493862",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
-   "kickoff": "2026-11-12T21:05:00+03:00",
+   "kickoff": "2026-11-12T21:55:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -364,6 +380,21 @@ GM_REGISTER_DAY({
    "away": "Zalgiris Kaunas"
   },
   {
+   "id": "se-496662",
+   "sport": "tenis",
+   "competition": "ATP Stockholm Çeyrek Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-12T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çeyrek Final Maç 4"
+  },
+  {
    "id": "se-493865",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -378,21 +409,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Valencia Basket",
    "away": "Bayern Münih"
-  },
-  {
-   "id": "se-496662",
-   "sport": "tenis",
-   "competition": "ATP Stockholm Çeyrek Final",
-   "competitionId": "atp",
-   "kickoff": "2026-11-12T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Çeyrek Final Maç 4"
   },
   {
    "id": "se-494506",
