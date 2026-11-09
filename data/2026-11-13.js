@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T21:36:55+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T03:46:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-08T21:36:55+03:00",
+ "generatedAt": "2026-11-09T03:46:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,22 +9,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-494780",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-13T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Washington Wizards",
-   "away": "Detroit Pistons"
-  },
   {
    "id": "se-494779",
    "sport": "basketbol",
@@ -42,6 +26,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Philadelphia 76ers",
    "away": "Toronto Raptors"
+  },
+  {
+   "id": "se-494780",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-13T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Washington Wizards",
+   "away": "Detroit Pistons"
   },
   {
    "id": "se-494781",
@@ -158,24 +158,6 @@ GM_REGISTER_DAY({
    "away": "N.Ohama"
   },
   {
-   "id": "se-496664",
-   "sport": "tenis",
-   "competition": "ATP Stockholm Yarı Final",
-   "competitionId": "atp",
-   "kickoff": "2026-11-13T19:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Yarı Final Maç 2",
-   "tags": [
-    "yari-final"
-   ]
-  },
-  {
    "id": "se-496282",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 1. Lig",
@@ -192,20 +174,38 @@ GM_REGISTER_DAY({
    "away": "Bergama Bld."
   },
   {
-   "id": "se-494512",
+   "id": "se-496986",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T20:00:00+03:00",
+   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-13T19:00:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Moldova",
-   "away": "Kazakistan"
+   "home": "Türkiye",
+   "away": "Çekya"
+  },
+  {
+   "id": "se-496664",
+   "sport": "tenis",
+   "competition": "ATP Stockholm Yarı Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-13T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Final Maç 2",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-493867",
@@ -231,8 +231,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-13T22:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -249,7 +248,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-13T22:30:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -257,102 +256,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Asvel Villeurbanne",
    "away": "Beşiktaş"
-  },
-  {
-   "id": "se-494521",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lihtenştayn",
-   "away": "Azerbaycan"
-  },
-  {
-   "id": "se-494520",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Andorra",
-   "away": "Cebelitarık"
-  },
-  {
-   "id": "se-494519",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Slovenya",
-   "away": "İsviçre"
-  },
-  {
-   "id": "se-494518",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İskoçya",
-   "away": "Kuzey Makedonya"
-  },
-  {
-   "id": "se-494517",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sırbistan",
-   "away": "Almanya"
-  },
-  {
-   "id": "se-494516",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hollanda",
-   "away": "Yunanistan"
   },
   {
    "id": "se-494515",
@@ -371,23 +274,23 @@ GM_REGISTER_DAY({
    "away": "Faroe Adaları"
   },
   {
-   "id": "se-494514",
+   "id": "se-494516",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-13T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Lüksemburg",
-   "away": "Estonya"
+   "home": "Hollanda",
+   "away": "Yunanistan"
   },
   {
-   "id": "se-494513",
+   "id": "se-494517",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
@@ -399,8 +302,40 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bulgaristan",
-   "away": "İzlanda"
+   "home": "Sırbistan",
+   "away": "Almanya"
+  },
+  {
+   "id": "se-494518",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-13T22:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İskoçya",
+   "away": "Kuzey Makedonya"
+  },
+  {
+   "id": "se-494519",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-13T22:45:00+03:00",
+   "broadcasters": [
+    "A Para"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slovenya",
+   "away": "İsviçre"
   }
  ]
 });

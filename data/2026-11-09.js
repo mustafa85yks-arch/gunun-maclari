@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T21:36:55+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T03:46:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-09",
- "generatedAt": "2026-11-08T21:36:55+03:00",
+ "generatedAt": "2026-11-09T03:46:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -107,22 +107,6 @@ GM_REGISTER_DAY({
    "away": "Utah Jazz"
   },
   {
-   "id": "se-494751",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-09T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Dallas Mavericks",
-   "away": "Brooklyn Nets"
-  },
-  {
    "id": "se-496613",
    "sport": "tenis",
    "competition": "WTA Indian Wells",
@@ -137,6 +121,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Bucsa/Martinez",
    "away": "Perez/Schuurs"
+  },
+  {
+   "id": "se-494751",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-09T03:30:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dallas Mavericks",
+   "away": "Brooklyn Nets"
   },
   {
    "id": "se-494752",

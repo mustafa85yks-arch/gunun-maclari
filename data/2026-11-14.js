@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-08T21:36:55+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-09T03:46:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-08T21:36:55+03:00",
+ "generatedAt": "2026-11-09T03:46:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -10,7 +10,7 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
-   "id": "se-494783",
+   "id": "se-486278",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -42,7 +42,7 @@ GM_REGISTER_DAY({
    "away": "Milwaukee Bucks"
   },
   {
-   "id": "se-486278",
+   "id": "se-494783",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -202,6 +202,22 @@ GM_REGISTER_DAY({
    "away": "Seydişehir Bld."
   },
   {
+   "id": "se-496920",
+   "sport": "basketbol",
+   "competition": "Avustralya NBL",
+   "competitionId": "avustralya-nbl",
+   "kickoff": "2026-11-14T11:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Melbourne United",
+   "away": "Melbourne Phoenix"
+  },
+  {
    "id": "se-496450",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -232,6 +248,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Petkimspor",
    "away": "Türk Telekom",
+   "turkish": true
+  },
+  {
+   "id": "se-494051",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-11-14T14:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alanya Bld.",
+   "away": "TFL Altekma",
    "turkish": true
   },
   {
@@ -335,22 +368,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-496378",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-11-14T16:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "OGM Orman",
-   "away": "TED Kolejliler"
-  },
-  {
    "id": "se-496672",
    "sport": "boks",
    "competition": "Zuffa Boxing",
@@ -365,6 +382,22 @@ GM_REGISTER_DAY({
    ],
    "home": "C.Adames",
    "away": "G.Warburton"
+  },
+  {
+   "id": "se-496378",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-14T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "OGM Orman",
+   "away": "TED Kolejliler"
   },
   {
    "id": "se-496377",
@@ -397,23 +430,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Spor Toto SK",
    "away": "İstanbul Gençlik",
-   "turkish": true
-  },
-  {
-   "id": "se-494051",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-11-14T16:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Alanya Bld.",
-   "away": "TFL Altekma",
    "turkish": true
   },
   {
@@ -497,22 +513,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Yalıkavak",
    "away": "Manisa BB"
-  },
-  {
-   "id": "se-494522",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-14T17:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kosova",
-   "away": "İsrail"
   },
   {
    "id": "se-496673",
@@ -665,22 +665,6 @@ GM_REGISTER_DAY({
    "away": "Bistrita"
   },
   {
-   "id": "se-494523",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-14T20:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gürcistan",
-   "away": "Macaristan"
-  },
-  {
    "id": "se-494524",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -714,13 +698,29 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-496921",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-11-14T22:30:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Limoges",
+   "away": "Paris"
+  },
+  {
    "id": "se-494525",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-14T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -784,7 +784,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-14T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Para"
    ],
    "verification": "tek_kaynak",
    "sources": [
