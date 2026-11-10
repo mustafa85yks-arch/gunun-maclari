@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T07:19:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T15:24:11+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-11",
- "generatedAt": "2026-11-10T07:19:09+03:00",
+ "generatedAt": "2026-11-10T15:24:11+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,38 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-497249",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-11T00:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Gauff",
+   "away": "L.Noskova"
+  },
+  {
+   "id": "se-497252",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-11T02:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Siniakova/Townsend",
+   "away": "Perez/Schuurs"
+  },
   {
    "id": "se-496656",
    "sport": "basketbol",
@@ -50,6 +82,22 @@ GM_REGISTER_DAY({
    ],
    "home": "New York Knicks",
    "away": "Milwaukee Bucks"
+  },
+  {
+   "id": "se-497253",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-11T03:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bucsa/Melichar",
+   "away": "Errani/Paolini"
   },
   {
    "id": "se-494764",
@@ -200,7 +248,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Eskişehir Anadolu Spor",
-   "away": "Eskişehirspor SporÜrünü Al",
+   "away": "Eskişehirspor",
    "turkish": true
   },
   {
@@ -306,6 +354,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497242",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Dünya Kupasi",
+   "competitionId": "bisikletli-kros-dunya-kupasi",
+   "kickoff": "2026-11-11T15:35:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Superprestige Kadınlar"
+  },
+  {
    "id": "se-496438",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -352,6 +415,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Halkbank",
    "away": "Fenerbahçe Medicana"
+  },
+  {
+   "id": "se-497243",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Dünya Kupasi",
+   "competitionId": "bisikletli-kros-dunya-kupasi",
+   "kickoff": "2026-11-11T17:05:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Superprestige Erkekler"
   },
   {
    "id": "se-494166",
@@ -752,7 +830,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Wurzburg",
-   "away": "AEK"
+   "away": "Petrolina AEK"
   },
   {
    "id": "se-495659",
@@ -949,6 +1027,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Benfica",
    "away": "Bakken Bears"
+  },
+  {
+   "id": "se-497250",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-11T23:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Svitolina",
+   "away": "K.Muchova"
   }
  ]
 });

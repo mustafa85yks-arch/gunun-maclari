@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T07:19:10+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T15:24:13+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-10T07:19:10+03:00",
+ "generatedAt": "2026-11-10T15:24:13+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -367,22 +367,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493928",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-15T14:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Eskişehir Mihalıççık",
-   "away": "İstanbul Gençlik"
-  },
-  {
    "id": "se-496382",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -399,7 +383,7 @@ GM_REGISTER_DAY({
    "away": "Fenerbahçe Koleji"
   },
   {
-   "id": "se-493929",
+   "id": "se-493931",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
    "competitionId": "hentbol-erkekler-super-ligi",
@@ -411,8 +395,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Giresunspor",
-   "away": "Beşiktaş"
+   "home": "Güneysuspor",
+   "away": "Nilüfer Bld."
   },
   {
    "id": "se-493808",
@@ -580,6 +564,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-493929",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-11-15T16:30:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Giresunspor",
+   "away": "Beşiktaş"
+  },
+  {
    "id": "se-496383",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -627,22 +627,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Ziraat Bankkart",
    "away": "Melikgazi Bld."
-  },
-  {
-   "id": "se-493931",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-15T17:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Güneysuspor",
-   "away": "Nilüfer Bld."
   },
   {
    "id": "se-496653",

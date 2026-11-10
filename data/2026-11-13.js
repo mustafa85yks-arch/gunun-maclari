@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T07:19:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T15:24:12+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-10T07:19:09+03:00",
+ "generatedAt": "2026-11-10T15:24:12+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -101,6 +101,21 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-497240",
+   "sport": "halter",
+   "competition": "Powerlifting Dünya Şampiyonasi",
+   "competitionId": "powerlifting-dunya-sampiyonasi",
+   "kickoff": "2026-11-13T16:30:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Seans 1"
   },
   {
    "id": "se-496666",
@@ -233,6 +248,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Anadolu Efes",
    "away": "Virtus Bologna"
+  },
+  {
+   "id": "se-497241",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Austin Şampiyonasi",
+   "competitionId": "golf-pga-tour-austin-sampiyonasi",
+   "kickoff": "2026-11-13T22:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
   },
   {
    "id": "se-493868",

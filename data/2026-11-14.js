@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T07:19:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T15:24:12+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-10T07:19:09+03:00",
+ "generatedAt": "2026-11-10T15:24:12+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -335,6 +335,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Barosu",
    "away": "Çankırı Birlik Spor"
+  },
+  {
+   "id": "se-493928",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-11-14T14:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehir Mihalıççık",
+   "away": "İstanbul Gençlik"
   },
   {
    "id": "se-494051",
