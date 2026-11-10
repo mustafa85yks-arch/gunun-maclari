@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T15:24:11+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T19:42:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-11",
- "generatedAt": "2026-11-10T15:24:11+03:00",
+ "generatedAt": "2026-11-10T19:42:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -248,7 +248,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Eskişehir Anadolu Spor",
-   "away": "Eskişehirspor",
+   "away": "Eskişehirspor SporHaberleri",
    "turkish": true
   },
   {
