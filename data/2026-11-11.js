@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:46:55+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T19:47:55+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-11",
- "generatedAt": "2026-11-11T14:46:55+03:00",
+ "generatedAt": "2026-11-11T19:47:55+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -252,6 +252,54 @@ GM_REGISTER_DAY({
    "away": "Herrera/Pons"
   },
   {
+   "id": "se-497412",
+   "sport": "futbol",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-11T12:45:00+03:00",
+   "broadcasters": [
+    "Japonya J League Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kawasaki Frontale",
+   "away": "Kashiwa Reysol"
+  },
+  {
+   "id": "se-497413",
+   "sport": "futbol",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-11T12:45:00+03:00",
+   "broadcasters": [
+    "Japonya J League Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yokohama Marinos",
+   "away": "Kashima Antlers"
+  },
+  {
+   "id": "se-497414",
+   "sport": "futbol",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-11T12:45:00+03:00",
+   "broadcasters": [
+    "Japonya J League Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Vissel Kobe",
+   "away": "Machida"
+  },
+  {
    "id": "se-497036",
    "sport": "futbol",
    "competition": "TFF 3. Lig",
@@ -352,6 +400,22 @@ GM_REGISTER_DAY({
    "home": "Bitlis 1916 FK",
    "away": "Diyarbekirspor",
    "turkish": true
+  },
+  {
+   "id": "se-497415",
+   "sport": "futbol",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-11T13:15:00+03:00",
+   "broadcasters": [
+    "Japonya J League Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Urawa",
+   "away": "Cerezo Osaka"
   },
   {
    "id": "se-497306",
@@ -579,7 +643,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Vincenzo Montella"
+   "title": "Sergen Yalçın"
   },
   {
    "id": "se-494166",

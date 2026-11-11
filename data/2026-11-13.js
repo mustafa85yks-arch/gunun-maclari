@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:46:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T19:47:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-11T14:46:57+03:00",
+ "generatedAt": "2026-11-11T19:47:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,38 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-497418",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-13T00:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Pegula",
+   "away": "L.Noskova"
+  },
+  {
+   "id": "se-497419",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-13T02:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Siniakova/Townsend",
+   "away": "Bucsa/Martinez"
+  },
   {
    "id": "se-494779",
    "sport": "basketbol",
@@ -51,6 +83,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Washington Wizards",
    "away": "Detroit Pistons"
+  },
+  {
+   "id": "se-497420",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-13T03:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Perez/Schuurs",
+   "away": "Errani/Paolini"
   },
   {
    "id": "se-494781",
@@ -134,20 +182,20 @@ GM_REGISTER_DAY({
    "away": "R.Ondash"
   },
   {
-   "id": "se-496317",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 2. Lig",
-   "competitionId": "tvf-kadinlar-2-lig",
+   "id": "se-496667",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
    "kickoff": "2026-11-13T18:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çengelköy",
-   "away": "Galatasaray"
+   "home": "R.Jitmuangnon",
+   "away": "N.Ohama"
   },
   {
    "id": "se-496376",
@@ -166,36 +214,36 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Basket"
   },
   {
-   "id": "se-496667",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
+   "id": "se-496317",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
    "kickoff": "2026-11-13T18:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "R.Jitmuangnon",
-   "away": "N.Ohama"
+   "home": "Çengelköy",
+   "away": "Galatasaray"
   },
   {
-   "id": "se-496986",
-   "sport": "futbol",
-   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
-   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "id": "se-496282",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
    "kickoff": "2026-11-13T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Türkiye",
-   "away": "Çekya"
+   "home": "Fenerbahçe Medicana",
+   "away": "Bergama Bld."
   },
   {
    "id": "se-496664",
@@ -216,20 +264,20 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-496282",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 1. Lig",
-   "competitionId": "tvf-kadinlar-1-lig",
+   "id": "se-496986",
+   "sport": "futbol",
+   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
    "kickoff": "2026-11-13T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "Tivibu Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Bergama Bld."
+   "home": "Türkiye",
+   "away": "Çekya"
   },
   {
    "id": "se-493867",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:46:56+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T19:47:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-11T14:46:56+03:00",
+ "generatedAt": "2026-11-11T19:47:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -278,20 +278,20 @@ GM_REGISTER_DAY({
    "away": "Esenler Erokspor"
   },
   {
-   "id": "se-496668",
-   "sport": "futbol",
-   "competition": "Hazirlik Maçi",
-   "competitionId": "hazirlik-maci",
+   "id": "se-494188",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
    "kickoff": "2026-11-12T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "FIBA TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Litvanya",
-   "away": "Surinam"
+   "home": "Parnu",
+   "away": "Keravnos"
   },
   {
    "id": "se-494504",
@@ -310,20 +310,20 @@ GM_REGISTER_DAY({
    "away": "Belçika"
   },
   {
-   "id": "se-494188",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "id": "se-496668",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
    "kickoff": "2026-11-12T20:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Parnu",
-   "away": "Keravnos"
+   "home": "Litvanya",
+   "away": "Surinam"
   },
   {
    "id": "se-496661",
@@ -341,22 +341,6 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 3"
   },
   {
-   "id": "se-497101",
-   "sport": "futbol",
-   "competition": "İspanya Kral Kupasi Copa Del Rey",
-   "competitionId": "ispanya-kral-kupasi-copa-del-rey",
-   "kickoff": "2026-11-12T21:00:00+03:00",
-   "broadcasters": [
-    "HT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Navalcarnero",
-   "away": "Real Betis"
-  },
-  {
    "id": "se-496669",
    "sport": "futbol",
    "competition": "Hazirlik Maçi",
@@ -371,6 +355,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Andorra",
    "away": "Azerbaycan"
+  },
+  {
+   "id": "se-497101",
+   "sport": "futbol",
+   "competition": "İspanya Kral Kupasi Copa Del Rey",
+   "competitionId": "ispanya-kral-kupasi-copa-del-rey",
+   "kickoff": "2026-11-12T21:00:00+03:00",
+   "broadcasters": [
+    "HT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Navalcarnero",
+   "away": "Real Betis"
   },
   {
    "id": "se-493862",
@@ -438,6 +438,22 @@ GM_REGISTER_DAY({
    "away": "Dubai Basket"
   },
   {
+   "id": "se-493864",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-12T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Olimpia Milano",
+   "away": "Zalgiris Kaunas"
+  },
+  {
    "id": "se-493865",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -467,22 +483,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çeyrek Final Maç 4"
-  },
-  {
-   "id": "se-493864",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-12T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Olimpia Milano",
-   "away": "Zalgiris Kaunas"
   },
   {
    "id": "se-494506",
@@ -581,6 +581,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Madrid",
    "away": "Kizilyildiz"
+  },
+  {
+   "id": "se-497417",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-12T23:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "M.Kostyuk",
+   "away": "C.Gauff"
   }
  ]
 });

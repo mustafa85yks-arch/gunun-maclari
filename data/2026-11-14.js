@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:46:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T19:47:59+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-11T14:46:59+03:00",
+ "generatedAt": "2026-11-11T19:47:59+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -821,6 +821,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankaragücü",
    "away": "Darüşşafaka"
+  },
+  {
+   "id": "se-497416",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-14T18:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çorum Bld.",
+   "away": "Bayrampaşa Bld."
   },
   {
    "id": "se-494050",
