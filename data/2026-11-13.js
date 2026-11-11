@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T05:15:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:46:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-11T05:15:00+03:00",
+ "generatedAt": "2026-11-11T14:46:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -263,6 +263,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 2"
+  },
+  {
+   "id": "se-497335",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-11-13T22:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chambery Savoie",
+   "away": "Nimes"
   },
   {
    "id": "se-493868",

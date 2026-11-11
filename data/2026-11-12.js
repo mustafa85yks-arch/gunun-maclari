@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T05:15:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:46:56+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-11T05:15:00+03:00",
+ "generatedAt": "2026-11-11T14:46:56+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -40,7 +40,7 @@ GM_REGISTER_DAY({
    "competitionId": "wta",
    "kickoff": "2026-11-12T02:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -87,7 +87,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494771",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-12T03:00:00+03:00",
    "broadcasters": [
@@ -107,7 +107,7 @@ GM_REGISTER_DAY({
    "competitionId": "wta",
    "kickoff": "2026-11-12T03:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -151,7 +151,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494774",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-12T04:00:00+03:00",
    "broadcasters": [
@@ -278,20 +278,20 @@ GM_REGISTER_DAY({
    "away": "Esenler Erokspor"
   },
   {
-   "id": "se-494188",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "id": "se-496668",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
    "kickoff": "2026-11-12T20:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Parnu",
-   "away": "Keravnos"
+   "home": "Litvanya",
+   "away": "Surinam"
   },
   {
    "id": "se-494504",
@@ -310,20 +310,20 @@ GM_REGISTER_DAY({
    "away": "Belçika"
   },
   {
-   "id": "se-496668",
-   "sport": "futbol",
-   "competition": "Hazirlik Maçi",
-   "competitionId": "hazirlik-maci",
+   "id": "se-494188",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
    "kickoff": "2026-11-12T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "FIBA TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Litvanya",
-   "away": "Surinam"
+   "home": "Parnu",
+   "away": "Keravnos"
   },
   {
    "id": "se-496661",
@@ -341,22 +341,6 @@ GM_REGISTER_DAY({
    "title": "Çeyrek Final Maç 3"
   },
   {
-   "id": "se-496669",
-   "sport": "futbol",
-   "competition": "Hazirlik Maçi",
-   "competitionId": "hazirlik-maci",
-   "kickoff": "2026-11-12T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Andorra",
-   "away": "Azerbaycan"
-  },
-  {
    "id": "se-497101",
    "sport": "futbol",
    "competition": "İspanya Kral Kupasi Copa Del Rey",
@@ -371,6 +355,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Navalcarnero",
    "away": "Real Betis"
+  },
+  {
+   "id": "se-496669",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-11-12T21:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Andorra",
+   "away": "Azerbaycan"
   },
   {
    "id": "se-493862",

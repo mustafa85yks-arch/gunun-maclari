@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T05:15:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:47:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-11T05:15:01+03:00",
+ "generatedAt": "2026-11-11T14:47:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -35,6 +35,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Phoenix Suns",
    "away": "LA Lakers"
+  },
+  {
+   "id": "se-497332",
+   "sport": "basketbol",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
+   "kickoff": "2026-11-16T00:10:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boca Juniors",
+   "away": "Flamengo"
   },
   {
    "id": "se-496655",
@@ -133,6 +149,22 @@ GM_REGISTER_DAY({
    "away": "Houston Rockets"
   },
   {
+   "id": "se-497333",
+   "sport": "basketbol",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
+   "kickoff": "2026-11-16T03:40:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paisas",
+   "away": "Brasilia Basquete"
+  },
+  {
    "id": "se-494804",
    "sport": "basketbol",
    "competition": "NBA",
@@ -180,22 +212,6 @@ GM_REGISTER_DAY({
    "title": "Turin"
   },
   {
-   "id": "se-494539",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-16T18:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kazakistan",
-   "away": "Slovakya"
-  },
-  {
    "id": "se-494538",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -210,6 +226,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Faroe Adaları",
    "away": "Moldova"
+  },
+  {
+   "id": "se-494539",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-16T18:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kazakistan",
+   "away": "Slovakya"
   },
   {
    "id": "se-493849",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T05:14:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T14:46:55+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-11",
- "generatedAt": "2026-11-11T05:14:59+03:00",
+ "generatedAt": "2026-11-11T14:46:55+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -217,6 +217,25 @@ GM_REGISTER_DAY({
    "away": "Alcorisa/Jensen"
   },
   {
+   "id": "se-497361",
+   "sport": "futbol",
+   "competition": "Antrenman",
+   "competitionId": "antrenman",
+   "kickoff": "2026-11-11T11:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "A Spor",
+    "TV 8 Buçuk",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Milli Takım"
+  },
+  {
    "id": "se-497305",
    "sport": "padel",
    "competition": "Premier Padel",
@@ -351,6 +370,22 @@ GM_REGISTER_DAY({
    "away": "Gallego/Araujo"
   },
   {
+   "id": "se-497363",
+   "sport": "futbol",
+   "competition": "UEFA U17 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u17-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-11T15:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "San Marino"
+  },
+  {
    "id": "se-497042",
    "sport": "futbol",
    "competition": "TFF 3. Lig",
@@ -465,6 +500,22 @@ GM_REGISTER_DAY({
    "away": "Kastamonu Yurdum Gençlik Spor"
   },
   {
+   "id": "se-497364",
+   "sport": "futbol",
+   "competition": "UEFA U19 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u19-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-11T16:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Slovakya"
+  },
+  {
    "id": "se-496966",
    "sport": "voleybol",
    "competition": "TVF Erkekler Kupa Volley Çeyrek Final",
@@ -494,6 +545,41 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Superprestige Erkekler"
+  },
+  {
+   "id": "se-497339",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-11T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Blanco/Garcia",
+   "away": "Rubini/Chozas"
+  },
+  {
+   "id": "se-497362",
+   "sport": "futbol",
+   "competition": "Basin Toplantisi",
+   "competitionId": "basin-toplantisi",
+   "kickoff": "2026-11-11T18:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor",
+    "A Spor",
+    "TV 8 Buçuk",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Vincenzo Montella"
   },
   {
    "id": "se-494166",
@@ -534,7 +620,7 @@ GM_REGISTER_DAY({
    "competitionId": "eurocup",
    "kickoff": "2026-11-11T19:00:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -566,7 +652,7 @@ GM_REGISTER_DAY({
    "competitionId": "tvf-erkekler-kupa-volley-ceyrek-final",
    "kickoff": "2026-11-11T19:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 7"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1055,6 +1141,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Murcia",
    "away": "Bamberg"
+  },
+  {
+   "id": "se-497327",
+   "sport": "voleybol",
+   "competition": "CEV Erkekler Şampiyonlar Ligi",
+   "competitionId": "cev-erkekler-sampiyonlar-ligi",
+   "kickoff": "2026-11-11T22:30:00+03:00",
+   "broadcasters": [
+    "CEV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sporting Lisbon",
+   "away": "Khilasedichi Bakü"
   },
   {
    "id": "se-493860",
