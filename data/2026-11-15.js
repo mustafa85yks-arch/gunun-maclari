@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T23:40:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T04:12:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-10T23:40:17+03:00",
+ "generatedAt": "2026-11-11T04:12:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -629,6 +629,22 @@ GM_REGISTER_DAY({
    "away": "Melikgazi Bld."
   },
   {
+   "id": "se-497289",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-11-15T17:00:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zenit",
+   "away": "Trabzonspor"
+  },
+  {
    "id": "se-496653",
    "sport": "amerikan futbolu",
    "competition": "NFL",
@@ -645,7 +661,7 @@ GM_REGISTER_DAY({
    "away": "NE Patriots"
   },
   {
-   "id": "se-493228",
+   "id": "se-493227",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
    "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
@@ -657,8 +673,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "CSM Bucuresti",
-   "away": "Brest Bretagne"
+   "home": "Buducnost",
+   "away": "Borussia Dortmund"
   },
   {
    "id": "se-493932",
@@ -710,7 +726,7 @@ GM_REGISTER_DAY({
    "away": "Ljubljana"
   },
   {
-   "id": "se-493227",
+   "id": "se-493228",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
    "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
@@ -722,8 +738,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Buducnost",
-   "away": "Borussia Dortmund"
+   "home": "CSM Bucuresti",
+   "away": "Brest Bretagne"
   },
   {
    "id": "se-496923",

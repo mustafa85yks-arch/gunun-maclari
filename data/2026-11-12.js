@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T23:40:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T04:12:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-10T23:40:15+03:00",
+ "generatedAt": "2026-11-11T04:12:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -87,7 +87,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494771",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-12T03:00:00+03:00",
    "broadcasters": [
@@ -507,7 +507,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-12T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -539,7 +539,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-12T22:45:00+03:00",
    "broadcasters": [
-    "A Haber"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [

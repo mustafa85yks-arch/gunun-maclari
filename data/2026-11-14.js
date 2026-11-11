@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T23:40:16+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T04:12:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-10T23:40:16+03:00",
+ "generatedAt": "2026-11-11T04:12:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,22 +9,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-486278",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-14T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Indiana Pacers",
-   "away": "New York Knicks"
-  },
   {
    "id": "se-494783",
    "sport": "basketbol",
@@ -56,6 +40,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Orlando Magic",
    "away": "Milwaukee Bucks"
+  },
+  {
+   "id": "se-486278",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-14T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Indiana Pacers",
+   "away": "New York Knicks"
   },
   {
    "id": "se-494785",
@@ -202,23 +202,6 @@ GM_REGISTER_DAY({
    "away": "Melbourne Phoenix"
   },
   {
-   "id": "se-497049",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-11-14T13:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Adana 01 FK",
-   "away": "1461 Trabzon",
-   "turkish": true
-  },
-  {
    "id": "se-497051",
    "sport": "futbol",
    "competition": "TFF 2. Lig",
@@ -253,6 +236,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497049",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-14T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adana 01 FK",
+   "away": "1461 Trabzon",
+   "turkish": true
+  },
+  {
    "id": "se-497048",
    "sport": "futbol",
    "competition": "TFF 2. Lig",
@@ -267,40 +267,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Erbaaspor",
    "away": "Elazığspor",
-   "turkish": true
-  },
-  {
-   "id": "se-497047",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-11-14T13:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ankaraspor",
-   "away": "Aliağa FK",
-   "turkish": true
-  },
-  {
-   "id": "se-493803",
-   "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi",
-   "competitionId": "bsl",
-   "kickoff": "2026-11-14T13:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 5"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Petkimspor",
-   "away": "Türk Telekom",
    "turkish": true
   },
   {
@@ -335,6 +301,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Barosu",
    "away": "Çankırı Birlik Spor"
+  },
+  {
+   "id": "se-493803",
+   "sport": "basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-11-14T13:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Petkimspor",
+   "away": "Türk Telekom",
+   "turkish": true
+  },
+  {
+   "id": "se-497047",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-14T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ankaraspor",
+   "away": "Aliağa FK",
+   "turkish": true
   },
   {
    "id": "se-493928",
@@ -538,22 +538,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-496377",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-11-14T16:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Göztepe",
-   "away": "Cedi Osman Basketbol"
-  },
-  {
    "id": "se-496672",
    "sport": "boks",
    "competition": "Zuffa Boxing",
@@ -584,6 +568,22 @@ GM_REGISTER_DAY({
    ],
    "home": "OGM Orman",
    "away": "TED Kolejliler"
+  },
+  {
+   "id": "se-496377",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-14T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Göztepe",
+   "away": "Cedi Osman Basketbol"
   },
   {
    "id": "se-494049",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T23:40:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T04:12:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-10T23:40:15+03:00",
+ "generatedAt": "2026-11-11T04:12:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -134,22 +134,6 @@ GM_REGISTER_DAY({
    "away": "R.Ondash"
   },
   {
-   "id": "se-496667",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
-   "kickoff": "2026-11-13T18:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "R.Jitmuangnon",
-   "away": "N.Ohama"
-  },
-  {
    "id": "se-496317",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 2. Lig",
@@ -182,20 +166,36 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Basket"
   },
   {
-   "id": "se-496282",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 1. Lig",
-   "competitionId": "tvf-kadinlar-1-lig",
-   "kickoff": "2026-11-13T19:00:00+03:00",
+   "id": "se-496667",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-11-13T18:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fenerbahçe Medicana",
-   "away": "Bergama Bld."
+   "home": "R.Jitmuangnon",
+   "away": "N.Ohama"
+  },
+  {
+   "id": "se-496986",
+   "sport": "futbol",
+   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-13T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Çekya"
   },
   {
    "id": "se-496664",
@@ -216,20 +216,20 @@ GM_REGISTER_DAY({
    ]
   },
   {
-   "id": "se-496986",
-   "sport": "futbol",
-   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
-   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "id": "se-496282",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 1. Lig",
+   "competitionId": "tvf-kadinlar-1-lig",
    "kickoff": "2026-11-13T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Türkiye",
-   "away": "Çekya"
+   "home": "Fenerbahçe Medicana",
+   "away": "Bergama Bld."
   },
   {
    "id": "se-493867",
@@ -299,52 +299,20 @@ GM_REGISTER_DAY({
    "away": "Beşiktaş"
   },
   {
-   "id": "se-494515",
+   "id": "se-494519",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-13T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "A Para"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Slovakya",
-   "away": "Faroe Adaları"
-  },
-  {
-   "id": "se-494516",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "A Haber"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hollanda",
-   "away": "Yunanistan"
-  },
-  {
-   "id": "se-494517",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sırbistan",
-   "away": "Almanya"
+   "home": "Slovenya",
+   "away": "İsviçre"
   },
   {
    "id": "se-494518",
@@ -363,20 +331,52 @@ GM_REGISTER_DAY({
    "away": "Kuzey Makedonya"
   },
   {
-   "id": "se-494519",
+   "id": "se-494517",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-13T22:45:00+03:00",
    "broadcasters": [
-    "A Para"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Slovenya",
-   "away": "İsviçre"
+   "home": "Sırbistan",
+   "away": "Almanya"
+  },
+  {
+   "id": "se-494516",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-13T22:45:00+03:00",
+   "broadcasters": [
+    "A Haber"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hollanda",
+   "away": "Yunanistan"
+  },
+  {
+   "id": "se-494515",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-13T22:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slovakya",
+   "away": "Faroe Adaları"
   }
  ]
 });

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-10T23:40:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-11T04:12:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-11",
- "generatedAt": "2026-11-10T23:40:15+03:00",
+ "generatedAt": "2026-11-11T04:12:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -201,6 +201,38 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
+   "id": "se-497304",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-11T11:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Camacho/Pozzo",
+   "away": "Alcorisa/Jensen"
+  },
+  {
+   "id": "se-497305",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-11T12:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nenno/Navarro",
+   "away": "Herrera/Pons"
+  },
+  {
    "id": "se-497036",
    "sport": "futbol",
    "competition": "TFF 3. Lig",
@@ -303,6 +335,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497306",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-11T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gasco/Ferreyra",
+   "away": "Gallego/Araujo"
+  },
+  {
    "id": "se-497042",
    "sport": "futbol",
    "competition": "TFF 3. Lig",
@@ -352,6 +400,22 @@ GM_REGISTER_DAY({
    "home": "Denizli İdmanyurdu Güreller",
    "away": "Bucaspor",
    "turkish": true
+  },
+  {
+   "id": "se-497307",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-11T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alvarez/Castano",
+   "away": "Augsburger/Lebron"
   },
   {
    "id": "se-497242",
@@ -559,6 +623,22 @@ GM_REGISTER_DAY({
    ],
    "home": "BC Siauliai",
    "away": "Iberostar Tenerife"
+  },
+  {
+   "id": "se-497308",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-11T19:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ayats/Chamero",
+   "away": "Stupaczuk/Sanz"
   },
   {
    "id": "se-494169",
