@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T00:16:07+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-12T20:17:14+03:00",
+ "generatedAt": "2026-11-13T00:16:07+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -363,6 +363,22 @@ GM_REGISTER_DAY({
    "away": "Beşiktaş"
   },
   {
+   "id": "se-494515",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-13T22:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slovakya",
+   "away": "Faroe Adaları"
+  },
+  {
    "id": "se-494519",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -427,20 +443,20 @@ GM_REGISTER_DAY({
    "away": "Yunanistan"
   },
   {
-   "id": "se-494515",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
+   "id": "se-497603",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-13T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Slovakya",
-   "away": "Faroe Adaları"
+   "home": "M.Andreeva",
+   "away": "K.Muchova"
   }
  ]
 });

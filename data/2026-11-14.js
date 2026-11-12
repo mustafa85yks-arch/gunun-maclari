@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T00:16:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-12T20:17:17+03:00",
+ "generatedAt": "2026-11-13T00:16:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-497604",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-14T00:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Sabalenka",
+   "away": "E.Svitolina"
+  },
   {
    "id": "se-497328",
    "sport": "basketbol",
