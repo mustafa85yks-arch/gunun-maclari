@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:14+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-12T15:26:28+03:00",
+ "generatedAt": "2026-11-12T20:17:14+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -24,7 +24,7 @@ GM_REGISTER_DAY({
    "competitionId": "wta",
    "kickoff": "2026-11-13T00:30:00+03:00",
    "broadcasters": [
-    "beIN SPORTS MAX 1"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -182,20 +182,20 @@ GM_REGISTER_DAY({
    "away": "R.Ondash"
   },
   {
-   "id": "se-496667",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
+   "id": "se-496317",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
    "kickoff": "2026-11-13T18:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "R.Jitmuangnon",
-   "away": "N.Ohama"
+   "home": "Çengelköy",
+   "away": "Galatasaray"
   },
   {
    "id": "se-496376",
@@ -214,20 +214,20 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Basket"
   },
   {
-   "id": "se-496317",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 2. Lig",
-   "competitionId": "tvf-kadinlar-2-lig",
+   "id": "se-496667",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
    "kickoff": "2026-11-13T18:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Çengelköy",
-   "away": "Galatasaray"
+   "home": "R.Jitmuangnon",
+   "away": "N.Ohama"
   },
   {
    "id": "se-496282",

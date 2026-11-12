@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-12T15:26:34+03:00",
+ "generatedAt": "2026-11-12T20:17:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -16,7 +16,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-19T03:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -160,7 +162,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-19T05:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -200,6 +204,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Sacramento Kings",
    "away": "Phoenix Suns"
+  },
+  {
+   "id": "se-497563",
+   "sport": "tenis",
+   "competition": "ATP Turin",
+   "competitionId": "atp",
+   "kickoff": "2026-11-19T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Turin"
   },
   {
    "id": "se-496971",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-12T15:26:34+03:00",
+ "generatedAt": "2026-11-12T20:17:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -229,89 +229,68 @@ GM_REGISTER_DAY({
    "away": "NZ Breakers"
   },
   {
-   "id": "se-497061",
+   "id": "se-497547",
    "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
-   "kickoff": "2026-11-15T13:00:00+03:00",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-15T07:45:00+03:00",
    "broadcasters": [
-    "Tivibu Spor 4"
+    "Japonya J League Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kartal Bulvar Kartalimen",
-   "away": "Küçükçekmece Sinop",
-   "turkish": true
+   "home": "Machida",
+   "away": "Vissel Kobe"
   },
   {
-   "id": "se-497060",
+   "id": "se-497548",
    "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
-   "kickoff": "2026-11-15T13:00:00+03:00",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-15T08:45:00+03:00",
    "broadcasters": [
-    "Tivibu Spor 3"
+    "Japonya J League Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Mazıdağı Fosfat",
-   "away": "Niğde Bld.",
-   "turkish": true
+   "home": "Cerezo Osaka",
+   "away": "Urawa"
   },
   {
-   "id": "se-497059",
+   "id": "se-497549",
    "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
-   "kickoff": "2026-11-15T13:00:00+03:00",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-15T08:45:00+03:00",
    "broadcasters": [
-    "Tivibu Spor 2"
+    "Japonya J League Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Erciyes 38 FK",
-   "away": "Kırşehirspor",
-   "turkish": true
+   "home": "Kashima Antlers",
+   "away": "Yokohama Marinos"
   },
   {
-   "id": "se-497058",
+   "id": "se-497550",
    "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
-   "kickoff": "2026-11-15T13:00:00+03:00",
+   "competition": "Japonya Levain Kupasi",
+   "competitionId": "japonya-levain-kupasi",
+   "kickoff": "2026-11-15T10:45:00+03:00",
    "broadcasters": [
-    "Yaay"
+    "Japonya J League Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kdz Ereğli Bld.",
-   "away": "Pazarspor",
-   "turkish": true
-  },
-  {
-   "id": "se-497056",
-   "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
-   "kickoff": "2026-11-15T13:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fatsa Bld.",
-   "away": "Düzcespor",
-   "turkish": true
+   "home": "Kashiwa Reysol",
+   "away": "Kawasaki Frontale"
   },
   {
    "id": "se-493714",
@@ -348,6 +327,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497056",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-15T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fatsa Bld.",
+   "away": "Düzcespor",
+   "turkish": true
+  },
+  {
    "id": "se-497057",
    "sport": "futbol",
    "competition": "TFF 3. Lig",
@@ -362,6 +358,74 @@ GM_REGISTER_DAY({
    ],
    "home": "Gemlik Sümerbey",
    "away": "Bigaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-497058",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-15T13:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kdz Ereğli Bld.",
+   "away": "Pazarspor",
+   "turkish": true
+  },
+  {
+   "id": "se-497059",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-15T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Erciyes 38 FK",
+   "away": "Kırşehirspor",
+   "turkish": true
+  },
+  {
+   "id": "se-497060",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-15T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mazıdağı Fosfat",
+   "away": "Niğde Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-497061",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-15T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kartal Bulvar Kartalimen",
+   "away": "Küçükçekmece Sinop",
    "turkish": true
   },
   {
@@ -415,6 +479,22 @@ GM_REGISTER_DAY({
    "away": "Fenerbahçe Koleji"
   },
   {
+   "id": "se-497544",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-15T14:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kerasusspor",
+   "away": "Egospor"
+  },
+  {
    "id": "se-493931",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -429,6 +509,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Güneysuspor",
    "away": "Nilüfer Bld."
+  },
+  {
+   "id": "se-497545",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-15T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İlkler Şehri Uşak",
+   "away": "Titan Akademi"
   },
   {
    "id": "se-497338",
@@ -514,35 +610,37 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-496680",
-   "sport": "tenis",
-   "competition": "ATP Turin",
-   "competitionId": "atp",
+   "id": "se-493226",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
+   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-11-15T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "EHF TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "Ferencvaros",
+   "away": "Esbjerg"
   },
   {
-   "id": "se-493927",
-   "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Süper Ligi",
-   "competitionId": "hentbol-kadinlar-super-ligi",
+   "id": "se-493717",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
    "kickoff": "2026-11-15T16:00:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "home": "Göztepe",
-   "away": "Yozgat GSK"
+   "away": "Galatasaray Daikin",
+   "turkish": true
   },
   {
    "id": "se-493718",
@@ -562,37 +660,20 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-493717",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
+   "id": "se-493927",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Süper Ligi",
+   "competitionId": "hentbol-kadinlar-super-ligi",
    "kickoff": "2026-11-15T16:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "THF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "home": "Göztepe",
-   "away": "Galatasaray Daikin",
-   "turkish": true
-  },
-  {
-   "id": "se-493226",
-   "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
-   "competitionId": "hentbol-kadinlar-sampiyonlar-ligi",
-   "kickoff": "2026-11-15T16:00:00+03:00",
-   "broadcasters": [
-    "EHF TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Ferencvaros",
-   "away": "Esbjerg"
+   "away": "Yozgat GSK"
   },
   {
    "id": "se-493930",
@@ -609,6 +690,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Spor Toto SK",
    "away": "Trabzon BB"
+  },
+  {
+   "id": "se-496680",
+   "sport": "tenis",
+   "competition": "ATP Turin",
+   "competitionId": "atp",
+   "kickoff": "2026-11-15T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Turin"
   },
   {
    "id": "se-493929",
@@ -690,6 +786,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Zenit",
    "away": "Trabzonspor"
+  },
+  {
+   "id": "se-497546",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-15T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türk Telekom Gelişim",
+   "away": "Kütahya Bld."
   },
   {
    "id": "se-496653",
@@ -807,36 +919,20 @@ GM_REGISTER_DAY({
    "away": "Trieste"
   },
   {
-   "id": "se-497336",
-   "sport": "hentbol",
-   "competition": "Fransa Hentbol Ligi",
-   "competitionId": "fransa-hentbol-ligi",
+   "id": "se-493715",
+   "sport": "voleybol",
+   "competition": "TVF Sultanlar Ligi",
+   "competitionId": "sultanlar-ligi",
    "kickoff": "2026-11-15T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 4"
+    "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Aix",
-   "away": "PSG"
-  },
-  {
-   "id": "se-497065",
-   "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
-   "kickoff": "2026-11-15T19:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bucaspor",
-   "away": "Karşıyaka",
+   "home": "Beşiktaş",
+   "away": "Afyon Bld.",
    "turkish": true
   },
   {
@@ -857,21 +953,37 @@ GM_REGISTER_DAY({
    "away": "Obradoiro CAB"
   },
   {
-   "id": "se-493715",
-   "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
-   "competitionId": "sultanlar-ligi",
+   "id": "se-497065",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
    "kickoff": "2026-11-15T19:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "Tivibu Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Beşiktaş",
-   "away": "Afyon Bld.",
+   "home": "Bucaspor",
+   "away": "Karşıyaka",
    "turkish": true
+  },
+  {
+   "id": "se-497336",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-11-15T19:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aix",
+   "away": "PSG"
   },
   {
    "id": "se-493230",
@@ -939,7 +1051,26 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-496961",
+   "id": "se-494797",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-15T21:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Philadelphia 76ers",
+   "away": "Indiana Pacers"
+  },
+  {
+   "id": "se-496654",
    "sport": "amerikan futbolu",
    "competition": "NFL",
    "competitionId": "nfl",
@@ -951,8 +1082,39 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "GB Packers",
-   "away": "Minnesota Vikings"
+   "title": "NFL Red Zone"
+  },
+  {
+   "id": "se-496924",
+   "sport": "basketbol",
+   "competition": "Fransa Basketbol Ligi LNB",
+   "competitionId": "fransa-basketbol-ligi-lnb",
+   "kickoff": "2026-11-15T21:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Le Mans Basket",
+   "away": "Asvel Villeurbanne"
+  },
+  {
+   "id": "se-496925",
+   "sport": "basketbol",
+   "competition": "İtalya Basketbol Ligi",
+   "competitionId": "italya-basketbol-ligi",
+   "kickoff": "2026-11-15T21:00:00+03:00",
+   "broadcasters": [
+    "Euroleague TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Energia Trento",
+   "away": "Virtus Bologna"
   },
   {
    "id": "se-496952",
@@ -972,39 +1134,7 @@ GM_REGISTER_DAY({
    "away": "Real Madrid"
   },
   {
-   "id": "se-496925",
-   "sport": "basketbol",
-   "competition": "İtalya Basketbol Ligi",
-   "competitionId": "italya-basketbol-ligi",
-   "kickoff": "2026-11-15T21:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Energia Trento",
-   "away": "Virtus Bologna"
-  },
-  {
-   "id": "se-496924",
-   "sport": "basketbol",
-   "competition": "Fransa Basketbol Ligi LNB",
-   "competitionId": "fransa-basketbol-ligi-lnb",
-   "kickoff": "2026-11-15T21:00:00+03:00",
-   "broadcasters": [
-    "Euroleague TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Le Mans Basket",
-   "away": "Asvel Villeurbanne"
-  },
-  {
-   "id": "se-496654",
+   "id": "se-496961",
    "sport": "amerikan futbolu",
    "competition": "NFL",
    "competitionId": "nfl",
@@ -1016,26 +1146,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "NFL Red Zone"
-  },
-  {
-   "id": "se-494797",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-15T21:00:00+03:00",
-   "broadcasters": [
-    "Prime Video",
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Philadelphia 76ers",
-   "away": "Indiana Pacers"
+   "home": "GB Packers",
+   "away": "Minnesota Vikings"
   },
   {
    "id": "se-494534",

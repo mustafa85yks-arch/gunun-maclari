@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-18",
- "generatedAt": "2026-11-12T15:26:34+03:00",
+ "generatedAt": "2026-11-12T20:17:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-497558",
+   "sport": "basketbol",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-18T03:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Duke",
+   "away": "Illinois"
+  },
   {
    "id": "se-494814",
    "sport": "basketbol",
@@ -48,7 +64,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-18T04:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -56,6 +74,22 @@ GM_REGISTER_DAY({
    ],
    "home": "SA Spurs",
    "away": "Detroit Pistons"
+  },
+  {
+   "id": "se-497559",
+   "sport": "basketbol",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-18T05:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kansas",
+   "away": "UNLV"
   },
   {
    "id": "se-494817",
@@ -90,6 +124,21 @@ GM_REGISTER_DAY({
    "away": "Utah Jazz"
   },
   {
+   "id": "se-497560",
+   "sport": "tenis",
+   "competition": "ATP Turin",
+   "competitionId": "atp",
+   "kickoff": "2026-11-18T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Turin"
+  },
+  {
    "id": "se-496969",
    "sport": "voleybol",
    "competition": "TVF Kadinlar Kupa Voley Çeyrek Final",
@@ -104,22 +153,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "THY"
-  },
-  {
-   "id": "se-491315",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-18T17:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Spor Toto SK",
-   "away": "Nilüfer Bld."
   },
   {
    "id": "se-491316",
@@ -152,6 +185,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Göztepe",
    "away": "Beşiktaş"
+  },
+  {
+   "id": "se-491315",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-11-18T17:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Spor Toto SK",
+   "away": "Nilüfer Bld."
   },
   {
    "id": "se-497130",
@@ -216,6 +265,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Tortona",
    "away": "Rigas Zelli"
+  },
+  {
+   "id": "se-497133",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-11-18T20:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Petrolina AEK",
+   "away": "Dziki Warszawa"
   },
   {
    "id": "se-497139",
@@ -298,22 +363,6 @@ GM_REGISTER_DAY({
    "away": "Nitra Blue Wings"
   },
   {
-   "id": "se-497134",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-11-18T20:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "CSM Oradea",
-   "away": "Lokomotiv Plovdiv"
-  },
-  {
    "id": "se-495670",
    "sport": "basketbol",
    "competition": "Eurocup",
@@ -379,7 +428,7 @@ GM_REGISTER_DAY({
    "away": "Real Madrid"
   },
   {
-   "id": "se-497133",
+   "id": "se-497134",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
    "competitionId": "fiba-europe-cup",
@@ -391,8 +440,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Petrolina AEK",
-   "away": "Dziki Warszawa"
+   "home": "CSM Oradea",
+   "away": "Lokomotiv Plovdiv"
   },
   {
    "id": "se-495671",

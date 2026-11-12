@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-12T15:26:30+03:00",
+ "generatedAt": "2026-11-12T20:17:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -445,6 +445,22 @@ GM_REGISTER_DAY({
    "away": "Lüleburgaz Akademi"
   },
   {
+   "id": "se-497551",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-14T14:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Teşvikiye",
+   "away": "İstanbul BB"
+  },
+  {
    "id": "se-493924",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Süper Ligi",
@@ -493,6 +509,22 @@ GM_REGISTER_DAY({
    "tags": [
     "final"
    ]
+  },
+  {
+   "id": "se-497552",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-14T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konya Gelişim",
+   "away": "Petkimspor"
   },
   {
    "id": "se-497337",
@@ -758,6 +790,38 @@ GM_REGISTER_DAY({
    "away": "S.Bilostenniy"
   },
   {
+   "id": "se-497542",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-14T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Manisa BB",
+   "away": "Karatay Bld."
+  },
+  {
+   "id": "se-497543",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-14T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Halkbank",
+   "away": "Çorlu Bld."
+  },
+  {
    "id": "se-493223",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
@@ -851,7 +915,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "HALKBANK",
+   "home": "Halkbank",
    "away": "Sultanbeyli Bld.",
    "turkish": true
   },
@@ -922,6 +986,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Norveç",
    "away": "Galler"
+  },
+  {
+   "id": "se-497553",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-14T20:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Güngören Doruk",
+   "away": "Watergarden HT"
   },
   {
    "id": "se-493806",

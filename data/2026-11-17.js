@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-17",
- "generatedAt": "2026-11-12T15:26:34+03:00",
+ "generatedAt": "2026-11-12T20:17:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -10,7 +10,7 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
-   "id": "se-494807",
+   "id": "se-494806",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -22,8 +22,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Cleveland Cavaliers",
-   "away": "Chicago Bulls"
+   "home": "Boston Celtics",
+   "away": "Orlando Magic"
   },
   {
    "id": "se-494808",
@@ -42,7 +42,7 @@ GM_REGISTER_DAY({
    "away": "Memphis Grizzlies"
   },
   {
-   "id": "se-494806",
+   "id": "se-494807",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -54,8 +54,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Boston Celtics",
-   "away": "Orlando Magic"
+   "home": "Cleveland Cavaliers",
+   "away": "Chicago Bulls"
   },
   {
    "id": "se-494809",
@@ -80,7 +80,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-11-17T03:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -122,6 +124,22 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
+   "id": "se-497554",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-11-17T04:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Baltimore Ravens",
+   "away": "LA Chargers"
+  },
+  {
    "id": "se-494813",
    "sport": "basketbol",
    "competition": "NBA",
@@ -136,6 +154,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Denver Nuggets",
    "away": "Phoenix Suns"
+  },
+  {
+   "id": "se-497555",
+   "sport": "tenis",
+   "competition": "ATP Turin",
+   "competitionId": "atp",
+   "kickoff": "2026-11-17T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Turin"
   },
   {
    "id": "se-493870",
@@ -529,21 +562,20 @@ GM_REGISTER_DAY({
    "away": "BC Siauliai"
   },
   {
-   "id": "se-493877",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-494548",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-17T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Partizan",
-   "away": "Valencia Basket"
+   "home": "Danimarka",
+   "away": "Norveç"
   },
   {
    "id": "se-494555",
@@ -658,20 +690,21 @@ GM_REGISTER_DAY({
    "away": "Portekiz"
   },
   {
-   "id": "se-494548",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
+   "id": "se-493877",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-11-17T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Danimarka",
-   "away": "Norveç"
+   "home": "Partizan",
+   "away": "Valencia Basket"
   },
   {
    "id": "se-493878",

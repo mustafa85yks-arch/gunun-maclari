@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:34+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T20:17:21+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-12T15:26:34+03:00",
+ "generatedAt": "2026-11-12T20:17:21+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -260,7 +260,7 @@ GM_REGISTER_DAY({
    "away": "Kağıt Spor"
   },
   {
-   "id": "se-494541",
+   "id": "se-494540",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
@@ -272,8 +272,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "İzlanda",
-   "away": "Lüksemburg"
+   "home": "Estonya",
+   "away": "Bulgaristan"
   },
   {
    "id": "se-494542",
@@ -292,7 +292,7 @@ GM_REGISTER_DAY({
    "away": "Lihtenştayn"
   },
   {
-   "id": "se-494540",
+   "id": "se-494541",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
@@ -304,8 +304,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Estonya",
-   "away": "Bulgaristan"
+   "home": "İzlanda",
+   "away": "Lüksemburg"
   },
   {
    "id": "se-496669",
