@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T06:21:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T15:26:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-12T06:21:18+03:00",
+ "generatedAt": "2026-11-12T15:26:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -230,6 +230,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Portland TB",
    "away": "OKC Thunder"
+  },
+  {
+   "id": "se-497442",
+   "sport": "golf",
+   "competition": "DP World Tour Golf",
+   "competitionId": "dp-world-tour-golf",
+   "kickoff": "2026-11-12T10:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Danimarka"
   },
   {
    "id": "se-497436",
