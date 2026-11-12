@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T00:00:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-12T05:12:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-12",
- "generatedAt": "2026-11-12T00:00:58+03:00",
+ "generatedAt": "2026-11-12T05:12:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -232,6 +232,54 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
+   "id": "se-497436",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-12T11:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Vallejo/Talavan"
+  },
+  {
+   "id": "se-497437",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-12T12:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Prieto/Fallada",
+   "away": "Alarza/Pelegri"
+  },
+  {
+   "id": "se-497438",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-12T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Goyeneche/Virseda",
+   "away": "Martin/Fernandez"
+  },
+  {
    "id": "se-496659",
    "sport": "tenis",
    "competition": "ATP Stockholm Çeyrek Final",
@@ -244,7 +292,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 1"
+   "home": "A.Michelsen",
+   "away": "A.Tabilo"
+  },
+  {
+   "id": "se-497439",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-12T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ruiz/Lopez",
+   "away": "Augsburger/Lebron"
   },
   {
    "id": "se-496660",
@@ -259,7 +324,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 2"
+   "home": "T.A.Tirante",
+   "away": "A.Shevchenko"
   },
   {
    "id": "se-494187",
@@ -276,6 +342,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Gence",
    "away": "Esenler Erokspor"
+  },
+  {
+   "id": "se-497440",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-12T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yanguas/Ruiz",
+   "away": "Garrido/Pascual"
+  },
+  {
+   "id": "se-497441",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-12T19:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Blasco/Gutierrez",
+   "away": "Stupaczuk/Sanz"
   },
   {
    "id": "se-494188",
@@ -338,23 +436,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 3"
-  },
-  {
-   "id": "se-496669",
-   "sport": "futbol",
-   "competition": "Hazirlik Maçi",
-   "competitionId": "hazirlik-maci",
-   "kickoff": "2026-11-12T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Andorra",
-   "away": "Azerbaycan"
+   "home": "T.Fritz",
+   "away": "H.Rune"
   },
   {
    "id": "se-497101",
@@ -371,22 +454,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Navalcarnero",
    "away": "Real Betis"
-  },
-  {
-   "id": "se-493862",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-12T21:55:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Maccabi Fox",
-   "away": "Hapoel Tel Aviv"
   },
   {
    "id": "se-496919",
@@ -418,6 +485,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 1"
+  },
+  {
+   "id": "se-493862",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-12T22:05:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Maccabi Fox",
+   "away": "Hapoel Tel Aviv"
   },
   {
    "id": "se-493863",
@@ -482,7 +565,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Çeyrek Final Maç 4"
+   "home": "L.Musetti",
+   "away": "U.Humbert"
   },
   {
    "id": "se-494506",
