@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T05:54:50+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T15:02:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-18",
- "generatedAt": "2026-11-13T05:54:50+03:00",
+ "generatedAt": "2026-11-13T15:02:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -124,6 +124,22 @@ GM_REGISTER_DAY({
    "away": "Utah Jazz"
   },
   {
+   "id": "se-491316",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-11-18T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul Gençlik",
+   "away": "Beykoz Bld."
+  },
+  {
    "id": "se-497560",
    "sport": "tenis",
    "competition": "ATP Turin",
@@ -155,22 +171,6 @@ GM_REGISTER_DAY({
    "away": "THY"
   },
   {
-   "id": "se-491316",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-18T17:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İstanbul Gençlik",
-   "away": "Beykoz Bld."
-  },
-  {
    "id": "se-491317",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -185,22 +185,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Göztepe",
    "away": "Beşiktaş"
-  },
-  {
-   "id": "se-491315",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-18T17:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Spor Toto SK",
-   "away": "Nilüfer Bld."
   },
   {
    "id": "se-497130",
@@ -267,22 +251,6 @@ GM_REGISTER_DAY({
    "away": "Rigas Zelli"
   },
   {
-   "id": "se-497133",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-11-18T20:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Petrolina AEK",
-   "away": "Dziki Warszawa"
-  },
-  {
    "id": "se-497139",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -345,6 +313,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Opava",
    "away": "Batumi"
+  },
+  {
+   "id": "se-497133",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-11-18T20:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Petrolina AEK",
+   "away": "Dziki Warszawa"
   },
   {
    "id": "se-497135",

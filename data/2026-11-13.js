@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T05:54:43+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T15:01:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-13T05:54:43+03:00",
+ "generatedAt": "2026-11-13T15:01:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -133,6 +133,70 @@ GM_REGISTER_DAY({
    "away": "Charlotte Hornets"
   },
   {
+   "id": "se-497611",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-13T11:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Alcorisa/Jensen"
+  },
+  {
+   "id": "se-497612",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-13T12:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Espana/Villa",
+   "away": "Martin/Fernandez"
+  },
+  {
+   "id": "se-497613",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-13T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Prieto/Fallada",
+   "away": "Postiguillo/Barrera"
+  },
+  {
+   "id": "se-497614",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-13T15:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tello/Simo",
+   "away": "Augsburger/Lebron"
+  },
+  {
    "id": "se-496663",
    "sport": "tenis",
    "competition": "ATP Stockholm Yarı Final",
@@ -145,10 +209,27 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 1",
+   "home": "A.Tabilo",
+   "away": "T.A.Tirante",
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-496666",
+   "sport": "dövüş sporları",
+   "competition": "One Championship Dövüş Serisi",
+   "competitionId": "one-championship-dovus-serisi",
+   "kickoff": "2026-11-13T16:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "S.Yoshinari",
+   "away": "R.Ondash"
   },
   {
    "id": "se-497240",
@@ -166,11 +247,11 @@ GM_REGISTER_DAY({
    "title": "Seans 1"
   },
   {
-   "id": "se-496666",
+   "id": "se-496667",
    "sport": "dövüş sporları",
    "competition": "One Championship Dövüş Serisi",
    "competitionId": "one-championship-dovus-serisi",
-   "kickoff": "2026-11-13T17:30:00+03:00",
+   "kickoff": "2026-11-13T17:00:00+03:00",
    "broadcasters": [
     "S Sport Plus"
    ],
@@ -178,8 +259,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "S.Yoshinari",
-   "away": "R.Ondash"
+   "home": "R.Jitmuangnon",
+   "away": "N.Ohama"
   },
   {
    "id": "se-496317",
@@ -214,20 +295,20 @@ GM_REGISTER_DAY({
    "away": "Gaziantep Basket"
   },
   {
-   "id": "se-496667",
-   "sport": "dövüş sporları",
-   "competition": "One Championship Dövüş Serisi",
-   "competitionId": "one-championship-dovus-serisi",
+   "id": "se-497615",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
    "kickoff": "2026-11-13T18:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "R.Jitmuangnon",
-   "away": "N.Ohama"
+   "home": "Alfonso/Libaak",
+   "away": "Bautista/Bergamini"
   },
   {
    "id": "se-496282",
@@ -258,7 +339,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 2",
+   "home": "T.Fritz",
+   "away": "L.Musetti",
    "tags": [
     "yari-final"
    ]
@@ -278,6 +360,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Türkiye",
    "away": "Çekya"
+  },
+  {
+   "id": "se-497616",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-13T19:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Garrido/Pascual",
+   "away": "Stupaczuk/Sanz"
   },
   {
    "id": "se-493867",
@@ -379,36 +477,20 @@ GM_REGISTER_DAY({
    "away": "Faroe Adaları"
   },
   {
-   "id": "se-494519",
+   "id": "se-494516",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-13T22:45:00+03:00",
    "broadcasters": [
-    "A Para"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Slovenya",
-   "away": "İsviçre"
-  },
-  {
-   "id": "se-494518",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-13T22:45:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İskoçya",
-   "away": "Kuzey Makedonya"
+   "home": "Hollanda",
+   "away": "Yunanistan"
   },
   {
    "id": "se-494517",
@@ -427,20 +509,36 @@ GM_REGISTER_DAY({
    "away": "Almanya"
   },
   {
-   "id": "se-494516",
+   "id": "se-494518",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-13T22:45:00+03:00",
    "broadcasters": [
-    "A Haber"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Hollanda",
-   "away": "Yunanistan"
+   "home": "İskoçya",
+   "away": "Kuzey Makedonya"
+  },
+  {
+   "id": "se-494519",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-13T22:45:00+03:00",
+   "broadcasters": [
+    "A Para"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slovenya",
+   "away": "İsviçre"
   },
   {
    "id": "se-497603",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T05:54:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T15:01:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-13T05:54:46+03:00",
+ "generatedAt": "2026-11-13T15:01:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -50,6 +50,22 @@ GM_REGISTER_DAY({
    "away": "Boca Juniors"
   },
   {
+   "id": "se-497605",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-14T02:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dabrowski/Stefani",
+   "away": "Hsieh/Ostapenko"
+  },
+  {
    "id": "se-486278",
    "sport": "basketbol",
    "competition": "NBA",
@@ -96,6 +112,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Orlando Magic",
    "away": "Milwaukee Bucks"
+  },
+  {
+   "id": "se-497606",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells",
+   "competitionId": "wta",
+   "kickoff": "2026-11-14T03:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Guo/Mladenovic",
+   "away": "Mertens/Zhang"
   },
   {
    "id": "se-494785",
@@ -226,6 +258,21 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
+   "id": "se-497632",
+   "sport": "atletizm",
+   "competition": "T100 Triatlon Dünya Turu",
+   "competitionId": "t100-triatlon-dunya-turu",
+   "kickoff": "2026-11-14T09:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Dubai"
+  },
+  {
    "id": "se-496449",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -256,6 +303,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Melbourne United",
    "away": "Melbourne Phoenix"
+  },
+  {
+   "id": "se-497626",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-14T11:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Slalom Ayak 1"
   },
   {
    "id": "se-493803",
@@ -477,20 +539,19 @@ GM_REGISTER_DAY({
    "away": "İstanbul BB"
   },
   {
-   "id": "se-493924",
-   "sport": "hentbol",
-   "competition": "Hentbol Kadinlar Süper Ligi",
-   "competitionId": "hentbol-kadinlar-super-ligi",
-   "kickoff": "2026-11-14T15:00:00+03:00",
+   "id": "se-497627",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-14T14:45:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "Eurosport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Bursa BB",
-   "away": "Üsküdar Bld."
+   "title": "Kadınlar Slalom Ayak 2"
   },
   {
    "id": "se-493925",
@@ -643,6 +704,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497633",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Dünya Kupasi",
+   "competitionId": "bisikletli-kros-dunya-kupasi",
+   "kickoff": "2026-11-14T15:35:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Superprestige Kadınlar"
+  },
+  {
    "id": "se-494049",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -725,6 +801,22 @@ GM_REGISTER_DAY({
    "away": "G.Warburton"
   },
   {
+   "id": "se-493924",
+   "sport": "hentbol",
+   "competition": "Hentbol Kadinlar Süper Ligi",
+   "competitionId": "hentbol-kadinlar-super-ligi",
+   "kickoff": "2026-11-14T16:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bursa BB",
+   "away": "Üsküdar Bld."
+  },
+  {
    "id": "se-494052",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -764,7 +856,7 @@ GM_REGISTER_DAY({
    "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-11-14T16:30:00+03:00",
    "broadcasters": [
-    "HT Spor"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -836,6 +928,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Halkbank",
    "away": "Çorlu Bld."
+  },
+  {
+   "id": "se-497634",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Dünya Kupasi",
+   "competitionId": "bisikletli-kros-dunya-kupasi",
+   "kickoff": "2026-11-14T17:05:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Superprestige Erkekler"
+  },
+  {
+   "id": "se-497643",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-11-14T17:30:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zeytinburnu Bld.",
+   "away": "Yükseliş SK"
   },
   {
    "id": "se-493223",
@@ -1035,6 +1158,52 @@ GM_REGISTER_DAY({
    "home": "Bandırma Bordo",
    "away": "Karşıyaka",
    "turkish": true
+  },
+  {
+   "id": "se-497644",
+   "sport": "buz hokeyi",
+   "competition": "TBHF Kadinlar Süper Ligi",
+   "competitionId": "tbhf-kadinlar-super-ligi",
+   "kickoff": "2026-11-14T20:45:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul BB",
+   "away": "Yükseliş SK"
+  },
+  {
+   "id": "se-497635",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Austin Şampiyonasi",
+   "competitionId": "golf-pga-tour-austin-sampiyonasi",
+   "kickoff": "2026-11-14T22:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
+   "id": "se-497639",
+   "sport": "golf",
+   "competition": "Golf PGA Tour Austin Şampiyonasi",
+   "competitionId": "golf-pga-tour-austin-sampiyonasi",
+   "kickoff": "2026-11-14T22:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 4"
   },
   {
    "id": "se-496921",

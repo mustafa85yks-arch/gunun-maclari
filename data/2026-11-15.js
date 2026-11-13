@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T05:54:50+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T15:02:02+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-13T05:54:50+03:00",
+ "generatedAt": "2026-11-13T15:02:02+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -69,22 +69,6 @@ GM_REGISTER_DAY({
    "away": "Dallas Mavericks"
   },
   {
-   "id": "se-497331",
-   "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi",
-   "competitionId": "guney-amerika-basketbol-ligi",
-   "kickoff": "2026-11-15T03:40:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Paisas",
-   "away": "Boca Juniors"
-  },
-  {
    "id": "se-494794",
    "sport": "basketbol",
    "competition": "NBA",
@@ -131,6 +115,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Minnesota TW",
    "away": "Chicago Bulls"
+  },
+  {
+   "id": "se-497331",
+   "sport": "basketbol",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
+   "kickoff": "2026-11-15T04:40:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Paisas",
+   "away": "Boca Juniors"
   },
   {
    "id": "se-496675",
@@ -245,6 +245,21 @@ GM_REGISTER_DAY({
    "away": "Vissel Kobe"
   },
   {
+   "id": "se-497636",
+   "sport": "bisiklet",
+   "competition": "Saitama Criterium Bisiklet Turu",
+   "competitionId": "saitama-criterium-bisiklet-turu",
+   "kickoff": "2026-11-15T08:40:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yol Yarışı"
+  },
+  {
    "id": "se-497548",
    "sport": "futbol",
    "competition": "Japonya Levain Kupasi",
@@ -293,13 +308,28 @@ GM_REGISTER_DAY({
    "away": "Kawasaki Frontale"
   },
   {
+   "id": "se-497628",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-15T11:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Slalom Ayak 1"
+  },
+  {
    "id": "se-493714",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
    "competitionId": "sultanlar-ligi",
    "kickoff": "2026-11-15T13:00:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "TRT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -495,6 +525,21 @@ GM_REGISTER_DAY({
    "away": "Egospor"
   },
   {
+   "id": "se-497629",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-15T14:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Slalom Ayak 2"
+  },
+  {
    "id": "se-493931",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -610,6 +655,21 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497637",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Trophy",
+   "competitionId": "bisikletli-kros-trophy",
+   "kickoff": "2026-11-15T15:40:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar"
+  },
+  {
    "id": "se-493226",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
@@ -707,6 +767,21 @@ GM_REGISTER_DAY({
    "title": "Turin"
   },
   {
+   "id": "se-497630",
+   "sport": "halter",
+   "competition": "Powerlifting Dünya Şampiyonasi",
+   "competitionId": "powerlifting-dunya-sampiyonasi",
+   "kickoff": "2026-11-15T16:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Seans 2"
+  },
+  {
    "id": "se-493929",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -737,6 +812,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Harem Spor",
    "away": "Final Spor"
+  },
+  {
+   "id": "se-497638",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Trophy",
+   "competitionId": "bisikletli-kros-trophy",
+   "kickoff": "2026-11-15T16:55:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler"
   },
   {
    "id": "se-493712",
@@ -818,6 +908,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Detroit Lions",
    "away": "NE Patriots"
+  },
+  {
+   "id": "se-497645",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-11-15T17:30:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zeytinburnu Bld.",
+   "away": "Yükseliş SK"
   },
   {
    "id": "se-493227",
@@ -1051,6 +1157,38 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497646",
+   "sport": "buz hokeyi",
+   "competition": "TBHF Kadinlar Süper Ligi",
+   "competitionId": "tbhf-kadinlar-super-ligi",
+   "kickoff": "2026-11-15T20:30:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Buz Adamlar GSK",
+   "away": "TED Kocaeli"
+  },
+  {
+   "id": "se-497647",
+   "sport": "buz hokeyi",
+   "competition": "TBHF Kadinlar Süper Ligi",
+   "competitionId": "tbhf-kadinlar-super-ligi",
+   "kickoff": "2026-11-15T20:45:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İstanbul BB",
+   "away": "Genç Ankaralılar"
+  },
+  {
    "id": "se-494797",
    "sport": "basketbol",
    "competition": "NBA",
@@ -1148,6 +1286,21 @@ GM_REGISTER_DAY({
    ],
    "home": "GB Packers",
    "away": "Minnesota Vikings"
+  },
+  {
+   "id": "se-497631",
+   "sport": "jimnastik",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-15T22:10:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Serbest Program"
   },
   {
    "id": "se-494534",
