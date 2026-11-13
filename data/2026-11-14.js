@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T15:01:58+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T19:52:58+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-13T15:01:58+03:00",
+ "generatedAt": "2026-11-13T19:52:58+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -67,22 +67,6 @@ GM_REGISTER_DAY({
   },
   {
    "id": "se-486278",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-14T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Indiana Pacers",
-   "away": "New York Knicks"
-  },
-  {
-   "id": "se-494783",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -1176,6 +1160,22 @@ GM_REGISTER_DAY({
    "away": "Yükseliş SK"
   },
   {
+   "id": "se-497660",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-11-14T21:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nantes",
+   "away": "St.Raphael"
+  },
+  {
    "id": "se-497635",
    "sport": "golf",
    "competition": "Golf PGA Tour Austin Şampiyonasi",
@@ -1204,6 +1204,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 4"
+  },
+  {
+   "id": "se-497661",
+   "sport": "motosiklet",
+   "competition": "24 Saat Daytona",
+   "competitionId": "24-saat-daytona",
+   "kickoff": "2026-11-14T22:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış"
   },
   {
    "id": "se-496921",

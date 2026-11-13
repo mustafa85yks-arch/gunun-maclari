@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T15:01:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T19:52:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-13",
- "generatedAt": "2026-11-13T15:01:54+03:00",
+ "generatedAt": "2026-11-13T19:52:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -394,6 +394,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Anadolu Efes",
    "away": "Virtus Bologna"
+  },
+  {
+   "id": "se-497659",
+   "sport": "olimpiyat",
+   "competition": "Yaz Gençlik Olimpiyatlari",
+   "competitionId": "yaz-genclik-olimpiyatlari",
+   "kickoff": "2026-11-13T20:55:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kapanış Töreni"
   },
   {
    "id": "se-497241",
