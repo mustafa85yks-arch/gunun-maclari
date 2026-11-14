@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T14:19:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T18:27:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-14T14:19:54+03:00",
+ "generatedAt": "2026-11-14T18:27:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -457,6 +457,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497720",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-14T13:00:00+03:00",
+   "broadcasters": [
+    "Adana Demirspor Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sebat Spor",
+   "away": "Adana Demirspor",
+   "turkish": true
+  },
+  {
    "id": "se-493928",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -638,6 +655,22 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-497724",
+   "sport": "futbol",
+   "competition": "UEFA U17 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u17-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-14T15:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Macaristan"
   },
   {
    "id": "se-496672",
@@ -853,6 +886,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Valladolid",
    "away": "Castellon"
+  },
+  {
+   "id": "se-497723",
+   "sport": "futbol",
+   "competition": "UEFA U19 Avrupa Şampiyonasi",
+   "competitionId": "uefa-u19-avrupa-sampiyonasi",
+   "kickoff": "2026-11-14T16:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Estonya"
   },
   {
    "id": "se-493924",
@@ -1363,6 +1412,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış"
+  },
+  {
+   "id": "se-497721",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-14T22:00:00+03:00",
+   "broadcasters": [
+    "Kahramanmaraş İstiklal Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kahramanmaraş İstiklal",
+   "away": "Fethiyespor",
+   "turkish": true
   },
   {
    "id": "se-496921",

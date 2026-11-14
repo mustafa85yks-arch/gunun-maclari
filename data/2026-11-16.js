@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T14:19:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T18:27:19+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-14T14:19:57+03:00",
+ "generatedAt": "2026-11-14T18:27:19+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -212,22 +212,6 @@ GM_REGISTER_DAY({
    "title": "Turin"
   },
   {
-   "id": "se-494538",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-16T18:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Faroe Adaları",
-   "away": "Moldova"
-  },
-  {
    "id": "se-494539",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
@@ -260,54 +244,6 @@ GM_REGISTER_DAY({
    "away": "Kağıt Spor"
   },
   {
-   "id": "se-494540",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-16T20:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Estonya",
-   "away": "Bulgaristan"
-  },
-  {
-   "id": "se-494542",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-16T20:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Litvanya",
-   "away": "Lihtenştayn"
-  },
-  {
-   "id": "se-494541",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-16T20:00:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İzlanda",
-   "away": "Lüksemburg"
-  },
-  {
    "id": "se-496669",
    "sport": "futbol",
    "competition": "Hazirlik Maçi",
@@ -324,29 +260,13 @@ GM_REGISTER_DAY({
    "away": "Azerbaycan"
   },
   {
-   "id": "se-494543",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-16T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Cebelitarık",
-   "away": "Malta"
-  },
-  {
    "id": "se-494544",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-16T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Haber"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -378,7 +298,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-16T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "A Para"
    ],
    "verification": "tek_kaynak",
    "sources": [
