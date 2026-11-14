@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T05:41:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T14:19:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-14T05:41:42+03:00",
+ "generatedAt": "2026-11-14T14:19:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,6 +32,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Flamengo",
    "away": "Brasilia Basquete"
+  },
+  {
+   "id": "se-497694",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-15T00:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "L.Noskova",
+   "away": "E.Svitolina",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-494792",
@@ -475,6 +494,23 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497703",
+   "sport": "futbol",
+   "competition": "TFF Elit U14 Ligi",
+   "competitionId": "tff-elit-u14-ligi",
+   "kickoff": "2026-11-15T13:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Eyüpspor",
+   "turkish": true
+  },
+  {
    "id": "se-493713",
    "sport": "voleybol",
    "competition": "TVF Sultanlar Ligi",
@@ -602,6 +638,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Kocaeli Akincilar",
    "away": "Yükseliş SK"
+  },
+  {
+   "id": "se-497704",
+   "sport": "futbol",
+   "competition": "TFF Elit U14 Ligi",
+   "competitionId": "tff-elit-u14-ligi",
+   "kickoff": "2026-11-15T15:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Eyüpspor",
+   "turkish": true
   },
   {
    "id": "se-497338",

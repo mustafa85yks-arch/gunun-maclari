@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T05:41:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T14:19:54+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-14T05:41:38+03:00",
+ "generatedAt": "2026-11-14T14:19:54+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -255,6 +255,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Dubai"
+  },
+  {
+   "id": "se-497695",
+   "sport": "golf",
+   "competition": "DP World Tour Golf",
+   "competitionId": "dp-world-tour-golf",
+   "kickoff": "2026-11-14T10:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Danimarka"
   },
   {
    "id": "se-496449",
@@ -811,7 +827,7 @@ GM_REGISTER_DAY({
    "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-11-14T16:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "HT Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1238,6 +1254,23 @@ GM_REGISTER_DAY({
    "away": "Watergarden HT"
   },
   {
+   "id": "se-497691",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-14T20:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Breogan",
+   "away": "SP Burgos"
+  },
+  {
    "id": "se-493806",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -1460,6 +1493,42 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Oviedo",
    "away": "Girona"
+  },
+  {
+   "id": "se-497692",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-14T23:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Joventut Badalona",
+   "away": "Zaragoza"
+  },
+  {
+   "id": "se-497693",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells Yarı Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-14T23:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "J.Pegula",
+   "away": "M.Andreeva",
+   "tags": [
+    "yari-final"
+   ]
   }
  ]
 });

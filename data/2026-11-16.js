@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T05:41:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T14:19:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-14T05:41:42+03:00",
+ "generatedAt": "2026-11-14T14:19:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -39,8 +39,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-497332",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  BasketbolOyna",
-   "competitionId": "guney-amerika-basketbol-ligi-basketboloyna",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
    "kickoff": "2026-11-16T00:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -162,7 +162,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Paisas",
-   "away": "Brasilia Basquete BasketbolOyna"
+   "away": "Brasilia Basquete"
   },
   {
    "id": "se-494804",
@@ -214,8 +214,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-494538",
    "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi  SahaKirala",
-   "competitionId": "uefa-uluslar-ligi-sahakirala",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-16T18:00:00+03:00",
    "broadcasters": [
     "A Spor"
