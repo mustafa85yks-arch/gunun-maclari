@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T23:43:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T04:24:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-13T23:43:49+03:00",
+ "generatedAt": "2026-11-14T04:24:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -201,6 +201,22 @@ GM_REGISTER_DAY({
    "away": "Karapınar Anadolu Leoparları"
   },
   {
+   "id": "se-497677",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-11-20T19:45:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Zeytinburnu Bld.",
+   "away": "Kocaeli Akincilar"
+  },
+  {
    "id": "se-489832",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -219,7 +235,7 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-494373",
+   "id": "se-494372",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
    "competitionId": "almanya-bundesliga-2",
@@ -231,8 +247,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Darmstadt 98",
-   "away": "Heidenheim"
+   "home": "Arminia Bielefeld",
+   "away": "Magdeburg"
   },
   {
    "id": "se-497575",
@@ -251,7 +267,7 @@ GM_REGISTER_DAY({
    "away": "Al Nassr"
   },
   {
-   "id": "se-494372",
+   "id": "se-494373",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
    "competitionId": "almanya-bundesliga-2",
@@ -263,8 +279,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Arminia Bielefeld",
-   "away": "Magdeburg"
+   "home": "Darmstadt 98",
+   "away": "Heidenheim"
   },
   {
    "id": "se-493886",

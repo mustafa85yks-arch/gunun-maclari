@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T23:43:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T04:24:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-13T23:43:49+03:00",
+ "generatedAt": "2026-11-14T04:24:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -31,7 +31,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Flamengo",
-   "away": "Brasilia Basquete"
+   "away": "Brasilia Basquete BasketbolOyna"
   },
   {
    "id": "se-494792",
@@ -67,6 +67,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Cleveland Cavaliers",
    "away": "Dallas Mavericks"
+  },
+  {
+   "id": "se-497690",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-15T03:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LSU",
+   "away": "Texas Longhorns"
   },
   {
    "id": "se-494794",
@@ -119,8 +135,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-497331",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi",
-   "competitionId": "guney-amerika-basketbol-ligi",
+   "competition": "Güney Amerika Basketbol Ligi  BasketbolOyna",
+   "competitionId": "guney-amerika-basketbol-ligi-basketboloyna",
    "kickoff": "2026-11-15T04:40:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -572,6 +588,22 @@ GM_REGISTER_DAY({
    "away": "Titan Akademi"
   },
   {
+   "id": "se-497676",
+   "sport": "buz hokeyi",
+   "competition": "TBHF Kadinlar Süper Ligi",
+   "competitionId": "tbhf-kadinlar-super-ligi",
+   "kickoff": "2026-11-15T15:00:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kocaeli Akincilar",
+   "away": "Yükseliş SK"
+  },
+  {
    "id": "se-497338",
    "sport": "motor sporları",
    "competition": "Asya Le Mans Serisi",
@@ -1007,6 +1039,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Göztepe",
    "away": "Beykoz Bld."
+  },
+  {
+   "id": "se-497675",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-11-15T18:00:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kocaeli Akincilar",
+   "away": "İstanbul BB"
   },
   {
    "id": "se-496923",

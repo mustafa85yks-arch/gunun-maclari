@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-13T23:43:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T04:24:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-14",
- "generatedAt": "2026-11-13T23:43:45+03:00",
+ "generatedAt": "2026-11-14T04:24:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -566,7 +566,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Final",
+   "home": "T.Fritz",
+   "away": "T.A.Tirante",
    "tags": [
     "final"
    ]
@@ -586,6 +587,57 @@ GM_REGISTER_DAY({
    ],
    "home": "Konya Gelişim",
    "away": "Petkimspor"
+  },
+  {
+   "id": "se-497674",
+   "sport": "buz hokeyi",
+   "competition": "TBHF Kadinlar Süper Ligi",
+   "competitionId": "tbhf-kadinlar-super-ligi",
+   "kickoff": "2026-11-14T15:00:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kocaeli Akincilar",
+   "away": "Genç Ankaralılar"
+  },
+  {
+   "id": "se-497684",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Yarı Final",
+   "competitionId": "premier-padel-kadinlar-yari-final",
+   "kickoff": "2026-11-14T15:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alcorisa/Jensen",
+   "away": "Sanchez/Santamaria",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
+   "id": "se-496672",
+   "sport": "boks",
+   "competition": "Zuffa Boxing",
+   "competitionId": "zuffa-boxing",
+   "kickoff": "2026-11-14T15:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Adames",
+   "away": "G.Warburton"
   },
   {
    "id": "se-497337",
@@ -769,20 +821,22 @@ GM_REGISTER_DAY({
    "away": "TED Kolejliler"
   },
   {
-   "id": "se-496672",
-   "sport": "boks",
-   "competition": "Zuffa Boxing",
-   "competitionId": "zuffa-boxing",
+   "id": "se-497688",
+   "sport": "futbol",
+   "competition": "İspanya La Liga 2",
+   "competitionId": "ispanya-la-liga-2",
    "kickoff": "2026-11-14T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
-   "home": "C.Adames",
-   "away": "G.Warburton"
+   "home": "Valladolid",
+   "away": "Castellon"
   },
   {
    "id": "se-493924",
@@ -848,6 +902,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Mersin Basketbol",
    "away": "Keçiören Bld"
+  },
+  {
+   "id": "se-497685",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Yarı Final",
+   "competitionId": "premier-padel-kadinlar-yari-final",
+   "kickoff": "2026-11-14T16:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Prieto/Fallada",
+   "away": "Martin/Fernandez",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-493926",
@@ -1026,6 +1099,25 @@ GM_REGISTER_DAY({
    "away": "Bayrampaşa Bld."
   },
   {
+   "id": "se-497686",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Yarı Final",
+   "competitionId": "premier-padel-erkekler-yari-final",
+   "kickoff": "2026-11-14T18:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Abbate/Bianco",
+   "away": "Augsburger/Lebron",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-494050",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -1063,6 +1155,25 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-497687",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Yarı Final",
+   "competitionId": "premier-padel-erkekler-yari-final",
+   "kickoff": "2026-11-14T19:30:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alfonso/Libaak",
+   "away": "Garrido/Pascual",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-493224",
    "sport": "hentbol",
    "competition": "Hentbol Kadinlar Şampiyonlar Ligi",
@@ -1095,7 +1206,7 @@ GM_REGISTER_DAY({
    "away": "Bistrita"
   },
   {
-   "id": "se-494524",
+   "id": "se-494523",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
@@ -1107,8 +1218,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Norveç",
-   "away": "Galler"
+   "home": "Gürcistan",
+   "away": "Macaristan"
   },
   {
    "id": "se-497553",
@@ -1331,6 +1442,24 @@ GM_REGISTER_DAY({
    ],
    "home": "N.Bagley",
    "away": "B.Souza"
+  },
+  {
+   "id": "se-497689",
+   "sport": "futbol",
+   "competition": "İspanya La Liga 2",
+   "competitionId": "ispanya-la-liga-2",
+   "kickoff": "2026-11-14T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Real Oviedo",
+   "away": "Girona"
   }
  ]
 });
