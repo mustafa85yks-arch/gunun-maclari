@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T14:51:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T18:59:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-15T14:51:48+03:00",
+ "generatedAt": "2026-11-15T18:59:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -20,7 +20,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494798",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-16T00:00:00+03:00",
    "broadcasters": [
@@ -39,8 +39,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-497332",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi",
-   "competitionId": "guney-amerika-basketbol-ligi",
+   "competition": "Güney Amerika Basketbol Ligi  SahaKirala",
+   "competitionId": "guney-amerika-basketbol-ligi-sahakirala",
    "kickoff": "2026-11-16T00:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -103,7 +103,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-497817",
    "sport": "tenis",
-   "competition": "WTA Indian Wells Final",
+   "competition": "WTA Finalleri Indian Wells Final",
    "competitionId": "wta",
    "kickoff": "2026-11-16T01:00:00+03:00",
    "broadcasters": [
@@ -138,7 +138,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494802",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-16T02:00:00+03:00",
    "broadcasters": [
@@ -197,12 +197,12 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Paisas",
-   "away": "Brasilia Basquete"
+   "away": "Brasilia Basquete BasketbolOyna"
   },
   {
    "id": "se-494804",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-16T04:00:00+03:00",
    "broadcasters": [
