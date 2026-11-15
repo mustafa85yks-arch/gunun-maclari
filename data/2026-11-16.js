@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T05:07:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T14:51:48+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-15T05:07:32+03:00",
+ "generatedAt": "2026-11-15T14:51:48+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -20,7 +20,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494798",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-16T00:00:00+03:00",
    "broadcasters": [
@@ -101,6 +101,25 @@ GM_REGISTER_DAY({
    "away": "SA Spurs"
   },
   {
+   "id": "se-497817",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-16T01:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Siniakova/Townsend",
+   "away": "Errani/Paolini",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-494801",
    "sport": "basketbol",
    "competition": "NBA",
@@ -119,7 +138,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494802",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-16T02:00:00+03:00",
    "broadcasters": [
@@ -135,7 +154,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494803",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-16T03:00:00+03:00",
    "broadcasters": [
@@ -147,6 +166,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Washington Wizards",
    "away": "Houston Rockets"
+  },
+  {
+   "id": "se-497819",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-11-16T03:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "New Mexico",
+   "away": "Sacramento Republic"
   },
   {
    "id": "se-497333",
@@ -167,7 +202,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494804",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-16T04:00:00+03:00",
    "broadcasters": [

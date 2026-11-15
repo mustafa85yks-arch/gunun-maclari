@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T05:07:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T14:51:48+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-15T05:07:32+03:00",
+ "generatedAt": "2026-11-15T14:51:48+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -327,6 +327,22 @@ GM_REGISTER_DAY({
    "away": "Yokohama Marinos"
   },
   {
+   "id": "se-497743",
+   "sport": "golf",
+   "competition": "DP World Tour Golf",
+   "competitionId": "dp-world-tour-golf",
+   "kickoff": "2026-11-15T09:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Danimarka"
+  },
+  {
    "id": "se-497550",
    "sport": "futbol",
    "competition": "Japonya Levain Kupasi",
@@ -356,6 +372,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Erkekler Slalom Ayak 1"
+  },
+  {
+   "id": "se-497794",
+   "sport": "dövüş sporları",
+   "competition": "Açik Balkan Wushu Kung Fu Şampiyonasi",
+   "competitionId": "acik-balkan-wushu-kung-fu-sampiyonasi",
+   "kickoff": "2026-11-15T12:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Bolu"
   },
   {
    "id": "se-493714",
@@ -577,6 +608,23 @@ GM_REGISTER_DAY({
    "away": "Egospor"
   },
   {
+   "id": "se-497744",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-15T14:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valencia Basket",
+   "away": "Leyma Coruna"
+  },
+  {
    "id": "se-497629",
    "sport": "alp disiplini",
    "competition": "Alp Disiplini Dünya Kupasi",
@@ -642,8 +690,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-497704",
    "sport": "futbol",
-   "competition": "TFF Elit U14 Ligi",
-   "competitionId": "tff-elit-u14-ligi",
+   "competition": "TFF Elit U15 Ligi",
+   "competitionId": "tff-elit-u15-ligi",
    "kickoff": "2026-11-15T15:00:00+03:00",
    "broadcasters": [
     "FB TV"
@@ -997,6 +1045,22 @@ GM_REGISTER_DAY({
    "tags": [
     "final"
    ]
+  },
+  {
+   "id": "se-497818",
+   "sport": "futbol",
+   "competition": "Hazirlik Maçi",
+   "competitionId": "hazirlik-maci",
+   "kickoff": "2026-11-15T17:00:00+03:00",
+   "broadcasters": [
+    "HSV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hamburg",
+   "away": "Hajduk Split"
   },
   {
    "id": "se-496653",
@@ -1557,6 +1621,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Texas Longhorns",
    "away": "Baylor Bears"
+  },
+  {
+   "id": "se-497816",
+   "sport": "tenis",
+   "competition": "WTA Indian Wells Final",
+   "competitionId": "wta",
+   "kickoff": "2026-11-15T23:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "E.Svitolina",
+   "away": "M.Andreeva",
+   "tags": [
+    "final"
+   ]
   }
  ]
 });

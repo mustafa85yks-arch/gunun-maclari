@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T05:07:32+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T14:51:48+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-17",
- "generatedAt": "2026-11-15T05:07:32+03:00",
+ "generatedAt": "2026-11-15T14:51:48+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -171,21 +171,20 @@ GM_REGISTER_DAY({
    "title": "Turin"
   },
   {
-   "id": "se-493870",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-17T19:00:00+03:00",
+   "id": "se-497820",
+   "sport": "futbol",
+   "competition": "UEFA U19 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u19-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T18:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "DFB Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dubai Basket",
-   "away": "Anadolu Efes"
+   "home": "Almanya",
+   "away": "Litvanya"
   },
   {
    "id": "se-496987",
@@ -202,6 +201,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Çekya",
    "away": "Türkiye"
+  },
+  {
+   "id": "se-493870",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
+   "kickoff": "2026-11-17T19:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dubai Basket",
+   "away": "Anadolu Efes"
   },
   {
    "id": "se-495664",
@@ -237,20 +253,20 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-495665",
+   "id": "se-497124",
    "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
    "kickoff": "2026-11-17T20:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "FIBA TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Balkan",
-   "away": "Ratiopharm Ulm"
+   "home": "Mykonos",
+   "away": "Fribourg Olympic"
   },
   {
    "id": "se-497123",
@@ -269,20 +285,20 @@ GM_REGISTER_DAY({
    "away": "Benfica"
   },
   {
-   "id": "se-497124",
+   "id": "se-495665",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
    "kickoff": "2026-11-17T20:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "Euroleague TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Mykonos",
-   "away": "Fribourg Olympic"
+   "home": "Balkan",
+   "away": "Ratiopharm Ulm"
   },
   {
    "id": "se-494669",
@@ -317,23 +333,6 @@ GM_REGISTER_DAY({
    "away": "Valmiera Glass"
   },
   {
-   "id": "se-493872",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-17T21:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Tarfin",
-   "away": "Asvel Villeurbanne"
-  },
-  {
    "id": "se-493873",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -349,6 +348,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Zalgiris Kaunas",
    "away": "Bayern Münih"
+  },
+  {
+   "id": "se-497126",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-11-17T21:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Wurzburg",
+   "away": "Iraklis Saloniki"
   },
   {
    "id": "se-494670",
@@ -367,20 +382,21 @@ GM_REGISTER_DAY({
    "away": "Reggiana"
   },
   {
-   "id": "se-497126",
+   "id": "se-493872",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-11-17T21:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Wurzburg",
-   "away": "Iraklis Saloniki"
+   "home": "Fenerbahçe Tarfin",
+   "away": "Asvel Villeurbanne"
   },
   {
    "id": "se-497127",
