@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-14T21:55:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T03:58:59+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-15",
- "generatedAt": "2026-11-14T21:55:26+03:00",
+ "generatedAt": "2026-11-15T03:58:59+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -20,8 +20,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-497330",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  SahaKirala",
-   "competitionId": "guney-amerika-basketbol-ligi-sahakirala",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
    "kickoff": "2026-11-15T00:10:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -154,8 +154,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-497331",
    "sport": "basketbol",
-   "competition": "Güney Amerika Basketbol Ligi  SahaKirala",
-   "competitionId": "guney-amerika-basketbol-ligi-sahakirala",
+   "competition": "Güney Amerika Basketbol Ligi",
+   "competitionId": "guney-amerika-basketbol-ligi",
    "kickoff": "2026-11-15T04:40:00+03:00",
    "broadcasters": [
     "FIBA TV"
@@ -849,7 +849,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "A.Zverev",
+   "away": "R.Jodar"
   },
   {
    "id": "se-497630",
@@ -977,6 +978,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Türk Telekom Gelişim",
    "away": "Kütahya Bld."
+  },
+  {
+   "id": "se-497739",
+   "sport": "padel",
+   "competition": "Premier Padel Kadınlar Final",
+   "competitionId": "premier-padel-kadinlar-final",
+   "kickoff": "2026-11-15T17:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sanchez/Santamaria",
+   "away": "Martin/Fernandez",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-496653",
@@ -1110,6 +1130,24 @@ GM_REGISTER_DAY({
    "away": "İstanbul BB"
   },
   {
+   "id": "se-497737",
+   "sport": "futbol",
+   "competition": "İspanya La Liga 2",
+   "competitionId": "ispanya-la-liga-2",
+   "kickoff": "2026-11-15T18:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Granada",
+   "away": "Las Palmas"
+  },
+  {
    "id": "se-496923",
    "sport": "basketbol",
    "competition": "İtalya Basketbol Ligi",
@@ -1191,6 +1229,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Aix",
    "away": "PSG"
+  },
+  {
+   "id": "se-497740",
+   "sport": "padel",
+   "competition": "Premier Padel Erkekler Final",
+   "competitionId": "premier-padel-erkekler-final",
+   "kickoff": "2026-11-15T19:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alfonso/Libaak",
+   "away": "Augsburger/Lebron",
+   "tags": [
+    "final"
+   ]
   },
   {
    "id": "se-493230",
@@ -1402,6 +1459,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Karışık Buz Dansı Serbest Program"
+  },
+  {
+   "id": "se-497738",
+   "sport": "tenis",
+   "competition": "ATP Turin",
+   "competitionId": "atp",
+   "kickoff": "2026-11-15T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "B.Shelton",
+   "away": "A.Fils"
   },
   {
    "id": "se-494534",
