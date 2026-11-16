@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T05:23:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T15:34:17+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-16T05:23:36+03:00",
+ "generatedAt": "2026-11-16T15:34:17+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -35,6 +35,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Phoenix Suns",
    "away": "LA Lakers"
+  },
+  {
+   "id": "se-497986",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-16T00:05:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Serbest Program"
   },
   {
    "id": "se-497332",
@@ -230,6 +245,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Sacramento Kings",
    "away": "OKC Thunder"
+  },
+  {
+   "id": "se-497992",
+   "sport": "dövüş sporları",
+   "competition": "Açik Balkan Wushu Kung Fu Şampiyonasi",
+   "competitionId": "acik-balkan-wushu-kung-fu-sampiyonasi",
+   "kickoff": "2026-11-16T16:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Bolu"
   },
   {
    "id": "se-496681",

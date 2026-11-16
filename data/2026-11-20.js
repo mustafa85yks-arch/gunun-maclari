@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T05:23:38+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T15:34:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-16T05:23:38+03:00",
+ "generatedAt": "2026-11-16T15:34:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -59,9 +59,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "SA Spurs",
    "away": "LA Clippers"
@@ -124,11 +125,28 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "title": "Serbest Antrenman 1"
+  },
+  {
+   "id": "se-497915",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-20T14:00:00+03:00",
+   "broadcasters": [
+    "A Spor",
+    "UEFA.tv"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Serbest Antrenman 1"
+   "title": "Kura Çekimi"
   },
   {
    "id": "se-497572",
@@ -155,9 +173,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Antrenman"
   },
@@ -269,9 +288,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Anadolu Efes",
    "away": "Asvel Villeurbanne"
@@ -302,9 +322,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Barcelona",
    "away": "Kizilyildiz"
