@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T15:34:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T22:07:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-17",
- "generatedAt": "2026-11-16T15:34:17+03:00",
+ "generatedAt": "2026-11-16T22:07:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -171,6 +171,7 @@ GM_REGISTER_DAY({
    "competitionId": "uefa-u17-avrupa-sampiyonasi-elemeleri",
    "kickoff": "2026-11-17T13:00:00+03:00",
    "broadcasters": [
+    "German Football Youtube",
     "DFB Youtube"
    ],
    "verification": "tek_kaynak",
@@ -181,9 +182,25 @@ GM_REGISTER_DAY({
    "away": "Almanya"
   },
   {
+   "id": "se-498005",
+   "sport": "futbol",
+   "competition": "UEFA U19 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u19-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T15:30:00+03:00",
+   "broadcasters": [
+    "Bulgaristan Futbol Federasyonu Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Moldova",
+   "away": "Bulgaristan"
+  },
+  {
    "id": "se-497555",
    "sport": "tenis",
-   "competition": "ATP Turin",
+   "competition": "ATP Finalleri Torino",
    "competitionId": "atp",
    "kickoff": "2026-11-17T16:00:00+03:00",
    "broadcasters": [
@@ -194,6 +211,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Turin"
+  },
+  {
+   "id": "se-498024",
+   "sport": "futbol",
+   "competition": "UEFA U19 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u19-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T17:00:00+03:00",
+   "broadcasters": [
+    "Fransa FF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fransa",
+   "away": "Yunanistan"
   },
   {
    "id": "se-497820",
@@ -324,6 +357,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Mykonos",
    "away": "Fribourg Olympic"
+  },
+  {
+   "id": "se-498023",
+   "sport": "futbol",
+   "competition": "U21 Hazirlik Maçi",
+   "competitionId": "u21-hazirlik-maci",
+   "kickoff": "2026-11-17T20:00:00+03:00",
+   "broadcasters": [
+    "Almanya FF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hırvatistan",
+   "away": "Almanya"
   },
   {
    "id": "se-494669",
@@ -462,7 +511,7 @@ GM_REGISTER_DAY({
    "competitionId": "eurocup",
    "kickoff": "2026-11-17T22:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [

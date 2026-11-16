@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T15:34:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T22:07:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-16T15:34:17+03:00",
+ "generatedAt": "2026-11-16T22:07:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,25 +17,6 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
-  {
-   "id": "se-494820",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-19T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video",
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "Indiana Pacers",
-   "away": "Houston Rockets"
-  },
   {
    "id": "se-494819",
    "sport": "basketbol",
@@ -67,6 +48,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Orlando Magic",
    "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-494820",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-19T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "Indiana Pacers",
+   "away": "Houston Rockets"
   },
   {
    "id": "se-494821",
@@ -249,7 +249,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-497563",
    "sport": "tenis",
-   "competition": "ATP Turin",
+   "competition": "ATP Finalleri Torino",
    "competitionId": "atp",
    "kickoff": "2026-11-19T16:00:00+03:00",
    "broadcasters": [
@@ -341,22 +341,6 @@ GM_REGISTER_DAY({
    "away": "Magdeburg"
   },
   {
-   "id": "se-497146",
-   "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
-   "kickoff": "2026-11-19T21:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Patrioti Levice",
-   "away": "Zielona Gora"
-  },
-  {
    "id": "se-493881",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -373,6 +357,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Zalgiris Kaunas",
    "away": "Panathinaikos"
+  },
+  {
+   "id": "se-497146",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-11-19T21:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Patrioti Levice",
+   "away": "Zielona Gora"
   },
   {
    "id": "se-493882",

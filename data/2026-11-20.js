@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T15:34:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T22:07:31+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-16T15:34:18+03:00",
+ "generatedAt": "2026-11-16T22:07:31+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -31,41 +31,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Antrenman Turları-1"
-  },
-  {
-   "id": "se-494831",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-20T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Memphis Grizzlies",
-   "away": "GS Warriors"
-  },
-  {
-   "id": "se-494834",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-20T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video",
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "ssport.tv"
-   ],
-   "home": "SA Spurs",
-   "away": "LA Clippers"
   },
   {
    "id": "se-494832",
@@ -98,6 +63,41 @@ GM_REGISTER_DAY({
    ],
    "home": "Minnesota TW",
    "away": "New York Knicks"
+  },
+  {
+   "id": "se-494834",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-20T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "SA Spurs",
+   "away": "LA Clippers"
+  },
+  {
+   "id": "se-494831",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-20T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Memphis Grizzlies",
+   "away": "GS Warriors"
   },
   {
    "id": "se-493310",
@@ -151,7 +151,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-497572",
    "sport": "tenis",
-   "competition": "ATP Turin",
+   "competition": "ATP Finalleri Torino",
    "competitionId": "atp",
    "kickoff": "2026-11-20T16:00:00+03:00",
    "broadcasters": [
@@ -181,22 +181,6 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
-   "id": "se-496384",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-11-20T18:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Fenerbahçe Koleji",
-   "away": "iLab Basketbol"
-  },
-  {
    "id": "se-496305",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 2. Lig",
@@ -211,6 +195,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Altınyurt",
    "away": "Fenerbahçe Medicana"
+  },
+  {
+   "id": "se-496384",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-20T18:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Koleji",
+   "away": "iLab Basketbol"
   },
   {
    "id": "se-497256",
@@ -402,6 +402,7 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-20T23:00:00+03:00",
    "broadcasters": [
+    "Medeniyet TV",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

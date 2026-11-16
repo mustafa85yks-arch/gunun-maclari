@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T15:34:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T22:07:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-16T15:34:17+03:00",
+ "generatedAt": "2026-11-16T22:07:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -167,22 +167,6 @@ GM_REGISTER_DAY({
    "away": "New York Knicks"
   },
   {
-   "id": "se-497819",
-   "sport": "futbol",
-   "competition": "ABD USL Championship",
-   "competitionId": "abd-usl-championship",
-   "kickoff": "2026-11-16T03:00:00+03:00",
-   "broadcasters": [
-    "USL Championship Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "New Mexico",
-   "away": "Sacramento Republic"
-  },
-  {
    "id": "se-494803",
    "sport": "basketbol",
    "competition": "NBA",
@@ -197,6 +181,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Washington Wizards",
    "away": "Houston Rockets"
+  },
+  {
+   "id": "se-497819",
+   "sport": "futbol",
+   "competition": "ABD USL Championship",
+   "competitionId": "abd-usl-championship",
+   "kickoff": "2026-11-16T03:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "New Mexico",
+   "away": "Sacramento Republic"
   },
   {
    "id": "se-497333",
@@ -247,6 +247,22 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
+   "id": "se-496681",
+   "sport": "tenis",
+   "competition": "ATP Finalleri Torino",
+   "competitionId": "atp",
+   "kickoff": "2026-11-16T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "C.Alcaraz",
+   "away": "F.Tiafoe"
+  },
+  {
    "id": "se-497992",
    "sport": "dövüş sporları",
    "competition": "Açik Balkan Wushu Kung Fu Şampiyonasi",
@@ -260,22 +276,6 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Bolu"
-  },
-  {
-   "id": "se-496681",
-   "sport": "tenis",
-   "competition": "ATP Turin",
-   "competitionId": "atp",
-   "kickoff": "2026-11-16T16:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "C.Alcaraz",
-   "away": "F.Tiafoe"
   },
   {
    "id": "se-494539",
@@ -328,7 +328,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-497982",
    "sport": "tenis",
-   "competition": "ATP Turin",
+   "competition": "ATP Finalleri Torino",
    "competitionId": "atp",
    "kickoff": "2026-11-16T22:30:00+03:00",
    "broadcasters": [
