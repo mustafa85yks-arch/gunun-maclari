@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T22:31:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T03:56:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-15T22:31:00+03:00",
+ "generatedAt": "2026-11-16T03:56:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -289,10 +289,9 @@ GM_REGISTER_DAY({
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
-   "kickoff": "2026-11-19T20:30:00+03:00",
+   "kickoff": "2026-11-19T20:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -325,7 +324,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-19T21:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -357,8 +356,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-19T22:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -391,8 +389,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-19T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -425,7 +422,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-19T23:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [

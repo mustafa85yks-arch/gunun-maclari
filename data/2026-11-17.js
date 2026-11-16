@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T22:31:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T03:56:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-17",
- "generatedAt": "2026-11-15T22:31:00+03:00",
+ "generatedAt": "2026-11-16T03:56:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -26,22 +26,6 @@ GM_REGISTER_DAY({
    "away": "Orlando Magic"
   },
   {
-   "id": "se-494808",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-17T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Washington Wizards",
-   "away": "Memphis Grizzlies"
-  },
-  {
    "id": "se-494807",
    "sport": "basketbol",
    "competition": "NBA",
@@ -56,6 +40,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Cleveland Cavaliers",
    "away": "Chicago Bulls"
+  },
+  {
+   "id": "se-494808",
+   "sport": "basketbol",
+   "competition": "NBA  BasketbolOyna",
+   "competitionId": "nba",
+   "kickoff": "2026-11-17T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Washington Wizards",
+   "away": "Memphis Grizzlies"
   },
   {
    "id": "se-494809",
@@ -110,7 +110,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494812",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-17T04:00:00+03:00",
    "broadcasters": [
@@ -156,6 +156,22 @@ GM_REGISTER_DAY({
    "away": "Phoenix Suns"
   },
   {
+   "id": "se-497955",
+   "sport": "futbol",
+   "competition": "UEFA U17 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u17-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T13:00:00+03:00",
+   "broadcasters": [
+    "DFB Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kuzey İrlanda",
+   "away": "Almanya"
+  },
+  {
    "id": "se-497555",
    "sport": "tenis",
    "competition": "ATP Turin",
@@ -187,22 +203,6 @@ GM_REGISTER_DAY({
    "away": "Litvanya"
   },
   {
-   "id": "se-496987",
-   "sport": "futbol",
-   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
-   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
-   "kickoff": "2026-11-17T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Çekya",
-   "away": "Türkiye"
-  },
-  {
    "id": "se-493870",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -210,7 +210,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-17T19:00:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -220,13 +220,29 @@ GM_REGISTER_DAY({
    "away": "Anadolu Efes"
   },
   {
+   "id": "se-496987",
+   "sport": "futbol",
+   "competition": "UEFA U21 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u21-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T19:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çekya",
+   "away": "Türkiye"
+  },
+  {
    "id": "se-495664",
    "sport": "basketbol",
    "competition": "Eurocup",
    "competitionId": "eurocup",
    "kickoff": "2026-11-17T19:30:00+03:00",
    "broadcasters": [
-    "TRT Spor"
+    "TRT Spor Yildiz"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -242,8 +258,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-17T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -253,20 +268,20 @@ GM_REGISTER_DAY({
    "away": "Olympiakos"
   },
   {
-   "id": "se-497124",
+   "id": "se-495665",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
    "kickoff": "2026-11-17T20:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "Euroleague TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Mykonos",
-   "away": "Fribourg Olympic"
+   "home": "Balkan",
+   "away": "Ratiopharm Ulm"
   },
   {
    "id": "se-497123",
@@ -285,20 +300,20 @@ GM_REGISTER_DAY({
    "away": "Benfica"
   },
   {
-   "id": "se-495665",
+   "id": "se-497124",
    "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
    "kickoff": "2026-11-17T20:00:00+03:00",
    "broadcasters": [
-    "Euroleague TV"
+    "FIBA TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Balkan",
-   "away": "Ratiopharm Ulm"
+   "home": "Mykonos",
+   "away": "Fribourg Olympic"
   },
   {
    "id": "se-494669",
@@ -333,7 +348,7 @@ GM_REGISTER_DAY({
    "away": "Valmiera Glass"
   },
   {
-   "id": "se-493873",
+   "id": "se-493872",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
@@ -346,24 +361,24 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Zalgiris Kaunas",
-   "away": "Bayern Münih"
+   "home": "Fenerbahçe Tarfin",
+   "away": "Asvel Villeurbanne"
   },
   {
-   "id": "se-497126",
+   "id": "se-493873",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-11-17T21:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Wurzburg",
-   "away": "Iraklis Saloniki"
+   "home": "Zalgiris Kaunas",
+   "away": "Bayern Münih"
   },
   {
    "id": "se-494670",
@@ -382,21 +397,20 @@ GM_REGISTER_DAY({
    "away": "Reggiana"
   },
   {
-   "id": "se-493872",
+   "id": "se-497126",
    "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
    "kickoff": "2026-11-17T21:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "FIBA TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fenerbahçe Tarfin",
-   "away": "Asvel Villeurbanne"
+   "home": "Wurzburg",
+   "away": "Iraklis Saloniki"
   },
   {
    "id": "se-497127",
@@ -415,20 +429,36 @@ GM_REGISTER_DAY({
    "away": "Oostende"
   },
   {
-   "id": "se-497129",
+   "id": "se-494671",
    "sport": "basketbol",
-   "competition": "FIBA Europe Cup",
-   "competitionId": "fiba-europe-cup",
+   "competition": "FIBA Şampiyonlar Ligi",
+   "competitionId": "fiba-sampiyonlar-ligi",
    "kickoff": "2026-11-17T22:00:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "FIBA Şampiyonlar Ligi Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Nancy",
-   "away": "Parnu"
+   "home": "Antwerp Giants",
+   "away": "Salon Vilpas"
+  },
+  {
+   "id": "se-495666",
+   "sport": "basketbol",
+   "competition": "Eurocup",
+   "competitionId": "eurocup",
+   "kickoff": "2026-11-17T22:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "BC Roma",
+   "away": "Bahçeşehir Klj"
   },
   {
    "id": "se-495667",
@@ -447,38 +477,6 @@ GM_REGISTER_DAY({
    "away": "Hapoel Jerusalem"
   },
   {
-   "id": "se-495666",
-   "sport": "basketbol",
-   "competition": "Eurocup",
-   "competitionId": "eurocup",
-   "kickoff": "2026-11-17T22:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "BC Roma",
-   "away": "Bahçeşehir Klj"
-  },
-  {
-   "id": "se-494671",
-   "sport": "basketbol",
-   "competition": "FIBA Şampiyonlar Ligi",
-   "competitionId": "fiba-sampiyonlar-ligi",
-   "kickoff": "2026-11-17T22:00:00+03:00",
-   "broadcasters": [
-    "FIBA Şampiyonlar Ligi Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Antwerp Giants",
-   "away": "Salon Vilpas"
-  },
-  {
    "id": "se-497128",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -495,14 +493,97 @@ GM_REGISTER_DAY({
    "away": "Körfez Basket"
   },
   {
+   "id": "se-497129",
+   "sport": "basketbol",
+   "competition": "FIBA Europe Cup",
+   "competitionId": "fiba-europe-cup",
+   "kickoff": "2026-11-17T22:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nancy",
+   "away": "Parnu"
+  },
+  {
+   "id": "se-497951",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-17T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Karagümrük",
+   "turkish": true
+  },
+  {
+   "id": "se-497952",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-17T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beşiktaş",
+   "away": "İstanbulspor",
+   "turkish": true
+  },
+  {
+   "id": "se-497953",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-17T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galatasaray",
+   "away": "Kayserispor",
+   "turkish": true
+  },
+  {
+   "id": "se-497954",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-17T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sakaryaspor",
+   "away": "Trabzonspor",
+   "turkish": true
+  },
+  {
    "id": "se-493874",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
    "kickoff": "2026-11-17T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -535,8 +616,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-17T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -584,8 +664,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-17T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -593,38 +672,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Partizan",
    "away": "Valencia Basket"
-  },
-  {
-   "id": "se-494554",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-17T22:45:00+03:00",
-   "broadcasters": [
-    "A Para"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Polonya",
-   "away": "İsveç"
-  },
-  {
-   "id": "se-494549",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-17T22:45:00+03:00",
-   "broadcasters": [
-    "A Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Galler",
-   "away": "Portekiz"
   },
   {
    "id": "se-494548",
@@ -643,14 +690,61 @@ GM_REGISTER_DAY({
    "away": "Norveç"
   },
   {
+   "id": "se-494549",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-17T22:45:00+03:00",
+   "broadcasters": [
+    "A Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Galler",
+   "away": "Portekiz"
+  },
+  {
+   "id": "se-494551",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-17T22:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İrlanda",
+   "away": "Kosova"
+  },
+  {
+   "id": "se-494554",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-17T22:45:00+03:00",
+   "broadcasters": [
+    "A Para"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Polonya",
+   "away": "İsveç"
+  },
+  {
    "id": "se-493878",
    "sport": "basketbol",
    "competition": "Euroleague",
    "competitionId": "euroleague",
    "kickoff": "2026-11-17T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [

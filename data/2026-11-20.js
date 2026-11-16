@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T22:31:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T03:56:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-15T22:31:00+03:00",
+ "generatedAt": "2026-11-16T03:56:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-11-20"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -41,6 +49,24 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
+   "id": "se-494834",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-20T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "SA Spurs",
+   "away": "LA Clippers"
+  },
+  {
    "id": "se-494832",
    "sport": "basketbol",
    "competition": "NBA",
@@ -73,24 +99,6 @@ GM_REGISTER_DAY({
    "away": "New York Knicks"
   },
   {
-   "id": "se-494834",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-20T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video",
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "SA Spurs",
-   "away": "LA Clippers"
-  },
-  {
    "id": "se-493310",
    "sport": "motor sporları",
    "competition": "Formula 1 Las Vegas GP",
@@ -99,9 +107,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-2"
   },
@@ -113,7 +122,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-20T13:45:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport 2"
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -153,22 +162,6 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
-   "id": "se-496305",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 2. Lig",
-   "competitionId": "tvf-kadinlar-2-lig",
-   "kickoff": "2026-11-20T18:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Altınyurt",
-   "away": "Fenerbahçe Medicana"
-  },
-  {
    "id": "se-496384",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -183,6 +176,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Koleji",
    "away": "iLab Basketbol"
+  },
+  {
+   "id": "se-496305",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-11-20T18:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Altınyurt",
+   "away": "Fenerbahçe Medicana"
   },
   {
    "id": "se-497256",
@@ -235,22 +244,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-494372",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-11-20T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Arminia Bielefeld",
-   "away": "Magdeburg"
-  },
-  {
    "id": "se-497575",
    "sport": "futbol",
    "competition": "Suudi Arabistan Pro Lig",
@@ -265,22 +258,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Ahli",
    "away": "Al Nassr"
-  },
-  {
-   "id": "se-494373",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-11-20T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Darmstadt 98",
-   "away": "Heidenheim"
   },
   {
    "id": "se-493886",
@@ -306,8 +283,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-20T22:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -373,7 +349,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-20T22:45:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [

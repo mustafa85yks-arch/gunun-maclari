@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-15T22:31:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-16T03:56:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-16",
- "generatedAt": "2026-11-15T22:31:00+03:00",
+ "generatedAt": "2026-11-16T03:56:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -152,22 +152,6 @@ GM_REGISTER_DAY({
    "away": "New York Knicks"
   },
   {
-   "id": "se-494803",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-16T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Washington Wizards",
-   "away": "Houston Rockets"
-  },
-  {
    "id": "se-497819",
    "sport": "futbol",
    "competition": "ABD USL Championship",
@@ -182,6 +166,22 @@ GM_REGISTER_DAY({
    ],
    "home": "New Mexico",
    "away": "Sacramento Republic"
+  },
+  {
+   "id": "se-494803",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-16T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Washington Wizards",
+   "away": "Houston Rockets"
   },
   {
    "id": "se-497333",
@@ -244,7 +244,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "C.Alcaraz",
+   "away": "F.Tiafoe"
   },
   {
    "id": "se-494539",
@@ -295,36 +296,36 @@ GM_REGISTER_DAY({
    "away": "Azerbaycan"
   },
   {
-   "id": "se-494544",
-   "sport": "futbol",
-   "competition": "UEFA Uluslar Ligi",
-   "competitionId": "uefa-uluslar-ligi",
-   "kickoff": "2026-11-16T22:45:00+03:00",
+   "id": "se-497982",
+   "sport": "tenis",
+   "competition": "ATP Turin",
+   "competitionId": "atp",
+   "kickoff": "2026-11-16T22:30:00+03:00",
    "broadcasters": [
-    "A Haber"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Almanya",
-   "away": "Hollanda"
+   "home": "D.Medvedev",
+   "away": "F.Cobolli"
   },
   {
-   "id": "se-494545",
+   "id": "se-494547",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-16T22:45:00+03:00",
    "broadcasters": [
-    "A Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Yunanistan",
-   "away": "Sırbistan"
+   "home": "Kuzey Makedonya",
+   "away": "Slovenya"
   },
   {
    "id": "se-494546",
@@ -343,20 +344,36 @@ GM_REGISTER_DAY({
    "away": "İskoçya"
   },
   {
-   "id": "se-494547",
+   "id": "se-494545",
    "sport": "futbol",
    "competition": "UEFA Uluslar Ligi",
    "competitionId": "uefa-uluslar-ligi",
    "kickoff": "2026-11-16T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "A Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Kuzey Makedonya",
-   "away": "Slovenya"
+   "home": "Yunanistan",
+   "away": "Sırbistan"
+  },
+  {
+   "id": "se-494544",
+   "sport": "futbol",
+   "competition": "UEFA Uluslar Ligi",
+   "competitionId": "uefa-uluslar-ligi",
+   "kickoff": "2026-11-16T22:45:00+03:00",
+   "broadcasters": [
+    "A Haber"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Almanya",
+   "away": "Hollanda"
   }
  ]
 });
