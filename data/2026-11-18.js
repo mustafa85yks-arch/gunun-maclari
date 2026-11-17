@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T07:46:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-18",
- "generatedAt": "2026-11-17T07:46:47+03:00",
+ "generatedAt": "2026-11-17T16:00:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -105,27 +105,11 @@ GM_REGISTER_DAY({
    "away": "UNLV"
   },
   {
-   "id": "se-494817",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-18T06:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "LA Lakers",
-   "away": "Charlotte Hornets"
-  },
-  {
    "id": "se-494818",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
-   "kickoff": "2026-11-18T07:00:00+03:00",
+   "kickoff": "2026-11-18T06:30:00+03:00",
    "broadcasters": [
     "Prime Video"
    ],
@@ -137,10 +121,26 @@ GM_REGISTER_DAY({
    "away": "Utah Jazz"
   },
   {
+   "id": "se-494817",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-18T07:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Lakers",
+   "away": "Charlotte Hornets"
+  },
+  {
    "id": "se-498035",
    "sport": "futbol",
-   "competition": "TFF 2. Lig  SahaKirala",
-   "competitionId": "tff-2-lig-sahakirala",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
    "kickoff": "2026-11-18T13:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"
@@ -408,6 +408,7 @@ GM_REGISTER_DAY({
    "competitionId": "fiba-europe-cup",
    "kickoff": "2026-11-18T19:00:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "FIBA TV"
    ],
    "verification": "tek_kaynak",

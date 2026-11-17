@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T07:46:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-17T07:46:48+03:00",
+ "generatedAt": "2026-11-17T16:00:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -181,22 +181,6 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
-   "id": "se-496305",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 2. Lig",
-   "competitionId": "tvf-kadinlar-2-lig",
-   "kickoff": "2026-11-20T18:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Altınyurt",
-   "away": "Fenerbahçe Medicana"
-  },
-  {
    "id": "se-496384",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -211,6 +195,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Koleji",
    "away": "iLab Basketbol"
+  },
+  {
+   "id": "se-496305",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-11-20T18:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Altınyurt",
+   "away": "Fenerbahçe Medicana"
   },
   {
    "id": "se-497256",

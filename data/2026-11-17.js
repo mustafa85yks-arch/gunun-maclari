@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T07:46:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-17",
- "generatedAt": "2026-11-17T07:46:47+03:00",
+ "generatedAt": "2026-11-17T16:00:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -165,6 +165,36 @@ GM_REGISTER_DAY({
    "away": "Phoenix Suns"
   },
   {
+   "id": "se-498088",
+   "sport": "dövüş sporları",
+   "competition": "Açik Balkan Wushu Kung Fu Şampiyonasi",
+   "competitionId": "acik-balkan-wushu-kung-fu-sampiyonasi",
+   "kickoff": "2026-11-17T09:54:00+03:00",
+   "broadcasters": [
+    "Wushu Türk TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Avrasya Kupası Final A"
+  },
+  {
+   "id": "se-498089",
+   "sport": "dövüş sporları",
+   "competition": "Açik Balkan Wushu Kung Fu Şampiyonasi",
+   "competitionId": "acik-balkan-wushu-kung-fu-sampiyonasi",
+   "kickoff": "2026-11-17T09:56:00+03:00",
+   "broadcasters": [
+    "Wushu Türk TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Avrasya Kupası Final B"
+  },
+  {
    "id": "se-497955",
    "sport": "futbol",
    "competition": "UEFA U17 Avrupa Şampiyonasi Elemeleri",
@@ -180,6 +210,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Kuzey İrlanda",
    "away": "Almanya"
+  },
+  {
+   "id": "se-498087",
+   "sport": "futbol",
+   "competition": "UEFA U19 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u19-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T13:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Lihtenştayn"
+  },
+  {
+   "id": "se-498085",
+   "sport": "futbol",
+   "competition": "UEFA U17 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u17-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T14:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Kuzey Makedonya"
   },
   {
    "id": "se-498005",
@@ -210,7 +272,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "A.Fils",
+   "away": "R.Jodar"
   },
   {
    "id": "se-498024",
@@ -473,6 +536,22 @@ GM_REGISTER_DAY({
    "away": "Iraklis Saloniki"
   },
   {
+   "id": "se-498086",
+   "sport": "futbol",
+   "competition": "UEFA U17 Avrupa Şampiyonasi Elemeleri",
+   "competitionId": "uefa-u17-avrupa-sampiyonasi-elemeleri",
+   "kickoff": "2026-11-17T21:30:00+03:00",
+   "broadcasters": [
+    "Ukrayna FF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İngiltere",
+   "away": "Ukrayna"
+  },
+  {
    "id": "se-497127",
    "sport": "basketbol",
    "competition": "FIBA Europe Cup",
@@ -643,31 +722,16 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-17T22:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Barcelona",
    "away": "Paris"
-  },
-  {
-   "id": "se-493875",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
-   "kickoff": "2026-11-17T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Baskonia",
-   "away": "Hapoel Tel Aviv"
   },
   {
    "id": "se-493876",
@@ -716,6 +780,22 @@ GM_REGISTER_DAY({
    ],
    "home": "London Lions",
    "away": "BC Siauliai"
+  },
+  {
+   "id": "se-498048",
+   "sport": "tenis",
+   "competition": "ATP Finalleri Torino",
+   "competitionId": "atp",
+   "kickoff": "2026-11-17T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "B.Shelton"
   },
   {
    "id": "se-493877",
@@ -804,11 +884,13 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-17T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Virtus Bologna",
    "away": "Panathinaikos"

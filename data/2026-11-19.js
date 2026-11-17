@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T07:46:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:08+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-17T07:46:47+03:00",
+ "generatedAt": "2026-11-17T16:00:08+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -183,22 +183,6 @@ GM_REGISTER_DAY({
    "away": "GS Warriors"
   },
   {
-   "id": "se-494829",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-19T06:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "LA Lakers",
-   "away": "Utah Jazz"
-  },
-  {
    "id": "se-494830",
    "sport": "basketbol",
    "competition": "NBA",
@@ -213,6 +197,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Sacramento Kings",
    "away": "Phoenix Suns"
+  },
+  {
+   "id": "se-494829",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-19T06:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "LA Lakers",
+   "away": "Utah Jazz"
   },
   {
    "id": "se-497804",
