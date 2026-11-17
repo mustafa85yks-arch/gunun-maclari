@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:08+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T21:00:43+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-18",
- "generatedAt": "2026-11-17T16:00:08+03:00",
+ "generatedAt": "2026-11-17T21:00:43+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -139,8 +139,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-498035",
    "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
+   "competition": "TFF 2. Lig  Basketbolligi bilgileri",
+   "competitionId": "tff-2-lig-basketbolligi-bilgileri",
    "kickoff": "2026-11-18T13:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"

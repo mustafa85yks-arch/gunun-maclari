@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:14+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T21:00:48+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-17T16:00:14+03:00",
+ "generatedAt": "2026-11-17T21:00:48+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -293,6 +293,91 @@ GM_REGISTER_DAY({
    "away": "Seydişehir Bld."
   },
   {
+   "id": "se-498091",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kepez Bld.",
+   "away": "Etimesgut Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-498092",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İnkılap FK",
+   "away": "Yalovaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498093",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Büyükçekmece",
+   "away": "Gölcükspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498094",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T13:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Küçükçekmece Sinop",
+   "away": "Kdz Ereğli Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-498095",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gemlik Sümerbey",
+   "away": "Bucaspor",
+   "turkish": true
+  },
+  {
    "id": "se-497566",
    "sport": "motosiklet",
    "competition": "MotoGP Portekiz GP",
@@ -523,6 +608,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Manchester City",
    "away": "Fulham"
+  },
+  {
+   "id": "se-498096",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T15:30:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karabük İY",
+   "away": "Beykoz Anadolu",
+   "turkish": true
   },
   {
    "id": "se-488983",
@@ -1039,22 +1141,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-494588",
-   "sport": "futbol",
-   "competition": "Ukrayna Premier Ligi",
-   "competitionId": "ukrayna-premier-ligi",
-   "kickoff": "2026-11-21T19:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Livyi Bereg",
-   "away": "Shakhtar Donetsk"
-  },
-  {
    "id": "se-496388",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -1085,6 +1171,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "Spor Toto SK",
+   "turkish": true
+  },
+  {
+   "id": "se-498097",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gaziemirspor",
+   "away": "Altay",
    "turkish": true
   },
   {

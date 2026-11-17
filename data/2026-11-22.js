@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T21:00:51+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-17T16:00:18+03:00",
+ "generatedAt": "2026-11-17T21:00:51+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -177,6 +177,108 @@ GM_REGISTER_DAY({
    ],
    "home": "TVF Spor Lisesi",
    "away": "Düzce Bld."
+  },
+  {
+   "id": "se-498098",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sökespor",
+   "away": "Eskişehirspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498099",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Somaspor",
+   "away": "Elazığspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498100",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sebat Gençlik",
+   "away": "Gebzespor",
+   "turkish": true
+  },
+  {
+   "id": "se-498101",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adana Demirspor",
+   "away": "Aliağa FK",
+   "turkish": true
+  },
+  {
+   "id": "se-498102",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İskenderunspor",
+   "away": "Ankaragücü",
+   "turkish": true
+  },
+  {
+   "id": "se-498103",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kahramanmaraş İstiklal",
+   "away": "Adana 01 FK",
+   "turkish": true
   },
   {
    "id": "se-488986",
@@ -361,6 +463,23 @@ GM_REGISTER_DAY({
    "away": "Buz Adamlar GSK"
   },
   {
+   "id": "se-498104",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T15:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Menemenspor",
+   "away": "Şanlıurfaspor",
+   "turkish": true
+  },
+  {
    "id": "se-493816",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -392,6 +511,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Energie Cottbus",
    "away": "Hertha Berlin"
+  },
+  {
+   "id": "se-498105",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "52 Orduspor",
+   "away": "12 Bingölspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498106",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sakaryaspor",
+   "away": "Serik Bld.",
+   "turkish": true
   },
   {
    "id": "se-488987",
@@ -693,6 +846,23 @@ GM_REGISTER_DAY({
    "away": "Eskişehir Mihalıççık"
   },
   {
+   "id": "se-498107",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-22T17:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Niğde Bld.",
+   "away": "Erciyes 38 FK",
+   "turkish": true
+  },
+  {
    "id": "se-494352",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -881,6 +1051,7 @@ GM_REGISTER_DAY({
    "competitionId": "bundesliga",
    "kickoff": "2026-11-22T19:30:00+03:00",
    "broadcasters": [
+    "Idman TV Youtube",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",

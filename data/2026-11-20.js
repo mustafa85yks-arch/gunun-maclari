@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T16:00:09+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T21:00:44+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-17T16:00:09+03:00",
+ "generatedAt": "2026-11-17T21:00:44+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -211,6 +211,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Altınyurt",
    "away": "Fenerbahçe Medicana"
+  },
+  {
+   "id": "se-494588",
+   "sport": "futbol",
+   "competition": "Ukrayna Premier Ligi",
+   "competitionId": "ukrayna-premier-ligi",
+   "kickoff": "2026-11-20T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Livyi Bereg",
+   "away": "Shakhtar Donetsk"
   },
   {
    "id": "se-497256",
