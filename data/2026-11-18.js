@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T21:00:43+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T00:58:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-18",
- "generatedAt": "2026-11-17T21:00:43+03:00",
+ "generatedAt": "2026-11-18T00:58:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -139,8 +139,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-498035",
    "sport": "futbol",
-   "competition": "TFF 2. Lig  Basketbolligi bilgileri",
-   "competitionId": "tff-2-lig-basketbolligi-bilgileri",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
    "kickoff": "2026-11-18T13:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"
@@ -335,7 +335,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "C.Alcaraz",
+   "away": "D.Medvedev"
   },
   {
    "id": "se-496969",
@@ -970,6 +971,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Sporting CP",
    "away": "SCMU Craiova"
+  },
+  {
+   "id": "se-498120",
+   "sport": "tenis",
+   "competition": "ATP Finalleri Torino",
+   "competitionId": "atp",
+   "kickoff": "2026-11-18T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "F.Cobolli",
+   "away": "F.Tiafoe"
   },
   {
    "id": "se-496511",

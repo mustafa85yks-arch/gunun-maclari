@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-17T21:00:43+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T00:58:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-17T21:00:43+03:00",
+ "generatedAt": "2026-11-18T00:58:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -149,11 +149,11 @@ GM_REGISTER_DAY({
    "away": "Atlanta Hawks"
   },
   {
-   "id": "se-494827",
+   "id": "se-494828",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
-   "kickoff": "2026-11-19T05:00:00+03:00",
+   "kickoff": "2026-11-19T04:00:00+03:00",
    "broadcasters": [
     "Prime Video"
    ],
@@ -161,11 +161,11 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Denver Nuggets",
-   "away": "Boston Celtics"
+   "home": "Dallas Mavericks",
+   "away": "GS Warriors"
   },
   {
-   "id": "se-494828",
+   "id": "se-494827",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -175,12 +175,13 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
-   "home": "Dallas Mavericks",
-   "away": "GS Warriors"
+   "home": "Denver Nuggets",
+   "away": "Boston Celtics"
   },
   {
    "id": "se-494830",
