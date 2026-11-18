@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T20:42:52+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T00:40:47+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-18T20:42:52+03:00",
+ "generatedAt": "2026-11-19T00:40:47+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -147,6 +147,21 @@ GM_REGISTER_DAY({
    "away": "NO Pelicans"
   },
   {
+   "id": "se-498130",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-11-21T05:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 1"
+  },
+  {
    "id": "se-494841",
    "sport": "basketbol",
    "competition": "NBA",
@@ -195,6 +210,21 @@ GM_REGISTER_DAY({
    "away": "Sacramento Kings"
   },
   {
+   "id": "se-498146",
+   "sport": "motor sporları",
+   "competition": "Macau Grand Prix",
+   "competitionId": "macau-grand-prix",
+   "kickoff": "2026-11-21T06:40:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "FIA F4 Dünya Kupası Sıralama Turları"
+  },
+  {
    "id": "se-493312",
    "sport": "motor sporları",
    "competition": "Formula 1 Las Vegas GP",
@@ -211,6 +241,21 @@ GM_REGISTER_DAY({
    "title": "Sıralama Turları"
   },
   {
+   "id": "se-498148",
+   "sport": "motor sporları",
+   "competition": "Macau Grand Prix",
+   "competitionId": "macau-grand-prix",
+   "kickoff": "2026-11-21T09:35:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "FIA GT Dünya Kupası Sıralama Turları"
+  },
+  {
    "id": "se-496451",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -225,6 +270,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Yedidağ",
    "away": "Maliye Voleybol"
+  },
+  {
+   "id": "se-498150",
+   "sport": "motor sporları",
+   "competition": "Macau Grand Prix",
+   "competitionId": "macau-grand-prix",
+   "kickoff": "2026-11-21T11:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "FIA FR Dünya Kupası Sıralama Turları"
   },
   {
    "id": "se-497805",
@@ -249,11 +309,13 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-11-21T13:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Karşıyaka",
    "away": "Denizli Basket",
@@ -418,7 +480,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-21T13:30:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Avaz",
     "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
@@ -511,6 +573,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Beykoz Bld.",
    "away": "Giresunspor"
+  },
+  {
+   "id": "se-498144",
+   "sport": "yelken",
+   "competition": "Yelken Sail GP",
+   "competitionId": "yelken-sail-gp",
+   "kickoff": "2026-11-21T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1"
   },
   {
    "id": "se-494375",
@@ -671,9 +748,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Kayserispor",
    "away": "Sarıyer",
@@ -1375,6 +1453,22 @@ GM_REGISTER_DAY({
    ],
    "home": "J.Cannonier",
    "away": "I.Aliskerov"
+  },
+  {
+   "id": "se-498133",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-11-21T21:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Saran Loiret",
+   "away": "Chambery Savoie"
   },
   {
    "id": "se-497579",

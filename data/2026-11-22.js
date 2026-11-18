@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T20:42:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T00:40:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-18T20:42:57+03:00",
+ "generatedAt": "2026-11-19T00:40:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,21 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-498131",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-11-22T03:20:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
+  },
   {
    "id": "se-494845",
    "sport": "basketbol",
@@ -82,6 +97,21 @@ GM_REGISTER_DAY({
    "away": "NO Pelicans"
   },
   {
+   "id": "se-498147",
+   "sport": "motor sporları",
+   "competition": "Macau Grand Prix",
+   "competitionId": "macau-grand-prix",
+   "kickoff": "2026-11-22T04:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "FIA F4 Dünya Kupası Yarış"
+  },
+  {
    "id": "se-494849",
    "sport": "basketbol",
    "competition": "NBA",
@@ -112,6 +142,51 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Las Vegas GP"
+  },
+  {
+   "id": "se-498149",
+   "sport": "motor sporları",
+   "competition": "Macau Grand Prix",
+   "competitionId": "macau-grand-prix",
+   "kickoff": "2026-11-22T07:35:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "FIA GT Dünya Kupası Yarış"
+  },
+  {
+   "id": "se-498151",
+   "sport": "motor sporları",
+   "competition": "Macau Grand Prix",
+   "competitionId": "macau-grand-prix",
+   "kickoff": "2026-11-22T10:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "FIA FR Dünya Kupası Yarış"
+  },
+  {
+   "id": "se-498139",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge",
+   "competitionId": "ferrari-challenge",
+   "kickoff": "2026-11-22T11:55:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Coppa Shell A&M Yarış"
   },
   {
    "id": "se-493815",
@@ -365,6 +440,36 @@ GM_REGISTER_DAY({
    "away": "Spor Toto SK"
   },
   {
+   "id": "se-498145",
+   "sport": "yelken",
+   "competition": "Yelken Sail GP",
+   "competitionId": "yelken-sail-gp",
+   "kickoff": "2026-11-22T14:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
+   "id": "se-498140",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge",
+   "competitionId": "ferrari-challenge",
+   "kickoff": "2026-11-22T14:10:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Coppa Shell World Final"
+  },
+  {
    "id": "se-497569",
    "sport": "motosiklet",
    "competition": "Moto2",
@@ -605,7 +710,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-22T16:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "tabii Spor 6",
     "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
@@ -730,6 +835,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Katar GP"
+  },
+  {
+   "id": "se-498141",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge",
+   "competitionId": "ferrari-challenge",
+   "kickoff": "2026-11-22T16:25:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Trofeo Pirelli World Final"
   },
   {
    "id": "se-496391",
@@ -918,7 +1038,8 @@ GM_REGISTER_DAY({
    "competitionId": "bsl",
    "kickoff": "2026-11-22T18:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 5"
+    "beIN SPORTS 5",
+    "beIN SPORTS HABER"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1029,6 +1150,22 @@ GM_REGISTER_DAY({
    "home": "THY",
    "away": "Beşiktaş",
    "turkish": true
+  },
+  {
+   "id": "se-498134",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-11-22T19:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenix Toulouse",
+   "away": "Montpellier"
   },
   {
    "id": "se-494406",

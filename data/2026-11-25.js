@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T20:42:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T00:40:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-25",
- "generatedAt": "2026-11-18T20:42:57+03:00",
+ "generatedAt": "2026-11-19T00:40:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -42,13 +42,31 @@ GM_REGISTER_DAY({
    "away": "Boston Celtics"
   },
   {
+   "id": "se-498177",
+   "sport": "basketbol",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-25T04:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Texas Tech",
+   "away": "Louisville"
+  },
+  {
    "id": "se-494869",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-25T06:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -220,6 +238,22 @@ GM_REGISTER_DAY({
    "away": "Anadolu Efes"
   },
   {
+   "id": "se-496515",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
+   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
+   "kickoff": "2026-11-25T22:45:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Magdeburg",
+   "away": "Sporting"
+  },
+  {
    "id": "se-493899",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -235,22 +269,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Madrid",
    "away": "Zalgiris Kaunas"
-  },
-  {
-   "id": "se-496515",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
-   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
-   "kickoff": "2026-11-25T22:45:00+03:00",
-   "broadcasters": [
-    "EHF TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Magdeburg",
-   "away": "Sporting"
   },
   {
    "id": "se-491498",
@@ -363,6 +381,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Sporting Lisbon",
    "away": "Manchester Utd"
+  },
+  {
+   "id": "se-498184",
+   "sport": "futbol",
+   "competition": "İngiltere Championship",
+   "competitionId": "ingiltere-championship",
+   "kickoff": "2026-11-25T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stoke",
+   "away": "Millwall"
   }
  ]
 });

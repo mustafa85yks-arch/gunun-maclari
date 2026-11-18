@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T20:42:43+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T00:40:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-18T20:42:43+03:00",
+ "generatedAt": "2026-11-19T00:40:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -184,22 +184,6 @@ GM_REGISTER_DAY({
    "away": "Boston Celtics"
   },
   {
-   "id": "se-494830",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-19T06:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sacramento Kings",
-   "away": "Phoenix Suns"
-  },
-  {
    "id": "se-494829",
    "sport": "basketbol",
    "competition": "NBA",
@@ -214,6 +198,22 @@ GM_REGISTER_DAY({
    ],
    "home": "LA Lakers",
    "away": "Utah Jazz"
+  },
+  {
+   "id": "se-494830",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-19T06:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sacramento Kings",
+   "away": "Phoenix Suns"
   },
   {
    "id": "se-497804",
@@ -232,6 +232,21 @@ GM_REGISTER_DAY({
    "away": "Adelaide 36ers"
   },
   {
+   "id": "se-498142",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge Kuzey Amerika",
+   "competitionId": "ferrari-challenge-kuzey-amerika",
+   "kickoff": "2026-11-19T12:25:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 1"
+  },
+  {
    "id": "se-491315",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -248,6 +263,21 @@ GM_REGISTER_DAY({
    "away": "Nilüfer Bld."
   },
   {
+   "id": "se-498135",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge Europe",
+   "competitionId": "ferrari-challenge-europe",
+   "kickoff": "2026-11-19T14:55:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Trofeo Pirelli Yarış 1"
+  },
+  {
    "id": "se-497563",
    "sport": "tenis",
    "competition": "ATP Finalleri Torino",
@@ -261,6 +291,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Turin"
+  },
+  {
+   "id": "se-498136",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge Europe",
+   "competitionId": "ferrari-challenge-europe",
+   "kickoff": "2026-11-19T17:25:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Coppa Shell Yarış 1"
   },
   {
    "id": "se-496971",

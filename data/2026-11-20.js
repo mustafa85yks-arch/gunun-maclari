@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T20:42:45+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T00:40:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-18T20:42:45+03:00",
+ "generatedAt": "2026-11-19T00:40:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -49,7 +49,7 @@ GM_REGISTER_DAY({
    "away": "Portland TB"
   },
   {
-   "id": "se-494833",
+   "id": "se-494831",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -61,8 +61,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Minnesota TW",
-   "away": "New York Knicks"
+   "home": "Memphis Grizzlies",
+   "away": "GS Warriors"
   },
   {
    "id": "se-494834",
@@ -84,7 +84,7 @@ GM_REGISTER_DAY({
    "away": "LA Clippers"
   },
   {
-   "id": "se-494831",
+   "id": "se-494833",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -96,8 +96,23 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Memphis Grizzlies",
-   "away": "GS Warriors"
+   "home": "Minnesota TW",
+   "away": "New York Knicks"
+  },
+  {
+   "id": "se-498128",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-11-20T05:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman Seansı"
   },
   {
    "id": "se-493310",
@@ -114,6 +129,36 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Antrenman Turları-2"
+  },
+  {
+   "id": "se-498129",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Academy",
+   "competitionId": "f1",
+   "kickoff": "2026-11-20T08:30:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-498137",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge Europe",
+   "competitionId": "ferrari-challenge-europe",
+   "kickoff": "2026-11-20T12:25:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Coppa Shell Yarış 2"
   },
   {
    "id": "se-497564",
@@ -149,6 +194,21 @@ GM_REGISTER_DAY({
    "title": "Kura Çekimi"
   },
   {
+   "id": "se-498138",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge Europe",
+   "competitionId": "ferrari-challenge-europe",
+   "kickoff": "2026-11-20T14:55:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS MAX 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Trofeo Pirelli Yarış 2"
+  },
+  {
    "id": "se-497572",
    "sport": "tenis",
    "competition": "ATP Finalleri Torino",
@@ -162,6 +222,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Turin"
+  },
+  {
+   "id": "se-498143",
+   "sport": "motor sporları",
+   "competition": "Ferrari Challenge Kuzey Amerika",
+   "competitionId": "ferrari-challenge-kuzey-amerika",
+   "kickoff": "2026-11-20T17:25:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarış 2"
   },
   {
    "id": "se-497565",
@@ -270,29 +345,14 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Iğdırspor",
    "away": "Ümraniyespor",
    "turkish": true
-  },
-  {
-   "id": "se-497575",
-   "sport": "futbol",
-   "competition": "Suudi Arabistan Pro Lig",
-   "competitionId": "suudi-arabistan-pro-lig",
-   "kickoff": "2026-11-20T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Al Ahli",
-   "away": "Al Nassr"
   },
   {
    "id": "se-493886",
@@ -311,6 +371,39 @@ GM_REGISTER_DAY({
    ],
    "home": "Anadolu Efes",
    "away": "Asvel Villeurbanne"
+  },
+  {
+   "id": "se-497575",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-11-20T20:30:00+03:00",
+   "broadcasters": [
+    "HT Spor",
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ahli",
+   "away": "Al Nassr"
+  },
+  {
+   "id": "se-498132",
+   "sport": "hentbol",
+   "competition": "Fransa Hentbol Ligi",
+   "competitionId": "fransa-hentbol-ligi",
+   "kickoff": "2026-11-20T22:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "St.Raphael",
+   "away": "Chartres"
   },
   {
    "id": "se-493887",
@@ -404,9 +497,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Troyes",
    "away": "Le Havre"

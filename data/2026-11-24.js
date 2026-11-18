@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T20:42:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T00:40:52+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-24",
- "generatedAt": "2026-11-18T20:42:57+03:00",
+ "generatedAt": "2026-11-19T00:40:52+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,38 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-498176",
+   "sport": "basketbol",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-11-24T01:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Brigham Young",
+   "away": "Washington"
+  },
+  {
+   "id": "se-494857",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-24T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Charlotte Hornets",
+   "away": "Memphis Grizzlies"
+  },
   {
    "id": "se-494858",
    "sport": "basketbol",
@@ -26,11 +58,11 @@ GM_REGISTER_DAY({
    "away": "Portland TB"
   },
   {
-   "id": "se-494857",
+   "id": "se-494859",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
-   "kickoff": "2026-11-24T03:00:00+03:00",
+   "kickoff": "2026-11-24T03:30:00+03:00",
    "broadcasters": [
     "Prime Video"
    ],
@@ -38,8 +70,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Charlotte Hornets",
-   "away": "Memphis Grizzlies"
+   "home": "Indiana Pacers",
+   "away": "OKC Thunder"
   },
   {
    "id": "se-494860",
@@ -74,22 +106,6 @@ GM_REGISTER_DAY({
    "away": "Milwaukee Bucks"
   },
   {
-   "id": "se-494859",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-24T03:30:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Indiana Pacers",
-   "away": "OKC Thunder"
-  },
-  {
    "id": "se-494862",
    "sport": "basketbol",
    "competition": "NBA",
@@ -122,13 +138,31 @@ GM_REGISTER_DAY({
    "away": "Phoenix Suns"
   },
   {
+   "id": "se-498178",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-11-24T04:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Washington Commanders",
+   "away": "Cincinnati Bengals"
+  },
+  {
    "id": "se-494864",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-24T04:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -477,6 +511,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Barcelona",
    "away": "Fenerbahçe Tarfin"
+  },
+  {
+   "id": "se-498182",
+   "sport": "futbol",
+   "competition": "İskoçya Premier Lig",
+   "competitionId": "iskocya-premier-lig",
+   "kickoff": "2026-11-24T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Glasgow Rangers",
+   "away": "Aberdeen"
+  },
+  {
+   "id": "se-498183",
+   "sport": "futbol",
+   "competition": "İngiltere Championship",
+   "competitionId": "ingiltere-championship",
+   "kickoff": "2026-11-24T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Wolves",
+   "away": "Derby County"
   }
  ]
 });
