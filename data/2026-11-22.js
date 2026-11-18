@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T05:51:01+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T06:51:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-18T05:51:01+03:00",
+ "generatedAt": "2026-11-18T06:51:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -106,10 +106,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "title": "Las Vegas GP"
   },
