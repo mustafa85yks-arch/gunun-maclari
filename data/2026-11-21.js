@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T06:51:54+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T15:52:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-18T06:51:54+03:00",
+ "generatedAt": "2026-11-18T15:52:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -401,7 +401,7 @@ GM_REGISTER_DAY({
    "competitionId": "super-lig",
    "kickoff": "2026-11-21T13:30:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -419,7 +419,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-21T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -437,7 +437,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-21T13:30:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -600,11 +600,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-21T15:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Manchester City",
    "away": "Fulham"
@@ -668,7 +669,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-21T16:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS HABER"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -779,6 +780,22 @@ GM_REGISTER_DAY({
    "home": "Sultanbeyli Bld.",
    "away": "Onikişubat Belediyespor",
    "turkish": true
+  },
+  {
+   "id": "se-498121",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-11-21T16:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Laval",
+   "away": "Montpellier"
   },
   {
    "id": "se-496387",
@@ -982,7 +999,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-21T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1014,11 +1031,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-21T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Chelsea",
    "away": "Leeds United"
@@ -1046,7 +1064,7 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-21T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS MAX 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1130,7 +1148,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-21T19:00:00+03:00",
    "broadcasters": [
     "TRT Spor",
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1197,11 +1215,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-21T19:15:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Nice",
    "away": "PSG"
@@ -1298,11 +1317,12 @@ GM_REGISTER_DAY({
    "competitionId": "premier-league",
    "kickoff": "2026-11-21T20:30:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Newcastle",
    "away": "Arsenal"
@@ -1389,6 +1409,22 @@ GM_REGISTER_DAY({
    "away": "B.Ortego"
   },
   {
+   "id": "se-498122",
+   "sport": "futbol",
+   "competition": "Fransa Ligue 2",
+   "competitionId": "fransa-ligue-2",
+   "kickoff": "2026-11-21T22:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Reims",
+   "away": "St. Etienne"
+  },
+  {
    "id": "se-497581",
    "sport": "dövüş sporları",
    "competition": "UFC Dövüş Serisi",
@@ -1411,7 +1447,7 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-21T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -1427,11 +1463,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-21T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lille",
    "away": "Lyon"
@@ -1443,11 +1480,12 @@ GM_REGISTER_DAY({
    "competitionId": "ligue-1",
    "kickoff": "2026-11-21T22:45:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Monaco",
    "away": "Auxerre"

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T06:51:48+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-18T15:52:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-18",
- "generatedAt": "2026-11-18T06:51:48+03:00",
+ "generatedAt": "2026-11-18T15:52:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -219,6 +219,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Ankara Demir",
    "away": "52 Orduspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498127",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-18T13:00:00+03:00",
+   "broadcasters": [
+    "Kahramanmaraş İstiklal Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "1461 Trabzon",
+   "away": "Kahramanmaraş İstiklal",
    "turkish": true
   },
   {
