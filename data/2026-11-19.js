@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T00:40:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T05:29:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-19T00:40:36+03:00",
+ "generatedAt": "2026-11-19T05:29:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -290,7 +290,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "B.Shelton",
+   "away": "R.Jodar"
   },
   {
    "id": "se-498136",
@@ -453,6 +454,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Olimpia Milano",
    "away": "Fenerbahçe Tarfin"
+  },
+  {
+   "id": "se-498266",
+   "sport": "tenis",
+   "competition": "ATP Finalleri Torino",
+   "competitionId": "atp",
+   "kickoff": "2026-11-19T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "A.Fils"
   },
   {
    "id": "se-493884",
