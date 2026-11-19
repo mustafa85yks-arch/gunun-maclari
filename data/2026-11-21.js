@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T20:52:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T00:56:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-19T20:52:44+03:00",
+ "generatedAt": "2026-11-20T00:56:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -85,7 +85,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494836",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-21T03:30:00+03:00",
    "broadcasters": [
@@ -147,6 +147,22 @@ GM_REGISTER_DAY({
    "away": "NO Pelicans"
   },
   {
+   "id": "se-498299",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Turu",
+   "competitionId": "isu-surat-pateni-dunya-turu",
+   "kickoff": "2026-11-21T04:00:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gün 2",
+   "away": "Repesaj Seansı"
+  },
+  {
    "id": "se-498130",
    "sport": "motor sporları",
    "competition": "Formula 1 Academy",
@@ -164,7 +180,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494841",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-21T05:30:00+03:00",
    "broadcasters": [
@@ -239,6 +255,36 @@ GM_REGISTER_DAY({
     "beinsports.com.tr"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-498300",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Turu",
+   "competitionId": "isu-surat-pateni-dunya-turu",
+   "kickoff": "2026-11-21T08:05:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
+   "id": "se-498301",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Kupasi",
+   "competitionId": "isu-surat-pateni-dunya-kupasi",
+   "kickoff": "2026-11-21T08:35:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
   },
   {
    "id": "se-498148",
@@ -457,6 +503,21 @@ GM_REGISTER_DAY({
    "title": "Serbest Antrenman 2 ve Sıralama Turları"
   },
   {
+   "id": "se-498302",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-21T13:15:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çiftler Serbest Patinaj"
+  },
+  {
    "id": "se-488982",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -669,6 +730,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Kağıtspor",
    "away": "Konya Gelişim"
+  },
+  {
+   "id": "se-498303",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-21T15:00:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Serbest Patinaj"
   },
   {
    "id": "se-493812",
@@ -1285,6 +1361,21 @@ GM_REGISTER_DAY({
    "away": "Valencia"
   },
   {
+   "id": "se-498304",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-21T18:15:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Serbest Patinaj"
+  },
+  {
    "id": "se-488985",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -1320,22 +1411,6 @@ GM_REGISTER_DAY({
    "home": "Karagümrük",
    "away": "Boluspor",
    "turkish": true
-  },
-  {
-   "id": "se-496388",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-11-21T19:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Keçiören Bld",
-   "away": "Büyükçekmece"
   },
   {
    "id": "se-496597",
@@ -1389,6 +1464,22 @@ GM_REGISTER_DAY({
    "away": "PSG"
   },
   {
+   "id": "se-496388",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-21T19:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Keçiören Bld",
+   "away": "Büyükçekmece"
+  },
+  {
    "id": "se-494429",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -1421,6 +1512,37 @@ GM_REGISTER_DAY({
    ],
    "home": "M.Legierskİ",
    "away": "I.Buchinger"
+  },
+  {
+   "id": "se-498291",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-21T20:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Watergarden HT",
+   "away": "Beylikdüzü"
+  },
+  {
+   "id": "se-498305",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-21T20:25:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Buz Dansı Serbest Dans"
   },
   {
    "id": "se-493814",

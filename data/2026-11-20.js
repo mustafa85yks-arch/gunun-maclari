@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T20:52:35+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T00:56:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-19T20:52:35+03:00",
+ "generatedAt": "2026-11-20T00:56:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -69,7 +69,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494831",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-20T04:00:00+03:00",
    "broadcasters": [
@@ -134,6 +134,22 @@ GM_REGISTER_DAY({
    "away": "LA Clippers"
   },
   {
+   "id": "se-498293",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Turu",
+   "competitionId": "isu-surat-pateni-dunya-turu",
+   "kickoff": "2026-11-20T04:00:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gün 1",
+   "away": "Elemeler"
+  },
+  {
    "id": "se-498128",
    "sport": "motor sporları",
    "competition": "Formula 1 Academy",
@@ -178,6 +194,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-498294",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Kupasi",
+   "competitionId": "isu-surat-pateni-dunya-kupasi",
+   "kickoff": "2026-11-20T08:35:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 1"
   },
   {
    "id": "se-498137",
@@ -259,6 +290,21 @@ GM_REGISTER_DAY({
    "away": "Çorum Bld."
   },
   {
+   "id": "se-498295",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-20T15:00:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çiftler Kısa Program"
+  },
+  {
    "id": "se-497572",
    "sport": "tenis",
    "competition": "ATP Finalleri Torino",
@@ -274,6 +320,21 @@ GM_REGISTER_DAY({
    "title": "Turin"
   },
   {
+   "id": "se-498296",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-20T16:30:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Kısa Program"
+  },
+  {
    "id": "se-498143",
    "sport": "motor sporları",
    "competition": "Ferrari Challenge Kuzey Amerika",
@@ -287,6 +348,38 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 2"
+  },
+  {
+   "id": "se-496305",
+   "sport": "voleybol",
+   "competition": "TVF Kadinlar 2. Lig",
+   "competitionId": "tvf-kadinlar-2-lig",
+   "kickoff": "2026-11-20T18:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Altınyurt",
+   "away": "Fenerbahçe Medicana"
+  },
+  {
+   "id": "se-496384",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-20T18:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Koleji",
+   "away": "iLab Basketbol"
   },
   {
    "id": "se-497565",
@@ -306,36 +399,19 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
-   "id": "se-496384",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-11-20T18:00:00+03:00",
+   "id": "se-498297",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-20T18:25:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "ISU Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Fenerbahçe Koleji",
-   "away": "iLab Basketbol"
-  },
-  {
-   "id": "se-496305",
-   "sport": "voleybol",
-   "competition": "TVF Kadinlar 2. Lig",
-   "competitionId": "tvf-kadinlar-2-lig",
-   "kickoff": "2026-11-20T18:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Altınyurt",
-   "away": "Fenerbahçe Medicana"
+   "title": "Erkekler Kısa Program"
   },
   {
    "id": "se-494588",
@@ -403,6 +479,21 @@ GM_REGISTER_DAY({
    "home": "Iğdırspor",
    "away": "Ümraniyespor",
    "turkish": true
+  },
+  {
+   "id": "se-498298",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-20T20:20:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Buz Dansı Ritim Dansı"
   },
   {
    "id": "se-493886",
@@ -490,22 +581,6 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-496514",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
-   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
-   "kickoff": "2026-11-20T22:30:00+03:00",
-   "broadcasters": [
-    "EHF TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kielce Vive",
-   "away": "Barcelona"
-  },
-  {
    "id": "se-494345",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -520,6 +595,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Bayern Münih",
    "away": "Köln"
+  },
+  {
+   "id": "se-496514",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
+   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
+   "kickoff": "2026-11-20T22:30:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kielce Vive",
+   "away": "Barcelona"
   },
   {
    "id": "se-493889",

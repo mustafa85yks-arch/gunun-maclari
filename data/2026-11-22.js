@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T20:52:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T00:56:44+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-19T20:52:51+03:00",
+ "generatedAt": "2026-11-20T00:56:44+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -112,6 +112,22 @@ GM_REGISTER_DAY({
    "title": "FIA F4 Dünya Kupası Yarış"
   },
   {
+   "id": "se-498306",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Turu",
+   "competitionId": "isu-surat-pateni-dunya-turu",
+   "kickoff": "2026-11-22T05:00:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gün 3",
+   "away": "Repesaj Seansı"
+  },
+  {
    "id": "se-494849",
    "sport": "basketbol",
    "competition": "NBA",
@@ -157,6 +173,36 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "FIA GT Dünya Kupası Yarış"
+  },
+  {
+   "id": "se-498308",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Turu",
+   "competitionId": "isu-surat-pateni-dunya-turu",
+   "kickoff": "2026-11-22T08:05:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
+   "id": "se-498307",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Kupasi",
+   "competitionId": "isu-surat-pateni-dunya-kupasi",
+   "kickoff": "2026-11-22T08:35:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
   },
   {
    "id": "se-498151",
@@ -852,6 +898,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Katar GP"
+  },
+  {
+   "id": "se-498292",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-22T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Petkimspor",
+   "away": "Akhisar Bel"
   },
   {
    "id": "se-498141",
