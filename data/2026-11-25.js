@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T06:51:07+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T15:44:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-25",
- "generatedAt": "2026-11-19T06:51:07+03:00",
+ "generatedAt": "2026-11-19T15:44:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -156,6 +156,22 @@ GM_REGISTER_DAY({
    "away": "Partizan"
   },
   {
+   "id": "se-498287",
+   "sport": "voleybol",
+   "competition": "CEV Kadinlar Şampiyonlar Ligi",
+   "competitionId": "cev-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-11-25T20:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Budowlani Lodz",
+   "away": "Galatasaray Daikin"
+  },
+  {
    "id": "se-491496",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
@@ -238,22 +254,6 @@ GM_REGISTER_DAY({
    "away": "Anadolu Efes"
   },
   {
-   "id": "se-496515",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
-   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
-   "kickoff": "2026-11-25T22:45:00+03:00",
-   "broadcasters": [
-    "EHF TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Magdeburg",
-   "away": "Sporting"
-  },
-  {
    "id": "se-493899",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -269,6 +269,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Madrid",
    "away": "Zalgiris Kaunas"
+  },
+  {
+   "id": "se-496515",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
+   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
+   "kickoff": "2026-11-25T22:45:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Magdeburg",
+   "away": "Sporting"
   },
   {
    "id": "se-491498",

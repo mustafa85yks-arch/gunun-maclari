@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T06:50:51+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T15:44:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-19T06:50:51+03:00",
+ "generatedAt": "2026-11-19T15:44:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,23 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-498288",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-20T01:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Vasco Da Gama",
+   "away": "Internacional"
+  },
+  {
    "id": "se-493309",
    "sport": "motor sporları",
    "competition": "Formula 1 Las Vegas GP",
@@ -31,6 +48,39 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Antrenman Turları-1"
+  },
+  {
+   "id": "se-498289",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-20T03:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sao Paulo",
+   "away": "Fluminense"
+  },
+  {
+   "id": "se-494831",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-20T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Memphis Grizzlies",
+   "away": "GS Warriors"
   },
   {
    "id": "se-494832",
@@ -49,7 +99,7 @@ GM_REGISTER_DAY({
    "away": "Portland TB"
   },
   {
-   "id": "se-494831",
+   "id": "se-494833",
    "sport": "basketbol",
    "competition": "NBA",
    "competitionId": "nba",
@@ -61,8 +111,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Memphis Grizzlies",
-   "away": "GS Warriors"
+   "home": "Minnesota TW",
+   "away": "New York Knicks"
   },
   {
    "id": "se-494834",
@@ -82,22 +132,6 @@ GM_REGISTER_DAY({
    ],
    "home": "SA Spurs",
    "away": "LA Clippers"
-  },
-  {
-   "id": "se-494833",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-20T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Minnesota TW",
-   "away": "New York Knicks"
   },
   {
    "id": "se-498128",
@@ -207,6 +241,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Trofeo Pirelli Yarış 2"
+  },
+  {
+   "id": "se-498278",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-20T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Egospor",
+   "away": "Çorum Bld."
   },
   {
    "id": "se-497572",
@@ -440,22 +490,6 @@ GM_REGISTER_DAY({
    "away": "Kizilyildiz"
   },
   {
-   "id": "se-494345",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga",
-   "competitionId": "bundesliga",
-   "kickoff": "2026-11-20T22:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Bayern Münih",
-   "away": "Köln"
-  },
-  {
    "id": "se-496514",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
@@ -470,6 +504,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Kielce Vive",
    "away": "Barcelona"
+  },
+  {
+   "id": "se-494345",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga",
+   "competitionId": "bundesliga",
+   "kickoff": "2026-11-20T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bayern Münih",
+   "away": "Köln"
   },
   {
    "id": "se-493889",

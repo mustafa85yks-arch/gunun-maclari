@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T06:51:00+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T15:44:25+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-19T06:51:00+03:00",
+ "generatedAt": "2026-11-19T15:44:25+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -654,6 +654,22 @@ GM_REGISTER_DAY({
    "away": "TED Kocaeli"
   },
   {
+   "id": "se-498279",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-21T15:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kağıtspor",
+   "away": "Konya Gelişim"
+  },
+  {
    "id": "se-493812",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -876,6 +892,22 @@ GM_REGISTER_DAY({
    "away": "Montpellier"
   },
   {
+   "id": "se-498280",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-21T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Titan Akademi",
+   "away": "Teşvikiye"
+  },
+  {
    "id": "se-496387",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -955,6 +987,54 @@ GM_REGISTER_DAY({
    ],
    "home": "Lazio",
    "away": "Lecce"
+  },
+  {
+   "id": "se-498281",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-21T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karatay Bld.",
+   "away": "İlkler Şehri Uşak"
+  },
+  {
+   "id": "se-498282",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-21T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Çorlu Bld.",
+   "away": "Türk Telekom Gelişim"
+  },
+  {
+   "id": "se-498283",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-21T17:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kütahya Bld.",
+   "away": "Antalya Gençlik PB"
   },
   {
    "id": "se-494346",

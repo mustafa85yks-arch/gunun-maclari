@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T06:50:47+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T15:44:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-19",
- "generatedAt": "2026-11-19T06:50:47+03:00",
+ "generatedAt": "2026-11-19T15:44:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,22 +32,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Cleveland Cavaliers",
    "away": "Memphis Grizzlies"
-  },
-  {
-   "id": "se-494822",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-19T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Orlando Magic",
-   "away": "Philadelphia 76ers"
   },
   {
    "id": "se-494820",
@@ -83,6 +67,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Miami Heat",
    "away": "Milwaukee Bucks"
+  },
+  {
+   "id": "se-494822",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-19T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Orlando Magic",
+   "away": "Philadelphia 76ers"
   },
   {
    "id": "se-494823",

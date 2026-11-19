@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T06:51:07+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T15:44:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-19T06:51:07+03:00",
+ "generatedAt": "2026-11-19T15:44:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -322,23 +322,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-498102",
-   "sport": "futbol",
-   "competition": "TFF 2. Lig",
-   "competitionId": "tff-2-lig",
-   "kickoff": "2026-11-22T13:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor 3"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İskenderunspor",
-   "away": "Ankaragücü",
-   "turkish": true
-  },
-  {
    "id": "se-498103",
    "sport": "futbol",
    "competition": "TFF 2. Lig",
@@ -438,6 +421,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Beşiktaş",
    "away": "Spor Toto SK"
+  },
+  {
+   "id": "se-498102",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T14:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İskenderunspor",
+   "away": "Ankaragücü",
+   "turkish": true
   },
   {
    "id": "se-498145",
@@ -649,6 +649,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Sakaryaspor",
    "away": "Serik Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-498107",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-22T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Niğde Bld.",
+   "away": "Erciyes 38 FK",
    "turkish": true
   },
   {
@@ -966,23 +983,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Nilüfer Bld.",
    "away": "Eskişehir Mihalıççık"
-  },
-  {
-   "id": "se-498107",
-   "sport": "futbol",
-   "competition": "TFF 3. Lig",
-   "competitionId": "tff-3-lig",
-   "kickoff": "2026-11-22T17:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor 3"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Niğde Bld.",
-   "away": "Erciyes 38 FK",
-   "turkish": true
   },
   {
    "id": "se-494352",

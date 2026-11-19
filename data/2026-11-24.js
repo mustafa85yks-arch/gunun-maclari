@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T06:51:07+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-19T15:44:30+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-24",
- "generatedAt": "2026-11-19T06:51:07+03:00",
+ "generatedAt": "2026-11-19T15:44:30+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -265,6 +265,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Feyenoord",
    "away": "Porto"
+  },
+  {
+   "id": "se-498285",
+   "sport": "voleybol",
+   "competition": "CEV Kadinlar Şampiyonlar Ligi",
+   "competitionId": "cev-kadinlar-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe Medicana",
+   "away": "Vasas Obuda"
   },
   {
    "id": "se-493890",
