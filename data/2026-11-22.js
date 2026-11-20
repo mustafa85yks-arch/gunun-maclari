@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T05:14:44+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T06:44:03+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-20T05:14:44+03:00",
+ "generatedAt": "2026-11-20T06:44:03+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -83,7 +83,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494848",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-22T04:00:00+03:00",
    "broadcasters": [
@@ -237,7 +237,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-493815",
    "sport": "basketbol",
-   "competition": "Basketbol Süper Ligi  FutbolMaçı İzle",
+   "competition": "Basketbol Süper Ligi",
    "competitionId": "bsl",
    "kickoff": "2026-11-22T13:00:00+03:00",
    "broadcasters": [
@@ -280,7 +280,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "Galatasaray Daikin",
-   "away": "Zeren Spor SporÜrünü Al",
+   "away": "Zeren Spor",
    "turkish": true
   },
   {
