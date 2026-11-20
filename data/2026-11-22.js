@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T20:27:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T00:39:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-20T20:27:20+03:00",
+ "generatedAt": "2026-11-21T00:39:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -125,7 +125,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "FIA F4 Dünya Kupası Yarış"
+   "title": "FIA F4 Dünya Kupası Yarış SporEkipmanı Bul"
   },
   {
    "id": "se-498306",
@@ -251,6 +251,21 @@ GM_REGISTER_DAY({
    "title": "Coppa Shell A&M Yarış"
   },
   {
+   "id": "se-498377",
+   "sport": "yelken",
+   "competition": "King of the Air",
+   "competitionId": "king-of-the-air",
+   "kickoff": "2026-11-22T12:00:00+03:00",
+   "broadcasters": [
+    "Red Bull TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Cape Town"
+  },
+  {
    "id": "se-498350",
    "sport": "alp disiplini",
    "competition": "Alp Disiplini Dünya Kupasi",
@@ -329,6 +344,22 @@ GM_REGISTER_DAY({
    ],
    "home": "TVF Spor Lisesi",
    "away": "Düzce Bld."
+  },
+  {
+   "id": "se-497571",
+   "sport": "motosiklet",
+   "competition": "Moto3",
+   "competitionId": "moto3",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Katar GP"
   },
   {
    "id": "se-498098",
@@ -691,6 +722,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Menemenspor",
    "away": "Şanlıurfaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498375",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-22T15:00:00+03:00",
+   "broadcasters": [
+    "Balıkesirspor Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ayvalıkgücü Bld.",
+   "away": "Balıkesirspor",
    "turkish": true
   },
   {
@@ -1170,6 +1218,20 @@ GM_REGISTER_DAY({
    "away": "Eskişehir Mihalıççık"
   },
   {
+   "id": "se-498373",
+   "sport": "basketbol",
+   "competition": "Polonya Basketbol Ligi",
+   "competitionId": "polonya-basketbol-ligi",
+   "kickoff": "2026-11-22T17:00:00+03:00",
+   "broadcasters": [],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slask Wroclaw",
+   "away": "Trefl Sopot"
+  },
+  {
    "id": "se-494352",
    "sport": "futbol",
    "competition": "Almanya Bundesliga",
@@ -1184,21 +1246,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Augsburg",
    "away": "Mainz"
-  },
-  {
-   "id": "se-497571",
-   "sport": "motosiklet",
-   "competition": "Moto3",
-   "competitionId": "moto3",
-   "kickoff": "2026-11-22T17:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Katar GP"
   },
   {
    "id": "se-498354",
@@ -1633,6 +1680,20 @@ GM_REGISTER_DAY({
    ],
    "home": "Duisburg",
    "away": "Hansa Rostock"
+  },
+  {
+   "id": "se-498374",
+   "sport": "basketbol",
+   "competition": "Polonya Basketbol Ligi",
+   "competitionId": "polonya-basketbol-ligi",
+   "kickoff": "2026-11-22T21:30:00+03:00",
+   "broadcasters": [],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dabrowa Gornicza",
+   "away": "Legia Varşova"
   },
   {
    "id": "se-494407",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T20:27:15+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T00:39:16+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-20T20:27:15+03:00",
+ "generatedAt": "2026-11-21T00:39:16+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -71,7 +71,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-486280",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-21T03:30:00+03:00",
    "broadcasters": [
@@ -150,7 +150,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494840",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-21T04:00:00+03:00",
    "broadcasters": [
@@ -364,6 +364,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Melbourne United",
    "away": "NZ Breakers"
+  },
+  {
+   "id": "se-498376",
+   "sport": "yelken",
+   "competition": "King of the Air",
+   "competitionId": "king-of-the-air",
+   "kickoff": "2026-11-21T12:00:00+03:00",
+   "broadcasters": [
+    "Red Bull TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Cape Town"
   },
   {
    "id": "se-498343",
@@ -685,6 +700,20 @@ GM_REGISTER_DAY({
    "title": "Gün 1"
   },
   {
+   "id": "se-498372",
+   "sport": "basketbol",
+   "competition": "Polonya Basketbol Ligi",
+   "competitionId": "polonya-basketbol-ligi",
+   "kickoff": "2026-11-21T14:30:00+03:00",
+   "broadcasters": [],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Start Lublin",
+   "away": "Twarde Pierniki Torun"
+  },
+  {
    "id": "se-494375",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -871,9 +900,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Galatasaray",
    "away": "Samsunspor",
@@ -1508,9 +1538,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Kocaelispor",
    "away": "Fenerbahçe",
@@ -1845,6 +1876,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gün 3"
+  },
+  {
+   "id": "se-498401",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-21T21:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Defensa",
+   "away": "Barracas Central"
   },
   {
    "id": "se-497579",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T20:27:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T00:39:23+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-23",
- "generatedAt": "2026-11-20T20:27:20+03:00",
+ "generatedAt": "2026-11-21T00:39:23+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -131,6 +131,21 @@ GM_REGISTER_DAY({
    ],
    "home": "GS Warriors",
    "away": "Boston Celtics"
+  },
+  {
+   "id": "se-498378",
+   "sport": "yelken",
+   "competition": "King of the Air",
+   "competitionId": "king-of-the-air",
+   "kickoff": "2026-11-23T12:00:00+03:00",
+   "broadcasters": [
+    "Red Bull TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Cape Town"
   },
   {
    "id": "se-488990",
