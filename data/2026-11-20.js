@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T06:43:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T15:41:18+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-20",
- "generatedAt": "2026-11-20T06:43:49+03:00",
+ "generatedAt": "2026-11-20T15:41:18+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -296,13 +296,29 @@ GM_REGISTER_DAY({
    "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-11-20T15:00:00+03:00",
    "broadcasters": [
-    "ISU Youtube"
+    "ISU Youtube",
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "title": "Çiftler Kısa Program"
+  },
+  {
+   "id": "se-498339",
+   "sport": "kayakla atlama",
+   "competition": "Kayakla Atlama Dünya Kupasi",
+   "competitionId": "kayakla-atlama-dunya-kupasi",
+   "kickoff": "2026-11-20T15:55:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler HS140 Elemeleri"
   },
   {
    "id": "se-497572",
@@ -317,7 +333,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "C.Alcaraz",
+   "away": "F.Cobolli"
   },
   {
    "id": "se-498296",
@@ -326,7 +343,8 @@ GM_REGISTER_DAY({
    "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-11-20T16:30:00+03:00",
    "broadcasters": [
-    "ISU Youtube"
+    "ISU Youtube",
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -348,6 +366,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Yarış 2"
+  },
+  {
+   "id": "se-498340",
+   "sport": "kayakla atlama",
+   "competition": "Kayakla Atlama Dünya Kupasi",
+   "competitionId": "kayakla-atlama-dunya-kupasi",
+   "kickoff": "2026-11-20T17:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Takım HS140"
   },
   {
    "id": "se-496305",
@@ -405,7 +438,8 @@ GM_REGISTER_DAY({
    "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-11-20T18:25:00+03:00",
    "broadcasters": [
-    "ISU Youtube"
+    "ISU Youtube",
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -481,6 +515,36 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-498341",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-20T20:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Kısa Program"
+  },
+  {
+   "id": "se-498355",
+   "sport": "golf",
+   "competition": "The RSM Golf Classic",
+   "competitionId": "the-rsm-golf-classic",
+   "kickoff": "2026-11-20T20:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
+  },
+  {
    "id": "se-498298",
    "sport": "buz pateni",
    "competition": "Artistik Buz Pateni Grand Prix",
@@ -529,6 +593,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Ahli",
    "away": "Al Nassr"
+  },
+  {
+   "id": "se-498364",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-11-20T21:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Havelse",
+   "away": "Fortuna Köln"
   },
   {
    "id": "se-498132",
@@ -611,6 +691,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Kielce Vive",
    "away": "Barcelona"
+  },
+  {
+   "id": "se-498321",
+   "sport": "tenis",
+   "competition": "ATP Finalleri Torino",
+   "competitionId": "atp",
+   "kickoff": "2026-11-20T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "D.Medvedev",
+   "away": "F.Tiafoe"
+  },
+  {
+   "id": "se-498361",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-11-20T22:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Verona",
+   "away": "Cesena"
   },
   {
    "id": "se-493889",

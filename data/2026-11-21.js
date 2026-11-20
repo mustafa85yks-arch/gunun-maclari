@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T06:43:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T15:41:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-20T06:43:57+03:00",
+ "generatedAt": "2026-11-20T15:41:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -34,6 +34,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Utah Utes",
    "away": "Dayton"
+  },
+  {
+   "id": "se-498369",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-21T02:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Velez Sarsfield",
+   "away": "Belgrano"
   },
   {
    "id": "se-494835",
@@ -117,7 +134,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494839",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-21T04:00:00+03:00",
    "broadcasters": [
@@ -133,7 +150,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494840",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-21T04:00:00+03:00",
    "broadcasters": [
@@ -196,7 +213,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-486281",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-21T06:00:00+03:00",
    "broadcasters": [
@@ -347,6 +364,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Melbourne United",
    "away": "NZ Breakers"
+  },
+  {
+   "id": "se-498343",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-21T12:15:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Slalom Ayak 1"
   },
   {
    "id": "se-493811",
@@ -509,7 +541,8 @@ GM_REGISTER_DAY({
    "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-11-21T13:15:00+03:00",
    "broadcasters": [
-    "ISU Youtube"
+    "ISU Youtube",
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -685,13 +718,11 @@ GM_REGISTER_DAY({
   {
    "id": "se-496457",
    "sport": "voleybol",
-   "competition": "TVF Sultanlar Ligi",
+   "competition": "TVF Sultanlar Ligi Ertelendi",
    "competitionId": "sultanlar-ligi",
    "kickoff": "2026-11-21T15:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
+   "broadcasters": [],
+   "verification": "yayin_yok",
    "sources": [
     "sporekrani.com"
    ],
@@ -738,13 +769,29 @@ GM_REGISTER_DAY({
    "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-11-21T15:00:00+03:00",
    "broadcasters": [
-    "ISU Youtube"
+    "ISU Youtube",
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "title": "Kadınlar Serbest Patinaj"
+  },
+  {
+   "id": "se-498344",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-21T15:15:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar Slalom Ayak 2"
   },
   {
    "id": "se-493812",
@@ -987,6 +1034,22 @@ GM_REGISTER_DAY({
    "away": "Teşvikiye"
   },
   {
+   "id": "se-498365",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-11-21T16:00:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fortuna Düsseldorf",
+   "away": "Grossaspach"
+  },
+  {
    "id": "se-496387",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -1018,6 +1081,21 @@ GM_REGISTER_DAY({
    "title": "Turin"
   },
   {
+   "id": "se-498345",
+   "sport": "kayakla atlama",
+   "competition": "Kayakla Atlama Dünya Kupasi",
+   "competitionId": "kayakla-atlama-dunya-kupasi",
+   "kickoff": "2026-11-21T16:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar HS140 Gün 1"
+  },
+  {
    "id": "se-497567",
    "sport": "motosiklet",
    "competition": "Moto2 Portekiz GP",
@@ -1031,6 +1109,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-498356",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Avrupa Şampiyonasi",
+   "competitionId": "bisikletli-kros-avrupa-sampiyonasi",
+   "kickoff": "2026-11-21T16:55:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "HG Cross"
   },
   {
    "id": "se-494427",
@@ -1367,13 +1460,45 @@ GM_REGISTER_DAY({
    "competitionId": "artistik-buz-pateni-grand-prix",
    "kickoff": "2026-11-21T18:15:00+03:00",
    "broadcasters": [
-    "ISU Youtube"
+    "ISU Youtube",
+    "Eurosport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "title": "Erkekler Serbest Patinaj"
+  },
+  {
+   "id": "se-498366",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-11-21T18:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aachen",
+   "away": "Manheim"
+  },
+  {
+   "id": "se-498346",
+   "sport": "kayakla atlama",
+   "competition": "Kayakla Atlama Dünya Kupasi",
+   "competitionId": "kayakla-atlama-dunya-kupasi",
+   "kickoff": "2026-11-21T18:35:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler HS140 Gün 1"
   },
   {
    "id": "se-488985",
@@ -1462,6 +1587,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Nice",
    "away": "PSG"
+  },
+  {
+   "id": "se-498362",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-11-21T19:15:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Catanzaro",
+   "away": "Palermo"
   },
   {
    "id": "se-496388",
@@ -1629,6 +1770,21 @@ GM_REGISTER_DAY({
    "away": "Zeytinburnu Bld."
   },
   {
+   "id": "se-498347",
+   "sport": "buz pateni",
+   "competition": "Artistik Buz Pateni Grand Prix",
+   "competitionId": "artistik-buz-pateni-grand-prix",
+   "kickoff": "2026-11-21T20:45:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Karışık Buz Dansı Serbest Program"
+  },
+  {
    "id": "se-494844",
    "sport": "basketbol",
    "competition": "NBA",
@@ -1678,6 +1834,21 @@ GM_REGISTER_DAY({
    "away": "Chambery Savoie"
   },
   {
+   "id": "se-498357",
+   "sport": "golf",
+   "competition": "The RSM Golf Classic",
+   "competitionId": "the-rsm-golf-classic",
+   "kickoff": "2026-11-21T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
    "id": "se-497579",
    "sport": "dövüş sporları",
    "competition": "UFC Dövüş Serisi",
@@ -1692,6 +1863,22 @@ GM_REGISTER_DAY({
    ],
    "home": "K.Horiguchi",
    "away": "A.Almabayev"
+  },
+  {
+   "id": "se-498363",
+   "sport": "futbol",
+   "competition": "İtalya Serie B",
+   "competitionId": "italya-serie-b",
+   "kickoff": "2026-11-21T21:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Empoli",
+   "away": "Pisa"
   },
   {
    "id": "se-497580",
@@ -1750,9 +1937,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lens",
    "away": "Toulouse"

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T06:44:03+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-20T15:41:35+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-20T06:44:03+03:00",
+ "generatedAt": "2026-11-20T15:41:35+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -47,6 +47,22 @@ GM_REGISTER_DAY({
    ],
    "home": "New York Knicks",
    "away": "Portland TB"
+  },
+  {
+   "id": "se-498322",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA Amerikan Futbolu",
+   "competitionId": "ncaa-amerikan-futbolu",
+   "kickoff": "2026-11-22T03:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "South Carolina",
+   "away": "Georgia Bulldogs"
   },
   {
    "id": "se-494846",
@@ -233,6 +249,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Coppa Shell A&M Yarış"
+  },
+  {
+   "id": "se-498350",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-22T12:15:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Slalom Ayak 1"
   },
   {
    "id": "se-493815",
@@ -501,6 +532,21 @@ GM_REGISTER_DAY({
    "title": "Gün 2"
   },
   {
+   "id": "se-498351",
+   "sport": "kayakla atlama",
+   "competition": "Kayakla Atlama Dünya Kupasi",
+   "competitionId": "kayakla-atlama-dunya-kupasi",
+   "kickoff": "2026-11-22T14:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar HS140 Gün 2"
+  },
+  {
    "id": "se-498140",
    "sport": "motor sporları",
    "competition": "Ferrari Challenge",
@@ -547,6 +593,39 @@ GM_REGISTER_DAY({
    ],
    "home": "Juventus",
    "away": "Venezia"
+  },
+  {
+   "id": "se-497680",
+   "sport": "buz hokeyi",
+   "competition": "TBHF Kadinlar Süper Ligi",
+   "competitionId": "tbhf-kadinlar-super-ligi",
+   "kickoff": "2026-11-22T14:30:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kocaeli Akincilar",
+   "away": "Buz Adamlar GSK"
+  },
+  {
+   "id": "se-498325",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-22T14:45:00+03:00",
+   "broadcasters": [
+    "Karşıyaka Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karşıyaka",
+   "away": "Alanya 1221",
+   "turkish": true
   },
   {
    "id": "se-496458",
@@ -596,22 +675,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Burnley",
    "away": "Blackburn"
-  },
-  {
-   "id": "se-497680",
-   "sport": "buz hokeyi",
-   "competition": "TBHF Kadinlar Süper Ligi",
-   "competitionId": "tbhf-kadinlar-super-ligi",
-   "kickoff": "2026-11-22T15:00:00+03:00",
-   "broadcasters": [
-    "Buz Hokeyi TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kocaeli Akincilar",
-   "away": "Buz Adamlar GSK"
   },
   {
    "id": "se-498104",
@@ -713,6 +776,36 @@ GM_REGISTER_DAY({
    "home": "Niğde Bld.",
    "away": "Erciyes 38 FK",
    "turkish": true
+  },
+  {
+   "id": "se-498352",
+   "sport": "alp disiplini",
+   "competition": "Alp Disiplini Dünya Kupasi",
+   "competitionId": "alp-disiplini-dunya-kupasi",
+   "kickoff": "2026-11-22T15:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Slalom Ayak 2"
+  },
+  {
+   "id": "se-498358",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Trophy",
+   "competitionId": "bisikletli-kros-trophy",
+   "kickoff": "2026-11-22T15:40:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Kadınlar"
   },
   {
    "id": "se-488987",
@@ -963,6 +1056,36 @@ GM_REGISTER_DAY({
    "away": "ADO Den Haag"
   },
   {
+   "id": "se-498353",
+   "sport": "kayakla atlama",
+   "competition": "Kayakla Atlama Dünya Kupasi",
+   "competitionId": "kayakla-atlama-dunya-kupasi",
+   "kickoff": "2026-11-22T16:30:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler HS140 Elemeleri"
+  },
+  {
+   "id": "se-498359",
+   "sport": "bisiklet",
+   "competition": "Bisikletli Kros Trophy",
+   "competitionId": "bisikletli-kros-trophy",
+   "kickoff": "2026-11-22T16:55:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler"
+  },
+  {
    "id": "se-494405",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1078,20 +1201,19 @@ GM_REGISTER_DAY({
    "title": "Katar GP"
   },
   {
-   "id": "se-497679",
-   "sport": "buz hokeyi",
-   "competition": "Intercity Buz Hokeyi Süper Ligi",
-   "competitionId": "intercity-buz-hokeyi-super-ligi",
-   "kickoff": "2026-11-22T17:30:00+03:00",
+   "id": "se-498354",
+   "sport": "kayakla atlama",
+   "competition": "Kayakla Atlama Dünya Kupasi",
+   "competitionId": "kayakla-atlama-dunya-kupasi",
+   "kickoff": "2026-11-22T17:45:00+03:00",
    "broadcasters": [
-    "Buz Hokeyi TV"
+    "Eurosport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Buz Adamlar GSK",
-   "away": "Kocaeli Akincilar"
+   "title": "Erkekler HS140 Gün 2"
   },
   {
    "id": "se-493817",
@@ -1160,6 +1282,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Paris",
    "away": "Gravelines Dunkerque"
+  },
+  {
+   "id": "se-498367",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-11-22T18:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Saarbrucken FC",
+   "away": "Wehen Wiesbaden"
   },
   {
    "id": "se-488989",
@@ -1297,6 +1435,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Milan",
    "away": "Frosinone"
+  },
+  {
+   "id": "se-497679",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-11-22T20:00:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Buz Adamlar GSK",
+   "away": "Kocaeli Akincilar"
   },
   {
    "id": "se-497808",
@@ -1448,6 +1602,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Madrid",
    "away": "Joventut Badalona"
+  },
+  {
+   "id": "se-498360",
+   "sport": "golf",
+   "competition": "The RSM Golf Classic",
+   "competitionId": "the-rsm-golf-classic",
+   "kickoff": "2026-11-22T21:00:00+03:00",
+   "broadcasters": [
+    "Eurosport 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 3"
+  },
+  {
+   "id": "se-498368",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 3",
+   "competitionId": "almanya-bundesliga-3",
+   "kickoff": "2026-11-22T21:30:00+03:00",
+   "broadcasters": [
+    "Sıfır TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Duisburg",
+   "away": "Hansa Rostock"
   },
   {
    "id": "se-494407",
