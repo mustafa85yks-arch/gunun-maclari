@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T15:22:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T19:32:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-24",
- "generatedAt": "2026-11-21T15:22:33+03:00",
+ "generatedAt": "2026-11-21T19:32:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -364,6 +364,77 @@ GM_REGISTER_DAY({
    ],
    "home": "Bayern Münih",
    "away": "Maccabi Fox"
+  },
+  {
+   "id": "se-498485",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-24T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Konyaspor",
+   "away": "Galatasaray",
+   "turkish": true
+  },
+  {
+   "id": "se-498486",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-24T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Fenerbahçe",
+   "turkish": true,
+   "tags": [
+    "derbi"
+   ]
+  },
+  {
+   "id": "se-498487",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-24T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gaziantep FK",
+   "away": "Sivasspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498488",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-24T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Başakşehir",
+   "away": "Beşiktaş",
+   "turkish": true
   },
   {
    "id": "se-493893",

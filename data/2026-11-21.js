@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T15:22:27+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T19:31:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-21T15:22:27+03:00",
+ "generatedAt": "2026-11-21T19:31:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -917,10 +917,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Manchester City",
    "away": "Fulham"
@@ -1478,10 +1477,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Chelsea",
    "away": "Leeds United"
@@ -1879,10 +1877,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Newcastle",
    "away": "Arsenal"
@@ -2064,6 +2061,22 @@ GM_REGISTER_DAY({
    "away": "St. Etienne"
   },
   {
+   "id": "se-498484",
+   "sport": "basketbol",
+   "competition": "İtalya Basketbol Ligi",
+   "competitionId": "italya-basketbol-ligi",
+   "kickoff": "2026-11-21T22:00:00+03:00",
+   "broadcasters": [
+    "İtalya Basketbol Ligi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trieste",
+   "away": "Reggiana"
+  },
+  {
    "id": "se-497581",
    "sport": "dövüş sporları",
    "competition": "UFC Dövüş Serisi",
@@ -2155,10 +2168,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Monaco",
    "away": "Auxerre"

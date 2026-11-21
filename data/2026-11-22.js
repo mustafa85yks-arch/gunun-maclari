@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T15:22:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T19:32:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-21T15:22:33+03:00",
+ "generatedAt": "2026-11-21T19:32:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -83,8 +83,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-498322",
    "sport": "amerikan futbolu",
-   "competition": "NCAA Amerikan Futbolu  Futbolmaçları",
-   "competitionId": "ncaa-amerikan-futbolu-futbolmaclari",
+   "competition": "NCAA Amerikan Futbolu",
+   "competitionId": "ncaa-amerikan-futbolu",
    "kickoff": "2026-11-22T03:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -487,9 +487,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Erzurumspor",
    "away": "Göztepe",
@@ -913,9 +914,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Kasımpaşa",
    "away": "Alanyaspor",
@@ -930,9 +932,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Konyaspor",
    "away": "Beşiktaş",
@@ -1339,9 +1342,10 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Galatasaray MCT Technic",
    "away": "Petkimspor",
@@ -1422,9 +1426,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 1"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Trabzonspor",
    "away": "Eyüpspor",
@@ -1440,9 +1445,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Bursaspor",
    "away": "Sivasspor",
@@ -1592,9 +1598,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 5"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Beşiktaş",
    "away": "Fenerbahçe Tarfin",
