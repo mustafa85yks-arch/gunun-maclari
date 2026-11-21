@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T06:28:57+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T15:22:27+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-21T06:28:57+03:00",
+ "generatedAt": "2026-11-21T15:22:27+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -396,6 +396,23 @@ GM_REGISTER_DAY({
    "title": "Kadınlar Slalom Ayak 1"
   },
   {
+   "id": "se-498448",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-21T12:45:00+03:00",
+   "broadcasters": [
+    "Mazıdağı Fosfat Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adana Adaletgücü Spor",
+   "away": "Mazıdağı Fosfat",
+   "turkish": true
+  },
+  {
    "id": "se-493811",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -700,12 +717,31 @@ GM_REGISTER_DAY({
    "title": "Gün 1"
   },
   {
+   "id": "se-498413",
+   "sport": "futbol",
+   "competition": "TFF Elit U16 Ligi 2'nci Yarı",
+   "competitionId": "tff-elit-u16-ligi-2-nci-yari",
+   "kickoff": "2026-11-21T14:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Eyüpspor",
+   "turkish": true
+  },
+  {
    "id": "se-498372",
    "sport": "basketbol",
    "competition": "Polonya Basketbol Ligi",
    "competitionId": "polonya-basketbol-ligi",
    "kickoff": "2026-11-21T14:30:00+03:00",
-   "broadcasters": [],
+   "broadcasters": [
+    "Polonya Basketbol Ligi Youtube"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
@@ -806,6 +842,39 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Kadınlar Serbest Patinaj"
+  },
+  {
+   "id": "se-498414",
+   "sport": "futbol",
+   "competition": "TFF Elit U17 Ligi",
+   "competitionId": "tff-elit-u17-ligi",
+   "kickoff": "2026-11-21T15:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe",
+   "away": "Eyüpspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498475",
+   "sport": "futbol",
+   "competition": "UEFA Regions Cup",
+   "competitionId": "uefa-regions-cup",
+   "kickoff": "2026-11-21T15:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Romanya",
+   "away": "Türkiye"
   },
   {
    "id": "se-498344",
@@ -1334,6 +1403,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Buz Adamlar GSK",
    "away": "İstanbul BB"
+  },
+  {
+   "id": "se-498474",
+   "sport": "futbol",
+   "competition": "İran Pro Lig",
+   "competitionId": "iran-pro-lig",
+   "kickoff": "2026-11-21T17:30:00+03:00",
+   "broadcasters": [
+    "Sorkhabi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Foolad Khuzestan",
+   "away": "Sepahan Isfahan"
   },
   {
    "id": "se-493813",
@@ -2011,6 +2096,23 @@ GM_REGISTER_DAY({
    "away": "D.Medvedev"
   },
   {
+   "id": "se-498468",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-21T22:30:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Palmeiras",
+   "away": "Flamengo"
+  },
+  {
    "id": "se-494401",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -2144,6 +2246,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Motherwell",
    "away": "Glasgow Rangers"
+  },
+  {
+   "id": "se-498470",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-21T23:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Argentinos Jrs.",
+   "away": "Independiente Rivadavia"
   }
  ]
 });

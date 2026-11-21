@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T06:29:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T15:22:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-21T06:29:04+03:00",
+ "generatedAt": "2026-11-21T15:22:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -31,6 +31,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Macau"
+  },
+  {
+   "id": "se-498469",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-22T03:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chapecoense",
+   "away": "Cruzeiro"
   },
   {
    "id": "se-498131",
@@ -183,9 +200,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "title": "Las Vegas GP"
   },
@@ -590,6 +608,23 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Kadınlar HS140 Gün 2"
+  },
+  {
+   "id": "se-498471",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-22T14:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bilbao Basket",
+   "away": "Baskonia"
   },
   {
    "id": "se-498140",
@@ -1156,9 +1191,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Paris FC",
    "away": "Angers"
@@ -1236,7 +1272,9 @@ GM_REGISTER_DAY({
    "competition": "Polonya Basketbol Ligi",
    "competitionId": "polonya-basketbol-ligi",
    "kickoff": "2026-11-22T17:00:00+03:00",
-   "broadcasters": [],
+   "broadcasters": [
+    "Polonya Basketbol Ligi Youtube"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
@@ -1259,6 +1297,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Augsburg",
    "away": "Mainz"
+  },
+  {
+   "id": "se-497679",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-11-22T17:30:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Buz Adamlar GSK",
+   "away": "Kocaeli Akincilar"
   },
   {
    "id": "se-498354",
@@ -1428,6 +1482,23 @@ GM_REGISTER_DAY({
    "away": "Montpellier"
   },
   {
+   "id": "se-498472",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-22T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Valencia Basket",
+   "away": "Breogan"
+  },
+  {
    "id": "se-494406",
    "sport": "futbol",
    "competition": "Fransa Ligue 1",
@@ -1436,9 +1507,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lorient",
    "away": "Rennes"
@@ -1496,22 +1568,6 @@ GM_REGISTER_DAY({
    "away": "Frosinone"
   },
   {
-   "id": "se-497679",
-   "sport": "buz hokeyi",
-   "competition": "Intercity Buz Hokeyi Süper Ligi",
-   "competitionId": "intercity-buz-hokeyi-super-ligi",
-   "kickoff": "2026-11-22T20:00:00+03:00",
-   "broadcasters": [
-    "Buz Hokeyi TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Buz Adamlar GSK",
-   "away": "Kocaeli Akincilar"
-  },
-  {
    "id": "se-497808",
    "sport": "basketbol",
    "competition": "İtalya Basketbol Ligi",
@@ -1526,23 +1582,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Virtus Bologna",
    "away": "BC Roma"
-  },
-  {
-   "id": "se-497886",
-   "sport": "basketbol",
-   "competition": "İspanya Basketbol Ligi",
-   "competitionId": "ispanya-basketbol-ligi",
-   "kickoff": "2026-11-22T20:00:00+03:00",
-   "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Iberostar Tenerife",
-   "away": "Barcelona"
   },
   {
    "id": "se-493818",
@@ -1699,13 +1738,32 @@ GM_REGISTER_DAY({
    "competition": "Polonya Basketbol Ligi",
    "competitionId": "polonya-basketbol-ligi",
    "kickoff": "2026-11-22T21:30:00+03:00",
-   "broadcasters": [],
+   "broadcasters": [
+    "Polonya Basketbol Ligi Youtube"
+   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "home": "Dabrowa Gornicza",
    "away": "Legia Varşova"
+  },
+  {
+   "id": "se-498473",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-22T22:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rosario Central",
+   "away": "Gimnasia Mendoza"
   },
   {
    "id": "se-494407",

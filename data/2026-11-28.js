@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T06:29:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T15:22:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-28",
- "generatedAt": "2026-11-21T06:29:04+03:00",
+ "generatedAt": "2026-11-21T15:22:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -495,6 +495,22 @@ GM_REGISTER_DAY({
    "away": "Cedi Osman Basketbol"
   },
   {
+   "id": "se-496396",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-28T16:30:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gaziantep Basket",
+   "away": "Fenerbahçe Gelişim"
+  },
+  {
    "id": "se-496442",
    "sport": "voleybol",
    "competition": "TVF Erkekler 2. Lig",
@@ -526,22 +542,6 @@ GM_REGISTER_DAY({
    "home": "İstanbul BB",
    "away": "TFL Altekma",
    "turkish": true
-  },
-  {
-   "id": "se-497405",
-   "sport": "basketbol",
-   "competition": "FIBA Asya Kupasi Ön Eleme",
-   "competitionId": "fiba-asya-kupasi-on-eleme",
-   "kickoff": "2026-11-28T17:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kuveyt",
-   "away": "Filistin"
   },
   {
    "id": "se-497610",
@@ -576,22 +576,6 @@ GM_REGISTER_DAY({
    "title": "Sprint Yarışları"
   },
   {
-   "id": "se-496396",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-11-28T17:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gaziantep Basket",
-   "away": "Fenerbahçe Gelişim"
-  },
-  {
    "id": "se-494438",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -623,6 +607,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Raimond Sassari",
    "away": "Beşiktaş"
+  },
+  {
+   "id": "se-497405",
+   "sport": "basketbol",
+   "competition": "FIBA Asya Kupasi Ön Eleme",
+   "competitionId": "fiba-asya-kupasi-on-eleme",
+   "kickoff": "2026-11-28T17:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kuveyt",
+   "away": "Filistin"
   },
   {
    "id": "se-493316",
