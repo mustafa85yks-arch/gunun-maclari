@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T05:07:46+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T06:29:04+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-21T05:07:46+03:00",
+ "generatedAt": "2026-11-21T06:29:04+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -66,8 +66,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-498322",
    "sport": "amerikan futbolu",
-   "competition": "NCAA Amerikan Futbolu",
-   "competitionId": "ncaa-amerikan-futbolu",
+   "competition": "NCAA Amerikan Futbolu  Futbolmaçları",
+   "competitionId": "ncaa-amerikan-futbolu-futbolmaclari",
    "kickoff": "2026-11-22T03:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -183,10 +183,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "title": "Las Vegas GP"
   },
@@ -1157,10 +1156,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Paris FC",
    "away": "Angers"
@@ -1438,10 +1436,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 4"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Lorient",
    "away": "Rennes"
