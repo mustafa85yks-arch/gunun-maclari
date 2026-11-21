@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T19:32:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T23:19:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-21T19:32:04+03:00",
+ "generatedAt": "2026-11-21T23:19:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1342,10 +1342,9 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Galatasaray MCT Technic",
    "away": "Petkimspor",
@@ -1598,10 +1597,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 5"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Beşiktaş",
    "away": "Fenerbahçe Tarfin",
