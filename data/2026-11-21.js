@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T00:39:16+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T05:07:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-21",
- "generatedAt": "2026-11-21T00:39:16+03:00",
+ "generatedAt": "2026-11-21T05:07:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1107,7 +1107,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Turin"
+   "home": "C.Alcaraz",
+   "away": "B.Shelton"
   },
   {
    "id": "se-498345",
@@ -1700,6 +1701,25 @@ GM_REGISTER_DAY({
    "away": "Beylikdüzü"
   },
   {
+   "id": "se-498404",
+   "sport": "futbol",
+   "competition": "ABD USL Championship Play Off Final",
+   "competitionId": "abd-usl-championship-play-off-final",
+   "kickoff": "2026-11-21T20:00:00+03:00",
+   "broadcasters": [
+    "USL Championship Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sacramento Republic",
+   "away": "Louisville City",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-498305",
    "sport": "buz pateni",
    "competition": "Artistik Buz Pateni Grand Prix",
@@ -1973,6 +1993,22 @@ GM_REGISTER_DAY({
    ],
    "home": "A.Sterling",
    "away": "K.Vallejos"
+  },
+  {
+   "id": "se-498403",
+   "sport": "tenis",
+   "competition": "ATP Finalleri Torino",
+   "competitionId": "atp",
+   "kickoff": "2026-11-21T22:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "D.Medvedev"
   },
   {
    "id": "se-494401",

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T00:39:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T05:07:46+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-21T00:39:23+03:00",
+ "generatedAt": "2026-11-21T05:07:46+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,21 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-498405",
+   "sport": "motor sporları",
+   "competition": "International GT Cup",
+   "competitionId": "international-gt-cup",
+   "kickoff": "2026-11-22T03:00:00+03:00",
+   "broadcasters": [
+    "GT World Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Macau"
+  },
   {
    "id": "se-498131",
    "sport": "motor sporları",
@@ -125,7 +140,7 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "FIA F4 Dünya Kupası Yarış SporEkipmanı Bul"
+   "title": "FIA F4 Dünya Kupası Yarış"
   },
   {
    "id": "se-498306",
