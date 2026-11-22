@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T15:25:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T19:49:42+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-22T15:25:28+03:00",
+ "generatedAt": "2026-11-22T19:49:42+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -266,6 +266,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Gaziantep"
+  },
+  {
+   "id": "se-498503",
+   "sport": "motor sporları",
+   "competition": "MotoSurf Dünya Şampiyonasi",
+   "competitionId": "motosurf-dunya-sampiyonasi",
+   "kickoff": "2026-11-22T09:50:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çin"
   },
   {
    "id": "se-498151",
@@ -667,6 +682,7 @@ GM_REGISTER_DAY({
    "competitionId": "yelken-sail-gp",
    "kickoff": "2026-11-22T14:00:00+03:00",
    "broadcasters": [
+    "tabii Spor 6",
     "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
@@ -1407,10 +1423,9 @@ GM_REGISTER_DAY({
     "beIN SPORTS 5",
     "beIN SPORTS HABER"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Galatasaray MCT Technic",
    "away": "Petkimspor",
@@ -1700,10 +1715,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 5"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Beşiktaş",
    "away": "Fenerbahçe Tarfin",
