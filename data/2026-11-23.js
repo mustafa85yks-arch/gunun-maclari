@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T05:39:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T15:25:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-23",
- "generatedAt": "2026-11-22T05:39:26+03:00",
+ "generatedAt": "2026-11-22T15:25:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -32,6 +32,40 @@ GM_REGISTER_DAY({
    ],
    "home": "NY Giants",
    "away": "JV Jaguars"
+  },
+  {
+   "id": "se-498493",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-23T00:30:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fluminense",
+   "away": "Mirassol"
+  },
+  {
+   "id": "se-498491",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-23T01:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "River Plate",
+   "away": "Lanus"
   },
   {
    "id": "se-494851",
@@ -115,6 +149,23 @@ GM_REGISTER_DAY({
    ],
    "home": "New York Knicks",
    "away": "Indiana Pacers"
+  },
+  {
+   "id": "se-498492",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-23T04:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Instituto AC",
+   "away": "CA Huracan"
   },
   {
    "id": "se-494856",

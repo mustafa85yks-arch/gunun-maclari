@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T05:39:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T15:25:28+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-22T05:39:26+03:00",
+ "generatedAt": "2026-11-22T15:25:28+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -253,6 +253,21 @@ GM_REGISTER_DAY({
    "title": "Gün 3"
   },
   {
+   "id": "se-498500",
+   "sport": "atletizm",
+   "competition": "Şehir Maratonu",
+   "competitionId": "sehir-maratonu",
+   "kickoff": "2026-11-22T09:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gaziantep"
+  },
+  {
    "id": "se-498151",
    "sport": "motor sporları",
    "competition": "Macau Grand Prix",
@@ -296,6 +311,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Cape Town"
+  },
+  {
+   "id": "se-498501",
+   "sport": "karate",
+   "competition": "Karate Dünya Kupasi",
+   "competitionId": "karate-dunya-kupasi",
+   "kickoff": "2026-11-22T12:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çin"
   },
   {
    "id": "se-498350",
@@ -479,6 +509,56 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-498494",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "1964 Silifkespor Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Silifke Bld.",
+   "away": "Kırıkkalespor",
+   "turkish": true
+  },
+  {
+   "id": "se-498499",
+   "sport": "futbol",
+   "competition": "TFF Kizlar U15 Ligi",
+   "competitionId": "tff-kizlar-u15-ligi",
+   "kickoff": "2026-11-22T13:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Soma Zaferspor",
+   "away": "GKG Kayseri",
+   "turkish": true
+  },
+  {
+   "id": "se-498496",
+   "sport": "futbol",
+   "competition": "Ukrayna Premier Ligi",
+   "competitionId": "ukrayna-premier-ligi",
+   "kickoff": "2026-11-22T13:29:00+03:00",
+   "broadcasters": [
+    "Dinamo Kiev Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Dinamo Kiev",
+   "away": "Obolon Brovar"
+  },
+  {
    "id": "se-488986",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -628,6 +708,23 @@ GM_REGISTER_DAY({
    "away": "Baskonia"
   },
   {
+   "id": "se-498495",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-22T14:00:00+03:00",
+   "broadcasters": [
+    "Anagold 24Erzincanspor YouTube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "24 Erzincanspor",
+   "away": "Karacabey Bld.",
+   "turkish": true
+  },
+  {
    "id": "se-498140",
    "sport": "motor sporları",
    "competition": "Ferrari Challenge",
@@ -674,22 +771,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Juventus",
    "away": "Venezia"
-  },
-  {
-   "id": "se-497680",
-   "sport": "buz hokeyi",
-   "competition": "TBHF Kadinlar Süper Ligi",
-   "competitionId": "tbhf-kadinlar-super-ligi",
-   "kickoff": "2026-11-22T14:30:00+03:00",
-   "broadcasters": [
-    "Buz Hokeyi TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kocaeli Akincilar",
-   "away": "Buz Adamlar GSK"
   },
   {
    "id": "se-498325",
@@ -1302,22 +1383,6 @@ GM_REGISTER_DAY({
    "away": "Mainz"
   },
   {
-   "id": "se-497679",
-   "sport": "buz hokeyi",
-   "competition": "Intercity Buz Hokeyi Süper Ligi",
-   "competitionId": "intercity-buz-hokeyi-super-ligi",
-   "kickoff": "2026-11-22T17:30:00+03:00",
-   "broadcasters": [
-    "Buz Hokeyi TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Buz Adamlar GSK",
-   "away": "Kocaeli Akincilar"
-  },
-  {
    "id": "se-498354",
    "sport": "kayakla atlama",
    "competition": "Kayakla Atlama Dünya Kupasi",
@@ -1592,6 +1657,41 @@ GM_REGISTER_DAY({
    "away": "BC Roma"
   },
   {
+   "id": "se-497886",
+   "sport": "basketbol",
+   "competition": "İspanya Basketbol Ligi",
+   "competitionId": "ispanya-basketbol-ligi",
+   "kickoff": "2026-11-22T20:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 81"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Iberostar Tenerife",
+   "away": "Barcelona"
+  },
+  {
+   "id": "se-498490",
+   "sport": "tenis",
+   "competition": "ATP Finalleri Torino Final",
+   "competitionId": "atp",
+   "kickoff": "2026-11-22T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "A.Zverev",
+   "away": "C.Alcaraz",
+   "tags": [
+    "final"
+   ]
+  },
+  {
    "id": "se-493818",
    "sport": "basketbol",
    "competition": "Basketbol Süper Ligi",
@@ -1700,8 +1800,8 @@ GM_REGISTER_DAY({
    "competitionId": "ispanya-basketbol-ligi",
    "kickoff": "2026-11-22T21:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
