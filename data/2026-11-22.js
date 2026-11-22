@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-21T23:19:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T04:09:40+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-22",
- "generatedAt": "2026-11-21T23:19:49+03:00",
+ "generatedAt": "2026-11-22T04:09:40+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -1357,6 +1357,7 @@ GM_REGISTER_DAY({
    "competitionId": "italya-basketbol-ligi",
    "kickoff": "2026-11-22T18:00:00+03:00",
    "broadcasters": [
+    "İtalya Basketbol Ligi Youtube",
     "Euroleague TV"
    ],
    "verification": "tek_kaynak",
@@ -1579,6 +1580,7 @@ GM_REGISTER_DAY({
    "competitionId": "italya-basketbol-ligi",
    "kickoff": "2026-11-22T20:00:00+03:00",
    "broadcasters": [
+    "İtalya Basketbol Ligi Youtube",
     "Euroleague TV"
    ],
    "verification": "tek_kaynak",
