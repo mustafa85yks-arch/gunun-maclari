@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T23:32:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T04:34:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-27",
- "generatedAt": "2026-11-22T23:32:18+03:00",
+ "generatedAt": "2026-11-23T04:34:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -49,7 +49,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-27T12:45:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport 2"
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -74,22 +74,6 @@ GM_REGISTER_DAY({
    "away": "Moğolistan"
   },
   {
-   "id": "se-497607",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-27T15:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Eskişehir Mihalıççık",
-   "away": "Göztepe"
-  },
-  {
    "id": "se-497400",
    "sport": "basketbol",
    "competition": "FIBA Asya Kupasi Ön Eleme",
@@ -104,6 +88,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Sri Lanka",
    "away": "Bahreyn"
+  },
+  {
+   "id": "se-497607",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-11-27T15:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Eskişehir Mihalıççık",
+   "away": "Göztepe"
   },
   {
    "id": "se-493314",
@@ -169,6 +169,24 @@ GM_REGISTER_DAY({
    "away": "Kuveyt"
   },
   {
+   "id": "se-498600",
+   "sport": "tenis",
+   "competition": "Davis Cup Yarı Final",
+   "competitionId": "davis-cup-yari-final",
+   "kickoff": "2026-11-27T18:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Final Maç 1",
+   "tags": [
+    "yari-final"
+   ]
+  },
+  {
    "id": "se-496285",
    "sport": "voleybol",
    "competition": "TVF Kadinlar 1. Lig",
@@ -183,6 +201,21 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "İstanbul BB"
+  },
+  {
+   "id": "se-493315",
+   "sport": "motor sporları",
+   "competition": "Formula 1 Katar GP",
+   "competitionId": "f1",
+   "kickoff": "2026-11-27T20:00:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Antrenman Turları-2"
   },
   {
    "id": "se-497147",
@@ -236,35 +269,40 @@ GM_REGISTER_DAY({
    "away": "Fransa"
   },
   {
-   "id": "se-493315",
-   "sport": "motor sporları",
-   "competition": "Formula 1 Katar GP",
-   "competitionId": "f1",
+   "id": "se-498612",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
    "kickoff": "2026-11-27T20:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 4"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Antrenman Turları-2"
+   "home": "Sarıyer",
+   "away": "İstanbulspor",
+   "turkish": true
   },
   {
-   "id": "se-494382",
+   "id": "se-498613",
    "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-11-27T20:30:00+03:00",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-27T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Heidenheim",
-   "away": "Nürnberg"
+   "home": "Ümraniyespor",
+   "away": "Manisa FK",
+   "turkish": true
   },
   {
    "id": "se-498159",
@@ -429,6 +467,22 @@ GM_REGISTER_DAY({
    "away": "Hırvatistan"
   },
   {
+   "id": "se-494382",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 2",
+   "competitionId": "almanya-bundesliga-2",
+   "kickoff": "2026-11-27T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Heidenheim",
+   "away": "Nürnberg"
+  },
+  {
    "id": "se-496426",
    "sport": "futbol",
    "competition": "İngiltere Premier Lig",
@@ -451,7 +505,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-27T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [

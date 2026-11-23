@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T23:32:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T04:34:37+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-28",
- "generatedAt": "2026-11-22T23:32:18+03:00",
+ "generatedAt": "2026-11-23T04:34:37+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -234,86 +234,39 @@ GM_REGISTER_DAY({
    "away": "Keçiören Bld"
   },
   {
-   "id": "se-496605",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-11-28T14:00:00+03:00",
+   "id": "se-498614",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-28T13:30:00+03:00",
    "broadcasters": [
-    "TVF Voleybol TV Youtube"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Gebze Bld.",
-   "away": "Alanya Bld.",
+   "home": "Bandırmaspor",
+   "away": "Batman Petrol",
    "turkish": true
   },
   {
-   "id": "se-497608",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-28T14:00:00+03:00",
+   "id": "se-498615",
+   "sport": "futbol",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
+   "kickoff": "2026-11-28T13:30:00+03:00",
    "broadcasters": [
-    "THF TV Youtube"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Spor Toto SK",
-   "away": "Beykoz Bld."
-  },
-  {
-   "id": "se-497404",
-   "sport": "basketbol",
-   "competition": "FIBA Asya Kupasi Ön Eleme",
-   "competitionId": "fiba-asya-kupasi-on-eleme",
-   "kickoff": "2026-11-28T14:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "BAE",
-   "away": "Sri Lanka"
-  },
-  {
-   "id": "se-496601",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-11-28T14:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sungurlu Bld.",
-   "away": "Sultanbeyli Bld.",
-   "turkish": true
-  },
-  {
-   "id": "se-496599",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-11-28T14:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Halkbank",
-   "away": "Fenerbahçe Medicana",
+   "home": "Sivasspor",
+   "away": "Bodrumspor",
    "turkish": true
   },
   {
@@ -348,6 +301,107 @@ GM_REGISTER_DAY({
    "home": "Kuzeyboru",
    "away": "Vakifbank",
    "turkish": true
+  },
+  {
+   "id": "se-496599",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-11-28T14:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Halkbank",
+   "away": "Fenerbahçe Medicana",
+   "turkish": true
+  },
+  {
+   "id": "se-496601",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-11-28T14:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sungurlu Bld.",
+   "away": "Sultanbeyli Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-496605",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-11-28T14:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gebze Bld.",
+   "away": "Alanya Bld.",
+   "turkish": true
+  },
+  {
+   "id": "se-497404",
+   "sport": "basketbol",
+   "competition": "FIBA Asya Kupasi Ön Eleme",
+   "competitionId": "fiba-asya-kupasi-on-eleme",
+   "kickoff": "2026-11-28T14:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "BAE",
+   "away": "Sri Lanka"
+  },
+  {
+   "id": "se-497608",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-11-28T14:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Spor Toto SK",
+   "away": "Beykoz Bld."
+  },
+  {
+   "id": "se-498601",
+   "sport": "tenis",
+   "competition": "Davis Cup Yarı Final",
+   "competitionId": "davis-cup-yari-final",
+   "kickoff": "2026-11-28T14:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Yarı Final Maç 2",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-497609",
@@ -437,13 +491,46 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-28T15:40:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
    "title": "Sıralama Turları"
+  },
+  {
+   "id": "se-496394",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
+   "kickoff": "2026-11-28T16:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mersin Basketbol",
+   "away": "Cedi Osman Basketbol"
+  },
+  {
+   "id": "se-496975",
+   "sport": "futbol",
+   "competition": "İspanya La Liga",
+   "competitionId": "la-liga",
+   "kickoff": "2026-11-28T16:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Real Betis",
+   "away": "Rayo Vallecano"
   },
   {
    "id": "se-497149",
@@ -463,36 +550,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-496975",
+   "id": "se-498616",
    "sport": "futbol",
-   "competition": "İspanya La Liga",
-   "competitionId": "la-liga",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
    "kickoff": "2026-11-28T16:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Real Betis",
-   "away": "Rayo Vallecano"
-  },
-  {
-   "id": "se-496394",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
-   "kickoff": "2026-11-28T16:00:00+03:00",
-   "broadcasters": [
-    "TBF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Mersin Basketbol",
-   "away": "Cedi Osman Basketbol"
+   "home": "Vanspor",
+   "away": "Bursaspor",
+   "turkish": true
   },
   {
    "id": "se-496396",
@@ -544,38 +617,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-497610",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-11-28T17:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Nilüfer Bld.",
-   "away": "Trabzon BB"
-  },
-  {
-   "id": "se-498193",
-   "sport": "motosiklet",
-   "competition": "MotoGP Valencia GP",
-   "competitionId": "motogp",
-   "kickoff": "2026-11-28T17:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Sprint Yarışları"
-  },
-  {
    "id": "se-494438",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -623,6 +664,37 @@ GM_REGISTER_DAY({
    ],
    "home": "Kuveyt",
    "away": "Filistin"
+  },
+  {
+   "id": "se-497610",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-11-28T17:00:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nilüfer Bld.",
+   "away": "Trabzon BB"
+  },
+  {
+   "id": "se-498193",
+   "sport": "motosiklet",
+   "competition": "MotoGP Valencia GP",
+   "competitionId": "motogp",
+   "kickoff": "2026-11-28T17:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Sprint Yarışları"
   },
   {
    "id": "se-493316",
@@ -720,20 +792,20 @@ GM_REGISTER_DAY({
    "away": "Final Spor"
   },
   {
-   "id": "se-496428",
-   "sport": "futbol",
-   "competition": "İngiltere Premier Lig",
-   "competitionId": "premier-league",
+   "id": "se-496399",
+   "sport": "basketbol",
+   "competition": "Basketbol 1. Ligi",
+   "competitionId": "basketbol-1-ligi",
    "kickoff": "2026-11-28T18:00:00+03:00",
    "broadcasters": [
-    "beIN CONNECT"
+    "TBF TV Youtube"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Manchester Utd",
-   "away": "Brentford"
+   "home": "Ankaragücü",
+   "away": "TED Kolejliler"
   },
   {
    "id": "se-496427",
@@ -752,20 +824,20 @@ GM_REGISTER_DAY({
    "away": "Coventry"
   },
   {
-   "id": "se-496399",
-   "sport": "basketbol",
-   "competition": "Basketbol 1. Ligi",
-   "competitionId": "basketbol-1-ligi",
+   "id": "se-496428",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
    "kickoff": "2026-11-28T18:00:00+03:00",
    "broadcasters": [
-    "TBF TV Youtube"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Ankaragücü",
-   "away": "TED Kolejliler"
+   "home": "Manchester Utd",
+   "away": "Brentford"
   },
   {
    "id": "se-496976",
@@ -774,7 +846,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-28T18:15:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -816,6 +889,39 @@ GM_REGISTER_DAY({
    "away": "İstanbul BB"
   },
   {
+   "id": "se-494589",
+   "sport": "futbol",
+   "competition": "Ukrayna Premier Ligi",
+   "competitionId": "ukrayna-premier-ligi",
+   "kickoff": "2026-11-28T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shakhtar Donetsk",
+   "away": "Bukovyna"
+  },
+  {
+   "id": "se-496600",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-11-28T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Spor Toto SK",
+   "away": "Ziraat Bankkart",
+   "turkish": true
+  },
+  {
    "id": "se-496603",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -850,37 +956,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-496600",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-11-28T19:00:00+03:00",
-   "broadcasters": [
-    "TRT Spor Yildiz"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Spor Toto SK",
-   "away": "Ziraat Bankkart",
-   "turkish": true
-  },
-  {
-   "id": "se-494589",
+   "id": "se-498617",
    "sport": "futbol",
-   "competition": "Ukrayna Premier Ligi",
-   "competitionId": "ukrayna-premier-ligi",
+   "competition": "Trendyol 1. Lig",
+   "competitionId": "1-lig",
    "kickoff": "2026-11-28T19:00:00+03:00",
    "broadcasters": [
-    "Tivibu Spor"
+    "TRT Spor",
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Shakhtar Donetsk",
-   "away": "Bukovyna"
+   "home": "Muğlaspor",
+   "away": "Mardin 1969",
+   "turkish": true
   },
   {
    "id": "se-494409",
@@ -1130,7 +1221,8 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-28T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [

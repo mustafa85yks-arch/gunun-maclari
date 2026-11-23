@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-22T23:32:18+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T04:34:34+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-25",
- "generatedAt": "2026-11-22T23:32:18+03:00",
+ "generatedAt": "2026-11-23T04:34:34+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -48,7 +48,8 @@ GM_REGISTER_DAY({
    "competitionId": "ncaa",
    "kickoff": "2026-11-25T04:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -76,6 +77,20 @@ GM_REGISTER_DAY({
    "away": "Dallas Mavericks"
   },
   {
+   "id": "se-497947",
+   "sport": "futbol",
+   "competition": "UEFA Gençlik Ligi",
+   "competitionId": "uefa-genclik-ligi",
+   "kickoff": "2026-11-25T15:00:00+03:00",
+   "broadcasters": [],
+   "verification": "yayin_yok",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shakhtar Donetsk",
+   "away": "Fenerbahçe"
+  },
+  {
    "id": "se-494644",
    "sport": "futbol",
    "competition": "TFF Elit U19 Ligi",
@@ -91,20 +106,6 @@ GM_REGISTER_DAY({
    "home": "Fenerbahçe",
    "away": "Göztepe",
    "turkish": true
-  },
-  {
-   "id": "se-497947",
-   "sport": "futbol",
-   "competition": "UEFA Gençlik Ligi",
-   "competitionId": "uefa-genclik-ligi",
-   "kickoff": "2026-11-25T15:00:00+03:00",
-   "broadcasters": [],
-   "verification": "yayin_yok",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Shakhtar Donetsk",
-   "away": "Fenerbahçe"
   },
   {
    "id": "se-497948",
@@ -137,6 +138,22 @@ GM_REGISTER_DAY({
    ],
    "home": "PSG",
    "away": "Roma"
+  },
+  {
+   "id": "se-498597",
+   "sport": "tenis",
+   "competition": "Davis Cup",
+   "competitionId": "davis-cup",
+   "kickoff": "2026-11-25T18:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İtalya",
+   "away": "Güney Kore"
   },
   {
    "id": "se-493896",
@@ -227,7 +244,7 @@ GM_REGISTER_DAY({
    "kickoff": "2026-11-25T22:15:00+03:00",
    "broadcasters": [
     "S Sport Plus",
-    "S Sport"
+    "S Sport 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -260,8 +277,7 @@ GM_REGISTER_DAY({
    "competitionId": "euroleague",
    "kickoff": "2026-11-25T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -303,84 +319,20 @@ GM_REGISTER_DAY({
    "away": "Viking"
   },
   {
-   "id": "se-491499",
+   "id": "se-498184",
    "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competition": "İngiltere Championship",
+   "competitionId": "ingiltere-championship",
    "kickoff": "2026-11-25T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Club Brugge",
-   "away": "Liverpool"
-  },
-  {
-   "id": "se-491500",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-25T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Inter",
-   "away": "Stuttgart"
-  },
-  {
-   "id": "se-491501",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-25T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Lille",
-   "away": "Bayern Münih"
-  },
-  {
-   "id": "se-491502",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-25T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "PSG",
-   "away": "Roma"
-  },
-  {
-   "id": "se-491503",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-25T23:00:00+03:00",
-   "broadcasters": [
-    "TRT 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Shakhtar Donetsk",
-   "away": "Fenerbahçe"
+   "home": "Stoke",
+   "away": "Millwall"
   },
   {
    "id": "se-491504",
@@ -399,20 +351,84 @@ GM_REGISTER_DAY({
    "away": "Manchester Utd"
   },
   {
-   "id": "se-498184",
+   "id": "se-491503",
    "sport": "futbol",
-   "competition": "İngiltere Championship",
-   "competitionId": "ingiltere-championship",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
    "kickoff": "2026-11-25T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "TRT 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Stoke",
-   "away": "Millwall"
+   "home": "Shakhtar Donetsk",
+   "away": "Fenerbahçe"
+  },
+  {
+   "id": "se-491502",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-25T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "PSG",
+   "away": "Roma"
+  },
+  {
+   "id": "se-491501",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-25T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Lille",
+   "away": "Bayern Münih"
+  },
+  {
+   "id": "se-491500",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-25T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Inter",
+   "away": "Stuttgart"
+  },
+  {
+   "id": "se-491499",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-25T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Club Brugge",
+   "away": "Liverpool"
   }
  ]
 });
