@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T23:45:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-25",
- "generatedAt": "2026-11-23T17:17:33+03:00",
+ "generatedAt": "2026-11-23T23:45:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -85,6 +85,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Denver Nuggets",
    "away": "Dallas Mavericks"
+  },
+  {
+   "id": "se-498773",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-25T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gamba Osaka",
+   "away": "Port FC"
+  },
+  {
+   "id": "se-498774",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-25T13:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kashima Antlers",
+   "away": "Jeonbuk"
   },
   {
    "id": "se-497947",

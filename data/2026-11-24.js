@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:33+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T23:45:38+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-24",
- "generatedAt": "2026-11-23T17:17:33+03:00",
+ "generatedAt": "2026-11-23T23:45:38+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -133,6 +133,22 @@ GM_REGISTER_DAY({
    "away": "Milwaukee Bucks"
   },
   {
+   "id": "se-494862",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-24T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chicago Bulls",
+   "away": "Cleveland Cavaliers"
+  },
+  {
    "id": "se-494863",
    "sport": "basketbol",
    "competition": "NBA",
@@ -149,20 +165,20 @@ GM_REGISTER_DAY({
    "away": "Phoenix Suns"
   },
   {
-   "id": "se-494862",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
+   "id": "se-498746",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
    "kickoff": "2026-11-24T04:00:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Chicago Bulls",
-   "away": "Cleveland Cavaliers"
+   "home": "Szymanski/Baca",
+   "away": "Gamez/Vano"
   },
   {
    "id": "se-498178",
@@ -232,6 +248,73 @@ GM_REGISTER_DAY({
    "away": "SA Spurs"
   },
   {
+   "id": "se-498747",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-24T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Rıvero/Santiago",
+   "away": "Geens/Guichard"
+  },
+  {
+   "id": "se-498765",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T10:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Newcastle Jets",
+   "away": "Kashiwa Reysol"
+  },
+  {
+   "id": "se-498766",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Daejeon Citizen",
+   "away": "Beijing Guoan"
+  },
+  {
+   "id": "se-498767",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T13:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kyoto",
+   "away": "Pohang"
+  },
+  {
    "id": "se-497334",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -263,6 +346,56 @@ GM_REGISTER_DAY({
    "away": "Aston Villa"
   },
   {
+   "id": "se-498768",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cong An Ha Noi",
+   "away": "Vissel Kobe"
+  },
+  {
+   "id": "se-498769",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T15:15:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 81"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ratchaburi",
+   "away": "Johor Darul"
+  },
+  {
+   "id": "se-498770",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T15:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shanghai Port",
+   "away": "Buriram"
+  },
+  {
    "id": "se-497945",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -277,6 +410,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Como",
    "away": "AEK Athens"
+  },
+  {
+   "id": "se-498776",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-24T16:45:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 82"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "East Bengal",
+   "away": "Al Hussein"
   },
   {
    "id": "se-497946",
@@ -309,6 +458,40 @@ GM_REGISTER_DAY({
    ],
    "home": "Fenerbahçe Medicana",
    "away": "Vasas Obuda"
+  },
+  {
+   "id": "se-498771",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ahli Dubai",
+   "away": "Al Qadsiah"
+  },
+  {
+   "id": "se-498775",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-24T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Seeb",
+   "away": "Al Shorta"
   },
   {
    "id": "se-493890",
@@ -377,58 +560,21 @@ GM_REGISTER_DAY({
    "away": "Virtus Bologna"
   },
   {
-   "id": "se-498488",
-   "sport": "espor",
-   "competition": "TEFL Türkiye Espor Futbol Ligi",
-   "competitionId": "tefl-turkiye-espor-futbol-ligi",
-   "kickoff": "2026-11-24T22:00:00+03:00",
+   "id": "se-498772",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-24T21:15:00+03:00",
    "broadcasters": [
-    "TEFL Youtube"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Başakşehir",
-   "away": "Beşiktaş",
-   "turkish": true
-  },
-  {
-   "id": "se-498487",
-   "sport": "espor",
-   "competition": "TEFL Türkiye Espor Futbol Ligi",
-   "competitionId": "tefl-turkiye-espor-futbol-ligi",
-   "kickoff": "2026-11-24T22:00:00+03:00",
-   "broadcasters": [
-    "TEFL Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gaziantep FK",
-   "away": "Sivasspor",
-   "turkish": true
-  },
-  {
-   "id": "se-498486",
-   "sport": "espor",
-   "competition": "TEFL Türkiye Espor Futbol Ligi",
-   "competitionId": "tefl-turkiye-espor-futbol-ligi",
-   "kickoff": "2026-11-24T22:00:00+03:00",
-   "broadcasters": [
-    "TEFL Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Trabzonspor",
-   "away": "Fenerbahçe",
-   "turkish": true,
-   "tags": [
-    "derbi"
-   ]
+   "home": "Al Nassr Riyadh",
+   "away": "Al Sadd"
   },
   {
    "id": "se-493892",
@@ -461,6 +607,60 @@ GM_REGISTER_DAY({
    ],
    "home": "Konyaspor",
    "away": "Galatasaray",
+   "turkish": true
+  },
+  {
+   "id": "se-498486",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-24T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Trabzonspor",
+   "away": "Fenerbahçe",
+   "turkish": true,
+   "tags": [
+    "derbi"
+   ]
+  },
+  {
+   "id": "se-498487",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-24T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gaziantep FK",
+   "away": "Sivasspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498488",
+   "sport": "espor",
+   "competition": "TEFL Türkiye Espor Futbol Ligi",
+   "competitionId": "tefl-turkiye-espor-futbol-ligi",
+   "kickoff": "2026-11-24T22:00:00+03:00",
+   "broadcasters": [
+    "TEFL Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Başakşehir",
+   "away": "Beşiktaş",
    "turkish": true
   },
   {
@@ -498,6 +698,23 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
+   "id": "se-491489",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-24T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 1",
+    "İçtimai TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Arsenal",
+   "away": "Borussia Dortmund"
+  },
+  {
    "id": "se-491490",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
@@ -514,36 +731,84 @@ GM_REGISTER_DAY({
    "away": "AEK"
   },
   {
-   "id": "se-498183",
+   "id": "se-491491",
    "sport": "futbol",
-   "competition": "İngiltere Championship",
-   "competitionId": "ingiltere-championship",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Wolves",
-   "away": "Derby County"
+   "home": "Feyenoord",
+   "away": "Porto"
   },
   {
-   "id": "se-498182",
+   "id": "se-491492",
    "sport": "futbol",
-   "competition": "İskoçya Premier Lig",
-   "competitionId": "iskocya-premier-lig",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Glasgow Rangers",
-   "away": "Aberdeen"
+   "home": "Manchester City",
+   "away": "Napoli"
+  },
+  {
+   "id": "se-491493",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-24T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 5"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Leipzig",
+   "away": "Lens"
+  },
+  {
+   "id": "se-491494",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-24T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Real Madrid",
+   "away": "PSV"
+  },
+  {
+   "id": "se-491495",
+   "sport": "futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "competitionId": "ucl",
+   "kickoff": "2026-11-24T23:00:00+03:00",
+   "broadcasters": [
+    "tabii Spor 6"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Slovan Bratislava",
+   "away": "Real Betis"
   },
   {
    "id": "se-493895",
@@ -564,101 +829,36 @@ GM_REGISTER_DAY({
    "away": "Fenerbahçe Tarfin"
   },
   {
-   "id": "se-491495",
+   "id": "se-498182",
    "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competition": "İskoçya Premier Lig",
+   "competitionId": "iskocya-premier-lig",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor 6"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Slovan Bratislava",
-   "away": "Real Betis"
+   "home": "Glasgow Rangers",
+   "away": "Aberdeen"
   },
   {
-   "id": "se-491494",
+   "id": "se-498183",
    "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
+   "competition": "İngiltere Championship",
+   "competitionId": "ingiltere-championship",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Real Madrid",
-   "away": "PSV"
-  },
-  {
-   "id": "se-491493",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-24T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor 5"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Leipzig",
-   "away": "Lens"
-  },
-  {
-   "id": "se-491492",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-24T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Manchester City",
-   "away": "Napoli"
-  },
-  {
-   "id": "se-491491",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-24T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor 3"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Feyenoord",
-   "away": "Porto"
-  },
-  {
-   "id": "se-491489",
-   "sport": "futbol",
-   "competition": "UEFA Şampiyonlar Ligi",
-   "competitionId": "ucl",
-   "kickoff": "2026-11-24T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor 1",
-    "İçtimai TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Arsenal",
-   "away": "Borussia Dortmund"
+   "home": "Wolves",
+   "away": "Derby County"
   }
  ]
 });
