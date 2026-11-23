@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T06:06:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-24",
- "generatedAt": "2026-11-23T06:06:59+03:00",
+ "generatedAt": "2026-11-23T17:17:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-11-24"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -19,9 +27,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Brigham Young",
    "away": "Washington"
@@ -57,6 +66,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Philadelphia 76ers",
    "away": "Portland TB"
+  },
+  {
+   "id": "se-498724",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-24T03:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Santos",
+   "away": "Gremio"
   },
   {
    "id": "se-494859",
@@ -107,22 +133,6 @@ GM_REGISTER_DAY({
    "away": "Milwaukee Bucks"
   },
   {
-   "id": "se-494862",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-24T04:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Chicago Bulls",
-   "away": "Cleveland Cavaliers"
-  },
-  {
    "id": "se-494863",
    "sport": "basketbol",
    "competition": "NBA",
@@ -137,6 +147,22 @@ GM_REGISTER_DAY({
    ],
    "home": "NO Pelicans",
    "away": "Phoenix Suns"
+  },
+  {
+   "id": "se-494862",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-24T04:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chicago Bulls",
+   "away": "Cleveland Cavaliers"
   },
   {
    "id": "se-498178",
@@ -165,9 +191,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Houston Rockets",
    "away": "LA Clippers"
@@ -293,9 +320,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Beşiktaş Fuzul",
    "away": "Paris"
@@ -445,9 +473,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Valencia Basket",
    "away": "Panathinaikos"
@@ -469,20 +498,20 @@ GM_REGISTER_DAY({
    "away": "Olimpia Milano"
   },
   {
-   "id": "se-491491",
+   "id": "se-491490",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
    "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Feyenoord",
-   "away": "Porto"
+   "home": "Como",
+   "away": "AEK"
   },
   {
    "id": "se-498183",
@@ -526,9 +555,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Barcelona",
    "away": "Fenerbahçe Tarfin"
@@ -540,7 +570,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -572,7 +602,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -588,7 +618,7 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -598,20 +628,20 @@ GM_REGISTER_DAY({
    "away": "Napoli"
   },
   {
-   "id": "se-491490",
+   "id": "se-491491",
    "sport": "futbol",
    "competition": "UEFA Şampiyonlar Ligi",
    "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Como",
-   "away": "AEK"
+   "home": "Feyenoord",
+   "away": "Porto"
   },
   {
    "id": "se-491489",
@@ -620,7 +650,8 @@ GM_REGISTER_DAY({
    "competitionId": "ucl",
    "kickoff": "2026-11-24T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [

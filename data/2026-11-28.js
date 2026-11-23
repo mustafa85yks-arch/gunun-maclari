@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T06:07:04+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:39+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-28",
- "generatedAt": "2026-11-23T06:07:04+03:00",
+ "generatedAt": "2026-11-23T17:17:39+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -219,9 +219,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Serbest Antrenman 2 ve Sıralama Turları"
   },
@@ -240,6 +241,108 @@ GM_REGISTER_DAY({
    ],
    "home": "OGM Orman",
    "away": "Keçiören Bld"
+  },
+  {
+   "id": "se-498698",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-28T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Karacabey Bld.",
+   "away": "Sakaryaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498699",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-28T13:00:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Serik Bld.",
+   "away": "52 Orduspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498700",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-28T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İnegölspor",
+   "away": "24 Erzincanspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498701",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-28T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Şanlıurfaspor",
+   "away": "Somaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498702",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-28T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Y.Amasyaspor",
+   "away": "Küçükçekmece Sinop",
+   "turkish": true
+  },
+  {
+   "id": "se-498703",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-28T13:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alanya 1221",
+   "away": "Gemlik Sümerbey",
+   "turkish": true
   },
   {
    "id": "se-498614",
@@ -492,6 +595,74 @@ GM_REGISTER_DAY({
    "away": "Darüşşafaka"
   },
   {
+   "id": "se-498704",
+   "sport": "futbol",
+   "competition": "TFF 2. Lig",
+   "competitionId": "tff-2-lig",
+   "kickoff": "2026-11-28T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Aliağa FK",
+   "away": "Kastamonuspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498705",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-28T15:30:00+03:00",
+   "broadcasters": [
+    "Yaay"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Balıkesirspor",
+   "away": "Sökespor",
+   "turkish": true
+  },
+  {
+   "id": "se-498706",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-28T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bucaspor",
+   "away": "Bigaspor",
+   "turkish": true
+  },
+  {
+   "id": "se-498707",
+   "sport": "futbol",
+   "competition": "TFF 3. Lig",
+   "competitionId": "tff-3-lig",
+   "kickoff": "2026-11-28T15:30:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Mersin İY",
+   "away": "Niğde Bld.",
+   "turkish": true
+  },
+  {
    "id": "se-498192",
    "sport": "motosiklet",
    "competition": "Moto2 Valencia GP",
@@ -501,9 +672,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Sıralama Turları"
   },
@@ -533,9 +705,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Betis",
    "away": "Rayo Vallecano"
@@ -635,9 +808,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Frosinone",
    "away": "Parma"
@@ -858,9 +1032,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Malaga",
    "away": "Athletic Bilbao"
@@ -896,22 +1071,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Yükseliş SK",
    "away": "İstanbul BB"
-  },
-  {
-   "id": "se-494589",
-   "sport": "futbol",
-   "competition": "Ukrayna Premier Ligi",
-   "competitionId": "ukrayna-premier-ligi",
-   "kickoff": "2026-11-28T19:00:00+03:00",
-   "broadcasters": [
-    "Tivibu Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Shakhtar Donetsk",
-   "away": "Bukovyna"
   },
   {
    "id": "se-496600",
@@ -1009,9 +1168,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Torino",
    "away": "Lazio"
@@ -1217,9 +1377,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Inter",
    "away": "Genoa"
@@ -1234,9 +1395,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Real Madrid",
    "away": "Alaves"

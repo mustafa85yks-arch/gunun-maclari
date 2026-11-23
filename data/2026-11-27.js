@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T06:07:02+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-27",
- "generatedAt": "2026-11-23T06:07:02+03:00",
+ "generatedAt": "2026-11-23T17:17:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -59,9 +59,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Serbest Antrenman 1"
   },
@@ -154,27 +155,12 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "title": "Antrenman"
-  },
-  {
-   "id": "se-497401",
-   "sport": "basketbol",
-   "competition": "FIBA Asya Kupasi Ön Eleme",
-   "competitionId": "fiba-asya-kupasi-on-eleme",
-   "kickoff": "2026-11-27T18:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kazakistan",
-   "away": "Kuveyt"
   },
   {
    "id": "se-498600",
@@ -193,6 +179,22 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-497401",
+   "sport": "basketbol",
+   "competition": "FIBA Asya Kupasi Ön Eleme",
+   "competitionId": "fiba-asya-kupasi-on-eleme",
+   "kickoff": "2026-11-27T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kazakistan",
+   "away": "Kuveyt"
   },
   {
    "id": "se-496285",
@@ -271,9 +273,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Estonya",
    "away": "Fransa"
@@ -315,23 +318,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-498159",
-   "sport": "basketbol",
-   "competition": "FIBA Dünya Kupasi Elemeleri",
-   "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-27T20:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Letonya",
-   "away": "Almanya"
-  },
-  {
    "id": "se-498197",
    "sport": "futbol",
    "competition": "Suudi Arabistan Pro Lig",
@@ -348,20 +334,22 @@ GM_REGISTER_DAY({
    "away": "Neom"
   },
   {
-   "id": "se-498160",
+   "id": "se-498159",
    "sport": "basketbol",
    "competition": "FIBA Dünya Kupasi Elemeleri",
    "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-27T21:00:00+03:00",
+   "kickoff": "2026-11-27T20:30:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
-   "home": "İsveç",
-   "away": "Macaristan"
+   "home": "Letonya",
+   "away": "Almanya"
   },
   {
    "id": "se-497402",
@@ -378,6 +366,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Filistin",
    "away": "BAE"
+  },
+  {
+   "id": "se-498160",
+   "sport": "basketbol",
+   "competition": "FIBA Dünya Kupasi Elemeleri",
+   "competitionId": "fiba-dunya-kupasi-elemeleri",
+   "kickoff": "2026-11-27T21:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İsveç",
+   "away": "Macaristan"
   },
   {
    "id": "se-498161",
@@ -453,9 +457,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Venezia",
    "away": "Bologna"
@@ -518,9 +523,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Levante",
    "away": "Racing Santander"

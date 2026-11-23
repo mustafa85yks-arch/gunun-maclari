@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T06:06:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-23",
- "generatedAt": "2026-11-23T06:06:59+03:00",
+ "generatedAt": "2026-11-23T17:17:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -87,22 +87,6 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
-   "id": "se-494852",
-   "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-11-23T03:00:00+03:00",
-   "broadcasters": [
-    "Prime Video"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Chicago Bulls",
-   "away": "Denver Nuggets"
-  },
-  {
    "id": "se-494853",
    "sport": "basketbol",
    "competition": "NBA",
@@ -133,6 +117,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Washington Wizards",
    "away": "Orlando Magic"
+  },
+  {
+   "id": "se-494852",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-11-23T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chicago Bulls",
+   "away": "Denver Nuggets"
   },
   {
    "id": "se-494855",
@@ -205,7 +205,8 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-11-23T16:45:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "Spor Smart",
+    "Smart Spor HD"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -215,30 +216,13 @@ GM_REGISTER_DAY({
    "away": "Al Hilal"
   },
   {
-   "id": "se-498609",
-   "sport": "futbol",
-   "competition": "AFC Şampiyonlar Ligi",
-   "competitionId": "afc-sampiyonlar-ligi",
-   "kickoff": "2026-11-23T19:00:00+03:00",
-   "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Tractor Sazi",
-   "away": "Al Wasl"
-  },
-  {
    "id": "se-498607",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi",
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-11-23T19:00:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "D Smart Kanal 81"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -263,6 +247,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Shamal",
    "away": "Al Ahli"
+  },
+  {
+   "id": "se-498609",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-23T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tractor Sazi",
+   "away": "Al Wasl"
   },
   {
    "id": "se-488990",
@@ -292,31 +293,13 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
-   "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
-   ],
-   "home": "Bodrumspor",
-   "away": "Vanspor",
-   "turkish": true
-  },
-  {
-   "id": "se-498611",
-   "sport": "futbol",
-   "competition": "AFC Şampiyonlar Ligi",
-   "competitionId": "afc-sampiyonlar-ligi",
-   "kickoff": "2026-11-23T21:15:00+03:00",
-   "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
-   ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Al Ittihad",
-   "away": "Pakhtakor"
+   "home": "Bodrumspor",
+   "away": "Vanspor",
+   "turkish": true
   },
   {
    "id": "se-498610",
@@ -325,7 +308,7 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-11-23T21:15:00+03:00",
    "broadcasters": [
-    "D Smart GO"
+    "D Smart Kanal 82"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -333,6 +316,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Quwa Al Jawiya",
    "away": "Al Gharafa"
+  },
+  {
+   "id": "se-498611",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi",
+   "competitionId": "afc-sampiyonlar-ligi",
+   "kickoff": "2026-11-23T21:15:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 81"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Ittihad",
+   "away": "Pakhtakor"
   },
   {
    "id": "se-497981",
@@ -360,9 +359,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Monza",
    "away": "Fiorentina"
@@ -377,9 +377,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Levante",
    "away": "Elche"
@@ -400,6 +401,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Brentford",
    "away": "Everton"
+  },
+  {
+   "id": "se-498723",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-23T23:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gimnasia Mendoza",
+   "away": "Newell's Old Boys"
   }
  ]
 });

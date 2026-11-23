@@ -1,11 +1,19 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T06:06:59+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:33+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-26",
- "generatedAt": "2026-11-23T06:06:59+03:00",
+ "generatedAt": "2026-11-23T17:17:33+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
    "url": "https://www.sporekrani.com/home/day/2026-11-26"
+  },
+  {
+   "name": "ssport.tv",
+   "url": "https://www.ssport.tv/yayin-akisi"
+  },
+  {
+   "name": "beinsports.com.tr",
+   "url": "https://www.beinsports.com.tr/yayin-akisi"
   }
  ],
  "events": [
@@ -20,9 +28,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Philadelphia 76ers",
    "away": "Miami Heat"
@@ -70,9 +79,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "OKC Thunder",
    "away": "Minnesota TW"
@@ -254,6 +264,21 @@ GM_REGISTER_DAY({
    "title": "190cc Süper Final Yarışı"
   },
   {
+   "id": "se-498656",
+   "sport": "biatlon",
+   "competition": "Biatlon Dünya Kupasi",
+   "competitionId": "biatlon-dunya-kupasi",
+   "kickoff": "2026-11-26T18:00:00+03:00",
+   "broadcasters": [
+    "Eurosport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Erkekler Ferdi"
+  },
+  {
    "id": "se-498599",
    "sport": "tenis",
    "competition": "Davis Cup",
@@ -279,9 +304,10 @@ GM_REGISTER_DAY({
     "S Sport Plus",
     "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Litvanya",
    "away": "Sırbistan"
@@ -335,22 +361,6 @@ GM_REGISTER_DAY({
    "away": "Güney Kıbrıs"
   },
   {
-   "id": "se-491832",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "St.Gilloise",
-   "away": "Lech Poznan"
-  },
-  {
    "id": "se-496518",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Şampiyonlar Ligi",
@@ -365,54 +375,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Telekom Veszprem",
    "away": "Aalborg"
-  },
-  {
-   "id": "se-491833",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Salzburg",
-   "away": "Ararat"
-  },
-  {
-   "id": "se-491831",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Viktoria Plzen",
-   "away": "Benfica"
-  },
-  {
-   "id": "se-491830",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Olympiakos",
-   "away": "Milan"
   },
   {
    "id": "se-491829",
@@ -431,7 +393,7 @@ GM_REGISTER_DAY({
    "away": "Levski Sofya"
   },
   {
-   "id": "se-491828",
+   "id": "se-491826",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
@@ -443,8 +405,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Dinamo Zagreb",
-   "away": "Bayer Leverkusen"
+   "home": "Beşiktaş",
+   "away": "Hapoel Beer Sheva"
   },
   {
    "id": "se-491827",
@@ -463,7 +425,7 @@ GM_REGISTER_DAY({
    "away": "Bournemouth"
   },
   {
-   "id": "se-491826",
+   "id": "se-491828",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
@@ -475,24 +437,72 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Beşiktaş",
-   "away": "Hapoel Beer Sheva"
+   "home": "Dinamo Zagreb",
+   "away": "Bayer Leverkusen"
   },
   {
-   "id": "se-498154",
-   "sport": "basketbol",
-   "competition": "FIBA Dünya Kupasi Elemeleri",
-   "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-26T21:00:00+03:00",
+   "id": "se-491831",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-26T20:45:00+03:00",
    "broadcasters": [
-    "FIBA TV"
+    "tabii Spor"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Yunanistan",
-   "away": "Gürcistan"
+   "home": "Viktoria Plzen",
+   "away": "Benfica"
+  },
+  {
+   "id": "se-491832",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-26T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "St.Gilloise",
+   "away": "Lech Poznan"
+  },
+  {
+   "id": "se-491833",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-26T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Salzburg",
+   "away": "Ararat"
+  },
+  {
+   "id": "se-491830",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-26T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Olympiakos",
+   "away": "Milan"
   },
   {
    "id": "se-498153",
@@ -511,6 +521,22 @@ GM_REGISTER_DAY({
    "away": "İspanya"
   },
   {
+   "id": "se-498154",
+   "sport": "basketbol",
+   "competition": "FIBA Dünya Kupasi Elemeleri",
+   "competitionId": "fiba-dunya-kupasi-elemeleri",
+   "kickoff": "2026-11-26T21:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Yunanistan",
+   "away": "Gürcistan"
+  },
+  {
    "id": "se-497963",
    "sport": "basketbol",
    "competition": "FIBA Eurobasket Eleme",
@@ -525,23 +551,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Norveç",
    "away": "Belçika"
-  },
-  {
-   "id": "se-498155",
-   "sport": "basketbol",
-   "competition": "FIBA Dünya Kupasi Elemeleri",
-   "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-26T22:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İtalya",
-   "away": "Türkiye"
   },
   {
    "id": "se-498156",
@@ -560,6 +569,24 @@ GM_REGISTER_DAY({
    "away": "Ukrayna"
   },
   {
+   "id": "se-498155",
+   "sport": "basketbol",
+   "competition": "FIBA Dünya Kupasi Elemeleri",
+   "competitionId": "fiba-dunya-kupasi-elemeleri",
+   "kickoff": "2026-11-26T22:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "dogrulandi",
+   "sources": [
+    "sporekrani.com",
+    "ssport.tv"
+   ],
+   "home": "İtalya",
+   "away": "Türkiye"
+  },
+  {
    "id": "se-498157",
    "sport": "basketbol",
    "competition": "FIBA Dünya Kupasi Elemeleri",
@@ -574,6 +601,22 @@ GM_REGISTER_DAY({
    ],
    "home": "İzlanda",
    "away": "Bosna Hersek"
+  },
+  {
+   "id": "se-496519",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
+   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
+   "kickoff": "2026-11-26T22:45:00+03:00",
+   "broadcasters": [
+    "EHF TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Füchse Berlin",
+   "away": "MT Melsungen"
   },
   {
    "id": "se-496517",
@@ -608,20 +651,21 @@ GM_REGISTER_DAY({
    "away": "Wisla Plock"
   },
   {
-   "id": "se-496519",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Şampiyonlar Ligi",
-   "competitionId": "hentbol-erkekler-sampiyonlar-ligi",
-   "kickoff": "2026-11-26T22:45:00+03:00",
+   "id": "se-491892",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Konferans Ligi",
+   "competitionId": "uefa-avrupa-konferans-ligi",
+   "kickoff": "2026-11-26T23:00:00+03:00",
    "broadcasters": [
-    "EHF TV"
+    "TRT 1",
+    "İçtimai TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Füchse Berlin",
-   "away": "MT Melsungen"
+   "home": "CSKA Sofya",
+   "away": "Trabzonspor"
   },
   {
    "id": "se-491843",
@@ -638,22 +682,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Torreense",
    "away": "Celtic"
-  },
-  {
-   "id": "se-491892",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Konferans Ligi",
-   "competitionId": "uefa-avrupa-konferans-ligi",
-   "kickoff": "2026-11-26T23:00:00+03:00",
-   "broadcasters": [
-    "TRT 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "CSKA Sofya",
-   "away": "Trabzonspor"
   },
   {
    "id": "se-491842",

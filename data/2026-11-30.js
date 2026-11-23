@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T06:07:06+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-23T17:17:42+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-30",
- "generatedAt": "2026-11-23T06:07:06+03:00",
+ "generatedAt": "2026-11-23T17:17:42+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -254,6 +254,22 @@ GM_REGISTER_DAY({
    "away": "BAE"
   },
   {
+   "id": "se-494589",
+   "sport": "futbol",
+   "competition": "Ukrayna Premier Ligi",
+   "competitionId": "ukrayna-premier-ligi",
+   "kickoff": "2026-11-30T19:00:00+03:00",
+   "broadcasters": [
+    "Tivibu Spor 1"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Shakhtar Donetsk",
+   "away": "Bukovyna"
+  },
+  {
    "id": "se-497154",
    "sport": "futbol",
    "competition": "Trendyol Süper Lig",
@@ -303,22 +319,6 @@ GM_REGISTER_DAY({
    "away": "Slovenya"
   },
   {
-   "id": "se-498172",
-   "sport": "basketbol",
-   "competition": "FIBA Dünya Kupasi Elemeleri",
-   "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-30T20:30:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İsrail",
-   "away": "Letonya"
-  },
-  {
    "id": "se-494445",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -334,6 +334,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Lecce",
    "away": "Atalanta"
+  },
+  {
+   "id": "se-498172",
+   "sport": "basketbol",
+   "competition": "FIBA Dünya Kupasi Elemeleri",
+   "competitionId": "fiba-dunya-kupasi-elemeleri",
+   "kickoff": "2026-11-30T20:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İsrail",
+   "away": "Letonya"
   },
   {
    "id": "se-497155",
