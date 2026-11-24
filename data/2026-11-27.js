@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T17:42:24+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T22:50:53+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-27",
- "generatedAt": "2026-11-24T17:42:24+03:00",
+ "generatedAt": "2026-11-24T22:50:53+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -163,6 +163,22 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
+   "id": "se-497401",
+   "sport": "basketbol",
+   "competition": "FIBA Asya Kupasi Ön Eleme",
+   "competitionId": "fiba-asya-kupasi-on-eleme",
+   "kickoff": "2026-11-27T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kazakistan",
+   "away": "Kuveyt"
+  },
+  {
    "id": "se-498600",
    "sport": "tenis",
    "competition": "Davis Cup Yarı Final",
@@ -179,22 +195,6 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
-  },
-  {
-   "id": "se-497401",
-   "sport": "basketbol",
-   "competition": "FIBA Asya Kupasi Ön Eleme",
-   "competitionId": "fiba-asya-kupasi-on-eleme",
-   "kickoff": "2026-11-27T18:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kazakistan",
-   "away": "Kuveyt"
   },
   {
    "id": "se-496285",
@@ -324,6 +324,7 @@ GM_REGISTER_DAY({
    "competitionId": "suudi-arabistan-pro-lig",
    "kickoff": "2026-11-27T20:30:00+03:00",
    "broadcasters": [
+    "HT Spor",
     "S Sport Plus"
    ],
    "verification": "tek_kaynak",
@@ -448,6 +449,22 @@ GM_REGISTER_DAY({
    "away": "Paris FC"
   },
   {
+   "id": "se-498163",
+   "sport": "basketbol",
+   "competition": "FIBA Dünya Kupasi Elemeleri",
+   "competitionId": "fiba-dunya-kupasi-elemeleri",
+   "kickoff": "2026-11-27T22:45:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Polonya",
+   "away": "Hırvatistan"
+  },
+  {
    "id": "se-494437",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -464,22 +481,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Venezia",
    "away": "Bologna"
-  },
-  {
-   "id": "se-498163",
-   "sport": "basketbol",
-   "competition": "FIBA Dünya Kupasi Elemeleri",
-   "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-27T22:45:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Polonya",
-   "away": "Hırvatistan"
   },
   {
    "id": "se-494382",

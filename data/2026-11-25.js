@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T17:42:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T22:50:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-25",
- "generatedAt": "2026-11-24T17:42:20+03:00",
+ "generatedAt": "2026-11-24T22:50:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,9 +18,42 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-498842",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-25T00:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Chapecoense",
+   "away": "Palmeiras"
+  },
+  {
+   "id": "se-498861",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-25T01:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Collombon/Sharifova",
+   "away": "Lobo/Paredes"
+  },
+  {
    "id": "se-494867",
    "sport": "basketbol",
-   "competition": "NBA",
+   "competition": "NBA  BasketbolOyna",
    "competitionId": "nba",
    "kickoff": "2026-11-25T03:00:00+03:00",
    "broadcasters": [
@@ -32,6 +65,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Orlando Magic",
    "away": "Detroit Pistons"
+  },
+  {
+   "id": "se-498862",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-25T03:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Blanco/Garcia",
+   "away": "Padilla/Hernandez"
   },
   {
    "id": "se-494868",
@@ -68,6 +117,22 @@ GM_REGISTER_DAY({
    "away": "Louisville"
   },
   {
+   "id": "se-498863",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-25T05:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Cazorla/Garcia",
+   "away": "Coellar/Sanchez"
+  },
+  {
    "id": "se-494869",
    "sport": "basketbol",
    "competition": "NBA",
@@ -85,6 +150,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Denver Nuggets",
    "away": "Dallas Mavericks"
+  },
+  {
+   "id": "se-498864",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-25T07:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Garcia/Torre",
+   "away": "Aguirre/Lijo"
   },
   {
    "id": "se-498773",
@@ -224,7 +305,7 @@ GM_REGISTER_DAY({
    "competitionId": "cev-kadinlar-sampiyonlar-ligi",
    "kickoff": "2026-11-25T20:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 6"
    ],
    "verification": "tek_kaynak",
    "sources": [

@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T17:42:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T22:50:49+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-26",
- "generatedAt": "2026-11-24T17:42:20+03:00",
+ "generatedAt": "2026-11-24T22:50:49+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -35,6 +35,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Philadelphia 76ers",
    "away": "Miami Heat"
+  },
+  {
+   "id": "se-498876",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-26T02:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Atletico Mineiro",
+   "away": "Corinthians"
   },
   {
    "id": "se-494871",
