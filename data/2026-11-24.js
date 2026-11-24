@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T09:24:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T17:42:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-24",
- "generatedAt": "2026-11-24T09:24:26+03:00",
+ "generatedAt": "2026-11-24T17:42:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -346,6 +346,22 @@ GM_REGISTER_DAY({
    "away": "Aston Villa"
   },
   {
+   "id": "se-498814",
+   "sport": "futbol",
+   "competition": "UEFA Regions Cup",
+   "competitionId": "uefa-regions-cup",
+   "kickoff": "2026-11-24T15:00:00+03:00",
+   "broadcasters": [
+    "TFF Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türkiye",
+   "away": "Azerbaycan"
+  },
+  {
    "id": "se-498768",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi",
@@ -558,6 +574,26 @@ GM_REGISTER_DAY({
    ],
    "home": "Kizilyildiz",
    "away": "Virtus Bologna"
+  },
+  {
+   "id": "se-498799",
+   "sport": "futbol",
+   "competition": "Basin Toplantisi",
+   "competitionId": "basin-toplantisi",
+   "kickoff": "2026-11-24T21:00:00+03:00",
+   "broadcasters": [
+    "FB TV",
+    "TRT Spor",
+    "HT Spor",
+    "A Spor",
+    "beIN SPORTS HABER",
+    "Tivibu Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Emre Belözoğlu"
   },
   {
    "id": "se-498772",

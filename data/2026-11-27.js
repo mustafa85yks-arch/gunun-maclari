@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T09:24:30+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T17:42:24+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-27",
- "generatedAt": "2026-11-24T09:24:30+03:00",
+ "generatedAt": "2026-11-24T17:42:24+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -288,7 +288,7 @@ GM_REGISTER_DAY({
    "competitionId": "1-lig",
    "kickoff": "2026-11-27T20:00:00+03:00",
    "broadcasters": [
-    "TRT Spor",
+    "TRT Türk",
     "beIN CONNECT"
    ],
    "verification": "tek_kaynak",
