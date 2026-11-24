@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-24T22:50:49+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-25T02:20:45+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-25",
- "generatedAt": "2026-11-24T22:50:49+03:00",
+ "generatedAt": "2026-11-25T02:20:45+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -53,7 +53,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494867",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-25T03:00:00+03:00",
    "broadcasters": [
@@ -168,14 +168,31 @@ GM_REGISTER_DAY({
    "away": "Aguirre/Lijo"
   },
   {
+   "id": "se-498877",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T10:45:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Melbourne Victory",
+   "away": "Viettel"
+  },
+  {
    "id": "se-498773",
    "sport": "futbol",
    "competition": "AFC Şampiyonlar Ligi",
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-11-25T13:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -191,8 +208,8 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-11-25T13:00:00+03:00",
    "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
+    "Spor Smart",
+    "Smart Spor HD"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -233,6 +250,23 @@ GM_REGISTER_DAY({
    "away": "Fenerbahçe"
   },
   {
+   "id": "se-498878",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Persib Bandung",
+   "away": "FC Seoul"
+  },
+  {
    "id": "se-497948",
    "sport": "futbol",
    "competition": "UEFA Gençlik Ligi",
@@ -247,6 +281,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Sporting Lisbon",
    "away": "Manchester Utd"
+  },
+  {
+   "id": "se-498879",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T16:45:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Nasaf Qarshi",
+   "away": "Al Khalidiyah"
   },
   {
    "id": "se-497949",
@@ -297,6 +348,72 @@ GM_REGISTER_DAY({
    ],
    "home": "Dubai Basket",
    "away": "Partizan"
+  },
+  {
+   "id": "se-498880",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T19:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Faisaly Amman",
+   "away": "Al Rayyan"
+  },
+  {
+   "id": "se-498881",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T19:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 81"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Kuwait",
+   "away": "Al Wahda"
+  },
+  {
+   "id": "se-498882",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T19:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 82"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Muharraq",
+   "away": "Arkadag"
+  },
+  {
+   "id": "se-498883",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T19:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Jazira",
+   "away": "Golgohar"
   },
   {
    "id": "se-498287",
@@ -362,6 +479,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Dinamo Bükreş",
    "away": "Kielce Vive"
+  },
+  {
+   "id": "se-498884",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-25T21:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Taawon",
+   "away": "Al Nahda"
   },
   {
    "id": "se-493897",
