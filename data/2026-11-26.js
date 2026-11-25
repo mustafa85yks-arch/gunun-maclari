@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-25T21:55:31+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T01:52:57+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-26",
- "generatedAt": "2026-11-25T21:55:31+03:00",
+ "generatedAt": "2026-11-26T01:52:57+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-498902",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-26T00:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Diaz/Sanjuan",
+   "away": "Guinart/Villa"
+  },
   {
    "id": "se-494870",
    "sport": "basketbol",
@@ -35,6 +51,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Philadelphia 76ers",
    "away": "Miami Heat"
+  },
+  {
+   "id": "se-498903",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-26T02:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gala/Rubini",
+   "away": "Augsburger/Lebron"
   },
   {
    "id": "se-494871",
@@ -137,6 +169,22 @@ GM_REGISTER_DAY({
    "away": "Brooklyn Nets"
   },
   {
+   "id": "se-498904",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-26T04:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stupaczuk/Sanz",
+   "away": "Aguirre/Lijo"
+  },
+  {
    "id": "se-494876",
    "sport": "basketbol",
    "competition": "NBA",
@@ -185,6 +233,22 @@ GM_REGISTER_DAY({
    "away": "SA Spurs"
   },
   {
+   "id": "se-498905",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-26T06:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gallego/Araujo",
+   "away": "Cazorla/Garcia"
+  },
+  {
    "id": "se-497394",
    "sport": "basketbol",
    "competition": "FIBA Asya Kupasi Ön Eleme",
@@ -199,6 +263,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Fiji",
    "away": "Hong Kong"
+  },
+  {
+   "id": "se-498906",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-26T08:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Quilez/Mourino"
   },
   {
    "id": "se-497395",
@@ -448,7 +528,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -456,22 +536,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Viktoria Plzen",
    "away": "Benfica"
-  },
-  {
-   "id": "se-491832",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "St.Gilloise",
-   "away": "Lech Poznan"
   },
   {
    "id": "se-496518",
@@ -659,7 +723,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -675,7 +739,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -691,7 +755,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 5"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -723,7 +787,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -733,61 +797,13 @@ GM_REGISTER_DAY({
    "away": "Lilleström"
   },
   {
-   "id": "se-491839",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "NEC Nijmegen",
-   "away": "Rennes"
-  },
-  {
-   "id": "se-491840",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "OFI Crete",
-   "away": "Anderlecht"
-  },
-  {
-   "id": "se-491841",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sparta Prag",
-   "away": "AZ Alkmaar"
-  },
-  {
    "id": "se-491842",
    "sport": "futbol",
    "competition": "UEFA Avrupa Ligi",
    "competitionId": "uel",
    "kickoff": "2026-11-26T23:00:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 4"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -795,22 +811,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Sunderland",
    "away": "Jagiellonia"
-  },
-  {
-   "id": "se-491843",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T23:00:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Torreense",
-   "away": "Celtic"
   },
   {
    "id": "se-491892",
