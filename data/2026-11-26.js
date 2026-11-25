@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-25T08:01:50+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-25T17:04:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-26",
- "generatedAt": "2026-11-25T08:01:50+03:00",
+ "generatedAt": "2026-11-25T17:04:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -37,23 +37,6 @@ GM_REGISTER_DAY({
    "away": "Miami Heat"
   },
   {
-   "id": "se-498876",
-   "sport": "futbol",
-   "competition": "Brezilya Serie A",
-   "competitionId": "brezilya-serie-a",
-   "kickoff": "2026-11-26T02:00:00+03:00",
-   "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Atletico Mineiro",
-   "away": "Corinthians"
-  },
-  {
    "id": "se-494871",
    "sport": "basketbol",
    "competition": "NBA",
@@ -68,6 +51,23 @@ GM_REGISTER_DAY({
    ],
    "home": "Charlotte Hornets",
    "away": "Chicago Bulls"
+  },
+  {
+   "id": "se-498901",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-26T03:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Boca Juniors",
+   "away": "Independiente Rivadavia"
   },
   {
    "id": "se-494872",
@@ -88,7 +88,7 @@ GM_REGISTER_DAY({
   {
    "id": "se-494873",
    "sport": "basketbol",
-   "competition": "NBA  BasketbolOyna",
+   "competition": "NBA",
    "competitionId": "nba",
    "kickoff": "2026-11-26T03:30:00+03:00",
    "broadcasters": [
@@ -400,7 +400,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 3"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -416,7 +416,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "tabii Spor 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -424,22 +424,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Dinamo Zagreb",
    "away": "Bayer Leverkusen"
-  },
-  {
-   "id": "se-491829",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Marsilya",
-   "away": "Levski Sofya"
   },
   {
    "id": "se-491830",
@@ -488,22 +472,6 @@ GM_REGISTER_DAY({
    ],
    "home": "St.Gilloise",
    "away": "Lech Poznan"
-  },
-  {
-   "id": "se-491833",
-   "sport": "futbol",
-   "competition": "UEFA Avrupa Ligi",
-   "competitionId": "uel",
-   "kickoff": "2026-11-26T20:45:00+03:00",
-   "broadcasters": [
-    "tabii Spor"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Salzburg",
-   "away": "Ararat"
   },
   {
    "id": "se-496518",

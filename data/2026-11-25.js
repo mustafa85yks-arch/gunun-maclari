@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-25T08:01:50+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-25T17:04:36+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-25",
- "generatedAt": "2026-11-25T08:01:50+03:00",
+ "generatedAt": "2026-11-25T17:04:36+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -191,8 +191,7 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-11-25T13:00:00+03:00",
    "broadcasters": [
-    "Smart Spor 2",
-    "Spor Smart 2"
+    "D Smart Kanal 81"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -208,8 +207,8 @@ GM_REGISTER_DAY({
    "competitionId": "afc-sampiyonlar-ligi",
    "kickoff": "2026-11-25T13:00:00+03:00",
    "broadcasters": [
-    "Spor Smart",
-    "Smart Spor HD"
+    "Smart Spor 2",
+    "Spor Smart 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
