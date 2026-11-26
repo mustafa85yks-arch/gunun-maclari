@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T16:42:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T21:45:09+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-27",
- "generatedAt": "2026-11-26T16:42:26+03:00",
+ "generatedAt": "2026-11-26T21:45:09+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -18,6 +18,38 @@ GM_REGISTER_DAY({
  ],
  "events": [
   {
+   "id": "se-499005",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-27T01:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Camacho/Pozzo",
+   "away": "Martin/Fernandez"
+  },
+  {
+   "id": "se-499006",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-27T03:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Blasco/Gutierrez",
+   "away": "Augsburger/Lebron"
+  },
+  {
    "id": "se-498923",
    "sport": "golf",
    "competition": "Avustralya Championship",
@@ -32,6 +64,38 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Avustralya"
+  },
+  {
+   "id": "se-499007",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-27T05:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Postiguillo/Barrera"
+  },
+  {
+   "id": "se-499008",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-27T07:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Garcia/Granados"
   },
   {
    "id": "se-497397",
@@ -179,24 +243,6 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
-   "id": "se-498600",
-   "sport": "tenis",
-   "competition": "Davis Cup Yarı Final",
-   "competitionId": "davis-cup-yari-final",
-   "kickoff": "2026-11-27T18:00:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "title": "Yarı Final Maç 1",
-   "tags": [
-    "yari-final"
-   ]
-  },
-  {
    "id": "se-497401",
    "sport": "basketbol",
    "competition": "FIBA Asya Kupasi Ön Eleme",
@@ -211,6 +257,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Kazakistan",
    "away": "Kuveyt"
+  },
+  {
+   "id": "se-498600",
+   "sport": "tenis",
+   "competition": "Davis Cup Yarı Final",
+   "competitionId": "davis-cup-yari-final",
+   "kickoff": "2026-11-27T18:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İtalya",
+   "away": "Çekya",
+   "tags": [
+    "yari-final"
+   ]
   },
   {
    "id": "se-496285",
@@ -351,6 +416,22 @@ GM_REGISTER_DAY({
    "away": "Neom"
   },
   {
+   "id": "se-494382",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 2",
+   "competitionId": "almanya-bundesliga-2",
+   "kickoff": "2026-11-27T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Heidenheim",
+   "away": "Nürnberg"
+  },
+  {
    "id": "se-498159",
    "sport": "basketbol",
    "competition": "FIBA Dünya Kupasi Elemeleri",
@@ -465,22 +546,6 @@ GM_REGISTER_DAY({
    "away": "Paris FC"
   },
   {
-   "id": "se-498163",
-   "sport": "basketbol",
-   "competition": "FIBA Dünya Kupasi Elemeleri",
-   "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-27T22:45:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Polonya",
-   "away": "Hırvatistan"
-  },
-  {
    "id": "se-494437",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -499,20 +564,20 @@ GM_REGISTER_DAY({
    "away": "Bologna"
   },
   {
-   "id": "se-494382",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-11-27T23:00:00+03:00",
+   "id": "se-498163",
+   "sport": "basketbol",
+   "competition": "FIBA Dünya Kupasi Elemeleri",
+   "competitionId": "fiba-dunya-kupasi-elemeleri",
+   "kickoff": "2026-11-27T22:45:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "FIBA TV"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Heidenheim",
-   "away": "Nürnberg"
+   "home": "Polonya",
+   "away": "Hırvatistan"
   },
   {
    "id": "se-496426",

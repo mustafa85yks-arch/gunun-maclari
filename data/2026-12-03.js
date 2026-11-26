@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T16:42:31+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T21:45:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-12-03",
- "generatedAt": "2026-11-26T16:42:31+03:00",
+ "generatedAt": "2026-11-26T21:45:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -9,6 +9,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-494921",
+   "sport": "basketbol",
+   "competition": "NBA",
+   "competitionId": "nba",
+   "kickoff": "2026-12-03T03:00:00+03:00",
+   "broadcasters": [
+    "Prime Video"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Philadelphia 76ers",
+   "away": "Denver Nuggets"
+  },
   {
    "id": "se-494920",
    "sport": "basketbol",
@@ -26,20 +42,20 @@ GM_REGISTER_DAY({
    "away": "Memphis Grizzlies"
   },
   {
-   "id": "se-494921",
+   "id": "se-498981",
    "sport": "basketbol",
-   "competition": "NBA",
-   "competitionId": "nba",
-   "kickoff": "2026-12-03T03:00:00+03:00",
+   "competition": "NCAA",
+   "competitionId": "ncaa",
+   "kickoff": "2026-12-03T03:15:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "S Sport Plus"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Philadelphia 76ers",
-   "away": "Denver Nuggets"
+   "home": "Virginia Cavaliers",
+   "away": "Kentucky Wildcats"
   },
   {
    "id": "se-494922",
@@ -173,6 +189,22 @@ GM_REGISTER_DAY({
    "away": "Valencia Basket"
   },
   {
+   "id": "se-498984",
+   "sport": "futbol",
+   "competition": "Suudi Arabistan Pro Lig",
+   "competitionId": "suudi-arabistan-pro-lig",
+   "kickoff": "2026-12-03T20:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Al Hilal",
+   "away": "Al Diriyah"
+  },
+  {
    "id": "se-497483",
    "sport": "basketbol",
    "competition": "Euroleague",
@@ -256,6 +288,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Virtus Bologna",
    "away": "Partizan"
+  },
+  {
+   "id": "se-498985",
+   "sport": "futbol",
+   "competition": "Hollanda KNVB Beker",
+   "competitionId": "hollanda-knvb-beker",
+   "kickoff": "2026-12-03T23:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Ajax",
+   "away": "Den Bosch"
+  },
+  {
+   "id": "se-499121",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-12-03T23:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tottenham",
+   "away": "Fulham"
   }
  ]
 });

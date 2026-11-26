@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T16:42:31+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T21:45:15+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-12-01",
- "generatedAt": "2026-11-26T16:42:31+03:00",
+ "generatedAt": "2026-11-26T21:45:15+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -64,7 +64,9 @@ GM_REGISTER_DAY({
    "competitionId": "nba",
    "kickoff": "2026-12-01T03:30:00+03:00",
    "broadcasters": [
-    "Prime Video"
+    "Prime Video",
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -106,6 +108,22 @@ GM_REGISTER_DAY({
    "away": "SA Spurs"
   },
   {
+   "id": "se-498969",
+   "sport": "amerikan futbolu",
+   "competition": "NFL",
+   "competitionId": "nfl",
+   "kickoff": "2026-12-01T04:15:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "TB Buccaneers",
+   "away": "Carolina Panthers"
+  },
+  {
    "id": "se-494911",
    "sport": "basketbol",
    "competition": "NBA",
@@ -120,6 +138,86 @@ GM_REGISTER_DAY({
    ],
    "home": "Sacramento Kings",
    "away": "NO Pelicans"
+  },
+  {
+   "id": "se-498973",
+   "sport": "motosiklet",
+   "competition": "MotoGP",
+   "competitionId": "motogp",
+   "kickoff": "2026-12-01T11:50:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Test Yayını İlk Seans"
+  },
+  {
+   "id": "se-498974",
+   "sport": "motosiklet",
+   "competition": "MotoGP",
+   "competitionId": "motogp",
+   "kickoff": "2026-12-01T16:20:00+03:00",
+   "broadcasters": [
+    "S Sport Plus",
+    "S Sport"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Test Yayını İkinci Seans"
+  },
+  {
+   "id": "se-498975",
+   "sport": "futbol",
+   "competition": "Almanya Kupasi DFB Pokal",
+   "competitionId": "almanya-kupasi-dfb-pokal",
+   "kickoff": "2026-12-01T20:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Stuttgart",
+   "away": "Dynamo Dresden"
+  },
+  {
+   "id": "se-498976",
+   "sport": "futbol",
+   "competition": "Almanya Kupasi DFB Pokal",
+   "competitionId": "almanya-kupasi-dfb-pokal",
+   "kickoff": "2026-12-01T22:45:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Bayern Münih",
+   "away": "Hertha Berlin"
+  },
+  {
+   "id": "se-499112",
+   "sport": "futbol",
+   "competition": "İngiltere Premier Lig",
+   "competitionId": "premier-league",
+   "kickoff": "2026-12-01T23:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coventry",
+   "away": "Ipswich Town"
   }
  ]
 });

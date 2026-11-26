@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T16:42:28+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T21:45:12+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-28",
- "generatedAt": "2026-11-26T16:42:28+03:00",
+ "generatedAt": "2026-11-26T21:45:12+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,23 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-499009",
+   "sport": "futbol",
+   "competition": "Brezilya Serie A",
+   "competitionId": "brezilya-serie-a",
+   "kickoff": "2026-11-28T02:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fluminense",
+   "away": "Cruzeiro"
+  },
   {
    "id": "se-486282",
    "sport": "basketbol",
@@ -515,6 +532,22 @@ GM_REGISTER_DAY({
    ]
   },
   {
+   "id": "se-494384",
+   "sport": "futbol",
+   "competition": "Almanya Bundesliga 2",
+   "competitionId": "almanya-bundesliga-2",
+   "kickoff": "2026-11-28T15:00:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Hertha Berlin",
+   "away": "Karlsruhe"
+  },
+  {
    "id": "se-497609",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -545,22 +578,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Al Hazem",
    "away": "Al Nassr"
-  },
-  {
-   "id": "se-494384",
-   "sport": "futbol",
-   "competition": "Almanya Bundesliga 2",
-   "competitionId": "almanya-bundesliga-2",
-   "kickoff": "2026-11-28T15:30:00+03:00",
-   "broadcasters": [
-    "S Sport Plus"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Hertha Berlin",
-   "away": "Karlsruhe"
   },
   {
    "id": "se-496393",
