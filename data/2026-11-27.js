@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T07:22:26+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T16:42:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-27",
- "generatedAt": "2026-11-26T07:22:26+03:00",
+ "generatedAt": "2026-11-26T16:42:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-498923",
+   "sport": "golf",
+   "competition": "Avustralya Championship",
+   "competitionId": "avustralya-championship",
+   "kickoff": "2026-11-27T04:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Avustralya"
+  },
   {
    "id": "se-497397",
    "sport": "basketbol",
@@ -83,22 +99,6 @@ GM_REGISTER_DAY({
    "away": "Moğolistan"
   },
   {
-   "id": "se-497400",
-   "sport": "basketbol",
-   "competition": "FIBA Asya Kupasi Ön Eleme",
-   "competitionId": "fiba-asya-kupasi-on-eleme",
-   "kickoff": "2026-11-27T15:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Sri Lanka",
-   "away": "Bahreyn"
-  },
-  {
    "id": "se-497607",
    "sport": "hentbol",
    "competition": "Hentbol Erkekler Süper Ligi",
@@ -113,6 +113,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Eskişehir Mihalıççık",
    "away": "Göztepe"
+  },
+  {
+   "id": "se-497400",
+   "sport": "basketbol",
+   "competition": "FIBA Asya Kupasi Ön Eleme",
+   "competitionId": "fiba-asya-kupasi-on-eleme",
+   "kickoff": "2026-11-27T15:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Sri Lanka",
+   "away": "Bahreyn"
   },
   {
    "id": "se-493314",
@@ -163,22 +179,6 @@ GM_REGISTER_DAY({
    "title": "Antrenman"
   },
   {
-   "id": "se-497401",
-   "sport": "basketbol",
-   "competition": "FIBA Asya Kupasi Ön Eleme",
-   "competitionId": "fiba-asya-kupasi-on-eleme",
-   "kickoff": "2026-11-27T18:00:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Kazakistan",
-   "away": "Kuveyt"
-  },
-  {
    "id": "se-498600",
    "sport": "tenis",
    "competition": "Davis Cup Yarı Final",
@@ -195,6 +195,22 @@ GM_REGISTER_DAY({
    "tags": [
     "yari-final"
    ]
+  },
+  {
+   "id": "se-497401",
+   "sport": "basketbol",
+   "competition": "FIBA Asya Kupasi Ön Eleme",
+   "competitionId": "fiba-asya-kupasi-on-eleme",
+   "kickoff": "2026-11-27T18:00:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kazakistan",
+   "away": "Kuveyt"
   },
   {
    "id": "se-496285",

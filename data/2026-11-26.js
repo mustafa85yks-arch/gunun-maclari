@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T07:22:23+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-26T16:42:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-26",
- "generatedAt": "2026-11-26T07:22:23+03:00",
+ "generatedAt": "2026-11-26T16:42:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -313,6 +313,56 @@ GM_REGISTER_DAY({
    "away": "Almanya"
   },
   {
+   "id": "se-498917",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-26T13:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gangwon",
+   "away": "Kitchee"
+  },
+  {
+   "id": "se-498918",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-26T13:00:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 81"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kuching City",
+   "away": "Phnom Penh"
+  },
+  {
+   "id": "se-498919",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-26T13:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tampines",
+   "away": "Shanghai Shenhua"
+  },
+  {
    "id": "se-497396",
    "sport": "basketbol",
    "competition": "FIBA Asya Kupasi Ön Eleme",
@@ -343,6 +393,56 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "160cc Süper Final Yarışı"
+  },
+  {
+   "id": "se-498920",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-26T15:15:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Pathum United",
+   "away": "Lion City"
+  },
+  {
+   "id": "se-498921",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-26T15:15:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Svay Rieng",
+   "away": "Machida"
+  },
+  {
+   "id": "se-498922",
+   "sport": "futbol",
+   "competition": "AFC Şampiyonlar Ligi 2",
+   "competitionId": "afc-sampiyonlar-ligi-2",
+   "kickoff": "2026-11-26T15:15:00+03:00",
+   "broadcasters": [
+    "D Smart Kanal 81"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Tai Po",
+   "away": "Adelaide United"
   },
   {
    "id": "se-498188",
@@ -464,7 +564,7 @@ GM_REGISTER_DAY({
    "competitionId": "uel",
    "kickoff": "2026-11-26T20:45:00+03:00",
    "broadcasters": [
-    "tabii Spor"
+    "TRT 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -536,6 +636,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Viktoria Plzen",
    "away": "Benfica"
+  },
+  {
+   "id": "se-491832",
+   "sport": "futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "competitionId": "uel",
+   "kickoff": "2026-11-26T20:45:00+03:00",
+   "broadcasters": [
+    "tabii Spor 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "St.Gilloise",
+   "away": "Lech Poznan"
   },
   {
    "id": "se-496518",
