@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-27T07:32:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-27T16:40:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-30",
- "generatedAt": "2026-11-27T07:32:17+03:00",
+ "generatedAt": "2026-11-27T16:40:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -285,7 +285,7 @@ GM_REGISTER_DAY({
    "competitionId": "super-lig",
    "kickoff": "2026-11-30T19:00:00+03:00",
    "broadcasters": [
-    "beIN SPORTS 1"
+    "beIN SPORTS 2"
    ],
    "verification": "tek_kaynak",
    "sources": [
@@ -294,6 +294,22 @@ GM_REGISTER_DAY({
    "home": "Göztepe",
    "away": "Trabzonspor",
    "turkish": true
+  },
+  {
+   "id": "se-499224",
+   "sport": "basketbol",
+   "competition": "Basketbol 2. Ligi",
+   "competitionId": "basketbol-2-ligi",
+   "kickoff": "2026-11-30T19:00:00+03:00",
+   "broadcasters": [
+    "TBF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Türk Telekom Gelişim",
+   "away": "İstanbul BB"
   },
   {
    "id": "se-498170",
@@ -328,6 +344,22 @@ GM_REGISTER_DAY({
    "away": "Slovenya"
   },
   {
+   "id": "se-498172",
+   "sport": "basketbol",
+   "competition": "FIBA Dünya Kupasi Elemeleri",
+   "competitionId": "fiba-dunya-kupasi-elemeleri",
+   "kickoff": "2026-11-30T20:30:00+03:00",
+   "broadcasters": [
+    "FIBA TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "İsrail",
+   "away": "Letonya"
+  },
+  {
    "id": "se-494445",
    "sport": "futbol",
    "competition": "İtalya Serie A",
@@ -343,22 +375,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Lecce",
    "away": "Atalanta"
-  },
-  {
-   "id": "se-498172",
-   "sport": "basketbol",
-   "competition": "FIBA Dünya Kupasi Elemeleri",
-   "competitionId": "fiba-dunya-kupasi-elemeleri",
-   "kickoff": "2026-11-30T20:30:00+03:00",
-   "broadcasters": [
-    "FIBA TV"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "İsrail",
-   "away": "Letonya"
   },
   {
    "id": "se-497155",
@@ -476,6 +492,38 @@ GM_REGISTER_DAY({
    ],
    "home": "Espanyol",
    "away": "Getafe"
+  },
+  {
+   "id": "se-499241",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-11-30T23:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 3"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Benfica",
+   "away": "Famalicao"
+  },
+  {
+   "id": "se-499242",
+   "sport": "futbol",
+   "competition": "Portekiz Liga NOS",
+   "competitionId": "portekiz-liga-nos",
+   "kickoff": "2026-11-30T23:15:00+03:00",
+   "broadcasters": [
+    "beIN SPORTS 4"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Casa Pia",
+   "away": "Braga"
   }
  ]
 });

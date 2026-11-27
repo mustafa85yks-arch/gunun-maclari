@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-27T07:32:17+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-27T16:40:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-12-01",
- "generatedAt": "2026-11-27T07:32:17+03:00",
+ "generatedAt": "2026-11-27T16:40:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -186,6 +186,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Stuttgart",
    "away": "Dynamo Dresden"
+  },
+  {
+   "id": "se-499225",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-12-01T21:15:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Kocaeli Akincilar",
+   "away": "Zeytinburnu Bld."
   },
   {
    "id": "se-498976",
