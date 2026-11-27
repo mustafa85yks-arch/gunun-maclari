@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-27T21:37:36+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T01:26:26+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-28",
- "generatedAt": "2026-11-27T21:37:36+03:00",
+ "generatedAt": "2026-11-28T01:26:26+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -17,6 +17,22 @@ GM_REGISTER_DAY({
   }
  ],
  "events": [
+  {
+   "id": "se-499342",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-28T01:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alcorisa/Jensen",
+   "away": "Martin/Fernandez"
+  },
   {
    "id": "se-499320",
    "sport": "motor sporları",
@@ -48,6 +64,22 @@ GM_REGISTER_DAY({
    ],
    "home": "New York Knicks",
    "away": "Miami Heat"
+  },
+  {
+   "id": "se-499343",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-28T03:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Jofre/Esbri",
+   "away": "Augsburger/Lebron"
   },
   {
    "id": "se-499321",
@@ -162,6 +194,22 @@ GM_REGISTER_DAY({
    "away": "Dallas Mavericks"
   },
   {
+   "id": "se-499344",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-28T05:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Senesi/Pons",
+   "away": "Sanchez/Garcia"
+  },
+  {
    "id": "se-486283",
    "sport": "basketbol",
    "competition": "NBA",
@@ -239,6 +287,22 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Buz Dansı Serbest Dans"
+  },
+  {
+   "id": "se-499345",
+   "sport": "padel",
+   "competition": "Premier Padel",
+   "competitionId": "premier-padel",
+   "kickoff": "2026-11-28T07:00:00+03:00",
+   "broadcasters": [
+    "beIN CONNECT"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Coello/Tapia",
+   "away": "Gil/Valenzuela"
   },
   {
    "id": "se-499232",
@@ -807,7 +871,8 @@ GM_REGISTER_DAY({
    "sources": [
     "sporekrani.com"
    ],
-   "title": "Yarı Final Maç 2",
+   "home": "İngiltere",
+   "away": "İspanya",
    "tags": [
     "yari-final"
    ]
@@ -1565,9 +1630,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Manchester Utd",
    "away": "Brentford"
@@ -1926,9 +1992,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Ipswich Town",
    "away": "Aston Villa"
@@ -1940,11 +2007,13 @@ GM_REGISTER_DAY({
    "competitionId": "la-liga",
    "kickoff": "2026-11-28T20:30:00+03:00",
    "broadcasters": [
-    "S Sport Plus"
+    "S Sport Plus",
+    "S Sport"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "ssport.tv"
    ],
    "home": "Elche",
    "away": "Atletico Madrid"
@@ -2099,9 +2168,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Le Mans",
    "away": "Lille"

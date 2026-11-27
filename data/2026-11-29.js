@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-27T21:37:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T01:26:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-29",
- "generatedAt": "2026-11-27T21:37:42+03:00",
+ "generatedAt": "2026-11-28T01:26:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -80,6 +80,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Adelaide Grand Final",
    "away": "Yarış 3"
+  },
+  {
+   "id": "se-499341",
+   "sport": "amerikan futbolu",
+   "competition": "NCAA Amerikan Futbolu",
+   "competitionId": "ncaa-amerikan-futbolu",
+   "kickoff": "2026-11-29T03:30:00+03:00",
+   "broadcasters": [
+    "S Sport Plus"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Alabama",
+   "away": "Auburn"
   },
   {
    "id": "se-494892",
@@ -549,9 +565,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Pendikspor",
    "away": "Iğdir FK",
@@ -1023,9 +1040,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Antalyaspor",
    "away": "Fatih Karagümrük",
@@ -1551,9 +1569,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Keçiörengücü",
    "away": "Kayserispor",
@@ -2003,9 +2022,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Porto",
    "away": "Sporting Lisbon"

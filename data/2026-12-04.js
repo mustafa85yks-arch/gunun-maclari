@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-27T21:37:42+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T01:26:32+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-12-04",
- "generatedAt": "2026-11-27T21:37:42+03:00",
+ "generatedAt": "2026-11-28T01:26:32+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -168,6 +168,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Galatasaray",
    "away": "Arkas"
+  },
+  {
+   "id": "se-497788",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-12-04T19:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beşiktaş",
+   "away": "Nilüfer Bld."
   },
   {
    "id": "se-497488",
