@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T07:14:16+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T15:50:22+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-28",
- "generatedAt": "2026-11-28T07:14:16+03:00",
+ "generatedAt": "2026-11-28T15:50:22+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -98,6 +98,22 @@ GM_REGISTER_DAY({
    "away": "Yarış 2"
   },
   {
+   "id": "se-499388",
+   "sport": "motor sporları",
+   "competition": "GT World Series",
+   "competitionId": "gt-world-series",
+   "kickoff": "2026-11-28T03:15:00+03:00",
+   "broadcasters": [
+    "GT World Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adelaide Grand Final",
+   "away": "Yarış 2"
+  },
+  {
    "id": "se-494880",
    "sport": "basketbol",
    "competition": "NBA",
@@ -160,6 +176,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Boston Celtics",
    "away": "Atlanta Hawks"
+  },
+  {
+   "id": "se-499390",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Turu",
+   "competitionId": "isu-surat-pateni-dunya-turu",
+   "kickoff": "2026-11-28T04:21:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gün 2",
+   "away": "Repesaj Seansı"
   },
   {
    "id": "se-494884",
@@ -289,6 +321,22 @@ GM_REGISTER_DAY({
    "title": "Buz Dansı Serbest Dans"
   },
   {
+   "id": "se-499359",
+   "sport": "kano",
+   "competition": "MotoSurf Dünya Şampiyonasi",
+   "competitionId": "motosurf-dunya-sampiyonasi",
+   "kickoff": "2026-11-28T06:45:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çin"
+  },
+  {
    "id": "se-499345",
    "sport": "padel",
    "competition": "Premier Padel",
@@ -318,6 +366,21 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "title": "Çiftler Serbest Patinaj"
+  },
+  {
+   "id": "se-499391",
+   "sport": "buz pateni",
+   "competition": "ISU Sürat Pateni Dünya Turu",
+   "competitionId": "isu-surat-pateni-dunya-turu",
+   "kickoff": "2026-11-28T09:00:00+03:00",
+   "broadcasters": [
+    "ISU Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Gün 2"
   },
   {
    "id": "se-499193",
@@ -415,6 +478,22 @@ GM_REGISTER_DAY({
    "away": "Kazakistan"
   },
   {
+   "id": "se-499392",
+   "sport": "futbol",
+   "competition": "Avustralya A Ligi",
+   "competitionId": "avustralya-a-ligi",
+   "kickoff": "2026-11-28T11:40:00+03:00",
+   "broadcasters": [
+    "A-Leagues Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "CC Mariners",
+   "away": "Auckland FC"
+  },
+  {
    "id": "se-499260",
    "sport": "kayaklı koşu",
    "competition": "Kuzey Kombine Dünya Kupasi",
@@ -494,6 +573,23 @@ GM_REGISTER_DAY({
    ],
    "home": "TED Kolejliler",
    "away": "Adana BB"
+  },
+  {
+   "id": "se-499421",
+   "sport": "basketbol",
+   "competition": "Tekerlekli Sandalye Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-11-28T12:30:00+03:00",
+   "broadcasters": [
+    "Beşiktaş Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beşiktaş Viennalife",
+   "away": "Amedspor",
+   "turkish": true
   },
   {
    "id": "se-499280",
@@ -925,6 +1021,23 @@ GM_REGISTER_DAY({
    "title": "Erkekler Serbest"
   },
   {
+   "id": "se-499366",
+   "sport": "basketbol",
+   "competition": "Tekerlekli Sandalye Basketbol Süper Ligi",
+   "competitionId": "bsl",
+   "kickoff": "2026-11-28T14:00:00+03:00",
+   "broadcasters": [
+    "FB TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Fenerbahçe İstanbul Jet",
+   "away": "Ordu BB",
+   "turkish": true
+  },
+  {
    "id": "se-494384",
    "sport": "futbol",
    "competition": "Almanya Bundesliga 2",
@@ -1349,6 +1462,22 @@ GM_REGISTER_DAY({
    "home": "İstanbul BB",
    "away": "TFL Altekma",
    "turkish": true
+  },
+  {
+   "id": "se-499393",
+   "sport": "futbol",
+   "competition": "İran Pro Lig",
+   "competitionId": "iran-pro-lig",
+   "kickoff": "2026-11-28T16:45:00+03:00",
+   "broadcasters": [
+    "Sorkhabi Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Esteghlal FC",
+   "away": "Sanat Naft"
   },
   {
    "id": "se-494438",
@@ -2244,6 +2373,25 @@ GM_REGISTER_DAY({
    ],
    "home": "Real Madrid",
    "away": "Alaves"
+  },
+  {
+   "id": "se-499358",
+   "sport": "futbol",
+   "competition": "Copa Libertadores Play Off Final",
+   "competitionId": "copa-libertadores-play-off-final",
+   "kickoff": "2026-11-28T23:00:00+03:00",
+   "broadcasters": [
+    "TRT Spor"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Palmeiras",
+   "away": "Estudiantes",
+   "tags": [
+    "final"
+   ]
   }
  ]
 });

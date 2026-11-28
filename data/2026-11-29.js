@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T07:14:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T15:50:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-29",
- "generatedAt": "2026-11-28T07:14:20+03:00",
+ "generatedAt": "2026-11-28T15:50:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -66,10 +66,43 @@ GM_REGISTER_DAY({
    "away": "Brooklyn Nets"
   },
   {
+   "id": "se-499361",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-29T02:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Velez Sarsfield",
+   "away": "CA Independiente"
+  },
+  {
    "id": "se-499323",
    "sport": "motor sporları",
    "competition": "GT 1",
    "competitionId": "gt-1",
+   "kickoff": "2026-11-29T03:15:00+03:00",
+   "broadcasters": [
+    "GT World Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Adelaide Grand Final",
+   "away": "Yarış 3"
+  },
+  {
+   "id": "se-499389",
+   "sport": "motor sporları",
+   "competition": "GT World Series",
+   "competitionId": "gt-world-series",
    "kickoff": "2026-11-29T03:15:00+03:00",
    "broadcasters": [
     "GT World Youtube"
@@ -130,6 +163,39 @@ GM_REGISTER_DAY({
    "away": "OKC Thunder"
   },
   {
+   "id": "se-499360",
+   "sport": "kano",
+   "competition": "MotoSurf Dünya Şampiyonasi",
+   "competitionId": "motosurf-dunya-sampiyonasi",
+   "kickoff": "2026-11-29T04:00:00+03:00",
+   "broadcasters": [
+    "Smart Spor 2",
+    "Spor Smart 2"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Çin"
+  },
+  {
+   "id": "se-499362",
+   "sport": "futbol",
+   "competition": "Arjantin Primera Division",
+   "competitionId": "arjantin-primera-division",
+   "kickoff": "2026-11-29T04:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Instituto AC",
+   "away": "River Plate"
+  },
+  {
    "id": "se-494894",
    "sport": "basketbol",
    "competition": "NBA",
@@ -147,6 +213,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Houston Rockets",
    "away": "Philadelphia 76ers"
+  },
+  {
+   "id": "se-499363",
+   "sport": "golf",
+   "competition": "Avustralya Championship",
+   "competitionId": "avustralya-championship",
+   "kickoff": "2026-11-29T06:00:00+03:00",
+   "broadcasters": [
+    "Spor Smart",
+    "Smart Spor HD"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "title": "Avustralya"
   },
   {
    "id": "se-499229",
@@ -408,6 +490,7 @@ GM_REGISTER_DAY({
    "competitionId": "sultanlar-ligi",
    "kickoff": "2026-11-29T13:00:00+03:00",
    "broadcasters": [
+    "FB TV",
     "TVF Voleybol TV Youtube"
    ],
    "verification": "tek_kaynak",
@@ -565,9 +648,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Pendikspor",
    "away": "Iğdir FK",
@@ -761,9 +845,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Everton",
    "away": "Liverpool"
@@ -1038,9 +1123,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Antalyaspor",
    "away": "Fatih Karagümrük",
@@ -1254,9 +1340,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Sunderland",
    "away": "Tottenham"
@@ -1565,9 +1652,10 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Keçiörengücü",
    "away": "Kayserispor",
@@ -1630,9 +1718,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Arsenal",
    "away": "Manchester City"
@@ -1933,9 +2022,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Lyon",
    "away": "Monaco"
@@ -2015,9 +2105,10 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "tek_kaynak",
+   "verification": "dogrulandi",
    "sources": [
-    "sporekrani.com"
+    "sporekrani.com",
+    "beinsports.com.tr"
    ],
    "home": "Porto",
    "away": "Sporting Lisbon"

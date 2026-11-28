@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T07:14:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T15:50:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-12-05",
- "generatedAt": "2026-11-28T07:14:20+03:00",
+ "generatedAt": "2026-11-28T15:50:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -139,6 +139,22 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
+   "id": "se-497787",
+   "sport": "hentbol",
+   "competition": "Hentbol Erkekler Süper Ligi",
+   "competitionId": "hentbol-erkekler-super-ligi",
+   "kickoff": "2026-12-05T14:30:00+03:00",
+   "broadcasters": [
+    "THF TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Beykoz Bld.",
+   "away": "Güneysuspor"
+  },
+  {
    "id": "se-497822",
    "sport": "basketbol",
    "competition": "Basketbol 1. Ligi",
@@ -169,22 +185,6 @@ GM_REGISTER_DAY({
    ],
    "home": "Nürnberg",
    "away": "Bochum"
-  },
-  {
-   "id": "se-497787",
-   "sport": "hentbol",
-   "competition": "Hentbol Erkekler Süper Ligi",
-   "competitionId": "hentbol-erkekler-super-ligi",
-   "kickoff": "2026-12-05T15:00:00+03:00",
-   "broadcasters": [
-    "THF TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Beykoz Bld.",
-   "away": "Güneysuspor"
   },
   {
    "id": "se-493820",
@@ -220,6 +220,22 @@ GM_REGISTER_DAY({
    "away": "Liverpool"
   },
   {
+   "id": "se-497837",
+   "sport": "voleybol",
+   "competition": "TVF Erkekler 2. Lig",
+   "competitionId": "tvf-erkekler-2-lig",
+   "kickoff": "2026-12-05T16:00:00+03:00",
+   "broadcasters": [
+    "TVF Voleybol TV Youtube"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Halkbank",
+   "away": "TVF Spor Lisesi"
+  },
+  {
    "id": "se-498622",
    "sport": "futbol",
    "competition": "Trendyol 1. Lig",
@@ -238,22 +254,6 @@ GM_REGISTER_DAY({
    "turkish": true
   },
   {
-   "id": "se-497837",
-   "sport": "voleybol",
-   "competition": "TVF Erkekler 2. Lig",
-   "competitionId": "tvf-erkekler-2-lig",
-   "kickoff": "2026-12-05T16:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Halkbank",
-   "away": "TVF Spor Lisesi"
-  },
-  {
    "id": "se-497371",
    "sport": "voleybol",
    "competition": "TVF Efeler Ligi",
@@ -268,23 +268,6 @@ GM_REGISTER_DAY({
    ],
    "home": "TFL Altekma",
    "away": "Sultanbeyli Bld.",
-   "turkish": true
-  },
-  {
-   "id": "se-497367",
-   "sport": "voleybol",
-   "competition": "TVF Efeler Ligi",
-   "competitionId": "efeler-ligi",
-   "kickoff": "2026-12-05T16:00:00+03:00",
-   "broadcasters": [
-    "TVF Voleybol TV Youtube"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Gaziantep Gençlik",
-   "away": "Spor Toto SK",
    "turkish": true
   },
   {

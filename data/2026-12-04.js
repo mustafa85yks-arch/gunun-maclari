@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T07:14:20+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T15:50:29+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-12-04",
- "generatedAt": "2026-11-28T07:14:20+03:00",
+ "generatedAt": "2026-11-28T15:50:29+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -138,6 +138,23 @@ GM_REGISTER_DAY({
    "title": "Antrenman Turları-2"
   },
   {
+   "id": "se-497367",
+   "sport": "voleybol",
+   "competition": "TVF Efeler Ligi",
+   "competitionId": "efeler-ligi",
+   "kickoff": "2026-12-04T16:30:00+03:00",
+   "broadcasters": [
+    "TRT Spor Yildiz"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Gaziantep Gençlik",
+   "away": "Spor Toto SK",
+   "turkish": true
+  },
+  {
    "id": "se-498986",
    "sport": "dövüş sporları",
    "competition": "IBA President's Cup",
@@ -186,21 +203,21 @@ GM_REGISTER_DAY({
    "away": "Nilüfer Bld."
   },
   {
-   "id": "se-497488",
-   "sport": "basketbol",
-   "competition": "Euroleague",
-   "competitionId": "euroleague",
+   "id": "se-497156",
+   "sport": "futbol",
+   "competition": "Trendyol Süper Lig",
+   "competitionId": "super-lig",
    "kickoff": "2026-12-04T20:00:00+03:00",
    "broadcasters": [
-    "S Sport Plus",
-    "S Sport"
+    "beIN SPORTS 1"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Beşiktaş",
-   "away": "Panathinaikos"
+   "home": "Galatasaray",
+   "away": "Ç.Rizespor",
+   "turkish": true
   },
   {
    "id": "se-498989",
@@ -219,37 +236,21 @@ GM_REGISTER_DAY({
    "away": "J.Aleksejevs"
   },
   {
-   "id": "se-497683",
-   "sport": "buz hokeyi",
-   "competition": "Intercity Buz Hokeyi Süper Ligi",
-   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "id": "se-497488",
+   "sport": "basketbol",
+   "competition": "Euroleague",
+   "competitionId": "euroleague",
    "kickoff": "2026-12-04T20:00:00+03:00",
    "broadcasters": [
-    "Buz Hokeyi TV"
+    "S Sport Plus",
+    "S Sport"
    ],
    "verification": "tek_kaynak",
    "sources": [
     "sporekrani.com"
    ],
-   "home": "Buz Adamlar GSK",
-   "away": "Kocaeli Akincilar"
-  },
-  {
-   "id": "se-497156",
-   "sport": "futbol",
-   "competition": "Trendyol Süper Lig",
-   "competitionId": "super-lig",
-   "kickoff": "2026-12-04T20:00:00+03:00",
-   "broadcasters": [
-    "beIN SPORTS 1"
-   ],
-   "verification": "tek_kaynak",
-   "sources": [
-    "sporekrani.com"
-   ],
-   "home": "Galatasaray",
-   "away": "Ç.Rizespor",
-   "turkish": true
+   "home": "Beşiktaş",
+   "away": "Panathinaikos"
   },
   {
    "id": "se-498990",
@@ -315,6 +316,22 @@ GM_REGISTER_DAY({
    ],
    "home": "Zalgiris Kaunas",
    "away": "Dubai Basket"
+  },
+  {
+   "id": "se-497683",
+   "sport": "buz hokeyi",
+   "competition": "Intercity Buz Hokeyi Süper Ligi",
+   "competitionId": "intercity-buz-hokeyi-super-ligi",
+   "kickoff": "2026-12-04T21:00:00+03:00",
+   "broadcasters": [
+    "Buz Hokeyi TV"
+   ],
+   "verification": "tek_kaynak",
+   "sources": [
+    "sporekrani.com"
+   ],
+   "home": "Buz Adamlar GSK",
+   "away": "Kocaeli Akincilar"
   },
   {
    "id": "se-497490",
