@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T06:14:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T07:14:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-30",
- "generatedAt": "2026-11-28T06:14:25+03:00",
+ "generatedAt": "2026-11-28T07:14:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -265,8 +265,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-494589",
    "sport": "futbol",
-   "competition": "Ukrayna Premier Ligi",
-   "competitionId": "ukrayna-premier-ligi",
+   "competition": "Ukrayna Premier Ligi  SahaKirala",
+   "competitionId": "ukrayna-premier-ligi-sahakirala",
    "kickoff": "2026-11-30T19:00:00+03:00",
    "broadcasters": [
     "Tivibu Spor 1"

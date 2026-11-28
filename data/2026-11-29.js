@@ -1,7 +1,7 @@
-/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T06:14:25+03:00) */
+/* Otomatik üretildi: scripts/veri_cek.py (2026-11-28T07:14:20+03:00) */
 GM_REGISTER_DAY({
  "date": "2026-11-29",
- "generatedAt": "2026-11-28T06:14:25+03:00",
+ "generatedAt": "2026-11-28T07:14:20+03:00",
  "sources": [
   {
    "name": "sporekrani.com",
@@ -84,8 +84,8 @@ GM_REGISTER_DAY({
   {
    "id": "se-499341",
    "sport": "amerikan futbolu",
-   "competition": "NCAA Amerikan Futbolu  Futbolmaçları",
-   "competitionId": "ncaa-amerikan-futbolu-futbolmaclari",
+   "competition": "NCAA Amerikan Futbolu",
+   "competitionId": "ncaa-amerikan-futbolu",
    "kickoff": "2026-11-29T03:30:00+03:00",
    "broadcasters": [
     "S Sport Plus"
@@ -256,7 +256,7 @@ GM_REGISTER_DAY({
     "sporekrani.com"
    ],
    "home": "TVF Spor Lisesi",
-   "away": "Yedidağ Canlıspor yayınları"
+   "away": "Yedidağ"
   },
   {
    "id": "se-497407",
@@ -565,10 +565,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Pendikspor",
    "away": "Iğdir FK",
@@ -762,10 +761,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Everton",
    "away": "Liverpool"
@@ -1040,10 +1038,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Antalyaspor",
    "away": "Fatih Karagümrük",
@@ -1257,10 +1254,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Sunderland",
    "away": "Tottenham"
@@ -1569,10 +1565,9 @@ GM_REGISTER_DAY({
     "TRT Spor",
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Keçiörengücü",
    "away": "Kayserispor",
@@ -1635,10 +1630,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Arsenal",
    "away": "Manchester City"
@@ -1939,10 +1933,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 3"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Lyon",
    "away": "Monaco"
@@ -2022,10 +2015,9 @@ GM_REGISTER_DAY({
    "broadcasters": [
     "beIN SPORTS 2"
    ],
-   "verification": "dogrulandi",
+   "verification": "tek_kaynak",
    "sources": [
-    "sporekrani.com",
-    "beinsports.com.tr"
+    "sporekrani.com"
    ],
    "home": "Porto",
    "away": "Sporting Lisbon"
